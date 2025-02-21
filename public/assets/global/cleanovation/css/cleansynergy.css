@@ -1,0 +1,144 @@
+/**/
+
+.m9vw{
+    margin-bottom: 9vw;
+}
+#cs_fd{
+    padding-top:12vw;
+}
+
+#cs_fd .ttl{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+#cs_fd .ld{
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 9vw;
+    margin-bottom: 1em;
+}
+
+#cs_fd .stack > div{
+    width: 100%;
+    margin-bottom: 3em;
+    position: relative;
+}
+#cs_fd .stack > div:last-child{
+    margin-bottom: 0;
+}
+
+#cs_fd .stack > div:last-child{
+    margin-right: 0;
+}
+
+#cs_fd .stack > div .icn_stack{
+    width:23%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: .5em;
+    margin-bottom: .3em;
+/*    
+    position: absolute;
+    top: 1%;
+    left: 1%;
+*/
+}
+
+#cs_fd .stack > div .icn_stack figure{
+    width: 40%;
+    margin-right: .7em;
+}
+
+#cs_fd .stack > div .icn_stack figure:last-child{
+    margin-right: 0;
+}
+
+#rimless .introduction__movie {
+    background: url(../images/bg_rimless.jpg) 50% 0 no-repeat;
+    background-size: cover;
+}
+
+#rimless .rimless_icn{
+    width: 8%;
+    display: block;
+    margin: 0 auto 2vw;
+}
+
+.pc-only{
+    display: none !important;
+}
+.sp-only{
+    display: inline !important;
+}
+@media print, screen and (min-width: 768px) and (max-width: 1024px){
+.uq_cleanovation__clean_synergy_sp__dital .uq_cleanovation__clean_synergy__movie .introduction__lead {
+    font-size: 2rem;
+}
+}
+@media screen and (min-width: 768px) {
+    .pc-only{
+        display: inline !important;
+    }
+    .sp-only{
+        display: none !important;
+    }
+    .wiFull {
+        padding-bottom: 7em;
+    }
+    .m9vw{
+        margin-bottom: auto;
+    }
+    #cs_fd.wiFull{
+        padding-top: 8em;
+    }
+    #cs_fd .ttl{
+        font-size: 3.2rem;
+    }
+    #cs_fd .ld{
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+
+    #cs_fd .stack{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    #cs_fd .stack > div{
+        width: 47%;
+        margin-bottom: 0;
+        margin-right: 6%;
+    }
+    #cs_fd .stack > div:last-child{
+        margin-right: 0;
+    }
+    #cs_fd .stack > div .icn_stack {
+        width: 18%;
+    }
+    #cs_fd .stack > div .icn_stack figure{
+        width: 40%;
+    }
+    #rimless .introduction__movie {
+        background-size: auto;
+    }
+    #rimless .rimless_icn{
+        width: auto;
+        display: block;
+        margin: 0 auto 10px;
+    }
+    .uq_cleanovation__clean_synergy__area {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}

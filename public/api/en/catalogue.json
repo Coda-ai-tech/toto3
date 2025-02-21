@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Catalogue",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb":[
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "CATALOGUE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/catalogue"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "Catalogue",
+      "moduleOption":null,
+      "content": {
+        "title": "CATALOGUE DOWNLOAD",
+        "items":[
+          {
+            "title":"PURE LUXURY",
+            "description":"New standard of comfort and cleanliness for daily life.",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/catalogue/catalogue-pure-luxury.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "lineUp":[
+              {
+                "label":"NEOREST",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"WASHLET",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"WASHLET+",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ],
+            "links":{
+              "preview":"https://view.publitas.com/ef5be5e8-3a2f-43b7-827e-f3817e1debf6/toto-neorest-washlet-catalogue-t23-0/",
+              "download":"/download/catalogue/neorest-washlet.pdf"
+            }
+          },
+          {
+            "title":"Sanitary Ware",
+            "description":"Exclusive features make every bath a luxurious occasion.",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/catalogue/catalogue-sanitary-ware.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "lineUp":[
+              {
+                "label":"TOILET",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"LAVATORY",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"BATHTUB",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ],
+            "links":{
+              "preview":"https://view.publitas.com/ef5be5e8-3a2f-43b7-827e-f3817e1debf6/toto-sanitary-catalog-2022/page/1",
+              "download":"/download/catalogue/sanitary-ware.pdf"
+            }
+          },
+          {
+            "title":"Fittings & Accessories",
+            "description":"Exclusive features make every bath a luxurious occasion.",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/catalogue/catalogue-fittings-accessories.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "lineUp":[
+              {
+                "label":"FAUCET",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"SHOWER",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"ACCESSORY",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ],
+            "links":{
+              "preview":"https://view.publitas.com/ef5be5e8-3a2f-43b7-827e-f3817e1debf6/toto-fittings-accessories-catalog-t22-0/",
+              "download":"/download/catalogue/fittings-accessories.pdf"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+@use '_components.scss';
+
+.shareButton {
+  @apply relative flex justify-center;
+
+  // ! Variant
+  &.horizontal {
+    .links {
+      @apply flex-row;
+    }
+  }
+
+  &.vertical {
+    .links {
+      @apply flex-col;
+    }
+  }
+
+  .links {
+    @apply relative z-10 flex flex-row w-max gap-1;
+
+    @screen hd {
+      @apply flex-col gap-[10px];
+    }
+  }
+
+  .shareItem {
+    @apply flex gap-3 items-center rounded-full overflow-hidden;
+
+    > * {
+      @apply pointer-events-none;
+    }
+
+    .iconWrap {
+      @apply flexCenter bg-gray-lightest w-[30px] h-[30px] transition-[background] duration-500 ease-in-out;
+
+      .icon {
+        @apply w-4 h-4 text-black transition-colors;
+      }
+    }
+
+    .label {
+      @apply text-sm;
+    }
+
+    &:hover,
+    &:focus-visible {
+      .iconWrap {
+        @apply bg-gray-dark;
+
+        .icon {
+          @apply text-white;
+        }
+      }
+    }
+  }
+}

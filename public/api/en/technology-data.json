@@ -1,0 +1,364 @@
+{
+  "data":[
+    {
+      "id":"toilet",
+      "label":"TOILET",
+      "list":[
+        {
+          "title":"CEFIONTECT",
+          "description":"Special hygienic glaze for a smooth ceramic surface",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+          "thumb":"/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+        },
+        {
+          "title":"RIMLESS",
+          "description":"The unique RIMLESS design not only leaves no place for waste and germs to hide. It also makes for a much easier to clean toilet.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/rimless/ico-rimless.png",
+          "thumb":"/assets/img/content/technology/rimless/thumb-rimless.png"
+        },
+        {
+          "title":"TORNADO FLUSH",
+          "description":"Revolutionary powerful jets rimless flushing system",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/technology/tornado-flush"
+          },
+          "icon":"/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
+          "thumb":"/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
+        },
+        {
+          "title":"WATER-SAVING",
+          "description":"Leading environment-friendly and water-saving technologies",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/water-saving/ico-water-saving.png",
+          "thumb":"/assets/img/content/technology/water-saving/thumb-water-saving.png"
+        }
+      ]
+    },
+    {
+      "id":"washlet",
+      "label":"WASHLET",
+      "list":[
+        {
+          "title":"ACTILIGHT",
+          "description":"Zirconium coating combined with UV light for an antibacterial effect that breaks down",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/actilight/ico-actilight.png",
+          "thumb":"/assets/img/content/technology/actilight/thumb-actilight.png"
+        },
+        {
+          "title":"AUTO FUNCTIONS",
+          "description":"Technologies activated by human movement",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+          "thumb":"/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+        },
+        {
+          "title":"AIR-IN WONDER WAVE",
+          "description":"The precise, pleasant, air rich stream keeps you clean. And it's always pleasantly warm.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/air-in-wonder-wave/ico-air-in-wonder-wave.png",
+          "thumb":"/assets/img/content/technology/air-in-wonder-wave/thumb-air-in-wonder-wave.png"
+        },
+        {
+          "title":"DRYER",
+          "description":"The individually adjustable dryer follows the warm water spray to ensure a dry, clean overall feeling.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/dryer/ico-dryer.png",
+          "thumb":"/assets/img/content/technology/dryer/thumb-dryer.png"
+        },
+        {
+          "title":"DEODORIZER",
+          "description":"Highly effective deodorizing automatically takes places inside the toilet bowl both during and immediately after use, leaving",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/deodorizer/ico-deodorizer.png",
+          "thumb":"/assets/img/content/technology/deodorizer/thumb-deodorizer.png"
+        },
+        {
+          "title":"EWATER+",
+          "description":"Electrolysed antibacterial water that break down waste",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/ewater/ico-ewater.png",
+          "thumb":"/assets/img/content/technology/ewater/thumb-ewater.png"
+        },
+        {
+          "title":"HEATED SEAT",
+          "description":"The contoured heated seat is warmed for maximum comfort.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/heated-seat/ico-heated-seat.png",
+          "thumb":"/assets/img/content/technology/heated-seat/thumb-heated-seat.png"
+        },
+        {
+          "title":"PREMIST",
+          "description":"Mist of water sprayed onto the ceramic before the toilet is used. Makes it more difficult for dirt and waste to accumulate.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/premist/ico-premist.png",
+          "thumb":"/assets/img/content/technology/premist/thumb-premist.png"
+        }
+      ]
+    },
+    {
+      "id":"faucet-shower",
+      "label":"FAUCET / SHOWER",
+      "list":[
+        {
+          "title":"AUTO FUNCTIONS",
+          "description":"Technologies activated by human movement",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+          "thumb":"/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+        },
+        {
+          "title":"ACTIVE WAVE",
+          "description":"Stimulating to body and mind. Awakening to the senses.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/active-wave/ico-active-wave.png",
+          "thumb":"/assets/img/content/technology/active-wave/thumb-active-wave.png"
+        },
+        {
+          "title":"AERIAL",
+          "description":"Aerated water for the shower",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/aerial/ico-aerial.png",
+          "thumb":"/assets/img/content/technology/aerial/thumb-aerial.png"
+        },
+        {
+          "title":"COMFORT GLIDE",
+          "description":"Easy to use for a lifetime of comfort.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/comfort-glide/ico-comfort-glide.png",
+          "thumb":"/assets/img/content/technology/comfort-glide/thumb-comfort-glide.png"
+        },
+        {
+          "title":"COMFORT WAVE",
+          "description":"Large droplets of water, richly dense, give a luxurious sense of comfort.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/comfort-wave/ico-comfort-wave.png",
+          "thumb":"/assets/img/content/technology/comfort-wave/thumb-comfort-wave.png"
+        },
+        {
+          "title":"ECO CAP",
+          "description":"Reduces water consumption – so everyone can wash their hands with a clear conscience.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/eco-cap/ico-eco-cap.png",
+          "thumb":"/assets/img/content/technology/eco-cap/thumb-eco-cap.png"
+        },
+        {
+          "title":"ECO POWER",
+          "description":"Sensor-activated faucet generates its own electricity",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/eco-power/ico-eco-power.png",
+          "thumb":"/assets/img/content/technology/eco-power/thumb-eco-power.png"
+        },
+        {
+          "title":"GYROSTREAM",
+          "description":"Shower nozzles with rotating and pulsating function",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/gyrostream/ico-gyrostream.png",
+          "thumb":"/assets/img/content/technology/gyrostream/thumb-gyrostream.png"
+        },
+        {
+          "title":"HEAT PROTECT",
+          "description":"Experience a bathroom where safety and beauty become one.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/heat-protect/ico-heat-protect.png",
+          "thumb":"/assets/img/content/technology/heat-protect/thumb-heat-protect.png"
+        },
+        {
+          "title":"HYDROHANDS",
+          "description":"Quiet warm water massage function for bath tubs",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/hydrohands/ico-hydrohands.png",
+          "thumb":"/assets/img/content/technology/hydrohands/thumb-hydrohands.png"
+        },
+        {
+          "title":"INTENSE WAVE",
+          "description":"Strong flow of water creating a more rejuvenating shower which helps soothe physical tension.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/intense-wave/ico-intense-wave.png",
+          "thumb":"/assets/img/content/technology/intense-wave/thumb-intense-wave.png"
+        },
+        {
+          "title":"SAFETY THERMO",
+          "description":"Safe, reliable water temperature means a more relaxing bath-time.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/safety-thermo/ico-safety-thermo.png",
+          "thumb":"/assets/img/content/technology/safety-thermo/thumb-safety-thermo.png"
+        },
+        {
+          "title":"MINI UNIT",
+          "description":"Small. Flexible",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/mini-unit/ico-mini-unit.png",
+          "thumb":"/assets/img/content/technology/mini-unit/thumb-mini-unit.png"
+        },
+        {
+          "title":"SMA (Shape Memory Alloy)",
+          "description":"Maintains a constant water temperature despite fluctuating water",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/shape-memory-alloy/ico-shape-memory-alloy.png",
+          "thumb":"/assets/img/content/technology/shape-memory-alloy/thumb-shape-memory-alloy.png"
+        },
+        {
+          "title":"SOFT FLOW",
+          "description":"Practically prevents splashing, keeping larger puddles from forming on the washbasin.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/soft-flow/ico-soft-flow.png",
+          "thumb":"/assets/img/content/technology/soft-flow/thumb-soft-flow.png"
+        },
+        {
+          "title":"WARM SPA",
+          "description":"Embraced in warmth, relaxed, and ready for rest.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/warm-spa/ico-warm-spa.png",
+          "thumb":"/assets/img/content/technology/warm-spa/thumb-warm-spa.png"
+        }
+      ]
+    },
+    {
+      "id":"bathtub",
+      "label":"BATHTUB",
+      "list":[
+        {
+          "title":"RECLINE COMFORT",
+          "description":"Nestled in comfort, feel your body and mind release into a state of tranquility.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/recline-comfort/ico-recline-comfort.png",
+          "thumb":"/assets/img/content/technology/recline-comfort/thumb-recline-comfort.png"
+        },
+        {
+          "title":"ZERO DIMENSION",
+          "description":"ZERO DIMENSION bathing brings freedom from gravity, releasing stress on joints and encouraging ultimate relaxation.",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/zero-dimension/ico-zero-dimension.png",
+          "thumb":"/assets/img/content/technology/zero-dimension/thumb-zero-dimension.png"
+        }
+      ]
+    },
+    {
+      "id":"other",
+      "label":"OTHER",
+      "list":[
+        {
+          "title":"CEFIONTECT",
+          "description":"Special hygienic glaze for a smooth ceramic surface",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+          "thumb":"/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+        },
+        {
+          "title":"MINI UNIT",
+          "description":"Small. Flexible",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/mini-unit/ico-mini-unit.png",
+          "thumb":"/assets/img/content/technology/mini-unit/thumb-mini-unit.png"
+        },
+        {
+          "title":"LINEARCERAM",
+          "description":"LINEARCERAM's thin design harmonizes with any space.Although eye-catchingly thin, it is also extremely strong. Sophisticated and inviting to use, LINEARCERAM is a new",
+          "link":{
+            "type":"routeLink",
+            "href":"/en/"
+          },
+          "icon":"/assets/img/content/technology/linearceram/ico-linearceram.png",
+          "thumb":"/assets/img/content/technology/linearceram/thumb-linearceram.png"
+        }
+      ]
+    }
+  ]
+}

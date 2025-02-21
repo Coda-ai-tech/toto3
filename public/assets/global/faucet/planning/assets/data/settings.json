@@ -1,0 +1,591 @@
+{
+	 "language" : "en"
+	,"price_flg": 0
+	,"price_unit": "$"
+	,"price_unit_pos": 1
+	,"price_token": ","
+	,"price_decimal_point_digit": 0
+	,"faucet_price_type": 0
+	,"sns_flg": 1
+	,"sns_url": {
+		"twitter": "https://twitter.com/intent/tweet?text={{text}}&url={{url}}",
+		"facebook": "https://www.facebook.com/sharer/sharer.php?u={{url}}"
+	}
+	,"pdf_flg": 0
+	,"api_url": {
+		"faucet": {
+			"download": "/en/gb_faucet/planning/api/download-faucet.php",
+			"result_image": "/en/gb_faucet/planning/api/result-image-faucet.php"
+		}
+		,"shower": {
+			"download": "/en/gb_faucet/planning/api/download-shower.php",
+			"result_image": "/en/gb_faucet/planning/api/result-image-shower.php"
+		}
+	}
+	,"faucet_series": {
+		"faucet" : {
+			"Z" : {
+				 "ZN" : { "product_id" : "TLP01701", "colour" : "BN" }
+				,"ZA" : { "product_id" : "TLP03301", "colour" : "PN-BN" }
+				,"ZL" : { "product_id" : "TLP02304", "colour" : "PC" }
+			},
+			"G" : {
+				 "GE" : { "product_id" : "TLG07303", "colour" : "PFG" }
+				,"GC" : { "product_id" : "TLG08303", "colour" : "PBR" }
+				,"GM" : { "product_id" : "TLG09303", "colour" : "PC" }
+				,"GB" : { "product_id" : "TLG10303", "colour" : "PC" }
+				,"GF" : { "product_id" : "TLG11303", "colour" : "PC" }
+				,"GA" : { "product_id" : "TLG04304", "colour" : "PN" }
+				,"GO" : { "product_id" : "TLG01304", "colour" : "BN" }
+				,"GR" : { "product_id" : "TLG02304", "colour" : "PBR" }
+				,"GS" : { "product_id" : "TLG03303", "colour" : "PC" }
+			},
+			"L" : {
+				 "LB" : { "product_id" : "TLS01301", "colour" : "PC" }
+				,"LN" : { "product_id" : "TLS02301", "colour" : "PC" }
+				,"LC" : { "product_id" : "TLS03301", "colour" : "PC" }
+				,"LF" : { "product_id" : "TLS04301", "colour" : "PC" }
+			}
+		}
+		,"auto-faucet": {
+			"TLG" : {
+				 "GE" : { "product_id" : "TLE20001", "colour" : "PC" }
+				,"GC" : { "product_id" : "TLE21001", "colour" : "PC" }
+				,"GM" : { "product_id" : "TLE22001", "colour" : "PC" }
+			}
+			,"TLE1" : {
+				 "TLE23": { "product_id" : "TLE23001", "colour" : "PC" }
+				,"TLE24": { "product_id" : "TLE24001", "colour" : "PC" }
+				,"TLE25": { "product_id" : "TLE25001", "colour" : "PC" }
+				,"TLE26": { "product_id" : "TLE26001", "colour" : "PC" }
+			}
+			,"TLE2" : {
+				 "TLE27": { "product_id" : "TLE27001", "colour" : "PC" }
+				,"TLE28": { "product_id" : "TLE28001", "colour" : "PC" }
+				,"TLE29": { "product_id" : "TLE29001", "colour" : "PC" }
+			}
+			,"TLE3" : {
+				 "TLE30": { "product_id" : "TLE30001", "colour" : "PC" }
+				,"TLE31": { "product_id" : "TLE31001", "colour" : "PC" }
+			}
+		}
+	}
+	,"faucet_shape_series": {
+		"faucet" : {
+			"single_w_popup" : {
+				"Z" : {
+					 "ZN" : {"product_id" : "", "colour" : ""}
+					,"ZA" : {"product_id" : "TLP03301", "colour" : "PN-BN"}
+					,"ZL" : {"product_id" : "TLP02307", "colour" : "PC"}
+				}
+				,"G" : {
+					 "GE" : {"product_id" : "TLG07303", "colour" : "PFG"}
+					,"GC" : {"product_id" : "TLG08303", "colour" : "PBR"}
+					,"GM" : {"product_id" : "TLG09303", "colour" : "PC"}
+					,"GB" : {"product_id" : "TLG10303", "colour" : "PC"}
+					,"GF" : {"product_id" : "TLG11303", "colour" : "PC"}
+					,"GA" : {"product_id" : "TLG04304", "colour" : "PN"}
+					,"GO" : {"product_id" : "TLG01304", "colour" : "BN"}
+					,"GR" : {"product_id" : "TLG02304", "colour" : "PBR"}
+					,"GS" : {"product_id" : "TLG03303", "colour" : "PC"}
+				}
+				,"L" : {
+					 "LB" : {"product_id" : "TLS01301", "colour" : "PC"}
+					,"LN" : {"product_id" : "TLS02301", "colour" : "PC"}
+					,"LC" : {"product_id" : "TLS03301", "colour" : "PC"}
+					,"LF" : {"product_id" : "TLS04301", "colour" : "PC"}
+				}
+			}
+			,"single_wo_popup" : {
+				"Z" : {
+					 "ZN" : {"product_id" : "TLP01701", "colour" : "BN"}
+					,"ZA" : {"product_id" : "TLP03302", "colour" : "PN-BN"}
+					,"ZL" : {"product_id" : "TLP02308", "colour" : "PC"}
+				}
+				,"G" : {
+					 "GE" : {"product_id" : "TLG07304", "colour" : "PFG"}
+					,"GC" : {"product_id" : "TLG08304", "colour" : "PBR"}
+					,"GM" : {"product_id" : "TLG09304", "colour" : "PC"}
+					,"GB" : {"product_id" : "TLG10304", "colour" : "PC"}
+					,"GF" : {"product_id" : "TLG11304", "colour" : "PC"}
+					,"GA" : {"product_id" : "TLG04306", "colour" : "PN"}
+					,"GO" : {"product_id" : "TLG01306", "colour" : "BN"}
+					,"GR" : {"product_id" : "TLG02306", "colour" : "PBR"}
+					,"GS" : {"product_id" : "TLG03304", "colour" : "PC"}
+				}
+				,"L" : {
+					 "LB" : {"product_id" : "TLS01303", "colour" : "PC"}
+					,"LN" : {"product_id" : "TLS02302", "colour" : "PC"}
+					,"LC" : {"product_id" : "TLS03302", "colour" : "PC"}
+					,"LF" : {"product_id" : "TLS04303", "colour" : "PC"}
+				}
+			}
+			,"wallmount" : {
+				"Z" : {
+					 "ZN" : {"product_id" : "", "colour" : ""}
+					,"ZA" : {"product_id" : "", "colour" : ""}
+					,"ZL" : {"product_id" : "TLP02310", "colour" : "PC"}
+				}
+				,"G" : {
+					 "GE" : {"product_id" : "TLG07308", "colour" : "PFG"}
+					,"GC" : {"product_id" : "TLG08308", "colour" : "PBR"}
+					,"GM" : {"product_id" : "TLG09308", "colour" : "PC"}
+					,"GB" : {"product_id" : "TLG10308", "colour" : "PC"}
+					,"GF" : {"product_id" : "TLG11308", "colour" : "PC"}
+					,"GA" : {"product_id" : "TLG04310", "colour" : "PN"}
+					,"GO" : {"product_id" : "TLG01311", "colour" : "BN"}
+					,"GR" : {"product_id" : "TLG02311", "colour" : "PBR"}
+					,"GS" : {"product_id" : "TLG03308", "colour" : "PC"}
+				}
+				,"L" : {
+					 "LB" : {"product_id" : "TLS01309", "colour" : "PC"}
+					,"LN" : {"product_id" : "TLS02307", "colour" : "PC"}
+					,"LC" : {"product_id" : "TLS03307", "colour" : "PC"}
+					,"LF" : {"product_id" : "TLS04308", "colour" : "PC"}
+				}
+			}
+			,"handle" : {
+				"Z" : {
+					 "ZN" : {"product_id" : "", "colour" : ""}
+					,"ZA" : {"product_id" : "", "colour" : ""}
+					,"ZL" : {"product_id" : "TLP02201", "colour" : "PC"}
+				}
+				,"G" : {
+					 "GE" : {"product_id" : "TLG07201", "colour" : "PFG"}
+					,"GC" : {"product_id" : "TLG08201", "colour" : "PBR"}
+					,"GM" : {"product_id" : "TLG09201", "colour" : "PC"}
+					,"GB" : {"product_id" : "TLG10201", "colour" : "PC"}
+					,"GF" : {"product_id" : "TLG11201", "colour" : "PC"}
+					,"GA" : {"product_id" : "TLG04201", "colour" : "PN"}
+					,"GO" : {"product_id" : "TLG01201", "colour" : "BN"}
+					,"GR" : {"product_id" : "TLG02201", "colour" : "PBR"}
+					,"GS" : {"product_id" : "TLG03201", "colour" : "PC"}
+				}
+				,"L" : {
+					 "LB" : {"product_id" : "TLS01201", "colour" : "PC"}
+					,"LN" : {"product_id" : "TLS02201", "colour" : "PC"}
+					,"LC" : {"product_id" : "", "colour" : ""}
+					,"LF" : {"product_id" : "", "colour" : ""}
+				}
+			}
+		}
+		,"auto-faucet": {
+			"deckmount" : {
+				"TLG" : {
+					 "GE" : { "product_id" : "TLE20001", "colour" : "PC" }
+					,"GC" : { "product_id" : "TLE21001", "colour" : "PC" }
+					,"GM" : { "product_id" : "TLE22001", "colour" : "PC" }
+				}
+				,"TLE1" : {
+					 "TLE23": { "product_id" : "TLE23002", "colour" : "PC" }
+					,"TLE24": { "product_id" : "TLE24002", "colour" : "PC" }
+					,"TLE25": { "product_id" : "TLE25002", "colour" : "PC" }
+					,"TLE26": { "product_id" : "TLE26002", "colour" : "PC" }
+				}
+				,"TLE2" : {
+					 "TLE27": { "product_id" : "TLE27001", "colour" : "PC" }
+					,"TLE28": { "product_id" : "TLE28001", "colour" : "PC" }
+					,"TLE29": { "product_id" : "TLE29001", "colour" : "PC" }
+				}
+				,"TLE3" : {
+					 "TLE30": { "product_id" : "TLE30001", "colour" : "PC" }
+					,"TLE31": { "product_id" : "TLE31001", "colour" : "PC" }
+				}
+			}
+			,"wallmount": {
+				"TLE1" : {
+					 "TLE23": { "product_id" : "TLE23005", "colour" : "PC" }
+					,"TLE24": { "product_id" : "TLE24005", "colour" : "PC" }
+					,"TLE25": { "product_id" : "TLE25005", "colour" : "PC" }
+					,"TLE26": { "product_id" : "TLE26005", "colour" : "PC" }
+				}
+			}
+		}
+	}
+	,"faucet_shape": {
+		"faucet" : {
+			 "single_w_popup"   : { "product_id" : "TLG07303", "colour" : "PC" }
+			,"single_wo_popup"  : { "product_id" : "TLG07304", "colour" : "PC" }
+			,"wallmount"        : { "product_id" : "TLG07308", "colour" : "PC" }
+			,"handle"           : { "product_id" : "TLG07201", "colour" : "PC" }
+		}
+		,"auto-faucet": {
+			 "deckmount" : { "product_id" : "TLE26002", "colour" : "PC" }
+			,"wallmount" : { "product_id" : "TLE26005", "colour" : "PC" }
+		}
+	}
+	,"faucet_colour": {
+		"normal" : {
+			 "PN"  : { "product_id" : "TLP03301" }
+			,"BN"  : { "product_id" : "TLP03301" }
+			,"PFG" : { "product_id" : "TLP03301" }
+			,"BFG" : { "product_id" : "TLP03301" }
+			,"PRG" : { "product_id" : "TLP03301" }
+			,"BRG" : { "product_id" : "TLP03301" }
+			,"PBR" : { "product_id" : "TLP03301" }
+			,"BBR" : { "product_id" : "TLP03301" }
+			,"PC"  : { "product_id" : "TLP03301" }
+			,"PBL" : { "product_id" : "TLP03301" }
+			,"BBL" : { "product_id" : "TLP03301" }
+			,"MBL" : { "product_id" : "TLP03301" }
+		}
+		,"bicolour" : {
+			 "PN-BN"  : { "product_id" : "TLP03301" }
+			,"PC-BFG" : { "product_id" : "TLP03301" }
+			,"PC-BRG" : { "product_id" : "TLP03301" }
+			,"PC-BN"  : { "product_id" : "TLP03301" }
+
+			,"BN-PN"   : { "product_id" : "TLG11303" }
+			,"BBL-PBL" : { "product_id" : "TLG11303" }
+			,"BFG-PFG" : { "product_id" : "TLG11303" }
+			,"BRG-PRG" : { "product_id" : "TLG11303" }
+		}
+	}
+	,"faucet_colour_auto-faucet": {
+		"normal" : {
+			 "PN"  : { "product_id" : "TLE20001" }
+			,"BN"  : { "product_id" : "TLE20001" }
+			,"PFG" : { "product_id" : "TLE20001" }
+			,"BFG" : { "product_id" : "TLE20001" }
+			,"PRG" : { "product_id" : "TLE20001" }
+			,"BRG" : { "product_id" : "TLE20001" }
+			,"PBR" : { "product_id" : "TLE20001" }
+			,"BBR" : { "product_id" : "TLE20001" }
+			,"PC"  : { "product_id" : "TLE20001" }
+			,"PBL" : { "product_id" : "TLE20001" }
+			,"BBL" : { "product_id" : "TLE20001" }
+			,"MBL" : { "product_id" : "TLE20001" }
+		}
+	}
+	,"lavatory_shape": {
+		 "under"         : { "product_id" : "LW1536B" }
+		,"vessel_inset"  : { "product_id" : "LW5615B" }
+		,"vessel_outset" : { "product_id" : "LW4704" }
+		,"self_rimming"  : { "product_id" : "L762" }
+		,"semi_reccesed" : { "product_id" : "LW713" }
+		,"wallmount"     : { "product_id" : "LPT241G" }
+		,"galalato"      : { "product_id" : "PJS05" }
+	}
+	,"faucet_wallmount_pos": {
+		"default": {
+			 "ZL": 100
+			,"default": 150
+		}
+		,"LT480": {
+			 "ZL": 150
+			,"default": 190
+		}
+		,"LT533R": {
+			 "ZL": 150
+			,"default": 190
+		}
+		,"L762": {
+			 "ZL": 115
+			,"default": 165
+		}
+	}
+	,"faucet_separete": {
+		 "TLG11305" : 1
+		,"TLG11306" : 1
+		,"TLP02307" : 1
+		,"TLP02308" : 1
+		,"TLG02307" : 1
+		,"TLG02308" : 1
+		,"TLG03305" : 1
+		,"TLG03306" : 1
+		,"TLG04307" : 1
+		,"TLG04308" : 1
+		,"TLG08305" : 1
+		,"TLG08306" : 1
+		,"TLE24003" : 1
+		,"TLE25003" : 1
+	}
+	,"faucet_lever_image": {
+		 "LT533R" : "middle"
+		,"L983B"  : "near"
+	}
+	,"faucet_lever_pos": {
+		"default": {
+			"default" : {
+				 "inset" : {
+					 "w_pos": 95
+					,"h_pos": 75
+				}
+				,"outset" : {
+					 "w_pos": 95
+					,"h_pos": 120
+				}
+			}
+			,"under" : {
+				 "inset" : {
+					 "w_pos": 95
+					,"h_pos": 120
+				}
+				,"outset" : {
+					 "short": {
+						 "w_pos": 95
+						,"h_pos": 105
+					}
+					,"default": {
+						 "w_pos": 95
+						,"h_pos": 40
+					}
+				}
+			}
+		}
+		,"LW717": {
+			 "w_pos": 345
+			,"h_pos": 240
+		}
+		,"LW713": {
+			 "w_pos": 395
+			,"h_pos": 315
+		}
+		,"LT647": {
+			 "w_pos": 365
+			,"h_pos": 240
+		}
+		,"LW647": {
+			 "w_pos": 365
+			,"h_pos": 240
+		}
+		,"LW641": {
+			 "w_pos": 347.5
+			,"h_pos": 315
+		}
+		,"LT533R": {
+			 "w_pos": 292
+			,"h_pos": 315
+		}
+		,"LW533": {
+			 "w_pos": 292
+			,"h_pos": 315
+		}
+		,"LW983": {
+			 "w_pos": 370
+			,"h_pos": 130
+		}
+		,"L983B": {
+			 "w_pos": 370
+			,"h_pos": 130
+		}
+	}
+	,"faucet-option-change-type": "controller"
+	,"faucet-option-flow": {
+		 "035gpm-d20" : ""
+		,"050gpm-d10" : true
+		,"050gpm-c20" : ""
+		,"100gpm-d10" : ""
+	}
+	,"faucet-option-power": {
+		 "ecopower" : true
+		,"ac" : ""
+		,"dc" : ""
+		,"water-heater" : ""
+	}
+	,"faucet-option-temperature": {
+		 "thermo" : ""
+		,"mixing" : ""
+		,"none"   : true
+	}
+	,"faucet-option-soapdispenser": {
+		 "yes" : ""
+		,"no"  : true
+	}
+	,"convert-faucet-power-list": {
+		 "TLE30001" : {
+		 	"ac" : "ac-ewater"
+		 }
+		,"TLE31001" : {
+			"ac" : "ac-ewater"
+		}
+	}
+	,"over-head-shower_category": {
+		"celling": {},
+		"wall": {}
+	}
+	,"over-head-shower_series": {
+		"Z": {},
+		"G": {},
+		"L": {}
+	}
+	,"bath-spout_series": {
+		"Z": {},
+		"G": {},
+		"L": {}
+	}
+	,"hand-shower_series": {
+		"Z": {
+			"1mode": "",
+			"3mode": ""
+		},
+		"G": {
+			"1mode": "",
+			"3mode": ""
+		},
+		"L": {
+			"1mode": "",
+			"2mode": "",
+			"3mode": ""
+		}
+	}
+	,"controller_category": {
+		"S": {
+			"thermostat"   : {
+				 "switch" : { "product_id" : "TBV02406" }
+				,"handle" : { "product_id" : "TBV02401" }
+			}
+			,"single_lever"  : {
+				 "lever" : { "product_id" : "TBG07304" }
+			}
+		},
+		"R": {
+			"thermostat"   : {
+				 "switch" : { "product_id" : "TBV02406" }
+				,"handle" : { "product_id" : "TBV01406" }
+			}
+			,"single_lever"  : {
+				 "lever" : { "product_id" : "TBG11304" }
+			}
+		}
+	}
+	,"controller_combination_count": {
+		 "1NH-1" : 1
+		,"1NH-2" : 2
+		,"1NL-1" : 1
+		,"1NS-1" : 1
+		,"1YH-1" : 1
+		,"1YH-2" : 3
+		,"1YH-3" : 3
+		,"1YS-1" : 1
+		,"1YS-2" : 2
+		,"2NH-1" : 1
+		,"2NH-2" : 3
+		,"2NH-3" : 3
+		,"2NL-1" : 1
+		,"2NL-2" : 2
+		,"2NS-1" : 1
+		,"2NS-2" : 2
+		,"2YH-1" : 2
+		,"2YH-2" : 2
+		,"2YL-1" : 2
+		,"2YL-2" : 2
+		,"2YS-1" : 2
+		,"2YS-2" : 2
+		,"3NH-1" : 2
+		,"3NH-2" : 2
+		,"3NL-1" : 2
+		,"3NL-2" : 2
+		,"3NS-1" : 2
+		,"3NS-2" : 2
+		,"3NS-3" : 2
+		,"3YH-1" : 2
+		,"3YH-2" : 3
+		,"3YH-3" : 3
+		,"3YL-1" : 2
+		,"3YL-2" : 3
+		,"3YS-1" : 2
+		,"3YS-2" : 3
+		,"3YS-3" : 3
+	}
+	,"over-head-shower-separete" : 0
+	,"over-head-shower-pipe": {
+		 "TBW01003"    : "TS110MW16"
+		,"TBW02003"    : "TS110MW16"
+		,"TBW01004"    : "TS110MW16"
+		,"TBW02004"    : "TS110MW16"
+		,"TBW01003B1"  : "TS110MC6"
+		,"TBW02003B1"  : "TS110MC6"
+		,"TBW01012"    : "TBW01012UV1"
+		,"TBW01013"    : "TBW01012UV1"
+		,"TBW03001"    : "TBW01012UV1"
+		,"TBW01012UV1" : "TBW01012UV1"
+		,"TS110MW16"   : "TS110MW16"
+		,"TS110MC6"    : "TS110MC6"
+	}
+	,"over-head-shower-valve": {
+		 "TBW07004" : "TBN01002"
+		,"TBW08004" : "TBN01002"
+	}
+	,"accessory1_category": {
+		 "shower-hook": { "product_id" : "" }
+		,"slide-bar": { "product_id" : "" }
+	}
+	,"accessory2_category": {
+		 "shower-elbow": { "product_id" : "" }
+		,"shower-elbow-hook": { "product_id" : "" }
+	}
+	,"accessory3_category": {
+		 "shower-hose": { "product_id" : "" }
+	}
+	,"shower-hose-separete_flg" : 0
+	,"shower-hook-hide_product_no_flg" : 1
+	,"shower-hook-limit_shape" : 1
+	,"controller-unit": {
+		 "MGR9940" : "TBN01001"
+		,"MGR9941" : "TBN01001"
+		,"MGR9942" : "TBN01001"
+		,"MGS9940" : "TBN01001"
+		,"MGS9941" : "TBN01001"
+		,"MGS9942" : "TBN01001"
+		,"MGS9943" : "TBN01001"
+		,"MGS9941B" : "TBN01001"
+		,"MGS9942B" : "TBN01001"
+		,"VGR01" : "TBN01104"
+		,"VGR13" : "TBN01101"
+		,"VGR02" : "TBN01102"
+		,"VGR03" : "TBN01103"
+		,"VGS01" : "TBN01104"
+		,"VGS13" : "TBN01101"
+		,"VGS02" : "TBN01102"
+		,"VGS03" : "TBN01103"
+		,"VGS23" : "TBN01001"
+		,"MGR0131" : "TBN01001"
+		,"MGR0132" : "TBN01001"
+		,"MGS0231" : "TBN01001"
+		,"MGS0232" : "TBN01001"
+		,"MGR0331" : "TBN01001"
+		,"MGR0332" : "TBN01001"
+		,"MGS0431" : "TBN01001"
+		,"MGS0432" : "TBN01001"
+		,"MGS0731" : "TBN01001"
+		,"MGS0732" : "TBN01001"
+		,"MGS0831" : "TBN01001"
+		,"MGS0832" : "TBN01001"
+		,"MGS0931" : "TBN01001"
+		,"MGS0932" : "TBN01001"
+		,"MGS1031" : "TBN01001"
+		,"MGS1032" : "TBN01001"
+		,"MGR1131" : "TBN01001"
+		,"MGR1132" : "TBN01001"
+		,"MZS0231" : "TBN01001"
+		,"MZS0232" : "TBN01001"
+	}
+	,"technologies": {
+		 "01" : {"id" : "active_wave",   "name" : "Active Wave"}
+		,"02" : {"id" : "comfort_guide", "name" : "Comfort guide"}
+		,"03" : {"id" : "comfort_wave",  "name" : "Ccomfort Wave"}
+		,"04" : {"id" : "gyrostream",    "name" : "Gyrostream"}
+		,"05" : {"id" : "heat_protect",  "name" : "Heat Protect"}
+		,"06" : {"id" : "mini_unit",     "name" : "Mini Unit"}
+		,"07" : {"id" : "safety_thermo", "name" : "Safety Thermo"}
+		,"08" : {"id" : "soft_flow",     "name" : "Soft Flow"}
+		,"09" : {"id" : "warm_spa",      "name" : "Warm Spa"}
+		,"10" : {"id" : "ecopower",      "name" : "ECOPOWER"}
+		,"11" : {"id" : "ewater",        "name" : "EWATER+"}
+	}
+	,"technologies-shower": {
+		 "01" : {"id" : "active_wave",     "name" : "Active Wave"}
+		,"02" : {"id" : "comfort_guide",   "name" : "Comfort guide"}
+		,"03" : {"id" : "comfort_wave",    "name" : "Comfort Wave"}
+		,"04" : {"id" : "gyrostream",      "name" : "Gyrostream"}
+		,"05" : {"id" : "heat_protect",    "name" : "Heat Protect"}
+		,"06" : {"id" : "mini_unit",       "name" : "Mini Unit"}
+		,"07" : {"id" : "safety_thermo",   "name" : "Safety Thermo"}
+		,"08" : {"id" : "soft_flow",       "name" : "Soft Flow"}
+		,"09" : {"id" : "warm_spa",        "name" : "Warm Spa"}
+		,"10" : {"id" : "warm_spa_hs",     "name" : "Warm Spa"}
+		,"11" : {"id" : "comfort_wave_hs", "name" : "Comfort Wave"}
+		,"12" : {"id" : "intense_wave",    "name" : "INTENSE WAVE"}
+	}
+}

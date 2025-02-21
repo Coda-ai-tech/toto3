@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/wx/planning", {data:[{}],fetch:{},mutations:[]});

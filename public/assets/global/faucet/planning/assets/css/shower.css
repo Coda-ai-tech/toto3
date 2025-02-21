@@ -1,0 +1,578 @@
+@charset "UTF-8";
+/* Settings */
+/* Tool */
+/* ブレイクポイント */
+/* フォント設定 */
+/* l-inner */
+/* pxをvewwidthに変換（単位ありなし対応） */
+/* pxをvewwidthに変換（単位ありなし対応） */
+/* ==========================================================================
+   Utility
+========================================================================== */
+/* ==========================================================================
+   レイアウト
+========================================================================== */
+/* ==========================================================================
+   スクロールバー非表示
+========================================================================== */
+/* ==========================================================================
+   カラー バリエーション
+========================================================================== */
+/* ============================================
+   シャワー シュミレーター TOP
+============================================ */
+.uq_top {
+  background: #000;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+@media print, screen and (max-width: 768px) {
+  .uq_top {
+    padding-right: 16px;
+    padding-left: 0;
+    overflow: hidden;
+  }
+}
+
+.uq_top__column {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+
+@media print, screen and (min-width: 961px) {
+  .uq_top__column {
+    overflow: hidden;
+  }
+}
+
+.uq_top__column--box {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.uq_top__column--ttl {
+  color: #fff;
+  font-weight: normal;
+  text-shadow: #000 3px 0px 3px, #000 -3px 0px 3px, #000 0px -3px 3px, #000 -3px 0px 3px, #000 3px 3px 3px, #000 -3px 3px 3px, #000 3px -3px 3px, #000 -3px -3px 3px, #000 2px 3px 3px, #000 -2px 3px 3px, #000 2px -3px 3px, #000 -2px -3px 3px, #000 3px 2px 3px, #000 -3px 2px 3px, #000 3px -2px 3px, #000 -3px -2px 3px, #000 2px 2px 3px, #000 -2px 2px 3px, #000 2px -2px 3px, #000 -2px -2px 3px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+@media print, screen and (min-width: 769px) {
+  .uq_top__column--box {
+    margin-top: 20px;
+  }
+  .uq_top__column--ttl {
+    font-size: 40px;
+  }
+}
+
+@media print, screen and (max-width: 768px) {
+  .uq_top__column--ttl {
+    padding-left: 6.93333vw;
+    padding-right: 8vw;
+    font-size: 19px;
+    letter-spacing: 5px;
+  }
+  .uq_top__column--box {
+    width: 110%;
+  }
+  .uq_top__column--box.is_reverse {
+    left: auto;
+    right: 0;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+}
+
+@media print, screen and (max-width: 440px) {
+  .uq_top__column--ttl {
+    font-size: 19px;
+    font-size: 5.06667vw;
+    letter-spacing: 1.33333vw;
+  }
+}
+
+.uq_top__select {
+  max-width: 480px;
+  padding: 32px 40px 40px;
+  background: #C9CED5;
+  text-align: center;
+  overflow-y: scroll;
+  /* IE, Edge 対応 */
+  -ms-overflow-style: none;
+  /* Firefox 対応 */
+  scrollbar-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uq_top__select::-webkit-scrollbar {
+  /* Chrome, Safari 対応 */
+  display: none;
+}
+
+.uq_top__select--ttl {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.uq_top__select--box {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: initial;
+  -ms-flex-align: initial;
+  align-items: initial;
+}
+
+.uq_top__select--list {
+  width: 45%;
+  margin-right: 10%;
+}
+
+.uq_top__select--list li {
+  margin-bottom: 20px;
+}
+
+@media print, screen and (min-width: 769px) and (max-height: 620px) {
+  .uq_top__select--list li {
+    margin-bottom: 10px;
+  }
+}
+
+.uq_top__select--list li:last-child {
+  margin-bottom: 0;
+}
+
+.is_select__all .uq_top__select--list li .m_icon__plus::before, .is_select__all .uq_top__select--list li .m_icon__plus::after, .is_select__icon1-2 .uq_top__select--list li .m_icon__plus::before, .is_select__icon1-2 .uq_top__select--list li .m_icon__plus::after, .uq_top__select--list li.is_select__icon1 .m_icon__plus::before, .uq_top__select--list li.is_select__icon1 .m_icon__plus::after, .uq_top__select--list li.is_select__icon2 .m_icon__plus::before, .uq_top__select--list li.is_select__icon2 .m_icon__plus::after {
+  background: #222;
+}
+
+@media print, screen and (max-width: 440px) {
+  .uq_top__select--list {
+    margin-right: 5%;
+    width: 50%;
+  }
+}
+
+.uq_top__select--item {
+  background: #fff;
+  -webkit-box-shadow: 0 10px 10px rgba(34, 34, 34, 0.25);
+  box-shadow: 0 10px 10px rgba(34, 34, 34, 0.25);
+  position: relative;
+}
+
+.uq_top__select--item input[type="checkbox"] {
+  display: block;
+  position: absolute;
+  opacity: 0;
+}
+
+.uq_top__select--item label {
+  cursor: pointer;
+  display: block;
+  padding: 10px 15px;
+  line-height: 1.5;
+}
+
+.uq_top__select--item .uq_top__over-head-shower, .uq_top__select--item .uq_top__hand-shower, .uq_top__select--item .uq_top__bath-spout {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #B3B7BD;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.uq_top__select--item .uq_top__over-head-shower::after, .uq_top__select--item .uq_top__hand-shower::after, .uq_top__select--item .uq_top__bath-spout::after {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #B3B7BD;
+  border-radius: 50%;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.uq_top__select--item .uq_top__over-head-shower {
+  width: calc(100% - 100px);
+  right: calc(-100% + 100px);
+}
+
+@media print, screen and (max-width: 768px) {
+  .uq_top__select--item .uq_top__over-head-shower {
+    width: calc(100% - 70px);
+    right: calc(-100% + 70px);
+  }
+}
+
+@media print, screen and (max-width: 440px) {
+  .uq_top__select--item .uq_top__over-head-shower {
+    width: calc(100% - 50px);
+    right: calc(-100% + 50px);
+  }
+}
+
+.uq_top__select--item .uq_top__hand-shower {
+  width: calc(100% - 20px);
+  right: calc(-100% + 20px);
+}
+
+@media print, screen and (max-width: 440px) {
+  .uq_top__select--item .uq_top__hand-shower {
+    width: calc(100% - 30px);
+    right: calc(-100% + 30px);
+  }
+}
+
+.uq_top__select--item .uq_top__bath-spout {
+  width: calc(100% - 30px);
+  right: calc(-100% + 30px);
+}
+
+@media print, screen and (max-width: 440px) {
+  .uq_top__select--item .uq_top__bath-spout {
+    width: calc(100% - 40px);
+    right: calc(-100% + 40px);
+  }
+}
+
+.uq_top__select--item.is_over-head-shower, .uq_top__select--item.is_hand-shower, .uq_top__select--item.is_bath-spout {
+  color: #fff;
+  background: #2C2C2C;
+}
+
+.uq_top__select--item.is_over-head-shower .uq_top__over-head-shower, .uq_top__select--item.is_over-head-shower .uq_top__hand-shower, .uq_top__select--item.is_over-head-shower .uq_top__bath-spout, .uq_top__select--item.is_hand-shower .uq_top__over-head-shower, .uq_top__select--item.is_hand-shower .uq_top__hand-shower, .uq_top__select--item.is_hand-shower .uq_top__bath-spout, .uq_top__select--item.is_bath-spout .uq_top__over-head-shower, .uq_top__select--item.is_bath-spout .uq_top__hand-shower, .uq_top__select--item.is_bath-spout .uq_top__bath-spout {
+  background: #2C2C2C;
+}
+
+.uq_top__select--item.is_over-head-shower .uq_top__over-head-shower::after, .uq_top__select--item.is_over-head-shower .uq_top__hand-shower::after, .uq_top__select--item.is_over-head-shower .uq_top__bath-spout::after, .uq_top__select--item.is_hand-shower .uq_top__over-head-shower::after, .uq_top__select--item.is_hand-shower .uq_top__hand-shower::after, .uq_top__select--item.is_hand-shower .uq_top__bath-spout::after, .uq_top__select--item.is_bath-spout .uq_top__over-head-shower::after, .uq_top__select--item.is_bath-spout .uq_top__hand-shower::after, .uq_top__select--item.is_bath-spout .uq_top__bath-spout::after {
+  background: #2C2C2C;
+}
+
+.uq_top__select--img {
+  width: 40%;
+  margin-right: 5%;
+  border-top: 10px solid #AFB4B9;
+  border-right: 10px solid #AFB4B9;
+  position: relative;
+}
+
+.is_select .uq_top__select--img {
+  border-top-color: #2C2C2C;
+  border-right-color: #2C2C2C;
+}
+
+.uq_top__select--img .uq_top__over-head-shower::before, .uq_top__select--img .uq_top__hand-shower::before, .uq_top__select--img .uq_top__bath-spout::before {
+  content: '';
+  display: inline-block;
+}
+
+.uq_top__select--img .uq_top__over-head-shower::before {
+  width: 34px;
+  height: 63px;
+  background: url("../images/shower/top/icon_over_head_shower.svg") no-repeat top left;
+  background-size: cover;
+  top: 0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+@media print, screen and (max-width: 768px) {
+  .uq_top__select--img .uq_top__over-head-shower::before {
+    width: 27px;
+    height: 53px;
+  }
+}
+
+@media print, screen and (max-width: 440px) {
+  .uq_top__select--img .uq_top__over-head-shower::before {
+    width: 31px;
+    height: 61px;
+  }
+}
+
+.uq_top__select--img .uq_top__over-head-shower.is_over-head-shower::before {
+  background: url("../images/shower/top/icon_over_head_shower_black.svg") no-repeat top left;
+  background-size: cover;
+}
+
+.uq_top__select--img .uq_top__hand-shower::before {
+  width: 68px;
+  height: 109px;
+  background: url("../images/shower/top/icon_hand_shower.svg") no-repeat top left;
+  background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 42%;
+  right: 0;
+  -webkit-transform: translate(0, -42%);
+  transform: translate(0, -42%);
+}
+
+@media print, screen and (max-width: 768px) {
+  .uq_top__select--img .uq_top__hand-shower::before {
+    width: 47px;
+    height: 80px;
+  }
+}
+
+@media print, screen and (max-width: 440px) {
+  .uq_top__select--img .uq_top__hand-shower::before {
+    width: 55px;
+    height: 88px;
+    top: 48%;
+    -webkit-transform: translate(0, -48%);
+    transform: translate(0, -48%);
+  }
+}
+
+.uq_top__select--img .uq_top__hand-shower.is_hand-shower::before {
+  background: url("../images/shower/top/icon_hand_shower_black.svg") no-repeat top left;
+  background-size: cover;
+}
+
+.uq_top__select--img .uq_top__bath-spout::before {
+  width: 31px;
+  height: 28px;
+  background: url("../images/shower/top/icon_bath_spout.svg") no-repeat top left;
+  background-size: cover;
+  position: absolute;
+  bottom: 12%;
+  right: 0;
+  -webkit-transform: translate(0, -12%);
+  transform: translate(0, -12%);
+}
+
+@media print, screen and (max-width: 768px) {
+  .uq_top__select--img .uq_top__bath-spout::before {
+    width: 19px;
+    height: 17px;
+  }
+}
+
+@media print, screen and (max-width: 440px) {
+  .uq_top__select--img .uq_top__bath-spout::before {
+    width: 27px;
+    height: 25px;
+    bottom: 4%;
+    -webkit-transform: translate(0, -4%);
+    transform: translate(0, -4%);
+  }
+}
+
+.uq_top__select--img .uq_top__bath-spout.is_bath-spout::before {
+  background: url("../images/shower/top/icon_bath_spout_black.svg") no-repeat top left;
+}
+
+.uq_top__select--msg {
+  color: #f00;
+  font-size: 14px;
+  padding: 0.5em;
+  visibility: hidden;
+  line-height: 1.4;
+}
+
+@media print, screen and (max-width: 768px) {
+  .uq_top__select--msg {
+    line-height: 1.2;
+    font-size: 14px;
+    font-size: 3.73333vw;
+  }
+}
+
+.is_invalid .uq_top__select--msg {
+  visibility: visible;
+}
+
+.uq_top__select--btn {
+  max-width: 180px;
+  background: #ADB1B8;
+  pointer-events: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.is_select .uq_top__select--btn {
+  pointer-events: initial;
+  color: #fff;
+  background: #2B2B2B;
+}
+
+.uq_top__select--btn a, .uq_top__select--btn button {
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #DADDE4;
+}
+
+.uq_top__select--btn i::before {
+  border-top-color: #DADDE4;
+  border-right-color: #DADDE4;
+}
+
+.uq_top__select--btn i::after {
+  background: #DADDE4;
+}
+
+@media print, screen and (min-width: 769px) {
+  .uq_top__select--list {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .uq_top__select--item {
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+  }
+  .uq_top__select--item:hover {
+    opacity: 0.6;
+  }
+  .is_select .uq_top__select--btn {
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+  }
+  .is_select .uq_top__select--btn:hover {
+    opacity: 0.6;
+  }
+}
+
+@media print, screen and (max-width: 768px) {
+  .uq_top__select {
+    max-width: 100%;
+    padding: 26px 16px;
+  }
+  .uq_top__select--ttl {
+    font-size: 12px;
+  }
+  .uq_top__select--list {
+    font-size: 14px;
+  }
+  .uq_top__select--item label {
+    padding: 10px;
+    text-align: left;
+  }
+  .uq_top__select--img {
+    border-top-width: 8px;
+    border-right-width: 8px;
+  }
+  .uq_top__select--btn {
+    font-size: 14px;
+  }
+}
+
+@media print, screen and (max-width: 440px) {
+  .uq_top__select--ttl {
+    font-size: 12px;
+    font-size: 3.2vw;
+  }
+  .uq_top__select--list {
+    margin-top: 2.66667vw;
+    font-size: 14px;
+    font-size: 3.73333vw;
+  }
+  .uq_top__select--list li {
+    margin-bottom: 10px;
+  }
+  .uq_top__select--btn {
+    font-size: 14px;
+    font-size: 3.73333vw;
+  }
+}
+
+.uq_top__shower {
+  background: url("../images/shower/top/kv_shower_pc.png") no-repeat top center;
+  background-size: cover;
+}
+
+@media print, screen and (min-width: 1440px) {
+  .uq_top__shower {
+    background: url("../images/shower/top/kv_shower_pc@2x.png") no-repeat top center;
+    background-size: cover;
+  }
+}
+
+@media print, screen and (min-width: 769px) and (max-width: 960px) {
+  .uq_top__shower {
+    background: url("../images/shower/top/kv_shower_tbl@2x.png") no-repeat top center;
+    background-size: cover;
+  }
+}
+
+@media print, screen and (max-width: 768px) {
+  .uq_top__shower {
+    background: url("../images/shower/top/kv_shower_sp@2x.png") no-repeat top 20px left -10px;
+    background-size: cover;
+  }
+}
+
+@media print, screen and (max-width: 440px) {
+  .uq_top__shower {
+    background: url("../images/shower/top/kv_shower_sp.png") no-repeat top 20px left -5px;
+    background-size: contain;
+  }
+}
+
+.is_us .uq_top__shower {
+  background-image: url("../images/shower/top/us/kv_shower_pc.png");
+}
+
+@media print, screen and (min-width: 1440px) {
+  .is_us .uq_top__shower {
+    background-image: url("../images/shower/top/us/kv_shower_pc@2x.png");
+  }
+}
+
+@media print, screen and (min-width: 769px) and (max-width: 960px) {
+  .is_us .uq_top__shower {
+    background-image: url("../images/shower/top/us/kv_shower_tbl@2x.png");
+  }
+}
+
+@media print, screen and (max-width: 768px) {
+  .is_us .uq_top__shower {
+    background-image: url("../images/shower/top/us/kv_shower_sp@2x.png");
+  }
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_us .uq_top__shower {
+    background-image: url("../images/shower/top/us/kv_shower_sp.png");
+  }
+}
+
+/*# sourceMappingURL=shower.css.map */

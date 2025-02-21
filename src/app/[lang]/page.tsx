@@ -1,0 +1,46 @@
+import type { Metadata } from 'next';
+import { DataTypeProps } from '@/types';
+import { Locale } from '@/app/i18n.config';
+import { GetPageData, GetPageMeta } from '@/hook/useFetchData';
+import { GetModule } from '@/hook/useGetModules';
+import DefaultLayout from '@@/LayoutProvider';
+import Breadcrumbs from '@@/Breadcrumbs';
+import BackToTop from '@@/BackToTop';
+
+const dataType = DataTypeProps.local;
+
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ lang: Locale; slug: string[] }>;
+}): Promise<Metadata> => {
+  const { lang } = await params;
+  return GetPageMeta(dataType, [lang, 'home']);
+};
+
+const HomePage = async ({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ lang: Locale }>;
+  searchParams?: Promise<{ [key: string]: string }>;
+}) => {
+  const { lang } = await params;
+  const pageData = await GetPageData(dataType, [lang, 'home'], '', await searchParams);
+
+  return (
+    <DefaultLayout params={params}>
+      <>
+        {GetModule(pageData)}
+        <div className={`bottomBreadcrumbs`}>
+          <div className={`bottomBreadcrumbsInner`}>
+            <Breadcrumbs data={pageData.breadcrumb} position='bottom' />
+            <BackToTop />
+          </div>
+        </div>
+      </>
+    </DefaultLayout>
+  );
+};
+
+export default HomePage;

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50.03" viewBox="0 0 50 50.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="i_warm.svg" class="cls-1" d="M535.085,6796.99v11.03h14.581v6.97H516.334v-6.97h14.585v-11.03a25.067,25.067,0,0,0-3.823,49.32,24.566,24.566,0,0,0,11.808,0,25.067,25.067,0,0,0-3.819-49.32m3.819,47.9a23.922,23.922,0,0,1-11.808,0v-27.4H538.9v27.4Z" transform="translate(-508 -6797)"/>
+</svg>

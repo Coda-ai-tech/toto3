@@ -1,0 +1,209 @@
+@use '_components.scss';
+
+.catalogue {
+  @apply whFull pxContent;
+
+  .inner {
+    @apply max-w-content mx-auto;
+  }
+
+  .sectionTitle {
+    @apply h2 font-light;
+  }
+
+  .head {
+    @apply mb-4;
+  }
+
+  .body {
+    @apply relative;
+  }
+
+  .catalogueWrap {
+    @apply flex;
+
+    .left {
+      @apply hidden;
+
+      @screen lg {
+        @apply block relative w-5/12;
+      }
+
+      @screen hd {
+        @apply w-4/12;
+      }
+    }
+
+    .right {
+      @apply w-full;
+
+      @screen lg {
+        @apply w-7/12 pl-[30px];
+      }
+
+      @screen hd {
+        @apply w-8/12;
+      }
+    }
+  }
+
+  .swiper {
+    @apply w-[80%] mt-4 sticky top-[calc(var(--header-height)+var(--header-bar-height))];
+
+    [class*='swiper-slide-active'] {
+      .itemVisual {
+        @apply border border-solid border-gray-light;
+      }
+    }
+  }
+
+  .itemVisual {
+    @apply block;
+  }
+
+  .catalogueList {
+    @apply flex flex-col;
+
+    .catalogueItem {
+      &:not(:last-child) {
+        @apply pb-20;
+      }
+
+      @screen lg {
+        @apply px-6 py-8 transition-colors;
+
+        &:hover,
+        &:focus-visible {
+          @apply bg-gray-lightest;
+        }
+      }
+
+      &:focus-visible {
+        @screen md {
+          @apply outline-dotted outline-offset-1 outline-black outline-2;
+        }
+      }
+
+      .itemInner {
+        @apply flex flex-col gap-6;
+
+        @screen md {
+          @apply flex-row;
+        }
+
+        .itemThumb {
+          img {
+            @apply border border-solid border-gray-lightest;
+            @apply w-full h-auto max-w-[400px] mx-auto;
+          }
+
+          @apply w-full;
+
+          @screen md {
+            @apply w-[150px] min-w-[150px];
+          }
+
+          @screen lg {
+            @apply hidden;
+          }
+        }
+
+        .itemContentWrap {
+          @apply flex flex-col gap-10 items-start w-full;
+
+          @screen hd {
+            @apply w-[calc(100%-150px)];
+          }
+
+          @screen hd {
+            @apply w-full flex-row;
+          }
+        }
+
+        .itemContent {
+          @apply w-full;
+
+          @screen hd {
+            @apply w-[calc(100%-240px)];
+          }
+
+          .itemContentHead {
+            @apply border-b border-solid border-gray-light mb-4 pb-2;
+
+            @screen hd {
+              @apply min-h-[92px];
+            }
+          }
+
+          .itemTitle {
+            @apply text-[28px] font-light leading-none mb-1;
+
+            @screen md {
+              @apply text-[32px];
+            }
+
+            @screen hd {
+              @apply text-[48px] mb-0;
+            }
+          }
+
+          .itemDescription {
+            @apply text-[16px] font-light leading-normal text-gray-dark;
+
+            @screen hd {
+              @apply text-[18px];
+            }
+          }
+
+          .lineUpList {
+            .lineUpListTitle {
+              @apply text-[12px] font-bold leading-none mb-2;
+            }
+
+            .lineUpWrap {
+              @apply flex flex-wrap gap-2;
+
+              .lineUpItem {
+                @apply block border border-solid border-gray-light leading-none rounded-full bg-gray-lightest px-3 py-[2px] transition-colors;
+
+                &:hover,
+                &:focus-visible {
+                  @apply bg-gray-dark text-white;
+                }
+
+                .lineUpLabel {
+                  @apply text-[12px] font-light leading-none;
+                }
+              }
+            }
+          }
+        }
+
+        .itemAction {
+          @apply w-full;
+          @apply flex flex-row flex-wrap gap-3;
+
+          a {
+            @apply flex-1;
+
+            @screen md {
+              @apply flex-auto;
+            }
+          }
+
+          // a {
+          //   @apply w-full;
+
+          //   @screen md {
+          //     @apply w-auto;
+          //   }
+          // }
+
+          @screen hd {
+            @apply w-[200px] flex-col;
+          }
+        }
+      }
+    }
+  }
+}

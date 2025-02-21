@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ls/function", {data:[{}],fetch:{},mutations:[]});

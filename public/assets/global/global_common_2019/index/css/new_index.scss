@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+@import '_modules/import.scss';
+
+@function em($px, $width: 16) {
+  @return ($px / $width) * 1em;
+}
+@function rem($px, $width: 10) {
+  @return ($px / $width) * 1rem;
+}
+
+//汎用classの上書き
+.section__title {
+  @include pc {
+    font-size: rem(40);
+  }
+  @include sp {
+    line-height: 1.2;
+  }
+}
+
+.kv__title.kv_purpose {
+  @include pc {
+    left: vp(100);
+    bottom: vp(120);
+    width: vp(903);
+    top: auto;
+  }
+  @include sp {
+    left: vs(40);
+    width: vs(670);
+    top: auto;
+    bottom: vs(0);
+  }
+}
+
+.kv__title.kv_ces2022 {
+  @include pc {
+    left: vp(250);
+    width: vp(988);
+    top: 37%;
+  }
+  @include sp {
+    width: vs(697);
+    left: vs(50);
+    top: 32%;
+  }
+}
+
+// 個別css
+.featured {
+  @include pc {
+    margin-top: 100px;
+  }
+  @include sp {
+    margin-top: 50px;
+  }
+  .featured__inner {
+    @include pc {
+      max-width: rem(1358);
+    }
+    @include sp {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: -1px;
+      margin-top: -25px;
+    }
+  }
+  .panels__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .panels__item a {
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    @include pc {
+      margin-left: 1px;
+      margin-right: 1px;
+      margin-bottom: 0;
+      // height: 100%;
+    }
+    @include sp {
+      margin-left: 1px;
+      margin-top: 25px;
+    }
+  }
+  .panels__detail {
+    margin-top: 0;
+    @include pc {
+      padding: rem(30) rem(35);
+    }
+    @include sp {
+      padding: rem(17) rem(20);
+    }
+    .panels__title {
+      line-height: 1.2;
+      @include pc {
+        font-size: rem(24);
+      }
+      @include sp {
+        font-size: rem(16);
+      }
+    }
+    .panels__summary {
+      color: #666666;
+      line-height: 2;
+      @include pc {
+        font-size: rem(15);
+      }
+      @include sp {
+        font-size: rem(11);
+      }
+    }
+  }
+}
+
+.aboutus {
+  @include pc {
+    margin-top: 100px;
+  }
+  @include sp {
+    margin-top: 50px;
+  }
+  .aboutus__inner {
+    @include sp {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .panels__item {
+      @include sp {
+        width: 100%;
+      }
+    }
+    .panels__detail {
+      @include sp {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: rem(19);
+      }
+    }
+  }
+}
+
+.cleanovation {
+  @include pc {
+    margin-top: 100px;
+  }
+  @include sp {
+    margin-top: 50px;
+  }
+  .cleanovation__subTitle {
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    @include pc {
+      font-size: rem(18);
+    }
+    @include sp {
+      font-size: rem(10);
+    }
+  }
+  .cleanovation__inner {
+    @include sp {
+      margin-bottom: -25px;
+    }
+  }
+  .panels__item {
+    @include sp {
+      margin-bottom: 25px;
+    }
+    .panels__title {
+      line-height: 1.2;
+      .logo {
+        display: block;
+        width: em(120);
+        margin: 0 auto;
+        margin-top: em(5);
+        svg {
+          display: block;
+          margin: 0 auto;
+          // width: 100%;
+          path {
+            fill: currentColor;
+          }
+        }
+      }
+    }
+  }
+}
+
+.products {
+  padding-bottom: 0;
+}
+
+.other {
+  padding-top: 0;
+  @include pc {
+    margin-top: 100px;
+  }
+  @include sp {
+    margin-top: 50px;
+  }
+  .other__inner {
+    @include pc {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.note {
+  line-height: 2;
+  color: #666;
+  padding: 0 rem(10);
+  @include pc {
+    font-size: rem(13);
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  @include sp {
+    margin-top: 50px;
+    font-size: rem(11);
+    margin-bottom: rem(12);
+  }
+}
+
+// fadePanelのhover
+.section a {
+  .fadePanel {
+    transition: opacity 0.2s linear;
+  }
+  .panels__detail,
+  .panels__caption {
+    transition: color 0.2s linear;
+  }
+  @include hover {
+    .fadePanel {
+      opacity: 0.6;
+    }
+    .panels__detail,
+    .panels__caption {
+      color: #13449d;
+    }
+  }
+}

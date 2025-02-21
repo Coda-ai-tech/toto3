@@ -1,0 +1,9 @@
+﻿POWER,TEMPERATURE,CONTROLLER UNIT ID,OPTION (MINI UNIT）ID
+ac,none,TLE01501,
+ac,thermo,TLE01501,TLE05701
+ac-ewater,none,TLE02501,
+ecopower,none,TLE03501,
+ecopower,thermo,TLE03501,TLE05701
+dc,none,TLE04501,
+dc,thermo,TLE04501,TLE05701
+water-heater,,REAH03B2CR,

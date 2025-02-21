@@ -1,0 +1,306 @@
+@use '_components.scss';
+
+.technologyList {
+  @apply whFull pxContent;
+
+  .inner {
+    @apply max-w-content mx-auto;
+  }
+
+  .sectionTitle {
+    @apply h2 font-light;
+  }
+
+  .head {
+    @apply mb-8;
+  }
+
+  .body {
+    @apply relative;
+  }
+
+  .techList {
+    @apply flex;
+
+    .left {
+      @apply relative w-2/12;
+    }
+
+    .right {
+      @apply w-10/12 pl-[30px];
+    }
+
+    .techGroup {
+      &:not(:last-child) {
+        @apply pb-20;
+      }
+
+      .groupLabel {
+        @apply relative overflow-hidden w-full mb-4;
+
+        @screen md {
+          @apply mb-10;
+        }
+
+        .groupLabelTxt {
+          @apply relative w-max pr-4 text-[12px] tracking-[5px] leading-none;
+
+          @screen lg {
+            @apply tracking-[20px];
+          }
+
+          &:after {
+            @apply content-[''] absolute top-0 left-full w-[5000px] h-[1px] bg-black;
+          }
+        }
+      }
+
+      .groupBody {
+        @apply flex flex-row flex-wrap;
+
+        @screen lg {
+          @apply flex-col;
+        }
+      }
+    }
+
+    .groupNav {
+      @apply sticky top-[calc(var(--header-height)+var(--header-bar-height)+20px)];
+
+      @apply flex flex-col gap-2 items-start;
+
+      @screen md {
+        @apply gap-6;
+      }
+
+      .groupNavItem {
+        @apply relative text-[13px] font-bold text-gray-light transition-[padding,color] duration-300 left-0 pl-0 text-left leading-[1.3];
+
+        @screen md {
+          @apply h5;
+        }
+
+        &:before {
+          @apply content-[''] absolute left-0 bottom-0 block w-0 h-[2px] bg-black transition-[width] duration-1000 ease-soft-spring;
+
+          @screen lg {
+            @apply yCenter;
+          }
+        }
+
+        &:hover,
+        &:focus-visible {
+          @apply text-black;
+        }
+
+        &.active {
+          @apply text-black;
+
+          @screen lg {
+            @apply pl-[40px];
+          }
+
+          &:before {
+            @apply w-full;
+
+            @screen lg {
+              @apply w-[30px] delay-100;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.techItem {
+  @apply py-5 px-4 block transition-[background];
+  @apply w-full;
+
+  @screen md {
+    @apply w-1/2;
+  }
+
+  @screen lg {
+    @apply w-full;
+
+    + .techItem {
+      @apply border-t border-solid border-gray-light;
+    }
+  }
+
+  &:hover,
+  &:focus-visible {
+    @screen lg {
+      @apply bg-gray-lightest;
+    }
+
+    .techItemInner {
+      .techIcon {
+        .techIconInner {
+          &:after {
+            @apply opacity-100;
+            animation: iconOutline infinite 1s ease-in-out;
+          }
+        }
+      }
+
+      .techThumb {
+        @screen hd {
+          @apply top-[-65px] opacity-100;
+        }
+      }
+
+      .itemIndicator {
+        .linkIcon {
+          @apply opacity-100 -rotate-45 w-4 h-4;
+
+          @screen lg {
+            @apply w-8 h-8;
+          }
+        }
+      }
+    }
+  }
+
+  .techItemInner {
+    @apply relative flex flex-col justify-between items-center h-full;
+
+    @screen lg {
+      @apply flex-row;
+    }
+
+    .techEntryInfo {
+      @apply max-w-full w-full;
+
+      @screen lg {
+        @apply flex flex-row items-center justify-start max-w-[calc(100%-150px)];
+      }
+    }
+
+    .techTitleWrap {
+      @apply flex items-center justify-start mb-4;
+
+      @screen lg {
+        @apply mb-0;
+      }
+    }
+
+    .techIcon {
+      @apply mr-3;
+
+      @screen lg {
+        @apply mr-5;
+      }
+
+      .techIconInner {
+        @apply relative w-7 h-7;
+
+        @screen lg {
+          @apply w-10 h-10;
+        }
+
+        img {
+          @apply whFull;
+        }
+
+        @screen lg {
+          &:after {
+            @apply content-[''] absolute xCenter yCenter w-[120%] h-[120%] rounded-full border border-solid border-black opacity-[0.05];
+          }
+        }
+      }
+    }
+
+    .techTitle {
+      @screen md {
+        --title-width: 200px;
+      }
+
+      @screen xl {
+        --title-width: 300px;
+      }
+
+      @apply h5 min-w-[var(--title-width)] w-[var(--title-width)] pr-4;
+
+      @screen lg {
+        @apply h4;
+      }
+    }
+
+    .techDescription {
+      --desc-width: 100%;
+      @apply mb-4;
+
+      @screen lg {
+        --desc-width: 500px;
+        @apply mb-0;
+      }
+
+      @screen xl {
+        --desc-width: 520px;
+      }
+
+      @media only screen and (min-width: 1441px) {
+        --desc-width: 700px;
+      }
+
+      @apply w-[var(--desc-width)]  text-gray-dark;
+
+      .descriptionContext {
+        @apply text-sm;
+
+        @screen lg {
+          @apply max-w-[calc(100%-100px)] text-base;
+        }
+      }
+    }
+
+    .techThumb {
+      @apply static aspect-[328/180] w-full h-auto;
+
+      @screen lg {
+        @apply relative w-[200px] right-[60px];
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      @screen hd {
+        @apply absolute top-[-40px] right-[80px] opacity-0 pointer-events-none transition-all duration-700;
+      }
+
+      img {
+        @apply whFull object-cover;
+      }
+    }
+
+    .itemIndicator {
+      @apply absolute right-1 top-[7px];
+
+      @screen lg {
+        @apply right-4 yCenter;
+      }
+
+      .linkIcon {
+        @apply w-4 h-4 text-black opacity-30 transition-all ease-soft-spring duration-700;
+
+        @screen lg {
+          @apply w-7 h-7;
+        }
+      }
+    }
+  }
+}
+
+@keyframes iconOutline {
+  from {
+    width: 120%;
+    height: 120%;
+    opacity: 0.3;
+  }
+
+  to {
+    width: 140%;
+    height: 140%;
+    opacity: 0;
+  }
+}

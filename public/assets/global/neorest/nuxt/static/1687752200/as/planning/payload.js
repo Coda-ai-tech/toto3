@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/as/planning", {data:[{}],fetch:{},mutations:[]});

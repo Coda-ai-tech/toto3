@@ -1,0 +1,857 @@
+{
+  "favIcon": "/assets/favicon.ico",
+  "logo": {
+    "src": {
+      "default": "/assets/img/logo.svg",
+      "overlay": "/assets/img/logo_overlay.svg",
+      "footer":"/assets/img/logo_with_slogan.svg"
+    }
+  },
+  "navigation":{
+    "header": [
+      {
+        "title": "COMPANY INFORMATION",
+        "link": null,
+        "highlight":{
+          "title":"COMPANY INFORMATION",
+          "description":"To create a culture of comfortable healthy living. Since our founding, we have continuously pursued innovations that offer greater wellness and comfort to daily life.",
+          "media":{
+            "type": "image",
+            "src": {
+              "desktop": "/assets/img/content/navigation/01.png",
+              "mobile": null
+            },
+            "alt": "",
+            "poster": null,
+            "mediaCaption": ""
+          },
+          "cta":{
+            "label":"DISCOVER MORE",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/about-toto"
+            }
+          }
+        },
+        "sub": [
+          {
+            "title": "CORPORATE",
+            "items": [
+              {
+                "label":"ABOUT TOTO",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en/about-toto"
+                }
+              },
+              {
+                "label":"BRAND PURPOSE",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en/purpose"
+                }
+              },
+              {
+                "label":"NEWS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en/news"
+                }
+              },
+              {
+                "label":"TOTO HISTORY",
+                "link":{
+                  "type":"external",
+                  "href": "https://jp.toto.com/en/history/"
+                }
+              },
+              {
+                "label":"TOTO GLOBAL",
+                "link":{
+                  "type":"external",
+                  "href": "https://www.toto.com/en/index.htm"
+                }
+              },
+              {
+                "label":"TOTO MUSEUM",
+                "link":{
+                  "type":"external",
+                  "href": "https://jp.toto.com/pages/knowledge/visit/museum/en/vr/"
+                }
+              },
+              {
+                "label":"TOTO INSPIRATION",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en/inspiration"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "PRODUCT",
+        "link": null,
+        "highlight":null,
+        "sub": [
+          {
+            "title": "PRODUCT",
+            "items": [
+              {
+                "label":"ALL PRODUCT",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en/product"
+                }
+              },
+              {
+                "label":"AWARDS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en/awards"
+                }
+              },
+              {
+                "label":"NEOREST",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"WASHLET+",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"WASHLET",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"TOILETS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"SHOWERS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"FAUCETS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"LAVATORIES",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"BATHTUBS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"ACCESSORIES",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"COMMERCIAL",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "TECHNOLOGIES",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/technology"
+        },
+        "highlight":null,
+        "sub": [
+          {
+            "title": "ALL",
+            "items": [
+              {
+                "label":"ALL TECHNOLOGIES",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en/technology"
+                }
+              }
+            ]
+          },
+          {
+            "title": "TOILETS",
+            "items": [
+              {
+                "label":"CEFIONTECT",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"RIMLESS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"TORNADO FLUSH",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"WATER SAVING",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "title": "WASHLET",
+            "items": [
+              {
+                "label":"ACTILIGHT",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"AIR-IN WONDER WAVE",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"AUTO FUNCTION",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"DEODORISER",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"DRYER",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"EWATER+",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"HEATED SEAT",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"PREMIST",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"SOFT LIGHT",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "title": "FAUCET / SHOWER",
+            "items": [
+              {
+                "label":"ACTIVE WAVE",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"AERIAL",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"COMFORT GLIDE",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"COMFORT WAVE",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"ECO CAP",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"ECOPOWER",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"GYROSTREAM",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"HEAT PROTECT",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"INTENSE WAVE",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"MINI UNIT",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"SAFETY THERMO",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"SOFT FLOW",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"SMA",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"WARM SPA",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "title": "BATHTUB",
+            "items": [
+              {
+                "label":"HYDROHANDS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"RECLINE COMFORT",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"ZERO DIMENSION",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "title": "OTHERS",
+            "items": [
+              {
+                "label":"LINEARCERAM",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"CLEAN MATTE",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"GALALINE",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "CATALOGUES",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/catalogue"
+        },
+        "highlight":null,
+        "sub": null
+      },
+      {
+        "title": "LOCATION",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/location"
+        },
+        "highlight":null,
+        "sub": null
+      },
+      {
+        "title": "CONTACT US",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/contact-us"
+        },
+        "highlight":null,
+        "sub": null
+      }
+    ],
+    "globalNetwork":[
+      {
+        "title":"GLOBAL",
+        "items":[
+          {
+            "label":"GLOBAL",
+            "link":{
+              "type":"newWindow",
+              "href": "https://www.toto.com/en/index.htm"
+            }
+          }
+        ]
+      },
+      {
+        "title":"AMERICAS, EUROPE",
+        "items":[
+          {
+            "label":"AMERICA",
+            "link":{
+              "type":"newWindow",
+              "href": "https://www.totousa.com/"
+            }
+          },
+          {
+            "label":"EUROPE",
+            "link":{
+              "type":"newWindow",
+              "href": "https://eu.toto.com/en?m-uk"
+            }
+          }
+        ]
+      },
+      {
+        "title":"ASIA",
+        "items":[
+          {
+            "label":"CHINA",
+            "link":{
+              "type":"newWindow",
+              "href": "https://www.toto.com.cn/"
+            }
+          },
+          {
+            "label":"HONG KONG",
+            "link":{
+              "type":"newWindow",
+              "href": "http://hk.toto.com/"
+            }
+          },
+          {
+            "label":"TAIWAN",
+            "link":{
+              "type":"newWindow",
+              "href": "https://www.twtoto.com.tw/"
+            }
+          },
+          {
+            "label":"INDIA",
+            "link":{
+              "type":"newWindow",
+              "href": "https://in.toto.com/"
+            }
+          },
+          {
+            "label":"JAPAN",
+            "link":{
+              "type":"newWindow",
+              "href": "https://jp.toto.com/"
+            }
+          },
+          {
+            "label":"KOREA",
+            "link":{
+              "type":"newWindow",
+              "href": "https://kr.toto.com/"
+            }
+          }
+        ]
+      },
+      {
+        "title":"SOUTH / SOUTH-EAST ASIA",
+        "items":[
+          {
+            "label":"PHILIPPINES",
+            "link":{
+              "type":"newWindow",
+              "href": "https://asia.toto.com/ph"
+            }
+          },
+          {
+            "label":"SINGAPORE",
+            "link":{
+              "type":"newWindow",
+              "href": "https://asia.toto.com/sg"
+            }
+          },
+          {
+            "label":"MALAYSIA",
+            "link":{
+              "type":"newWindow",
+              "href": "https://asia.toto.com/my"
+            }
+          },
+          {
+            "label":"THAILAND",
+            "link":{
+              "type":"newWindow",
+              "href": "https://th.toto.com/"
+            }
+          },
+          {
+            "label":"MYANMAR",
+            "link":{
+              "type":"newWindow",
+              "href": "https://asia.toto.com/mm"
+            }
+          },
+          {
+            "label":"INDONESIA",
+            "link":{
+              "type":"newWindow",
+              "href": "https://www.toto.co.id/"
+            }
+          },
+          {
+            "label":"VIETNAM",
+            "link":{
+              "type":"newWindow",
+              "href": "https://vn.toto.com/"
+            }
+          }
+        ]
+      },
+      {
+        "title":"MIDDLE EAST / NORTH AFRICA",
+        "items":[
+          {
+            "label":"U.A.E",
+            "link":{
+              "type":"newWindow",
+              "href": "https://asia.toto.com/ae"
+            }
+          },
+          {
+            "label":"K.S.A",
+            "link":{
+              "type":"newWindow",
+              "href": "https://asia.toto.com/sa"
+            }
+          },
+          {
+            "label":"QATAR",
+            "link":{
+              "type":"newWindow",
+              "href": "https://asia.toto.com/qa"
+            }
+          }
+        ]
+      },
+      {
+        "title":"OCEANIA",
+        "items":[
+          {
+            "label":"AUSTRALIA",
+            "link":{
+              "type":"newWindow",
+              "href": "https://oceania.toto.com/"
+            }
+          }
+        ]
+      }
+    ],
+    "footer":[
+      {
+        "title":"PRODUCT",
+        "items":[
+          {
+            "label":"NEOREST",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/product"
+            }
+          },
+          {
+            "label":"WASHLET+",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/product"
+            }
+          },
+          {
+            "label":"WASHLET",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/product"
+            }
+          },
+          {
+            "label":"BATHTUBS",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/product"
+            }
+          },
+          {
+            "label":"FAUCETS",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/product"
+            }
+          },
+          {
+            "label":"ACCESSORIES",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/product"
+            }
+          },
+          {
+            "label":"LAVATORIES",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/product"
+            }
+          },
+          {
+            "label":"SHOWERS",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/product"
+            }
+          },
+          {
+            "label":"COMMERCIAL",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/product"
+            }
+          }
+        ]
+      },
+      {
+        "title":"OUR COMPANY",
+        "items":[
+          {
+            "label":"ABOUT TOTO GROUP",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/about-toto"
+            }
+          },
+          {
+            "label":"BRAND PURPOSE",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/purpose"
+            }
+          },
+          {
+            "label":"NEWS",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/news"
+            }
+          },
+          {
+            "label":"TOTO MUSEUM",
+            "link":{
+              "type":"external",
+              "href": "https://jp.toto.com/pages/knowledge/visit/museum/en/vr/"
+            }
+          },
+          {
+            "label":"TOTO HISTORY",
+            "link":{
+              "type":"external",
+              "href": "https://jp.toto.com/en/history/"
+            }
+          }
+        ]
+      },
+      {
+        "title":"REFERENCE",
+        "items":[
+          {
+            "label":"INSPIRATION",
+            "link":{
+              "type":"routeLink",
+              "href": "/en/inspiration"
+            }
+          }
+        ]
+      }
+    ],
+    "footerStaticMenu": [
+      {
+        "label": "Privacy Policy",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/privacy-policy"
+        }
+      },
+      {
+        "label": "Terms & Conditions",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/terms-conditions"
+        }
+      },
+      {
+        "label": "Web Accessibility",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/web-accessibility"
+        }
+      }
+    ]
+  },
+  "sns": [
+    {
+      "label": "Tel",
+      "link": "tel:28613177",
+      "icon": "/assets/img/sprites/telSm.svg"
+    },
+    {
+      "label": "Email",
+      "link": "mailto:admin@toto.com",
+      "icon": "/assets/img/sprites/emailSm.svg"
+    },
+    {
+      "label": "Facebook",
+      "link": "https://www.facebook.com/TOTOHK.LTD",
+      "icon": "/assets/img/sprites/facebookSm.svg"
+    }
+  ],
+  "dictionary": {
+    "siteTitle": "TOTO Hong Kong",
+    "copyright": "© TOTO LTD.",
+    "globalNetwork":"GLOBAL NETWORK",
+    "skipToMainContent":"Skip To Main Content",
+    "learnMore":"Learn More",
+    "readMore":"Read More",
+    "submit":"Submit",
+    "backToTop":"Top",
+    "back":"Back",
+    "share":"Share",
+    "close":"Close",
+    "error": {
+      "notFound": {
+        "title": "Page Not Found",
+        "description": "We are sorry, the page you're looking for is no longer available."
+      },
+      "internalServer": {
+        "title": "Internal Server Error",
+        "description": "Please check"
+      },
+      "noResult":{
+        "title": "No Results Found",
+        "description": "no result...."
+      }
+    }
+  }
+}

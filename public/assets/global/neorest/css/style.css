@@ -1,0 +1,728 @@
+/*How to set the size with “vw”;
+ * The value among 1 to 40 is available (variables are already defined in CSS).
+ * Smart phone: --vw1 to --vw40
+ * PC: --vw-pc1 to --vw-pc40
+ * ---------------------------------
+ * In case of setting over 40, use the formula below.
+ * Smart phone: pixel/ 375*100
+ * PC: pixel/ 1360*100
+-------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+:root {
+  /*Font Family*/
+  --family-gothic: 'Helvetica Neue', Arial, 'Hiragino Sans', 'BIZ UDPGothic', Meiryo, sans-serif;
+  --family-serif: 'Baskervville', 'Times New Roman', serif;
+  --family-roman: 'Times New Roman', serif;
+}
+
+/*------ Menu -------*/
+.gnavLink {
+  font-size: var(--vw12);
+  line-height: 1.1;
+}
+.gnavLink.-top {
+  font-size: var(--vw16);
+}
+.gnavLink.-movie {
+  font-size: var(--vw18);
+}
+.gnavLink.-cate {
+  font-size: var(--vw20);
+}
+.gnavLink.-global {
+  font-size: var(--vw16);
+}
+.headerBottom .snsLink {
+  font-size: var(--vw14);
+}
+
+/*------ Menu PC -------*/
+@media screen and (min-width: 620px) {
+  .gnavLink {
+    font-size: var(--vw-pc14);
+  }
+  .gnavLink.-top,
+  .gnavLink.-gref,
+  .gnavLink.-special,
+  .gnavLink.-global {
+    font-size: var(--vw-pc16);
+  }
+  .gnavLink.-movie,
+  .gnavLink.-cate {
+    font-size: var(--vw-pc24);
+  }
+  .headerBottom .snsLink {
+    font-size: var(--vw-pc14);
+  }
+}
+
+/*------ Footer -------*/
+.footer {
+  font-size: var(--vw14);
+}
+/*------ Footer PC -------*/
+@media screen and (min-width: 620px) {
+  .footer {
+    font-size: var(--vw-pc14);
+  }
+}
+
+/*------ Top -------*/
+.topContent .statement sub {
+  bottom: -0.1em;
+  font-size: 50%;
+}
+.topContent .button {
+  font-size: var(--vw14);
+}
+.topContent .skip {
+  font-size: var(--vw10);
+  text-decoration: underline;
+}
+/*------ Top PC -------*/
+@media screen and (min-width: 620px) {
+  .topContent .button {
+    font-size: var(--vw-pc24);
+  }
+  .topContent .skip {
+    font-size: var(--vw-pc12);
+  }
+}
+
+/*------ Home -------*/
+.homeContent .intro > ._text {
+  font-size: var(--vw15);
+  line-height: 1.67;
+  letter-spacing: 0.1em;
+}
+.homeContent .movieTitle {
+  font-size: var(--vw11);
+  letter-spacing: 0.2em;
+}
+.homeContent .linkList > ._link {
+  font-size: var(--vw12);
+  font-weight: bold;
+  line-height: 1.25;
+}
+.homeContent .linkList > ._link.-gref {
+  line-height: 1.15;
+}
+.homeContent .productName > ._col {
+  font-size: var(--vw18);
+}
+.homeContent .productNavRow .cLinkArrow > ._label.-nxc,
+.homeContent .productNavRow .cLinkArrow > ._label.-wxc {
+  letter-spacing: 0.05em;
+}
+.homeContent .collectionsLead {
+  font-size: var(--vw10);
+  line-height: 2;
+}
+/*------ Home PC -------*/
+@media screen and (min-width: 620px) {
+  .homeContent .intro > ._text {
+    font-size: var(--vw-pc20);
+    line-height: 1.5;
+  }
+  .homeContent .movieTitle {
+    font-size: var(--vw-pc18);
+  }
+  .homeContent .linkList > ._link {
+    font-size: var(--vw-pc13);
+  }
+  .homeContent .linkList > ._link.-gref {
+    font-size: var(--vw-pc11);
+  }
+  .homeContent .productName > ._col {
+    font-size: var(--vw-pc27);
+  }
+  .homeContent .collectionsLead {
+    font-size: var(--vw-pc10);
+  }
+}
+
+/*------ Page Menu -------*/
+.cPageMenu .productName > ._col {
+  font-size: var(--vw8);
+}
+/*------ Product Menu -------*/
+.cPageMenu .pageListLink > ._label {
+  font-size: var(--vw12);
+}
+.cPageMenu .pageListLink.isCurrent > ._label {
+  font-size: var(--vw14);
+}
+.cPageMenu.isOpen::before {
+  width: 61.334vw !important; /*230px*/
+}
+/*------ Page Menu PC -------*/
+@media screen and (min-width: 620px) {
+  .cPageMenu .productName > ._col {
+    font-size: var(--vw-pc10);
+  }
+  .cPageMenu .pageListLink > ._label,
+  .cPageMenu .pageListLink.isCurrent > ._label {
+    font-size: var(--vw-pc14);
+  }
+  .cPageMenu.isOpen::before {
+    width: 20.588vw !important; /*280px*/
+    min-width: 190px;
+  }
+}
+
+/*------ Product BottomNav -------*/
+.productNav .linkPrev,
+.productNav .linkNext {
+  /*base size*/
+}
+.productNav .currentPage > ._name {
+  font-size: var(--vw12);
+}
+.productNav .currentPage > ._type {
+  font-size: var(--vw16);
+}
+/*------ Product BottomNav PC -------*/
+@media screen and (min-width: 620px) {
+  .productNav .linkPrev,
+  .productNav .linkNext {
+    /*base size*/
+  }
+  .productNav .currentPage > ._name {
+    font-size: var(--vw-pc18);
+  }
+  .productNav .currentPage > ._type {
+    font-size: var(--vw-pc18);
+  }
+}
+
+/*------ ProductPage Title -------*/
+.cProductTitle > ._ruby {
+  font-size: var(--vw13);
+  letter-spacing: 0.05em;
+}
+/*------ ProductPage Title PC -------*/
+@media screen and (min-width: 620px) {
+  .cProductTitle > ._ruby {
+    font-size: var(--vw-pc16);
+  }
+}
+
+/*------ Design Concept -------*/
+.productConcept .heroSect > ._lead {
+  font-size: var(--vw11);
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+}
+.productConcept .detailSect > ._title {
+  font-size: var(--vw26);
+  line-height: 1.5;
+}
+.productConcept .detailSect > ._text {
+  font-size: var(--vw14);
+}
+/*------ Design Concept PC -------*/
+@media screen and (min-width: 620px) {
+  .productConcept .heroSect > ._lead {
+    font-size: var(--vw-pc15);
+    line-height: 2.2;
+    letter-spacing: 0.05em;
+  }
+  .productConcept .detailSect > ._title {
+    font-size: var(--vw-pc40);
+  }
+  .productConcept .detailSect > ._text {
+    font-size: var(--vw-pc18);
+  }
+}
+
+/*------ Design Story -------*/
+.productStory .designSect .colImage > ._title {
+  font-size: var(--vw38);
+  line-height: 1.2;
+}
+.productStory .designSect > ._text {
+  font-size: var(--vw12);
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+}
+.productStory .designSect > ._text > ._note {
+  font-size: var(--vw10);
+}
+.productStory .detailSectInner > ._title {
+  font-size: var(--vw38);
+  line-height: 1;
+}
+.productStory .detailTextList > ._text {
+  font-size: var(--vw11);
+  line-height: 1.5;
+  letter-spacing: 0.15em;
+}
+.productStory .detailImage > ._sup {
+  font-size: var(--vw9);
+  line-height: 1;
+}
+.productStory .detailImage > ._label {
+  font-size: var(--vw12);
+  line-height: 1.1;
+}
+.productStory .developSect > ._title {
+  font-size: var(--vw38);
+  line-height: 1.2;
+}
+.productStory .developSect > ._text {
+  font-size: var(--vw12);
+  line-height: 1.7;
+  letter-spacing: 0.15em;
+}
+.productStory .detailImage.-wx > ._label {
+  font-size: var(--vw10);
+}
+.productStory .detailImage.-wx > ._label.-newSubst {
+  top: var(--vw17);
+  left: 40vw; /*150px*/
+}
+.productStory .detailImage.-wx > ._label.-convSubst {
+  top: 25.333vw; /*95px*/
+  left: 38.667vw; /*145px*/
+}
+.productStory .detailImage.-wx > ._label.-convToilet {
+  top: 34.133vw; /*128px*/
+  left: var(--vw8);
+}
+.productStory .detailImage.-wx > ._label.-neorestToilet {
+  top: 34.133vw; /*128px*/
+  left: 38.4vw; /*144px*/
+}
+/*------ Design Story PC -------*/
+@media screen and (min-width: 620px) {
+  .productStory .designSect .colImage > ._title {
+    font-size: 5.368vw; /*73px*/
+  }
+  .productStory .designSect > ._text {
+    font-size: var(--vw-pc15);
+    line-height: 2.5;
+    letter-spacing: 0.05em;
+  }
+  .productStory .designSect > ._text > ._note {
+    font-size: var(--vw-pc12);
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+  }
+  .productStory .detailSectInner > ._title {
+    font-size: 4.044vw; /*55px*/
+  }
+  .productStory .detailTextList > ._text {
+    font-size: var(--vw-pc14);
+    line-height: 2;
+    letter-spacing: 0.05em;
+  }
+  .productStory .detailImage > ._sup {
+    font-size: var(--vw-pc16);
+  }
+  .productStory .detailImage > ._label {
+    font-size: var(--vw-pc22);
+  }
+  .productStory .developSect > ._title {
+    font-size: 4.779vw; /*65px*/
+  }
+  .productStory .developSect > ._text {
+    font-size: var(--vw-pc15);
+    line-height: 2.7;
+    letter-spacing: 0.05em;
+  }
+  .productStory .detailImage.-wx > ._label {
+    font-size: var(--vw-pc16);
+  }
+  .productStory .detailImage.-wx > ._label.-newSubst {
+    top: 4.265vw; /*58px*/
+    left: 32.721vw; /*445px*/
+  }
+  .productStory .detailImage.-wx > ._label.-convSubst {
+    top: 18.015vw; /*245px*/
+    left: 32.721vw; /*445px*/
+  }
+  .productStory .detailImage.-wx > ._label.-convToilet {
+    top: 3.75vw; /*51px*/
+    left: 51.618vw; /*702px*/
+  }
+  .productStory .detailImage.-wx > ._label.-neorestToilet {
+    top: 3.75vw; /*51px*/
+    left: 63.088vw; /*858px*/
+  }
+}
+
+/*------ Prime Function -------*/
+.productFunc .funcListTitle {
+  font-size: var(--vw22);
+  letter-spacing: 0.03em;
+}
+.productFunc .funcItem > ._label {
+  font-size: var(--vw13);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+.productFunc .bannerSect > ._title {
+  font-size: var(--vw20);
+}
+.productFunc.-rs .funcList > ._item.-eWaterUnder,
+.productFunc.-rs .funcList > ._item.-wonderWave {
+  display: none;
+}
+/*------ Prime Function PC -------*/
+@media screen and (min-width: 620px) {
+  .productFunc .funcListTitle {
+    font-size: var(--vw-pc25);
+  }
+  .productFunc .funcItem > ._label {
+    font-size: var(--vw-pc16);
+  }
+  .productFunc .bannerSect > ._title {
+    font-size: var(--vw-pc30);
+  }
+}
+
+/*------ Interior Planning -------*/
+.productPlan .planItem > ._title {
+  font-size: var(--vw12);
+}
+/*------ Interior Planning PC -------*/
+@media screen and (min-width: 620px) {
+  .productPlan .planItem > ._title {
+    font-size: var(--vw-pc24);
+  }
+}
+
+/*------ Global Reference -------*/
+.productGlobal .cardSect .card > ._title {
+  font-size: var(--vw9);
+  line-height: 1.05;
+}
+.productGlobal .allButton > ._label {
+  font-size: var(--vw16);
+  letter-spacing: 0.05em;
+}
+/*------ Global Reference PC -------*/
+@media screen and (min-width: 620px) {
+  .productGlobal .cardSect .card > ._title {
+    font-size: var(--vw-pc12);
+  }
+  .productGlobal .allButton > ._label {
+    font-size: var(--vw-pc20);
+  }
+}
+
+/*------ Collections -------*/
+.pageCollections .ttl-sub {
+  font-size: var(--vw10);
+  line-height: 1.25;
+}
+.pageCollections .m-btn-video a {
+  font-size: var(--vw16);
+  letter-spacing: 0.05em;
+}
+/*------ Collections PC -------*/
+@media screen and (min-width: 620px) {
+  .pageCollections .ttl-sub {
+    font-size: var(--vw-pc20);
+    line-height: 1.5;
+  }
+  .pageCollections .m-btn-video a {
+    font-size: var(--vw-pc24);
+  }
+}
+
+/*------ Collections Index -------*/
+.collectionsIndex .heroSect > ._lead {
+  font-size: var(--vw10);
+  line-height: 2.5;
+}
+.collectionsIndex .movieLink > ._label {
+  font-size: var(--vw17);
+}
+.collectionsIndex .bannerItem .label > ._text {
+  font-size: var(--vw16);
+  line-height: 1.1;
+}
+.collectionsIndex .bannerItem .label > ._detail {
+  font-size: var(--vw10);
+}
+/*------ Collections Index PC -------*/
+@media screen and (min-width: 620px) {
+  .collectionsIndex .heroSect > ._lead {
+    font-size: var(--vw-pc14);
+    line-height: 2.15;
+  }
+  .collectionsIndex .movieLink > ._label {
+    font-size: var(--vw-pc33);
+  }
+  .collectionsIndex .bannerItem .label > ._text {
+    font-size: var(--vw-pc40);
+  }
+  .collectionsIndex .bannerItem .label > ._detail {
+    font-size: var(--vw-pc24);
+  }
+}
+
+/*------ Collections Concept -------*/
+.collectionsConcept .u-concept-mainv .mainv-catch {
+  font-size: var(--vw24);
+  line-height: 1.25;
+}
+.collectionsConcept .u-concept-mainv .mainv-desc {
+  font-size: var(--vw12);
+}
+.collectionsConcept .u-concept-mainv .img-ttl {
+  font-size: var(--vw14);
+}
+.collectionsConcept .block-ttl h2 {
+  font-size: var(--vw24);
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+}
+.collectionsConcept .block-ttl h3 {
+  font-size: var(--vw15);
+  line-height: 1.5;
+}
+.collectionsConcept .block-content {
+  font-size: var(--vw14);
+}
+.collectionsConcept .block-content h3 {
+  font-size: var(--vw18);
+}
+.collectionsConcept .block-content .content-items h4 {
+  font-size: var(--vw18);
+}
+.collectionsConcept .block-content .content-items:not(.col2) .item-img + .item-desc {
+  font-size: var(--vw12);
+}
+.collectionsConcept .block-content .item-btn a {
+  /*base size*/
+}
+.collectionsConcept .block-content .content-ttlmore {
+  font-size: var(--vw20);
+  line-height: 1.125;
+  letter-spacing: 0.2em;
+}
+/*------ Collections Concept PC -------*/
+@media screen and (min-width: 620px) {
+  .collectionsConcept .u-concept-mainv .mainv-catch {
+    font-size: var(--vw-pc30);
+  }
+  .collectionsConcept .u-concept-mainv .mainv-desc {
+    font-size: var(--vw-pc18);
+  }
+  .collectionsConcept .u-concept-mainv .img-ttl {
+    font-size: var(--vw-pc14);
+  }
+  .collectionsConcept .block-ttl h2 {
+    font-size: 3.529vw; /*48px*/
+  }
+  .collectionsConcept .block-ttl h3 {
+    font-size: var(--vw-pc30);
+  }
+  .collectionsConcept .block-content {
+    font-size: var(--vw-pc18);
+  }
+  .collectionsConcept .block-content h3 {
+    font-size: var(--vw-pc36);
+  }
+  .collectionsConcept .block-content .content-items h4 {
+    font-size: var(--vw-pc20);
+  }
+  .collectionsConcept .block-content .content-items:not(.col2) .item-desc,
+  .collectionsConcept .block-content .content-items:not(.col2) .item-img + .item-desc {
+    font-size: var(--vw-pc16);
+  }
+  .collectionsConcept .block-content .item-btn a {
+    font-size: var(--vw-pc14);
+  }
+  .collectionsConcept .block-content .content-ttlmore {
+    font-size: var(--vw-pc36);
+  }
+}
+/*------ Special Menu -------*/
+.specialMenu.isOpen::before {
+  width: 34.667vw !important; /*130px*/
+}
+/*------ Special Menu PC -------*/
+@media screen and (min-width: 620px) {
+  .specialMenu.isOpen::before {
+    width: 11.765vw !important; /*160px*/
+    min-width: 100px;
+  }
+}
+
+/*------ Special Message -------*/
+.specialMessage .heroSect > ._lead {
+  font-size: var(--vw11);
+  line-height: 1.65;
+}
+.specialMessage .thinkSect h2 {
+  font-size: var(--vw15);
+}
+.specialMessage .thinkSect > ._text {
+  font-size: var(--vw11);
+  line-height: 1.65;
+}
+.specialMessage .messageSect h2 {
+  font-size: var(--vw30);
+}
+.specialMessage .messageItem > ._company {
+  font-size: var(--vw10);
+}
+.specialMessage .messageItemImage > ._name {
+  font-size: var(--vw20);
+}
+.specialMessage .messageBody > ._position,
+.specialMessage .messageBody > ._company {
+  font-size: var(--vw12);
+  line-height: 1;
+}
+.specialMessage .messageBody > ._name {
+  font-size: var(--vw18);
+}
+.specialMessage .messageBody > ._message {
+  font-size: var(--vw11);
+  line-height: 1.3;
+}
+/*------ Special Message PC -------*/
+@media screen and (min-width: 620px) {
+  .specialMessage .heroSect > ._lead {
+    font-size: var(--vw-pc16);
+    line-height: 1.75;
+  }
+  .specialMessage .thinkSect h2 {
+    font-size: var(--vw-pc30);
+  }
+  .specialMessage .thinkSect > ._text {
+    font-size: var(--vw-pc16);
+    line-height: 2.25;
+  }
+  .specialMessage .messageSect h2 {
+    font-size: 5.882vw; /* 80px */
+  }
+  .specialMessage .messageItem > ._company {
+    font-size: var(--vw-pc24);
+  }
+  .specialMessage .messageItemImage > ._name {
+    font-size: 4.412vw; /* 60px */
+  }
+  .specialMessage .messageBody > ._position,
+  .specialMessage .messageBody > ._company {
+    font-size: var(--vw-pc13);
+    line-height: 1.1;
+  }
+  .specialMessage .messageBody > ._name {
+    font-size: var(--vw-pc25);
+  }
+  .specialMessage .messageBody > ._message {
+    font-size: var(--vw-pc14);
+    line-height: 1.2;
+  }
+}
+
+/*------ Special History -------*/
+.specialHistory .introColumn > ._texts {
+  font-size: var(--vw11);
+  line-height: 1.8;
+}
+.specialHistory .introColumn > ._texts h2 {
+  font-size: var(--vw30);
+  line-height: 1;
+}
+.specialHistory .introColumn > ._texts h3 {
+  font-size: var(--vw20);
+}
+.specialHistory .historySect h2 {
+  font-size: var(--vw30);
+}
+.specialHistory .historyItem > ._year {
+  font-size: var(--vw25);
+}
+.specialHistory .historyItem > ._events {
+  font-size: var(--vw12);
+  line-height: 2;
+}
+.specialHistory .historyItem > ._more {
+  font-size: var(--vw15);
+}
+.specialHistory .historyModalContent h1 {
+  font-size: var(--vw12);
+}
+.specialHistory .historyModalContent p {
+  font-size: var(--vw10);
+}
+/*------ Special History PC -------*/
+@media screen and (min-width: 620px) {
+  .specialHistory .introColumn > ._texts {
+    width: 27.059vw; /* 368px */
+    font-size: var(--vw-pc16);
+    line-height: 1.875;
+  }
+  .specialHistory .introColumn.-evolving > ._texts {
+    width: 25.588vw; /* 348px */
+  }
+  .specialHistory .introColumn > ._texts h2 {
+    font-size: 5.1vw; /* 72px */
+    line-height: 1.5;
+  }
+  .specialHistory .introColumn > ._texts h3 {
+    font-size: var(--vw-pc31);
+  }
+  .specialHistory .historySect h2 {
+    font-size: 5.294vw; /* 72px */
+  }
+  .specialHistory .historyItem > ._year {
+    font-size: 3.676vw; /* 50px */
+  }
+  .specialHistory .historyItem > ._events {
+    font-size: var(--vw-pc18);
+  }
+  .specialHistory .historyItem > ._more {
+    font-size: var(--vw-pc15);
+  }
+  .specialHistory .historyModal > .historyModalInner > ._year {
+    font-size: var(--vw-pc25);
+  }
+  .specialHistory .historyModalContent h1 {
+    font-size: var(--vw-pc18);
+  }
+  .specialHistory .historyModalContent p {
+    font-size: var(--vw-pc12);
+  }
+}
+
+/*------ Privacy Policy / Terms of Use -------*/
+.documentContent > ._inner {
+  font-size: var(--vw12);
+  line-height: 1.6;
+}
+.documentContent h1 {
+  font-size: var(--vw24);
+  letter-spacing: 0.3em;
+}
+.documentContent h2 {
+  font-size: var(--vw18);
+  letter-spacing: 0.15em;
+}
+.documentContent .docSect > ._text {
+  letter-spacing: 0.1em;
+}
+.documentContent dt::before {
+  content: '■';
+}
+.documentContent .note::before {
+  content: '※';
+}
+@media screen and (min-width: 620px) {
+  .documentContent > ._inner {
+    font-size: var(--vw-pc16);
+  }
+  .documentContent h1 {
+    font-size: 3.088vw; /*42px*/
+  }
+  .documentContent h2 {
+    font-size: var(--vw-pc24);
+  }
+}

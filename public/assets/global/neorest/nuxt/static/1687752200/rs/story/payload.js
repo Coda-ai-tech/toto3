@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/rs/story", {data:[{}],fetch:{},mutations:[]});

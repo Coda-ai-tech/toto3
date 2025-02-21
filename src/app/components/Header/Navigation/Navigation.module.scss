@@ -1,0 +1,298 @@
+@use '_components.scss';
+
+.nav {
+  @apply hidden relative z-[100] text-base w-full;
+
+  @screen xl {
+    @apply flex justify-between gap-x-[3.125rem];
+  }
+
+  .link {
+    @apply hover:text-secondary duration-300;
+  }
+}
+
+.hasSub {
+  @apply relative;
+
+  a,
+  button {
+    @apply fontTitle relative flex items-center gap-2 text-[1rem] transition-[color] duration-300 text-black uppercase font-medium;
+
+    .icon {
+      @apply w-[12px] h-[6px] text-black transition-[transform,color] duration-300;
+    }
+
+    &:hover,
+    &:focus-visible {
+      @apply text-primary-accent;
+
+      .icon {
+        @apply text-primary-accent;
+      }
+    }
+  }
+
+  &.navActive {
+    > a,
+    > button {
+      @apply text-primary-accent !important;
+
+      .icon {
+        @apply rotate-180 text-primary-accent !important;
+      }
+    }
+  }
+
+  .subWrap {
+    @apply absolute top-[calc(100%+10px)] h-max overflow-hidden rounded-lg border border-solid border-slate-100 min-w-[180px];
+    box-shadow: 0px 0px 20px rgba(#000000, 0.1);
+
+    .subWrapInner {
+      @apply bg-white p-2 flex;
+
+      li {
+        @apply w-full min-w-max py-0;
+      }
+
+      .subNavItem {
+        @apply w-full p-2 rounded-sm;
+
+        span {
+          @apply text-primary-dark;
+        }
+
+        &:hover {
+          @apply bg-slate-50;
+
+          span {
+            @apply text-primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+.subWrapInner {
+  @apply flex gap-8 w-full justify-start;
+}
+
+.subNavColumWrap {
+  @apply flex gap-4 w-full justify-between;
+
+  @screen hd {
+    @apply gap-6;
+  }
+
+  .subNavItem {
+    span {
+      @apply font-normal !important;
+    }
+  }
+}
+
+.subNavColum {
+  @apply relative;
+
+  .navColumTitle {
+    @apply font-bold mb-4;
+  }
+
+  .navColumList {
+    @apply max-w-[320px] w-max;
+
+    ul {
+      @apply flex flex-wrap gap-y-1;
+
+      &.multiColum {
+        @apply flex-row;
+
+        li {
+          @apply w-1/2;
+
+          &:nth-child(2n) {
+            @apply pl-1;
+          }
+        }
+      }
+
+      &.singleColum {
+        @apply flex-col;
+
+        li {
+          @apply w-max;
+        }
+      }
+    }
+  }
+}
+
+.overlay {
+  .hasSub {
+    a,
+    button {
+      @apply text-white;
+
+      .icon {
+        @apply text-white;
+      }
+    }
+  }
+
+  .noSub {
+    span {
+      @apply text-white;
+
+      &:after {
+        @apply bg-white !important;
+      }
+    }
+
+    &:hover {
+      span {
+        @apply text-white;
+      }
+    }
+  }
+}
+
+.forceDark {
+  .hasSub {
+    a,
+    button {
+      @apply text-black;
+
+      .icon {
+        @apply text-black;
+      }
+
+      &:hover {
+        @apply text-primary-accent;
+
+        .icon {
+          @apply text-primary-accent;
+        }
+      }
+    }
+  }
+
+  .noSub {
+    span {
+      @apply text-black;
+
+      &:after {
+        @apply bg-black !important;
+      }
+    }
+
+    &:hover {
+      span {
+        @apply text-primary-accent !important;
+      }
+    }
+  }
+}
+
+.mainNav {
+  @apply relative z-10 flex items-center justify-between w-full gap-6;
+
+  @screen hd {
+    @apply gap-12;
+  }
+
+  .mainNavInner {
+    @apply relative z-10 flex items-center gap-6;
+  }
+}
+
+.hideHeader {
+  .subNav {
+    @apply top-[calc(var(--header-height)+var(--header-bar-height))];
+  }
+}
+
+.subNav {
+  @apply fixed z-0 top-[calc(var(--header-height)+var(--header-bar-height))] left-0 w-full h-auto opacity-0 bg-white transition-[opacity,top] duration-300 pxContent;
+
+  .subNavAniCont {
+    @apply border-t border-solid border-transparent;
+  }
+
+  &.subNavActive {
+    @apply opacity-100;
+  }
+
+  .subNavInner {
+    @apply relative flex gap-8 py-12 max-w-content mx-auto;
+  }
+
+  .subNavClose {
+    @apply absolute bottom-0 right-0 flexCenter bg-black px-4;
+
+    .closeIcon {
+      @apply w-[7px] h-[7px] text-white;
+    }
+
+    .closeLabel {
+      @apply text-white text-[14px];
+    }
+
+    &:hover,
+    &:focus-visible {
+      @apply bg-gray-dark;
+
+      .icon {
+        @apply text-white;
+      }
+    }
+  }
+
+  .subNavHead {
+    @apply flex flex-col gap-2 w-[400px] max-w-[30%];
+
+    .subNavHeadTitle {
+      @apply h3 text-white;
+    }
+
+    .subNavHeadDescription {
+      @apply text-[14px] leading-6 text-white;
+    }
+  }
+
+  .subNavBody {
+    @apply relative flex flex-wrap ml-8 w-full gap-y-12 gap-x-5;
+  }
+}
+
+.highlightWrap {
+  @apply flex items-start gap-8;
+
+  .highlightThumb {
+    @apply aspect-[389/210] max-w-[390px] min-w-[390px];
+
+    img {
+      @apply whFull object-cover;
+    }
+  }
+
+  .highlightContent {
+    @apply max-w-[320px];
+
+    &.hasDesc {
+      @apply min-w-[320px];
+    }
+
+    .highlightTitle {
+      @apply text-[32px] leading-tight mb-2;
+    }
+
+    .highlightDescription {
+      @apply text-gray-dark bodyTextSm mb-6;
+    }
+
+    .highlightAction {
+      @apply block;
+    }
+  }
+}

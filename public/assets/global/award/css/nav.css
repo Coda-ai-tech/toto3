@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) {
+  .panels__linksItem.-with-margin{
+    margin-bottom: 30px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .panels__linksItem.-with-margin {
+    margin-top: 20px !important;
+  }
+}

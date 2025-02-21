@@ -1,0 +1,50 @@
+@use '_components.scss';
+
+.contactUs {
+  @apply pb-0 !important;
+
+  .inner {
+    @screen hd {
+      @apply relative h-[calc(100dvh-var(--header-height))];
+    }
+
+    .visual {
+      @screen md {
+        @apply h-[300px];
+      }
+
+      @screen hd {
+        @apply relative z-0 w-2/3 h-full;
+      }
+    }
+
+    .content {
+      @screen hd {
+        @apply absolute z-10 yCenter xCenter bg-white ml-[20%];
+        @apply w-[800px] max-w-[60%];
+      }
+
+      .contentInner {
+        @apply pxContent py-10;
+
+        @screen md {
+          @apply py-14 px-10;
+        }
+      }
+
+      .head {
+        .title {
+          @apply h2 font-light mb-4;
+        }
+
+        .subTitle {
+          @apply font-bold mb-2;
+        }
+
+        .description {
+          @apply mb-4;
+        }
+      }
+    }
+  }
+}

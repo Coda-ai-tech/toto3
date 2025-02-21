@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/collections/washbasin", {data:[{}],fetch:{},mutations:[]});

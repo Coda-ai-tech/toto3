@@ -1,0 +1,126 @@
+@use './_components.scss';
+
+.technologyDetail {
+  @apply pb-0 !important;
+
+  .inner {
+    @apply max-w-content mx-auto;
+  }
+
+  .contentWrap {
+    @apply whFull pxContent;
+
+    .header {
+      @apply flex flex-col gap-4 items-start justify-between mb-8;
+
+      @screen md {
+        @apply flex-row items-end;
+      }
+
+      hgroup {
+        @apply max-w-full w-full;
+
+        @screen md {
+          @apply max-w-[70%];
+        }
+      }
+
+      .titleIcon {
+        @apply w-12 h-12;
+
+        img {
+          @apply whFull;
+        }
+      }
+
+      .titleTxt {
+        @apply relative text-center;
+
+        @screen md {
+          @apply text-left;
+        }
+      }
+
+      .title {
+        @apply h2 font-light flex flex-col items-center gap-4 leading-none;
+
+        @screen md {
+          @apply flex-row;
+        }
+
+        + .description {
+          @apply mt-4;
+        }
+      }
+
+      .description {
+        @apply h5 font-bold leading-[140%];
+      }
+    }
+
+    .share {
+      @apply w-full flex gap-2 items-center justify-center;
+
+      @screen md {
+        @apply w-max items-center;
+      }
+
+      .shareLabel {
+        @apply text-[12px] uppercase font-semibold;
+      }
+    }
+
+    .detailContext {
+      @apply pb-[var(--section-spacing)];
+
+      .detailContextItem {
+        @apply flex gap-8 flex-col;
+
+        &.rowItem {
+          @apply flex-col;
+
+          @screen md {
+            @apply flex-row;
+          }
+
+          .itemContextWrap {
+            @apply relative flex-1;
+
+            .itemContext {
+              @apply max-w-[700px];
+              @apply sticky top-[calc(var(--header-height)+var(--header-bar-height)+20px)];
+            }
+          }
+
+          .itemImage {
+            @apply flex-1 flex flex-col gap-2;
+          }
+        }
+      }
+
+      .itemContext {
+        @apply relative;
+      }
+
+      .itemImage {
+        img {
+          @apply w-full h-auto;
+        }
+      }
+    }
+  }
+
+  .youtubeWrap {
+    @apply bg-gray-dark;
+    @apply py-[var(--section-spacing)];
+
+    .inner {
+      @apply flexCenter pxContent;
+
+      iframe {
+        @apply aspect-[1088/612] w-[1088px] max-w-[100%];
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+}

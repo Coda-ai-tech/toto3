@@ -1,0 +1,308 @@
+@use '_components.scss';
+
+.location {
+  @apply whFull pxContent;
+
+  .inner {
+    @apply max-w-content mx-auto;
+  }
+
+  .sectionTitle {
+    @apply h2 font-light;
+  }
+
+  .head {
+    @apply mb-4;
+  }
+
+  .body {
+    @apply relative;
+  }
+
+  .categoryWrap {
+    @apply mb-4 max-w-full overflow-x-scroll;
+
+    @screen hd {
+      @apply absolute top-0 right-0 -translate-y-[calc(100%+16px)] mb-0;
+    }
+
+    .categoryInner {
+      @apply relative flex gap-2;
+
+      .categoryItem {
+        @apply border border-solid border-black h-[36px] px-4 transition-colors;
+
+        span {
+          @apply block w-max leading-none uppercase font-light;
+        }
+
+        &.active,
+        &:hover {
+          @apply bg-black text-white;
+        }
+      }
+    }
+  }
+
+  .locationList {
+    @apply flex;
+
+    @screen hd {
+      @apply h-[80dvh] min-h-[600px] max-h-[1080px];
+    }
+
+    .left {
+      @apply w-full;
+
+      @screen hd {
+        @apply w-4/12;
+      }
+    }
+
+    .right {
+      @apply hidden w-8/12 pl-[30px];
+
+      @screen hd {
+        @apply block;
+      }
+
+      .mapWrap {
+        @apply whFull bg-gray-light;
+      }
+
+      .map {
+        @apply whFull;
+      }
+    }
+  }
+
+  .dealerList {
+    @apply bg-gray-lightest min-h-[60vh];
+
+    @screen hd {
+      @apply h-[calc(100%-180px)] min-h-0;
+    }
+  }
+
+  .dealerHead {
+    .dealerHeadInner {
+      @apply flex items-start;
+
+      .thumb {
+        @apply aspect-[120/90] w-[120px] min-w-[120px];
+
+        @screen md {
+          @apply w-[160px];
+        }
+
+        @screen hd {
+          @apply w-[120px] min-w-[120px];
+        }
+
+        img {
+          @apply whFull object-cover;
+        }
+      }
+
+      .content {
+        @apply relative pl-5 w-full min-h-[90px];
+
+        .dealerName {
+          @apply text-[1rem] leading-[140%] font-semibold;
+
+          @screen md {
+            @apply text-[1.125rem];
+          }
+        }
+
+        .dealerLocation {
+          @apply text-[12px] font-light;
+        }
+
+        .statusIndicator {
+          @apply flex gap-2 items-center justify-center bg-black text-white px-3 py-1 rounded-full mt-2 w-max;
+
+          @screen md {
+            @apply absolute bottom-0 right-0 mt-0;
+          }
+
+          &.active {
+            @apply bg-gray-300 text-white;
+
+            .indicatorIcon {
+              @apply rotate-180;
+            }
+          }
+
+          .indicatorLabel {
+            @apply text-[13px] font-normal leading-none;
+          }
+
+          .indicatorIcon {
+            @apply w-2 h-2 min-w-2;
+          }
+        }
+      }
+    }
+
+    &.active {
+      .dealerHeadInner {
+        .content {
+          .dealerName {
+            @apply text-primary-light;
+          }
+        }
+      }
+    }
+  }
+
+  .base {
+    @apply py-6;
+
+    button {
+      &:focus {
+        @apply outline-none !important;
+      }
+
+      &:focus-within {
+        @screen md {
+          @apply outline-2 outline-black outline-dotted !important;
+        }
+      }
+    }
+
+    + .base {
+      @apply border-t border-solid border-gray-light;
+    }
+  }
+
+  .listWrap {
+    @apply h-full;
+
+    .listInner {
+      @apply relative px-4;
+
+      > div {
+        @apply px-0 !important;
+      }
+
+      button {
+        &:focus {
+          @apply outline-transparent;
+        }
+
+        &:focus-visible {
+          @apply outline-black;
+        }
+
+        &[data-open='true'] {
+          @apply pointer-events-none;
+        }
+      }
+
+      h4 > button {
+        @apply py-0 !important;
+      }
+    }
+  }
+
+  .dealerDetail {
+    @apply flex flex-col gap-2 mt-4;
+
+    .detailItem {
+      @apply flex items-start gap-3;
+
+      .itemIcon {
+        @apply w-3 h-3 min-w-3 text-black mt-[4px];
+
+        &.iconLg {
+          @apply w-[14px] h-[14px] min-w-[14px] mr-[-1px];
+        }
+      }
+
+      .itemValue {
+        @apply leading-normal text-sm;
+
+        &.valueTel {
+          @apply font-semibold;
+        }
+      }
+
+      .openMapCta {
+        @apply flex items-start gap-3 text-left;
+      }
+    }
+  }
+}
+
+.virtualTourBanner {
+  @apply mt-[30px];
+
+  .virtualTourBannerInner {
+    @apply flex flex-col gap-4;
+
+    @screen md {
+      @apply flex-row;
+    }
+
+    .thumb {
+      @apply w-full h-auto min-w-[140px];
+
+      @screen md {
+        @apply w-[200px];
+      }
+
+      @screen hd {
+        @apply w-[140px] min-w-[140px];
+      }
+
+      @screen xxl {
+        @apply w-[250px] h-[150px] min-w-[250px];
+      }
+
+      img {
+        @apply whFull object-cover;
+      }
+    }
+
+    .content {
+      @apply flex flex-col gap-4 justify-between items-center;
+
+      @screen md {
+        @apply items-start gap-2;
+      }
+
+      .subTitle {
+        @apply text-[12px] font-semibold uppercase leading-none;
+      }
+
+      .title {
+        @apply font-light text-[24px] leading-none text-center;
+
+        @screen md {
+          @apply text-[24px] text-left;
+        }
+
+        @screen hd {
+          @apply text-[22px];
+        }
+
+        @screen xxl {
+          @apply text-[26px];
+        }
+      }
+    }
+  }
+}
+
+.mapPopup {
+  @apply w-[800px] h-[600px] max-w-full max-h-[80vh];
+
+  .mapWrap {
+    @apply whFull;
+
+    iframe {
+      @apply whFull;
+    }
+  }
+}

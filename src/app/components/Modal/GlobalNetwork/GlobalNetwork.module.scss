@@ -1,0 +1,55 @@
+@use '_components.scss';
+
+.globalNetworkModal {
+  @apply h-full overflow-scroll;
+
+  @screen md {
+    @apply h-auto;
+  }
+
+  .inner {
+    @apply relative flex;
+
+    .left {
+      @apply hidden w-[390px];
+
+      img {
+        @apply whFull object-cover;
+      }
+
+      @screen lg {
+        @apply block;
+      }
+    }
+
+    .right {
+      .content {
+        @apply py-14 px-10 max-w-[680px] whFull flex flex-col justify-center;
+
+        .title {
+          @apply h5 mb-8;
+        }
+
+        .network {
+          @apply flex flex-wrap gap-10 gap-y-10 justify-start;
+
+          .region {
+            @apply w-[160px];
+
+            .regionInner {
+              @apply relative;
+            }
+
+            .regionTitle {
+              @apply font-semibold text-sm leading-none mb-4;
+            }
+
+            ul {
+              @apply flex flex-col gap-1;
+            }
+          }
+        }
+      }
+    }
+  }
+}

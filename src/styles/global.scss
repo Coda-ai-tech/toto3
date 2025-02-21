@@ -1,0 +1,274 @@
+@forward './fonts';
+@forward './components';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@mixin root-font-var {
+  --font-poppins: 'Poppins';
+  --font-noto-sans-tc: 'Noto Sans TC';
+
+  // Default fonts
+  --font-default: var(--font-poppins), 'Microsoft JhengHei', '微軟正黑體', 'Helvetica', sans-serif;
+  --font-title: var(--font-poppins), 'Microsoft JhengHei', '微軟正黑體', 'Helvetica', sans-serif;
+
+  // Set Specific Lang
+  :lang(zh),
+  :lang(zh-hant) {
+    --font-default: var(--font-noto-sans-tc), 'Microsoft JhengHei', '微軟正黑體', 'Helvetica', sans-serif;
+    --font-title: var(--font-poppins), var(--font-noto-sans-tc), 'Microsoft JhengHei', '微軟正黑體', 'Helvetica',
+      sans-serif;
+  }
+}
+
+@mixin root-spacing {
+  --main-spacing-x-sm: 12px;
+  --main-spacing-x: 30px;
+  --section-spacing: 5.625rem;
+}
+
+:root {
+  @include root-font-var();
+  @include root-spacing();
+
+  --background: #ffffff;
+  --foreground: #171717;
+  --header-height: 60px;
+  --header-bar-height: 30px;
+  --border-radius: 18px;
+
+  @screen lg {
+    --header-height: 80px;
+    --header-bar-height: 30px;
+  }
+}
+
+// Dark mode Var
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer base {
+  * {
+    scroll-behavior: unset;
+    overscroll-behavior: none;
+    word-wrap: break-word;
+  }
+
+  html {
+    overscroll-behavior: none;
+  }
+
+  html,
+  body {
+    @apply text-black fontBody text-base antialiased;
+    touch-action: pan-x pan-y;
+  }
+
+  html {
+    @apply min-w-[300px];
+  }
+
+  main {
+    @apply w-full min-h-full max-w-wrapper mx-auto relative z-main;
+  }
+
+  pre {
+    // @apply fixed z-[99999999] bottom-0 right-0;
+    @apply overflow-scroll bg-slate-900 text-white w-[500px] max-w-full h-[calc(100vh-180px)];
+  }
+
+  h1 {
+    @apply h1;
+  }
+
+  h2 {
+    @apply h2;
+  }
+
+  h3 {
+    @apply h3;
+  }
+
+  h4 {
+    @apply h4;
+  }
+
+  h5 {
+    @apply h5;
+  }
+
+  h6 {
+    @apply h6;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    + p {
+      @apply pt-[1em];
+    }
+  }
+
+  a,
+  button {
+    @screen md {
+      &:focus-visible {
+        @apply outline-dotted outline-offset-1 outline-black outline-2;
+      }
+    }
+  }
+
+  [class*='mainWrapper'] {
+    [class*='topBreadcrumbs'] {
+      & + section {
+        &:not([class*='contactUs']) {
+          @apply pt-[calc(var(--section-spacing)*1.8)] !important;
+        }
+      }
+    }
+
+    > section {
+      &:not(.noPadding) {
+        @apply relative py-[calc(var(--section-spacing)/2)];
+
+        @screen md {
+          @apply py-[calc(var(--section-spacing)/1.7)];
+        }
+
+        @screen xl {
+          @apply py-[var(--section-spacing)];
+        }
+      }
+
+      + section:not(.noPadding) {
+        @apply py-[calc(var(--section-spacing)/2)];
+
+        @screen md {
+          @apply py-[calc(var(--section-spacing)/1.7)];
+        }
+
+        @screen xl {
+          @apply py-[var(--section-spacing)];
+        }
+      }
+    }
+  }
+}
+
+.topBreadcrumbs {
+  @apply pxContent w-full;
+  @apply absolute z-10 top-[calc(var(--header-height)+var(--header-bar-height))];
+
+  .topBreadcrumbsInner {
+    @apply max-w-content mx-auto pt-4;
+  }
+}
+
+.bottomBreadcrumbs {
+  @apply pxContent;
+
+  .bottomBreadcrumbsInner {
+    @apply flex flex-col justify-center items-center max-w-full gap-2 mx-auto border-t border-solid border-gray-light py-[20px];
+
+    @screen md {
+      @apply flex flex-row gap-0 justify-between items-center max-w-content mx-auto py-[20px];
+    }
+  }
+}
+
+.noModule {
+  @apply pxContent;
+
+  .noModuleLabel {
+    @apply max-w-content mx-auto text-center;
+
+    span {
+      @apply bg-slate-50 rounded-full py-2 px-10;
+
+      mark {
+        @apply font-bold text-red-700;
+      }
+    }
+  }
+}
+
+.notFound {
+  @apply w-full h-[50vh] min-h-[500px] max-h-[840px] pt-[var(--header-height)] flexCenter text-center text-primary-dark;
+
+  @screen md {
+    @apply h-[100vh] min-h-[800px] max-h-[1200px];
+  }
+
+  .notFoundInner {
+    @apply relative whFull;
+
+    .notFoundText {
+      @apply absolute z-10 xCenter top-[50%] w-max max-w-full px-10;
+
+      .notFoundTitle {
+        @apply fontTitle font-thin text-[42px] mb-4;
+
+        @screen md {
+          @apply text-[62px];
+        }
+      }
+
+      .notFoundAction {
+        @apply mt-4;
+      }
+    }
+
+    .notfoundImg {
+      @apply absolute z-0 top-0 left-0 whFull;
+
+      img {
+        @apply whFull object-cover;
+      }
+    }
+  }
+}
+
+.skipToMain {
+  @apply fixed z-skipToMain top-0 left-[-9999px] opacity-0;
+
+  &:focus-visible {
+    @apply left-0 opacity-100 w-full bg-black text-white py-2;
+  }
+}
+
+.richText {
+  img {
+    @include mixin.preventDrag();
+  }
+}
+
+mark {
+  background: linear-gradient(
+    0deg,
+    rgba(225, 225, 225, 0) 0%,
+    rgba(225, 225, 225, 0) 20%,
+    rgba(225, 225, 225, 1) 20%,
+    rgba(225, 225, 225, 1) 31%,
+    rgba(225, 225, 225, 0) 31%
+  );
+}
+
+.displayDesktop {
+  @apply hidden;
+
+  @screen lg {
+    @apply block;
+  }
+}
+
+.displayMobile {
+  @screen lg {
+    @apply hidden;
+  }
+}

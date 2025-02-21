@@ -1,0 +1,9 @@
+.u-area-top .top-mainslide .mainslide-area .slick-dots,
+.showcase-area .area-main .main-slide .slick-dots,
+.u-area-top .index-showcase .slick-dots {width: auto;}
+.u-area-top .top-mainslide .mainslide-area .slick-dots li,
+.showcase-area .area-main .main-slide .slick-dots li,
+.u-area-top .index-showcase .slick-dots li {margin:0;width:auto;}
+.u-area-top .top-mainslide .mainslide-area .slick-dots li button,
+.showcase-area .area-main .main-slide .slick-dots li button,
+.u-area-top .index-showcase .slick-dots li button {padding:0;}

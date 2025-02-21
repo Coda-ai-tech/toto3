@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/wx/function", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,104 @@
+@use '_components.scss';
+
+[class*='scrollingIntro'] {
+  + .highlightBanner {
+    @apply pt-0 !important;
+  }
+}
+
+.highlightBanner {
+  @apply relative whFull pxContent opacity-0 transition-opacity duration-1000;
+
+  &.hello {
+    @apply opacity-100;
+  }
+
+  .inner {
+    @apply relative z-10 max-w-content mx-auto flex flex-col gap-[5px] h-auto;
+
+    @screen md {
+      @apply h-[540px] flex-row gap-0;
+    }
+
+    @screen lg {
+      @apply h-[720px];
+    }
+
+    .left {
+      @apply flex-1 h-full;
+    }
+
+    .right {
+      @apply flex-1 flex flex-col h-full gap-[5px];
+
+      @screen md {
+        @apply gap-0;
+      }
+    }
+  }
+
+  &:has(+ section[class*='latestOffer']) {
+    @apply pb-0 !important;
+
+    &:after {
+      @apply content-[''] absolute z-0 top-1/2 left-0 w-full h-[50%] bg-gray-lightest;
+    }
+  }
+}
+
+.bannerItem {
+  @apply w-full h-[200px] overflow-hidden;
+
+  @screen md {
+    @apply whFull;
+  }
+
+  .itemInner {
+    @apply relative whFull flex items-end justify-center;
+
+    .itemContent {
+      @apply relative z-[1] mb-10 flex flex-col items-center gap-2 px-4;
+
+      .itemTitle {
+        @apply h3 text-white text-center;
+        text-shadow: 0 0 3em black;
+      }
+
+      .itemAction {
+        @apply relative;
+      }
+    }
+
+    .itemBg {
+      @apply absolute z-0 whFull top-0 left-0;
+
+      .itemBgInner {
+        @apply whFull relative;
+
+        img {
+          @apply scale-100 transition-transform duration-1000;
+        }
+
+        &:before {
+          @apply content-[''] absolute top-0 left-0 whFull z-10 transition-opacity duration-1000;
+          @apply bg-gradient-to-t to-[rgba(0,0,0,0.5)] from-[rgba(0,0,0,0.8)] to-[40%];
+        }
+      }
+    }
+  }
+
+  &:hover {
+    .itemInner {
+      .itemBg {
+        .itemBgInner {
+          img {
+            @apply scale-110 duration-[10s];
+          }
+          &:before {
+            @apply opacity-30;
+          }
+        }
+      }
+    }
+  }
+}

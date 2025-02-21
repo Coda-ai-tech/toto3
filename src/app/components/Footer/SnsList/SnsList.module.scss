@@ -1,0 +1,25 @@
+@use '_components.scss';
+
+.snsList {
+  .inner {
+    @apply flex gap-3;
+  }
+
+  .snsItem {
+    @apply flexCenter w-[26px] aspect-square bg-black rounded-full;
+
+    .icon {
+      @apply w-[12px] h-[12px];
+
+      img {
+        @apply whFull max-h-full;
+        filter: brightness(0) invert(1);
+      }
+    }
+
+    &:hover,
+    &:focus-visible {
+      @apply bg-gray-dark;
+    }
+  }
+}

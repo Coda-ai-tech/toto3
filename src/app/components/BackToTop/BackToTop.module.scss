@@ -1,0 +1,33 @@
+@use '_components.scss';
+
+.backToTop {
+  @apply bg-transparent flexCenter gap-3 h-[40px] w-full transition-colors;
+
+  @screen md {
+    @apply w-[100px] bg-black;
+  }
+
+  .icon,
+  .label {
+    @apply text-black;
+
+    @screen md {
+      @apply text-white;
+    }
+  }
+
+  .icon {
+    @apply w-2 h-2 rotate-180;
+  }
+
+  .label {
+    @apply text-sm uppercase;
+  }
+
+  &:hover,
+  &:focus-visible {
+    @screen md {
+      @apply bg-gray-dark;
+    }
+  }
+}

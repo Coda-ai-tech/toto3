@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "title": "TOTO Hong Kong",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb":[
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "HeroBanner",
+      "moduleOption":null,
+      "content": {
+        "items":[
+          {
+            "subTitle":"NEOREST",
+            "title":"PURE LUXURY",
+            "description":"Visionary technology. Exquisitely designed for comfort and well-being.",
+            "media":{
+              "type": "video",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/neorest.mp4",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": "/assets/img/content/hero-banner/neorest.webp",
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "subTitle":null,
+            "title":null,
+            "description":null,
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/05.webp",
+                "mobile": "/assets/img/content/hero-banner/05_mob.webp"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":null
+          },
+          {
+            "subTitle":"INSPIRATION",
+            "title":"TO CREATE A CULTURE OF COMFORTABLE HEALTHY LIVING",
+            "description":"Since our founding, we have continuously pursued innovations that offer greater wellness and comfort to daily life.",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/01.webp",
+                "mobile": "/assets/img/content/hero-banner/01_mob.webp"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "subTitle":"TECHNOLOGY",
+            "title":"TORNADO FLUSHING",
+            "description":"The powerful toilet flushing system",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/02.webp",
+                "mobile": "/assets/img/content/hero-banner/02_mob.webp"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "subTitle":null,
+            "title":"LET'S WASH WITH TOTO WASHLET",
+            "description":"Always innovating to Spread a Culture of Everyday Comfort and Cleanliness",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/03.webp",
+                "mobile": "/assets/img/content/hero-banner/03_mob.webp"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "subTitle":"CLEAN SYNERGY",
+            "title":"TOTO CLEANOVATION",
+            "description":"TOTO innovation brings a new world of clean to life, enriching every moment of every day.",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/04.webp",
+                "mobile": "/assets/img/content/hero-banner/04_mob.webp"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/cleanovation"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "module": "ScrollingIntro",
+      "moduleOption":null,
+      "content": {
+        "title":"Toward a <mark>Dynamic</mark>, <mark>Vibrant</mark>, and <mark>Excellent</mark> TOTO",
+        "subTitle":"OUR MISSION",
+        "description":"This term expresses the intention of the most important matters to be implemented in the medium and long term for the sustainable growth of the TOTO Group.",
+        "cta":[
+          {
+            "label": "About TOTO",
+            "variant": "contain",
+            "color": "primary",
+            "icon": null,
+            "link": {
+              "type": "routeLink",
+              "href": "/en/about-toto"
+            }
+          },
+          {
+            "label": "Brand Purpose",
+            "variant": "default",
+            "color": "primary",
+            "icon": null,
+            "link": {
+              "type": "routeLink",
+              "href": "/en/purpose"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "module": "HighlightBanner",
+      "moduleOption":null,
+      "content": {
+        "items":[
+          {
+            "title":"VIRTUAL SHOWROOM",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/highlight-banner/01.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Discover More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "https://my.matterport.com/show/?m=DGdFyAfyJdY"
+                }
+              }
+            ]
+          },
+          {
+            "title":"TECHNOLOGY",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/highlight-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Discover More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/technology"
+                }
+              }
+            ]
+          },
+          {
+            "title":"CATALOGUES",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/highlight-banner/03.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Discover More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/catalogue"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "module": "LatestOffer",
+      "moduleOption":null,
+      "content": {
+        "title":"LATEST OFFER",
+        "items":[
+          {
+            "title":"TOTO Washlet Winter Promotion 2024",
+            "description":"You can enjoy TOTO’s Washlet Package Promotion from now on by purchasing the designated models. You must not miss this promotion! ",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/latest-offer/01.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Read More",
+                "variant": "default",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "title":"TOTO Japan Classic 2024",
+            "description":"TOTO LTD. (Headquarters: Kitakyushu City, Fukuoka Prefecture; President: Noriaki Kiyota) is pleased to announce its continued sponsorship this year of the Japan Classic,",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/latest-offer/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Read More",
+                "variant": "default",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "title":"TOTO Washlet Summer Promotion 2024",
+            "description":"You can enjoy TOTO’s Washlet Package Promotion from now on by purchasing the designated models. You must not miss this promotion! ",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/latest-offer/03.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Read More",
+                "variant": "default",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "title":"TOTO Summer Package Promotion 2024",
+            "description":"You can enjoy TOTO’s Summer Promotion from now on by purchasing the designated models. You must not miss this promotion! ",
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/latest-offer/04.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta":[
+              {
+                "label": "Read More",
+                "variant": "default",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "module": "ProductBanner",
+      "moduleOption":null,
+      "content": {
+        "title":"PRODUCTS",
+        "items":[
+          {
+            "label":"NEOREST",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/01.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"TOUCHLESS FAUCET",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"WASHLET+",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/03.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"WASHLET",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/04.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"FLOTATION TUB",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/05.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"SHOWER",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/06.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "module": "ContactUsBanner",
+      "moduleOption":null,
+      "content": {
+        "title":"Looking for Something else?",
+        "description":"Should you not find what you seek, we invite you to utilize our comprehensive search and filtering options.",
+        "media":{
+          "type": "image",
+          "src": {
+            "desktop": "/assets/img/content/contact-us-banner/01.webp",
+            "mobile": null
+          },
+          "alt": "",
+          "poster": null,
+          "mediaCaption": "This is media caption."
+        },
+        "items":[
+          {
+            "label":"Washlet",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            }
+          },
+          {
+            "label":"Lavatory",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            }
+          },
+          {
+            "label":"Bathtub",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "module": "OtherLink",
+      "moduleOption":null,
+      "content": {
+        "items":[
+          {
+            "title":"TOTO MUSEUM",
+            "cta":[
+              {
+                "label": "Virtual Museum",
+                "variant": "default",
+                "color": "primary",
+                "icon": {
+                  "name":"arrowExternal",
+                  "position":"right"
+                },
+                "link": {
+                  "type": "newWindow",
+                  "href": "https://jp.toto.com/pages/knowledge/visit/museum/en/vr/"
+                }
+              }
+            ],
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/other-link/01.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "title":"SHOWROOM",
+            "cta":[
+              {
+                "label": "VIRTUAL SHOWROOM",
+                "variant": "default",
+                "color": "primary",
+                "icon": {
+                  "name":"arrowExternal",
+                  "position":"right"
+                },
+                "link": {
+                  "type": "newWindow",
+                  "href": "https://my.matterport.com/show/?m=DGdFyAfyJdY"
+                }
+              }
+            ],
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/other-link/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "title":"AUTHORIZED DEALERS",
+            "cta":[
+              {
+                "label": "LOCATION",
+                "variant": "default",
+                "color": "primary",
+                "icon": {
+                  "name":"arrowRightChevron",
+                  "position":"right"
+                },
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/location"
+                }
+              }
+            ],
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/other-link/03.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

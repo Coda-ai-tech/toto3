@@ -1,0 +1,21 @@
+<svg id="design_philosophy_logo" xmlns="http://www.w3.org/2000/svg" width="944" height="119" viewBox="0 0 944 119">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 36.876px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Neuzeit Grotesk";
+      }
+
+      .cls-2 {
+        font-size: 23.047px;
+      }
+    </style>
+  </defs>
+  <text id="TOTO_DESIGN_PHILOSOPHY" data-name="TOTO DESIGN PHILOSOPHY" class="cls-1" transform="translate(471.666 55.095) scale(2.169)">TOTO DESIGN PHILOSOPHY</text>
+  <text id="Understated_Presence" data-name="Understated Presence" class="cls-2" transform="translate(230.666 118.095) scale(2.169)">Understated Presence</text>
+</svg>

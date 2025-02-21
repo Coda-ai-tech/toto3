@@ -1,0 +1,226 @@
+@use './_components.scss';
+
+.productList {
+  @apply whFull pxContent;
+  @apply pb-0 !important;
+
+  .inner {
+    @apply max-w-content mx-auto;
+  }
+
+  .productFilter {
+    .filterUtils {
+      @apply flex justify-between items-center py-4;
+      @apply border-b border-solid border-black;
+
+      .filterController {
+        @apply flexCenter gap-5;
+
+        button {
+          &:hover {
+            .controlIcon,
+            .controlLabel {
+              @apply text-primary-accent;
+            }
+          }
+        }
+
+        .controlItem {
+          @apply relative flex items-center gap-2 transition-opacity;
+
+          .controlIcon {
+            @apply w-3 h-3 text-black;
+          }
+
+          .controlLabel {
+            @apply font-medium text-sm uppercase;
+          }
+
+          &.hasAction {
+            @apply pointer-events-none opacity-30;
+
+            &.active {
+              @apply pointer-events-auto opacity-100;
+            }
+          }
+
+          + .controlItem {
+            &:before {
+              @apply content-[''] w-[1px] h-[14px] bg-black absolute yCenter left-[-10px];
+            }
+          }
+        }
+      }
+    }
+
+    .filterInner {
+      @apply relative w-full h-full flex;
+
+      .categories {
+        @apply w-2/12 py-[30px] px-4 text-sm;
+      }
+
+      .subCategory {
+        @apply pl-4;
+      }
+
+      .resultWrap {
+        @apply w-10/12 h-auto;
+
+        .resultInner {
+          @apply w-[calc(100%-30px)] min-h-[750px] bg-[#FCFCFC] ml-[30px];
+        }
+      }
+    }
+  }
+}
+
+.searchWrap {
+  .search {
+    @apply flex;
+
+    input {
+      @apply h-[40px] bg-gray-lightest border border-solid border-gray-light border-r-0 px-4 text-sm w-[200px];
+
+      &:focus-visible {
+        @apply outline-dotted outline-black outline-2;
+      }
+    }
+
+    .searchButton {
+      @apply w-[40px] flexCenter bg-black;
+
+      .searchIcon {
+        @apply w-5 h-5 text-white;
+      }
+
+      &:hover,
+      &:focus-visible {
+        @apply bg-gray-dark;
+      }
+    }
+  }
+}
+
+.categories {
+  @apply flex flex-col items-start gap-[6px];
+
+  .categoryGroup {
+    @apply relative w-full;
+  }
+}
+
+.toggleSubCategory {
+  @apply absolute top-0 right-0 w-6 h-6 flexCenter opacity-30 transition-all rounded-full;
+
+  .toggleIcon {
+    @apply w-[8px] h-[10px] text-gray-dark;
+  }
+
+  &.active {
+    @apply rotate-180 opacity-100;
+  }
+
+  &:hover,
+  &:focus-visible {
+    @apply bg-gray-lightest opacity-100;
+
+    .toggleIcon {
+      @apply text-black;
+    }
+  }
+}
+
+.categoryItem {
+  @apply w-full;
+
+  .selectLabel {
+    @apply text-base;
+  }
+
+  .selectCheck {
+    @apply w-5 h-5 rounded-full;
+  }
+}
+
+.subCategoryItem {
+  .selectLabel {
+    @apply text-sm;
+  }
+
+  .selectCheck {
+    @apply w-4 h-4 rounded-[4px];
+  }
+}
+
+.subCategory {
+  @apply overflow-hidden;
+
+  .subCategoryInner {
+    @apply flex flex-col gap-[2px] items-start mt-2 pb-4;
+  }
+}
+
+.categoryItem,
+.subCategoryItem {
+  @apply flex items-center justify-start gap-2 py-1 leading-none;
+
+  .selectCheck {
+    @apply border border-solid border-gray-light flexCenter transition-colors;
+
+    .checkIcon {
+      @apply w-2 h-2 text-white opacity-0;
+    }
+  }
+
+  .selectLabel {
+    @apply text-left leading-none;
+  }
+
+  &.active {
+    .selectCheck {
+      @apply bg-black border-black;
+
+      .checkIcon {
+        @apply opacity-100;
+      }
+    }
+
+    .selectLabel {
+      @apply font-medium;
+    }
+
+    &:hover,
+    &:focus-visible {
+      .selectCheck {
+        @apply bg-black;
+      }
+    }
+  }
+
+  &:hover,
+  &:focus-visible {
+    @apply text-primary-accent;
+
+    .selectCheck {
+      @apply bg-gray-lightest;
+    }
+  }
+}
+
+.resultArea,
+.resultPagination {
+  @apply p-[30px];
+}
+
+.resultArea {
+  @apply h-full;
+}
+
+.loadingSkeleton {
+  @apply flexCenter h-auto;
+
+  .loadingSkeletonInner {
+    @apply whFull relative;
+  }
+}

@@ -1,0 +1,103 @@
+@use '_components.scss';
+
+.contactUsBanner {
+  @apply whFull pxContent;
+
+  &:has(+ [class*='otherLink']) {
+    @apply pb-0 !important;
+  }
+
+  .inner {
+    @apply max-w-content mx-auto flex flex-col h-full;
+
+    @screen lg {
+      @apply flex-row;
+    }
+  }
+
+  .visual {
+    @apply relative w-full h-[200px] overflow-hidden;
+
+    img {
+      @apply whFull object-cover;
+    }
+
+    @screen lg {
+      @apply w-6/12 h-auto;
+    }
+
+    @screen xl {
+      @apply relative w-7/12;
+    }
+
+    &:before {
+      @apply content-[''] absolute z-10 top-0 left-0 whFull;
+      @apply bg-gradient-to-t to-[rgba(0,0,0,0.2)] from-[rgba(0,0,0,1)] to-[30%];
+
+      @screen lg {
+        @apply bg-gradient-to-l to-[rgba(0,0,0,0.2)] from-[rgba(0,0,0,1)] to-[30%];
+      }
+    }
+  }
+
+  .content {
+    @apply w-full bg-black text-white flex items-center py-10;
+
+    @screen lg {
+      @apply w-6/12 min-h-[720px];
+    }
+
+    @screen xl {
+      @apply w-5/12;
+    }
+
+    .contentInner {
+      @apply pxContent w-full;
+
+      @screen lg {
+        @apply px-10;
+      }
+
+      .head {
+        @apply w-[500px] max-w-full;
+      }
+
+      .title {
+        @apply h3 font-light;
+
+        @screen xl {
+          @apply h2 font-light;
+        }
+      }
+
+      .description {
+        @apply mt-4;
+      }
+
+      .suggestFilter {
+        @apply flex flex-wrap gap-3 mt-5;
+
+        .filterItem {
+          @apply bg-gray-light text-black py-2 px-5 leading-none rounded-full text-sm uppercase transition-colors font-medium;
+
+          &:hover,
+          &:focus-visible {
+            @apply bg-primary-accent text-white;
+          }
+
+          &:focus-visible {
+            @apply outline-white;
+          }
+        }
+      }
+
+      .contactUs {
+        @apply mt-10;
+
+        .formTitle {
+          @apply font-semibold mb-2 uppercase;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@use '_components.scss';
+
+.breadcrumbs {
+  @apply relative text-[12px] flex gap-3 leading-none;
+
+  @screen md {
+    @apply text-[14px];
+  }
+
+  .separator {
+    @apply ml-3;
+  }
+
+  &.default {
+    @apply text-black;
+  }
+
+  &.overlay {
+    @apply text-white;
+  }
+
+  > div {
+    &:last-child {
+      @apply font-semibold pointer-events-none;
+      @include mixin.preventDrag();
+    }
+  }
+}

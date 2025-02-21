@@ -1,0 +1,9 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript", "plugin:jsx-a11y/recommended"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unsafe-function-type": "off",
+    "@next/next/no-img-element": "off", // for handling global content...
+    "@next/next/no-css-tags":"off" // for handling global content...
+  }
+}

@@ -1,0 +1,29 @@
+@mixin textEllipsis($maxLine: 2) {
+  @apply text-ellipsis line-clamp-2;
+  -webkit-line-clamp: $maxLine;
+}
+
+@mixin displayOnly($screen: 'mobile') {
+  @if $screen == 'mobile' {
+    @screen md {
+      @apply hidden;
+    }
+  }
+
+  @if $screen == 'desktop' {
+    @apply hidden;
+
+    @screen md {
+      @apply block;
+    }
+  }
+}
+
+@mixin preventDrag {
+  @apply pointer-events-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

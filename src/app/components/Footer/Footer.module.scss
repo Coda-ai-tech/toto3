@@ -1,0 +1,313 @@
+@use '_components.scss';
+
+.footer {
+  @apply relative z-footer mx-auto;
+
+  .inner {
+    @apply w-full overflow-hidden bg-gray-lightest;
+  }
+
+  .feature {
+    @apply pxContent py-14;
+
+    .featureInner {
+      @apply max-w-content mx-auto;
+
+      @screen lg {
+        @apply flex items-start justify-start;
+      }
+    }
+
+    .left {
+      @apply w-2/12;
+
+      @screen hd {
+        @apply w-3/12;
+      }
+    }
+
+    .right {
+      @apply w-full flex flex-col gap-[30px];
+
+      @screen lg {
+        @apply w-10/12;
+      }
+
+      @screen hd {
+        @apply w-9/12;
+      }
+    }
+  }
+
+  .commonInfo {
+    @apply flex flex-col items-center gap-4 w-max;
+  }
+
+  .logoWrap {
+    @apply hidden w-full mx-auto;
+
+    @screen lg {
+      @apply block w-max;
+    }
+
+    .logo {
+      @apply block mb-2;
+
+      img {
+        @apply block w-[100px] h-auto mx-auto;
+
+        @screen lg {
+          @apply w-[100px];
+        }
+
+        @screen hd {
+          @apply ml-0 w-[150px];
+        }
+      }
+    }
+  }
+
+  .snsWrap {
+    @apply hidden relative mt-[0.25rem];
+
+    @screen lg {
+      @apply block;
+    }
+  }
+
+  .footerNav {
+    @apply whFull;
+
+    @screen lg {
+      @apply flex gap-[30px] items-start;
+    }
+  }
+
+  .footerGlobalNetwork {
+    @apply relative;
+
+    &:before {
+      @screen lg {
+        @apply content-[''] absolute top-0 left-[-20px] w-[1px] h-full bg-black;
+      }
+
+      @screen hd {
+        @apply left-[-30px];
+      }
+    }
+
+    .globalNetworkTitle {
+      @apply w-full font-bold text-[12px] bg-black text-white text-center;
+
+      @screen md {
+        @apply text-sm bg-transparent text-left text-black;
+      }
+    }
+
+    .globalNetworkWrap {
+      @apply relative flex flex-col gap-4 items-start justify-between mt-2;
+
+      @screen lg {
+        @apply flex-row;
+      }
+    }
+
+    .networkColum {
+      @apply w-full;
+
+      @screen lg {
+        @apply w-max max-w-[140px];
+      }
+
+      .navGroup {
+        @apply flex items-start gap-4;
+
+        @screen lg {
+          @apply flex-col gap-0;
+        }
+      }
+
+      .columnTitle {
+        @apply font-bold mb-4 text-sm w-[calc(50%-16px)];
+
+        @screen lg {
+          @apply w-full;
+        }
+      }
+    }
+  }
+
+  .footerGlobalNetworkItem,
+  .footerNavItem {
+    span {
+      @apply text-gray-dark;
+    }
+
+    &:hover,
+    &:focus-visible {
+      span {
+        @apply text-primary-light;
+      }
+    }
+  }
+
+  .footerNavColum {
+    @apply relative flex-1;
+
+    + .footerNavColum {
+      @apply mt-8;
+
+      @screen lg {
+        @apply mt-0;
+      }
+    }
+
+    &:before {
+      @screen lg {
+        @apply content-[''] absolute top-0 left-[-20px] w-[1px] h-full bg-black;
+      }
+
+      @screen hd {
+        @apply left-[-30px];
+      }
+    }
+
+    .navGroup {
+      @apply relative;
+    }
+
+    .columnTitle {
+      @apply font-bold text-sm mb-2;
+
+      @screen lg {
+        @apply mb-4;
+      }
+    }
+
+    ul {
+      @apply flex flex-wrap flex-row gap-y-1;
+
+      @screen lg {
+        @apply flex-col;
+      }
+
+      li {
+        @apply w-1/2;
+
+        @screen lg {
+          @apply w-full;
+        }
+      }
+    }
+
+    &.columnLarge {
+      @apply flex-[2];
+
+      ul {
+        @apply flex-row;
+
+        li {
+          @apply w-1/2;
+
+          @screen lg {
+            @apply w-1/3;
+          }
+        }
+      }
+    }
+  }
+
+  .footerOtherContent {
+    @apply pxContent bg-black;
+
+    .footerOtherContentInner {
+      @apply py-12;
+
+      @screen lg {
+        @apply flex justify-between items-center gap-2 max-w-content mx-auto h-[80px] py-0;
+      }
+    }
+
+    .footerMobLogo {
+      @apply mb-4;
+
+      .mobLogoWrap {
+        @apply mx-auto w-[120px];
+
+        .mobLogo {
+          img {
+            @apply invert max-w-full;
+          }
+        }
+      }
+
+      @screen lg {
+        @apply hidden;
+      }
+    }
+
+    .mobSnsWrap {
+      @apply flexCenter mt-4;
+    }
+
+    .footerStaticMenu {
+      @apply flex flex-col gap-1 items-center;
+
+      @screen lg {
+        @apply flex-row gap-10 items-center;
+      }
+
+      .staticMenuList {
+        @apply relative mb-4;
+
+        @screen lg {
+          @apply mb-0;
+
+          &:before {
+            @apply content-[''] w-[1px] h-[16px] absolute yCenter -left-5 bg-gray-dark;
+          }
+        }
+
+        ul {
+          @apply flex flex-wrap justify-center gap-y-2  gap-x-4;
+
+          @screen md {
+            @apply gap-x-0;
+          }
+
+          @screen lg {
+            @apply justify-end;
+          }
+
+          li {
+            @apply relative;
+
+            + li {
+              @screen md {
+                @apply pl-5;
+              }
+
+              @screen lg {
+                @apply pl-6;
+              }
+            }
+          }
+        }
+      }
+
+      .footerStaticMenuItem {
+        span {
+          @apply block transition-[color] duration-300 text-white text-[0.875rem] font-normal normal-case;
+        }
+      }
+    }
+
+    .copyright {
+      @apply text-white text-center leading-snug text-[0.75rem];
+
+      @screen lg {
+        @apply text-right text-[0.875rem];
+      }
+    }
+  }
+}

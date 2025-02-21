@@ -1,0 +1,48 @@
+{
+  "data":[
+    {
+      "id":"CS987PVA",
+      "isNew":true,
+      "category":[
+        "neorest"
+      ],
+      "subCategory":null,
+      "title":"Neorest 1",
+      "description":"NEOREST AH Multi-Function Toilet (P-trap)",
+      "thumb":"/assets/img/content/related-product/sample.webp"
+    },
+    {
+      "id":"CS987PVA",
+      "isNew":true,
+      "category":[
+        "toilet"
+      ],
+      "subCategory":["one-piece-toilet"],
+      "title":"ONE-PIECE TOILET 1",
+      "description":"NEOREST AH Multi-Function Toilet (P-trap)",
+      "thumb":"/assets/img/content/related-product/sample.webp"
+    },
+    {
+      "id":"CS987PVA",
+      "isNew":true,
+      "category":[
+        "toilet"
+      ],
+      "subCategory":["close-coupled-toilet"],
+      "title":"CLOSE-COUPLED TOILET 1",
+      "description":"NEOREST AH Multi-Function Toilet (P-trap)",
+      "thumb":"/assets/img/content/related-product/sample.webp"
+    },
+    {
+      "id":"CS987PVA",
+      "isNew":true,
+      "category":[
+        "toilet"
+      ],
+      "subCategory":["close-coupled-toilet"],
+      "title":"CLOSE-COUPLED TOILET 2",
+      "description":"NEOREST AH Multi-Function Toilet (P-trap)",
+      "thumb":"/assets/img/content/related-product/sample.webp"
+    }
+  ]
+}

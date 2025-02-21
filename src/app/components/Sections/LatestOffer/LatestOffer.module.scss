@@ -1,0 +1,97 @@
+@use '_components.scss';
+
+.latestOffer {
+  @apply whFull pxContent bg-gray-lightest;
+
+  .inner {
+    @apply max-w-content mx-auto;
+
+    .head {
+      @apply mb-10;
+    }
+
+    .body {
+      @apply relative;
+    }
+  }
+
+  .sectionTitle {
+    @apply h2 font-light text-center;
+  }
+
+  .cardWrap {
+    @apply flex flex-wrap gap-[30px] justify-between;
+  }
+}
+
+.offerCard {
+  @apply max-w-full opacity-0 transition-opacity duration-1000;
+
+  &.hello {
+    @apply opacity-100;
+  }
+
+  @screen md {
+    @apply max-w-[calc(50%-15px)];
+  }
+
+  @screen xl {
+    @apply max-w-[calc(25%-23px)];
+  }
+
+  &:hover {
+    .offerCardInner {
+      .thumb {
+        img {
+          @apply scale-110;
+        }
+      }
+    }
+  }
+
+  .offerCardInner {
+    @apply flex flex-row;
+
+    @screen md {
+      @apply flex-col;
+    }
+
+    .thumb {
+      @apply aspect-[390/280] h-auto mb-4 min-w-[130px] w-[130px] max-h-[250px] overflow-hidden;
+
+      @screen md {
+        @apply w-full min-w-min;
+      }
+
+      img {
+        @apply whFull object-cover transition-transform duration-[2s];
+      }
+    }
+
+    .content {
+      @apply flex flex-col gap-2 pl-4;
+
+      @screen md {
+        @apply pl-0 gap-4;
+      }
+
+      .hgroup {
+        @apply flex flex-col gap-2;
+      }
+
+      .cardTitle {
+        @apply h4 h-[2em];
+        @include mixin.textEllipsis(2);
+      }
+
+      .cardDescription {
+        @apply text-sm text-gray-dark;
+        @include mixin.textEllipsis(2);
+      }
+
+      .cardAction {
+        @apply relative;
+      }
+    }
+  }
+}

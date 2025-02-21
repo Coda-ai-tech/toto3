@@ -1,0 +1,134 @@
+{
+	"data": {
+		"title": "Matte Black",
+		"copy": "Choose your favarite LAVATORY",
+		"parents": [
+			{
+				"label": "LW4715",
+				"thumb": "/assets/global/lavatory/assets/img/colors/lavatory/LW4715_Mblack_front.jpg",
+				"children": [
+					{
+						"label": "ZL series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW4715_ZL_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW4715_Mblack_ZL_MBL.jpg"
+					},
+					{
+						"label": "GB series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW4715_GB_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW4715_Mblack_GB_MBL.jpg"
+					},
+					{
+						"label": "GR series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW4715_GR_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW4715_Mblack_GR_MBL.jpg"
+					}
+				]
+			},
+			{
+				"label": "LW4716",
+				"thumb": "/assets/global/lavatory/assets/img/colors/lavatory/LW4716_Mblack_front.jpg",
+				"children": [
+					{
+						"label": "ZL series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW4716_ZL_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW4716_Mblack_ZL_MBL.jpg"
+					},
+					{
+						"label": "GB series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW4716_GB_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW4716_Mblack_GB_MBL.jpg"
+					}
+				]
+			},
+			{
+				"label": "LW4706",
+				"thumb": "/assets/global/lavatory/assets/img/colors/lavatory/LW4706_Mblack_front.jpg",
+				"children": [
+					{
+						"label": "ZN series",
+						"color": "",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW4706_ZN_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW4706_Mblack_ZN_PC.jpg"
+					},
+					{
+						"label": "GM series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW4706_GM_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW4706_Mblack_GM_MBL.jpg"
+					}
+				]
+			},
+			{
+				"label": "LW4704",
+				"thumb": "/assets/global/lavatory/assets/img/colors/lavatory/LW4704_Mblack_front.jpg",
+				"children": [
+					{
+						"label": "ZA series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW4704_ZA_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW4704_Mblack_ZA_MBL.jpg"
+					},
+					{
+						"label": "GA series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW4704_GA_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW4704_Mblack_GA_MBL.jpg"
+					}
+				]
+			},
+			{
+				"label": "LW1735",
+				"thumb": "/assets/global/lavatory/assets/img/colors/lavatory/LW1735B_Mblack_front.jpg",
+				"children": [
+					{
+						"label": "GB series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW1735_GB_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW1735_Mblack_GB_MBL.jpg"
+					},
+					{
+						"label": "GA series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW1735_GA_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW1735_Mblack_GA_MBL.jpg"
+					},
+					{
+						"label": "GR series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW1735_GR_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW1735_Mblack_GR_MBL.jpg"
+					}
+				]
+			},
+			{
+				"label": "LW1705",
+				"thumb": "/assets/global/lavatory/assets/img/colors/lavatory/LW1705B_Mblack_front.jpg",
+				"children": [
+					{
+						"label": "GF series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW1705_GF_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW1705_Mblack_GF_MBL.jpg"
+					},
+					{
+						"label": "GA series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW1705_GA_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW1705_Mblack_GA_MBL.jpg"
+					},
+					{
+						"label": "GM series",
+						"color": "MBL",
+						"visual": "/assets/global/lavatory/assets/img/colors/space/LVKV_LW1705_GM_MBLACK.jpg",
+						"thumb": "/assets/global/lavatory/assets/img/colors/faucet/LW1705_Mblack_GM_MBL.jpg"
+					}
+				]
+			}
+		]
+	}
+}

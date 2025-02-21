@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Web Accessibility Policy",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb":[
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "WEB ACCESSIBILITY",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/web-accessibility"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "RichContent",
+      "moduleOption":null,
+      "content": {
+        "title":"Web Accessibility Policy",
+        "content": "<h4>This website (www.hk.toto.com) is aiming to be accessible to the widest possible audience,<br/> regardless of technology or ability.</h4><br/><br/><h5>Target Level</h5><p>This website (www.hk.toto.com) aims to meet the Web Content Accessibility guideline (WCAG) 2.2, Level AA, published by the World Wide Web Consortium (W3C).</p><br/><br/><br/><h5>Scope</h5><p>www.hk.toto.com<br/>However, the website is not covered if there is code provided by a third party that we cannot manage or control, or if it is difficult to handle with the current level of technology.</p><br/><br/><br/><h5>Inquiries</h5><p>Please click <a href='mailto:web_accessibility.contact@jp.toto.com' target='_blank'>here</a> for inquiries regarding the web accessibility of this site.</p>"
+      }
+    }
+  ]
+}

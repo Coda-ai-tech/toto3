@@ -1,0 +1,74 @@
+@use '_components.scss';
+
+.contactUsForm {
+  fieldset {
+    @apply flex flex-col gap-2;
+  }
+
+  legend {
+    @apply hidden;
+  }
+
+  .formFields {
+    @apply flex flex-col gap-4;
+  }
+
+  .formTitle {
+    @apply text-sm font-bold uppercase mb-2;
+  }
+
+  .formAction {
+    button {
+      @apply w-full bg-gray-dark !important;
+
+      &:focus-visible {
+        @apply outline-white;
+      }
+    }
+  }
+
+  .formRow {
+    @apply flex gap-4;
+  }
+
+  .formField {
+    @apply rounded-none;
+
+    [data-slot='input-wrapper'] {
+      @apply border border-solid border-gray-light;
+    }
+
+    > div {
+      @apply rounded-none;
+    }
+  }
+
+  .fieldLabel {
+    @apply text-black;
+  }
+
+  &.home {
+    .fieldLabelOutside {
+      @apply text-white !important;
+    }
+  }
+
+  &.contactUs {
+    .fieldLabelOutside {
+      @apply text-black !important;
+    }
+  }
+
+  [data-slot='input-wrapper'] {
+    @apply rounded-none !important;
+  }
+}
+
+.selectTrigger {
+  @apply rounded-none !important;
+  @apply border border-solid border-gray-light;
+}
+
+.selectLabel {
+  @apply text-black;
+}

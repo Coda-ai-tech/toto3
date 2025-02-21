@@ -1,0 +1,33 @@
+@use '_components.scss';
+
+.localeSwitcher {
+  @apply text-white relative duration-300;
+
+  &.overlay {
+    @apply text-white;
+  }
+
+  .langTextContainer {
+    @apply relative whFull;
+
+    .btnInner {
+      @apply flex justify-start items-center w-max h-[calc(var(--header-bar-height)-4px)];
+    }
+
+    .langTextBtn {
+      @apply block;
+
+      &:focus-visible {
+        @apply outline-white;
+      }
+    }
+
+    .langText {
+      @apply w-full text-left fontBody text-xs font-semibold;
+
+      @screen hd {
+        @apply text-sm;
+      }
+    }
+  }
+}

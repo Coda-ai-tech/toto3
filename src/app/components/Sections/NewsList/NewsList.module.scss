@@ -1,0 +1,153 @@
+@use '_components.scss';
+
+.newsList {
+  @apply whFull pxContent;
+  @apply pb-0 !important;
+
+  .inner {
+    @apply max-w-content mx-auto;
+  }
+
+  .sectionTitle {
+    @apply h2 font-light;
+  }
+
+  .head {
+    @apply mb-4;
+  }
+
+  .body {
+    @apply relative;
+  }
+}
+
+.highlightNews {
+  @apply flex flex-col gap-14;
+
+  @screen md {
+    @apply flex-row gap-0;
+  }
+
+  .highlightItem {
+    @apply relative pb-[60px];
+
+    &:nth-child(1) {
+      @screen md {
+        @apply w-1/2;
+      }
+
+      @screen hd {
+        @apply w-3/5;
+      }
+    }
+
+    &:nth-child(2) {
+      @screen md {
+        @apply w-1/2 pl-[20px];
+      }
+
+      @screen hd {
+        @apply w-2/5 pl-[30px];
+      }
+    }
+
+    .highlightItemThumb {
+      @apply w-full h-[300px];
+
+      @screen hd {
+        @apply h-[500px];
+      }
+
+      img {
+        @apply whFull object-cover;
+      }
+    }
+
+    .highlightItemContent {
+      @apply pt-10;
+
+      .highlightItemTitle {
+        @apply h3;
+      }
+
+      .highlightItemDescription {
+        @apply h-[4em] text-sm;
+        @include mixin.textEllipsis(2);
+      }
+
+      .highlightAction {
+        @apply absolute bottom-0;
+      }
+    }
+  }
+
+  + .newsCardWrap {
+    @apply mt-[calc(var(--section-spacing)/2)] pt-[calc(var(--section-spacing)/2)] border-t border-solid border-gray-light;
+
+    @screen lg {
+      @apply mt-[var(--section-spacing)] pt-[var(--section-spacing)];
+    }
+  }
+}
+
+.newsCardWrap {
+  @apply flex flex-wrap flex-col gap-[30px] pb-[calc(var(--section-spacing)/2)];
+  @apply border-b border-solid border-gray-light;
+
+  @screen md {
+    @apply flex-row;
+  }
+
+  @screen lg {
+    @apply pb-[var(--section-spacing)];
+  }
+
+  .newsCard {
+    @apply flex bg-gray-lightest w-full;
+
+    @screen md {
+      @apply flex-col w-[calc(50%-15px)];
+    }
+
+    @screen hd {
+      @apply flex-row w-[calc(33.3333%-20px)] h-[300px];
+    }
+
+    .cardThumb {
+      @apply w-1/2 min-w-[50%] h-auto;
+
+      @screen md {
+        @apply w-full;
+      }
+
+      img {
+        @apply whFull object-cover;
+      }
+    }
+
+    .cardContent {
+      @apply relative p-4 pb-16 flex flex-col;
+
+      @screen md {
+        @apply p-6 pb-16;
+      }
+
+      .cardTitle {
+        @apply h5;
+
+        @screen md {
+          @apply h4;
+        }
+      }
+
+      .cardDescription {
+        @apply h-[4em] text-sm;
+        @include mixin.textEllipsis(2);
+      }
+
+      .cardAction {
+        @apply absolute bottom-0 right-0;
+      }
+    }
+  }
+}

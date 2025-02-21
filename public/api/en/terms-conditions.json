@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Terms & Conditions",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb":[
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "Terms & Conditions",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/terms-conditions"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "RichContent",
+      "moduleOption":null,
+      "content": {
+        "title":"Terms & Conditions",
+        "content": "<h5>Website Terms of Use</h5><p>This section contains the Terms of Use of this website. By accessing this website and any of its pages, you are agreeing to these Terms.<br/><br/>The information contained in these pages is not intended to provide professional advice and should not be relied upon in that regard. Persons accessing these pages are advised to obtain appropriate professional advice when necessary.</p><br/><br/><br/><h5>Use of Information and Materials</h5><p>Products and services referred to in this web site are offered only in jurisdictions where and when they may be lawfully offered by members of the TOTO HK. The materials on these pages are not intended for use by persons located in or resident in jurisdictions that restrict the distribution of such materials by us. Persons accessing these pages are required to inform themselves about and observe any relevant restrictions.</p><br/><br/><br/><h5>Copyright and Trademarks</h5><p>The company own the trade marks, logos and service marks displayed on this site and users are prohibited from using the same without written permission of the company.<br/><br/>The materials on this site are protected by copyright and no part of such materials may be modified, reproduced, stored in a retrieval system, transmitted (in any form or by any means), copied, distributed, used for creating derivative works or used in any other way for commercial or public purposes without the company’s prior written consent.</p><br/><br/><br/><h5>No Warranties</h5><p>While every care has been taken in preparing the information materials contained in this website, such information and materials are provided “at current” without warranty of any kind, either express or implied. In particular, no warranty regarding non-infringement, security, accuracy, fitness for a purpose or freedom from computer viruses is given in connection with such information and materials.</p><br/><br/><br/><h5>Linked Web Sites</h5><p>The company or any other member of TOTO HK is not responsible for the contents available on or the set-up of any other web sites linked to this site. Access to and use of such other web sites is at the user’s own risk and subject to any terms and conditions applicable to such access/use.</p><br/><br/><br/><h5>E-mail</h5><p>E-mail messages sent to the company over the Internet cannot be guaranteed to be completely secure. The company will not be responsible for any damages incurred by users if they send a message to the company, or if the company sends a message to them at their request, over the Internet. The company is not responsible in any manner for direct, indirect, special or consequential damages arising out of the use of this web site.</p><br/><br/><br/><h5>Downloading</h5><p>We do not represent or warrant that the site will be available and meet your requirements, that access will not be interrupted, that there will be no delays, failures, errors or omissions or loss of transmitted information, that no viruses or other contaminating or destructive properties will be transmitted or that no damage will occur to your computer system. You have sole responsibility for adequate protection and back up of data and/or equipment and for undertaking reasonable and appropriate precautions to scan for computer viruses or other destructive properties. We make no representations or warranties regarding the accuracy, functionality or performance of any third party software that may be used in connection with the site.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+@use '_components.scss';
+
+.richContent {
+  @apply whFull pxContent;
+
+  .inner {
+    @apply max-w-content mx-auto;
+  }
+
+  .pageTitle {
+    @apply h2 font-light uppercase text-center mb-16;
+  }
+
+  .content {
+    @apply max-w-hd mx-auto;
+  }
+
+  a {
+    @apply text-primary-accent underline;
+
+    &:hover,
+    &:focus-visible {
+      @apply text-black bg-gray-lightest;
+    }
+  }
+
+  h4 {
+    @apply leading-[140%];
+  }
+}

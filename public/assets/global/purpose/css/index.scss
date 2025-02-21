@@ -1,0 +1,1253 @@
+@charset "utf-8";
+
+@import '_modules/import.scss';
+@import '_common.scss';
+.borderAccent {
+  position: relative;
+  @include pc {
+    padding-left: vp(58);
+    font-size: vp(20);
+  }
+  @include sp {
+    padding-left: vs(80);
+    font-size: vs(30);
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    background: #2f88ce;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    @include pc {
+      width: vp(42);
+      height: vp(2);
+      margin-top: vp(-1);
+    }
+    @include sp {
+      width: vs(60);
+      height: vs(4);
+      margin-top: vs(-2);
+    }
+  }
+}
+
+#purposeTop {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  opacity: 0;
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  #hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    @include pc {
+      padding-top: 34px;
+    }
+    .hero_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      .ytVideoContainer {
+        pointer-events: none;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        position: absolute; /* fixed の場合。absolute でも同じ */
+        right: 0;
+        top: 0;
+        iframe {
+          box-sizing: border-box;
+          left: 50%;
+          min-height: 100%;
+          min-width: 100%;
+          position: absolute;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          @include pc {
+            height: 56.25vw; /* 16:9 の高さなので 56.25% (= 9 ÷ 16) */
+            width: 177.77777778vh; /* 16:9 の幅なので 177.77% (= 16 ÷ 9) */
+          }
+          @include sp {
+            // 1125 x 2436
+            height: 216.53333333333333vw;
+            width: 46.18226600985222vh;
+          }
+        }
+      }
+      #bgImg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        .fit {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      #bgVideoPc,
+      #bgVideoSp {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        video {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .inner {
+        // position: relative;
+        @include pc {
+          // width: vp(1040);
+          // display: flex;
+          // justify-content: space-between;
+          // align-items: center;
+        }
+        @include sp {
+          width: vs(670);
+        }
+      }
+      .hero_copy {
+        color: #fff;
+        font-weight: 500;
+        letter-spacing: 0.025em;
+        @include pc {
+          font-size: vp(44);
+          line-height: vp(44);
+          position: absolute;
+          left: vp(120);
+          bottom: vp(120);
+        }
+        @include sp {
+          // font-size: vs(62);
+          // line-height: vs(92);
+          @include font-sp(60, 92, 0);
+          position: absolute;
+          left: vs(40);
+          bottom: vs(160);
+        }
+        img {
+          @include pc {
+            width: vp(903);
+            height: vp(108);
+          }
+          @include sp {
+            width: vs(670);
+            // height: vs(81);
+          }
+        }
+      }
+      .hero_shoulder {
+        position: absolute;
+        letter-spacing: 0.025em;
+        font-weight: bold;
+        color: #fff;
+        line-height: 1;
+        @include pc {
+          left: vp(60);
+          top: vp(60);
+          font-size: vp(18);
+        }
+        @include sp {
+          left: vs(40);
+          top: vs(60);
+          font-size: vs(31);
+        }
+      }
+      .hero_scroll {
+        position: absolute;
+        letter-spacing: 0.025em;
+        letter-spacing: 0.025em;
+        font-weight: bold;
+        color: #fff;
+        line-height: 1;
+        @include pc {
+          right: vp(60);
+          bottom: vp(40);
+          font-size: vp(14);
+        }
+        @include sp {
+          right: vs(40);
+          bottom: vs(40);
+          font-size: vs(22);
+        }
+      }
+      .hero_play {
+        border: vp(2) solid #fff;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid #fff;
+        @include pc {
+          width: vp(134);
+          height: vp(134);
+          cursor: pointer;
+        }
+        @include sp {
+          width: vs(207);
+          height: vs(207);
+        }
+        &:before {
+          content: '';
+          display: block;
+          border-right: none;
+
+          @include pc {
+            margin-left: vp(4);
+            border-top: vp(14) solid transparent;
+            border-bottom: vp(14) solid transparent;
+            border-left: vp(24) solid #fff;
+          }
+          @include sp {
+            margin-left: vs(4);
+            border-top: vs(21) solid transparent;
+            border-bottom: vs(21) solid transparent;
+            border-left: vs(37) solid #fff;
+          }
+        }
+        p {
+          letter-spacing: 0.025em;
+          font-weight: bold;
+          color: #fff;
+          line-height: 1;
+          @include pc {
+            font-size: vp(13);
+            margin-top: vp(16);
+          }
+          @include sp {
+            font-size: vs(20);
+            margin-top: vs(20);
+          }
+        }
+      }
+    }
+  }
+  #brandPurpose {
+    font-weight: 600;
+    @include pc {
+      padding: vp(220) 0;
+    }
+    @include sp {
+      padding: vs(220) 0;
+    }
+    .inner {
+      margin: 0 auto;
+      @include pc {
+        width: vp(1040);
+      }
+      @include sp {
+        width: vs(670);
+      }
+      h2 {
+        @include pc {
+          @include font-pc(36, 36);
+        }
+        @include sp {
+          @include font-sp(60, 80);
+        }
+      }
+      p {
+        @include pc {
+          @include font-pc(18, 40, 40);
+        }
+        @include sp {
+          @include font-sp(28, 58, 40);
+        }
+      }
+      .slider {
+        overflow: hidden;
+        @include pc {
+          margin-top: vp(100);
+          width: vp(1240);
+        }
+        @include sp {
+          margin-top: vs(100);
+          width: vs(710);
+        }
+        .slider-inner {
+          // width: 10000px;
+          display: flex;
+          .slider-group {
+            display: flex;
+            .slider-item {
+              flex-shrink: 0;
+              @include pc {
+                width: vp(250);
+              }
+              @include sp {
+                width: vs(250);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #message {
+    background: #f4f5f6;
+    @include pc {
+      display: flex;
+    }
+    font-weight: 600;
+    .photo {
+      @include pc {
+        width: 50%;
+      }
+    }
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include pc {
+        width: 50%;
+      }
+      @include sp {
+        height: vs(626);
+      }
+      .inner {
+        display: flex;
+        flex-direction: column;
+        @include pc {
+          width: vp(480);
+        }
+        @include sp {
+          width: vs(670);
+        }
+        h3 {
+          @include pc {
+            @include font-pc(49, 70, 25);
+          }
+          @include sp {
+            @include font-sp(57, 77, 45);
+          }
+        }
+        .trigger {
+          margin-left: auto;
+          position: relative;
+          @include pc {
+            cursor: pointer;
+            @include font-pc(18, 18, 20);
+            padding-left: vp(26);
+          }
+          @include sp {
+            @include font-sp(26, 26, 50);
+            padding-left: vs(36);
+          }
+          &::before,
+          &::after {
+            display: block;
+            content: '';
+            background: #2f88ce;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            @include pc {
+              width: vp(14);
+              height: vp(2);
+              margin-top: vp(-1);
+            }
+            @include sp {
+              width: vs(16);
+              height: vs(4);
+              margin-top: vs(-2);
+            }
+          }
+          &::after {
+            transform: rotate(90deg);
+          }
+        }
+      }
+    }
+  }
+
+  #strategy {
+    @include pc {
+      padding: vp(220) 0 0;
+    }
+    @include sp {
+      padding: vs(220) 0 0;
+    }
+    .inner {
+      margin: 0 auto;
+      @include pc {
+        width: vp(1040);
+      }
+      @include sp {
+        width: vs(670);
+      }
+      h3 {
+        @include pc {
+          @include font-pc(40, 54, 25);
+        }
+        @include sp {
+          @include font-sp(60, 80, 54);
+        }
+      }
+      p {
+        color: #666666;
+        @include pc {
+          @include font-pc(18, 40, 25);
+        }
+        @include sp {
+          @include font-sp(24, 42, 55);
+        }
+      }
+      .water {
+        @include pc {
+          margin-top: vp(50);
+        }
+        @include sp {
+          margin-top: vs(60);
+        }
+      }
+      .sdgs {
+        @include pc {
+          margin-top: vp(100);
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+        }
+        @include sp {
+          margin-top: vs(100);
+        }
+        img {
+          &:nth-child(1) {
+            @include pc {
+              width: vp(500);
+            }
+          }
+          &:nth-child(2) {
+            @include pc {
+              width: vp(500);
+            }
+            @include sp {
+              margin-top: vs(40);
+            }
+          }
+        }
+      }
+      h4 {
+        @include pc {
+          text-align: center;
+          @include font-pc(30, 30, 100);
+        }
+        @include sp {
+          @include font-sp(46, 46, 100);
+        }
+      }
+    }
+    .entrance {
+      @include pc {
+        margin-top: vp(40);
+      }
+      @include sp {
+        margin: vs(60) 0 0 vs(40);
+        height: vs(746);
+        width: vs(710);
+        overflow: hidden;
+      }
+      .scroller {
+        @include sp {
+          width: vs(710);
+          height: vs(760);
+          overflow-x: scroll;
+        }
+        .scroller-inner {
+          display: flex;
+          @include sp {
+            width: vs(1440);
+          }
+          a {
+            display: block;
+            color: #fff;
+            @include pc {
+              width: vp(480);
+              height: vp(680);
+              padding: vp(40);
+              transition: opacity 0.25s linear;
+              &:hover {
+                opacity: 0.8;
+              }
+            }
+            @include sp {
+              width: vs(480);
+              height: vs(746);
+              padding: vs(56) vs(40);
+            }
+            &:nth-child(1) {
+              background: url('../images/top/strategy_1.jpg') no-repeat center center / cover;
+              h3 {
+                text-shadow: 0 0 vp(20) rgba(0, 0, 0, 1);
+              }
+            }
+            &:nth-child(2) {
+              background: url('../images/top/strategy_2.jpg') no-repeat center center / cover;
+            }
+            &:nth-child(3) {
+              background: url('../images/top/strategy_3.jpg') no-repeat center center / cover;
+            }
+            h3 {
+              @include pc {
+                @include font-pc(30, 30);
+              }
+              @include sp {
+                @include font-sp(50, 64);
+              }
+            }
+            .read-more {
+              position: relative;
+              @include pc {
+                padding-left: vp(30);
+                @include font-pc(18, 18, 15);
+              }
+              @include sp {
+                padding-left: vs(38);
+                @include font-sp(26, 26, 20);
+              }
+              &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translate(0, -50%);
+                background: url('../images/common/icn_arrow_right_white.svg') no-repeat center / cover;
+                @include pc {
+                  width: vp(17);
+                  height: vp(14);
+                }
+                @include sp {
+                  width: vs(25);
+                  height: vs(19);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .scroller-bar {
+      @include pc {
+        display: none;
+      }
+      margin: vs(60) auto 0;
+      width: vs(670);
+      height: vs(8);
+      background: #e7e8e8;
+      border-radius: vs(8);
+      overflow: hidden;
+      .scroller-bar-inner {
+        background: #3e4042;
+        height: vs(8);
+        width: vs(710/1440 * 670);
+        border-radius: vs(8);
+      }
+    }
+  }
+
+  #sustainable {
+    @include pc {
+      padding: vp(220) 0 0;
+    }
+    @include sp {
+      padding: vs(220) 0 0;
+    }
+    .inner {
+      margin: 0 auto;
+      @include pc {
+        width: vp(1040);
+      }
+      @include sp {
+        width: vs(670);
+      }
+      .header {
+        h3 {
+          @include pc {
+            @include font-pc(40, 54, 25);
+          }
+          @include sp {
+            @include font-sp(60, 80, 54);
+          }
+        }
+        p {
+          color: #666666;
+          @include pc {
+            @include font-pc(18, 40, 25);
+          }
+          @include sp {
+            @include font-sp(24, 42, 55);
+          }
+        }
+        img {
+          border: 2px solid #dfdfdf;
+          @include pc {
+            margin-top: vp(30);
+          }
+          @include sp {
+            margin-top: vs(50);
+          }
+        }
+      }
+      .example {
+        @include pc {
+          margin-top: vp(90);
+        }
+        @include sp {
+          margin-top: vs(95);
+        }
+        h3 {
+          @include pc {
+            @include font-pc(34, 34);
+          }
+          @include sp {
+            @include font-sp(50, 70);
+          }
+          span {
+            @include pc {
+              @include font-pc(16, 16);
+            }
+            @include sp {
+              @include font-sp(22, 22);
+            }
+          }
+        }
+        p {
+          @include pc {
+            @include font-pc(16, 16, 20);
+          }
+          @include sp {
+            @include font-sp(20, 20, 15);
+          }
+        }
+        .flex {
+          border: 2px solid #dfdfdf;
+          @include pc {
+            display: flex;
+            margin-top: vp(20);
+          }
+          @include sp {
+            margin-top: vs(60);
+          }
+          .accordion {
+            @include pc {
+              width: 50%;
+              padding: vp(38);
+              &:nth-child(1) {
+                border-right: 1px solid #dfdfdf;
+              }
+              &:nth-child(2) {
+                border-left: 1px solid #dfdfdf;
+              }
+            }
+            @include sp {
+              padding: vs(38);
+            }
+            + .accordion {
+              @include sp {
+                border-top: 2px solid #dfdfdf;
+              }
+            }
+            dt {
+              color: #44b0ac;
+              @include pc {
+                text-align: center;
+                @include font-pc(26, 26);
+              }
+              @include sp {
+                @include font-sp(30, 30);
+                position: relative;
+                &::before,
+                &::after {
+                  content: '';
+                  display: block;
+                  width: vs(30);
+                  height: vs(4);
+                  background: #44b0ac;
+                  position: absolute;
+                  right: 0;
+                  top: 50%;
+                  margin-top: vs(-2);
+                  transition: transform 0.2s ease-in-out;
+                }
+                &::after {
+                  transform: rotate(90deg);
+                }
+              }
+            }
+            dd {
+              @include pc {
+                margin-top: vp(40);
+              }
+              @include sp {
+                overflow: hidden;
+                height: 0;
+              }
+              .accordion-inner {
+                .graph {
+                  @include sp {
+                    padding-top: vs(40);
+                  }
+                  &:nth-child(1) {
+                    border-bottom: 2px solid #dfdfdf;
+                    @include pc {
+                      padding-bottom: vp(20);
+                    }
+                    @include sp {
+                      padding-bottom: vs(40);
+                    }
+                  }
+                  &:nth-child(2) {
+                    @include pc {
+                      padding-top: vp(20);
+                    }
+                  }
+                }
+              }
+            }
+            &.open {
+              dt {
+                @include sp {
+                  &::before {
+                    transform: rotate(180deg);
+                  }
+                  &::after {
+                    transform: rotate(360deg);
+                  }
+                }
+              }
+              dd {
+                height: auto;
+              }
+            }
+          }
+        }
+        .note {
+          padding-left: 1em;
+          text-indent: -1em;
+          @include pc {
+            @include font-pc(14, 14, 20);
+          }
+          @include sp {
+            @include font-sp(20, 32, 30);
+          }
+        }
+      }
+      .composition-ratio {
+        @include pc {
+          // display: flex;
+          // justify-content: space-between;
+          margin-top: vp(100);
+        }
+        @include sp {
+          margin-top: vs(100);
+        }
+        .text {
+          @include pc {
+            // width: vp(440);
+          }
+          h3 {
+            @include pc {
+              @include font-pc(34, 48, 0);
+            }
+            @include sp {
+              @include font-sp(50, 70, 0);
+            }
+          }
+          p {
+            color: #666666;
+            @include pc {
+              @include font-pc(18, 36, 40);
+            }
+            @include sp {
+              @include font-sp(24, 42, 60);
+            }
+          }
+        }
+        .graph {
+          @include pc {
+            // width: vp(520);
+            margin-top: vp(40);
+          }
+          @include sp {
+            margin-top: vs(60);
+          }
+        }
+      }
+    }
+  }
+
+  #links {
+    position: relative;
+    @include pc {
+      margin-top: vp(220);
+    }
+    @include sp {
+      margin-top: vs(220);
+    }
+    .links_title {
+      margin: 0 auto;
+      @include pc {
+        width: vp(1040);
+        margin-bottom: vp(40);
+      }
+      @include sp {
+        width: vs(670);
+        margin-bottom: vs(60);
+      }
+    }
+    .banners {
+      display: flex;
+      @include pc {
+        flex-wrap: wrap;
+      }
+      @include sp {
+        flex-direction: column;
+      }
+      li {
+        position: relative;
+        @include pc {
+          width: 50%;
+        }
+        &.bnr01 a {
+          background-image: url('../images/common/01.jpg');
+        }
+        &.bnr02 a {
+          background-image: url('../images/common/02.jpg');
+        }
+        &.bnr03 a {
+          background-image: url('../images/common/03.jpg');
+        }
+        &.bnr04 a {
+          background-image: url('../images/common/04.jpg');
+        }
+        a {
+          @include pc {
+            transition: opacity 0.25s linear;
+            &:hover {
+              opacity: 0.6;
+            }
+          }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          display: block;
+          position: relative;
+          height: 0;
+          padding-top: 400 / 720 * 100%;
+          .bnrInner {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            h3 {
+              letter-spacing: 0.025em;
+              text-align: center;
+              @include pc {
+                font-size: vp(28);
+                line-height: vp(40);
+              }
+              @include sp {
+                font-size: vs(40);
+                line-height: vs(52);
+              }
+              &:after {
+                content: '';
+                display: inline-block;
+                background: url('../images/common/icn_arrow_right_white.svg') no-repeat center center / cover;
+                position: relative;
+                @include pc {
+                  transform: translateY(vp(2)) rotate(-45deg);
+                  width: vp(27);
+                  height: vp(22);
+                  margin-left: vp(15);
+                }
+                @include sp {
+                  transform: translateY(vs(2)) rotate(-45deg);
+                  width: vs(40);
+                  height: vs(32);
+                  margin-left: vs(20);
+                }
+              }
+              &.two-lined {
+                &:after {
+                  @include pc {
+                    transform: translateY(vp(0)) rotate(-45deg);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .questionnaire {
+      text-align: center;
+      @include pc {
+        padding: vp(160) 0;
+      }
+      @include sp {
+        padding: vs(160) 0;
+      }
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        letter-spacing: 0.025em;
+        font-weight: 600;
+        color: #4e5052;
+        @include pc {
+          width: vp(640);
+          height: vp(100);
+          border: vp(2) solid #dfdfdf;
+          border-radius: vp(50);
+          font-size: vp(28);
+        }
+        @include sp {
+          width: vs(640);
+          height: vs(150);
+          border: vs(4) solid #dfdfdf;
+          border-radius: vs(75);
+          font-size: vs(40);
+        }
+        &:after {
+          content: '';
+          display: block;
+          background: url('../images/common/icn_arrow_right_blue.svg') no-repeat center center / contain;
+          transform: rotate(-45deg);
+          @include pc {
+            width: vp(28);
+            height: vp(22);
+            margin-left: vp(20);
+          }
+          @include sp {
+            width: vs(40);
+            height: vs(30);
+            margin-left: vs(30);
+          }
+        }
+      }
+      p {
+        text-align: center;
+        line-height: 1;
+        letter-spacing: 0.025em;
+        color: #4e5052;
+        font-weight: 600;
+        @include pc {
+          font-size: vp(16);
+          margin-top: vp(20);
+        }
+        @include sp {
+          font-size: vs(22);
+          margin-top: vs(30);
+        }
+      }
+    }
+  }
+}
+#modalMessage {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 10100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  $duration: 0.3s;
+  transition: opacity $duration linear, visibility 0s $duration;
+  &.is-active {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity $duration linear, visibility 0s;
+  }
+  @include pc {
+    padding: vp(120);
+  }
+
+  .btnClose {
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    // background: red;
+    @include pc {
+      bottom: vp((120 - 50) * 0.5);
+      font-size: vp(24);
+      position: fixed;
+      color: #fff;
+      height: vp(50);
+      padding: 0 vp(20);
+      cursor: pointer;
+    }
+
+    @include sp {
+      bottom: vs((190 - 80) * 0.5);
+      line-height: 1;
+      height: vs(80);
+      font-size: vs(32);
+      position: absolute;
+      color: #353535;
+      padding: 0 vs(20);
+    }
+    svg {
+      display: block;
+      @include pc {
+        width: vp(19);
+        height: vp(19);
+        margin-right: vp(12);
+      }
+      @include sp {
+        width: vs(24);
+        height: vs(24);
+        margin-right: vs(16);
+      }
+      path {
+        fill: currentColor;
+      }
+    }
+  }
+  .modal_container {
+    background: #fff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @include pc {
+      padding: vp(80);
+      padding-right: vp(40);
+    }
+    @include sp {
+      padding: vs(40);
+      padding-top: vs(80);
+      padding-bottom: vs(190);
+    }
+    .modal_inner {
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      .scroller-bar {
+        position: absolute;
+        right: 0;
+        top: 0;
+        @include pc {
+          width: vp(6);
+          border-radius: vp(6);
+        }
+        @include sp {
+          width: vs(8);
+          border-radius: vs(8);
+        }
+        height: 100%;
+        background: #e7e8e8;
+        overflow: hidden;
+        .scroller-bar-inner {
+          background: #3e4042;
+          width: 100%;
+
+          @include pc {
+            border-radius: vp(6);
+            min-height: vp(50);
+          }
+          @include sp {
+            min-height: vs(100);
+            border-radius: vs(8);
+          }
+        }
+      }
+    }
+    .modal_scroller {
+      position: relative;
+      height: 100%;
+      overflow-y: auto;
+      @include pc {
+        margin-right: vp(-20);
+        padding-right: vp(40 + 20);
+      }
+      @include sp {
+        margin-right: vs(-20);
+        padding-right: vs(40 + 20);
+      }
+      .modal_scroller_inner {
+        position: relative;
+        h3 {
+          @include pc {
+            font-size: vp(36);
+            line-height: vp(54);
+            margin-bottom: vp(20);
+          }
+          @include sp {
+            font-size: vs(54);
+            line-height: vs(80);
+            margin-bottom: vs(20);
+          }
+        }
+        p {
+          // text-align: justify;
+          color: #666666;
+          @include pc {
+            font-size: vp(18);
+            line-height: vp(40);
+          }
+          @include sp {
+            font-size: vs(26);
+            line-height: vs(56);
+          }
+          & + p {
+            margin-top: 2em;
+          }
+        }
+        .sign {
+          display: table;
+          margin-left: auto;
+          @include pc {
+            margin-top: vp(60);
+            p {
+              font-size: vp(14);
+              text-align: right;
+              line-height: vp(22);
+              margin-top: vp(20);
+            }
+            img {
+              width: vp(165);
+              margin-left: auto;
+            }
+          }
+          @include sp {
+            margin-top: vs(110);
+            p {
+              font-size: vs(24);
+              text-align: right;
+              line-height: vs(38);
+              margin-top: vs(20);
+            }
+            img {
+              width: vs(330);
+              margin-left: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#modalVideo {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 10100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  $duration: 0.3s;
+  transition: opacity $duration linear, visibility 0s $duration;
+  &.is-active {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity $duration linear, visibility 0s;
+  }
+  @include pc {
+  }
+
+  .btnClose {
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    // background: red;
+    @include pc {
+      bottom: vp(-10);
+      // bottom: 0;
+      font-size: vp(24);
+      position: absolute;
+      height: vp(50);
+      padding: 0 vp(20);
+      cursor: pointer;
+    }
+
+    @include sp {
+      bottom: vs((100 + 80) * -0.5);
+      line-height: 1;
+      height: vs(80);
+      font-size: vs(32);
+      position: absolute;
+      padding: 0 vs(20);
+    }
+    svg {
+      display: block;
+      @include pc {
+        width: vp(19);
+        height: vp(19);
+        margin-right: vp(12);
+      }
+      @include sp {
+        width: vs(24);
+        height: vs(24);
+        margin-right: vs(16);
+      }
+      path {
+        fill: currentColor;
+      }
+    }
+  }
+  .modal_container {
+    position: relative;
+    @include pc {
+      padding: 0 0 vp(60);
+    }
+    .video {
+      position: relative;
+      width: vp(1320);
+      max-width: 145vh;
+      padding-top: 56.25%;
+      height: 0;
+      iframe {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

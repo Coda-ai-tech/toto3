@@ -1,0 +1,581 @@
+/**/
+
+.inspiration.wrapper {
+    margin: 34px 0 60px;
+    padding: 0 10px;
+    border-top: 2px solid #000;
+}
+
+.inspiration .inspiration_head {
+    margin: 34px 10px 0;
+    position: relative;
+}
+
+.inspiration .index_title {
+    padding: 0 0 15px;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: .13em;
+    text-align: center;
+    line-height: 1;
+}
+
+.inspiration ul.grid {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.inspiration ul.grid li {
+    width: calc(25% - 20px);
+    margin: 18px 10px 10px;
+}
+
+.inspiration ul.grid li figure {
+    -webkit-transition: .4s all;
+    transition: .4s all;
+}
+
+.inspiration ul.grid li.vr figure {
+    position: relative;
+}
+
+.inspiration ul.grid li.vr figure span:before {
+    content: "";
+    display: inline-block;
+    width: 13.186%;
+    height: 22%;
+    background: url(/inspiration_common/images/vr.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    -webkit-transition: .4s all;
+    transition: .4s all;
+}
+
+/*
+.inspiration ul.grid li.vr figure span:hover:before {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: .4s all;
+    transition: .4s all;
+}
+*/
+
+.inspiration ul.grid li figcaption {
+    font-size: 20px;
+    padding: 6px 10px 0;
+}
+
+/*sort menu*/
+.inspiration .inspiration_head .menu_btn {
+    width: 80px;
+    height: 80px;
+    padding: 10px 0 0 0;
+    background: #3e4042;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 47px;
+    right: 20px;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.inspiration .inspiration_head .menu_btn:after {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    background: url(/inspiration_common/images/menu_icon.png) no-repeat;
+    background-size: cover;
+}
+
+.inspiration .inspiration_head .open_menu {
+    width: 120px;
+    padding: 8px 0 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(0%, rgba(0,0,0,1)), to(rgba(0,0,0,0.8)));
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 100%);
+    color: #fff;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    position: fixed;
+    top:26px;
+    right: -220px;
+    z-index: 20;
+}
+
+.inspiration .inspiration_head .open_menu.active {
+    right: 0;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+}
+
+.inspiration .inspiration_head .open_menu a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.inspiration .inspiration_head .close_btn {
+    font-size: 12px;
+    width: 45px;
+    height: 41px;
+    text-align: center;
+    padding: 10px 0 0;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+}
+
+.inspiration .inspiration_head .close_btn:after {
+    content: "";
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin: 0 auto;
+    background: url(/inspiration_common/images/close_icn.png) no-repeat;
+    background-size: cover;
+}
+
+.inspiration .inspiration_head .sort_menu_ttl {
+    font-size: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+    padding: 0 16px 5px;
+}
+
+.inspiration .inspiration_head .sort_menu_ttl:before {
+/*
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 19.2px;
+    left: -62px;
+*/
+}
+
+.inspiration .inspiration_head li {
+    margin-bottom: 0;
+    position: relative;
+/*    padding: 8px 16px;*/
+}
+
+.inspiration .inspiration_head li.active {
+    background: #646465;
+}
+
+/*
+.inspiration .inspiration_head li.active:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: calc(50% - 8px);
+    left: -30px;
+}
+*/
+
+/*hover action*/
+.inspiration .inspiration_head .open_menu a,
+.inspiration ul.grid li a figcaption {
+    display: inline-block;
+}
+
+.inspiration .inspiration_head .open_menu a{
+    width: 100%;
+    height: 100%;
+    padding: 8px 16px;
+}
+
+.inspiration ul.grid li a figcaption:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    -webkit-transition: .4s all;
+    transition: .4s all;
+}
+
+.inspiration .inspiration_head .open_menu a:after {
+    background: #fff;
+}
+
+.inspiration ul.grid li a figcaption:after {
+    background: #222;
+}
+
+.inspiration .inspiration_head .open_menu li:hover{
+    background: #646465;
+}
+
+.inspiration ul.grid li a span:hover + figcaption:after,
+.inspiration ul.grid li a figcaption:hover:after {
+    width: 100%;
+    -webkit-transition: .4s all;
+    transition: .4s all;
+}
+
+.inspiration ul.grid li a > span {
+    padding: 0 10px;
+    font-size: 70%;
+    position: relative;
+    top: -8px;
+}
+
+/*sort other elm*/
+.inspiration .otherElm {
+    opacity: .3;
+}
+
+/*scroll icon*/
+.scroll_icn {
+    width: 72px;
+    height: 72px;
+    background: #3e4042;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: calc(50% - 36px);
+    z-index: 99;
+}
+
+.scroll_icn:after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: calc(50% - (42.43px / 2));
+    left: calc(50% - 15px);
+}
+
+.floating_btn {
+    -webkit-animation-name: floating;
+    animation-name: floating;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes floating {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    50% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes floating {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    50% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/*totop*/
+.totop {
+    width: 60px;
+    height: 60px;
+    /*padding: 8px 0 0;*/
+    margin: 0 auto 40px;
+    text-align: center;
+    background: #333333;
+    border-radius: 50%;
+    line-height: .9;
+}
+
+.totop a {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+    width:100%;
+    height: 100%;
+    padding-top: 15px;
+    /*border-radius: 50%;*/
+}
+
+.totop a:before {
+    content: "";
+    display: block;
+    width: 9px;
+    height: 9px;
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media screen and (min-width: 1500px) {
+    .inspiration.wrapper {
+        margin: 43px 0 60px;
+    }
+
+    .inspiration .inspiration_head .menu_btn {
+        top: 54px;
+    }
+
+    .inspiration .inspiration_head .open_menu {
+        top: 44px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .inspiration ul.grid li figure span {
+        width: 100%;
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+    .inspiration ul.grid li figure span img {
+        -webkit-transition: .4s all;
+        transition: .4s all;
+    }
+/*
+    .inspiration ul.grid li figure span:hover img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: .4s all;
+        transition: .4s all;
+    }
+*/
+    .inspiration ul.grid li a:hover span img{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: .4s all;
+        transition: .4s all;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+/*
+    .inspiration ul.grid li {
+        width: calc(33.333% - 20px);
+        margin: 18px 10px 10px;
+    }
+*/
+    .inspiration ul.grid li figcaption {
+        font-size: 1.7vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .inspiration.wrapper {
+        margin: 0 0 13.33vw;
+        padding: 0;
+    }
+
+    .inspiration .inspiration_head {
+        margin: 0;
+    }
+
+    .inspiration .index_title {
+        width: 94.66%;
+        font-size: 5.6vw;
+        padding: 6.4vw 0;
+        margin: 0 auto;
+    }
+
+    .inspiration ul.grid {
+        width: 94.66%;
+        margin: 40.66vw auto 0;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .inspiration ul.grid li {
+        width: 48.8%;
+        margin: 0 0 3vw;
+    }
+
+    .inspiration ul.grid li figcaption {
+        font-size: 3.2vw;
+        padding: 5px 2.13vw 0;
+    }
+
+    .inspiration ul.grid li.vr figure:before {
+        top: 1.06vw;
+        right: 1.06vw;
+    }
+
+    .inspiration ul.grid li a > span {
+        padding: 0 2.13vw;
+        font-size: 70%;
+        position: relative;
+        top: -2vw;
+    }
+    
+    /*sort menu*/
+    .inspiration .inspiration_head .menu_btn {
+        display: none;
+    }
+
+    .inspiration .inspiration_head .close_btn {
+        display: none;
+    }
+
+    .inspiration .inspiration_head .open_menu {
+        width: 100%;
+        padding: 4vw 0 4vw 9.33vw;
+        position: absolute;
+        top: 18vw;
+        right: auto;
+        left: 0;
+        -webkit-transition: none;
+        transition: none;
+        border: none;
+    }
+
+    .inspiration .inspiration_head .open_menu.fixed {
+        position: fixed;
+        top: 0;
+    }
+
+    .inspiration .inspiration_head .sort_menu_ttl:before {
+        content: none;
+    }
+
+    .inspiration .inspiration_head .sort_menu_ttl {
+        font-size: 3.46vw;
+        font-weight: bold;
+        margin-bottom: 0;
+        text-align: left;
+        border: none;
+        padding: 0px 15px 0px 0;
+    }
+
+    .inspiration .inspiration_head .open_menu a {
+        width: auto;
+        height: auto;
+        font-size: 3.46vw;
+        padding: initial;
+    }
+
+    .inspiration .inspiration_head li.active:before {
+        content: none;
+    }
+
+    .inspiration .inspiration_head ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .inspiration .inspiration_head li {
+        margin-bottom: 0;
+        margin-top: 4.66vw;
+        padding: 0;
+        position: relative;
+        width: 33%;
+    }
+    
+    .inspiration .inspiration_head li.active {
+        background: none;
+    }
+    
+    .inspiration .inspiration_head li.active a{
+/*
+        text-decoration: underline;
+        -webkit-text-decoration-color: #fff;
+        text-decoration-color: #fff;
+*/
+    }
+    
+    .inspiration .inspiration_head .open_menu li:hover{
+        background: none;
+    }
+    
+    .inspiration .inspiration_head li.active a:after{
+        content: "";
+        display: block;
+        height: 1px;
+        background: #fff;
+    }
+
+    /*scroll icon*/
+    .scroll_icn {
+        width: 15vw;
+        height: 15vw;
+        left: calc(50% - 7.5vw);
+    }
+
+    .scroll_icn:after {
+        width: 6vw;
+        height: 6vw;
+        top: calc(50% - 4.3vw);
+        left: calc(50% - 3.2vw);
+    }
+
+    /*totop*/
+    .totop {
+        margin: 0 auto 5.33vw;
+    }
+}
+
+/*A11y*/
+.grid a{
+    display: block;
+}

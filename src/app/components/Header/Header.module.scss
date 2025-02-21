@@ -1,0 +1,480 @@
+@use '_components.scss';
+
+.header {
+  @apply fixed z-headerWrap top-0 w-full min-w-[300px]
+  transition-[background-color,top,height,border] duration-500
+  bg-transparent border-b border-solid border-transparent
+  h-[calc(var(--header-height)+var(--header-bar-height))];
+
+  .headerInner {
+    @apply w-full h-[calc(var(--header-height)+var(--header-bar-height))];
+
+    .hiddenH1 {
+      @apply invisible;
+    }
+
+    .navBar {
+      @apply bg-black pxContent;
+
+      .navBarInner {
+        @apply flex justify-between items-center max-w-content mx-auto h-[var(--header-bar-height)];
+      }
+    }
+
+    .navContent {
+      @apply w-full pxContent;
+
+      .navContentInner {
+        @apply flex justify-between items-center gap-10 max-w-content mx-auto h-[var(--header-height)];
+      }
+    }
+  }
+
+  &:not(.overlay) {
+    @apply bg-white border-b-gray-light !important;
+  }
+
+  &.overlay:not(.showMenu) {
+    * {
+      &:focus-visible {
+        @apply outline-white !important;
+      }
+    }
+    .logo {
+      .logoImgNormal {
+        @apply opacity-0;
+      }
+    }
+
+    .mobNavBtn {
+      .mobNavBtnIcon {
+        .btnIcon {
+          @apply text-white;
+        }
+      }
+
+      .activeIconInner {
+        > div {
+          @apply bg-white;
+        }
+      }
+    }
+  }
+
+  &.scrollDown {
+    @apply -top-[calc(var(--header-height)+var(--header-bar-height))];
+  }
+
+  &.showMenu {
+    @apply bg-white !border-b-gray-light;
+
+    .logoImgNormal {
+      @apply opacity-100 !important;
+    }
+
+    .logoImgOverlay {
+      @apply opacity-0 !important;
+    }
+  }
+
+  &.mobNavOpen {
+    &.collapse {
+      @apply border-b border-transparent;
+    }
+
+    .logo {
+      .logoImgNormal {
+        @apply opacity-100 !important;
+      }
+    }
+
+    .navUtil {
+      .utilItem {
+        @apply bg-black;
+      }
+    }
+
+    .activeIconInner {
+      > div {
+        @apply bg-black !important;
+      }
+    }
+  }
+
+  &.expand {
+    @apply border-b border-transparent;
+  }
+
+  &.collapse {
+    @apply bg-white border-b-gray-light;
+
+    .logoImgNormal {
+      @apply opacity-100 !important;
+    }
+
+    .logoImgOverlay {
+      @apply opacity-0 !important;
+    }
+
+    .mobNavBtn {
+      .mobNavBtnIcon {
+        @apply text-black;
+
+        .btnIcon {
+          @apply text-black !important;
+        }
+      }
+
+      .activeIconInner {
+        > div {
+          @apply bg-black !important;
+        }
+      }
+
+      &:hover,
+      &:focus-visible {
+        .mobNavBtnIcon {
+          @apply text-black;
+
+          .btnIcon {
+            @apply text-primary-accent;
+          }
+        }
+      }
+    }
+  }
+
+  &.hideHeader {
+    @apply -top-[var(--header-height)];
+  }
+
+  .logo {
+    @apply z-headerLogo relative;
+
+    h1 {
+      @apply w-[1px] h-[1px] overflow-hidden;
+    }
+
+    img {
+      @apply block aspect-[120/28] max-w-[80px] w-[80px];
+
+      @screen lg {
+        @apply max-w-[120px] w-[120px];
+      }
+    }
+
+    .logoImgOverlay {
+      @apply absolute top-0 left-0;
+    }
+
+    .logoImgNormal {
+      @apply opacity-100 transition-opacity duration-1000;
+    }
+
+    @screen md {
+      @apply z-headerLogoMd;
+    }
+  }
+
+  .navWrap {
+    @apply relative z-navContainer flexCenter gap-x-10;
+
+    @screen md {
+      @apply w-max;
+    }
+  }
+
+  .navUtil {
+    @apply flex gap-2;
+
+    @screen xl {
+      @apply absolute;
+    }
+
+    .utilItem {
+      @apply bg-black rounded-[350px] py-[10px] px-4 flexCenter gap-2 border border-solid border-black
+       transition-all;
+
+      .icon {
+        @apply w-5 h-5 text-white transition-all;
+      }
+
+      span {
+        @apply fontTitle text-white leading-none text-[1rem] transition-all;
+      }
+
+      &:hover {
+        @apply bg-transparent;
+
+        .icon {
+          @apply text-black;
+        }
+
+        span {
+          @apply text-black;
+        }
+      }
+    }
+  }
+
+  .quickMenuWrap {
+    @apply hidden;
+
+    @screen xl {
+      @apply flex justify-end gap-6 min-w-[220px];
+    }
+  }
+}
+
+.mobNavWrap {
+  @apply flex items-center gap-4;
+
+  @screen xl {
+    @apply hidden;
+  }
+}
+
+.mobNavBtn {
+  @apply relative;
+
+  @screen xl {
+    @apply hidden;
+  }
+
+  .mobNavBtnIcon {
+    .btnIcon {
+      @apply invisible;
+    }
+  }
+
+  &:hover {
+    .mobNavBtnIcon {
+      .btnIcon {
+        @apply text-primary-accent delay-0;
+      }
+    }
+  }
+
+  &.mobNavOpen {
+    .mobNavBtnIcon {
+      .btnIcon {
+        @apply scale-0 rotate-90 duration-[0.6s];
+      }
+
+      .btnActiveIcon {
+        .activeIconInner {
+          > div {
+            @apply delay-300;
+
+            &:nth-child(1) {
+              @apply w-[70%];
+            }
+
+            &:nth-child(2) {
+              @apply w-[80%];
+            }
+
+            &:nth-child(3) {
+              @apply w-[30%];
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .mobNavBtnIcon {
+    @apply relative w-10 h-10 flexCenter rounded-full bg-transparent transition-colors;
+
+    .btnIcon {
+      @apply w-7 h-7 text-black transition-all;
+    }
+
+    .btnLabel {
+      @apply hidden absolute bottom-[-5px] xCenter text-[8px] uppercase text-primary;
+    }
+
+    .btnActiveIcon {
+      @apply absolute top-1/2 xCenter translate-y-[-50%];
+
+      .activeIconInner {
+        @apply relative w-8 h-8;
+
+        > div {
+          @apply absolute right-[0] translate-y-[-50%] h-[2px] bg-black rounded-md transition-[width,opacity] duration-500 ease-in-out;
+
+          &:nth-child(1) {
+            @apply w-[100%] top-[calc(50%-7px)];
+          }
+
+          &:nth-child(2) {
+            @apply w-[100%] top-[calc(50%-0px)];
+          }
+
+          &:nth-child(3) {
+            @apply w-[100%] top-[calc(50%+7px)];
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobNav {
+  @apply fixed z-navMobList top-0 w-full transition-[height,top] duration-300 h-0 overflow-hidden;
+
+  @screen xl {
+    @apply hidden;
+  }
+
+  &.collapse {
+    @apply top-0;
+  }
+
+  &.show {
+    @apply h-[calc(100dvh)];
+
+    .mobNavContent {
+      .mobNavContentInner {
+        .mobNavItem {
+          @apply opacity-100 delay-700;
+
+          &:nth-child(1) {
+            @apply delay-[0.2s];
+          }
+
+          &:nth-child(2) {
+            @apply delay-[0.3s];
+          }
+
+          &:nth-child(3) {
+            @apply delay-[0.4s];
+          }
+
+          &:nth-child(4) {
+            @apply delay-[0.5s];
+          }
+        }
+      }
+    }
+  }
+
+  .mobNavInner {
+    @apply relative whFull bg-white pt-[calc(var(--header-height)+var(--header-bar-height))];
+  }
+
+  .mobNavContent {
+    @apply whFull;
+
+    .mobNavContentInner {
+      @apply flex flex-col gap-2 h-[calc(100%-40px)] overflow-scroll py-4 pxContent;
+
+      .mobOtherMenu {
+        @apply absolute left-0 bottom-0 w-full h-[40px] bg-black;
+
+        .otherMenuInner {
+          @apply relative whFull flex gap-4 items-center justify-between pxContent;
+        }
+      }
+
+      .mobNavItem {
+        @apply opacity-0 transition-opacity duration-700;
+
+        .subWrap {
+          .subWrapInner {
+            @apply flex flex-col gap-5;
+
+            > div {
+              @apply p-0 !important;
+            }
+
+            .subNavItem {
+              a {
+                @apply block leading-tight;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobNavMenuTrigger {
+  @apply py-3 px-0 !important;
+}
+
+.mobNavMenuContent {
+  @apply flex flex-col items-start gap-3 pl-[1em] border-l border-solid border-black;
+
+  .subNavItem {
+    span {
+      @apply text-[16px] text-gray-dark !important;
+    }
+  }
+}
+
+.mobNavMenuTitle {
+  @apply relative font-medium text-[32px] w-max;
+
+  > div {
+    @apply py-0 !important;
+
+    &:after {
+      @apply content-[''] absolute -bottom-[1px] left-0 w-0 h-[1px] transition-width ease-in-out;
+    }
+  }
+
+  &:hover {
+    > div {
+      @apply text-primary-accent;
+
+      &:after {
+        @apply bg-primary-accent;
+        @apply w-full;
+      }
+    }
+  }
+}
+
+.mobNavCopyright {
+  @apply text-[12px] text-left text-white;
+}
+
+.mobNavItemBtn {
+  @apply text-[22px] py-3 leading-none;
+
+  span {
+    @apply text-[22px] leading-none !important;
+  }
+}
+
+.mobSubGroup {
+  + .mobSubGroup {
+    @apply pt-4;
+  }
+
+  .mobSubGroupTitle {
+    @apply text-sm font-bold mb-2;
+  }
+
+  .mobSubGroupList {
+    @apply flex flex-col items-start gap-4 py-2 pl-2;
+  }
+}
+
+.btnGlobalNetwork {
+  @apply flexCenter gap-2 text-white h-[calc(var(--header-bar-height)-4px)];
+
+  &:focus-visible {
+    @apply outline-white;
+  }
+
+  .btnIcon {
+    @apply w-4 h-4 text-white;
+  }
+
+  .btnLabel {
+    @apply text-[14px];
+  }
+}

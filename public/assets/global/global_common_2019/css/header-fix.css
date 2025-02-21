@@ -1,0 +1,773 @@
+header.gb-common-2019_header {position: relative;height: auto;}
+header .gb-common-2019_header__inner {z-index:1001;}
+div .m-box-headnav .headnav-area {z-index:99;}
+[data-namespace='index'] {padding-top: 0;}
+.showcase-area .area-thumb {top:79px;}
+.showcase-area .area-thumb .thumb-area .thumb-slide .slick-arrow {top:50%;}
+@media screen and (max-width: 640px) and (min-width: 0){.showcase-area .area-thumb {top: auto;}}
+@media screen and (max-width: 1023px) {.scrolledPage .drawer-hamburger.-primary {display: none !important;}}
+.modal-video-body {
+  max-width: 660px !important;
+}
+
+.modal-video-close-btn {
+  top: -72px !important;
+  right: -10px !important;
+  width: 52px !important;
+  height: 52px !important;
+}
+
+.gb-common-2019_header {
+  position: relative;
+  height: auto;
+}
+
+.modal .modal-inner .vjs-poster {
+    display: none;
+}
+
+
+/* NEOREST */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-weight: 400;
+}
+
+html #body_inner .m-box-headnav,
+html #body_inner .u-area-top {
+ font-size: 16px;  font-weight: 400;
+}
+
+@media screen and (min-width: 1500px) {
+ html #body_inner .m-box-headnav,
+ html #body_inner .u-area-top {
+  font-size: 12.5px;
+ }
+}
+
+@media screen and (max-width: 767px) {
+ html #body_inner .m-box-headnav,
+ html #body_inner .u-area-top {
+  font-size: 18px;
+ }
+}
+
+@media screen and (max-width: 639px) {
+ html #body_inner .m-box-headnav,
+ html #body_inner .u-area-top {
+  font-size: 16px;
+ }
+}
+.menu-list li {
+    position: unset;
+}
+
+.m-box-headnav .headnav-area .headnav-inner .headnav-logo.has-ttl .logo-ttl {
+ font-family: 'Montserrat', sans-serif;  font-size: 18.56px;  font-size: 1.16em;
+}
+
+.m-box-headnav .headnav-area .headnav-inner .headnav-menu {
+ font-family: 'Montserrat', sans-serif;
+}
+
+.m-box-headnav .headnav-area .headnav-inner .headnav-menu .menu-list > li .menu-item {
+  font-size: 16px;  font-size: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+ .m-box-headnav .headnav-area .headnav-inner .headnav-menu .menu-list > li .menu-item {
+  font-size: .9375em;
+ }
+}
+
+.m-box-headnav .headnav-area .headnav-inner .headnav-menu .menu-list > li .menu-drop .drop-area {
+  font-size: 14px;  font-size: .875em;
+}
+
+.m-box-headnav .headnav-area .headnav-inner .headnav-menu .menu-list > li .menu-drop .drop-area .drop-ttl {
+  font-size: 16px;  font-size: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+ .m-box-headnav .headnav-area .headnav-inner .headnav-menu .menu-list > li .menu-drop .drop-area .drop-ttl {
+  font-size: .75em;
+ }
+}
+
+.m-box-headnav .headnav-area .headnav-inner .headnav-menu .menu-list > li .menu-drop .drop-area .drop-menu {
+  font-size: 14px;  font-size: .875em;
+}
+
+@media screen and (max-width: 1024px) {
+ .m-box-headnav .headnav-area .headnav-inner .headnav-menu .menu-list > li .menu-drop .drop-area .drop-menu {
+  font-size: .75em;
+ }
+}
+
+.benefit-nav ul li a span {
+  font-size: 24px;  font-size: 1.5em;
+}
+
+@media screen and (max-width: 1024px) {
+ .benefit-nav ul li a span {
+  font-size: 1.2em;
+ }
+}
+
+@media screen and (min-width: 1600px) {
+ .benefit-nav ul li a span {
+  font-size: 1.875em;
+ }
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .benefit-nav ul li a span {
+  font-size: 1.3125em;
+ }
+}
+
+.m-pagettl h1 {
+ font-family: 'Montserrat', sans-serif;  font-size: 36px;  font-size: 2.25em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .m-pagettl h1 {
+  font-size: 1.125em;
+ }
+}
+
+a.m-btn-video {
+ font-family: 'Montserrat', sans-serif;  font-size: 16px;  font-size: 1em;  font-weight: bold;
+}
+
+@media screen and (min-width: 1600px) {
+ a.m-btn-video {
+  font-size: 1.25em;
+ }
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ a.m-btn-video {
+  font-size: .875em;
+ }
+}
+
+a.m-btn-video.btn-m {
+  font-size: 24px;  font-size: 1.5em;
+}
+
+a.m-btn-video.btn-s {
+  font-size: 16px;  font-size: 1em;
+}
+
+.m-box-regionlink a {
+ font-family: 'Montserrat', sans-serif;  font-size: 24px;  font-size: 1.5em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .m-box-regionlink a {
+  font-size: 1em;
+ }
+}
+
+.u-area-top .top-mainslide .mainslide-area .slide-item .item-txt dl dd {
+  font-size: 16px;  font-size: 1em;
+}
+
+.u-area-top .top-benefit h2 {
+ font-family: 'Montserrat', sans-serif;  font-size: 40px;  font-size: 2.5em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .u-area-top .top-benefit h2 {
+  font-size: 1.5em;
+ }
+}
+
+@media screen and (min-width: 1600px) {
+ .u-area-top .top-benefit h2 {
+  font-size: 3.125em;
+ }
+}
+
+.u-area-top .top-recommend h2 {
+ font-family: 'Montserrat', sans-serif;  font-size: 40px;  font-size: 2.5em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .u-area-top .top-recommend h2 {
+  font-size: 1.5em;
+ }
+}
+
+@media screen and (min-width: 1600px) {
+ .u-area-top .top-recommend h2 {
+  font-size: 3.125em;
+ }
+}
+
+.u-area-top .top-recommend .recommend-list li a dl dd span {
+ font-family: 'Montserrat', sans-serif;  font-size: 24px;  font-size: 1.5em;
+}
+
+@media screen and (max-width: 1024px) {
+ .u-area-top .top-recommend .recommend-list li a dl dd span {
+  font-size: 1.125em;
+ }
+}
+
+@media screen and (min-width: 1600px) {
+ .u-area-top .top-recommend .recommend-list li a dl dd span {
+  font-size: 1.875em;
+ }
+}
+
+.u-area-top .index-where h2 {
+ font-family: 'Montserrat', sans-serif;  font-size: 40px;  font-size: 2.5em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .u-area-top .index-where h2 {
+  font-size: 1.5em;
+ }
+}
+
+@media screen and (min-width: 1600px) {
+ .u-area-top .index-where h2 {
+  font-size: 3.125em;
+ }
+}
+
+.u-area-top .index-where .where-map .map-area .area-item .item-list > ul > li a {
+  font-size: 14px;  font-size: .875em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .u-area-top .index-where .where-map .map-area .area-item .item-list > ul > li a {
+  font-size: .75em;
+ }
+}
+
+.u-area-top .index-where .where-map .map-area .area-item .item-btn {
+  font-size: 14px;  font-size: .875em;
+}
+
+.u-area-top .index-showcase h2 {
+ font-family: 'Montserrat', sans-serif;  font-size: 40px;  font-size: 2.5em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .u-area-top .index-showcase h2 {
+  font-size: 1.5em;
+ }
+}
+
+@media screen and (min-width: 1600px) {
+ .u-area-top .index-showcase h2 {
+  font-size: 3.125em;
+ }
+}
+
+
+/* WASHLET */
+
+.u-area-top .index-concept .concept-area .area-item h3.item-ttl {
+  font-size: 24px;  font-size: 1.5em;  font-weight: bold;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .u-area-top .index-concept .concept-area .area-item h3.item-ttl {
+  font-size: .9375em;
+ }
+}
+
+.u-area-top .index-concept .concept-area .area-item p {
+  font-size: 16px;  font-size: 1em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .u-area-top .index-concept .concept-area .area-item p {
+  font-size: .75em;
+ }
+}
+
+.u-area-top .index-concept .concept-area .area-item p.note {
+  font-size: 14px;  font-size: .875em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .u-area-top .index-concept .concept-area .area-item p.note {
+  font-size: .6875em;
+ }
+}
+
+.u-area-top .index-concept h2 {
+ font-family: 'Montserrat', sans-serif;  font-size: 40px;  font-size: 2.5em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .u-area-top .index-concept h2 {
+  font-size: 1.5em;
+ }
+}
+
+@media screen and (min-width: 1600px) {
+ .u-area-top .index-concept h2 {
+  font-size: 3.125em;
+ }
+}
+
+/* SHOWCASE */
+
+.showcase-area .area-main .main-ttl {
+ font-family: 'Montserrat', sans-serif;  font-size: 24px;  font-size: 1.5em;
+}
+
+@media screen and (min-width: 1600px) {
+ .showcase-area .area-main .main-ttl {
+  font-size: 1.875em;
+ }
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .showcase-area .area-main .main-ttl {
+  font-size: 1.125em;
+ }
+}
+
+.showcase-area .area-product h2 {
+ font-family: 'Montserrat', sans-serif;  font-size: 20px;  font-size: 1.25em;
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .showcase-area .area-product h2 {
+  font-size: .75em;
+ }
+}
+
+.showcase-area .area-product .product-list li a .list-cat,
+.showcase-area .area-product .product-list li .no-link .list-cat {
+ font-family: 'Montserrat', sans-serif;  font-size: 16px;  font-size: 1em;  font-weight: bold;
+}
+
+@media screen and (min-width: 1600px) {
+ .showcase-area .area-product .product-list li a .list-cat,
+ .showcase-area .area-product .product-list li .no-link .list-cat {
+  font-size: 1.125em;
+ }
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .showcase-area .area-product .product-list li a .list-cat,
+ .showcase-area .area-product .product-list li .no-link .list-cat {
+  font-size: .625em;
+ }
+}
+
+.showcase-area .area-product .product-list li a .list-name,
+.showcase-area .area-product .product-list li .no-link .list-name {
+ font-family: 'Montserrat', sans-serif;  font-size: 16px;  font-size: 1em;
+}
+
+@media screen and (min-width: 1600px) {
+ .showcase-area .area-product .product-list li a .list-name,
+ .showcase-area .area-product .product-list li .no-link .list-name {
+  font-size: 1.25em;
+ }
+}
+
+@media screen and (min-width: 0) and (max-width: 640px) {
+ .showcase-area .area-product .product-list li a .list-name,
+ .showcase-area .area-product .product-list li .no-link .list-name {
+  font-size: .6875em;
+ }
+}
+
+/* BENEFIT */
+.benefit-l-btn a .btn-area > h2 span {
+  font-family: 'Montserrat', sans-serif;  font-size: 56px;  font-size: 3em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-l-btn a .btn-area > h2 span {
+    font-size: 4.375em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-l-btn a .btn-area > h2 span {
+    font-size: 1.3em;
+  }
+}
+.benefit-l-btn a .btn-area > h2.has-upper span {
+  font-size: 48px;  font-size: 3em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-l-btn a .btn-area > h2.has-upper span {
+    font-size: 3.75em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-l-btn a .btn-area > h2.has-upper span {
+    font-size: 1.125em;
+  }
+}
+.benefit-l-btn a .btn-area .area-sub {
+  font-family: 'Montserrat', sans-serif;  font-size: 24px;  font-size: 1.5em;
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-l-btn a .btn-area .area-sub {
+    font-size: .9375em;
+  }
+}
+.benefit-l-btn a .area-txt h3 {
+  font-family: 'Montserrat', sans-serif;  font-size: 32px;  font-size: 2em;
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-l-btn a .area-txt h3 {
+    font-size: .9em;
+  }
+}
+.benefit-l-btn a .area-txt .inner-txt {
+  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-l-btn a .area-txt .inner-txt {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-l-btn a .area-txt .inner-txt {
+    font-size: .75em;
+  }
+}
+.benefit-l-btn a .btn-info {
+  font-family: 'Montserrat', sans-serif;  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-l-btn a .btn-info {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-l-btn a .btn-info {
+    font-size: .75em;
+  }
+}
+.benefit-l-btn a .btn-info dt {
+  font-weight: bold;
+}
+.benefit-lead {
+  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-lead {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-lead {
+    font-size: .875em;
+  }
+}
+.benefit-subt {
+  font-family: 'Montserrat', sans-serif;  font-size: 40px;  font-size: 2.5em;
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-subt {
+    font-size: 1.3125em;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .benefit-subt {
+    font-size: 3.125em;
+  }
+}
+.benefit-subts {
+  font-family: 'Montserrat', sans-serif;  font-size: 32px;  font-size: 2em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-subts {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-subts {
+    font-size: 1.125em;
+  }
+}
+.benefit-subts.size-s {
+  font-size: 24px;  font-size: 1.5em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-subts.size-s {
+    font-size: 1.875em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-subts.size-s {
+    font-size: .9375em;
+  }
+}
+.benefit-txt {
+  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-txt {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-txt {
+    font-size: .875em;
+  }
+}
+.benefit-txt.fz-s {
+  font-size: 14px;  font-size: .875em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-txt.fz-s {
+    font-size: 1.09375em;
+  }
+}
+.benefit-caption {
+  font-size: 14px;  font-size: .875em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-caption {
+    font-size: 1.09375em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-caption {
+    font-size: .6875em;
+  }
+}
+
+.benefit-list li h3 {
+  font-family: 'Montserrat', sans-serif;  font-size: 22px;  font-size: 1.375em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-list li h3 {
+    font-size: 1.71875em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-list li h3 {
+    font-size: 1.125em;
+  }
+}
+.benefit-list li .item-txt {
+  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-list li .item-txt {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-list li .item-txt {
+    font-size: .875em;
+  }
+}
+.benefit-box-cntimg .cntimg-box .box-ttl {
+  font-family: 'Montserrat', sans-serif;  font-size: 32px;  font-size: 2em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-box-cntimg .cntimg-box .box-ttl {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-box-cntimg .cntimg-box .box-ttl {
+    font-size: 1.125em;
+  }
+}
+.benefit-box-cntimg .cntimg-box p {
+  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-box-cntimg .cntimg-box p {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-box-cntimg .cntimg-box p {
+    font-size: .75em;
+  }
+}
+.hospitality-automated .automated-area .area-txt .txt-inner h2 {
+  font-family: 'Montserrat', sans-serif;  font-size: 56px;  font-size: 3.5em;
+}
+@media screen and (min-width: 1600px) {
+  .hospitality-automated .automated-area .area-txt .txt-inner h2 {
+    font-size: 4.375em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .hospitality-automated .automated-area .area-txt .txt-inner h2 {
+    font-size: 1.5em;
+  }
+}
+.design-btn a h2 {
+  font-family: 'Montserrat', sans-serif;  font-size: 54px;  font-size: 3.375em;
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .design-btn a h2 {
+    font-size: 1.2em;
+  }
+}
+.design-btn a .btn-txt {
+  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 1600px) {
+  .design-btn a .btn-txt {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .design-btn a .btn-txt {
+    font-size: .75em;
+  }
+}
+.design-area .design-box .box-caption {
+  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 1600px) {
+  .design-area .design-box .box-caption {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .design-area .design-box .box-caption {
+    font-size: .75em;
+  }
+}
+.cleanliness-illust .illust-area .area-txt {
+  font-family: 'Montserrat', sans-serif;
+}
+.cleanliness-illust .illust-area .area-txt h2 {
+  font-size: 56px;  font-size: 3.5em;
+}
+@media screen and (min-width: 1600px) {
+  .cleanliness-illust .illust-area .area-txt h2 {
+    font-size: 4.375em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .cleanliness-illust .illust-area .area-txt h2 {
+    font-size: 1.5em;
+  }
+}
+.cleanliness-illust .illust-area .area-txt h2.fzs {
+  font-size: 32px;  font-size: 2em;
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .cleanliness-illust .illust-area .area-txt h2.fzs {
+    font-size: .9375em;
+  }
+}
+.cleanliness-illust .illust-area .area-txt p {
+  font-size: 32px;  font-size: 2em;
+}
+@media screen and (min-width: 1600px) {
+  .cleanliness-illust .illust-area .area-txt p {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .cleanliness-illust .illust-area .area-txt p {
+    font-size: .9375em;
+  }
+}
+.cleanliness-illust .illust-area .area-txt p.fzs {
+  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .cleanliness-illust .illust-area .area-txt p.fzs {
+    font-size: .75em;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cleanliness-illust .illust-area .area-txt p.fzs {
+    font-size: 1.25em;
+  }
+}
+.cleanliness-illust .illust-area .area-img .img-ttl {
+  font-family: 'Montserrat', sans-serif;  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 1600px) {
+  .cleanliness-illust .illust-area .area-img .img-ttl {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .cleanliness-illust .illust-area .area-img .img-ttl {
+    font-size: .75em;
+  }
+}
+.benefit-flow .flow-box h4 {
+  font-family: 'Montserrat', sans-serif;  font-size: 24px;  font-size: 1.5em;
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-flow .flow-box h4 {
+    font-size: 1.125em;
+  }
+}
+.benefit-flow .flow-box .flow-imgarea .flow-txt {
+  font-size: 14px;  font-size: .875em;
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-flow .flow-box .flow-imgarea .flow-txt {
+    font-size: .875em;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .benefit-flow .flow-box .flow-imgarea .flow-txt {
+    font-size: 1.125em;
+  }
+}
+.benefit-flow .flow-box .flow-imgarea .flow-txtwide {
+  font-size: 14px;  font-size: .875em;
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-flow .flow-box .flow-imgarea .flow-txtwide {
+    font-size: .6875em;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .benefit-flow .flow-box .flow-imgarea .flow-txtwide {
+    font-size: 1.125em;
+  }
+}
+.benefit-structure .structure-item {
+  font-size: 16px;  font-size: 1em;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-structure .structure-item {
+    font-size: 1.5em;
+  }
+}
+.benefit-structure .structure-item h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-structure .structure-item .structure-imgarea .structure-imgtxt {
+    font-size: .875em;
+  }
+}
+.benefit-structure .structure-item.item-ewaterplus h4 {
+  font-size: 20px;  font-size: 1.25em;  font-weight: bold;
+}
+@media screen and (min-width: 1600px) {
+  .benefit-structure .structure-item.item-ewaterplus h4 {
+    font-size: 1.6875em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 640px) {
+  .benefit-structure .structure-item.item-ewaterplus .structure-ewaterplusr {
+    font-size: .875em;
+  }
+}

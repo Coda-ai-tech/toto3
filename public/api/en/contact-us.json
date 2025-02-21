@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "title": "Contact Us",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb":[
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "CONTACT US",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/contact-us"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "ContactUs",
+      "moduleOption":null,
+      "content": {
+        "title": "CONTACT US",
+        "subTitle":"Thank you for visiting our website.",
+        "description":"For any inquiries, feedback, or collaborations, please do not hesitate to contact us using the information below. Your messages are important to us, and we are committed to providing timely and thoughtful responses to all correspondence. We appreciate your interest and look forward to the opportunity to connect with you.",
+        "media":{
+          "type": "image",
+          "src": {
+            "desktop": "/assets/img/content/contact-us/01.webp",
+            "mobile": null
+          },
+          "alt": "",
+          "poster": null,
+          "mediaCaption": "This is media caption."
+        }
+      }
+    }
+  ]
+}

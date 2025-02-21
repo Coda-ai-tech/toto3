@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/special/history", {data:[{}],fetch:{},mutations:[]});

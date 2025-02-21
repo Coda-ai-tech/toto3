@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Location",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb":[
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "LOCATION",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/location"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "Location",
+      "moduleOption":null,
+      "content": {
+        "title": "AUTHORIZED DEALERS",
+        "virtualTour":{
+          "subTitle":"Virtual Tour",
+          "title":"Virtual Showroom Architectural & Design Centre",
+          "media":{
+            "type": "image",
+            "src": {
+              "desktop": "/assets/img/content/location/virtual-showroom.webp",
+              "mobile": null
+            },
+            "alt": "",
+            "poster": null,
+            "mediaCaption": "This is media caption."
+          },
+          "cta":[
+            {
+              "label": "Start Virtual Tour",
+              "variant": "contain",
+              "color": "primary",
+              "icon": {
+                "name":"virtual",
+                "position":"left"
+              },
+              "link": {
+                "type": "newWindow",
+                "href": "/en"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

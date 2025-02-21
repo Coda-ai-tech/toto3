@@ -1,0 +1,214 @@
+[
+    {
+        "id": 32,
+        "name": "Invitation to extraordinary",
+        "category_name": "Resort",
+        "cate_id": "3",
+        "vr": true
+    },
+    {
+        "id": 31,
+        "name": "New in classic",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": false
+    },
+    {
+        "id": 30,
+        "name": "Relaxing tolerance",
+        "category_name": "Suburban",
+        "cate_id": "5",
+        "vr": false
+    },
+    {
+        "id": 26,
+        "name": "Peaceful cocoon",
+        "category_name": "Suburban",
+        "cate_id": "5",
+        "vr": true
+    },
+    {
+        "id": 25,
+        "name": "Black gorgeousness",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": true
+    },
+    {
+        "id": 24,
+        "name": "Graceful harmony",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": true
+    },
+    {
+        "id": 23,
+        "name": "Moderate distance",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": false,
+        "space_name":"Public restroom"
+    },
+    {
+        "id": 22,
+        "name": "Harmonious composition",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": false,
+        "space_name":"Public restroom"
+    },
+    {
+        "id": 21,
+        "name": "Sky entrance",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": false,
+        "space_name":"Public restroom"
+    },
+    {
+        "id": 20,
+        "name": "Suite blues",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": true
+    },
+    {
+        "id": 19,
+        "name": "Forest bathing",
+        "category_name": "Suburban",
+        "cate_id": "5",
+        "vr": true
+    },
+    {
+        "id": 18,
+        "name": "Calm extraordinaire",
+        "category_name": "Resort",
+        "cate_id": "3",
+        "vr": true
+    },
+    {
+        "id": 17,
+        "name": "Urban monopoly",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": true
+    },
+    {
+        "id": 16,
+        "name": "Harmonious composition",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": false,
+        "primary": 22,
+        "space_name":"Guest room"
+    },
+    {
+        "id": 15,
+        "name": "Moderate distance",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": false,
+        "primary": 23,
+        "space_name":"Guest room"
+    },
+    {
+        "id": 14,
+        "name": "Sky entrance",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": false,
+        "primary": 21,
+        "space_name":"Guest room"
+    },
+    {
+        "id": 13,
+        "name": "The stillness of comfort",
+        "category_name": "Boutique/Resort",
+        "cate_id": "2:3",
+        "vr": false
+    },
+    {
+        "id": 12,
+        "name": "Freedom from the flux of time",
+        "category_name": "Resort",
+        "cate_id": "3",
+        "vr": false
+    },
+    {
+        "id": 11,
+        "name": "The dignity of elegance",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": false
+    },
+    {
+        "id": 10,
+        "name": "Evening tranquility",
+        "category_name": "Boutique",
+        "cate_id": "2",
+        "vr": false
+    },
+    {
+        "id": 9,
+        "name": "Midnight in the museum",
+        "category_name": "Boutique/Urban",
+        "cate_id": "2:4",
+        "vr": false
+    },
+    {
+        "id": 8,
+        "name": "Residential oasis",
+        "category_name": "Suburban",
+        "cate_id": "5",
+        "vr": false
+    },
+    {
+        "id": 7,
+        "name": "Stroll in tradition",
+        "category_name": "Boutique/Urban",
+        "cate_id": "2:4",
+        "vr": false
+    },
+    {
+        "id": 6,
+        "name": "Relaxing calm moments",
+        "category_name": "Urban",
+        "cate_id": "4",
+        "vr": false
+    },
+    {
+        "id": 5,
+        "name": "Trace memories",
+        "category_name": "Suburban",
+        "cate_id": "5",
+        "vr": false
+    },
+    {
+        "id": 4,
+        "name": "Sustainable life",
+        "category_name": "Suburban",
+        "cate_id": "5",
+        "vr": false
+    },
+    {
+        "id": 3,
+        "name": "Exclusively yours",
+        "category_name": "All suite/Urban",
+        "cate_id": "1:4",
+        "vr": false
+    },
+    {
+        "id": 2,
+        "name": "Blissful moment",
+        "category_name": "All suite/Urban",
+        "cate_id": "1:4",
+        "vr": false
+    },
+    {
+        "id": 1,
+        "name": "Zero reset",
+        "category_name": "All suite/Resort",
+        "cate_id": "1:3",
+        "vr": false
+    }
+]
