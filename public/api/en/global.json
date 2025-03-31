@@ -99,24 +99,10 @@
             "title": "PRODUCT",
             "items": [
               {
-                "label":"ALL PRODUCT",
-                "link":{
-                  "type":"routeLink",
-                  "href": "/en/product"
-                }
-              },
-              {
-                "label":"AWARDS",
-                "link":{
-                  "type":"routeLink",
-                  "href": "/en/awards"
-                }
-              },
-              {
                 "label":"NEOREST",
                 "link":{
                   "type":"routeLink",
-                  "href": "/en"
+                  "href": "/en/product"
                 }
               },
               {
@@ -141,20 +127,6 @@
                 }
               },
               {
-                "label":"SHOWERS",
-                "link":{
-                  "type":"routeLink",
-                  "href": "/en"
-                }
-              },
-              {
-                "label":"FAUCETS",
-                "link":{
-                  "type":"routeLink",
-                  "href": "/en"
-                }
-              },
-              {
                 "label":"LAVATORIES",
                 "link":{
                   "type":"routeLink",
@@ -169,14 +141,42 @@
                 }
               },
               {
-                "label":"ACCESSORIES",
+                "label":"COMMERCIAL",
                 "link":{
                   "type":"routeLink",
                   "href": "/en"
                 }
               },
               {
-                "label":"COMMERCIAL",
+                "label":"ALL PRODUCT",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en/product"
+                }
+              },
+              {
+                "label":"AWARDS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en/awards"
+                }
+              },
+              {
+                "label":"SHOWERS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"FAUCETS",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"ACCESSORIES",
                 "link":{
                   "type":"routeLink",
                   "href": "/en"

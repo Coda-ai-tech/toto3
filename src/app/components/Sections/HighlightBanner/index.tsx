@@ -5,6 +5,7 @@ import { ModuleData, SectionTitle, MediaElement, ButtonElement } from '@/types';
 import { IconList } from '@/types/icons';
 import { useInView } from 'framer-motion';
 import styles from './HighlightBanner.module.scss';
+import Link from 'next/link';
 
 const Button = dynamic(() => import('@@/Button'), { ssr: false });
 const Media = dynamic(() => import('@@/Media'), { ssr: false });
@@ -20,23 +21,28 @@ interface HighlightBannerProps {
 
 const HighlightBannerItem = ({ data }: { data: SampleBannerItem }) => {
   const { title, cta, media } = data;
+  const linkHref = cta[0].link.href || '#';
 
   return (
+
     <div className={`${styles.bannerItem}`}>
-      <div className={`${styles.itemInner}`}>
-        <div className={`${styles.itemContent}`}>
-          <div className={`${styles.itemTitle}`}>{title}</div>
-          <div className={`${styles.itemAction}`}>
-            <Button content={cta[0]} />
+      <Link href={linkHref} passHref>
+        <div className={`${styles.itemInner}`}>
+          <div className={`${styles.itemContent}`}>
+            <div className={`${styles.itemTitle}`}>{title}</div>
+            <div className={`${styles.itemAction}`}>
+              {/* <Button content={cta[0]} /> */}
+            </div>
+          </div>
+          <div className={`${styles.itemBg}`}>
+            <div className={`${styles.itemBgInner}`}>
+              <Media content={media} />
+            </div>
           </div>
         </div>
-        <div className={`${styles.itemBg}`}>
-          <div className={`${styles.itemBgInner}`}>
-            <Media content={media} />
-          </div>
-        </div>
-      </div>
-    </div>
+      </Link>
+    </div >
+
   );
 };
 

@@ -127,7 +127,7 @@ const Header = ({ data }: { data: GlobalDataProps }) => {
                 </div>
                 <div className={`${styles.btnLabel}`}>{dictionary?.globalNetwork}</div>
               </button>
-              <LocaleSwitcher />
+              {/* <LocaleSwitcher /> */}
             </div>
           </div>
           <div className={`${styles.navContent}`}>

@@ -13,11 +13,14 @@
 
 .productBanner {
   @apply whFull pxContent;
+  @apply flex;
 
   &.hello {
     .inner {
       .bannerWrap {
         .bannerList {
+          @apply flex-wrap;
+
           .bannerItem {
             @apply opacity-100 duration-700;
 

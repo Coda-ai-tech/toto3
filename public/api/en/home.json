@@ -296,7 +296,7 @@
       "module": "LatestOffer",
       "moduleOption":null,
       "content": {
-        "title":"LATEST OFFER",
+        "title":"LATEST NEWS",
         "items":[
           {
             "title":"TOTO Washlet Winter Promotion 2024",
@@ -430,23 +430,6 @@
             }
           },
           {
-            "label":"TOUCHLESS FAUCET",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media":{
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/02.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
             "label":"WASHLET+",
             "link": {
               "type": "routeLink",
@@ -455,7 +438,7 @@
             "media":{
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/product-banner/03.webp",
+                "desktop": "/assets/img/content/product-banner/02.webp",
                 "mobile": null
               },
               "alt": "",
@@ -481,7 +464,41 @@
             }
           },
           {
-            "label":"FLOTATION TUB",
+            "label":"TOILETS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/03.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"LAVATORIES",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"BATHTUBS",
             "link": {
               "type": "routeLink",
               "href": "/en"
@@ -498,7 +515,92 @@
             }
           },
           {
-            "label":"SHOWER",
+            "label":"COMMERCIAL",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/01.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"ALL PRODUCT",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"AWARDS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/03.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"SHOWERS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/06.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"FAUCETS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"ACCESSORIES",
             "link": {
               "type": "routeLink",
               "href": "/en"
@@ -536,7 +638,28 @@
         },
         "items":[
           {
+            "label":"Neorest",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            }
+          },
+          {
+            "label":"Washlet+",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            }
+          },
+          {
             "label":"Washlet",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            }
+          },
+          {
+            "label":"Toilet",
             "link": {
               "type": "routeLink",
               "href": "/en"
@@ -551,6 +674,34 @@
           },
           {
             "label":"Bathtub",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            }
+          },
+          {
+            "label":"Shower",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            }
+          },
+          {
+            "label":"Faucet",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            }
+          },
+          {
+            "label":"Accessories",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            }
+          },
+          {
+            "label":"Commercial",
             "link": {
               "type": "routeLink",
               "href": "/en"

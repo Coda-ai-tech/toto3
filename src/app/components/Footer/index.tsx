@@ -138,7 +138,7 @@ const Footer = ({ data }: { data: GlobalDataProps }) => {
               </div>
             </div>
             <div className={styles.footerStaticMenu}>
-              <LocaleSwitcher />
+              {/* <LocaleSwitcher /> */}
               {footerStaticMenu && (
                 <nav className={styles.staticMenuList}>
                   <ul>
