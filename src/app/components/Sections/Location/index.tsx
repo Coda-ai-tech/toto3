@@ -24,7 +24,7 @@ interface DealerItem {
   gmap: string;
   thumb: string;
   time: string | null;
-  fax: string | null;
+  fax?: string | null;
   tel: string[];
 }
 
