@@ -124,7 +124,7 @@
                 "icon": null,
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
+                  "href": "/en/technology/tornado-flush"
                 }
               }
             ]
@@ -178,7 +178,7 @@
                 "icon": null,
                 "link": {
                   "type": "routeLink",
-                  "href": "/en/cleanovation"
+                  "href": "/en/cleanovation/clean-synergy"
                 }
               }
             ]
