@@ -20,7 +20,7 @@ import newsData from '../../../../../public/api/en/news-data.json';
 
 export interface NewsItem extends SectionTitle {
   slug: string;
-  thumb: string;
+  thumb: string | null;
   content: string;
 }
 const NewsList = ({ order, data }: ModuleData<SectionTitle, null>) => {
@@ -81,7 +81,7 @@ const NewsList = ({ order, data }: ModuleData<SectionTitle, null>) => {
                 <div className={`${styles.highlightItem}`} key={index}>
                   <div className={`${styles.highlightItemThumb}`}>
                     <Image
-                      src={item.thumb}
+                      src={item.thumb?? '/assets/img/content/hero-banner/05.webp'}
                       alt={item.title}
                       width={100}
                       height={100}
@@ -113,7 +113,7 @@ const NewsList = ({ order, data }: ModuleData<SectionTitle, null>) => {
                   <div key={index} className={`${styles.newsCard}`}>
                     <div className={`${styles.cardThumb}`}>
                       <Image
-                        src={item.thumb}
+                        src={item.thumb?? '/assets/img/content/hero-banner/05.webp'}
                         alt={item.title}
                         width={100}
                         height={100}

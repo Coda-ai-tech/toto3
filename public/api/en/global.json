@@ -85,6 +85,20 @@
                   "type":"routeLink",
                   "href": "/en/inspiration"
                 }
+              },
+              {
+                "label":"",
+                "link":{
+                  "type":"routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label":"GLOBAL REFERENCE",
+                "link":{
+                  "type":"external",
+                  "href": "https://www.toto.com/project/"
+                }
               }
             ]
           }

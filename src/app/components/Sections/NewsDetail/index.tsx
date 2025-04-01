@@ -58,7 +58,7 @@ const NewsDetail = ({ order, data }: ModuleData<SectionTitle, null>) => {
         <div className={`${styles.inner}`}>
           <div className={`${styles.head}`}>
             <Image
-              src={currentNewsData.thumb}
+              src={currentNewsData.thumb?? '/assets/img/content/hero-banner/05.webp'}
               alt={currentNewsData.title}
               width={100}
               height={100}
@@ -101,7 +101,7 @@ const NewsDetail = ({ order, data }: ModuleData<SectionTitle, null>) => {
                         <Link href={`/${lang}/news/${item.slug}`} className={`${styles.relatedNewsItemInner}`}>
                           <div className={`${styles.relatedNewsItemThumb}`}>
                             <Image
-                              src={item.thumb}
+                              src={item.thumb?? '/assets/img/content/hero-banner/05.webp'}
                               alt={item.title}
                               width={100}
                               height={100}
