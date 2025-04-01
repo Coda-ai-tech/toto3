@@ -31,7 +31,7 @@ const HighlightBannerItem = ({ data }: { data: SampleBannerItem }) => {
           <div className={`${styles.itemContent}`}>
             <div className={`${styles.itemTitle}`}>{title}</div>
             <div className={`${styles.itemAction}`}>
-              {/* <Button content={cta[0]} /> */}
+              <Button content={cta[0]} noLink={true} />
             </div>
           </div>
           <div className={`${styles.itemBg}`}>

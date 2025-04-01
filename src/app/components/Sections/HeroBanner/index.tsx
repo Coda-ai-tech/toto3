@@ -143,13 +143,13 @@ const HeroBanner = ({ order, data }: ModuleData<HeroBannerProps, null>) => {
                           {subTitle?.trim() && <p className={`${styles.subTitle}`}>{subTitle}</p>}
                           {title?.trim() && <h2 className={`${styles.title}`}>{title}</h2>}
                           {description?.trim() && <p className={`${styles.description}`}>{description}</p>}
-                          {/* {cta?.map((item: ButtonElement<IconList>, bIndex: number) => {
+                          {cta?.map((item: ButtonElement<IconList>, bIndex: number) => {
                             return (
                               <div key={bIndex} className={`${styles.actions}`}>
-                                <Button content={item} isDisabled={currentSlide !== index} />
+                                <Button content={item} isDisabled={currentSlide !== index} noLink={true} />
                               </div>
                             );
-                          })} */}
+                          })}
                         </div>
                       </div>
                     </div>

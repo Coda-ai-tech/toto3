@@ -32,6 +32,7 @@ const Button = ({
   isDisabled = false,
   ref,
   isLoading = false,
+  noLink = false,
 }: {
   content: ButtonElement<IconList>;
   size?: ButtonSize;
@@ -39,6 +40,7 @@ const Button = ({
   isDisabled?: boolean;
   ref?: any;
   isLoading?: boolean;
+  noLink?: boolean;
 }) => {
   const {
     label,
@@ -62,6 +64,30 @@ const Button = ({
 
   if (!link || !link.type) {
     return <>Empty Link Data</>;
+  }
+
+  if (noLink) {
+    return (
+      <>
+        <button
+          className={`${styles.btn} ${styles[lang as string]} ${styles[size]} ${styles[color]} ${styles[variant]} ${
+            styles[shape]
+          } ${icon ? styles.hasIcon : ''} ${
+            icon?.position === ButtonIconPosition.left ? styles.iconLeft : styles.iconRight
+          } ${isDisabled ? styles.disabled : ''} ${className ? className : ''}`}
+          aria-label={label}
+          tabIndex={isDisabled ? -1 : undefined}
+        >
+          {label && <span className={styles.btnLabel}>{label}</span>}
+          {icon && link.type !== ButtonAction.external && <ButtonIcon name={icon.name} />}
+          {link.type === ButtonAction.external && (
+            <div className={`${styles.buttonIconWrap} ${styles.iconExternal}`}>
+              <SvgIcon name='arrowExternal' />
+            </div>
+          )}
+        </button>
+    </>
+    )
   }
 
   return (
