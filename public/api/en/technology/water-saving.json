@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "WATER-SAVING",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "TECHNOLOGY",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/technology"
+      }
+    },
+    {
+      "label": "WATER-SAVING",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/technology/water-saving"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "TechnologyDetail",
+      "moduleOption": null,
+      "content": {
+        "title": "WATER-SAVING",
+        "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+        "items": [
+          {
+            "align": "row",
+            "context": "What is WATER-SAVING?<br/><br/>It's very important to us to use our resources very carefully and conserve them where possible when manufacturing our products - as well as in their future use. This is why TOTO developed WATER-SAVING technologies.<br/><br/>These are specifically used in TOTO showers and faucets, ensuring a full, comfortable flow of water while reducing consumption.",
+            "images": ["/assets/img/content/technology/water-saving/01.jpg"]
+          }
+        ],
+        "youtube": "iYIGR0h4rRk"
+      }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
