@@ -441,23 +441,6 @@
             }
           },
           {
-            "label":"WASHLET+",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media":{
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/02.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
             "label":"WASHLET",
             "link": {
               "type": "routeLink",
@@ -475,7 +458,7 @@
             }
           },
           {
-            "label":"TOILETS",
+            "label":"WASHLET+",
             "link": {
               "type": "routeLink",
               "href": "/en"
@@ -483,7 +466,41 @@
             "media":{
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/product-banner/03.webp",
+                "desktop": "/assets/img/content/product-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"FAUCETS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"SHOWERS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/06.webp",
                 "mobile": null
               },
               "alt": "",
@@ -501,6 +518,23 @@
               "type": "image",
               "src": {
                 "desktop": "/assets/img/content/product-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label":"TOILETS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media":{
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/03.webp",
                 "mobile": null
               },
               "alt": "",
@@ -569,40 +603,6 @@
               "type": "image",
               "src": {
                 "desktop": "/assets/img/content/product-banner/03.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label":"SHOWERS",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media":{
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/06.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label":"FAUCETS",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media":{
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/02.webp",
                 "mobile": null
               },
               "alt": "",
