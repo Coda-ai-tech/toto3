@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "DEODORISER",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "TECHNOLOGY",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/technology"
+      }
+    },
+    {
+      "label": "DEODORISER",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/technology/deodoriser"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "TechnologyDetail",
+      "moduleOption": null,
+      "content": {
+        "title": "DEODORISER",
+        "icon": "/assets/img/content/technology/deodoriser/ico-deodoriser.png",
+        "items": [
+          {
+            "align": "row",
+            "context": "Highly effective deodorizing automatically takes places inside the toilet bowl both during and immediately after use, leaving no disturbing odors.",
+            "images": ["/assets/img/content/technology/deodoriser/01.jpg"]
+          }
+        ],
+        "youtube": "HsAa-91CN-w"
+      }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          },
+          {
+            "title": "CS987PVA / TCF9787WA",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/related-product/sample.webp",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS987PVA"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

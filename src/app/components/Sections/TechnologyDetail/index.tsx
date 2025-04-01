@@ -18,22 +18,35 @@ interface TechnologyDetailProps extends SectionTitle {
   youtube: string | null;
 }
 
-const TechnologyDetail = ({ order, data }: ModuleData<TechnologyDetailProps, null>) => {
+const TechnologyDetail = ({
+  order,
+  data,
+}: ModuleData<TechnologyDetailProps, null>) => {
   const {
     id,
     content: { title, icon, items, youtube },
   } = data;
 
   return (
-    <section id={id ? id : `section${order}`} className={`${styles.technologyDetail}`}>
+    <section
+      id={id ? id : `section${order}`}
+      className={`${styles.technologyDetail}`}>
       <div className={`${styles.contentWrap}`}>
         <div className={`${styles.inner}`}>
           <div className={`${styles.header}`}>
             <hgroup>
               <h2 className={`${styles.title}`}>
-                <div className={`${styles.titleIcon}`}>
-                  <Image src={icon} alt={title} width={24} height={24} draggable={false} />
-                </div>
+                {icon && (
+                  <div className={`${styles.titleIcon}`}>
+                    <Image
+                      src={icon}
+                      alt={title}
+                      width={24}
+                      height={24}
+                      draggable={false}
+                    />
+                  </div>
+                )}
                 <div className={`${styles.titleTxt}`}>{title}</div>
               </h2>
             </hgroup>
@@ -45,34 +58,52 @@ const TechnologyDetail = ({ order, data }: ModuleData<TechnologyDetailProps, nul
           <div className={`${styles.detailContext}`}>
             {items.map((item, index) => (
               <article
-                className={`${styles.detailContextItem} ${item.align === 'row' ? styles.rowItem : ''}`}
-                key={index}
-              >
-                <div className={`${styles.itemContextWrap}`}>
-                  <div className={`${styles.itemContext}`} dangerouslySetInnerHTML={{ __html: item.context }} />
-                </div>
-
-                <div className={`${styles.itemImage}`}>
-                  {item.images.map((img, index) => (
-                    <Image key={index} src={img} width={100} height={100} alt='' draggable={false} />
-                  ))}
-                </div>
+                className={`${styles.detailContextItem} ${
+                  item.align === 'row' ? styles.rowItem : ''
+                }`}
+                key={index}>
+                {item.context && (
+                  <div className={`${styles.itemContextWrap}`}>
+                    <div
+                      className={`${styles.itemContext}`}
+                      dangerouslySetInnerHTML={{ __html: item.context }}
+                    />
+                  </div>
+                )}
+                {item.images.length && (
+                  <div className={`${styles.itemImage}`}>
+                    {item.images.map((img, index) => (
+                      <Image
+                        key={index}
+                        src={img}
+                        width={100}
+                        height={100}
+                        style={{
+                          objectFit: 'contain',
+                        }}
+                        alt=""
+                        draggable={false}
+                      />
+                    ))}
+                  </div>
+                )}
               </article>
             ))}
           </div>
         </div>
       </div>
-      <div className={`${styles.youtubeWrap}`}>
-        <div className={`${styles.inner}`}>
-          <iframe
-            src={`https://www.youtube.com/embed/${youtube}`}
-            title={title}
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            referrerPolicy='strict-origin-when-cross-origin'
-            allowFullScreen
-          ></iframe>
+      {youtube && (
+        <div className={`${styles.youtubeWrap}`}>
+          <div className={`${styles.inner}`}>
+            <iframe
+              src={`https://www.youtube.com/embed/${youtube}`}
+              title={title}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen></iframe>
+          </div>
         </div>
-      </div>
+      )}
     </section>
   );
 };
