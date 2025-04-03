@@ -188,38 +188,6 @@
     },
     {
       "id": null,
-      "module": "ScrollingIntro",
-      "moduleOption": null,
-      "content": {
-        "title": "Toward a <mark>Dynamic</mark>, <mark>Vibrant</mark>, and <mark>Excellent</mark> TOTO",
-        "subTitle": "OUR MISSION",
-        "description": "This term expresses the intention of the most important matters to be implemented in the medium and long term for the sustainable growth of the TOTO Group.",
-        "cta": [
-          {
-            "label": "About TOTO",
-            "variant": "contain",
-            "color": "primary",
-            "icon": null,
-            "link": {
-              "type": "routeLink",
-              "href": "/en/about-toto"
-            }
-          },
-          {
-            "label": "Brand Purpose",
-            "variant": "default",
-            "color": "primary",
-            "icon": null,
-            "link": {
-              "type": "routeLink",
-              "href": "/en/purpose"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": null,
       "module": "HighlightBanner",
       "moduleOption": null,
       "content": {
@@ -298,6 +266,218 @@
                 }
               }
             ]
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "module": "ProductBanner",
+      "moduleOption": null,
+      "content": {
+        "title": "PRODUCTS",
+        "items": [
+          {
+            "label": "NEOREST",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/01.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label": "WASHLET+",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label": "WASHLET",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/04.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label": "TOILETS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/03.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label": "LAVATORIES",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label": "BATHTUBS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/05.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label": "FAUCETS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label": "SHOWERS",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/06.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label": "ACCESSORIES",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/06.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          },
+          {
+            "label": "COMMERCIAL",
+            "link": {
+              "type": "routeLink",
+              "href": "/en"
+            },
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/01.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "module": "ScrollingIntro",
+      "moduleOption": null,
+      "content": {
+        "title": "Toward a <mark>Dynamic</mark>, <mark>Vibrant</mark>, and <mark>Excellent</mark> TOTO",
+        "subTitle": "OUR MISSION",
+        "description": "This term expresses the intention of the most important matters to be implemented in the medium and long term for the sustainable growth of the TOTO Group.",
+        "cta": [
+          {
+            "label": "About TOTO",
+            "variant": "contain",
+            "color": "primary",
+            "icon": null,
+            "link": {
+              "type": "routeLink",
+              "href": "/en/about-toto"
+            }
+          },
+          {
+            "label": "Brand Purpose",
+            "variant": "default",
+            "color": "primary",
+            "icon": null,
+            "link": {
+              "type": "routeLink",
+              "href": "/en/purpose"
+            }
           }
         ]
       }
@@ -412,186 +592,6 @@
                 }
               }
             ]
-          }
-        ]
-      }
-    },
-    {
-      "id": null,
-      "module": "ProductBanner",
-      "moduleOption": null,
-      "content": {
-        "title": "PRODUCTS",
-        "items": [
-          {
-            "label": "NEOREST",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/01.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "WASHLET",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/04.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "WASHLET+",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/02.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "FAUCETS",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/02.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "SHOWERS",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/06.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "LAVATORIES",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/02.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "TOILETS",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/03.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "BATHTUBS",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/05.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "COMMERCIAL",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/01.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "ACCESSORIES",
-            "link": {
-              "type": "routeLink",
-              "href": "/en"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/06.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
           }
         ]
       }
