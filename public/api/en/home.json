@@ -188,38 +188,6 @@
     },
     {
       "id": null,
-      "module": "ScrollingIntro",
-      "moduleOption": null,
-      "content": {
-        "title": "Toward a <mark>Dynamic</mark>, <mark>Vibrant</mark>, and <mark>Excellent</mark> TOTO",
-        "subTitle": "OUR MISSION",
-        "description": "This term expresses the intention of the most important matters to be implemented in the medium and long term for the sustainable growth of the TOTO Group.",
-        "cta": [
-          {
-            "label": "About TOTO",
-            "variant": "contain",
-            "color": "primary",
-            "icon": null,
-            "link": {
-              "type": "routeLink",
-              "href": "/en/about-toto"
-            }
-          },
-          {
-            "label": "Brand Purpose",
-            "variant": "default",
-            "color": "primary",
-            "icon": null,
-            "link": {
-              "type": "routeLink",
-              "href": "/en/purpose"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": null,
       "module": "HighlightBanner",
       "moduleOption": null,
       "content": {
@@ -295,120 +263,6 @@
                 "link": {
                   "type": "routeLink",
                   "href": "/en/catalogue"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": null,
-      "module": "LatestOffer",
-      "moduleOption": null,
-      "content": {
-        "title": "LATEST NEWS",
-        "items": [
-          {
-            "title": "TOTO at ISH 2025",
-            "description": "TOTO will be exhibiting at the world‘s largest air-conditioning and housing equipment exhibition 2025 (hereinafter, “ISH”), to be held from 17 to 21 March.",
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/latest-offer/TOTO_at_ISH_2025.png",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            },
-            "cta": [
-              {
-                "label": "Read More",
-                "variant": "default",
-                "color": "primary",
-                "icon": null,
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/news/TOTO-at-ISH-2025"
-                }
-              }
-            ]
-          },
-          {
-            "title": "TOTO Washlet Winter Promotion 2024",
-            "description": "You can enjoy TOTO’s Washlet Package Promotion from now on by purchasing the designated models. You must not miss this promotion! ",
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/latest-offer/01.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            },
-            "cta": [
-              {
-                "label": "Read More",
-                "variant": "default",
-                "color": "primary",
-                "icon": null,
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/news/TOTO-washlet-winter-promotion-2024"
-                }
-              }
-            ]
-          },
-          {
-            "title": "TOTO Japan Classic 2024",
-            "description": "TOTO LTD. (Headquarters: Kitakyushu City, Fukuoka Prefecture; President: Noriaki Kiyota) is pleased to announce its continued sponsorship this year of the Japan Classic,",
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/latest-offer/02.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            },
-            "cta": [
-              {
-                "label": "Read More",
-                "variant": "default",
-                "color": "primary",
-                "icon": null,
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/news/TOTO-japan-classic-2024"
-                }
-              }
-            ]
-          },
-          {
-            "title": "TOTO Washlet Summer Promotion 2024",
-            "description": "You can enjoy TOTO’s Washlet Package Promotion from now on by purchasing the designated models. You must not miss this promotion! ",
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/latest-offer/03.webp",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            },
-            "cta": [
-              {
-                "label": "Read More",
-                "variant": "default",
-                "color": "primary",
-                "icon": null,
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/news/TOTO-Washlet-Summer-Promotion-2024"
                 }
               }
             ]
@@ -592,6 +446,152 @@
               "poster": null,
               "mediaCaption": "This is media caption."
             }
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "module": "ScrollingIntro",
+      "moduleOption": null,
+      "content": {
+        "title": "Toward a <mark>Dynamic</mark>, <mark>Vibrant</mark>, and <mark>Excellent</mark> TOTO",
+        "subTitle": "OUR MISSION",
+        "description": "This term expresses the intention of the most important matters to be implemented in the medium and long term for the sustainable growth of the TOTO Group.",
+        "cta": [
+          {
+            "label": "About TOTO",
+            "variant": "contain",
+            "color": "primary",
+            "icon": null,
+            "link": {
+              "type": "routeLink",
+              "href": "/en/about-toto"
+            }
+          },
+          {
+            "label": "Brand Purpose",
+            "variant": "default",
+            "color": "primary",
+            "icon": null,
+            "link": {
+              "type": "routeLink",
+              "href": "/en/purpose"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "module": "LatestOffer",
+      "moduleOption": null,
+      "content": {
+        "title": "LATEST NEWS",
+        "items": [
+          {
+            "title": "TOTO at ISH 2025",
+            "description": "TOTO will be exhibiting at the world‘s largest air-conditioning and housing equipment exhibition 2025 (hereinafter, “ISH”), to be held from 17 to 21 March.",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/latest-offer/TOTO_at_ISH_2025.png",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Read More",
+                "variant": "default",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/news/TOTO-at-ISH-2025"
+                }
+              }
+            ]
+          },
+          {
+            "title": "TOTO Washlet Winter Promotion 2024",
+            "description": "You can enjoy TOTO’s Washlet Package Promotion from now on by purchasing the designated models. You must not miss this promotion! ",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/latest-offer/01.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Read More",
+                "variant": "default",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/news/TOTO-washlet-winter-promotion-2024"
+                }
+              }
+            ]
+          },
+          {
+            "title": "TOTO Japan Classic 2024",
+            "description": "TOTO LTD. (Headquarters: Kitakyushu City, Fukuoka Prefecture; President: Noriaki Kiyota) is pleased to announce its continued sponsorship this year of the Japan Classic,",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/latest-offer/02.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Read More",
+                "variant": "default",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/news/TOTO-japan-classic-2024"
+                }
+              }
+            ]
+          },
+          {
+            "title": "TOTO Washlet Summer Promotion 2024",
+            "description": "You can enjoy TOTO’s Washlet Package Promotion from now on by purchasing the designated models. You must not miss this promotion! ",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/latest-offer/03.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Read More",
+                "variant": "default",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/news/TOTO-Washlet-Summer-Promotion-2024"
+                }
+              }
+            ]
           }
         ]
       }
