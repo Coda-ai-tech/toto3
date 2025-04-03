@@ -26,7 +26,7 @@ const En = () => {
           </a>
         </div>
 
-        <header className='section__header innerEl-tight nth2'>
+        {/* <header className='section__header innerEl-tight nth2'>
           <h2 className='section__title'>PRESENTATION MOVIE</h2>
         </header>
         <div className='movie__inner stack'>
@@ -42,7 +42,7 @@ const En = () => {
               alt='PLAY PRESENTATION MOVIE CLEAN DESIGN'
             />
           </a>
-        </div>
+        </div> */}
       </section>
 
       {/* <!--

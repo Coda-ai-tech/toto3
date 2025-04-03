@@ -22,14 +22,14 @@ const Zh = () => {
             <img src='/assets/global/cleanovation/images/washlet__mov.jpg' alt='' />
           </a>
         </div> */}
-        <header className='section__header innerEl-tight nth2'>
+        {/* <header className='section__header innerEl-tight nth2'>
           <h2 className='section__title'>PRESENTATION MOVIE</h2>
         </header>
         <div className='movie__inner'>
           <a id='mov02' href='6285371199001' className='mainv-play no-barba no-transcript' data-modal-open>
             <img src='/assets/global/cleanovation/images/washlet__mov02.jpg' alt='PLAY PRESENTATION MOVIE' />
           </a>
-        </div>
+        </div> */}
       </section>
 
       {/* <!--
