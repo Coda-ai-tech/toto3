@@ -236,7 +236,7 @@
 }
 
 .virtualTourBanner {
-  @apply mt-[30px];
+  @apply mb-10 p-4 pb-0;
 
   .virtualTourBannerInner {
     @apply flex flex-col gap-4;

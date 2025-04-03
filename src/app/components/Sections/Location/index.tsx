@@ -60,16 +60,20 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
       return acc;
     }, {});
 
-    const categoryList = Object.entries(countCategoryItems).map(([district, count]) => ({
-      district,
-      count,
-    }));
+    const categoryList = Object.entries(countCategoryItems).map(
+      ([district, count]) => ({
+        district,
+        count,
+      }),
+    );
 
     setCategoryList(categoryList);
   }, [dealers, setCategoryList]);
 
   const getFilteredData = useCallback(() => {
-    return dealers.filter((item: DealerItem) => item.district === selectedCategory);
+    return dealers.filter(
+      (item: DealerItem) => item.district === selectedCategory,
+    );
   }, [dealers, selectedCategory]);
 
   const getDisplayData = useCallback(() => {
@@ -94,7 +98,7 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
       setModalShow(e);
       setOpen(e);
     },
-    [setModalShow, setOpen]
+    [setModalShow, setOpen],
   );
 
   const handleOpenModal = () => {
@@ -113,9 +117,10 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
             <div className={`${styles.categoryWrap}`}>
               <div className={`${styles.categoryInner}`}>
                 <button
-                  className={`${styles.categoryItem} ${selectedCategory === 'all' ? styles.active : ''}`}
-                  onClick={() => setCategory('all')}
-                >
+                  className={`${styles.categoryItem} ${
+                    selectedCategory === 'all' ? styles.active : ''
+                  }`}
+                  onClick={() => setCategory('all')}>
                   <span>ALL</span>
                 </button>
 
@@ -123,9 +128,10 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
                   return (
                     <button
                       key={index}
-                      className={`${styles.categoryItem} ${selectedCategory === cat.district ? styles.active : ''}`}
-                      onClick={() => setCategory(cat.district)}
-                    >
+                      className={`${styles.categoryItem} ${
+                        selectedCategory === cat.district ? styles.active : ''
+                      }`}
+                      onClick={() => setCategory(cat.district)}>
                       <span>{cat.district}</span>
                     </button>
                   );
@@ -136,14 +142,39 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
           <div className={`${styles.locationList}`}>
             <div className={`${styles.left}`}>
               <div className={`${styles.dealerList}`}>
+                <div className={`${styles.virtualTourBanner}`}>
+                  <div className={`${styles.virtualTourBannerInner}`}>
+                    <div className={`${styles.thumb}`}>
+                      <Media content={virtualTour.media} />
+                    </div>
+                    <div className={`${styles.content}`}>
+                      <div className={`${styles.subTitle}`}>
+                        {virtualTour.subTitle}
+                      </div>
+                      <div className={`${styles.title}`}>
+                        {virtualTour.title}
+                      </div>
+                      <div className={`${styles.bannerAction}`}>
+                        {virtualTour.cta.map(
+                          (item: ButtonElement<IconList>, index: number) => (
+                            <Button key={index} content={item} />
+                          ),
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <ScrollShadow className={`${styles.listWrap}`}>
                   <div className={`${styles.listInner}`}>
                     {resultData?.length > 0 ? (
                       <Accordion
-                        defaultExpandedKeys={[`${resultData[0].location} ${resultData[0].name} ${0}`]}
+                        defaultExpandedKeys={[
+                          `${resultData[0].location} ${
+                            resultData[0].name
+                          } ${0}`,
+                        ]}
                         hideIndicator
-                        showDivider={false}
-                      >
+                        showDivider={false}>
                         {resultData.map((dealer: DealerItem, index: number) => (
                           <AccordionItem
                             key={`${dealer.location} ${dealer.name} ${index}`}
@@ -156,9 +187,10 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
                             title={
                               <div
                                 className={`${styles.dealerHead} ${
-                                  selectedDealer.address === dealer.address ? styles.active : ''
-                                }`}
-                              >
+                                  selectedDealer.address === dealer.address
+                                    ? styles.active
+                                    : ''
+                                }`}>
                                 <div className={`${styles.dealerHeadInner}`}>
                                   <div className={`${styles.thumb}`}>
                                     <Image
@@ -170,39 +202,58 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
                                     />
                                   </div>
                                   <div className={`${styles.content}`}>
-                                    <div className={`${styles.dealerName}`}>{dealer.name}</div>
-                                    <div className={`${styles.dealerLocation}`}>{dealer.location}</div>
+                                    <div className={`${styles.dealerName}`}>
+                                      {dealer.name}
+                                    </div>
+                                    <div className={`${styles.dealerLocation}`}>
+                                      {dealer.location}
+                                    </div>
                                     <div
                                       className={`${styles.statusIndicator} ${
-                                        selectedDealer.address === dealer.address ? styles.active : ''
-                                      }`}
-                                    >
-                                      <div className={`${styles.indicatorLabel}`}>Show detail</div>
-                                      <div className={`${styles.indicatorIcon}`}>
-                                        <SvgIcon name='arrowDownChevron' />
+                                        selectedDealer.address ===
+                                        dealer.address
+                                          ? styles.active
+                                          : ''
+                                      }`}>
+                                      <div
+                                        className={`${styles.indicatorLabel}`}>
+                                        Show detail
+                                      </div>
+                                      <div
+                                        className={`${styles.indicatorIcon}`}>
+                                        <SvgIcon name="arrowDownChevron" />
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                            }
-                          >
+                            }>
                             <div className={`${styles.dealerDetail}`}>
                               {dealer.address && (
                                 <div className={`${styles.detailItem}`}>
-                                  {['2xl', 'xxl', 'max'].includes(screen as string) ? (
+                                  {['2xl', 'xxl', 'max'].includes(
+                                    screen as string,
+                                  ) ? (
                                     <>
-                                      <div className={`${styles.itemIcon} ${styles.iconLg}`}>
-                                        <SvgIcon name='location' />
+                                      <div
+                                        className={`${styles.itemIcon} ${styles.iconLg}`}>
+                                        <SvgIcon name="location" />
                                       </div>
-                                      <div className={`${styles.itemValue}`}>{dealer.address}</div>
+                                      <div className={`${styles.itemValue}`}>
+                                        {dealer.address}
+                                      </div>
                                     </>
                                   ) : (
-                                    <button className={`${styles.openMapCta}`} onClick={() => handleOpenModal()}>
-                                      <div className={`${styles.itemIcon} ${styles.iconLg}`}>
-                                        <SvgIcon name='location' />
+                                    <button
+                                      className={`${styles.openMapCta}`}
+                                      onClick={() => handleOpenModal()}>
+                                      <div
+                                        className={`${styles.itemIcon} ${styles.iconLg}`}>
+                                        <SvgIcon name="location" />
                                       </div>
-                                      <div className={`${styles.itemValue}`}>{dealer.address}</div>
+                                      <div className={`${styles.itemValue}`}>
+                                        {dealer.address}
+                                      </div>
                                     </button>
                                   )}
                                 </div>
@@ -211,27 +262,32 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
                               {dealer.time && (
                                 <div className={`${styles.detailItem}`}>
                                   <div className={`${styles.itemIcon}`}>
-                                    <SvgIcon name='time' />
+                                    <SvgIcon name="time" />
                                   </div>
-                                  <div className={`${styles.itemValue}`}>{dealer.time}</div>
+                                  <div className={`${styles.itemValue}`}>
+                                    {dealer.time}
+                                  </div>
                                 </div>
                               )}
 
                               {dealer.fax && (
                                 <div className={`${styles.detailItem}`}>
                                   <div className={`${styles.itemIcon}`}>
-                                    <SvgIcon name='fax' />
+                                    <SvgIcon name="fax" />
                                   </div>
-                                  <div className={`${styles.itemValue}`}>{dealer.fax}</div>
+                                  <div className={`${styles.itemValue}`}>
+                                    {dealer.fax}
+                                  </div>
                                 </div>
                               )}
 
                               {dealer.tel && dealer.tel.length > 0 && (
                                 <div className={`${styles.detailItem}`}>
                                   <div className={`${styles.itemIcon}`}>
-                                    <SvgIcon name='tel' />
+                                    <SvgIcon name="tel" />
                                   </div>
-                                  <div className={`${styles.itemValue} ${styles.valueTel}`}>
+                                  <div
+                                    className={`${styles.itemValue} ${styles.valueTel}`}>
                                     {dealer.tel.map((data, index) => {
                                       return (
                                         <div key={index}>
@@ -252,23 +308,6 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
                   </div>
                 </ScrollShadow>
               </div>
-
-              <div className={`${styles.virtualTourBanner}`}>
-                <div className={`${styles.virtualTourBannerInner}`}>
-                  <div className={`${styles.thumb}`}>
-                    <Media content={virtualTour.media} />
-                  </div>
-                  <div className={`${styles.content}`}>
-                    <div className={`${styles.subTitle}`}>{virtualTour.subTitle}</div>
-                    <div className={`${styles.title}`}>{virtualTour.title}</div>
-                    <div className={`${styles.bannerAction}`}>
-                      {virtualTour.cta.map((item: ButtonElement<IconList>, index: number) => (
-                        <Button key={index} content={item} />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
             <div className={`${styles.right}`}>
               {MatchMedia(BreakPoint.hd, MatchMediaType.minWidth) && (
@@ -285,7 +324,9 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
         </div>
       </div>
 
-      <CustomModal isModalShow={isModalShow} onUpdate={(e) => onModalStatusHandler(e)}>
+      <CustomModal
+        isModalShow={isModalShow}
+        onUpdate={(e) => onModalStatusHandler(e)}>
         <div className={`${styles.mapPopup}`}>
           <div className={`${styles.mapWrap}`}>
             <iframe

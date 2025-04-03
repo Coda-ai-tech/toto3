@@ -87,16 +87,16 @@
                 }
               },
               {
-                "label":"",
-                "link":{
-                  "type":"routeLink",
+                "label": "",
+                "link": {
+                  "type": "routeLink",
                   "href": "/en"
                 }
               },
               {
-                "label":"GLOBAL REFERENCE",
-                "link":{
-                  "type":"external",
+                "label": "GLOBAL REFERENCE",
+                "link": {
+                  "type": "external",
                   "href": "https://www.toto.com/project/"
                 }
               }
@@ -155,24 +155,10 @@
                 }
               },
               {
-                "label": "COMMERCIAL",
+                "label": "FAUCETS",
                 "link": {
                   "type": "routeLink",
                   "href": "/en"
-                }
-              },
-              {
-                "label": "ALL PRODUCT",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/product"
-                }
-              },
-              {
-                "label": "AWARDS",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/awards"
                 }
               },
               {
@@ -183,14 +169,14 @@
                 }
               },
               {
-                "label": "FAUCETS",
+                "label": "ACCESSORIES",
                 "link": {
                   "type": "routeLink",
                   "href": "/en"
                 }
               },
               {
-                "label": "ACCESSORIES",
+                "label": "COMMERCIAL",
                 "link": {
                   "type": "routeLink",
                   "href": "/en"
