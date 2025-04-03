@@ -86,8 +86,11 @@ const En = () => {
               sources.
             </p>
             <h3 className='hdr4 mt100'>
-              We agree with the international initiatives toward the realization of a carbon-neutral society and, in
-              June 2021, we acquired certification of the Science Based Targets (SBT) initiative.
+              TOTO has endorsed international initiatives aimed at achieving a sustainable society and carbon neutrality.
+              TOTO obtained certification from the Science Based Targets initiative (SBTi) in June 2021 for its target to limit
+              global warming to well below 2°C (WB2ºC). Furthermore, in March 2024 TOTO updated its greenhouse gas emission reduction
+              targets for 2030 and received certification for the 1.5°C level, which aims to limit the increase in the average global
+              temperature to less than 1.5°C compared to preindustrial levels.
             </h3>
             <div className='initiative'>
               <div className='item'>
@@ -103,7 +106,7 @@ const En = () => {
               </div>
               <div className='item'>
                 <img className='' src='/assets/global/purpose/images/environment/logo3.png' alt='SBT' />
-                <p className='text'>Acquired certification of the SBT initiative in June 2021</p>
+                <p className='text'>Obtained certification for the 1.5°C level in the SBTi in March 2024</p>
               </div>
             </div>
           </section>
@@ -135,7 +138,7 @@ const En = () => {
             </section>
             <section className='graph'>
               <img className='' src='/assets/global/purpose/images/environment/photo.png' alt='' />
-              <p className='lead note'>Installation of water pipes in Mozambique (Bridge for Lives in Mozambique)</p>
+              <p className='lead note'>Session to promote sanitary habits at schools in India (WaterAid Japan)</p>
             </section>
           </div>
           <section>
@@ -147,67 +150,75 @@ const En = () => {
                 <tr>
                   <th className='bgblue'>Key Indicators</th>
                   <th className='bggreen'>
-                    FY2022 <span>(Results)</span>
+                    FY2023 <span>(Results)</span>
                   </th>
                   <th className='bggreen2'>
-                    FY2023 <span>(Targets)</span>
+                    FY2026 <span>(Targets)</span>
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th>Total CO2 emissions from business sites</th>
+                  <th>Avoided emissions of water during product use<sup>*1</sup></th>
                   <td>
                     <div className='result'>
-                      267
+                      1.00<sup>*2</sup>
                       <br />
-                      <span>thousand tons</span>
+                      <span>billion m<sup>3</sup></span>
                     </div>
                   </td>
                   <td>
                     <div className='result2'>
-                      259
+                      1.14
                       <br />
-                      <span>thousand tons</span>
+                      <span>billion m<sup>3</sup></span>
                     </div>
                   </td>
                 </tr>
                 <tr>
                   <th>
-                    Reduction in CO2 emissions during product use<sup>*</sup>
+                    Total CO2 emissions from business sites<sup>*</sup>
                   </th>
                   <td>
                     <div className='result'>
-                      3.35
+                      254
                       <br />
-                      <span>million tons</span>
+                      <span>thousand tons</span>
                     </div>
                   </td>
                   <td>
                     <div className='result2'>
-                      3.45
+                      229
                       <br />
-                      <span>million tons</span>
+                      <span>thousand tons</span>
                     </div>
                   </td>
                 </tr>
                 <tr>
-                  <th>Number of projects that help solve local issues (cumulative number from FY2018)</th>
+                  <th>Avoided emissions during product use<sup>*1</sup></th>
                   <td>
                     <div className='result'>
-                      135<span>cases</span>
+                      2.98<sup>*2</sup>
+                      <br />
+                      <span>million tons</span>
                     </div>
                   </td>
                   <td>
                     <div className='result2'>
-                      150<span>cases</span>
+                      3.60
+                      <br />
+                      <span>million tons</span>
                     </div>
                   </td>
                 </tr>
               </tbody>
             </table>
             <p className='tbl_caption'>
-              * Reduction effect when compared with the case where products of 2005 continue to be used.
+              Updated according to actual results finalized at the end of June 2024 : WILL2030 long-term goals
+              <br/>
+              *1 Reduction effect when compared with the case where products from 2005 continue to be used.
+              <br/>
+              *2 In case the same calculation conditions are used as in WILL2030 STAGE 2 (approximate value).
             </p>
           </section>
         </div>

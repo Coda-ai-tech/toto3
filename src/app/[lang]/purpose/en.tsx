@@ -83,6 +83,15 @@ const En = () => {
                   <br className='pc-only' /> and Cleanliness
                 </p>
               </div>
+              <div>
+                <a href='6318268745112' className='mainv-play no-barba' data-modal-open=''>
+                  <img src='/assets/global/purpose/images/after_sales_service_noTitle.jpg' alt='' />
+                </a>
+                <p>
+                TOTO’s After-Sales 
+                  <br className='pc-only' /> Service
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -170,14 +179,19 @@ const En = () => {
         <div id='message'>
           <div className='photo'>
             <img
-              src='/assets/global/purpose/images/top/message.jpg'
-              alt='Notiaki Kiyota  President,Representative Director'
+              src='/assets/global/purpose/images/top/message_tamura.jpg'
+              alt='President, Representative Director Shinya Tamura'
             />
           </div>
           <div className='text'>
             <div className='inner'>
               <h2 className='borderAccent'>MESSAGE FROM THE PRESIDENT</h2>
-              <h3>For Our Customers and Society</h3>
+              <br/>
+              <h5>President,
+                <br/>
+              Representative Director
+              </h5>
+              <h3>Shinya Tamura</h3>
               <div className='trigger' tabIndex={0} role='button'>
                 READ MORE
               </div>
@@ -388,14 +402,11 @@ const En = () => {
 
             <section className='composition-ratio'>
               <div className='text'>
-                <h3>We aim for sustainable products to make up 78% of our product composition.</h3>
+                <h3>We aim for sustainable products to make up 83% of our product composition.</h3>
                 <p>
-                  Sustainable Products are unique to TOTO, balancing cleanliness, comfort and the environment.{' '}
+                Sustainable Products are unique to TOTO, balancing Cleanliness and Comfort; Wellness and the environment.{' '}
                   <br className='pc' />
-                  In fiscal 2022, sustainable products made up 73% of our product composition (Japan: 77%,{' '}
-                  <br className='pc' />
-                  Overseas: 63%). We aim to achieve 75% (Japan: 80%, Overseas: 64%) by fiscal 2023 and 78% (Japan: 85%,
-                  Overseas: 70%) by fiscal 2030.
+                  In fiscal 2023, sustainable products made up 75% of our product composition. We aim to achieve 80% by fiscal 2026 and 83% by fiscal 2030.{' '}
                 </p>
               </div>
               <table className='targets_table'>
@@ -403,12 +414,12 @@ const En = () => {
                   <tr>
                     <th className='bgblue'>KPI</th>
                     <th className='bggreen'>
-                      FY2022
+                    FY2023
                       <br className='sp' />
                       <span>(Results)</span>
                     </th>
                     <th className='bggreen2'>
-                      FY2023
+                    FY2026
                       <br className='sp' />
                       <span>(Targets)</span>
                     </th>
@@ -424,9 +435,9 @@ const En = () => {
                     <th>Percantage of sustainable Products</th>
                     <td>
                       <div className='result'>
-                        73<span>%</span>
+                        75<span>%</span>
                       </div>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <dl>
                             <dt>Japan</dt>
@@ -439,13 +450,13 @@ const En = () => {
                             <dd>63%</dd>
                           </dl>
                         </li>
-                      </ul>
+                      </ul> */}
                     </td>
                     <td>
                       <div className='result sec2'>
-                        75<span>%</span>
+                        80<span>%</span>
                       </div>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <dl>
                             <dt>Japan</dt>
@@ -458,13 +469,13 @@ const En = () => {
                             <dd>64%</dd>
                           </dl>
                         </li>
-                      </ul>
+                      </ul> */}
                     </td>
                     <td>
                       <div className='result sec3'>
-                        78<span>%</span>
+                        83<span>%</span>
                       </div>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <dl>
                             <dt>Japan</dt>
@@ -477,7 +488,7 @@ const En = () => {
                             <dd>70%</dd>
                           </dl>
                         </li>
-                      </ul>
+                      </ul> */}
                     </td>
                   </tr>
                 </tbody>
@@ -543,60 +554,35 @@ const En = () => {
             <div className='modal_inner'>
               <div className='modal_scroller'>
                 <div className='modal_scroller_inner' tabIndex={0} role='button'>
-                  <h3>For Our Customers and Society</h3>
                   <p>
-                    TOTO Aims to Provide Comfortable and Healthy Lifestyles to All by Contributing to the Realization of
-                    a Carbon-Neutral and Sustainable Society.
+                  TOTO's founder, Kazuchika Okura, sent a letter to the Company's second president, containing the words: “ 
+                  Kindness must always come first. Your goal should be to provide good products and satisfy the customer. 
+                  Accomplish that, and profit and prosperity will follow.” This message has been passed down from generation 
+                  to generation of TOTO presidents as the words of our forebears. As TOTO's 18th president, I will also 
+                  position this way of thinking at the core of my management activities as I lead the approximately 35,000
+                   TOTO Group employees working around the world as we seek to increase the number of TOTO fans worldwide.
                   </p>
                   <br />
                   <p>
-                    TOTO’s first president, Kazuchika Okura, wrote a letter to his successor, Saburo Momoki. The words
-                    contained in that letter have been treasured by the TOTO Group ever since as the Words of Our
-                    Founder. These words express the idea that “kindness must always come first” and state that our goal
-                    should be to provide good products and satisfy the customer and, by accomplishing that, profit and
-                    compensation will follow.
+                  I believe that the TOTO Group's greatest strength is its people. I believe that TOTO's pride and source of 
+                  corporate value is that all group employees around the world—from research and product development to 
+                  production, sales, and indirect departments—share the philosophy of “ All for the customer;” and that they 
+                  think of their colleagues and help each other to improve.
                   </p>
                   <p>
-                    Kindness and honesty are our universal values. The Words of Our Founder asserts that “Many in this
-                    world chase after the shadow of profit”. Carrying out business under the precedent of TOTO’s
-                    uniqueness, kindness, honesty, and customer-oriented nature should enable us to resolve various
-                    issues. If we continue to face social issues with honesty and carefully engage in environmental
-                    issues, profit will definitely follow. This is something that must not change.
+                  The environment surrounding TOTO is changing rapidly, and it is clear that this situation will only continue
+                   to accelerate in the future. To keep up with these changes and pace of change, I would like us to make 
+                   decisions more quickly than ever before, without fear of failure, and place importance on communication
+                    in order to achieve this.
                   </p>
                   <p>
-                    The Company Mottos, TOTO Group Corporate Philosophy, and Charter of TOTO Group Corporate Behavior
-                    based on the spirit of the Words of Our Founder represent the inherited values, in other words the
-                    “heart,” of TOTO that are shared among employees and will be carried forward into the future. This
-                    remains unchanged. However, the way our “body” (business activities) moves will adapt in response to
-                    changes in the business environment. The TOTO Group’s strength lies in the fact that the “heart” is
-                    firmly rooted as the precondition of each employee’s actions.
-                  </p>
-                  <p>
-                    We formulated the New Shared Value Creation Strategy TOTO WILL2030 (hereinafter, WILL2030) which
-                    clarifies the lifestyle, society, and environment we want to achieve from a long-term perspective in
-                    April 2021. The TOTO Group will achieve economic growth while helping resolve social and
-                    environmental issues by realizing a carbon-neutral and sustainable society in 2050 and aiming to
-                    provide comfortable and healthy lifestyles to all. For this reason, the key material issues entire
-                    group must thoroughly address to embody our Corporate Philosophy are Cleanliness and Comfort,
-                    Environment, and Relationships.
-                  </p>
-                  <p>
-                    In recent years, there have already been various changes to the social environment, including
-                    divisions in the international community and global warming due to climate change. Our mission is to
-                    pass on the global environment in a sustainable manner. I believe that we must expand the area that
-                    we engage in and increase the speed of response to these changes to embody our Philosophy. We will
-                    also contribute to the United Nations (UN) Sustainable Development Goals (SDGs) through the business
-                    activities based on WILL2030.
-                  </p>
-                  <p>
-                    The TOTO Group’s business activities are made possible thanks to the support and cooperation of all
-                    our stakeholders. First, our starting point is that we ourselves must be sincere and thankful in our
-                    approach. Our employees will unite in their efforts to open the way for a bright future for our
-                    customers and society.
+                  The TOTO Group's TOTO WILL 2030 strategy for creating shared value, which sets out the Group's vision for 2030, 
+                  has now reached its halfway point. Going forward, we will continue to push ahead without fear of change, taking 
+                  into account the lessons learned in Stage 1, and envisage a grand design for the TOTO Group beyond 2030.
                   </p>
 
                   <div className='sign'>
-                    <img src='/assets/global/purpose/images/top/sign.png' alt='Noriaki Kiyota' />
+                    <p>Shinya Tamura</p>
                     <p>
                       President,
                       <br />
