@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "DEODORISER",
+    "title": "DEODORIZER",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,10 +21,10 @@
       }
     },
     {
-      "label": "DEODORISER",
+      "label": "DEODORIZER",
       "link": {
         "type": "routeLink",
-        "href": "/en/technology/deodoriser"
+        "href": "/en/technology/deodorizer"
       }
     }
   ],
@@ -34,13 +34,13 @@
       "module": "TechnologyDetail",
       "moduleOption": null,
       "content": {
-        "title": "DEODORISER",
-        "icon": "/assets/img/content/technology/deodoriser/ico-deodoriser.png",
+        "title": "DEODORIZER",
+        "icon": "/assets/img/content/technology/deodorizer/ico-deodorizer.png",
         "items": [
           {
             "align": "row",
-            "context": "Highly effective deodorizing automatically takes places inside the toilet bowl both during and immediately after use, leaving no disturbing odors.",
-            "images": ["/assets/img/content/technology/deodoriser/01.jpg"]
+            "context": "Highly effective deodorizing automatically takes places inside the toilet bowl both during and immediately after use, leaving no disturbing odours. TOTO uses a powerful activated charcoal filter system to keep the toilet and bathroom smelling fresh.",
+            "images": ["/assets/img/content/technology/deodorizer/01.jpg"]
           }
         ],
         "youtube": "HsAa-91CN-w"

@@ -16,7 +16,7 @@
         },
         {
           "title": "RIMLESS",
-          "description": "The unique RIMLESS design not only leaves no place for waste and germs to hide. It also makes for a much easier to clean toilet.",
+          "description": "Leaves no place for waste and germs to hide",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/rimless"
@@ -52,7 +52,7 @@
       "list": [
         {
           "title": "ACTILIGHT",
-          "description": "Zirconium coating combined with UV light for an antibacterial effect that breaks down",
+          "description": "Zirconium coating combined with UV light for an antibacterial effect that breaks down dirts",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/actilight"
@@ -61,7 +61,7 @@
           "thumb": "/assets/img/content/technology/actilight/thumb-actilight.png"
         },
         {
-          "title": "AUTO FUNCTIONS",
+          "title": "AUTO FUNCTION",
           "description": "Technologies activated by human movement",
           "link": {
             "type": "routeLink",
@@ -91,14 +91,14 @@
           "thumb": "/assets/img/content/technology/dryer/thumb-dryer.png"
         },
         {
-          "title": "DEODORIsER",
-          "description": "Highly effective deodorizing automatically takes places inside the toilet bowl both during and immediately after use, leaving",
+          "title": "DEODORIZER",
+          "description": "Highly effective deodorizing automatically takes places inside the toilet bowl both during and immediately after use",
           "link": {
             "type": "routeLink",
-            "href": "/en/technology/deodoriser"
+            "href": "/en/technology/deodorizer"
           },
-          "icon": "/assets/img/content/technology/deodoriser/ico-deodoriser.png",
-          "thumb": "/assets/img/content/technology/deodoriser/thumb-deodoriser.png"
+          "icon": "/assets/img/content/technology/deodorizer/ico-deodorizer.png",
+          "thumb": "/assets/img/content/technology/deodorizer/thumb-deodorizer.png"
         },
         {
           "title": "EWATER+",
@@ -112,7 +112,7 @@
         },
         {
           "title": "HEATED SEAT",
-          "description": "The contoured heated seat is warmed for maximum comfort.",
+          "description": "The contoured heated seat is warmed for maximum comfort",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/heated-seat"
@@ -122,7 +122,7 @@
         },
         {
           "title": "PREMIST",
-          "description": "Mist of water sprayed onto the ceramic before the toilet is used. Makes it more difficult for dirt and waste to accumulate.",
+          "description": "Aiding in the removal of waste and resulting in a better clean",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/premist"
@@ -137,7 +137,7 @@
       "label": "FAUCET / SHOWER",
       "list": [
         {
-          "title": "AUTO FUNCTIONS",
+          "title": "AUTO FUNCTION",
           "description": "Technologies activated by human movement",
           "link": {
             "type": "routeLink",
@@ -148,7 +148,7 @@
         },
         {
           "title": "ACTIVE WAVE",
-          "description": "Stimulating to body and mind. Awakening to the senses.",
+          "description": "Stimulates body and mind and awakens the sense",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/active-wave"
@@ -157,7 +157,7 @@
           "thumb": "/assets/img/content/technology/active-wave/thumb-active-wave.png"
         },
         {
-          "title": "AERIAL",
+          "title": "AERIAL SHOWER",
           "description": "Aerated water for the shower",
           "link": {
             "type": "routeLink",
@@ -168,7 +168,7 @@
         },
         {
           "title": "COMFORT GLIDE",
-          "description": "Easy to use for a lifetime of comfort.",
+          "description": "Makes using the faucet and adjusting the flow of water easy and smooth",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/comfort-glide"
@@ -185,16 +185,6 @@
           },
           "icon": "/assets/img/content/technology/comfort-wave/ico-comfort-wave.png",
           "thumb": "/assets/img/content/technology/comfort-wave/thumb-comfort-wave.png"
-        },
-        {
-          "title": "ECO CAP",
-          "description": "Reduces water consumption – so everyone can wash their hands with a clear conscience.",
-          "link": {
-            "type": "routeLink",
-            "href": "/en/technology/eco-cap"
-          },
-          "icon": "/assets/img/content/technology/eco-cap/ico-eco-cap.png",
-          "thumb": "/assets/img/content/technology/eco-cap/thumb-eco-cap.png"
         },
         {
           "title": "ECO POWER",
@@ -218,7 +208,7 @@
         },
         {
           "title": "HEAT PROTECT",
-          "description": "Experience a bathroom where safety and beauty become one.",
+          "description": "Experience a bathroom where safety and beauty become one",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/heat-protect"
@@ -227,18 +217,8 @@
           "thumb": "/assets/img/content/technology/heat-protect/thumb-heat-protect.png"
         },
         {
-          "title": "HYDROHANDS",
-          "description": "Quiet warm water massage function for bath tubs",
-          "link": {
-            "type": "routeLink",
-            "href": "/en/technology/hydrohands"
-          },
-          "icon": "/assets/img/content/technology/hydrohands/ico-hydrohands.png",
-          "thumb": "/assets/img/content/technology/hydrohands/thumb-hydrohands.png"
-        },
-        {
           "title": "INTENSE WAVE",
-          "description": "Strong flow of water creating a more rejuvenating shower which helps soothe physical tension.",
+          "description": "A stimulating water stream that provides a more vigorous showering experience",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/intense-wave"
@@ -248,7 +228,7 @@
         },
         {
           "title": "SAFETY THERMO",
-          "description": "Safe, reliable water temperature means a more relaxing bath-time.",
+          "description": "Safe, reliable water temperature means a more relaxing bath-time",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/safety-thermo"
@@ -258,23 +238,13 @@
         },
         {
           "title": "MINI UNIT",
-          "description": "Small. Flexible",
+          "description": "Concealed unit for easy and adjustable faucet installation",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/mini-unit"
           },
           "icon": "/assets/img/content/technology/mini-unit/ico-mini-unit.png",
           "thumb": "/assets/img/content/technology/mini-unit/thumb-mini-unit.png"
-        },
-        {
-          "title": "SMA (Shape Memory Alloy)",
-          "description": "Maintains a constant water temperature despite fluctuating water",
-          "link": {
-            "type": "routeLink",
-            "href": "/en/technology/sma"
-          },
-          "icon": "/assets/img/content/technology/shape-memory-alloy/ico-shape-memory-alloy.png",
-          "thumb": "/assets/img/content/technology/shape-memory-alloy/thumb-shape-memory-alloy.png"
         },
         {
           "title": "SOFT FLOW",
@@ -295,6 +265,16 @@
           },
           "icon": "/assets/img/content/technology/warm-spa/ico-warm-spa.png",
           "thumb": "/assets/img/content/technology/warm-spa/thumb-warm-spa.png"
+        },
+        {
+          "title": "MIST SPA",
+          "description": "Mist of ultra-fine bubbles which gently cleanses the skin",
+          "link": {
+            "type": "routeLink",
+            "href": "/en/technology/mist-spa"
+          },
+          "icon": "/assets/img/content/technology/mist-spa/ico-mist-spa.png",
+          "thumb": "/assets/img/content/technology/mist-spa/thumb-mist-spa.png"
         }
       ]
     },
@@ -303,8 +283,18 @@
       "label": "BATHTUB",
       "list": [
         {
+          "title": "HYDROHANDS",
+          "description": "Quiet warm water massage function for bathtubs",
+          "link": {
+            "type": "routeLink",
+            "href": "/en/technology/hydrohands"
+          },
+          "icon": "/assets/img/content/technology/hydrohands/ico-hydrohands.png",
+          "thumb": "/assets/img/content/technology/hydrohands/thumb-hydrohands.png"
+        },
+        {
           "title": "RECLINE COMFORT",
-          "description": "Nestled in comfort, feel your body and mind release into a state of tranquility.",
+          "description": "Nestled in comfort, feel your body and mind release into a state of tranquility",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/recline-comfort"
@@ -329,6 +319,16 @@
       "label": "OTHER",
       "list": [
         {
+          "title": "LUMINIST",
+          "description": "Unique translucent crystal-like material which provides excellent durability",
+          "link": {
+            "type": "routeLink",
+            "href": "/en/technology/luminist"
+          },
+          "icon": "/assets/img/content/technology/luminist/ico-luminist.png",
+          "thumb": "/assets/img/content/technology/luminist/thumb-luminist.png"
+        },
+        {
           "title": "CEFIONTECT",
           "description": "Special hygienic glaze for a smooth ceramic surface",
           "link": {
@@ -340,7 +340,7 @@
         },
         {
           "title": "MINI UNIT",
-          "description": "Small. Flexible",
+          "description": "Concealed unit for easy and adjustable faucet installation",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/mini-unit"
@@ -350,7 +350,7 @@
         },
         {
           "title": "LINEARCERAM",
-          "description": "LINEARCERAM's thin design harmonizes with any space.Although eye-catchingly thin, it is also extremely strong. Sophisticated and inviting to use, LINEARCERAM is a new",
+          "description": "Exquisitely thin is the next dimension of beauty",
           "link": {
             "type": "routeLink",
             "href": "/en/technology/linearceram"
