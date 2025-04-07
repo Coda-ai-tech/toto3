@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CEFIONTECT",
+    "title": "COMFORT WAVE",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -8,24 +8,15 @@
   "breadcrumb": [
     {
       "label": "HOME",
-      "link": {
-        "type": "routeLink",
-        "href": "/en"
-      }
+      "link": { "type": "routeLink", "href": "/en" }
     },
     {
       "label": "TECHNOLOGY",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/technology"
-      }
+      "link": { "type": "routeLink", "href": "/en/technology" }
     },
     {
-      "label": "CEFIONTECT",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/technology/cefiontect"
-      }
+      "label": "COMFORT WAVE",
+      "link": { "type": "routeLink", "href": "/en/technology/comfort-wave" }
     }
   ],
   "content": [
@@ -34,16 +25,16 @@
       "module": "TechnologyDetail",
       "moduleOption": null,
       "content": {
-        "title": "CEFIONTECT",
-        "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+        "title": "COMFORT WAVE",
+        "icon": "/assets/img/content/technology/comfort-wave/ico-comfort-wave.png",
         "items": [
           {
             "align": "row",
-            "context": "CEFIONTECT is a glaze applied to all TOTO ceramic products, leaving them with a long-lasting finish that prevents the build-up of mould, limescale and waste matter.<br/><br/>The technology used in CEFIONTECT has redefined the idea of a clean ceramic surface. It’s impossible to see with the naked eye, but untreated ceramics have rough, imperfect surfaces. Under a microscope they look like mountain ranges: no matter how much you clean them, bacteria will always build up in their ridges and crevices. With CEFIONTECT, we are able to ensure perfectly smooth surfaces to which very little dirt can stick.<br/><br/>Because CEFIONTECT is applied before the ceramics are fired, it is far more resilient than glazes applied after firing. In effect it is a longer-lasting shield for surfaces that makes them clean by nature.",
-            "images": ["/assets/img/content/technology/cefiontect/Cefiontect.png"]
+            "context": "COMFORT WAVE emits powerful, swinging streams of larger-than-usual water drops for an ultra-comfortable, moderately intense shower that uses only a small amount of water. Mixing conventional shower spray into the flow adds pleasant stimulation.<br/><br/>As the standard spray type of our showers, COMFORT WAVE is the ideal choice for any time of the day which offers a refreshing, luxurious and lavish shower experience.",
+            "images": ["/assets/img/content/technology/comfort-wave/Comfort wave.jpg"]
           }
         ],
-        "youtube": "iYIGR0h4rRk"
+        "youtube": "DZgo2N1a_EU?si=ZmQL-6QKVeujYGVd"
       }
     },
     {

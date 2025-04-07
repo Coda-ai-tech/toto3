@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CEFIONTECT",
+    "title": "MINI UNIT",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,10 +21,10 @@
       }
     },
     {
-      "label": "CEFIONTECT",
+      "label": "MINI UNIT",
       "link": {
         "type": "routeLink",
-        "href": "/en/technology/cefiontect"
+        "href": "/en/technology/mini-unit"
       }
     }
   ],
@@ -34,16 +34,16 @@
       "module": "TechnologyDetail",
       "moduleOption": null,
       "content": {
-        "title": "CEFIONTECT",
-        "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+        "title": "MINI UNIT",
+        "icon": "/assets/img/content/technology/mini-unit/ico-mini-unit.png",
         "items": [
           {
             "align": "row",
-            "context": "CEFIONTECT is a glaze applied to all TOTO ceramic products, leaving them with a long-lasting finish that prevents the build-up of mould, limescale and waste matter.<br/><br/>The technology used in CEFIONTECT has redefined the idea of a clean ceramic surface. It’s impossible to see with the naked eye, but untreated ceramics have rough, imperfect surfaces. Under a microscope they look like mountain ranges: no matter how much you clean them, bacteria will always build up in their ridges and crevices. With CEFIONTECT, we are able to ensure perfectly smooth surfaces to which very little dirt can stick.<br/><br/>Because CEFIONTECT is applied before the ceramics are fired, it is far more resilient than glazes applied after firing. In effect it is a longer-lasting shield for surfaces that makes them clean by nature.",
-            "images": ["/assets/img/content/technology/cefiontect/Cefiontect.png"]
+            "context": "TOTO's MINI UNIT is a technology that gives you more freedom. We don't match the concealed system to each trim, instead, we use a shared module. You can choose the functionality you need such as a single lever type, thermostat type, or touch button type, and also make choices based on design features such as circle or square fixtures.<br/><br/><b>Easier to install. Less load on the frame.</b><br/><br/>A high degree of flexibility when installing the MINI UNIT is one of its most attractive features. We were able to achieve one of the industry's smallest and lightest bodies for the concealed system. It puts only a minimal load on the architectural frames and has improved manageability during installation.<br/><br/>In order to conceal the unit, the wall only needs to be 97mm, and the system is able to absorb installation errors of + 13mm.<br/><br/><b>Industry-leading miniaturization. Beauty in balance.</b><br/><br/>We shrunk the unit to one of the industry's smallest. The trims are also some of the most compact.<br/><br/>In addition, our progress towards uniform sizes mean units can be used simultaneously to create s beautiful space. We also strived to make the trim as thin as possible.<br/><br/>A bathroom of unity and style can be yours.",
+            "images": ["/assets/img/content/technology/mini-unit/MINI_UNIT_2.jpg"]
           }
         ],
-        "youtube": "iYIGR0h4rRk"
+        "youtube": "CL82UkRbcLc?si=lA7rH0YJq8HPFQic"
       }
     },
     {

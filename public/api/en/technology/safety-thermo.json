@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CEFIONTECT",
+    "title": "SAFETY THERMO",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,10 +21,10 @@
       }
     },
     {
-      "label": "CEFIONTECT",
+      "label": "SAFETY THERMO",
       "link": {
         "type": "routeLink",
-        "href": "/en/technology/cefiontect"
+        "href": "/en/technology/safety-thermo"
       }
     }
   ],
@@ -34,16 +34,16 @@
       "module": "TechnologyDetail",
       "moduleOption": null,
       "content": {
-        "title": "CEFIONTECT",
-        "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+        "title": "SAFETY THERMO",
+        "icon": "/assets/img/content/technology/safety-thermo/ico-safety-thermo.png",
         "items": [
           {
             "align": "row",
-            "context": "CEFIONTECT is a glaze applied to all TOTO ceramic products, leaving them with a long-lasting finish that prevents the build-up of mould, limescale and waste matter.<br/><br/>The technology used in CEFIONTECT has redefined the idea of a clean ceramic surface. It’s impossible to see with the naked eye, but untreated ceramics have rough, imperfect surfaces. Under a microscope they look like mountain ranges: no matter how much you clean them, bacteria will always build up in their ridges and crevices. With CEFIONTECT, we are able to ensure perfectly smooth surfaces to which very little dirt can stick.<br/><br/>Because CEFIONTECT is applied before the ceramics are fired, it is far more resilient than glazes applied after firing. In effect it is a longer-lasting shield for surfaces that makes them clean by nature.",
-            "images": ["/assets/img/content/technology/cefiontect/Cefiontect.png"]
+            "context": "<b>A Revolution in High-Performance Thermostat</b><br/><br/>A thermostatic faucet mixes and maintains a constant water temperature. This minimizes the amount of water wasted in setting the desired temperature in conventional two-handle mixers.<br/><br/>TOTO's high performance thermostat uses the world's first SMA (Shape Memory Alloy) thermostat unit to minimize temperature fluctuations. It's also designed to prevent the water hammer phenomenon (Unpleasant noise occurring when water flowing in a pipe is suddenly stopped).<br/><br/><b>SMA (Shape Memory Alloy) Thermostat Unit</b><br/><br/>The SMA (Shape Memory Alloy) is a very temperature sensitive material which is deformable but instantly returns to its original shape when heated. Using this material shaped into a coil and a spring to act as a bias, this SMA thermostat unit is able to react rapidly to temperature changes.<br/><br/>With SMA, TOTO can ensure reliability where you need it most: SMA maintains a constant water temperature despite fluctuating water supply temperatures and pressure levels resulting from water being used elsewhere in the home.<br/><br/>The result is a water temperature you can rely on, whether you're in the shower or washing your hands, without having to adjust it manually.<br/><br/><b>Temperature swings, solved in an instant.</b><br/><br/>Let's say a family member uses water while you are in the shower. This can often create a sudden, unwanted increase in the shower water temperature. SAFETY THERMO prevents this from happening.<br/><br/>Shape Memory Alloy (SMA) coil provides the key to a more reliable and enjoyable showering experience. The SMA valve features a nickel and titanium alloy coil which responds instantly to temperature changes, more quickly than traditional wax-based systems. SMA thermostatic valves are compatible with most TOTO shower components.",
+            "images": ["/assets/img/content/technology/safety-thermo/SAFETY THERMO.jpg"]
           }
         ],
-        "youtube": "iYIGR0h4rRk"
+        "youtube": "y1l9NiIjwWM?si=_yjroczVkqeBLV6h"
       }
     },
     {
