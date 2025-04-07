@@ -116,4 +116,85 @@
   .whFull {
     @apply w-full h-full;
   }
+
+  // Featured section styles
+  .featured-content {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .featured-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+    font-weight: normal;
+    
+    @media (max-width: 767px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  .featured-videos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+    @media (max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .video-link {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    
+    img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+    
+    &:hover img {
+      transform: scale(1.05);
+    }
+    
+    .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60px;
+      height: 60px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      &:after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-left: 20px solid #000;
+        border-bottom: 10px solid transparent;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .video-caption {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
 }
