@@ -13,7 +13,7 @@ const En = () => {
         </div>
       </section>
 
-      <section className='section products txtalign-c movie-section'>
+      {/* <section className='section products txtalign-c movie-section'> */}
         {/* <header className='section__header innerEl-tight'>
           <h2 className='section__title'>CONCEPT MOVIE</h2>
         </header>
@@ -22,7 +22,7 @@ const En = () => {
             <img src='/assets/global/cleanovation/images/washlet__mov.jpg' alt='' />
           </a>
         </div> */}
-        <header className='section__header innerEl-tight nth2'>
+        {/* <header className='section__header innerEl-tight nth2'>
           <h2 className='section__title'>PRESENTATION MOVIE</h2>
         </header>
         <div className='movie__inner'>
@@ -30,7 +30,7 @@ const En = () => {
             <img src='/assets/global/cleanovation/images/washlet__mov02.jpg' alt='PLAY PRESENTATION MOVIE' />
           </a>
         </div>
-      </section>
+      </section> */}
 
       {/* <!--
     <div className="movie2" id="wachlet_movie">
@@ -42,16 +42,16 @@ const En = () => {
     </div>
 --> */}
 
-      <section className='section wiFull'>
+      {/* <section className='section wiFull'>
         <div className='wiFull__inner innerEl-tight'>
           <img
             src='/assets/global/cleanovation/images/wipeToWash.jpg'
             alt='Wipe to Wash.Washing with WASHLET®️ provides you a cleaner life.'
           />
         </div>
-      </section>
+      </section> */}
 
-      <section id='wsh_hd' className='section wiFull'>
+      {/* <section id='wsh_hd' className='section wiFull'>
         <div className='wiFull__inner innerEl-tight'>
           <div className='stack rev'>
             <div className='wsh_hd__img'>
@@ -154,7 +154,7 @@ const En = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className='section wiFull m_set01'>
         <div className='wiFull__inner innerEl-tight'>

@@ -1,3 +1,5 @@
+"use client";
+
 import Link from 'next/link';
 
 const En = () => {
@@ -18,14 +20,43 @@ const En = () => {
 
       <section className='section products txtalign-c movie-section clean-s'>
         <header className='section__header innerEl-tight'>
-          <h2 className='section__title'>CONCEPT MOVIE</h2>
+          <h2 className='section__title'>FEATURED</h2>
         </header>
-        <div className='movie__inner'>
-          <a id='mov01' href='6236562797001' className='mainv-play no-barba no-transcript' data-modal-open>
-            <img src='/assets/global/cleanovation/images/clean_synergy__mov.jpg' alt='' />
-          </a>
+        <div className='featured-content innerEl-tight'>
+          <p className='featured-text'>
+            Flushing performance is the most important function of a toilet.
+            <br />
+            Discover the power of flush that can only be achieved by TORNADO FLUSH.
+          </p>
         </div>
 
+        <style jsx>{`
+          .movie__inner.stack {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+          }
+        `}</style>
+
+        <div className='movie__inner stack'>
+          <div>
+            <div className='video-container'>
+              <a id='mov02' href='6284944962001' className='video-link mainv-play no-barba no-transcript' data-modal-open>
+                <img src='/assets/global/cleanovation/images/tornado_flush_video1.png' alt='TORNADO FLUSH demonstration' />
+              </a>
+            </div>
+            <p className='video-caption'>MISSION of TORNADO FLUSH</p>
+          </div>
+          <div>
+            <div className='video-container'>
+              <a id='mov03' href='6284942855001' className='video-link mainv-play no-barba no-transcript' data-modal-open>
+                <img src='/assets/global/cleanovation/images/clean_synergy__mov.png' alt='TORNADO FLUSH innovation story' />
+              </a>
+            </div>
+            <p className='video-caption'>Innovation Story</p>
+          </div>
+        </div>
+        
         {/* <header className='section__header innerEl-tight nth2'>
           <h2 className='section__title'>PRESENTATION MOVIE</h2>
         </header>
@@ -111,9 +142,9 @@ const En = () => {
                       <span style={{ fontWeight: '400' }}>
                         There is a close-up shot of the inside of the toilet bowl, and a small light on WASHLET function
                         section on the left at the back flashes. Mist sprays from near the light and a caption is
-                        displayed: “PREMIST automatically sprays water over surface of the inner toilet bowl before
-                        every use.” PREMIST causes waste to slide down the surface of the bowl as a caption is
-                        displayed: “Due to the ceramic&apos;s hydrophilic nature, waste washes away more easily.” At the
+                        displayed: "PREMIST automatically sprays water over surface of the inner toilet bowl before
+                        every use." PREMIST causes waste to slide down the surface of the bowl as a caption is
+                        displayed: "Due to the ceramic's hydrophilic nature, waste washes away more easily." At the
                         end, the still-clean toilet bowl is shown.
                       </span>
                     </p>
@@ -128,7 +159,7 @@ const En = () => {
                     <br />
                     PREMIST automatically sprays water <br />
                     over the surface of the inner toilet bowl before every use. <br />
-                    Due to the ceramic’s hydrophilic nature, waste washes away more easily.
+                    Due to the ceramic's hydrophilic nature, waste washes away more easily.
                   </p>
                 </div>
                 <div className='uq_cleanovation__clean_synergy__area' style={{ justifyContent: 'center' }}>
@@ -183,12 +214,12 @@ const En = () => {
                     <p>
                       <span style={{ fontWeight: '400' }}>
                         The shot zooms in to a close-up shot of the inside surface of the toilet bowl, while two
-                        captions are displayed: “CEFIONTECT, a unique glaze which is itself ceramic.” And “CEFIONTECT is
+                        captions are displayed: "CEFIONTECT, a unique glaze which is itself ceramic." And "CEFIONTECT is
                         extremely smooth glaze. Its microscope surface ridges are far smaller than waste particles,
-                        leaving no place for waste to gain a foot-hold.” A water film spreads out over the extremely
+                        leaving no place for waste to gain a foot-hold." A water film spreads out over the extremely
                         smooth surface, forcing waste to slide down and washing it away. A caption is displayed:
-                        “CEFIONTECT is hydrophilic. Water spreads easily over the toilet bowl, so waste particles easily
-                        wash away.”
+                        "CEFIONTECT is hydrophilic. Water spreads easily over the toilet bowl, so waste particles easily
+                        wash away."
                       </span>
                     </p>
                   </div>
@@ -217,7 +248,7 @@ const En = () => {
                     </p>
                     <p className='uq_cleanovation__clean_synergy__txtArea--lead'>
                       Conventional ceramic may appear perfectly smooth to the eyes, but has gaps where waste, mold and
-                      bacteria hide. At just one millionth of a millimeter, CEFIONTECT’s surface ridges are much tinier
+                      bacteria hide. At just one millionth of a millimeter, CEFIONTECT's surface ridges are much tinier
                       than waste particles.
                     </p>
                   </div>
@@ -299,13 +330,13 @@ const En = () => {
                     </p>
                     <p>
                       <span style={{ fontWeight: '400' }}>
-                        Water in the toilet bowl swirls around, cleaning the entire surface. A caption is displayed: “
-                        360° cleaning power reaches every spot using less water. The cleansing water flow of “TORNADO
-                        FLUSH” swirls sideways, sending it over a long distance to attack fouling many times. As a
+                        Water in the toilet bowl swirls around, cleaning the entire surface. A caption is displayed: "
+                        360° cleaning power reaches every spot using less water. The cleansing water flow of "TORNADO
+                        FLUSH" swirls sideways, sending it over a long distance to attack fouling many times. As a
                         result, we have realized water saving, even while increasing energy applied to cleansing power.
-                        “TORNADO FLUSH” also excels in terms of quietness. ”Next there is a close-up shot of a
-                        cross-section of a rimless toilet, and a caption is displayed: “The RIMLESS design leaves no
-                        place for waste accumulation.”
+                        "TORNADO FLUSH" also excels in terms of quietness. "Next there is a close-up shot of a
+                        cross-section of a rimless toilet, and a caption is displayed: "The RIMLESS design leaves no
+                        place for waste accumulation."
                       </span>
                     </p>
                   </div>
@@ -332,7 +363,7 @@ const En = () => {
                       accumulates most easily
                     </p>
                     <p className='uq_cleanovation__clean_synergy__txtArea--lead'>
-                      TORNADO FLUSH’s dynamic waterjet discharges from near the front of the toilet bowl, travels in a
+                      TORNADO FLUSH's dynamic waterjet discharges from near the front of the toilet bowl, travels in a
                       narrow channel along a hairpin curve, and with sustained water pressure thoroughly cleanses the
                       areas where waste accumulates most easily—and then washes the entire bowl clean. Exquisitely
                       high-quality ceramic makes this innovative design possible.
@@ -345,7 +376,7 @@ const En = () => {
                   </div>
                   <div className='uq_cleanovation__clean_synergy__txtArea'>
                     <p className='uq_cleanovation__clean_synergy__txtArea--lead'>
-                      The cleansing water flow of &quot;TORNADO FLUSH&quot; <br />
+                      The cleansing water flow of "TORNADO FLUSH" <br />
                       swirls sideways, sending it over a long distance to attack fouling many times.
                       <br />
                       As a result, we have realized water savings, even while increasing energy applied to cleansing
@@ -372,7 +403,7 @@ const En = () => {
                     RIMLESS
                   </h2>
 
-                  <p className='introduction__txt'>Cleaning your toilet is easy &quot;with just one wipe.&quot;</p>
+                  <p className='introduction__txt'>Cleaning your toilet is easy "with just one wipe."</p>
 
                   {/* <!-- <p className="btn-play">
 <a href="6008625007001" className="mainv-play no-barba" data-modal-open><span>PLAY MOVIE</span></a>
@@ -395,21 +426,21 @@ const En = () => {
                     <p>
                       <span style={{ fontWeight: '400' }}>
                         A scene depicting someone cleaning a conventional toilet with a brush is shown. A caption is
-                        displayed: “Do you still use a brush and cleaner to scrub stains?” After this, another caption
-                        is shown: “Cleaning your toilet is easy with just one wipe.” At the same time, the scene changes
+                        displayed: "Do you still use a brush and cleaner to scrub stains?" After this, another caption
+                        is shown: "Cleaning your toilet is easy with just one wipe." At the same time, the scene changes
                         to a rimless toilet being cleaned with one swift wipe-over. Then, after a scene showing fouling
                         building up in places under the rim of a conventional toilet where water does not reach, the
                         video switches to a scene showing the flow of water in a rimless toilet, and a caption is
-                        displayed: “The RIMLESS design leaves no place for waste accumulation.” Next, the video switches
-                        back to a scene showing a rimless toilet being wiped down, and a caption is displayed: “Cleaning
-                        your toilet is easy with just one wipe”.
+                        displayed: "The RIMLESS design leaves no place for waste accumulation." Next, the video switches
+                        back to a scene showing a rimless toilet being wiped down, and a caption is displayed: "Cleaning
+                        your toilet is easy with just one wipe"
                       </span>
                     </p>
                   </div>
                 </div>
                 <div className='introduction__point__lead'>
                   <p>
-                    The secret to a &quot;powerful flush with less water&quot;
+                    The secret to a "powerful flush with less water"
                     <br />
                     with TORNADO FLUSH and RIMLESS design.
                   </p>
@@ -478,7 +509,7 @@ const En = () => {
                   </h2>
 
                   <p className='introduction__txt'>
-                    The wand washes itself inside and out with <br />
+                    The wand washes itself inside and out with <br />
                     EWATER+ to maintain hygienic conditions.
                   </p>
 
@@ -499,13 +530,13 @@ const En = () => {
                     </p>
                     <p>
                       <span style={{ fontWeight: '400' }}>
-                        There is a close-up shot of WASHLET&apos;s wand inside the toilet bowl. Both the inside and
-                        outside of the wand are washed clean. A caption is displayed: “Washing inside and out of the
-                        wand entirely just before use and it&apos;s all automatic.” Water then comes out of the wand,
+                        There is a close-up shot of WASHLET's wand inside the toilet bowl. Both the inside and
+                        outside of the wand are washed clean. A caption is displayed: "Washing inside and out of the
+                        wand entirely just before use and it's all automatic." Water then comes out of the wand,
                         after which the wand is shown to be washing automatically, and a two-line caption is displayed:
-                        “Automatically suppresses the accumulation of waste on the wand, both inside and outside.” and
-                        “The wand is protected by the flap, which is attached to the dry area of the seat, to keep it
-                        clean.”
+                        "Automatically suppresses the accumulation of waste on the wand, both inside and outside." and
+                        "The wand is protected by the flap, which is attached to the dry area of the seat, to keep it
+                        clean."
                       </span>
                     </p>
                   </div>
@@ -572,7 +603,7 @@ const En = () => {
                     <p className='uq_cleanovation__clean_synergy__txtArea--ttl'>Always Keeping Conditions Clean</p>
                     <p className='uq_cleanovation__clean_synergy__txtArea--lead'>
                       Made of high-quality waste-resistant resin and automatically sprayed with EWATER+ after each use,
-                      the wand is extremely resistant to waste and stains. What’s more, the wand attaches to the seat,
+                      the wand is extremely resistant to waste and stains. What's more, the wand attaches to the seat,
                       not the bowl, so waste is less likely to even reach it. Though the wand is self-cleaning, you will
                       appreciate how easily you can reach it and wipe it spotless.
                     </p>
@@ -621,8 +652,8 @@ const En = () => {
                       <span style={{ fontWeight: '400' }}>
                         There is a close-up shot of the inside of the toilet bowl, and a small light on WASHLET function
                         section flashes. EWATER+ sprays out from near the light onto the surface of the bowl and a
-                        caption is displayed: “EWATER＋ sprays the bowl, reducing the need for harsh cleaning
-                        chemicals.” EWATER+ keeps the inside of the toilet bowl clean, and the inside of the toilet bowl
+                        caption is displayed: "EWATER＋ sprays the bowl, reducing the need for harsh cleaning
+                        chemicals." EWATER+ keeps the inside of the toilet bowl clean, and the inside of the toilet bowl
                         sparkles.
                       </span>
                     </p>
