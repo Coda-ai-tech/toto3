@@ -53,7 +53,7 @@ COPY --from=builder /app/public ./public
 RUN mkdir .next
 RUN chown nextjs:nodejs .next
 
-# 在 Dockerfile 中添加以下指令
+# 增加映射
 RUN mkdir -p /app/public/api/index.html && \
     cp /app/public/api/en/home.json /app/public/api/index.html/ && \
     cp /app/public/api/en/global.json /app/public/api/index.html/
