@@ -41,17 +41,17 @@ const En = () => {
         <div className='movie__inner stack'>
           <div>
             <div className='video-container'>
-              <a id='mov02' href='6284944962001' className='video-link mainv-play no-barba no-transcript' data-modal-open>
+              <Link href='/en/cleanovation/clean-synergy/video/tornado-flush' className='video-link'>
                 <img src='/assets/global/cleanovation/images/tornado_flush_video1.png' alt='TORNADO FLUSH demonstration' />
-              </a>
+              </Link>
             </div>
             <p className='video-caption'>MISSION of TORNADO FLUSH</p>
           </div>
           <div>
             <div className='video-container'>
-              <a id='mov03' href='6284942855001' className='video-link mainv-play no-barba no-transcript' data-modal-open>
+              <Link href='/en/cleanovation/clean-synergy/video/innovation-story' className='video-link'>
                 <img src='/assets/global/cleanovation/images/clean_synergy__mov.png' alt='TORNADO FLUSH innovation story' />
-              </a>
+              </Link>
             </div>
             <p className='video-caption'>Innovation Story</p>
           </div>
