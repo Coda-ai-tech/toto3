@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CEFIONTECT",
+    "title": "ECO POWER",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -8,24 +8,15 @@
   "breadcrumb": [
     {
       "label": "HOME",
-      "link": {
-        "type": "routeLink",
-        "href": "/en"
-      }
+      "link": { "type": "routeLink", "href": "/en" }
     },
     {
       "label": "TECHNOLOGY",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/technology"
-      }
+      "link": { "type": "routeLink", "href": "/en/technology" }
     },
     {
-      "label": "CEFIONTECT",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/technology/cefiontect"
-      }
+      "label": "ECO POWER",
+      "link": { "type": "routeLink", "href": "/en/technology/eco-power" }
     }
   ],
   "content": [
@@ -34,16 +25,16 @@
       "module": "TechnologyDetail",
       "moduleOption": null,
       "content": {
-        "title": "CEFIONTECT",
-        "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+        "title": "ECO POWER",
+        "icon": "/assets/img/content/technology/eco-power/ico-eco-power.png",
         "items": [
           {
             "align": "row",
-            "context": "CEFIONTECT is a glaze applied to all TOTO ceramic products, leaving them with a long-lasting finish that prevents the build-up of mould, limescale and waste matter.<br/><br/>The technology used in CEFIONTECT has redefined the idea of a clean ceramic surface. It’s impossible to see with the naked eye, but untreated ceramics have rough, imperfect surfaces. Under a microscope they look like mountain ranges: no matter how much you clean them, bacteria will always build up in their ridges and crevices. With CEFIONTECT, we are able to ensure perfectly smooth surfaces to which very little dirt can stick.<br/><br/>Because CEFIONTECT is applied before the ceramics are fired, it is far more resilient than glazes applied after firing. In effect it is a longer-lasting shield for surfaces that makes them clean by nature.",
-            "images": ["/assets/img/content/technology/cefiontect/Cefiontect.png"]
+            "context": "Most of TOTO's sensor-based, touch-free faucets are equipped with ECO POWER technology. This means that they have their own integrated \"hydroelectric power plant\". The integrated technology allows the faucets to produce their own energy, reducing the amount of electricity and water needed. This is good for the environment and also saves money.<br/><br/>The automatic microsensor of our sensor faucets is one of the world's smallest type and is positioned at the tip of the spout. Hand detection is more accurate, meaning only minimum necessary amount of water is used.",
+            "images": ["/assets/img/content/technology/eco-power/Eco Power-02.png"]
           }
         ],
-        "youtube": "iYIGR0h4rRk"
+        "youtube": "3knNB2rq9ME?si=Q90yOlI_7S09RZI_"
       }
     },
     {

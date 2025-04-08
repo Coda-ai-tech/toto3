@@ -1,5 +1,12 @@
 /* eslint-disable */
+'use client'
+import { useState } from "react";
+import VideoPopup from "@/app/components/VideoPopup";
 const En = () => {
+  const [isOpenVideoPopup, setIsOpenVideoPopup] = useState(false);
+  const handleVideoPopupClose = () => setIsOpenVideoPopup(false);
+  const handleVideoPopupOpen = () => setIsOpenVideoPopup(true);
+
   return (
     <div id='purposeTop' className='page purpose'>
       <main className='main'>
@@ -84,12 +91,12 @@ const En = () => {
                 </p>
               </div>
               <div>
-                <a href='6318268745112' className='mainv-play no-barba' data-modal-open=''>
+                <a href='6346311668112' className='mainv-play no-barba' data-modal-open=''>
                   <img src='/assets/global/purpose/images/after_sales_service_noTitle.jpg' alt='' />
                 </a>
                 <p>
-                TOTO’s After-Sales 
-                  <br className='pc-only' /> Service
+                  TOTO’s After-Sales 
+                  <br className="pc-only" /> Service
                 </p>
               </div>
             </div>
@@ -582,7 +589,7 @@ const En = () => {
                   </p>
 
                   <div className='sign'>
-                    <p>Shinya Tamura</p>
+                    <h5>Shinya Tamura</h5>
                     <p>
                       President,
                       <br />
@@ -630,6 +637,11 @@ const En = () => {
             </div>
           </div>
         </div>
+        {/* <VideoPopup 
+                isOpen={isOpenVideoPopup} 
+                onClose={handleVideoPopupClose} 
+                videoSrc="/assets/global/purpose/video/After-Sales Service.mp4"
+            /> */}
       </main>
     </div>
   );

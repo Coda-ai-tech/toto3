@@ -58,7 +58,7 @@ const En = () => {
             </p>
             <h3 className='hdr2'>Water-Saving Performance of Toilets</h3>
             <picture>
-              <source srcSet='../assets/images/environment/graph1_sp.png' media='(max-width:768px)' />
+              <source srcSet='/assets/global/purpose/images/environment/env-purpose-graph.png' media='(max-width:768px)' />
               <img
                 className='graph'
                 src='/assets/global/purpose/images/environment/graph1_pc.png'
@@ -76,15 +76,34 @@ const En = () => {
             <h2 className='borderAccent'>INITIATIVE</h2>
             <h3 className='hdr1'>Carbon Neutrality Initiatives </h3>
             <p className='lead'>
-              We recognize the impact of climate change as a business risk and work to reduce greenhouse gas emissions
-              based on scientific grounds. On average, our products are used over a period of 10 to 20 years. If
-              analyzed from the perspective of the product life cycle, this means the period of product use accounts for
-              over 90% of our overall CO2 emissions. By actively working to reduce emissions at the use stage of the
-              product life cycle, we aim to realize both comfortable and eco-friendly everyday lifestyles. In regard to
-              the volume of CO2 emissions from our business activities, we are promoting reduction plans that take into
-              account our long-term business growth. Under these plans, we are actively introducing renewable energy
-              sources.
+            We recognize the impact of climate change as a business risk and work to reduce greenhouse gas emissions based on 
+            scientific grounds. On average, our products are used over a period of 10 to 20 years. If analyzed from the 
+            perspective of the product life cycle, this means the period of product use accounts for over 90% of our overall 
+            CO2 emissions. By actively working to reduce emissions at the use stage of the product life cycle, we aim to realize 
+            both comfortable and eco-friendly everyday lifestyles. In regard to the volume of CO2 emissions from our business 
+            activities, we are promoting reduction plans that take into account our long-term business growth. Under these plans, 
+            we are actively introducing renewable energy sources.
             </p>
+            <div className='movie__inner stack'>
+            <div>
+                <a href='6365307633112' className='mainv-play no-barba' data-modal-open=''>
+                  <img src='/assets/global/purpose/images/environment/video-thumb.png' alt='' />
+                </a>
+                <p>
+                A Carbon Neutral Lifestyle
+                <br className="pc-only" />  and Water
+                </p>
+              </div>
+              <div>
+                <a href='6365308485112' className='mainv-play no-barba' data-modal-open=''>
+                  <img src='/assets/global/purpose/images/environment/video-thumb3.png' alt='' />
+                </a>
+                <p>
+                TOTO's Carbon Neutrality
+                  <br className="pc-only" /> Commitment
+                </p>
+              </div>
+              </div>
             <h3 className='hdr4 mt100'>
               TOTO has endorsed international initiatives aimed at achieving a sustainable society and carbon neutrality.
               TOTO obtained certification from the Science Based Targets initiative (SBTi) in June 2021 for its target to limit
@@ -143,7 +162,7 @@ const En = () => {
           </div>
           <section>
             <h2 className='borderAccent'>GOALS</h2>
-            <h3 className='hdr1'>Global Environmental Goals</h3>
+            <h3 className='hdr1'>WILL2030 Social and Environmental Value Target</h3>
 
             <table className='targets_table'>
               <thead>
@@ -221,6 +240,27 @@ const En = () => {
               *2 In case the same calculation conditions are used as in WILL2030 STAGE 2 (approximate value).
             </p>
           </section>
+        </div>
+        <div id='modalVideo' tabIndex={0} role='button'>
+          <div className='modal_container'>
+            <div className='video'>
+              <iframe
+                className='video_iframe'
+                title='purpose popup video'
+                src='https://players.brightcove.net/4631489730001/BJKE2i5G_default/index.html?videoId=6284405588001'
+              />
+            </div>
+            <div className='btnClose' tabIndex={0} role='button'>
+              <svg xmlns='http://www.w3.org/2000/svg' xmlnsXlink='http://www.w3.org/1999/xlink' viewBox='0 0 19 18'>
+                <path
+                  fillRule='evenodd'
+                  fill='rgb(255, 255, 255)'
+                  d='M18.109,15.876 L15.979,17.992 L9.58,11.115 L2.137,17.992 L0.7,15.876 L6.928,8.999 L0.7,2.123 L2.137,0.7 L9.58,6.884 L15.979,0.7 L18.109,2.123 L11.188,8.999 L18.109,15.876 Z'
+                />
+              </svg>
+              CLOSE
+            </div>
+          </div>
         </div>
       </main>
     </div>

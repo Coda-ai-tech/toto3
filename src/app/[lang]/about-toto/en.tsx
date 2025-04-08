@@ -28,7 +28,7 @@ const En = () => {
           <section className='corporate__section'>
             <div className='corporate__section__ttl'>
               <h2 className='corporate__section__ttl__txt'>Corporate Profile</h2>
-              <time className='corporate__section__ttl__time'>(as of March 31, 2023)</time>
+              <time className='corporate__section__ttl__time'>(as of March 31, 2024)</time>
             </div>
 
             <div className='corporate__detail'>
@@ -93,24 +93,20 @@ const En = () => {
                 <dd className='corporate__detail__block__txt'>
                   Representative Director, Chairman of the Board
                   <br />
-                  Madoka Kitamura
+                  Noriaki Kiyota
                   <br />
                   President, Representative Director
                   <br />
-                  Noriaki Kiyota
-                  <br />
-                  Representative Director, Executive Vice President
-                  <br />
-                  Satoshi Shirakawa
+                  Shinya Tamura
                 </dd>
               </dl>
 
               <dl className='corporate__detail__block'>
                 <dt className='corporate__detail__block__ttl'>Number of consolidated employees</dt>
                 <dd className='corporate__detail__block__txt'>
-                  Consolidated: 36,188
+                  Consolidated: 35,027
                   <br />
-                  (as of March 31, 2023)
+                  (as of March 31, 2024)
                 </dd>
               </dl>
 
@@ -538,9 +534,14 @@ const En = () => {
             <div className='corporate__vision__plan'>
               <h3 className='corporate__vision__plan__ttl'>Mid- or Long-Term Management Plan</h3>
               <div className='corporate__vision__plan__btn'>
+                <a href='/download/TOTO_WILL2030_2_en.pdf' className='corporate__vision__plan__btn__link' target='_blank'>
+                  <div className='corporate__vision__plan__btn__link__inner'>
+                    TOTO WILL2030 STAGE 2
+                  </div>
+                </a>
                 <a href='/download/TOTO_WILL2030_en.pdf' className='corporate__vision__plan__btn__link' target='_blank'>
                   <div className='corporate__vision__plan__btn__link__inner'>
-                    New Shared Value Creation Strategy TOTO WILL2030
+                    Shared Value Creation Strategy TOTO WILL2030 STAGE 1
                   </div>
                 </a>
               </div>

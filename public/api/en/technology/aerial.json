@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CEFIONTECT",
+    "title": "AERIAL SHOWER",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,10 +21,10 @@
       }
     },
     {
-      "label": "CEFIONTECT",
+      "label": "AERIAL SHOWER",
       "link": {
         "type": "routeLink",
-        "href": "/en/technology/cefiontect"
+        "href": "/en/technology/aerial"
       }
     }
   ],
@@ -34,16 +34,16 @@
       "module": "TechnologyDetail",
       "moduleOption": null,
       "content": {
-        "title": "CEFIONTECT",
-        "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+        "title": "AERIAL SHOWER",
+        "icon": "/assets/img/content/technology/aerial/ico-aerial.png",
         "items": [
           {
             "align": "row",
-            "context": "CEFIONTECT is a glaze applied to all TOTO ceramic products, leaving them with a long-lasting finish that prevents the build-up of mould, limescale and waste matter.<br/><br/>The technology used in CEFIONTECT has redefined the idea of a clean ceramic surface. It’s impossible to see with the naked eye, but untreated ceramics have rough, imperfect surfaces. Under a microscope they look like mountain ranges: no matter how much you clean them, bacteria will always build up in their ridges and crevices. With CEFIONTECT, we are able to ensure perfectly smooth surfaces to which very little dirt can stick.<br/><br/>Because CEFIONTECT is applied before the ceramics are fired, it is far more resilient than glazes applied after firing. In effect it is a longer-lasting shield for surfaces that makes them clean by nature.",
-            "images": ["/assets/img/content/technology/cefiontect/Cefiontect.png"]
+            "context": "AERIAL Shower aerates the water to make the shower experience much more enjoyable. You feel as though you're standing below a particularly full stream without any increase in the amount of water being used.<br/><br/>Aerating the water is also a clever way of using it more efficiently.<br/><br/>Air is drawn in through the shower head and added to the water, enlarging the water droplets and causing them to increase in volume. You therefore feel as though you're being rinsed with more water than you actually are, making the shower a more enjoyable experience.<br/><br/>The benefits of Aerial Shower are twofold — it both reduces water consumption and makes the shower experience more enjoyable.",
+            "images": ["/assets/img/content/technology/aerial/Aerial4 .png"]
           }
         ],
-        "youtube": "iYIGR0h4rRk"
+        "youtube": ""
       }
     },
     {
