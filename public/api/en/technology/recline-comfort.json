@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CEFIONTECT",
+    "title": "RECLINE COMFORT",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,10 +21,10 @@
       }
     },
     {
-      "label": "CEFIONTECT",
+      "label": "RECLINE COMFORT",
       "link": {
         "type": "routeLink",
-        "href": "/en/technology/cefiontect"
+        "href": "/en/technology/recline-comfort"
       }
     }
   ],
@@ -34,16 +34,16 @@
       "module": "TechnologyDetail",
       "moduleOption": null,
       "content": {
-        "title": "CEFIONTECT",
-        "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+        "title": "RECLINE COMFORT",
+        "icon": "/assets/img/content/technology/recline-comfort/ico-recline-comfort.png",
         "items": [
           {
             "align": "row",
-            "context": "CEFIONTECT is a glaze applied to all TOTO ceramic products, leaving them with a long-lasting finish that prevents the build-up of mould, limescale and waste matter.<br/><br/>The technology used in CEFIONTECT has redefined the idea of a clean ceramic surface. It’s impossible to see with the naked eye, but untreated ceramics have rough, imperfect surfaces. Under a microscope they look like mountain ranges: no matter how much you clean them, bacteria will always build up in their ridges and crevices. With CEFIONTECT, we are able to ensure perfectly smooth surfaces to which very little dirt can stick.<br/><br/>Because CEFIONTECT is applied before the ceramics are fired, it is far more resilient than glazes applied after firing. In effect it is a longer-lasting shield for surfaces that makes them clean by nature.",
-            "images": ["/assets/img/content/technology/cefiontect/Cefiontect.png"]
+            "context": "Nestled in comfort, feel your body and mind release into a state of tranquility.",
+            "images": ["/assets/img/content/technology/recline-comfort/recline_comfort_picture_2.jpg"]
           }
         ],
-        "youtube": "iYIGR0h4rRk"
+        "youtube": "6ayEm0-nTaY?si=5ke-g7SRQaYdq8FW"
       }
     },
     {

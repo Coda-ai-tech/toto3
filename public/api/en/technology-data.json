@@ -329,26 +329,6 @@
           "thumb": "/assets/img/content/technology/luminist/thumb-luminist.png"
         },
         {
-          "title": "CEFIONTECT",
-          "description": "Special hygienic glaze for a smooth ceramic surface",
-          "link": {
-            "type": "routeLink",
-            "href": "/en/technology/cefiontect"
-          },
-          "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-          "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-        },
-        {
-          "title": "MINI UNIT",
-          "description": "Concealed unit for easy and adjustable faucet installation",
-          "link": {
-            "type": "routeLink",
-            "href": "/en/technology/mini-unit"
-          },
-          "icon": "/assets/img/content/technology/mini-unit/ico-mini-unit.png",
-          "thumb": "/assets/img/content/technology/mini-unit/thumb-mini-unit.png"
-        },
-        {
           "title": "LINEARCERAM",
           "description": "Exquisitely thin is the next dimension of beauty",
           "link": {
@@ -357,6 +337,16 @@
           },
           "icon": "/assets/img/content/technology/linearceram/ico-linearceram.png",
           "thumb": "/assets/img/content/technology/linearceram/thumb-linearceram.png"
+        },
+        {
+          "title": "CEFIONTECT",
+          "description": "Special hygienic glaze for a smooth ceramic surface",
+          "link": {
+            "type": "routeLink",
+            "href": "/en/technology/cefiontect"
+          },
+          "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+          "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
         }
       ]
     }

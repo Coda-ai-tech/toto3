@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "News",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb":[
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "NEWS",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/news"
+      }
+    },
+    {
+      "label": "TOTO WASHLET WINTER PROMOTION 2024",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/news/TOTO Washlet Winter Promotion 2024"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "NewsDetail",
+      "moduleOption":null,
+      "content": {
+        "title": "Inline Content"
+      }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption":null,
+      "content": {
+        "title": "RECOMMENDED PRODUCT",
+        "items":[
+          {
+            "title":"CS987PVA / TCF9787WA",
+            "description":"NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb":"/assets/img/content/related-product/sample.webp",
+            "link":{
+              "type":"routeLink",
+              "href":"/en/product/CS987PVA"
+            }
+          },
+          {
+            "title":"CS987PVA / TCF9787WA",
+            "description":"NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb":"/assets/img/content/related-product/sample.webp",
+            "link":{
+              "type":"routeLink",
+              "href":"/en/product/CS987PVA"
+            }
+          },
+          {
+            "title":"CS987PVA / TCF9787WA",
+            "description":"NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb":"/assets/img/content/related-product/sample.webp",
+            "link":{
+              "type":"routeLink",
+              "href":"/en/product/CS987PVA"
+            }
+          },
+          {
+            "title":"CS987PVA / TCF9787WA",
+            "description":"NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb":"/assets/img/content/related-product/sample.webp",
+            "link":{
+              "type":"routeLink",
+              "href":"/en/product/CS987PVA"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CEFIONTECT",
+    "title": "HEAT PROTECT",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,10 +21,10 @@
       }
     },
     {
-      "label": "CEFIONTECT",
+      "label": "HEAT PROTECT",
       "link": {
         "type": "routeLink",
-        "href": "/en/technology/cefiontect"
+        "href": "/en/technology/heat-protect"
       }
     }
   ],
@@ -34,16 +34,16 @@
       "module": "TechnologyDetail",
       "moduleOption": null,
       "content": {
-        "title": "CEFIONTECT",
-        "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+        "title": "HEAT PROTECT",
+        "icon": "/assets/img/content/technology/heat-protect/ico-heat-protect.png",
         "items": [
           {
             "align": "row",
-            "context": "CEFIONTECT is a glaze applied to all TOTO ceramic products, leaving them with a long-lasting finish that prevents the build-up of mould, limescale and waste matter.<br/><br/>The technology used in CEFIONTECT has redefined the idea of a clean ceramic surface. It’s impossible to see with the naked eye, but untreated ceramics have rough, imperfect surfaces. Under a microscope they look like mountain ranges: no matter how much you clean them, bacteria will always build up in their ridges and crevices. With CEFIONTECT, we are able to ensure perfectly smooth surfaces to which very little dirt can stick.<br/><br/>Because CEFIONTECT is applied before the ceramics are fired, it is far more resilient than glazes applied after firing. In effect it is a longer-lasting shield for surfaces that makes them clean by nature.",
-            "images": ["/assets/img/content/technology/cefiontect/Cefiontect.png"]
+            "context": "When you use hot water, the surface of the faucet also gets hot. TOTO's solution is a unique innovation in design. By covering the path of the hot water with a layer of cold, HEAT PROTECT is able to prevent burns when accidentally touching the fixtures.",
+            "images": ["/assets/img/content/technology/heat-protect/Heat protect.jpg"]
           }
         ],
-        "youtube": "iYIGR0h4rRk"
+        "youtube": "YsGPCR9dXDI?si=_POdfa24pd7Czegl"
       }
     },
     {

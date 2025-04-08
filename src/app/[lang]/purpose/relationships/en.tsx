@@ -126,17 +126,17 @@ const En = () => {
           </section>
           <section>
             <h2 className='borderAccent'>GOALS</h2>
-            <h3 className='hdr1'>Global Environmental Goals</h3>
+            <h3 className='hdr1'>WILL2030 Social and Environmental Value Target</h3>
 
             <table className='targets_table'>
               <thead>
                 <tr>
                   <th className='bgblue'>Key Indicators</th>
                   <th className='bggreen'>
-                    FY2022 <span>(Results)</span>
+                    FY2023 <span>(Results)</span>
                   </th>
                   <th className='bggreen2'>
-                    FY2023 <span>(Targets)</span>
+                    FY2026 <span>(Targets)</span>
                   </th>
                 </tr>
               </thead>
@@ -147,23 +147,22 @@ const En = () => {
                   </th>
                   <td>
                     <div className='result'>
-                      94.0<span>pt</span>
+                      94.2<span>pt</span>
                     </div>
                   </td>
                   <td>
                     <div className='result2'>
-                      94.2<span>pt</span>
+                      94.8<span>pt</span>
                     </div>
                   </td>
                 </tr>
                 <tr>
                   <th>
-                    Percentage of employees taking part in volunteer activities (total number of participants / number
-                    of consolidated employees = participation rate)
+                  Percentage of employees taking part in volunteer activities, donations offered, etc.
                   </th>
                   <td>
                     <div className='result'>
-                      91.8<span>%</span>
+                      108.1<span>%</span>
                     </div>
                   </td>
                   <td>
@@ -177,7 +176,9 @@ const En = () => {
               </tbody>
             </table>
             <p className='tbl_caption'>
-              * Scope: Japan,Americas,Europe,Mainland,China,Taiwan Region,India,Thailand,Vietnam
+            Updated according to actual results finalized at the end of June 2024
+            <br/>
+            * Scope: Japan,Americas,Europe,Mainland,China,Taiwan Region,India,Thailand,Vietnam
             </p>
           </section>
         </div>
