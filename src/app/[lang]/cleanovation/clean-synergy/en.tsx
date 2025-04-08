@@ -37,26 +37,25 @@ const En = () => {
             gap: 20px;
           }
         `}</style>
-
         <div className='movie__inner stack'>
           <div>
             <div className='video-container'>
-              <Link href='/en/cleanovation/clean-synergy/video/tornado-flush' className='video-link'>
+              <a id='mov02' href='6356350329112' className='mainv-play no-barba no-transcript' data-modal-open>
                 <img src='/assets/global/cleanovation/images/tornado_flush_video1.png' alt='TORNADO FLUSH demonstration' />
-              </Link>
+                </a>
             </div>
             <p className='video-caption'>MISSION of TORNADO FLUSH</p>
           </div>
           <div>
             <div className='video-container'>
-              <Link href='/en/cleanovation/clean-synergy/video/innovation-story' className='video-link'>
+              <a id='mov03' href='6356352486112' className='mainv-play no-barba no-transcript' data-modal-open>
                 <img src='/assets/global/cleanovation/images/clean_synergy__mov.png' alt='TORNADO FLUSH innovation story' />
-              </Link>
+              </a>
             </div>
             <p className='video-caption'>Innovation Story</p>
           </div>
         </div>
-        
+
         {/* <header className='section__header innerEl-tight nth2'>
           <h2 className='section__title'>PRESENTATION MOVIE</h2>
         </header>
