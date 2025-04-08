@@ -52,12 +52,12 @@ const En = () => {
             </div>
             <section>
               <h2 className='borderAccent'>TOTO CLEANOVATION</h2>
-              <h3 className='hdr1'>Realize Cleanliness and Comfort throughout the World</h3>
+              <h3 className='hdr1'>Realize Cleanliness and Comfort; Wellness throughout the World</h3>
               <p className='lead'>
-                To create clean and comfortable toilet spaces for our customers, we have developed clean technologies,
-                such as EWATER+, CEFIONTECT, RIMLESS TORNADO FLUSH, and non-contact technology like TOUCHLESS. Based on
-                TOTO CLEANOVATION, derived from the words &quot;CLEAN&quot; and &quot;INNOVATION,&quot; we will
-                communicate our three values for the continuation of clean innovation to customers around the world.
+              To create clean and comfortable toilet spaces for our customers, we have developed clean technologies, such as EWATER+, 
+              CEFIONTECT, RIMLESS TORNADO FLUSH, and non-contact technology like TOUCHLESS. Based on TOTO CLEANOVATION, derived from 
+              the words "CLEAN" and "INNOVATION," we will communicate our three values for the continuation of clean innovation to customers 
+              around the world.
               </p>
               <div className='cleanovation'>
                 <img
@@ -107,9 +107,9 @@ const En = () => {
               </div>
               <h3 className='hdr4'>Reaching a Total of Over 60 Million Units Shipped for WASHLET.</h3>
               <p className='lead'>
-                Launched in 1980, WASHLET has gradually become commonplace in housing facilities in Japan. Overseas,
-                sales of WASHLET have continued to grow, and by August 2022 we had shipped over 60 million units of
-                WASHLET around the world.
+              Launched in 1980, WASHLET has gradually become commonplace in housing facilities in Japan. 
+              Overseas, sales of WASHLET have continued to grow, and by August 2022 we had shipped over 
+              60 million units of WASHLET around the world.
               </p>
             </section>
             <section>
@@ -137,31 +137,31 @@ const En = () => {
             </section>
             <section>
               <h2 className='borderAccent'>GOALS</h2>
-              <h3 className='hdr1'>Global Environmental Goals</h3>
+              <h3 className='hdr1'>WILL2030 Social and Environmental Value Target</h3>
 
               <table className='targets_table'>
                 <thead>
                   <tr>
                     <th className='bgblue'>Key Indicators</th>
                     <th className='bggreen'>
-                      FY2022 <span>(Results)</span>
+                      FY2023 <span>(Results)</span>
                     </th>
                     <th className='bggreen2'>
-                      FY2023 <span>(Targets)</span>
+                      FY2026 <span>(Targets)</span>
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th>Percantage of TORNADO FLUSH units shipped (overseas)</th>
+                    <th>Percentage of toilets with built-in TORNADO FLUSH shipped (Overseas)</th>
                     <td>
                       <div className='result'>
-                        62<span>%</span>
+                        78<span>%</span>
                       </div>
                     </td>
                     <td>
                       <div className='result2'>
-                        64<span>%</span>
+                        79<span>%</span>
                       </div>
                     </td>
                   </tr>
@@ -169,14 +169,14 @@ const En = () => {
                     <th>Number of WASHLET units shipped (overseas)</th>
                     <td>
                       <div className='result'>
-                        0.86
+                        3.07
                         <br />
                         <span>million units</span>
                       </div>
                     </td>
                     <td>
                       <div className='result2'>
-                        1.00
+                        3.50
                         <br />
                         <span>million units</span>
                       </div>
@@ -186,12 +186,12 @@ const En = () => {
                     <th>EWATER WASHLET rollout percentage (overseas)</th>
                     <td>
                       <div className='result'>
-                        59<span>%</span>
+                        53<span>%</span>
                       </div>
                     </td>
                     <td>
                       <div className='result2'>
-                        57<span>%</span>
+                        58<span>%</span>
                       </div>
                     </td>
                   </tr>
