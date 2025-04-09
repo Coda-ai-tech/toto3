@@ -47,7 +47,7 @@
               {
                 "label": "OUR JOURNEY",
                 "link": {
-                  "type": "external",
+                  "type": "routeLink",
                   "href": "https://jp.toto.com/pages/en/history/"
                 }
               },
@@ -61,7 +61,7 @@
               {
                 "label": "TOTO MUSEUM",
                 "link": {
-                  "type": "external",
+                  "type": "routeLink",
                   "href": "https://jp.toto.com/pages/knowledge/visit/museum/en/vr/"
                 }
               },
@@ -75,7 +75,7 @@
               {
                 "label": "TOTO GLOBAL",
                 "link": {
-                  "type": "external",
+                  "type": "routeLink",
                   "href": "https://www.toto.com/en/index.htm"
                 }
               },
@@ -89,7 +89,7 @@
               {
                 "label": "GLOBAL REFERENCE",
                 "link": {
-                  "type": "external",
+                  "type": "routeLink",
                   "href": "https://www.toto.com/project/"
                 }
               }
