@@ -27,10 +27,8 @@ const Button = dynamic(() => import('@@/Button'), { ssr: false });
 
 interface ProductItem {
   id: string;
-  isNew: boolean;
   category: string[];
   subCategory: string[] | null;
-  title: string;
   description: string;
   thumb: string;
   link: ButtonLinkElement;
@@ -515,7 +513,7 @@ const categoryList: CategoryItem[] = [
 ];
 
 const ProductCard = ({ data }: { data: ProductItem }) => {
-  const { id, title, thumb, link } = data;
+  const { id, thumb, link, category, subCategory, description } = data;
 
   const learnMoreCta: ButtonElement<IconList> = {
     label: 'Learn More',
@@ -537,7 +535,8 @@ const ProductCard = ({ data }: { data: ProductItem }) => {
         </div>
         <div className={`${styles.content}`}>
           <h4 className={`${styles.productTitle}`}>{id}</h4>
-          <div className={`${styles.description}`}>{title}</div>
+          <div className={`${styles.category}`}><b>{subCategory ? subCategory[0].toUpperCase() : category[0].toUpperCase() }</b></div>
+          <div className={`${styles.description}`}>{description}</div>
         </div>
         <div className={`${styles.action}`}>
           <Button content={learnMoreCta} />
@@ -687,7 +686,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     setTimeout(() => {
       const categoryFilteredData = selectedCategory.length > 0 ? getFilteredData() : products;
       const searchKeyFilteredData = categoryFilteredData?.filter((item: any) =>
-        item.title.toLowerCase().includes(keyword.toLowerCase())
+        item.description.toLowerCase().includes(keyword.toLowerCase())
       ) as ProductItem[];
 
       const res = splitPages(searchKeyFilteredData, pagePerItem.current, page);

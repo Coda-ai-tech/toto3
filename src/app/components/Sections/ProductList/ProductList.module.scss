@@ -261,8 +261,12 @@
         @include mixin.textEllipsis(2);
       }
 
+      .category {
+        margin-bottom: 10px;
+      }
+
       .description {
-        @apply text-sm mb-[40px];
+        @apply text-sm mb-[44px];
         @include mixin.textEllipsis(3);
       }
     }
