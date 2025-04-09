@@ -106,9 +106,13 @@ const formatFileInfo = (filePath: string) => {
 const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
   const [hash, setHash] = useState('');
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      setHash(window.location.hash);
-    }
+    const updateHash = () => setHash(window.location.hash);
+
+    updateHash();
+
+    window.addEventListener('hashchange', updateHash);
+
+    return () => window.removeEventListener('hashchange', updateHash);
   })
 
   const { 
@@ -121,7 +125,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
           <b>{id}</b>
         </div>
         <div className={styles.tabs}>
-          <a href="#specification" className={hash === '#specification' ? styles.activeTab : ''}>
+          <a href="#specification" className={hash === '#specification' ? styles.activeTab : ''} >
             SPECIFICATION
           </a>
           <a href="#awards" className={hash === '#awards' ? styles.activeTab : ''}>
