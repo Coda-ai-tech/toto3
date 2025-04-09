@@ -16,6 +16,7 @@ import RelatedProduct from '~/RelatedProduct'
 import NewsList from '~/NewsList'
 import NewsDetail from '~/NewsDetail'
 import ProductList from '~/ProductList';
+import ProductDetails from '@/app/components/Sections/ProductDetails';
 
 export const ModuleList: Record<string, any> = {
   SandBox,
@@ -35,5 +36,6 @@ export const ModuleList: Record<string, any> = {
   RelatedProduct,
   NewsList,
   NewsDetail,
-  ProductList
+  ProductList,
+  ProductDetails
 };
