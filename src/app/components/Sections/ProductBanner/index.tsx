@@ -46,6 +46,20 @@ const ProductBanner = ({ order, data }: ModuleData<ProductBannerProps, null>) =>
 
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [currentMedia, setCurrentMedia] = useState<MediaElement>();
+  const [isMobile, setIsMobile] = useState<boolean>(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => {
+      window.removeEventListener('resize', checkMobile);
+    };
+  }, []);
 
   const decreaseIndex = useCallback(() => {
     if (currentIndex === 0) return;
@@ -128,13 +142,15 @@ const ProductBanner = ({ order, data }: ModuleData<ProductBannerProps, null>) =>
                       >
                         <span className={`${styles.itemLabel}`}>{item.label}</span>
                         <div className={`${styles.itemThumb}`}>
-                          <Image
-                            src={item.media.src.desktop}
-                            width={100}
-                            height={100}
-                            alt={`Product Category - ${item.label} Thumbnail`}
-                            draggable={false}
-                          />
+                          {((isMobile && item.media.src.mobile) || (!isMobile && item.media.src.desktop)) && (
+                            <Image
+                              src={isMobile ? item.media.src.mobile : item.media.src.desktop}
+                              width={100}
+                              height={100}
+                              alt={`Product Category - ${item.label} Thumbnail`}
+                              draggable={false}
+                            />
+                          )}
                         </div>
                       </Link>
                     );
