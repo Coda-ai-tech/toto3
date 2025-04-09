@@ -169,42 +169,33 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             </div>
             <table className={styles.specTable}>
               <tbody>
-                <tr>
-                  <td className={styles.specName}><b>Size</b></td>
-                  <td>{specs.size}</td>
-                </tr>
-                <tr>
-                  <td className={styles.specName}><b>Flushing System</b></td>
-                  <td>{specs.flushingSystem}</td>
-                </tr>
-                <tr>
-                  <td className={styles.specName}><b>Water Consumption</b></td>
-                  <td>{specs.waterConsumption}</td>
-                </tr>
-                <tr>
-                  <td className={styles.specName}><b>Trap Type (Rough-In)</b></td>
-                  <td>{specs.trapType}</td>
-                </tr>
-                <tr>
-                  <td className={styles.specName}><b>Water Pressure</b></td>
-                  <td>{specs.waterPressure}</td>
-                </tr>
-                <tr>
-                  <td className={styles.specName}><b>Power Rating</b></td>
-                  <td>{specs.powerRating}</td>
-                </tr>
-                <tr>
-                  <td className={styles.specName}><b>Material</b></td>
-                  <td>
-                    {specs.materials.map((material) => (
-                      <div key={material} className={styles.material}> {material} </div>
-                    ))}
-                  </td>
-                </tr>
-                <tr>
-                  <td className={styles.specName}><b>Colour</b></td>
-                  <td>{specs.colour}</td>
-                </tr>
+              {Object.entries(specs).map(([key, value]) => {
+                if (value !== null) {
+                    if (Array.isArray(value)) {
+                        const filteredValues = value.filter(item => item !== null);
+                        if (filteredValues.length === 0) {
+                            return null;
+                        }
+                        return (
+                            <tr key={key}>
+                                <td className={styles.specName}><b>{key}</b></td>
+                                <td>
+                                    {filteredValues.map((data, index) => (
+                                        <div key={index} className={styles.material}>{data}</div>
+                                    ))}
+                                </td>
+                            </tr>
+                        );
+                    }
+                    return (
+                        <tr key={key}>
+                            <td className={styles.specName}><b>{key}</b></td>
+                            <td>{value}</td>
+                        </tr>
+                    );
+                }
+                return null;
+            })}
               </tbody>
             </table>
           </div>
