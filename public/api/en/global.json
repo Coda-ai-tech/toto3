@@ -45,31 +45,17 @@
                 }
               },
               {
+                "label": "OUR JOURNEY",
+                "link": {
+                  "type": "external",
+                  "href": "https://jp.toto.com/pages/en/history/"
+                }
+              },
+              {
                 "label": "BRAND PURPOSE",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/purpose"
-                }
-              },
-              {
-                "label": "NEWS",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/news"
-                }
-              },
-              {
-                "label": "TOTO HISTORY",
-                "link": {
-                  "type": "external",
-                  "href": "https://jp.toto.com/en/history/"
-                }
-              },
-              {
-                "label": "TOTO GLOBAL",
-                "link": {
-                  "type": "external",
-                  "href": "https://www.toto.com/en/index.htm"
                 }
               },
               {
@@ -80,17 +66,24 @@
                 }
               },
               {
-                "label": "TOTO INSPIRATION",
+                "label": "INSPIRATION",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/inspiration"
                 }
               },
               {
-                "label": "",
+                "label": "TOTO GLOBAL",
+                "link": {
+                  "type": "external",
+                  "href": "https://www.toto.com/en/index.htm"
+                }
+              },
+              {
+                "label": "NEWS",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
+                  "href": "/en/news"
                 }
               },
               {
