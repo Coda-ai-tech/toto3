@@ -211,6 +211,7 @@
 .resultArea,
 .resultPagination {
   @apply p-[30px];
+  @apply flex;
 }
 
 .resultArea {
@@ -222,5 +223,56 @@
 
   .loadingSkeletonInner {
     @apply whFull relative;
+  }
+}
+
+.productCard {
+  @apply w-[420px] max-w-[calc(50%-8px)] bg-white border border-solid border-gray-lightest;
+  @apply m-[10px];
+
+  @screen md {
+    @apply w-[390px] max-w-[calc(25%-8px)];
+  }
+
+  @screen lg {
+    @apply max-w-[calc(25%-23px)];
+  }
+
+  .cardInner {
+    @apply relative h-full;
+
+    .thumb {
+      @apply relative aspect-square overflow-hidden;
+
+      img {
+        @apply whFull;
+      }
+    }
+
+    .content {
+      @apply p-2 pb-[60px];
+
+      @screen md {
+        @apply p-4;
+      }
+
+      .productTitle {
+        @apply mb-2;
+        @include mixin.textEllipsis(2);
+      }
+
+      .category {
+        margin-bottom: 10px;
+      }
+
+      .description {
+        @apply text-sm mb-[44px];
+        @include mixin.textEllipsis(3);
+      }
+    }
+
+    .action {
+      @apply absolute bottom-0 right-0;
+    }
   }
 }
