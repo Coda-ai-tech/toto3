@@ -113,45 +113,29 @@
             "title": "PRODUCT",
             "items": [
               {
-                "label": "NEOREST",
+                "label": "AWARDS",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/awards"
+                }
+              },
+              {
+                "label": "ALL PRODUCT",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/product"
                 }
-              },
+              }
+            ]
+          },
+          {
+            "title": "",
+            "items": [
               {
-                "label": "WASHLET+",
+                "label": "NEOREST",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
-                }
-              },
-              {
-                "label": "WASHLET",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en"
-                }
-              },
-              {
-                "label": "TOILETS",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en"
-                }
-              },
-              {
-                "label": "LAVATORIES",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en"
-                }
-              },
-              {
-                "label": "BATHTUBS",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en"
+                  "href": "/en/neo-rest"
                 }
               },
               {
@@ -162,10 +146,24 @@
                 }
               },
               {
+                "label": "WASHLET+",
+                "link": {
+                "type": "routeLink",
+                "href": "/en"
+                }
+              },
+              {
                 "label": "SHOWERS",
                 "link": {
                   "type": "routeLink",
                   "href": "/en"
+                }
+              },
+              {
+                "label": "WASHLET",
+                "link": {
+                "type": "routeLink",
+                "href": "/en"
                 }
               },
               {
@@ -176,7 +174,28 @@
                 }
               },
               {
+                "label": "TOILETS",
+                "link": {
+                "type": "routeLink",
+                "href": "/en"
+                }
+              },
+              {
                 "label": "COMMERCIAL",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label": "LAVATORIES",
+                "link": {
+                "type": "routeLink",
+                "href": "/en"
+                }
+              },
+              {
+                "label": "BATHTUBS",
                 "link": {
                   "type": "routeLink",
                   "href": "/en"
@@ -186,6 +205,7 @@
           }
         ]
       },
+
       {
         "title": "TECHNOLOGIES",
         "link": {
@@ -848,3 +868,4 @@
     }
   }
 }
+

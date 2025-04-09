@@ -92,24 +92,22 @@
 }
 
 .subNavColumWrap {
-  @apply flex gap-4 w-full justify-between;
+  @apply flex gap-4 ;
 
   @screen hd {
-    @apply gap-6;
-    &:not(:last-child) {
-          @apply relative border-b border-[#e5e5e5] mb-2 pb-2;
-        }
-  }
-
-  .subNavItem {
-    span {
-      @apply font-normal !important;
-    }
+    gap:3rem;
   }
 }
 
 .subNavColum {
   @apply relative;
+
+  &:not(:last-child) {
+    &::after {
+      content: '';
+      @apply absolute right-[-1rem] top-0 h-full w-[1px] bg-[#e5e5e5];
+    }
+  }
 
   .navColumTitle {
     @apply font-bold mb-4;
