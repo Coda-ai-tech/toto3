@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "CW927PZT",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb":[
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW927PZT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW927PZT"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "ProductDetails",
+      "moduleOption":null,
+      "content": {
+        "id":"CW927PZT / TCF95380GHK#NW1",
+        "category":[
+          "neorest"
+        ],
+        "subCategory":null,
+        "description":"NEOREST WX Wall Hung Multi-Function Toilet",
+        "images":["/assets/img/content/products/Neorest/CW927PZT/content-image.png"],
+        "features":[
+          "Elegant and seamless design",
+          "AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
+          "PREMIST prevents waste from clinging",
+          "EWATER+ suppresses the accumulation of waste",
+          "TORNADO FLUSH swirls and ejects waste entirely",
+          "RIMLESS leaves no place for waste to hide",
+          "CEFIONTECT forces waste to slide down",
+          "Equipped with many more features which provide a comfortable experience for all users"
+        ],
+        "specs": {
+          "size": "675 x 449 x 447mm",
+          "flushingSystem": "Tornado",
+          "waterConsumption": "3L/4.5L",
+          "trapType": "P-trap (220mm)",
+          "waterPressure": "0.05Mpa ~ 0.75Mpa",
+          "powerRating": "AC220 ~ 240V",
+          "materials": [
+            "Bowl - Vitreous China",
+            "Seat & Cover - Plastic",
+            "Remote Controller - Aluminium"
+          ],
+          "colour": "White"
+        },
+        "awardImages": [
+          "/assets/img/content/products/awards/good_design.png",
+          "/assets/img/content/products/awards/redot_winner.png",
+          "/assets/img/content/products/awards/design_award.png",
+          "/assets/img/content/products/awards/gold_award.png",
+          "/assets/img/content/products/awards/reddot_award_best.png",
+          "/assets/img/content/products/awards/reddot_award_design.png"
+        ],
+        "technologies": [
+          {
+            "title": "SOFT FLOW",
+            "description": "Practically prevents splashing, keeping larger puddles from forming on the washbasin.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/soft-flow"
+            },
+            "icon": "/assets/img/content/technology/soft-flow/ico-soft-flow.png",
+            "thumb": "/assets/img/content/technology/soft-flow/thumb-soft-flow.png"
+          },
+          {
+            "title": "WARM SPA",
+            "description": "Embraced in warmth, relaxed, and ready for rest.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/warm-spa"
+            },
+            "icon": "/assets/img/content/technology/warm-spa/ico-warm-spa.png",
+            "thumb": "/assets/img/content/technology/warm-spa/thumb-warm-spa.png"
+          },
+          {
+            "title": "MIST SPA",
+            "description": "Mist of ultra-fine bubbles which gently cleanses the skin",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/mist-spa"
+            },
+            "icon": "/assets/img/content/technology/mist-spa/ico-mist-spa.png",
+            "thumb": "/assets/img/content/technology/mist-spa/thumb-mist-spa.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Neorest/CW927PZT/drawing.png"
+        ]
+      }
+    }
+  ]
+}
