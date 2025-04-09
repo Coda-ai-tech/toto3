@@ -16,7 +16,7 @@ const En = () => {
               </div>
               <div className='l-hero_sub-title' style={{ opacity: '0.00' }}>
                 <img src='/assets/global/lavatory/assets/img/hero_title_four_seasons.svg' alt='Scene of four seasons' />
-                <a href='./four_seasons/'>
+                <a href='/en/gb-lavatory/four_seasons'>
                   <button type='button' aria-label='See more' className='l-hero_see-more_button'>
                     See more
                   </button>
@@ -132,7 +132,7 @@ const En = () => {
                   <div className='l-flex_main'>
                     <h2 className='l-flex_title'>Matte Black</h2>
                     <p className='l-flex_visual'>
-                      <a href='./black/'>
+                      <a href='/en/gb-lavatory/black'>
                         <img
                           src='/assets/global/lavatory/assets/img/colors/space/LVKV_LW4715_ZL_MBLACK.jpg'
                           alt='Matte Black'
@@ -157,7 +157,7 @@ const En = () => {
                     </div>
                     <div className='l-flex_bottom'>
                       <div className='l-flex_more l-button'>
-                        <a href='./black/' className='l-button_box'>
+                        <a href='/en/gb-lavatory/black' className='l-button_box'>
                           <span className='l-button_label'>See more</span>
                         </a>
                       </div>
@@ -165,7 +165,7 @@ const En = () => {
                   </div>
                   <div className='l-flex_aside'>
                     <p className='l-flex_visual'>
-                      <a href='./black/'>
+                      <a href='/en/gb-lavatory/black'>
                         <img
                           src='/assets/global/lavatory/assets/img/colors/space/LVKV_LW4715_ZL_MBLACK.jpg'
                           alt='Matte Black'
@@ -185,7 +185,7 @@ const En = () => {
                   <div className='l-flex_main'>
                     <h2 className='l-flex_title'>Matte White</h2>
                     <p className='l-flex_visual'>
-                      <a href='./white/'>
+                      <a href='/en/gb-lavatory/white'>
                         <img
                           src='/assets/global/lavatory/assets/img/colors/space/LVKV_LW4706_ZN_MWHITE.jpg'
                           alt='Matte White'
@@ -210,7 +210,7 @@ const En = () => {
                     </div>
                     <div className='l-flex_bottom'>
                       <div className='l-flex_more l-button'>
-                        <a href='./white/' className='l-button_box'>
+                        <a href='/en/gb-lavatory/white' className='l-button_box'>
                           <span className='l-button_label'>See more</span>
                         </a>
                       </div>
@@ -218,7 +218,7 @@ const En = () => {
                   </div>
                   <div className='l-flex_aside'>
                     <p className='l-flex_visual'>
-                      <a href='./white/'>
+                      <a href='/en/gb-lavatory/white'>
                         <img
                           src='/assets/global/lavatory/assets/img/colors/space/LVKV_LW4706_ZN_MWHITE.jpg'
                           alt='Matte White'
@@ -238,7 +238,7 @@ const En = () => {
                   <div className='l-flex_main'>
                     <h2 className='l-flex_title'>Matte Grey</h2>
                     <p className='l-flex_visual'>
-                      <a href='./grey/'>
+                      <a href='/en/gb-lavatory/grey'>
                         <img
                           src='/assets/global/lavatory/assets/img/colors/space/LVKV_LW4716_ZL_MGREY_MBL.jpg'
                           alt='Matte Grey'
@@ -263,7 +263,7 @@ const En = () => {
                     </div>
                     <div className='l-flex_bottom'>
                       <div className='l-flex_more l-button'>
-                        <a href='./grey/' className='l-button_box'>
+                        <a href='/en/gb-lavatory/grey' className='l-button_box'>
                           <span className='l-button_label'>See more</span>
                         </a>
                       </div>
@@ -271,7 +271,7 @@ const En = () => {
                   </div>
                   <div className='l-flex_aside'>
                     <p className='l-flex_visual'>
-                      <a href='./grey/'>
+                      <a href='/en/gb-lavatory/grey'>
                         <img
                           src='/assets/global/lavatory/assets/img/colors/space/LVKV_LW4716_ZL_MGREY_MBL.jpg'
                           alt='Matte Grey'
@@ -291,7 +291,7 @@ const En = () => {
                   <div className='l-flex_main'>
                     <h2 className='l-flex_title'>Matte Beige</h2>
                     <p className='l-flex_visual'>
-                      <a href='./beige/'>
+                      <a href='/en/gb-lavatory/beige'>
                         <img
                           src='/assets/global/lavatory/assets/img/colors/space/LVKV_LW4704_ZA_MBEIGE_BN.jpg'
                           alt='Matte Beige'
@@ -316,7 +316,7 @@ const En = () => {
                     </div>
                     <div className='l-flex_bottom'>
                       <div className='l-flex_more l-button'>
-                        <a href='./beige/' className='l-button_box'>
+                        <a href='/en/gb-lavatory/beige' className='l-button_box'>
                           <span className='l-button_label'>See more</span>
                         </a>
                       </div>
@@ -324,7 +324,7 @@ const En = () => {
                   </div>
                   <div className='l-flex_aside'>
                     <p className='l-flex_visual'>
-                      <a href='./beige/'>
+                      <a href='/en/gb-lavatory/beige'>
                         <img
                           src='/assets/global/lavatory/assets/img/colors/space/LVKV_LW4704_ZA_MBEIGE_BN.jpg'
                           alt='Matte Beige'
@@ -342,7 +342,7 @@ const En = () => {
           <section className='l-series-link'>
             <div className='l-series-link_inner u-inner'>
               <div className='l-series-link_container'>
-                <a href='./four_seasons/'>
+                <a href='/en/gb-lavatory/four_seasons'>
                   <img src='/assets/global/lavatory/assets/img/hero_bg_06.jpg' alt='' />
                 </a>
                 <img src='/assets/global/lavatory/assets/img/hero_title_four_seasons.svg' alt='Scene of four seasons' />
@@ -355,7 +355,7 @@ const En = () => {
                 </span>
               </div>
               <div className='l-flex_more l-button'>
-                <a href='./four_seasons/' className='l-button_box'>
+                <a href='/en/gb-lavatory/four_seasons' className='l-button_box'>
                   <span className='l-button_label'>See more</span>
                 </a>
               </div>
@@ -382,8 +382,8 @@ const En = () => {
                       </p>
                       <p className='l-banner_button u-hidden_sp'>
                         <img
-                          src='/assets/global/lavatory/assets/img/banner/faucet-lavatory_button.png'
-                          alt='Try Plannning'
+                          src='/assets/global/lavatory/assets/img/banner/faucet-lavatory_button2.png'
+                          alt='Plannning'
                         />
                       </p>
                     </div>
