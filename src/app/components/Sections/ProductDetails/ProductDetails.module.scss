@@ -1,0 +1,202 @@
+.headings {
+  margin: 0 32px;
+  background-color: #F1F2F4;
+  display: flex;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+
+  .productId {
+    margin-right: 24px;
+    align-content: center;
+  }
+
+  .tabs {
+    margin-right: 20px;
+    align-content: center;
+
+    a {
+      margin-right: 10px;
+      border-radius: 16px;
+      padding: 2px 8px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:active {
+        background-color: darkblue;
+        color: white;
+      }
+    }
+
+    .activeTab {
+      background-color: darkblue;
+      color: white;
+    }
+  }
+
+  
+  .share {
+    @apply w-full flex gap-2;
+    margin-left: auto;
+    align-content: center;
+
+    @screen md {
+      @apply w-max items-center;
+    }
+
+    .shareLabel {
+      @apply text-[12px] uppercase font-semibold;
+    }
+  }
+}
+
+.productText {
+  display: flex;
+  flex-direction: row;
+  margin: 28px 160px;
+
+  .image {
+    margin-right: 20px;
+  }
+  
+  .innerText {
+    margin: 0 20px 0 40px;
+
+    .productTextHeadings {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 24px 0;
+    }
+  
+    .shortdescription {
+      font-size: 20px;
+    }
+  
+    .features {
+      margin: 24px 0;
+      padding-left: 0;
+      list-style: none;
+
+      li {
+        position: relative;
+        padding-left: 24px;
+        margin-bottom: 8px;
+
+        &::before {
+          content: '✓';
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+    }
+  
+    .subHeadings {
+      margin: 40px 0 16px 0;
+      font-weight: bold;
+      
+      .lineBreak {
+        border: 1px solid black;
+      }
+    }
+
+    .specsTitle {
+      font-weight: bold;
+    }
+
+    .specTable {
+      width: 100%;
+      margin: 12px 0 40px 0;
+
+      .specName {
+
+        @screen md {
+          padding-right: 80px;
+        }
+      }
+
+      tr {
+        &:first-child {
+          border-top: none;
+        }
+
+        border-top: 1px solid rgb(242, 242, 242);
+
+        td {
+          padding: 8px 0;
+        }
+      }
+    }
+
+    .awardImages {
+      display: flex;
+      gap: 4px;
+      margin: 24px 0;
+
+      .imageWrapper {
+        position: relative;
+        width: 100px;
+        height: 56px;
+      }
+    }
+  }
+}
+
+.technologyContainer {
+  margin: 52px 0;
+  background-color: #F1F2F4;
+  padding: 40px 160px;
+
+  .subHeadings {
+    margin: 24px 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .actions{
+    text-align: center;
+    margin: 36px 0 24px 0;
+  }
+}
+
+.downloadContainer {
+  margin: 52px 0;
+  padding: 40px 160px;
+
+  .subHeadings {
+    margin: 24px 0 40px 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .downloads {
+    display: flex;
+
+    .downloadsCard {
+      border: 1px solid #F1F2F4;
+      width: 300px;
+      padding: 20px;
+      display: flex;
+      margin: 0 10px;
+      height: 100px;
+
+      .text {
+        margin-right: 10px;
+      }
+    
+      .format {
+        font-size: 12px;
+        color: #bbbbbb;
+      }
+    
+      .icon {
+        margin-left: auto;
+      }
+    }
+  }
+}

@@ -1,13 +1,29 @@
 'use client';
 import { useEffect, useState, useCallback, useRef } from 'react';
 import { useParams } from 'next/navigation';
-import { ModuleData, SectionTitle } from '@/types';
 import { Skeleton } from '@heroui/react';
 import { AnimatePresence, motion } from 'framer-motion';
 import SvgIcon from '@@/SvgIcon';
 import styles from './ProductList.module.scss';
+import { IconList } from '@/types/icons';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
+import {
+  ModuleData,
+  SectionTitle,
+  ButtonLinkElement,
+  ButtonVariation,
+  ButtonColor,
+  ButtonAction,
+  ButtonIconPosition,
+  ButtonShape,
+  ButtonElement,
+} from '@/types';
 
 import productData from '../../../../../public/api/en/product-data.json';
+import ProductEntryCard from '../RelatedProduct';
+
+const Button = dynamic(() => import('@@/Button'), { ssr: false });
 
 interface ProductItem {
   id: string;
@@ -17,6 +33,7 @@ interface ProductItem {
   title: string;
   description: string;
   thumb: string;
+  link: ButtonLinkElement;
 }
 
 interface CategoryBase {
@@ -497,6 +514,39 @@ const categoryList: CategoryItem[] = [
   },
 ];
 
+const ProductCard = ({ data }: { data: ProductItem }) => {
+  const { id, title, thumb, link } = data;
+
+  const learnMoreCta: ButtonElement<IconList> = {
+    label: 'Learn More',
+    variant: ButtonVariation.contain,
+    color: ButtonColor.primary,
+    shape: ButtonShape.square,
+    icon: {
+      name: 'learnMore',
+      position: ButtonIconPosition.left,
+    },
+    link,
+  };
+
+  return (
+    <div className={`${styles.productCard}`}>
+      <div className={`${styles.cardInner}`}>
+        <div className={`${styles.thumb}`}>
+          <Image src={thumb} width={100} height={100} alt={`${id}`} draggable={false} />
+        </div>
+        <div className={`${styles.content}`}>
+          <h4 className={`${styles.productTitle}`}>{id}</h4>
+          <div className={`${styles.description}`}>{title}</div>
+        </div>
+        <div className={`${styles.action}`}>
+          <Button content={learnMoreCta} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   const { id } = data;
 
@@ -798,23 +848,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
                     <>
                       {displayItems?.map((item, index) => {
                         return (
-                          <AnimatePresence key={index} mode='wait'>
-                            <motion.div
-                              className={`${styles.productCard}`}
-                              exit={{ opacity: 0 }}
-                              initial={{ opacity: 0 }}
-                              animate={{ opacity: 1 }}
-                              transition={{ duration: 1.5, delay: 0.1 * index, ease: 'linear' }}
-                            >
-                              {item.title}
-                              <br />
-                              {JSON.stringify(item.category)}
-                              <br />
-                              {JSON.stringify(item.subCategory)}
-                              <br />
-                              <br />
-                            </motion.div>
-                          </AnimatePresence>
+                          <ProductCard key={index} data={item} />
                         );
                       })}
                     </>
