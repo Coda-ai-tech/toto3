@@ -287,7 +287,7 @@
               "type": "image",
               "src": {
                 "desktop": "/assets/img/content/product-banner/01.webp",
-                "mobile": null
+                "mobile": "/assets/img/content/product-banner/neorest1.jpg"
               },
               "alt": "",
               "poster": null,
@@ -337,8 +337,8 @@
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/product-banner/03.webp",
-                "mobile": null
+                "desktop": "/assets/img/content/product-banner/toilet1.jpg",
+                "mobile": "/assets/img/content/product-banner/Toilet2.jpg"
               },
               "alt": "",
               "poster": null,
@@ -388,8 +388,8 @@
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/product-banner/faucets1.jpg",
-                "mobile": "/assets/img/content/product-banner/faucets2.jpg"
+                "desktop": "/assets/img/content/product-banner/faucet1.jpg",
+                "mobile": "/assets/img/content/product-banner/faucet2.jpg"
               },
               "alt": "",
               "poster": null,
@@ -423,7 +423,7 @@
               "type": "image",
               "src": {
                 "desktop": "/assets/img/content/product-banner/Accessories1.jpg",
-                "mobile": "/assets/img/content/product-banner/Accessories2.jpg"
+                "mobile": "/assets/img/content/product-banner/Accessories1.jpg"
               },
               "alt": "",
               "poster": null,
