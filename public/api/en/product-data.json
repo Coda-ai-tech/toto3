@@ -12,6 +12,19 @@
               "type":"routeLink",
               "href":"/en/product/CW927PZT"
             }
+    },
+    {
+      "id":"CW920HK2",
+      "category":[
+        "neorest"
+      ],
+      "subCategory":null,
+      "description":"NEOREST WX Wall Hung Multi-Function Toilet",
+      "thumb":"/assets/img/content/products/Neorest/CW920HK2/content-image.png",
+      "link":{
+        "type":"routeLink",
+        "href":"/en/product/CW920HK2"
+      }
     }
   ]
 }
