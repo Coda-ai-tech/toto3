@@ -1,0 +1,69 @@
+{
+    "meta": {
+      "title": "CW823NJ",
+      "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+      "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+      "ogImage": "/assets/img/og.jpg"
+    },
+    "breadcrumb":[
+      {
+        "label": "HOME",
+        "link": {
+          "type": "routeLink",
+          "href": "/en"
+        }
+      },
+      {
+        "label": "PRODUCT",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product"
+        }
+      },
+      {
+        "label": "CW823NJ",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product/CW823NJ"
+        }
+      }
+    ],
+    "content": [
+      {
+        "id": null,
+        "module": "ProductDetails",
+        "moduleOption":null,
+        "content": {
+          "id":"CW823NJ",
+          "category":[
+            "toilets"
+          ],
+          "subCategory":null,
+          "description":"Elongated Wash Down Toilet",
+          "images":["/assets/img/content/products/toilets/CW823NJ/content-image.png"],
+          "specs": {
+            "Size": [
+                "Toilet - 760 x 510 x 605mm"
+            ],
+            "Flushing System": "Wash Down",
+            "Water Consumption": "3L/4.5L",
+            "Trap Type(Rough-In)": "S-trap (Rough in: 305mm)",
+            "Materials": [
+              "Toilet - Vitreous China"
+            ],
+            "Colour": "White"
+          },
+          "awardImages": [
+            "/assets/img/content/products/awards/good_design.png"
+          ],
+          "technologies": [
+            
+          ],
+          "downloads": [
+            "/assets/img/content/products/toilets/CW823NJ/drawing.png"
+          ]
+        }
+      }
+    ]
+  }
+  
