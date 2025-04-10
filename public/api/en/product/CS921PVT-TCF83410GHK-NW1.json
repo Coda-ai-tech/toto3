@@ -24,7 +24,7 @@
       "label": "CS921PVT / TCF83410GHK#NW1",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CS921PVT-TCF83410GHK#NW1"
+        "href": "/en/product/CS921PVT-TCF83410GHK-NW1"
       }
     }
   ],
@@ -67,23 +67,15 @@
           "Power Rating": "AC220 ~ 240V : 50/60 Hz",
           "Material": [
             "Seat & Cover - Plastic",
-            "Remote Controller - Plastic"
+            "Remote Controller - Aluminium"
           ],
           "Colour": [
-            {
-              "For Fittings": ["Chrome"]
-            }
           ]
         },
         "awardImages": [
           {
-            "name": "IF Design",
-            "year": "2022",
-            "src": "/assets/img/content/products/awards/if_design.png"
-          },
-          {
             "name": "Reddot",
-            "year": "2023",
+            "year": "2022",
             "src": "/assets/img/content/products/awards/reddot_winner.png"
           },
           {

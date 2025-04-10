@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CS921PVT / TCF83410GHK#NW1",
+    "title": "CS911PVT / TCF87320GHK#NW1",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,57 +21,57 @@
       }
     },
     {
-      "label": "CS921PVT / TCF83410GHK#NW1",
+      "label": "CS911PVT / TCF87320GHK#NW1",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CS921PVT-TCF83410GHK#NW1"
+        "href": "/en/product/CS911PVT-TCF87320GHK-NW1"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "CS921PVT / TCF83410GHK#NW1",
-      "slug": "CS921PVT-TCF83410GHK#NW1",
-      "productName": "Neorest RS Multi-Function Toilet (P-Trap)",
+      "modelNumber": "CS911PVT / TCF87320GHK#NW1",
+      "slug": "CS911PVT-TCF87320GHK#NW1",
+      "productName": "Neorest LS Multi-Function Toilet (P-Trap) (Brushed Nickel)",
       "isNew": "true",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "CS921PVT-TCF83410GHK#NW1",
+        "id": "CS911PVT-TCF87320GHK#NW1",
         "category": [
           "neorest"
         ],
         "subCategory": [],
-        "description": "Neorest RS Multi-Function Toilet (P-Trap)",
+        "description": "Neorest LS Multi-Function Toilet (P-Trap) (Brushed Nickel)",
         "images": [
-          "/assets/img/content/products/Neorest/CS921PVT-TCF83410GHK-NW1/content-image.png"
+          "/assets/img/content/products/Neorest/CS911PVT-TCF87320GHK-NW1/content-image.png"
         ],
         "features": [
           "Exquisite streamlined design",
-          "Dainty design in the nickel matching remote controller",
-          "AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
-          "PREMIST prevents waste from clinging",
-          "EWATER+ suppresses the accumulation of waste",
-          "TORNADO FLUSH swirls and ejects waste entirely",
-          "RIMLESS leaves no place for waste to hide",
-          "CEFIONTECT forces waste to slide down",
-          "Equipped with many more features which provide a comfortable experience for all users"
+					"Dainty design detail in nickel with matching remote controller",
+					"AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
+					"PREMIST prevents waste from clinging",
+					"EWATER+ suppresses the accumulation of waste",
+					"TORNADO FLUSH swirls and ejects waste entirely",
+					"RIMLESS leaves no place for waste to hide",
+					"CEFIONTECT forces waste to slide down",
+					"Equipped with many more features which provide a comfortable experience for all users"
         ],
         "specs": {
-          "Size": "690 x 386 x 515mm",
+          "Size": "725 x 411 x 497mm",
           "Flushing System": "Tornado Flush",
           "Water Consumption": "3/4.5L",
-          "Trap Type (Rough-In)": "P-Trap (Rough-in: 120-155mm)",
+          "Trap Type (Rough-In)": "P-Trap (Rough-in:120-130mm)",
           "Water Pressure": "0.05Mpa ~ 0.75Mpa",
           "Power Rating": "AC220 ~ 240V : 50/60 Hz",
           "Material": [
             "Seat & Cover - Plastic",
-            "Remote Controller - Plastic"
+            "Remote Controller - Aluminium"
           ],
           "Colour": [
             {
-              "For Fittings": ["#BBL Brushed Black Chrome"]
+              "For Fittings": ["#BN Brushed Nickel"]
             }
           ]
         },
@@ -79,14 +79,12 @@
           {
             "name": "IF Design",
             "year": "2022",
-            "src": "/assets/img/content/products/awards/if_design.png"
-          },
-          {
+            "src": "/assets/img/content/products/awards/good_design.png"
+          }, {
             "name": "Reddot",
-            "year": "2023",
-            "src": "/assets/img/content/products/awards/reddot_winner.png"
-          }, 
-					{
+            "year": "2022",
+            "src": "/assets/img/content/products/awards/redot_winner.png"
+          }, {
             "name": "Green Good",
             "year": "2023",
             "src": "/assets/img/content/products/awards/design_award.png"
@@ -205,18 +203,18 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Neorest/CS921PVT-TCF83410GHK-NW1/drawing.png"
+          "/assets/img/content/products/Neorest/CS911PVT-TCF87320GHK-NW1/drawing.png"
         ],
         "videos": [
           "https://www.youtube.com/watch?v=I1pFMbM8quc",
 					"https://www.youtube.com/watch?v=Ex4zC6iKmto"
         ],
-        "relatedProduct": [
-          "CS911PVT- TCF87320GHK#NW1",
-					"CS911VT-TCF87320GHK#NW1",
-					"CS911VT- TCF87220GHK#NW1",
-					"CS911PVT- TCF87120GHK#NW1",
-					"CS911VT- TCF87120GHK#NW1"
+        "relatedProduct" : [
+          "CS911VT-TCF87320GHK#NW1",
+          "CS911PVT-TCF87220GHK#NW1",
+          "CS911VT- TCF87220GHK#NW1",
+          "CS911PVT- TCF87120GHK#NW1",
+          "CS911VT- TCF87120GHK#NW1"
         ],
         "compatitibleProduct": [],
         "remarks": []
