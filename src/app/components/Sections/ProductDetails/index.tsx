@@ -29,10 +29,16 @@ interface Product extends SectionTitle {
   images: string[];
   features: string[];
   specs: Specs;
-  awardImages: string[];
+  awardImages: Awards[];
   technologies: TechnologyItemData[];
   downloads: string[];
   productName: string;
+}
+
+interface Awards {
+  name: string;
+  year: string;
+  src: string;
 }
 
 interface Specs {
@@ -57,8 +63,8 @@ const button = {
   }
 }
 
-const DownloadsCard = (data: {src: string}) => {
-  const {src} = data;
+const DownloadsCard = (data: { src: string }) => {
+  const { src } = data;
   const learnMoreCta: ButtonElement<IconList> = {
     label: 'Download',
     variant: ButtonVariation.contain,
@@ -74,7 +80,7 @@ const DownloadsCard = (data: {src: string}) => {
     },
   };
 
-  const {formattedName, formattedExt} = formatFileInfo(src);
+  const { formattedName, formattedExt } = formatFileInfo(src);
 
   return (
     <div className={styles.downloadsCard}>
@@ -116,8 +122,8 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
     return () => window.removeEventListener('hashchange', updateHash);
   })
 
-  const { 
-    content: {id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName}
+  const {
+    content: { id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName }
   } = data;
   return (
     <section className={`${styles.productDetails}`}>
@@ -130,20 +136,20 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             SPECIFICATION
           </a>
           {
-            (awardImages.length > 0) && 
+            (awardImages.length > 0) &&
             <a href="#awards" className={hash === '#awards' ? styles.activeTab : ''}>
               AWARDS
             </a>
           }
           {
-            (technologies.length > 0) && 
+            (technologies.length > 0) &&
             <a href="#technologies" className={hash === '#technologies' ? styles.activeTab : ''}>
               TECHNOLOGIES
             </a>
           }
           <a href="#downloads" className={hash === '#downloads' ? styles.activeTab : ''}>
             DOWNLOADS
-          </a>   
+          </a>
         </div>
         <div className={`${styles.share}`}>
           <div className={`${styles.shareLabel}`}>Share</div>
@@ -169,55 +175,83 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
           <div id="specification">
             <div className={styles.subHeadings}>
               SPECIFICATION
-              <hr className={styles.lineBreak}/>
+              <hr className={styles.lineBreak} />
             </div>
             <div className={styles.specsTitle}>
               {id}
             </div>
             <table className={styles.specTable}>
               <tbody>
-              {Object.entries(specs).map(([key, value]) => {
-                if (value !== null) {
+                {Object.entries(specs).map(([key, value]) => {
+                  if (value !== null) {
                     if (Array.isArray(value)) {
-                        const filteredValues = value.filter(item => item !== null);
-                        if (filteredValues.length === 0) {
-                            return null;
-                        }
+                      const filteredValues = value.filter(item => item !== null);
+                      if (filteredValues.length === 0) {
+                        return null;
+                      }
+                      if (key === 'Colour') {
                         return (
-                            <tr key={key}>
-                                <td className={styles.specName}><b>{key}</b></td>
-                                <td>
-                                    {filteredValues.map((data, index) => (
-                                        <div key={index} className={styles.material}>{data}</div>
-                                    ))}
-                                </td>
-                            </tr>
+                          <tr key={key}>
+                            <td className={styles.specName}><b>{key}</b></td>
+                            <td>
+                              {filteredValues.map((item, index) => (
+                                <div key={index}>
+                                  <table key={key} className={styles.material}>
+                                    <tbody>
+                                      {Object.entries(item).map(([key, values], index) => {
+                                        if (Array.isArray(values) && values.length > 0) {
+                                          return (
+                                            <tr key={'row-' + index}>
+                                              <td>{key}:</td>
+                                              <td>{values.join(', ')}</td>
+                                            </tr>
+                                          );
+                                        }
+                                        return null; // Skip empty arrays
+                                      })}
+                                    </tbody>
+                                  </table>
+                                </div>
+                              ))}
+                            </td>
+                          </tr>
                         );
+                      }
+                      return (
+                        <tr key={key}>
+                          <td className={styles.specName}><b>{key}</b></td>
+                          <td>
+                            {filteredValues.map((data, index) => (
+                              <div key={index} className={styles.material}>{data}</div>
+                            ))}
+                          </td>
+                        </tr>
+                      );
                     }
                     return (
-                        <tr key={key}>
-                            <td className={styles.specName}><b>{key}</b></td>
-                            <td>{value}</td>
-                        </tr>
+                      <tr key={key}>
+                        <td className={styles.specName}><b>{key}</b></td>
+                        <td>{value}</td>
+                      </tr>
                     );
-                }
-                return null;
-            })}
+                  }
+                  return null;
+                })}
               </tbody>
             </table>
           </div>
           {
-            (awardImages.length > 0) && 
+            (awardImages.length > 0) &&
             <div id="awards">
               <div className={styles.subHeadings}>
                 AWARDS
-                <hr className={styles.lineBreak}/>
+                <hr className={styles.lineBreak} />
               </div>
               <div className={styles.awardImages}>
-                {awardImages.map((imageLink) => (
-                  <div key={imageLink} className={styles.imageWrapper}>
+                {awardImages.map((imageLink, index) => (
+                  <div key={'image-' + index} className={styles.imageWrapper}>
                     <Image
-                      src={imageLink}
+                      src={imageLink.src}
                       alt="Award Image"
                       draggable={false}
                       fill

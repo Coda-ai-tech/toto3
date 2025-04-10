@@ -2,10 +2,10 @@
   "meta": {
     "title": "PJYD2200PWEH#GW",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
-    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
   },
-  "breadcrumb":[
+  "breadcrumb": [
     {
       "label": "HOME",
       "link": {
@@ -31,20 +31,19 @@
   "content": [
     {
       "id": null,
+      "modelNumber": "PJYD2200PWEH#GW",
+      "slug": "PJYD2200PWEH#GW",
+      "productName": "Galaline Free-standing Air Bubble & Whirlpool Bathtub with Pillow (with chrome plated handgrips)",
+      "isNew": "false",
       "module": "ProductDetails",
-      "productName":"Galaline Free-standing Air Bubble & Whirlpool Bathtub with Pillow(with chrome plated handgrips)",
-      "moduleOption":null,
+      "moduleOption": null,
       "content": {
-        "id":"PJYD2200PWEH#GW",
-        "category":[
-          "bathtub"
-        ],
-        "subCategory":[
-          "free-standing-bathtub"
-        ],
-        "description":"Galaline Free-standing Air Bubble & Whirlpool Bathtub",
-        "images":["/assets/img/content/products/Bathtub/PJYD2200PWEH-GW/content-image.webp"],
-        "features":[
+        "id": "Bathtubs",
+        "category": ["Bathtubs"],
+        "subCategory": ["Free-standing Bathtub"],
+        "description": "Galaline Free-standing Air Bubble & Whirlpool Bathtub with Pillow (with chrome plated handgrips)",
+        "images": ["/assets/img/content/products/Neorest/PJYD2200PWEH-GW/content-image.png"],
+        "features": [
           "Constructed with solid surface Galalato engineered to resist stains, retain heat, and minimize maintenance",
           "Shaped to simulate a \"gravity-less\" floating position for ultimate relaxation",
           "Hydrohands massaging water jets",
@@ -54,16 +53,19 @@
           "Mood creating LED Lighting",
           "Capacitive keypad",
           "Toe touch drain and push-button design for a smooth, one-piece tub appearance"
-      ],
-        "specs": {
-          "size": "2200 x 1050 x 780mm",
-          "colour": "White",
-          "popUpWaste": "Included",
-          "material": "Galaline"
-        },
-        "awardImages": [
-          "/assets/img/content/products/awards/redot_winner.png"
         ],
+        "specs": {
+          "Size": "2200 x 1050 x 780mm",
+          "Pop-up Waste": "Included",
+          "Material": ["Galaline (Gloss)"],
+          "Colour": [
+            {
+              "For Lavatory": ["White"],
+              "For Bathtub": ["#NW1 Pale White", "#SC1 Pastel Ivory"]
+            }
+          ]
+        },
+        "awardImages": [],
         "technologies": [
           {
             "title": "ZERO DIMENSION",
@@ -74,7 +76,8 @@
             },
             "icon": "/assets/img/content/technology/zero-dimension/ico-zero-dimension.png",
             "thumb": "/assets/img/content/technology/zero-dimension/thumb-zero-dimension.png"
-          },{
+          },
+          {
             "title": "HYDROHANDS",
             "description": "Quiet warm water massage function for bathtubs",
             "link": {
@@ -85,9 +88,11 @@
             "thumb": "/assets/img/content/technology/hydrohands/thumb-hydrohands.png"
           }
         ],
-        "downloads": [
-          "/assets/img/content/products/Bathtub/PJYD2200PWEH-GW/drawing.png"
-        ]
+        "downloads": ["/assets/img/content/products/Neorest/PJYD2200PWEH-GW/drawing.png"],
+        "videos": [],
+        "relatedProduct": ["2020.0"],
+        "compatitibleProduct": [],
+        "remarks": [""]
       }
     }
   ]
