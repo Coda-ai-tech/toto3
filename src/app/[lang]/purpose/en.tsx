@@ -207,18 +207,18 @@ const En = () => {
         <div id='strategy'>
           <div className='inner'>
             <h2 className='borderAccent'>STRATEGY</h2>
-            <h3 className=''>New Shared Value Creation Strategy TOTO WILL2030</h3>
+            <h3 className=''>Shared Value Creation Strategy TOTO WILL2030</h3>
             <p className=''>
-              The TOTO Group formulated the New Shared Value Creation Strategy TOTO WILL2030 with a focus on achieving a
-              carbon-neutral and sustainable society by 2050, and aims to realize a sustainable society and achieve
-              clean, comfortable, and healthy lifestyles by 2030.
+              The TOTO Group formulated the Shared Value Creation Strategy TOTO WILL2030 with a focus on achieving 
+              a carbon-neutral and sustainable society by 2050, and aims to realize a sustainable society and achieve clean, 
+              comfortable, and healthy lifestyles by 2030.
               <br />
-              With the important material issues of Cleanliness and Comfort, Environment, and Relationships, we are
-              making efforts to integrate TOTO Global Environmental Vision into management, aiming to create an enriched
-              and comfortable future society that has no impact on the global environment and to achieve economic
-              growth. As a result of these efforts, we will contribute to the SDGs through WILL2030.
+              With the important material issues of Cleanliness and Comfort; Wellness, Environment, 
+              and Relationships, we are promoting sustainability management, aiming to create an enriched and comfortable 
+              future society that has no impact on the global environment and to achieve economic growth. 
+              As a result of these efforts, we will contribute to the SDGs through WILL2030.
             </p>
-            <div className='water'>
+            {/* <div className='water'>
               <picture>
                 <source srcSet='/assets/global/purpose/images/top/strategy_water_sp.png' media='(max-width:768px)' />
                 <img
@@ -237,7 +237,7 @@ const En = () => {
                   </svg>
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className='sdgs'>
               <img src='/assets/global/purpose/images/top/sdgs_logo.png' alt='SUSTAINABLE DEVELOPMENT GOALS' />
               <img
