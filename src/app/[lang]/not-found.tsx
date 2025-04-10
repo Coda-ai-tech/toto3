@@ -9,10 +9,16 @@ import Button from '@@/Button';
 import { ButtonElement, ButtonVariation, ButtonAction, ButtonColor, ButtonIconPosition } from '@/types';
 import { IconList } from '@/types/icons';
 
+const getImageNumber = () => {
+  const date = new Date();
+  return (date.getDate() % 9) + 1;
+};
+
 const NotFound = async ({ params }: { params: Promise<{ lang: string }> }) => {
   const lang = ((await params)?.lang as Locale) || 'en';
   const globalData = await GetPageData(DataTypeProps.local, [lang, 'global']);
   const { dictionary } = globalData;
+  const imageNumber = getImageNumber();
 
   const backHomeCta: ButtonElement<IconList> = {
     label: 'Back Home',
@@ -45,7 +51,7 @@ const NotFound = async ({ params }: { params: Promise<{ lang: string }> }) => {
 
           <div className={`notfoundImg`}>
             <Image
-              src={`/assets/img/content/404/0${Math.floor(Math.random() * 9) + 1}.jpg`}
+              src={`/assets/img/content/404/0${imageNumber}.jpg`}
               width={1024}
               height={768}
               alt='Not Found'
