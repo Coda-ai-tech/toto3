@@ -1,6 +1,7 @@
 import SandBox from '~/Sandbox';
 import HeroBanner from '~/HeroBanner';
 import HighlightBanner from '~/HighlightBanner';
+import MiniBanner from '~/MiniBanner';
 import LatestOffer from '~/LatestOffer';
 import ProductBanner from '~/ProductBanner';
 import OtherLink from '~/OtherLink';
@@ -22,6 +23,7 @@ export const ModuleList: Record<string, any> = {
   SandBox,
   HeroBanner,
   HighlightBanner,
+  MiniBanner,
   LatestOffer,
   ProductBanner,
   OtherLink,

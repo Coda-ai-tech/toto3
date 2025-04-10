@@ -170,7 +170,7 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
                                     <div className={`${styles.navColumTitle}`}>{item.title}</div>
                                     <div className={`${styles.navColumList}`}>
                                       <ul
-                                        className={`${item?.items.length > 5 ? styles.multiColum : styles.singleColum}`}
+                                        className={`${item?.items.length > 7 ? styles.multiColum : styles.singleColum}`}
                                       >
                                         {item?.items.map((subItem: ButtonElementDefault, snIndex: number) => {
                                           return (

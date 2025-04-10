@@ -45,10 +45,38 @@
                 }
               },
               {
+                "label": "OUR JOURNEY",
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://jp.toto.com/pages/en/history/"
+                }
+              },
+              {
                 "label": "BRAND PURPOSE",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/purpose"
+                }
+              },
+              {
+                "label": "TOTO MUSEUM",
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://jp.toto.com/pages/knowledge/visit/museum/en/vr/"
+                }
+              },
+              {
+                "label": "INSPIRATION",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/inspiration"
+                }
+              },
+              {
+                "label": "TOTO GLOBAL",
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://www.toto.com/en/index.htm"
                 }
               },
               {
@@ -59,44 +87,9 @@
                 }
               },
               {
-                "label": "TOTO HISTORY",
-                "link": {
-                  "type": "external",
-                  "href": "https://jp.toto.com/en/history/"
-                }
-              },
-              {
-                "label": "TOTO GLOBAL",
-                "link": {
-                  "type": "external",
-                  "href": "https://www.toto.com/en/index.htm"
-                }
-              },
-              {
-                "label": "TOTO MUSEUM",
-                "link": {
-                  "type": "external",
-                  "href": "https://jp.toto.com/pages/knowledge/visit/museum/en/vr/"
-                }
-              },
-              {
-                "label": "TOTO INSPIRATION",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/inspiration"
-                }
-              },
-              {
-                "label": "",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en"
-                }
-              },
-              {
                 "label": "GLOBAL REFERENCE",
                 "link": {
-                  "type": "external",
+                  "type": "routeLink",
                   "href": "https://www.toto.com/project/"
                 }
               }
@@ -113,45 +106,29 @@
             "title": "PRODUCT",
             "items": [
               {
-                "label": "NEOREST",
+                "label": "AWARDS",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/awards"
+                }
+              },
+              {
+                "label": "ALL PRODUCT",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/product"
                 }
-              },
+              }
+            ]
+          },
+          {
+            "title": "",
+            "items": [
               {
-                "label": "WASHLET+",
+                "label": "NEOREST",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
-                }
-              },
-              {
-                "label": "WASHLET",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en"
-                }
-              },
-              {
-                "label": "TOILETS",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en"
-                }
-              },
-              {
-                "label": "LAVATORIES",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en"
-                }
-              },
-              {
-                "label": "BATHTUBS",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en"
+                  "href": "/en/neo-rest"
                 }
               },
               {
@@ -162,10 +139,24 @@
                 }
               },
               {
+                "label": "WASHLET+",
+                "link": {
+                "type": "routeLink",
+                "href": "/en"
+                }
+              },
+              {
                 "label": "SHOWERS",
                 "link": {
                   "type": "routeLink",
                   "href": "/en"
+                }
+              },
+              {
+                "label": "WASHLET",
+                "link": {
+                "type": "routeLink",
+                "href": "/en"
                 }
               },
               {
@@ -176,7 +167,28 @@
                 }
               },
               {
+                "label": "TOILETS",
+                "link": {
+                "type": "routeLink",
+                "href": "/en"
+                }
+              },
+              {
                 "label": "COMMERCIAL",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              },
+              {
+                "label": "LAVATORIES",
+                "link": {
+                "type": "routeLink",
+                "href": "/en"
+                }
+              },
+              {
+                "label": "BATHTUBS",
                 "link": {
                   "type": "routeLink",
                   "href": "/en"
@@ -186,6 +198,7 @@
           }
         ]
       },
+
       {
         "title": "TECHNOLOGIES",
         "link": {
@@ -848,3 +861,4 @@
     }
   }
 }
+
