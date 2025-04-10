@@ -32,6 +32,7 @@ interface ProductItem {
   description: string;
   thumb: string;
   link: ButtonLinkElement;
+  name: string | null;
 }
 
 interface CategoryBase {
@@ -513,7 +514,7 @@ const categoryList: CategoryItem[] = [
 ];
 
 const ProductCard = ({ data }: { data: ProductItem }) => {
-  const { id, thumb, link, category, subCategory, description } = data;
+  const { id, thumb, link, category, subCategory, description, name } = data;
 
   const learnMoreCta: ButtonElement<IconList> = {
     label: 'Learn More',
@@ -536,7 +537,7 @@ const ProductCard = ({ data }: { data: ProductItem }) => {
         <div className={`${styles.content}`}>
           <h4 className={`${styles.productTitle}`}>{id}</h4>
           <div className={`${styles.category}`}><b>{subCategory ? subCategory[0].toUpperCase() : category[0].toUpperCase() }</b></div>
-          <div className={`${styles.description}`}>{description}</div>
+          <div className={`${styles.description}`}>{name}</div>
         </div>
         <div className={`${styles.action}`}>
           <Button content={learnMoreCta} />

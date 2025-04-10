@@ -32,6 +32,7 @@ interface Product extends SectionTitle {
   awardImages: string[];
   technologies: TechnologyItemData[];
   downloads: string[];
+  productName: string;
 }
 
 interface Specs {
@@ -116,7 +117,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
   })
 
   const { 
-    content: {id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads}
+    content: {id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName}
   } = data;
   return (
     <section className={`${styles.productDetails}`}>
@@ -158,7 +159,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             {id}
           </div>
           <div className={styles.shortdescription}>
-            {description}
+            {productName}
           </div>
           <ul className={styles.features}>
             {features.map((feature) => (
