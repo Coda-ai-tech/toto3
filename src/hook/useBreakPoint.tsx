@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useContext } from 'react';
+import { useEffect, useContext, useState } from 'react';
 import { ConfigContext } from '@/context/config.context';
 import resolveConfig from 'tailwindcss/resolveConfig';
 import tailwindConfig from '../../tailwind.config';
@@ -69,17 +69,22 @@ const getDeviceConfig = (width: number) => {
 
 export const SetBreakPoint = () => {
   const { setScreen } = useContext(ConfigContext);
+  const [width, setWidth] = useState(0);
 
   useEffect(() => {
     const calcInnerWidth = () => {
-      const width = typeof window !== 'undefined' ? window.innerWidth : 0;
-      const newScreen = getDeviceConfig(width);
+      setWidth(window.innerWidth);
+      const newScreen = getDeviceConfig(window.innerWidth);
       setScreen(newScreen);
     };
 
     calcInnerWidth();
     window.addEventListener('resize', calcInnerWidth);
-  });
+    
+    return () => {
+      window.removeEventListener('resize', calcInnerWidth);
+    };
+  }, [setScreen]);
 };
 
 export const MatchMedia = (bp: BreakPoint, minMax = MatchMediaType.maxWidth as string) => {
