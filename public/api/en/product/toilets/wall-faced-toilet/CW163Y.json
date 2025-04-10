@@ -1,6 +1,6 @@
 {
     "meta": {
-      "title": "CW275PJ",
+      "title": "CW163Y",
       "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
       "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
       "ogImage": "/assets/img/og.jpg"
@@ -28,10 +28,10 @@
         }
       },
       {
-        "label": "CW275PJ",
+        "label": "CW163Y",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/wall-faced-toilet/CW275PJ"
+          "href": "/en/product/wall-faced-toilet/CW163Y"
         }
       }
     ],
@@ -41,16 +41,16 @@
         "module": "ProductDetails",
         "moduleOption":null,
         "content": {
-          "id":"CW275PJ",
+          "id":"CW163Y",
           "category":[
             "toilets"
           ],
           "subCategory":null,
-          "description":"Elongated Tornado Flush Wall Faced Toilet",
-          "images":["/assets/img/content/products/toilets/wall-faced-toilet/CW275PJ/content-image.png"],
+          "description":"D-shape Tornado Flush Wall Faced Toilet",
+          "images":["/assets/img/content/products/toilets/wall-faced-toilet/CW163Y/content-image.png"],
           "specs": {
             "Size": [
-                "Toilet - 590 x 404 x 400mm"
+                "Toilet - 390 x 624 x 410mm"
             ],
             "Flushing System": "Tornado Flush",
             "Water Consumption": "3L/4.5L",
@@ -105,7 +105,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/wall-faced-toilet/CW275PJ/drawing.png"
+            "/assets/img/content/products/toilets/wall-faced-toilet/CW163Y/drawing.png"
           ]
         }
       }

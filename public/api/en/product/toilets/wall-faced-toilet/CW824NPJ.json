@@ -1,6 +1,6 @@
 {
     "meta": {
-      "title": "CW275PJ",
+    "title": "CW824NPJ",
       "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
       "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
       "ogImage": "/assets/img/og.jpg"
@@ -28,10 +28,10 @@
         }
       },
       {
-        "label": "CW275PJ",
+        "label": "CW824NPJ",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/wall-faced-toilet/CW275PJ"
+          "href": "/en/product/wall-faced-toilet/CW824NPJ"
         }
       }
     ],
@@ -41,18 +41,18 @@
         "module": "ProductDetails",
         "moduleOption":null,
         "content": {
-          "id":"CW275PJ",
+          "id":"CW824NPJ",
           "category":[
             "toilets"
           ],
           "subCategory":null,
-          "description":"Elongated Tornado Flush Wall Faced Toilet",
-          "images":["/assets/img/content/products/toilets/wall-faced-toilet/CW275PJ/content-image.png"],
+          "description":"Regular Wash Down Wall Faced Toilet",
+          "images":["/assets/img/content/products/toilets/wall-faced-toilet/CW824NPJ/content-image.png"],
           "specs": {
             "Size": [
-                "Toilet - 590 x 404 x 400mm"
+                "Toilet - 525 x 360 x 390mm"
             ],
-            "Flushing System": "Tornado Flush",
+            "Flushing System": "Wash Down",
             "Water Consumption": "3L/4.5L",
             "Trap Type(Rough-In)": "P-trap (Rough in: 180mm)",
             "Materials": [
@@ -65,35 +65,6 @@
           ],
           "technologies": [
             {
-              "title": "TORNADO FLUSH",
-              "description": "Revolutionary powerful jets rimless flushing system",
-              "link": {
-                "type": "routeLink",
-                "href": "/en/technology/tornado-flush"
-              },
-              "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
-              "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
-            },{
-              "title": "RIMLESS",
-              "description": "Leaves no place for waste and germs to hide",
-              "link": {
-                "type": "routeLink",
-                "href": "/en/technology/rimless"
-              },
-              "icon": "/assets/img/content/technology/rimless/ico-rimless.png",
-              "thumb": "/assets/img/content/technology/rimless/01.jpg"
-            },
-            {
-              "title": "CEFIONTECT",
-              "description": "Special hygienic glaze for a smooth ceramic surface",
-              "link": {
-                "type": "routeLink",
-                "href": "/en/technology/cefiontect"
-              },
-              "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-              "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-            },
-            {
               "title": "WATER-SAVING",
               "description": "Leading environment-friendly and water-saving technologies",
               "link": {
@@ -105,7 +76,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/wall-faced-toilet/CW275PJ/drawing.png"
+            "/assets/img/content/products/toilets/wall-faced-toilet/CW824NPJ/drawing.png"
           ]
         }
       }
