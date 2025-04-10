@@ -21,10 +21,17 @@
         }
       },
       {
+        "label": "One Piece Toilet",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product/one-piece-toilet"
+        }
+      },
+      {
         "label": "CW188BT305",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/CW188BT305"
+          "href": "/en/product/one-piece-toilet/CW188BT305"
         }
       }
     ],
@@ -40,7 +47,7 @@
           ],
           "subCategory":null,
           "description":"Elongated Tornado Flush Toilet",
-          "images":["/assets/img/content/products/toilets/CW188BT305/content-image.png"],
+          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW188BT305/content-image.png"],
           "specs": {
             "Size": [
                 "Toilet - 722 x 420 × 655mm"
@@ -98,7 +105,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/CW188BT305/drawing.png"
+            "/assets/img/content/products/toilets/one-piece-toilet/CW188BT305/drawing.png"
           ]
         }
       }

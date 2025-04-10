@@ -21,10 +21,17 @@
         }
       },
       {
+        "label": "One Piece Toilet",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product/one-piece-toilet"
+        }
+      },
+      {
         "label": "CW870BT305",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/CW870BT305"
+          "href": "/en/product/one-piece-toilet/CW870BT305"
         }
       }
     ],
@@ -40,7 +47,7 @@
           ],
           "subCategory":null,
           "description":"Elongated Tornado Flush Toilet",
-          "images":["/assets/img/content/products/toilets/CW870BT305/content-image.png"],
+          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW870BT305/content-image.png"],
           "specs": {
             "Size": [
                 "Toilet - 709 x 419 × 700mm"
@@ -98,7 +105,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/CW870BT305/drawing.png"
+            "/assets/img/content/products/toilets/one-piece-toilet/CW870BT305/drawing.png"
           ]
         }
       }

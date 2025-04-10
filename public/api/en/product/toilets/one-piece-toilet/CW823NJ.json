@@ -21,10 +21,17 @@
         }
       },
       {
+        "label": "One Piece Toilet",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product/one-piece-toilet"
+        }
+      },
+      {
         "label": "CW823NJ",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/CW823NJ"
+          "href": "/en/product/one-piece-toilet/CW823NJ"
         }
       }
     ],
@@ -40,7 +47,7 @@
           ],
           "subCategory":null,
           "description":"Elongated Wash Down Toilet",
-          "images":["/assets/img/content/products/toilets/CW823NJ/content-image.png"],
+          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW823NJ/content-image.png"],
           "specs": {
             "Size": [
                 "Toilet - 760 x 510 x 605mm"
@@ -60,7 +67,7 @@
             
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/CW823NJ/drawing.png"
+            "/assets/img/content/products/toilets/one-piece-toilet/CW823NJ/drawing.png"
           ]
         }
       }

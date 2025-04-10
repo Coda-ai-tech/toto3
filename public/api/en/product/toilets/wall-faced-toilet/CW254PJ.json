@@ -1,6 +1,6 @@
 {
     "meta": {
-      "title": "CW823RA",
+    "title": "CW254PJ",
       "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
       "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
       "ogImage": "/assets/img/og.jpg"
@@ -21,17 +21,17 @@
         }
       },
       {
-        "label": "One Piece Toilet",
+        "label": "Wall Faced Toilet",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/one-piece-toilet"
+          "href": "/en/product/wall-faced-toilet"
         }
       },
       {
-        "label": "CW823RA",
+        "label": "CW254PJ",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/one-piece-toilet/CW823RA"
+          "href": "/en/product/wall-faced-toilet/CW254PJ"
         }
       }
     ],
@@ -41,20 +41,20 @@
         "module": "ProductDetails",
         "moduleOption":null,
         "content": {
-          "id":"CW823RA",
+          "id":"CW254PJ",
           "category":[
             "toilets"
           ],
           "subCategory":null,
-          "description":"Elongated Tornado Flush Toilet",
-          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW823RA/content-image.png"],
+          "description":"D-shape Tornado Flush Wall Faced Toilet",
+          "images":["/assets/img/content/products/toilets/wall-faced-toilet/CW254PJ/content-image.png"],
           "specs": {
             "Size": [
-                "Toilet - 765 x 510 x 640mm"
+                "Toilet - 380 × 595 × 400mm"
             ],
             "Flushing System": "Tornado Flush",
             "Water Consumption": "3L/4.5L",
-            "Trap Type(Rough-In)": "S-trap (Rough in: 305mm)",
+            "Trap Type(Rough-In)": "P-trap (Rough in: 180mm)",
             "Materials": [
               "Toilet - Vitreous China"
             ],
@@ -64,35 +64,6 @@
             "/assets/img/content/products/awards/good_design.png"
           ],
           "technologies": [
-            {
-              "title": "TORNADO FLUSH",
-              "description": "Revolutionary powerful jets rimless flushing system",
-              "link": {
-                "type": "routeLink",
-                "href": "/en/technology/tornado-flush"
-              },
-              "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
-              "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
-            },{
-              "title": "RIMLESS",
-              "description": "Leaves no place for waste and germs to hide",
-              "link": {
-                "type": "routeLink",
-                "href": "/en/technology/rimless"
-              },
-              "icon": "/assets/img/content/technology/rimless/ico-rimless.png",
-              "thumb": "/assets/img/content/technology/rimless/01.jpg"
-            },
-            {
-              "title": "CEFIONTECT",
-              "description": "Special hygienic glaze for a smooth ceramic surface",
-              "link": {
-                "type": "routeLink",
-                "href": "/en/technology/cefiontect"
-              },
-              "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-              "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-            },
             {
               "title": "WATER-SAVING",
               "description": "Leading environment-friendly and water-saving technologies",
@@ -105,7 +76,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/one-piece-toilet/CW823RA/drawing.png"
+            "/assets/img/content/products/toilets/wall-faced-toilet/CW254PJ/drawing.png"
           ]
         }
       }

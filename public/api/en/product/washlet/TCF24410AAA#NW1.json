@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "TCF24410AAA#NW1",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, Washlet, toilet seat, Japan, bidet, global, culture, hygiene, technology",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TCF24410AAA#NW1",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TCF24410AAA#NW1"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TCF24410AAA#NW1",
+      "slug": "TCF24410AAA#NW1",
+      "productName": "WASHLET (Elongated) with remote controller",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TCF24410AAA#NW1",
+        "category": [
+          "washlet"
+        ],
+        "subCategory": [],
+        "description": "WASHLET (Elongated) with remote controller",
+        "images": [
+          "/assets/img/content/products/Washlet/TCF24410AAA#NW1/content-image.png"
+        ],
+        "features": [
+          "Stylish design with remote controller",
+          "AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
+          "PREMIST prevents waste from clinging",
+          "EWATER+ suppresses the accumulation of waste",
+          "Equipped with many more features which provide a comfortable experience for all users"
+        ],
+        "specs": {
+          "Size": "530 x 383mm",
+          "Flushing System": "Not applicable",
+          "Water Consumption": "Not applicable",
+          "Trap Type (Rough-In)": "Not applicable",
+          "Water Pressure": "Min 0.05MPa ~ Max 0.75MPa",
+          "Power Rating": "AC220 ~ 240V : 50/60 Hz",
+          "Material": [
+            "Plastic"
+          ],
+          "Colour": [
+            {
+              "For Fittings": ["#NW1 White (Resin)"]
+            }
+          ]
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": "2018",
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "PREMIST",
+            "description": "Aiding in the removal of waste and resulting in a better clean",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/premist"
+            },
+            "icon": "/assets/img/content/technology/premist/ico-premist.png",
+            "thumb": "/assets/img/content/technology/premist/thumb-premist.png"
+          },
+          {
+            "title": "EWATER+",
+            "description": "Electrolysed antibacterial water that break down waste",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/ewater-plus"
+            },
+            "icon": "/assets/img/content/technology/ewater/ico-ewater.png",
+            "thumb": "/assets/img/content/technology/ewater/thumb-ewater.png"
+          },
+          {
+            "title": "AIR-IN WONDER WAVE",
+            "description": "The precise, pleasant, air rich stream keeps you clean. And it's always pleasantly warm.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/air-in-wonder-wave"
+            },
+            "icon": "/assets/img/content/technology/air-in-wonder-wave/ico-air-in-wonder-wave.png",
+            "thumb": "/assets/img/content/technology/air-in-wonder-wave/thumb-air-in-wonder-wave.png"
+          },
+          {
+            "title": "HEATED SEAT",
+            "description": "The contoured heated seat is warmed for maximum comfort",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/heated-seat"
+            },
+            "icon": "/assets/img/content/technology/heated-seat/ico-heated-seat.png",
+            "thumb": "/assets/img/content/technology/heated-seat/thumb-heated-seat.png"
+          },
+          {
+            "title": "DEODORIZER",
+            "description": "Highly effective deodorizing automatically takes places inside the toilet bowl both during and immediately after use",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/deodorizer"
+            },
+            "icon": "/assets/img/content/technology/deodorizer/ico-deodorizer.png",
+            "thumb": "/assets/img/content/technology/deodorizer/thumb-deodorizer.png"
+          },
+          {
+            "title": "DRYER",
+            "description": "The individually adjustable dryer follows the warm water spray to ensure a dry, clean overall feeling.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/dryer"
+            },
+            "icon": "/assets/img/content/technology/dryer/ico-dryer.png",
+            "thumb": "/assets/img/content/technology/dryer/thumb-dryer.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Washlet/TCF24410AAA#NW1/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [
+          "CW636DPE",
+          "CW636DE",
+          "CW823PJ",
+          "CW823NJ",
+          "CW823RA",
+          "CW870BT305",
+          "CW668PJ-SW668J",
+          "CW668J-SW668J",
+          "CW811NPJ-SW811NJP",
+          "CW811NJ-SW811NJP",
+          "CW920HK-SW920HK",
+          "CW981PB-SW981B",
+          "CW981RB-SW981B",
+          "C320PE2-S320DPE",
+          "C320E1-S320DPE",
+          "C767E-S767RE",
+          "C767R4E-S767RE",
+          "C769E-S769DRE",
+          "C769R4E-S769DRE",
+          "C769CE-S769DRE",
+          "C940E-S940DPE",
+          "C945RE-S945DE"
+        ],
+        "remarks": []
+      }
+    }
+  ]
+}

@@ -21,10 +21,17 @@
         }
       },
       {
+        "label": "One Piece Toilet",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product/one-piece-toilet"
+        }
+      },
+      {
         "label": "CW166RB",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/CW166RB"
+          "href": "/en/product/one-piece-toilet/CW166RB"
         }
       }
     ],
@@ -40,7 +47,7 @@
           ],
           "subCategory":null,
           "description":"D-shape Tornado Flush Toilet",
-          "images":["/assets/img/content/products/toilets/CW166RB/content-image.png"],
+          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW166RB/content-image.png"],
           "specs": {
             "Size": [
                 "Toilet - 704 × 392 × 697mm"
@@ -98,7 +105,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/CW166RB/drawing.png"
+            "/assets/img/content/products/toilets/one-piece-toilet/CW166RB/drawing.png"
           ]
         }
       }

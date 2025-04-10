@@ -21,10 +21,17 @@
         }
       },
       {
-        "label": "CW923RB",
+        "label": "One Piece Toilet",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/CW923RB"
+          "href": "/en/product/one-piece-toilet"
+        }
+      },
+      {
+          "label": "CW923RB",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product/one-piece-toilet/CW923RB"
         }
       }
     ],
@@ -40,7 +47,7 @@
           ],
           "subCategory":null,
           "description":"Elongated Tornado Flush Toilet",
-          "images":["/assets/img/content/products/toilets/CW923RB/content-image.png"],
+          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW923RB/content-image.png"],
           "specs": {
             "Size": [
                 "Toilet - 720 x 510 x 665mm"
@@ -98,7 +105,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/CW923RB/drawing.png"
+            "/assets/img/content/products/toilets/one-piece-toilet/CW923RB/drawing.png"
           ]
         }
       }
