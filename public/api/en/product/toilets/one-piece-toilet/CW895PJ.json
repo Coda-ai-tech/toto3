@@ -21,10 +21,17 @@
         }
       },
       {
+        "label": "One Piece Toilet",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product/one-piece-toilet"
+        }
+      },
+      {
         "label": "CW895PJ",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/CW895PJ"
+          "href": "/en/product/one-piece-toilet/CW895PJ"
         }
       }
     ],
@@ -40,7 +47,7 @@
           ],
           "subCategory":null,
           "description":"Elongated Wash Down Toilet",
-          "images":["/assets/img/content/products/toilets/CW895PJ/content-image.png"],
+          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW895PJ/content-image.png"],
           "specs": {
             "Size": [
                 "Toilet - 735 x 360 x 660mm"
@@ -69,7 +76,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/CW895PJ/drawing.png"
+            "/assets/img/content/products/toilets/one-piece-toilet/CW895PJ/drawing.png"
           ]
         }
       }

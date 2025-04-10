@@ -21,10 +21,17 @@
         }
       },
       {
+        "label": "One Piece Toilet",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product/one-piece-toilet"
+        }
+      },
+      {
         "label": "CW914J-296WF",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/CW914J-296WF"
+          "href": "/en/product/one-piece-toilet/CW914J-296WF"
         }
       }
     ],
@@ -40,7 +47,7 @@
           ],
           "subCategory":null,
           "description":"Elongated Wash Down Toilet",
-          "images":["/assets/img/content/products/toilets/CW914J-296WF/content-image.png"],
+          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW914J-296WF/content-image.png"],
           "specs": {
             "Size": [
                 "Toilet - 730 x 450 x 633mm"
@@ -60,7 +67,7 @@
             
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/CW914J-296WF/drawing.png"
+            "/assets/img/content/products/toilets/one-piece-toilet/CW914J-296WF/drawing.png"
           ]
         }
       }

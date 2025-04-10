@@ -1,6 +1,6 @@
 {
     "meta": {
-      "title": "CW823RA",
+      "title": "CW275PJ",
       "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
       "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
       "ogImage": "/assets/img/og.jpg"
@@ -21,17 +21,17 @@
         }
       },
       {
-        "label": "One Piece Toilet",
+        "label": "One-Piece Toilet",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/one-piece-toilet"
+          "href": "/en/product/wall-faced-toilet"
         }
       },
       {
-        "label": "CW823RA",
+        "label": "CW275PJ",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/one-piece-toilet/CW823RA"
+          "href": "/en/product/wall-faced-toilet/CW275PJ"
         }
       }
     ],
@@ -41,20 +41,20 @@
         "module": "ProductDetails",
         "moduleOption":null,
         "content": {
-          "id":"CW823RA",
+          "id":"CW275PJ",
           "category":[
             "toilets"
           ],
           "subCategory":null,
-          "description":"Elongated Tornado Flush Toilet",
-          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW823RA/content-image.png"],
+          "description":"Elongated Tornado Flush Wall Faced Toilet",
+          "images":["/assets/img/content/products/toilets/wall-faced-toilet/CW275PJ/content-image.png"],
           "specs": {
             "Size": [
-                "Toilet - 765 x 510 x 640mm"
+                "Toilet - 590 x 404 x 400mm"
             ],
             "Flushing System": "Tornado Flush",
             "Water Consumption": "3L/4.5L",
-            "Trap Type(Rough-In)": "S-trap (Rough in: 305mm)",
+            "Trap Type(Rough-In)": "P-trap (Rough in: 180mm)",
             "Materials": [
               "Toilet - Vitreous China"
             ],
@@ -105,7 +105,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/one-piece-toilet/CW823RA/drawing.png"
+            "/assets/img/content/products/toilets/wall-faced-toilet/CW275PJ/drawing.png"
           ]
         }
       }

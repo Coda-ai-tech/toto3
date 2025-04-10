@@ -21,10 +21,17 @@
         }
       },
       {
+        "label": "One Piece Toilet",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product/one-piece-toilet"
+        }
+      },
+      {
         "label": "CW630PJ",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/CW630PJ"
+          "href": "/en/product/one-piece-toilet/CW630PJ"
         }
       }
     ],
@@ -40,7 +47,7 @@
           ],
           "subCategory":null,
           "description":"Regular Wash Down Toilet",
-          "images":["/assets/img/content/products/toilets/CW630PJ/content-image.png"],
+          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW630PJ/content-image.png"],
           "specs": {
             "Size": [
                 "Toilet - 690 x 356 x 705mm"
@@ -69,7 +76,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/CW630PJ/drawing.png"
+            "/assets/img/content/products/toilets/one-piece-toilet/CW630PJ/drawing.png"
           ]
         }
       }

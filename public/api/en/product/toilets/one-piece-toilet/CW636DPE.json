@@ -21,10 +21,17 @@
         }
       },
       {
+        "label": "One Piece Toilet",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/product/one-piece-toilet"
+        }
+      },
+      {
         "label": "CW636DPE",
         "link": {
           "type": "routeLink",
-          "href": "/en/product/CW636DPE"
+          "href": "/en/product/one-piece-toilet/CW636DPE"
         }
       }
     ],
@@ -40,7 +47,7 @@
           ],
           "subCategory":null,
           "description":"Elongated Tornado Flush Toilet",
-          "images":["/assets/img/content/products/Washlet+/C769CE/content-image.png"],
+          "images":["/assets/img/content/products/toilets/one-piece-toilet/CW636DPE/content-image.png"],
           "specs": {
             "Size": [
                 "Toilet - 740 × 488 x 670mm"
@@ -98,7 +105,7 @@
             }
           ],
           "downloads": [
-            "/assets/img/content/products/toilets/CW636DPE/drawing.png"
+            "/assets/img/content/products/toilets/one-piece-toilet/CW636DPE/drawing.png"
           ]
         }
       }
