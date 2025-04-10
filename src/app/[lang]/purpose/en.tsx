@@ -1,7 +1,6 @@
 /* eslint-disable */
 'use client'
 import { useState } from "react";
-import VideoPopup from "@/app/components/VideoPopup";
 const En = () => {
   const [isOpenVideoPopup, setIsOpenVideoPopup] = useState(false);
   const handleVideoPopupClose = () => setIsOpenVideoPopup(false);

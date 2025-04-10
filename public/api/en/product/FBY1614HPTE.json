@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "FBY1614HPTE",
+    "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
+    "keywords": "TOTO, bathtub, free-standing, enameled cast iron, chrome plated, washlet, bathroom, design",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "FBY1614HPTE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/FBY1614HPTE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "productName": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "FBY1614HPTE",
+        "category": [
+          "bathtub"
+        ],
+        "subCategory": [
+          "free-standing-bathtub"
+        ],
+        "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
+        "images": ["/assets/img/content/products/Bathtub/FBY1614HPTE/content-image.webp"],
+        "features": [],
+        "specs": {
+          "Size": "1650 x 900 x 565mm",
+          "Pop-up waste": "Included",
+          "Material": "Cast Iron",
+          "Color": "White",
+          "Remarks": "Without Handgrips model is also available"
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/FBY1614HPTE/drawing.jpg"
+        ]
+      }
+    }
+  ]
+}

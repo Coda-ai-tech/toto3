@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "PJYD2200PWEH#GW",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb":[
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "PJYD2200PWEH#GW",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PJYD2200PWEH-GW"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "ProductDetails",
+      "productName":"Galaline Free-standing Air Bubble & Whirlpool Bathtub with Pillow(with chrome plated handgrips)",
+      "moduleOption":null,
+      "content": {
+        "id":"PJYD2200PWEH#GW",
+        "category":[
+          "bathtub"
+        ],
+        "subCategory":[
+          "free-standing-bathtub"
+        ],
+        "description":"Galaline Free-standing Air Bubble & Whirlpool Bathtub",
+        "images":["/assets/img/content/products/Bathtub/PJYD2200PWEH-GW/content-image.webp"],
+        "features":[
+          "Constructed with solid surface Galalato engineered to resist stains, retain heat, and minimize maintenance",
+          "Shaped to simulate a \"gravity-less\" floating position for ultimate relaxation",
+          "Hydrohands massaging water jets",
+          "Slip-resistant surface",
+          "Adjustable headrest",
+          "Cascading shoulder warmer",
+          "Mood creating LED Lighting",
+          "Capacitive keypad",
+          "Toe touch drain and push-button design for a smooth, one-piece tub appearance"
+      ],
+        "specs": {
+          "size": "2200 x 1050 x 780mm",
+          "colour": "White",
+          "popUpWaste": "Included",
+          "material": "Galaline"
+        },
+        "awardImages": [
+          "/assets/img/content/products/awards/redot_winner.png"
+        ],
+        "technologies": [
+          {
+            "title": "ZERO DIMENSION",
+            "description": "ZERO DIMENSION bathing brings freedom from gravity, releasing stress on joints and encouraging ultimate relaxation.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/zero-dimension"
+            },
+            "icon": "/assets/img/content/technology/zero-dimension/ico-zero-dimension.png",
+            "thumb": "/assets/img/content/technology/zero-dimension/thumb-zero-dimension.png"
+          },{
+            "title": "HYDROHANDS",
+            "description": "Quiet warm water massage function for bathtubs",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/hydrohands"
+            },
+            "icon": "/assets/img/content/technology/hydrohands/ico-hydrohands.png",
+            "thumb": "/assets/img/content/technology/hydrohands/thumb-hydrohands.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/PJYD2200PWEH-GW/drawing.png"
+        ]
+      }
+    }
+  ]
+}
