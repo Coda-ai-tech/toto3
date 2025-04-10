@@ -1,0 +1,59 @@
+{
+    "meta": {
+      "title": "PJY1814PWE",
+      "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+      "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+      "ogImage": "/assets/img/og.jpg"
+    },
+    "breadcrumb": [
+      {
+        "label": "HOME",
+        "link": { "type": "routeLink", "href": "/en" }
+      },
+      {
+        "label": "PRODUCT",
+        "link": { "type": "routeLink", "href": "/en/product" }
+      },
+      {
+        "label": "PJY1814PWE",
+        "link": { "type": "routeLink", "href": "/en/product/PJY1814PWE" }
+      }
+    ],
+    "content": [
+      {
+        "id": null,
+        "modelNumber": "PJY1814PWE",
+        "slug": "PJY1814PWE",
+        "productName": "Galaline Free-standing Bathtub (without handgrips)",
+        "isNew": "false",
+        "module": "ProductDetails",
+        "moduleOption": null,
+        "content": {
+          "id": "Bathtubs",
+          "category": ["Bathtubs"],
+          "subCategory": ["Free-standing Bathtub"],
+          "description": "Galaline Free-standing Bathtub (without handgrips)",
+          "images": ["/assets/img/content/products/Neorest/PJY1814PWE/content-image.png"],
+          "features": [],
+          "specs": {
+            "Size": "1800 x 900 x 665mm",
+            "Pop-up Waste": "Included",
+            "Material": ["Galaline"],
+            "Colour": [
+              {
+                "For Lavatory": ["White"],
+                "For Bathtub": []
+              }
+            ]
+          },
+          "awardImages": [],
+          "technologies": [],
+          "downloads": ["/assets/img/content/products/Neorest/PJY1814PWE/drawing.png"],
+          "videos": [],
+          "relatedProduct": ["PJY1814HPWE"],
+          "compatitibleProduct": [],
+          "remarks": ["PJY1814PW#MW (Matte Finished) also available"]
+        }
+      }
+    ]
+  }

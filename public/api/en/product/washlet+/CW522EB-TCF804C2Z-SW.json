@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "CW522EB-TCF804C2Z-SW",
+      "label": "CW522EB / TCF804C2Z",
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW522EB-TCF804C2Z-SW"
@@ -31,9 +31,9 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "CW522EB-TCF804C2Z-SW",
+      "modelNumber": "CW522EB / TCF804C2Z",
       "slug": "CW522EB-TCF804C2Z-SW",
-      "productName": "Close Coupled Toilet with WASHLET",
+      "productName": "WASHLET with Wall Hung Toilet (square-shape) with remote controller",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
@@ -43,7 +43,7 @@
           "washlet+"
         ],
         "subCategory": [],
-        "description": "Close Coupled Toilet with WASHLET",
+        "description": "WASHLET with Wall Hung Toilet (square-shape) with remote controller",
         "images": [
           "/assets/img/content/products/Washlet+/CW522EB-TCF804C2Z-SW/content-image.png"
         ],
@@ -187,7 +187,9 @@
           "/assets/img/content/products/Washlet+/CW522EB-TCF804C2Z-SW/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "CW542EB-TCF802C2Z-RW"
+        ],
         "compatibleProduct": [],
         "remarks": []
       }

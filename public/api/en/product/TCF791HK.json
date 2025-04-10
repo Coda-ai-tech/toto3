@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "TCF34320GAA#NW1",
+    "title": "TCF791HK",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, Washlet, toilet seat, Japan, bidet, global, culture, hygiene, technology",
     "ogImage": "/assets/img/og.jpg"
@@ -21,42 +21,40 @@
       }
     },
     {
-      "label": "TCF34320GAA#NW1",
+      "label": "TCF791HK",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/TCF34320GAA#NW1"
+        "href": "/en/product/TCF791HK"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "TCF34320GAA#NW1",
-      "slug": "TCF34320GAA#NW1",
+      "modelNumber": "TCF791HK",
+      "slug": "TCF791HK",
       "productName": "WASHLET (Elongated) with remote controller",
       "isNew": "true",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "TCF34320GAA#NW1",
+        "id": "TCF791HK",
         "category": [
           "washlet"
         ],
         "subCategory": [],
         "description": "WASHLET (Elongated) with remote controller",
         "images": [
-          "/assets/img/content/products/Washlet/TCF34320GAA#NW1/content-image.png"
+          "/assets/img/content/products/Washlet/TCF791HK/content-image.png"
         ],
         "features": [
           "Stylish design with remote controller",
           "AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
           "PREMIST prevents waste from clinging",
-          "EWATER+ suppresses the accumulation of waste",
-          "Auto lid opening and closing",
           "Equipped with many more features which provide a comfortable experience for all users"
         ],
         "specs": {
-          "Size": "540 x 383mm",
+          "Size": "531 x 384mm",
           "Flushing System": "Not applicable",
           "Water Consumption": "Not applicable",
           "Trap Type (Rough-In)": "Not applicable",
@@ -66,18 +64,10 @@
             "Plastic"
           ],
           "Colour": [
-            {
-              "For Fittings": ["#NW1 White (Resin)"]
-            }
+  
           ]
         },
-        "awardImages": [
-          {
-            "name": "Green Good",
-            "year": "2018",
-            "src": "/assets/img/content/products/awards/design_award.png"
-          }
-        ],
+        "awardImages": [],
         "technologies": [
           {
             "title": "PREMIST",
@@ -88,16 +78,6 @@
             },
             "icon": "/assets/img/content/technology/premist/ico-premist.png",
             "thumb": "/assets/img/content/technology/premist/thumb-premist.png"
-          },
-          {
-            "title": "EWATER+",
-            "description": "Electrolysed antibacterial water that break down waste",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/ewater-plus"
-            },
-            "icon": "/assets/img/content/technology/ewater/ico-ewater.png",
-            "thumb": "/assets/img/content/technology/ewater/thumb-ewater.png"
           },
           {
             "title": "AIR-IN WONDER WAVE",
@@ -141,13 +121,10 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Washlet/TCF34320GAA#NW1/drawing.png"
+          "/assets/img/content/products/Washlet/TCF791HK/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [
-          "CW920HK2-SW920HK-TCF34320GAA",
-          "C769CE-S769DRE-TCF34320GAA"
-        ],
+        "relatedProduct": [],
         "compatibleProduct": [
           "CW636DPE",
           "CW636DE",

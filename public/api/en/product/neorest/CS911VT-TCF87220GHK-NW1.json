@@ -45,11 +45,11 @@
         "subCategory": [],
         "description": "Neorest RS Multi-Function Toilet (S-Trap)",
         "images": [
-          "/assets/img/content/products/Neorest/CS921VT-TCF83410GHK#NW1/content-image.png"
+          "/assets/img/content/products/Neorest/CS921VT-TCF83410GHK-NW1/content-image.png"
         ],
         "features": [
-          "Simple and harmonious design",
-          "Round and polished silhouette that fits in with all interior styles",
+          "Exquisite streamlined design",
+          "Dainty design in the nickel matching remote controller",
           "AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
           "PREMIST prevents waste from clinging",
           "EWATER+ suppresses the accumulation of waste",
@@ -71,7 +71,7 @@
           ],
           "Colour": [
             {
-              "For Fittings": ["Chrome"]
+              "For Fittings": ["#BBL Brushed Black Chrome"]
             }
           ]
         },
@@ -86,7 +86,7 @@
             "year": "2023",
             "src": "/assets/img/content/products/awards/reddot_winner.png"
           },
-          {
+					{
             "name": "Green Good",
             "year": "2023",
             "src": "/assets/img/content/products/awards/design_award.png"
@@ -205,11 +205,11 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Neorest/CS921VT-TCF83410GHK#NW1/drawing.png"
+          "/assets/img/content/products/Neorest/CS921VT-TCF83410GHK-NW1/drawing.png"
         ],
         "videos": [
-          "https://www.youtube.com/watch?v=rUjee2sIPUg&t=95s",
-          "https://www.youtube.com/watch?v=Ex4zC6iKmto"
+          "https://www.youtube.com/watch?v=I1pFMbM8quc",
+					"https://www.youtube.com/watch?v=Ex4zC6iKmto"
         ],
         "relatedProduct": [
           "CS921PVT-TCF83410GHK#NW1"

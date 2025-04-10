@@ -1,216 +1,266 @@
 {
-  "data":[
+  "data": [
     {
-      "id":"PJYD2200PWEH#GW",
-      "name":"Galaline Free-standing Air Bubble & Whirlpool Bathtub with Pillow(with chrome plated handgrips)",
-      "category":[
-          "bathtub"
-        ],
-        "subCategory":[
-          "free-standing-bathtub"
-        ],
-      "description":"Galaline Free-standing Air Bubble & Whirlpool Bathtub",
-      "thumb": "/assets/img/content/products/Bathtub/PJYD2200PWEH-GW/content-image.jpg",
-      "link":{
-              "type":"routeLink",
-              "href":"/en/product/PJYD2200PWEH-GW"
-            }
-    },{
-      "id":"PJY1886HPWMNE#GW",
-      "category":[
-          "bathtub"
-        ],
-        "subCategory":[
-          "free-standing-bathtub"
-        ],
-      "description":"Galaline Free-standing Bathtub (with chrome plated handgrips)",
-      "name":"Galaline Free-standing Bathtub with Pillow(with chrome plated handgrips)",
-      "thumb": "/assets/img/content/products/Bathtub/PJY1886HPWMNE-GW/content-image.jpg",
-      "link":{
-              "type":"routeLink",
-              "href":"/en/product/PJY1886HPWMNE-GW"
-            }
-    },{
-      "id": "PJY1814HPWE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "free-standing-bathtub"
-      ],
-      "name": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-      "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-      "thumb": "/assets/img/content/products/Bathtub/PJY1814HPWE/content-image.png",
+      "id": "CS903KVF",
+      "name": "NEOREST NX Actilight Multi-Function Toilet",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS903KVF/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/PJY1814HPWE"
+        "href": "/en/product/CS903KVF"
+      }
+    },
+    {
+      "id": "CW927PZT-TCF85380GHK-NW1",
+      "name": "NEOREST WX Wall Hung Multi-Function Toilet",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CW927PZT-TCF85380GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW927PZT-TCF85380GHK-NW1"
+      }
+    },
+    {
+      "id": "CS911PVT-TCF87320GHK-NW1",
+      "name": "Neorest LS Multi-Function Toilet (P-Trap) (Brushed Nickel)",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS911PVT-TCF87320GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CS911PVT-TCF87320GHK-NW1"
+      }
+    },
+    {
+      "id": "CS911VT-TCF87320GHK-NW1",
+      "name": "Neorest LS Multi-Function Toilet (S-Trap) (Brushed Nickel)",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS911VT-TCF87320GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CS911VT-TCF87320GHK-NW1"
+      }
+    },
+    {
+      "id": "CS911PVT-TCF87220GHK-NW1",
+      "name": "Neorest LS Multi-Function Toilet (P-Trap) (Black)",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS911PVT-TCF87220GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CS911PVT-TCF87220GHK-NW1"
+      }
+    },
+    {
+      "id": "CS911VT-TCF87220GHK-NW1",
+      "name": "Neorest LS Multi-Function Toilet (S-Trap) (Black)",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS911VT-TCF87220GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CS911VT-TCF87220GHK-NW1"
+      }
+    },
+    {
+      "id": "CS911PVT-TCF87120GHK-NW1",
+      "name": "Neorest LS Multi-Function Toilet (P-Trap) (Silver)",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS911PVT-TCF87120GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CS911PVT-TCF87120GHK-NW1"
+      }
+    },
+    {
+      "id": "CS911VT-TCF87120GHK-NW1",
+      "name": "Neorest LS Multi-Function Toilet (S-Trap) (Silver)",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS911VT-TCF87120GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CS911VT-TCF87120GHK-NW1"
+      }
+    },
+    {
+      "id": "CS921PVT-TCF85510GHK-NW1",
+      "name": "Neorest AS Multi-Function Toilet (P-Trap)",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS921PVT-TCF85510GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CS921PVT-TCF85510GHK-NW1"
+      }
+    },
+    {
+      "id": "CS921VT-TCF85510GHK-NW1",
+      "name": "Neorest AS Multi-Function Toilet (S-Trap)",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS921VT-TCF85510GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CS921VT-TCF85510GHK-NW1"
+      }
+    },
+    {
+      "id": "CS921PVT-TCF83410GHK-NW1",
+      "name": "Neorest RS Multi-Function Toilet (P-Trap)",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS921PVT-TCF83410GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CS921PVT-TCF83410GHK-NW1"
+      }
+    },
+    {
+      "id": "CS921VT-TCF83410GHK-NW1",
+      "name": "Neorest RS Multi-Function Toilet (S-Trap)",
+      "category": ["neorest"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Neorest/CS921VT-TCF83410GHK-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CS921VT-TCF83410GHK-NW1"
       }
     },{
-      "id": "PJY1734HPWE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "free-standing-bathtub"
-      ],
-      "name": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-      "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-      "thumb": "/assets/img/content/products/Bathtub/PJY1734HPWE/content-image.png",
+      "id": "TCF4914Z",
+      "name": "WASHLET (Elongated) with remote controller",
+      "category": ["washlet"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet/TCF4914Z/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/PJY1734HPWE"
+        "href": "/en/product/TCF4914Z"
+      }
+    },
+    {
+      "id": "TCF791HK",
+      "name": "WASHLET (Elongated) with remote controller",
+      "category": ["washlet"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet/TCF791HK/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TCF791HK"
+      }
+    },
+    {
+      "id": "TCF34320GAA-NW1",
+      "name": "WASHLET (D-shape) with remote controller",
+      "category": ["washlet"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet/TCF34320GAA-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TCF34320GAA-NW1"
+      }
+    },
+    {
+      "id": "TCF24410AAA-NW1",
+      "name": "WASHLET (Elongated) with remote controller",
+      "category": ["washlet"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet/TCF24410AAA-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TCF24410AAA-NW1"
+      }
+    },
+    {
+      "id": "TCF33320GAA-NW1",
+      "name": "WASHLET (D-shape)",
+      "category": ["washlet"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet/TCF33320GAA-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TCF33320GAA-NW1"
+      }
+    },
+    {
+      "id": "TCF23410AAA-NW1",
+      "name": "WASHLET (Elongated)",
+      "category": ["washlet"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet/TCF23410AAA-NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TCF23410AAA-NW1"
       }
     },{
-      "id": "PJY1724HPWE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "free-standing-bathtub"
-      ],
-      "name": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-      "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-      "thumb": "/assets/img/content/products/Bathtub/PJY1724HPWE/content-image.png",
+      "id": "CW542EB-TCF802C2Z-RW",
+      "name": "WASHLET with Wall Hung Toilet (D-shape) with remote controller",
+      "category": ["washlet+"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet+/CW542EB-TCF802C2Z-RW/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/PJY1724HPWE"
+        "href": "/en/product/CW542EB-TCF802C2Z-RW"
       }
-    },{
-      "id": "PJY1744HPWE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "free-standing-bathtub"
-      ],
-      "name": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-      "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-      "thumb": "/assets/img/content/products/Bathtub/PJY1744HPWE/content-image.png",
+    },
+    {
+      "id": "CW522EB-TCF804C2Z-SW",
+      "name": "WASHLET with Wall Hung Toilet (square-shape) with remote controller",
+      "category": ["washlet+"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet+/CW522EB-TCF804C2Z-SW/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/PJY1744HPWE"
+        "href": "/en/product/CW522EB-TCF804C2Z-SW"
       }
-    },{
-      "id": "FBYN1816DHPTE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "free-standing-bathtub"
-      ],
-      "name": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-      "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-      "thumb": "/assets/img/content/products/Bathtub/FBYN1816DHPTE/content-image.png",
+    },
+    {
+      "id": "CW920HK2-SW920HK-TCF4914EZ",
+      "name": "WASHLET with Closed-coupled Toilet (Elongated) with remote controller",
+      "category": ["washlet+"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet+/CW920HK2-SW920HK-TCF4914EZ/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/FBYN1816DHPTE"
+        "href": "/en/product/CW920HK2-SW920HK-TCF4914EZ"
       }
-    },{
-      "id": "FBYN1716DHPTE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "free-standing-bathtub"
-      ],
-      "name": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-      "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-      "thumb": "/assets/img/content/products/Bathtub/FBYN1716DHPTE/content-image.png",
+    },
+    {
+      "id": "C769CE-S769DRE-TCF4914EZ",
+      "name": "WASHLET with Closed-coupled Toilet (Elongated) with remote controller",
+      "category": ["washlet+"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet+/C769CE-S769DRE-TCF4914EZ/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/FBYN1716DHPTE"
+        "href": "/en/product/C769CE-S769DRE-TCF4914EZ"
       }
-    }, {
-      "id": "FBYN1816CHPTE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "free-standing-bathtub"
-      ],
-      "name": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-      "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-      "thumb": "/assets/img/content/products/Bathtub/FBYN1816CHPTE/content-image.png",
+    },
+    {
+      "id": "CW766PEB-SW766HK-TCF34570GAA",
+      "name": "WASHLET with Closed-coupled Toilet (D-shape) with remote controller",
+      "category": ["washlet+"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet+/CW766PEB-SW766HK+TCF34570GAA-remote/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/FBYN1816CHPTE"
+        "href": "/en/product/CW766PEB-SW766HK-TCF34570GAA-remote"
       }
-    },{
-      "id": "FBYN1716CHPTE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "free-standing-bathtub"
-      ],
-      "name": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-      "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-      "thumb": "/assets/img/content/products/Bathtub/FBYN1716CHPTE/content-image.png",
+    },
+    {
+      "id": "CW766PEB-SW766HK-TCF33370GAA",
+      "name": "WASHLET with Closed-coupled Toilet (D-shape)",
+      "category": ["washlet+"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet+/CW766PEB-SW766HK+TCF33370GAA/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/FBYN1716CHPTE"
+        "href": "/en/product/CW766PEB-SW766HK-TCF33370GAA"
       }
-    },{
-      "id": "FBY1614HPTE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "free-standing-bathtub"
-      ],
-      "name": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-      "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-      "thumb": "/assets/img/content/products/Bathtub/FBY1614HPTE/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/FBY1614HPTE"
-      }
-    },{
-      "id": "FBY1380PE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "non-apron-bathtub"
-      ],
-      "name": "Enameled Cast Iron Non-Apron Bathtub",
-      "description": "Enameled Cast Iron Non-Apron Bathtub",
-      "thumb": "/assets/img/content/products/Bathtub/FBY1380PE/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/FBY1380PE"
-      }
-    },{
-      "id": "FBY1400PE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "non-apron-bathtub"
-      ],
-      "name": "Enameled Cast Iron Non-Apron Bathtub",
-      "description": "Enameled Cast Iron Non-Apron Bathtub",
-      "thumb": "/assets/img/content/products/Bathtub/FBY1400PE/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/FBY1400PE"
-      }
-    },{
-      "id": "FBY1530NHPE",
-      "category": [
-        "bathtub"
-      ],
-      "subCategory": [
-        "non-apron-bathtub"
-      ],
-      "name": "Enameled Cast Iron Non-Apron Bathtub (with chrome plated handgrips)",
-      "description": "Enameled Cast Iron Non-Apron Bathtub (with chrome plated handgrips)",
-      "thumb": "/assets/img/content/products/Bathtub/FBY1530NHPE/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/FBY1530NHPE"
-      }
-    }                   
-
+    }
   ]
 }

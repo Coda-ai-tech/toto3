@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "TCF33320GAA#NW1",
+    "title": "TCF23410AAA#NW1",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, Washlet, toilet seat, Japan, bidet, global, culture, hygiene, technology",
     "ogImage": "/assets/img/og.jpg"
@@ -21,41 +21,41 @@
       }
     },
     {
-      "label": "TCF33320GAA#NW1",
+      "label": "TCF23410AAA#NW1",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/TCF33320GAA#NW1"
+        "href": "/en/product/TCF23410AAA-NW1"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "TCF33320GAA#NW1",
-      "slug": "TCF33320GAA#NW1",
-      "productName": "WASHLET (D-shape)",
+      "modelNumber": "TCF23410AAA#NW1",
+      "slug": "TCF23410AAA#NW1",
+      "productName": "WASHLET (Elongated)",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "TCF33320GAA#NW1",
+        "id": "TCF23410AAA#NW1",
         "category": [
           "washlet"
         ],
         "subCategory": [],
-        "description": "WASHLET (D-shape)",
+        "description": "WASHLET (Elongated) with panel controller",
         "images": [
-          "/assets/img/content/products/Washlet/TCF33320GAA#NW1/content-image.png"
+          "/assets/img/content/products/Washlet/TCF23410AAA-NW1/content-image.png"
         ],
         "features": [
-          "Sleek design with panel",
+          "Sleek design with panel controller",
           "AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
           "PREMIST prevents waste from clinging",
           "EWATER+ suppresses the accumulation of waste",
           "Equipped with many more features which provide a comfortable experience for all users"
         ],
         "specs": {
-          "Size": "540 x 462mm",
+          "Size": "530 x 472mm",
           "Flushing System": "Not applicable",
           "Water Consumption": "Not applicable",
           "Trap Type (Rough-In)": "Not applicable",
@@ -136,28 +136,30 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Washlet/TCF33320GAA#NW1/drawing.png"
+          "/assets/img/content/products/Washlet/TCF23410AAA-NW1/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
-          "TCF34320GAA#NW1",
-          "CW766PEB-SW766HK+TCF33370GAA"
+          "TCF24410AAA#NW1"
         ],
         "compatibleProduct": [
-          "CW166RPB",
-          "CW166RB",
-          "CW895PJ",
-          "CW895J",
-          "CW252PJ-SW252JP",
-          "CW252J-SW252JP",
-          "CW766PB-SW766HK",
-          "CW766B-SW766HK",
-          "CW781RPB-SW781SPB",
-          "CW781B-SW781SB",
-          "CW862NPJ-SW862JP",
-          "CW862NJ-SW862JP",
-          "CW896PJ-SW896JP",
-          "CW896J-SW896JP"
+          "CW870BT305",
+          "CW668PJ-SW668J",
+          "CW668J-SW668J",
+          "CW811NPJ-SW811NJP",
+          "CW811NJ-SW811NJP",
+          "CW920HK-SW920HK",
+          "CW981PB-SW981B",
+          "CW981RB-SW981B",
+          "C320PE2-S320DPE",
+          "C320E1-S320DPE",
+          "C767E-S767RE",
+          "C767R4E-S767RE",
+          "C769E-S769DRE",
+          "C769R4E-S769DRE",
+          "C769CE-S769DRE",
+          "C940E-S940DPE",
+          "C945RE-S945DE"
         ],
         "remarks": []
       }

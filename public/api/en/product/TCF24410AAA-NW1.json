@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "TCF23410AAA#NW1",
+    "title": "TCF24410AAA#NW1",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, Washlet, toilet seat, Japan, bidet, global, culture, hygiene, technology",
     "ogImage": "/assets/img/og.jpg"
@@ -21,41 +21,41 @@
       }
     },
     {
-      "label": "TCF23410AAA#NW1",
+      "label": "TCF24410AAA#NW1",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/TCF23410AAA#NW1"
+        "href": "/en/product/TCF24410AAA-NW1"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "TCF23410AAA#NW1",
-      "slug": "TCF23410AAA#NW1",
-      "productName": "WASHLET (Elongated) with panel controller",
+      "modelNumber": "TCF24410AAA#NW1",
+      "slug": "TCF24410AAA#NW1",
+      "productName": "WASHLET (Elongated) with remote controller",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "TCF23410AAA#NW1",
+        "id": "TCF24410AAA#NW1",
         "category": [
           "washlet"
         ],
         "subCategory": [],
-        "description": "WASHLET (Elongated) with panel controller",
+        "description": "WASHLET (Elongated) with remote controller",
         "images": [
-          "/assets/img/content/products/Washlet/TCF23410AAA#NW1/content-image.png"
+          "/assets/img/content/products/Washlet/TCF24410AAA-NW1/content-image.png"
         ],
         "features": [
-          "Sleek design with panel controller",
+          "Stylish design with remote controller",
           "AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
           "PREMIST prevents waste from clinging",
           "EWATER+ suppresses the accumulation of waste",
           "Equipped with many more features which provide a comfortable experience for all users"
         ],
         "specs": {
-          "Size": "530 x 472mm",
+          "Size": "530 x 383mm",
           "Flushing System": "Not applicable",
           "Water Consumption": "Not applicable",
           "Trap Type (Rough-In)": "Not applicable",
@@ -64,7 +64,11 @@
           "Material": [
             "Plastic"
           ],
-          "Colour": []
+          "Colour": [
+            {
+              "For Fittings": ["#NW1 White (Resin)"]
+            }
+          ]
         },
         "awardImages": [
           {
@@ -136,7 +140,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Washlet/TCF23410AAA#NW1/drawing.png"
+          "/assets/img/content/products/Washlet/TCF24410AAA-NW1/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

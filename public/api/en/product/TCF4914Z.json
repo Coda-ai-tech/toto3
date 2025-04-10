@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "TCF24410AAA#NW1",
+    "title": "TCF4914Z",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, Washlet, toilet seat, Japan, bidet, global, culture, hygiene, technology",
     "ogImage": "/assets/img/og.jpg"
@@ -21,41 +21,42 @@
       }
     },
     {
-      "label": "TCF24410AAA#NW1",
+      "label": "TCF4914Z",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/TCF24410AAA#NW1"
+        "href": "/en/product/TCF4914Z"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "TCF24410AAA#NW1",
-      "slug": "TCF24410AAA#NW1",
+      "modelNumber": "TCF4914Z",
+      "slug": "TCF4914Z",
       "productName": "WASHLET (Elongated) with remote controller",
-      "isNew": "false",
+      "isNew": "true",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "TCF24410AAA#NW1",
+        "id": "TCF4914Z",
         "category": [
           "washlet"
         ],
         "subCategory": [],
         "description": "WASHLET (Elongated) with remote controller",
         "images": [
-          "/assets/img/content/products/Washlet/TCF24410AAA#NW1/content-image.png"
+          "/assets/img/content/products/Washlet/TCF4914Z/content-image.png"
         ],
         "features": [
           "Stylish design with remote controller",
           "AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
           "PREMIST prevents waste from clinging",
           "EWATER+ suppresses the accumulation of waste",
+          "Auto lid opening and closing",
           "Equipped with many more features which provide a comfortable experience for all users"
         ],
         "specs": {
-          "Size": "530 x 383mm",
+          "Size": "531 x 383mm",
           "Flushing System": "Not applicable",
           "Water Consumption": "Not applicable",
           "Trap Type (Rough-In)": "Not applicable",
@@ -65,12 +66,15 @@
             "Plastic"
           ],
           "Colour": [
-            {
-              "For Fittings": ["#NW1 White (Resin)"]
-            }
+          
           ]
         },
         "awardImages": [
+          {
+            "name": "Reddot",
+            "year": "2020",
+            "src": "/assets/img/content/products/awards/reddot_winner.png"
+          },
           {
             "name": "Green Good",
             "year": "2018",
@@ -137,13 +141,26 @@
             },
             "icon": "/assets/img/content/technology/dryer/ico-dryer.png",
             "thumb": "/assets/img/content/technology/dryer/thumb-dryer.png"
+          },
+          {
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Washlet/TCF24410AAA#NW1/drawing.png"
+          "/assets/img/content/products/Washlet/TCF4914Z/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "CW920HK2-SW920HK-TCF4914EZ",
+          "C769CE-S769DRE-TCF4914EZ"
+        ],
         "compatibleProduct": [
           "CW636DPE",
           "CW636DE",

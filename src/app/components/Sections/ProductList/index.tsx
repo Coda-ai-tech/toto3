@@ -29,7 +29,6 @@ interface ProductItem {
   id: string;
   category: string[];
   subCategory: string[] | null;
-  description: string;
   thumb: string;
   link: ButtonLinkElement;
   name: string | null;
@@ -62,7 +61,7 @@ const categoryList: CategoryItem[] = [
     sub: null,
   },
   {
-    id: 'washlet-plus',
+    id: 'washlet+',
     label: {
       en: 'WASHLET® +',
       zh: 'WASHLET® +',
@@ -514,7 +513,7 @@ const categoryList: CategoryItem[] = [
 ];
 
 const ProductCard = ({ data }: { data: ProductItem }) => {
-  const { id, thumb, link, category, subCategory, description, name } = data;
+  const { id, thumb, link, category, subCategory, name } = data;
 
   const learnMoreCta: ButtonElement<IconList> = {
     label: 'Learn More',
@@ -536,7 +535,7 @@ const ProductCard = ({ data }: { data: ProductItem }) => {
         </div>
         <div className={`${styles.content}`}>
           <h4 className={`${styles.productTitle}`}>{id}</h4>
-          <div className={`${styles.category}`}><b>{subCategory ? subCategory[0].toUpperCase() : category[0].toUpperCase() }</b></div>
+          <div className={`${styles.category}`}><b>{subCategory && subCategory[0] ? subCategory[0].toUpperCase() : category[0].toUpperCase() }</b></div>
           <div className={`${styles.description}`}>{name}</div>
         </div>
         <div className={`${styles.action}`}>
@@ -687,7 +686,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     setTimeout(() => {
       const categoryFilteredData = selectedCategory.length > 0 ? getFilteredData() : products;
       const searchKeyFilteredData = categoryFilteredData?.filter((item: any) =>
-        item.description.toLowerCase().includes(keyword.toLowerCase())
+        item.name.toLowerCase().includes(keyword.toLowerCase())
       ) as ProductItem[];
 
       const res = splitPages(searchKeyFilteredData, pagePerItem.current, page);
