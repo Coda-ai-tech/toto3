@@ -188,6 +188,177 @@
     },
     {
       "id": null,
+      "module": "MiniBanner",
+      "moduleOption": null,
+      "content": {
+        "items": [
+          {
+            "subTitle": "NEOREST",
+            "title": "PURE LUXURY",
+            "description": "Visionary technology. Exquisitely designed for comfort and well-being.",
+            "media": {
+              "type": "video",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/neorest.mp4",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": "/assets/img/content/hero-banner/neorest.webp",
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "subTitle": null,
+            "title": null,
+            "description": null,
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/05.webp",
+                "mobile": "/assets/img/content/hero-banner/05_mob.webp"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://www.toto.com/en/ISH2025/"
+                }
+              }
+            ]
+          },
+          {
+            "subTitle": "INSPIRATION",
+            "title": "TO CREATE A CULTURE OF COMFORTABLE HEALTHY LIVING",
+            "description": "Since our founding, we have continuously pursued innovations that offer greater wellness and comfort to daily life.",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/01.webp",
+                "mobile": "/assets/img/content/hero-banner/01_mob.webp"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en"
+                }
+              }
+            ]
+          },
+          {
+            "subTitle": "TECHNOLOGY",
+            "title": "TORNADO FLUSHING",
+            "description": "The powerful toilet flushing system",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/02.webp",
+                "mobile": "/assets/img/content/hero-banner/02_mob.webp"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/technology/tornado-flush"
+                }
+              }
+            ]
+          },
+          {
+            "subTitle": null,
+            "title": "LET'S WASH WITH TOTO WASHLET",
+            "description": "Always innovating to Spread a Culture of Everyday Comfort and Cleanliness",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/03.webp",
+                "mobile": "/assets/img/content/hero-banner/03_mob.webp"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "cleanovation/washlet"
+                }
+              }
+            ]
+          },
+          {
+            "subTitle": "CLEAN SYNERGY",
+            "title": "TOTO CLEANOVATION",
+            "description": "TOTO innovation brings a new world of clean to life, enriching every moment of every day.",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/hero-banner/04.webp",
+                "mobile": "/assets/img/content/hero-banner/04_mob.webp"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/cleanovation/clean-synergy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
       "module": "HighlightBanner",
       "moduleOption": null,
       "content": {
