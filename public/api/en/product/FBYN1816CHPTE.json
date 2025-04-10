@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "FBYN1816CHPTE",
+    "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
+    "keywords": "TOTO, bathtub, free-standing, enameled cast iron, chrome plated, washlet, bathroom, design",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "FBYN1816CHPTE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/FBYN1816CHPTE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "FBYN1816CHPTE",
+        "category": [
+          "bathtub"
+        ],
+        "subCategory": [
+          "free-standing-bathtub"
+        ],
+        "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
+        "images": ["/assets/img/content/products/Bathtub/FBYN1816CHPTE/content-image.webp"],
+        "features": [
+          "Fully exposed design, with Full-Apron luxurious and majestic",
+          "Cast iron material provides years of durability",
+          "Slip-resistance surface",
+          "Streamline Handgrip on 1 side"
+        ],
+        "specs": {
+          "Size": "1800 x 800 x 537mm",
+          "Pop-up waste": "Included",
+          "Material": "Cast Iron",
+          "Colour": "White",
+          "Remarks": "Without Handgrips model is also available"
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/FBYN1816CHPTE/drawing.jpg"
+        ]
+      }
+    }
+  ]
+}
+

@@ -128,12 +128,18 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
           <a href="#specification" className={hash === '#specification' ? styles.activeTab : ''} >
             SPECIFICATION
           </a>
-          <a href="#awards" className={hash === '#awards' ? styles.activeTab : ''}>
-            AWARDS
-          </a>
-          <a href="#technologies" className={hash === '#technologies' ? styles.activeTab : ''}>
-            TECHNOLOGIES
-          </a>
+          {
+            (awardImages.length > 0) && 
+            <a href="#awards" className={hash === '#awards' ? styles.activeTab : ''}>
+              AWARDS
+            </a>
+          }
+          {
+            (technologies.length > 0) && 
+            <a href="#technologies" className={hash === '#technologies' ? styles.activeTab : ''}>
+              TECHNOLOGIES
+            </a>
+          }
           <a href="#downloads" className={hash === '#downloads' ? styles.activeTab : ''}>
             DOWNLOADS
           </a>   
@@ -199,50 +205,56 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
               </tbody>
             </table>
           </div>
-          <div id="awards">
-            <div className={styles.subHeadings}>
-              AWARDS
-              <hr className={styles.lineBreak}/>
+          {
+            (awardImages.length > 0) && 
+            <div id="awards">
+              <div className={styles.subHeadings}>
+                AWARDS
+                <hr className={styles.lineBreak}/>
+              </div>
+              <div className={styles.awardImages}>
+                {awardImages.map((imageLink) => (
+                  <div key={imageLink} className={styles.imageWrapper}>
+                    <Image
+                      src={imageLink}
+                      alt="Award Image"
+                      draggable={false}
+                      fill
+                      style={{ objectFit: 'contain' }}
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className={styles.awardImages}>
-              {awardImages.map((imageLink) => (
-                <div key={imageLink} className={styles.imageWrapper}>
-                  <Image
-                    src={imageLink}
-                    alt="Award Image"
-                    draggable={false}
-                    fill
-                    style={{ objectFit: 'contain' }}
-                  />
-                </div>
+          }
+        </div>
+      </div>
+      {
+        (technologies.length > 0) &&
+        <div id="technologies">
+          <div className={styles.technologyContainer}>
+            <div className={styles.subHeadings}>
+              TECHNOLOGIES
+            </div>
+            <div className={styles.technologies}>
+              {technologies.map((technology) => (
+                <TechnologyListItem key={technology.title} data={technology} />
               ))}
             </div>
+            <div className={`${styles.actions}`}>
+              <Button content={button} />
+            </div>
           </div>
         </div>
-      </div>
-      <div id="technologies">
-        <div className={styles.technologyContainer}>
-          <div className={styles.subHeadings}>
-            TECHNOLOGIES
-          </div>
-          <div className={styles.technologies}>
-            {technologies.map((technology) => (
-              <TechnologyListItem key={technology.title} data={technology} />
-            ))}
-          </div>
-          <div className={`${styles.actions}`}>
-            <Button content={button} />
-          </div>
-        </div>
-      </div>
+      }
       <div id="downloads">
         <div className={styles.downloadContainer}>
           <div className={styles.subHeadings}>
             DOWNLOADS
           </div>
           <div className={styles.downloads}>
-            {downloads.map((download) => (
-              <DownloadsCard src={download} />
+            {downloads.map((download, index) => (
+              <DownloadsCard key={'download-' + index} src={download} />
             ))}
           </div>
         </div>
