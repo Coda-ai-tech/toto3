@@ -216,6 +216,7 @@
 
 .resultArea {
   @apply h-full;
+  @apply flex flex-wrap justify-start;
 }
 
 .loadingSkeleton {

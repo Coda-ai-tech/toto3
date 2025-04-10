@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "PJY1814HPWE",
+    "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
+    "keywords": "TOTO, bathtub, free-standing, Galaline, chrome plated, washlet, bathroom, design",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "PJY1814HPWE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PJY1814HPWE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "productName": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "PJY1814HPWE",
+        "category": [
+          "bathtub"
+        ],
+        "subCategory": [
+          "free-standing-bathtub"
+        ],
+        "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/PJY1814HPWE/content-image.webp"
+        ],
+        "features": [
+          "Constructed with solid surface Galaline material engineered to resist stains, retain heat, and minimize maintenance",
+          "Shaped to recline the body and simulate a comforting embrace, providing relaxation and a deep sensation of ease",
+          "Multi-functional design provides a new way for easy bathing",
+          "Slip-resistant surface",
+          "Direct push drain"
+        ],
+        "specs": {
+          "size": "1800 x 900 x 665mm",
+          "popUpWaste": "Included",
+          "material": "Galaline",
+          "colour": "White",
+          "remarks": "Without Handgrips model is also available"
+        },
+        "awardImages": [
+          
+        ],
+        "technologies": [
+          
+        ],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/PJY1814HPWE/drawing.jpg"
+        ]
+      }
+    }
+  ]
+}
