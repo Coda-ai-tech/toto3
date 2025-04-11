@@ -210,13 +210,12 @@
 
 .resultArea,
 .resultPagination {
-  @apply p-[30px];
-  @apply flex;
+  @apply p-[30px] flex;
 }
 
 .resultArea {
-  @apply h-full;
-  @apply flex flex-wrap justify-start;
+  @apply h-full flex flex-wrap justify-start gap-0;
+  margin-left: 32px;
 }
 
 .loadingSkeleton {
@@ -228,23 +227,15 @@
 }
 
 .productCard {
-  @apply w-[420px] max-w-[calc(50%-8px)] bg-white border border-solid border-gray-lightest;
-  @apply m-[10px];
-
-  @screen md {
-    @apply w-[390px] max-w-[calc(25%-8px)];
-  }
-
-  @screen lg {
-    @apply max-w-[calc(25%-23px)];
-  }
+  @apply w-full bg-white border border-solid border-gray-lightest;
+  @apply p-0 m-2; 
 
   .cardInner {
     @apply relative h-full;
 
     .thumb {
       @apply relative aspect-square overflow-hidden;
-
+      
       img {
         @apply whFull;
       }
@@ -252,20 +243,20 @@
 
     .content {
       @apply p-2 pb-[60px];
-
-      @screen md {
+      
+      @screen sm {
         @apply p-4;
       }
-
+      
       .productTitle {
         @apply mb-2;
         @include mixin.textEllipsis(2);
       }
-
+      
       .category {
-        margin-bottom: 10px;
+        @apply mb-2;
       }
-
+      
       .description {
         @apply text-sm mb-[44px];
         @include mixin.textEllipsis(3);
@@ -276,4 +267,17 @@
       @apply absolute bottom-0 right-0;
     }
   }
+
+  @screen sm {
+    width: calc(50% - 16px);
+  }
+
+  @screen md {
+    width: calc(33.33% - 24px);
+  }
+
+  @screen lg {
+    width: calc(25% - 32px);
+  }
 }
+
