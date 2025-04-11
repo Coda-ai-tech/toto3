@@ -43,12 +43,11 @@
           "Toilets"
         ],
         "subCategory": [
-          "concealed-cistern",
-          ""
+          "concealed-cistern"
         ],
         "description": "Concealed Cistern With Hanger",
         "images": [
-          "/assets/img/content/products/Toilets/Concealed Cistern With Hanger/content-image.png"
+          "/assets/img/content/products/Toilets/Concealed Cistern/content-image.png"
         ],
         "features": [],
         "specs": {
