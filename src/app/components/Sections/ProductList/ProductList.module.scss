@@ -18,6 +18,7 @@
 
         button {
           &:hover {
+
             .controlIcon,
             .controlLabel {
               @apply text-primary-accent;
@@ -44,12 +45,24 @@
             }
           }
 
-          + .controlItem {
+          +.controlItem {
             &:before {
               @apply content-[''] w-[1px] h-[14px] bg-black absolute yCenter left-[-10px];
             }
           }
         }
+      }
+
+      @media (max-width: 480px) {
+        .filterController {
+          margin-top: 20px;
+        }
+      }
+    }
+
+    @media (max-width: 480px) {
+      .filterUtils {
+        flex-direction: column-reverse;
       }
     }
 
@@ -58,6 +71,13 @@
 
       .categories {
         @apply w-2/12 py-[30px] px-4 text-sm;
+        min-width: 174px;
+      }
+
+      @media (max-width: 480px) {
+        .categories {
+          width: 100%;
+        }
       }
 
       .subCategory {
@@ -70,6 +90,12 @@
         .resultInner {
           @apply w-[calc(100%-30px)] min-h-[750px] bg-[#FCFCFC] ml-[30px];
         }
+      }
+    }
+
+    @media (max-width: 480px) {
+      .filterInner {
+        flex-direction: column;
       }
     }
   }
@@ -107,11 +133,19 @@
 
   .categoryGroup {
     @apply relative w-full;
+    display: flex;
+  }
+
+  @media (max-width: 480px) {
+    .categoryGroup {
+      flex-direction: column;
+    }
   }
 }
 
 .toggleSubCategory {
-  @apply absolute top-0 right-0 w-6 h-6 flexCenter opacity-30 transition-all rounded-full;
+  @apply w-6 h-6 flexCenter opacity-30 transition-all rounded-full;
+  float: right;
 
   .toggleIcon {
     @apply w-[8px] h-[10px] text-gray-dark;
@@ -138,8 +172,16 @@
     @apply text-base;
   }
 
+  @media (max-width: 1179px) {
+    .selectLabel {
+      @apply text-sm;
+    }
+  }
+
   .selectCheck {
     @apply w-5 h-5 rounded-full;
+    min-width: 20px;
+    min-height: 20px;
   }
 }
 
@@ -219,7 +261,7 @@
 
 .resultArea {
   @apply h-full flex flex-wrap justify-start gap-0;
-  margin-left: 32px;
+
 }
 
 .loadingSkeleton {
@@ -232,14 +274,15 @@
 
 .productCard {
   @apply w-full bg-white border border-solid border-gray-lightest;
-  @apply p-0 m-2; 
+  @apply p-0 m-2;
+  min-width: 168px;
 
   .cardInner {
     @apply relative h-full;
 
     .thumb {
       @apply relative aspect-square overflow-hidden;
-      
+
       img {
         @apply whFull;
       }
@@ -247,20 +290,20 @@
 
     .content {
       @apply p-2 pb-[60px];
-      
+
       @screen sm {
         @apply p-4;
       }
-      
+
       .productTitle {
         @apply mb-2;
         @include mixin.textEllipsis(2);
       }
-      
+
       .category {
         @apply mb-2;
       }
-      
+
       .description {
         @apply text-sm mb-[44px];
         @include mixin.textEllipsis(3);
@@ -272,16 +315,19 @@
     }
   }
 
-  @screen sm {
-    width: calc(50% - 16px);
+  @media (max-width: 688px) {
+    width: 100%;
   }
 
-  @screen md {
+  @media (max-width: 911px) and (min-width: 689px) {
+    width: calc(50% - 24px);
+  }
+
+  @media (max-width: 1091px) and (min-width: 910px) {
     width: calc(33.33% - 24px);
   }
 
-  @screen lg {
+  @media (min-width: 1092px) {
     width: calc(25% - 32px);
   }
 }
-

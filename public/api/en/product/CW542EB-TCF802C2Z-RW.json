@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CW522EB-TCF804C2Z-SW",
+    "title": "CW542EB / TCF802C2Z",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "CW522EB-TCF804C2Z-SW",
+      "label": "CW542EB / TCF802C2Z",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CW522EB-TCF804C2Z-SW"
+        "href": "/en/product/CW542EB-TCF802C2Z-RW"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "CW522EB-TCF804C2Z-SW",
-      "slug": "CW522EB-TCF804C2Z-SW",
+      "modelNumber": "CW542EB / TCF802C2Z",
+      "slug": "CW542EB-TCF802C2Z-RW",
       "productName": "Close Coupled Toilet with WASHLET",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "CW522EB-TCF804C2Z-SW",
+        "id": "CW542EB / TCF802C2Z",
         "category": [
           "washlet+"
         ],

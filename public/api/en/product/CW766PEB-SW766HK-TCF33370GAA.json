@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CW766PEB-SW766HK+TCF33370GAA",
+    "title": "CW766PEB / SW766HK+ TCF33370GAA",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "CW766PEB-SW766HK+TCF33370GAA",
+      "label": "CW766PEB / SW766HK+ TCF33370GAA",
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW766PEB-SW766HK+TCF33370GAA"
@@ -38,7 +38,7 @@
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "CW766PEB-SW766HK+TCF33370GAA",
+        "id": "CW766PEB / SW766HK+ TCF33370GAA",
         "category": [
           "washlet+"
         ],
@@ -175,7 +175,7 @@
         "videos": [],
         "relatedProduct": [
 					"TCF34320GAA#NW1",
-					"CW766PEB-SW766HK+TCF33370GAA"
+					"CW766PEB / SW766HK+ TCF33370GAA"
 				],
         "compatibleProduct": [],
         "remarks": []
