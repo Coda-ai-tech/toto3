@@ -74,7 +74,7 @@
         min-width: 174px;
       }
 
-      @media (max-width: 480px) {
+      @media (max-width: 690px) {
         .categories {
           width: 100%;
         }
@@ -86,14 +86,22 @@
 
       .resultWrap {
         @apply w-10/12 h-auto;
+        width: 100%;
 
         .resultInner {
           @apply w-[calc(100%-30px)] min-h-[750px] bg-[#FCFCFC] ml-[30px];
         }
+
+        @media (max-width: 690px) {
+          .resultInner {
+            margin: 0;
+            width: 100%;
+          }
+        }
       }
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 690px) {
       .filterInner {
         flex-direction: column;
       }
@@ -187,6 +195,8 @@
 
   .selectCheck {
     @apply w-4 h-4 rounded-[4px];
+    min-width: 16px;
+    min-height: 16px;
   }
 }
 
@@ -254,6 +264,21 @@
   }
 }
 
+@media (max-width: 690px) {
+  .resultArea {
+    @apply p-[8px] flex;
+  }
+
+  .resultPagination {
+    @apply p-[30px] flex;
+    justify-content: center;
+
+    .paginationButton {
+      padding: 0 12px;
+    }
+  }
+}
+
 .resultArea {
   @apply h-full flex flex-wrap justify-start gap-0;
 
@@ -310,11 +335,11 @@
     }
   }
 
-  @media (max-width: 688px) {
-    width: 100%;
-  }
+  // @media (max-width: 688px) {
+  //   width: 100%;
+  // }
 
-  @media (max-width: 911px) and (min-width: 689px) {
+  @media (max-width: 911px) {
     width: calc(50% - 24px);
   }
 

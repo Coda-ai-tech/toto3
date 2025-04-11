@@ -186,7 +186,7 @@ const categoryList: CategoryItem[] = [
     ],
   },
   {
-    id: 'bathtub',
+    id: 'Bathtub',
     label: {
       en: 'BATHTUB',
       zh: 'BATHTUB',
@@ -253,7 +253,7 @@ const categoryList: CategoryItem[] = [
     ],
   },
   {
-    id: 'shower',
+    id: 'Shower',
     label: {
       en: 'SHOWER',
       zh: 'SHOWER',
@@ -264,6 +264,13 @@ const categoryList: CategoryItem[] = [
         label: {
           en: 'SHOWER MIXER',
           zh: 'SHOWER MIXER',
+        },
+      },
+      {
+        id: 'concealed-shower-mixer',
+        label: {
+          en: 'CONCEALED SHOWER MIXER',
+          zh: 'CONCEALED SHOWER MIXER',
         },
       },
       {
@@ -690,7 +697,9 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
         if (selectedCategory.sub === null || selectedCategory.sub.length < 1) {
           return product.category.includes(selectedCategory.cid);
         } else {
-          return selectedCategory.sub.some((sub: any) => product.subCategory && product.subCategory.includes(sub));
+          return selectedCategory.sub.some(
+            (sub: string) => product.subCategory?.includes(sub)
+          );
         }
       });
     });
