@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "CW914J / 296WF",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW914J / 296WF",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW914J-296WF"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW914J / 296WF",
+      "slug": "CW914J-296WF",
+      "productName": "Elongated G-max Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW914J-296WF",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "one-piece-toilet",
+          ""
+        ],
+        "description": "Elongated G-max Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Elongated G-max Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "730 x 450 x 633mm",
+          "FlushingSystem": "G-Max",
+          "WaterConsumption": "6L",
+          "TrapType": "S-Trap (Rough-in: 305mm) ",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2016,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW914J-296WF/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": []
+      }
+    }
+  ]
+}

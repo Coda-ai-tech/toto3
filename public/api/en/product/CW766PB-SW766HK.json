@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "title": "CW766PB / SW766HK",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW766PB / SW766HK",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW766PB-SW766HK"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW766PB / SW766HK",
+      "slug": "CW766PB-SW766HK",
+      "productName": "D shape Tornado Flush Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW766PB-SW766HK",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "close-coupled-toilet",
+          ""
+        ],
+        "description": "D shape Tornado Flush Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/D shape Tornado Flush Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "724 x 408 x 777mm",
+          "FlushingSystem": "Tornado Flush",
+          "WaterConsumption": "3/6L",
+          "TrapType": "P-trap (Rough in: 180mm)",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "TORNADO FLUSH",
+            "description": "Revolutionary powerful jets rimless flushing system",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/tornado-flush"
+            },
+            "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
+            "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
+          },
+          {
+            "title": "RIMLESS",
+            "description": "Leaves no place for waste and germs to hide",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/rimless"
+            },
+            "icon": "/assets/img/content/technology/rimless/ico-rimless.png",
+            "thumb": "/assets/img/content/technology/rimless/thumb-rimless.png"
+          },
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW766PB-SW766HK/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "CW766B-SW766HK",
+          "CW766PEB-SW766HK+TCF34570GAA",
+          "CW766PEB-SW766HK+TCF33370GAA"
+        ],
+        "compatibleProduct": [
+          "TCF34320GAA",
+          "TCF33320GAA"
+        ],
+        "remarks": []
+      }
+    }
+  ]
+}

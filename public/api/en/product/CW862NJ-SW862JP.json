@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "CW862NJ / SW862JP",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW862NJ / SW862JP",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW862NJ-SW862JP"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW862NJ / SW862JP",
+      "slug": "CW862NJ-SW862JP",
+      "productName": "Regular Wash Down Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW862NJ-SW862JP",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "close-coupled-toilet",
+          ""
+        ],
+        "description": "Regular Wash Down Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Regular Wash Down Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "715 x 377 x 717mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3L/4.5L",
+          "TrapType": "S trap (Rough in: 305mm)",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2016,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW862NJ-SW862JP/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "CW862NPJ-SW862JP"
+        ],
+        "compatibleProduct": [
+          "TCF34320GAA",
+          "TCF33320GAA"
+        ],
+        "remarks": []
+      }
+    }
+  ]
+}

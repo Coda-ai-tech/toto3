@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "CW635J / SW635JP1",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW635J / SW635JP1",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW635J-SW635JP1"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW635J / SW635JP1",
+      "slug": "CW635J-SW635JP1",
+      "productName": "Elongated Wash Down Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW635J-SW635JP1",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "close-coupled-toilet",
+          ""
+        ],
+        "description": "Elongated Wash Down Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Elongated Wash Down Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "690 x 400 x 723 mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3L/4.5L",
+          "TrapType": "S trap (Rough in: 220mm)",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2016,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW635J-SW635JP1/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "CW635PJ-SW635JP1"
+        ],
+        "compatibleProduct": [],
+        "remarks": []
+      }
+    }
+  ]
+}

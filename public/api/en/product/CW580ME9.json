@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "CW580ME9",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW580ME9",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW580ME9"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW580ME9",
+      "slug": "CW580ME9",
+      "productName": "Regular Wash Down Wall Hung Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW580ME9",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "wall-hung-toilet",
+          ""
+        ],
+        "description": "Regular Wash Down Wall Hung Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Regular Wash Down Wall Hung Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "520 x 354 x 348mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3L/6L",
+          "TrapType": "220mm",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW580ME9/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": []
+      }
+    }
+  ]
+}

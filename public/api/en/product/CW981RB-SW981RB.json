@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "CW981RB / SW981RB",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW981RB / SW981RB",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW981RB-SW981RB"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW981RB / SW981RB",
+      "slug": "CW981RB-SW981RB",
+      "productName": "Elongated Wash Down Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW981RB-SW981RB",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "close-coupled-toilet",
+          ""
+        ],
+        "description": "Elongated Wash Down Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Elongated Wash Down Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "697 x 361 x 773mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3.5/5L",
+          "TrapType": "S trap (Rough in: 305mm)",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW981RB-SW981RB/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "CW981PB-SW981B"
+        ],
+        "compatibleProduct": [
+          "TCF4914Z",
+          "TCF791HK",
+          "TCF24410GAA",
+          "TCF23410GAA"
+        ],
+        "remarks": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "CW824NPJ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW824NPJ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW824NPJ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW824NPJ",
+      "slug": "CW824NPJ",
+      "productName": "Regular Wash Down Wall Faced Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW824NPJ",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "wall-faced-toilet",
+          ""
+        ],
+        "description": "Regular Wash Down Wall Faced Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Regular Wash Down Wall Faced Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "525 x 360 x 390mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3L/4.5L",
+          "TrapType": "P-trap (Rough in: 180mm)",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2016,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW824NPJ/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "CW812J",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW812J",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW812J"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW812J",
+      "slug": "CW812J",
+      "productName": "Elongated Wash Down Wall Hung Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW812J",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "wall-hung-toilet",
+          ""
+        ],
+        "description": "Elongated Wash Down Wall Hung Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Elongated Wash Down Wall Hung Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "595 x 380 x 346mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3L/4.5L",
+          "TrapType": "210mm",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2016,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW812J/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": []
+      }
+    }
+  ]
+}

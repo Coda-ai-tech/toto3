@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "DCE605UE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "DCE605UE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/DCE605UE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "DCE605UE",
+      "slug": "DCE605UE",
+      "productName": "Concealed type Flush Valve with Sensor for Toilet (with Manual Button)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "DCE605UE",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "toilet-sensor-flush-valve-",
+          ""
+        ],
+        "description": "Concealed type Flush Valve with Sensor for Toilet (with Manual Button)",
+        "images": [
+          "/assets/img/content/products/Toilets/Concealed type Flush Valve with Sensor for Toilet (with Manual Button)/content-image.png"
+        ],
+        "features": [
+          "- Sea water use",
+          "- Metal cover",
+          "- AC220V",
+          ""
+        ],
+        "specs": {
+          "Size": "130 x 130mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "6L",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Metal cover"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Toilets/DCE605UE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": []
+      }
+    }
+  ]
+}

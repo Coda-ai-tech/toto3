@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "C320E1 / S320DPE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "C320E1 / S320DPE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/C320E1-S320DPE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "C320E1 / S320DPE",
+      "slug": "C320E1-S320DPE",
+      "productName": "Elongated Wash Down Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "C320E1-S320DPE",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "close-coupled-toilet",
+          ""
+        ],
+        "description": "Elongated Wash Down Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Elongated Wash Down Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "695 x 380 x 765mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3/4.8L",
+          "TrapType": "S trap (Rough in: 305mm)",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2016,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Toilets/C320E1-S320DPE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [
+          "TCF4914Z",
+          "TCF791HK",
+          "TCF24410GAA",
+          "TCF23410GAA"
+        ],
+        "remarks": []
+      }
+    }
+  ]
+}

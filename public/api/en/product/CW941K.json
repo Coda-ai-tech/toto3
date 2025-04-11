@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "CW941K",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW941K",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW941K"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW941K",
+      "slug": "CW941K",
+      "productName": "Elongated Wash Down Wall Hung Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW941K",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "wall-hung-toilet",
+          ""
+        ],
+        "description": "Elongated Wash Down Wall Hung Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Elongated Wash Down Wall Hung Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "360 x 530 x 304mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3/6L",
+          "TrapType": "220mm",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW941K/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": []
+      }
+    }
+  ]
+}
