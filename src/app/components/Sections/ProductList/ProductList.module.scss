@@ -211,6 +211,10 @@
 .resultArea,
 .resultPagination {
   @apply p-[30px] flex;
+
+  .paginationButton {
+    padding: 0 12px;
+  }
 }
 
 .resultArea {
