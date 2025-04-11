@@ -535,7 +535,7 @@ const ProductCard = ({ data }: { data: ProductItem }) => {
         </div>
         <div className={`${styles.content}`}>
           <h4 className={`${styles.productTitle}`}>{id}</h4>
-          <div className={`${styles.category}`}><b>{subCategory && subCategory[0] ? subCategory[0].toUpperCase() : category[0].toUpperCase() }</b></div>
+          <div className={`${styles.category}`}><b>{subCategory && subCategory[0] ? subCategory[0].toUpperCase() : category[0].toUpperCase()}</b></div>
           <div className={`${styles.description}`}>{name}</div>
         </div>
         <div className={`${styles.action}`}>
@@ -551,7 +551,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
 
   const { lang } = useParams();
 
-  const pagePerItem = useRef(10);
+  const pagePerItem = useRef(12);
   const searchInput = useRef<HTMLInputElement>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [products, setProducts] = useState<ProductItem[]>();
@@ -561,6 +561,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   const [selectedCategory, setSelectedCategory] = useState<any>([]);
   const [displayItems, setDisplayItems] = useState<ProductItem[]>();
   const [isShowSubCategories, setShowSubCategories] = useState<any>([]);
+  const [selectedProducts, setSelectedProducts] = useState<ProductItem[]>();
 
   const fetchData = async () => {
     setProducts(productData.data);
@@ -636,6 +637,8 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
           }
         }
 
+        setPage(1);
+
         return updatedCategories;
       });
     },
@@ -647,6 +650,23 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     const endIndex = startIndex + itemsPerPage;
     return array.slice(startIndex, endIndex);
   };
+
+  const prevPage = () => {
+    console.log(page);
+    if (page > 1){
+      const prev = page - 1;
+      setPage(prev);
+    }
+  }
+
+  const nextPage = () => {
+    console.log(page);
+    if (page < totalPage) {
+      const next = page + 1;
+      setPage(next);
+    }
+  };
+  
 
   const getIsSelected = (cid: string, scid?: string): boolean => {
     if (!selectedCategory) return false;
@@ -681,6 +701,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   const getDisplayData = useCallback(() => {
     if (!products) return;
     setDisplayItems([]);
+    setSelectedProducts([]);
     setIsLoading(true);
 
     setTimeout(() => {
@@ -692,8 +713,8 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
       const res = splitPages(searchKeyFilteredData, pagePerItem.current, page);
       const getTotalPage = Math.ceil(searchKeyFilteredData.length / pagePerItem.current);
 
-      setPage(1);
       setTotalPage(getTotalPage);
+      setSelectedProducts(searchKeyFilteredData);
       setDisplayItems(res);
       setIsLoading(false);
     }, 500);
@@ -720,6 +741,15 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     getDisplayData();
   }, [products, getDisplayData, keyword, selectedCategory]);
 
+  useEffect(() => {
+    const source = selectedProducts || products;
+    if (source) {
+      const newItems = splitPages(source, pagePerItem.current, page);
+      setDisplayItems(newItems);
+      window.scrollTo(0, 0);
+    }
+  }, [page]);
+
   return (
     <section id={id ? id : `section${order}`} className={`${styles.productList}`}>
       <div className={`${styles.inner}`}>
@@ -734,9 +764,8 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
               </div>
               <button
                 onClick={() => resetFilter()}
-                className={`${styles.controlItem} ${styles.hasAction} ${
-                  selectedCategory.length > 0 || keyword.length > 0 ? styles.active : ''
-                }`}
+                className={`${styles.controlItem} ${styles.hasAction} ${selectedCategory.length > 0 || keyword.length > 0 ? styles.active : ''
+                  }`}
                 disabled={selectedCategory.length > 0 || keyword.length > 0 ? false : true}
               >
                 <div className={`${styles.controlIcon}`}>
@@ -779,9 +808,8 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
 
                     {cat?.sub && (
                       <button
-                        className={`${styles.toggleSubCategory} ${
-                          isShowSubCategories?.includes(cat.id) ? styles.active : ''
-                        }`}
+                        className={`${styles.toggleSubCategory} ${isShowSubCategories?.includes(cat.id) ? styles.active : ''
+                          }`}
                         onClick={() => updateShowSubCategory(cat.id)}
                       >
                         <div className={`${styles.toggleIcon}`}>
@@ -806,9 +834,8 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
                                   return (
                                     <button
                                       key={scIndex}
-                                      className={`${styles.subCategoryItem} ${
-                                        getIsSelected(cat.id, sCat.id) ? styles.active : ''
-                                      }`}
+                                      className={`${styles.subCategoryItem} ${getIsSelected(cat.id, sCat.id) ? styles.active : ''
+                                        }`}
                                       onClick={() => updateSelectedFilter({ type: 'sub', cid: cat.id, scid: sCat.id })}
                                     >
                                       <div className={`${styles.selectCheck}`}>
@@ -921,14 +948,24 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.3, ease: 'linear' }}
                       >
-                        no result..
+                        No result...
                       </motion.div>
                     )}
                   </AnimatePresence>
                 </div>
+                {!(!isLoading && displayItems && displayItems?.length < 1) && (
                 <div className={`${styles.resultPagination}`}>
+                  <button
+                    onClick={prevPage}
+                    className={styles.paginationButton}
+                  > &lt;&lt; </button>
                   {page} / {totalPage}
+                  <button
+                    onClick={nextPage}
+                    className={styles.paginationButton}
+                  > &gt;&gt; </button>
                 </div>
+                )}
               </div>
             </div>
           </div>
