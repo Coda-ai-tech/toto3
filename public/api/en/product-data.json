@@ -5027,6 +5027,51 @@
         "type": "routeLink",
         "href": "/en/product/PAY1760PE"
       }
+    },
+    {
+      "id": "P124L/R#SC1",
+      "name": "FRP Bathtub with Apron",
+      "category": [
+        "Bathtub"
+      ],
+      "subCategory": [
+        "apron-bathtub"
+      ],
+      "thumb": "/assets/img/content/products/Bathtub/apron-bathtub/P124L-R-SC1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/P124L-R-SC1"
+      }
+    },
+    {
+      "id": "P164L/R#SC1",
+      "name": "FRP Bathtub with Apron",
+      "category": [
+        "Bathtub"
+      ],
+      "subCategory": [
+        "apron-bathtub"
+      ],
+      "thumb": "/assets/img/content/products/Bathtub/apron-bathtub/P164L-R-SC1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/P164L-R-SC1"
+      }
+    },
+    {
+      "id": "PCS1000N#NW1",
+      "name": "Cover for P124L/R",
+      "category": [
+        "Bathtub"
+      ],
+      "subCategory": [
+        "apron-bathtub"
+      ],
+      "thumb": "/assets/img/content/products/Bathtub/apron-bathtub/PCS1000N#NW1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PCS1000N#NW1"
+      }
     }
   ]
 }
