@@ -248,17 +248,97 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                 <hr className={styles.lineBreak} />
               </div>
               <div className={styles.awardImages}>
-                {awardImages.map((imageLink, index) => (
-                  <div key={'image-' + index} className={styles.imageWrapper}>
-                    <Image
-                      src={imageLink.src}
-                      alt="Award Image"
-                      draggable={false}
-                      fill
-                      style={{ objectFit: 'contain' }}
-                    />
-                  </div>
-                ))}
+                {awardImages.map((imageLink, index) => {
+                  const name = imageLink.name.trim().toLowerCase();
+                  if (name === 'if design' || name === 'if-design' || name === 'if_design') {
+                    return (
+                      <div key={'image-' + index} className={styles.imageWrapper}>
+                        <Image
+                          src="/assets/img/content/products/awards/design_award.png"
+                          alt="IF Design Award"
+                          draggable={false}
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
+                    )
+                  } else if (name === 'if gold' || name === 'if-gold' || name === 'if_gold') {
+                    return (
+                      <div key={'image-' + index} className={styles.imageWrapper}>
+                        <Image
+                          src="/assets/img/content/products/awards/gold_award.png"
+                          alt="IF Gold Award 2017"
+                          draggable={false}
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
+                    )
+                  } else if (name === 'green good' || name === 'green-good' || name === 'green_good') {
+                    return (
+                      <div key={'image-' + index} className={styles.imageWrapper}>
+                        <Image
+                          src="/assets/img/content/products/awards/good_design.png"
+                          alt="Good Design"
+                          draggable={false}
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
+                    )
+                  } else if (name === 'reddot') {
+                    return (
+                      <div key={'image-' + index} className={styles.imageWrapper}>
+                        <Image
+                          src="/assets/img/content/products/awards/reddot_best.png"
+                          alt="Good Design"
+                          draggable={false}
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
+                    )
+                  } else if (name === 'reddot best' || name === 'reddot-best' || name === 'reddot_best') {
+                    return (
+                      <div key={'image-' + index} className={styles.imageWrapper}>
+                        <Image
+                          src="/assets/img/content/products/awards/reddot_best.png"
+                          alt="Good Design"
+                          draggable={false}
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
+                    )
+                  } else if (name === 'reddot winner' || name === 'reddot-winner' || name === 'reddot_winner') {
+                    return (
+                      <div key={'image-' + index} className={styles.imageWrapper}>
+                        <Image
+                          src="/assets/img/content/products/awards/reddot_winner.png"
+                          alt="Good Design"
+                          draggable={false}
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
+                    )
+                  }
+
+                }
+
+                  // (
+                  //   <div key={'image-' + index} className={styles.imageWrapper}>
+                  //     <Image
+                  //       src={imageLink.src}
+                  //       alt="Award Image"
+                  //       draggable={false}
+                  //       fill
+                  //       style={{ objectFit: 'contain' }}
+                  //     />
+                  //   </div>
+                  // )
+
+                )}
               </div>
             </div>
           }

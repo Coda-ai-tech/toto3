@@ -12,6 +12,7 @@ const endpointPrefixList = {
   }${NEXT_PUBLIC_DEV_API_ENDPOINT_SUFFIX}`,
   cms: `${NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${NEXT_PUBLIC_DEV_API_ENDPOINT_SUFFIX}`,
 };
+type Locale = typeof i18n.locales[number];
 
 const exceptionCase = (slug: string[]) => {
   if (/api|assets|favicon.ico|sw.js|turbopack|__nextjs_original-stack-frame/.test(slug[0]) || slug === undefined) {
@@ -31,7 +32,14 @@ export const GetPageData = async (dataType: DataTypeProps, slug: string[], from?
     console.log('\x1b[36m%s\x1b[0m', '➤ searchParams', searchParams);
   }
 
-  const endpoint = `${endpointPrefixList[dataType as keyof typeof endpointPrefixList]}/${slug.join('/')}.json`;
+  // 核心修改：替换 index.html 并确保语言参数
+  const cleanSlug = slug.map(s => s === 'index.html' ? i18n.defaultLocale : s);
+  const hasLanguage = i18n.locales.includes(cleanSlug[0] as Locale);
+  const finalSlug = hasLanguage ? cleanSlug : [i18n.defaultLocale, ...cleanSlug];
+  // 保持原有路径拼接
+  const endpoint = `${endpointPrefixList[dataType as keyof typeof endpointPrefixList]}/${finalSlug.join('/')}.json`;
+
+  // const endpoint = `${endpointPrefixList[dataType as keyof typeof endpointPrefixList]}/${slug.join('/')}.json`;
 
   try {
     const response = await fetch(endpoint);
