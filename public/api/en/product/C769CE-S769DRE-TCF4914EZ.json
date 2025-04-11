@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "C769CE-S769DRE-TCF4914EZ",
+    "title": "C769CE / S769DRE + TCF4914EZ",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "C769CE-S769DRE-TCF4914EZ",
+      "label": "C769CE / S769DRE + TCF4914EZ",
       "link": {
         "type": "routeLink",
         "href": "/en/product/C769CE-S769DRE-TCF4914EZ"
@@ -38,7 +38,7 @@
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "C769CE-S769DRE-TCF4914EZ",
+        "id": "C769CE / S769DRE + TCF4914EZ",
         "category": [
           "washlet+"
         ],

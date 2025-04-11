@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "CW821PJ / SW821JP",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW821PJ / SW821JP",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW821PJ-SW821JP"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW821PJ / SW821JP",
+      "slug": "CW821PJ-SW821JP",
+      "productName": "Regular Wash Down Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW821PJ-SW821JP",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "close-coupled-toilet"
+        ],
+        "description": "Regular Wash Down Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "710 × 400 × 780mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3L/6L",
+          "TrapType": "P-trap (Rough in: 180mm)",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW821PJ-SW821JP/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "CW821J-SW821JP"
+        ],
+        "compatibleProduct": [],
+        "remarks": []
+      }
+    }
+  ]
+}

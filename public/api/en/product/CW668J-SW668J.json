@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "CW668J / SW668J",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW668J / SW668J",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW668J-SW668J"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW668J / SW668J",
+      "slug": "CW668J-SW668J",
+      "productName": "Elongated Wash Down Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW668J-SW668J",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "close-coupled-toilet"
+        ],
+        "description": "Elongated Wash Down Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "700 x 465 x 810mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "6L",
+          "TrapType": "S trap (Rough in: 230mm)",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW668J-SW668J/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "CW668PJ-SW668J"
+        ],
+        "compatibleProduct": [
+          "TCF4914Z",
+          "TCF791HK",
+          "TCF24410GAA",
+          "TCF23410GAA"
+        ],
+        "remarks": []
+      }
+    }
+  ]
+}

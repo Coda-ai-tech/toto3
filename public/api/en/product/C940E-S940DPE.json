@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "C940E / S940DPE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "C940E / S940DPE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/C940E-S940DPE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "C940E / S940DPE",
+      "slug": "C940E-S940DPE",
+      "productName": "Elongated Wash Down Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "C940E-S940DPE",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "close-coupled-toilet"
+        ],
+        "description": "Elongated Wash Down Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "695 × 400 × 775mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3L/6L",
+          "TrapType": "P-trap (Rough in: 180mm)\n[S-trap (Rough-in 305mm) also available]",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Toilets/C940E-S940DPE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [
+          "TCF4914Z",
+          "TCF791HK",
+          "TCF24410GAA",
+          "TCF23410GAA"
+        ],
+        "remarks": []
+      }
+    }
+  ]
+}

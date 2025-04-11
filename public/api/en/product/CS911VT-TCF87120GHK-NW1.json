@@ -56,7 +56,6 @@
           "TORNADO FLUSH swirls and ejects waste entirely",
           "RIMLESS leaves no place for waste to hide",
           "CEFIONTECT forces waste to slide down",
-          "ACTILIGHT technology keeps the toilet clean with UV light and titanium dioxide",
           "Equipped with many more features which provide a comfortable experience for all users"
         ],
         "specs": {
@@ -203,16 +202,6 @@
             },
             "icon": "/assets/img/content/technology/dryer/ico-dryer.png",
             "thumb": "/assets/img/content/technology/dryer/thumb-dryer.png"
-          },
-          {
-            "title": "ACTILIGHT",
-            "description": "UV light and titanium dioxide technology keeps the toilet clean",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/actilight"
-            },
-            "icon": "/assets/img/content/technology/actilight/ico-actilight.png",
-            "thumb": "/assets/img/content/technology/actilight/thumb-actilight.png"
           }
         ],
         "downloads": [

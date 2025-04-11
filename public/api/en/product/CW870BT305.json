@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "CW870BT305",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW870BT305",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW870BT305"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW870BT305",
+      "slug": "CW870BT305",
+      "productName": "Elongated Tornado Flush Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW870BT305",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "one-piece-toilet"
+        ],
+        "description": "Elongated Tornado Flush Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/One-Piece Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "709 x 419 × 700mm",
+          "FlushingSystem": "Tornado Flush",
+          "WaterConsumption": "4.8L",
+          "TrapType": "S-trap  (Rough-in: 305mm)\n[400mm rough-in also available]",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2016,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "TORNADO FLUSH",
+            "description": "Revolutionary powerful jets rimless flushing system",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/tornado-flush"
+            },
+            "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
+            "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
+          },
+          {
+            "title": "RIMLESS",
+            "description": "Leaves no place for waste and germs to hide",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/rimless"
+            },
+            "icon": "/assets/img/content/technology/rimless/ico-rimless.png",
+            "thumb": "/assets/img/content/technology/rimless/thumb-rimless.png"
+          },
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          },
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW870BT305/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [
+          "TCF4914Z",
+          "TCF791HK",
+          "TCF24410GAA",
+          "TCF23410GAA"
+        ],
+        "remarks": []
+      }
+    }
+  ]
+}

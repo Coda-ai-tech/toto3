@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "WH171B",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "WH171B",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/WH171B"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "WH171B",
+      "slug": "WH171B",
+      "productName": "Concealed Cistern With Hanger",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "WH171B",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "concealed-cistern"
+        ],
+        "description": "Concealed Cistern With Hanger",
+        "images": [
+          "/assets/img/content/products/Toilets/Concealed Cistern/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "3.3L/6L",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Toilets/WH171B/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": []
+      }
+    }
+  ]
+}

@@ -245,10 +245,10 @@
       "name": "WASHLET with Closed-coupled Toilet (D-shape) with remote controller",
       "category": ["washlet+"],
       "subCategory": [],
-      "thumb": "/assets/img/content/products/Washlet+/CW766PEB-SW766HK+TCF34570GAA-remote/content-image.png",
+      "thumb": "/assets/img/content/products/Washlet+/CW766PEB-SW766HK+TCF34570GAA/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CW766PEB-SW766HK-TCF34570GAA-remote"
+        "href": "/en/product/CW766PEB-SW766HK-TCF34570GAA"
       }
     },
     {
@@ -272,7 +272,7 @@
       "thumb": "/assets/img/content/products/Lavatories/PJS02WE#MW/content-image.png",
       "link": {
           "type": "routeLink",
-          "href": "/en/product/PJS02WE#MW"
+          "href": "/en/product/PJS02WE-MW"
       }
     },
     {
@@ -285,7 +285,7 @@
         "thumb": "/assets/img/content/products/Lavatories/PJS03WE#MW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/PJS03WE#MW"
+            "href": "/en/product/PJS03WE-MW"
         }
     },
     {
@@ -298,7 +298,7 @@
         "thumb": "/assets/img/content/products/Lavatories/PJS04WE#MGB/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/PJS04WE#MGB"
+            "href": "/en/product/PJS04WE-MGB"
         }
     },
     {
@@ -350,7 +350,7 @@
         "thumb": "/assets/img/content/products/Lavatories/LW4704E#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/LW4704E#XW"
+            "href": "/en/product/LW4704E-XW"
         }
     },
     {
@@ -376,7 +376,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L4715RE#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L4715RE#XW"
+            "href": "/en/product/L4715RE-XW"
         }
     },
     {
@@ -402,7 +402,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L4716RE#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L4716RE#XW"
+            "href": "/en/product/L4716RE-XW"
         }
     },
     {
@@ -428,7 +428,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L4724E#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L4724E#XW"
+            "href": "/en/product/L4724E-XW"
         }
     },
     {
@@ -441,7 +441,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L4706E#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L4706E#XW"
+            "href": "/en/product/L4706E-XW"
         }
     },
     {
@@ -493,7 +493,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L1705E#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L1705E#XW"
+            "href": "/en/product/L1705E-XW"
         }
     },
     {
@@ -519,7 +519,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L1735E#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L1735E#XW"
+            "href": "/en/product/L1735E-XW"
         }
     },
     {
@@ -805,7 +805,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L5715E#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L5715E#XW"
+            "href": "/en/product/L5715E-XW"
         }
     },
     {
@@ -818,7 +818,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L5716E#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L5716E#XW"
+            "href": "/en/product/L5716E-XW"
         }
     },
     {
@@ -922,7 +922,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L710#NW1J/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L710#NW1J"
+            "href": "/en/product/L710-NW1J"
         }
     },
     {
@@ -1052,7 +1052,7 @@
         "thumb": "/assets/img/content/products/Lavatories/LW709RCB#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/LW709RCB#XW"
+            "href": "/en/product/LW709RCB-XW"
         }
     },
     {
@@ -1572,7 +1572,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L250C#NW1/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L250C#NW1"
+            "href": "/en/product/L250C-NW1"
         }
     },
     {
@@ -1832,7 +1832,7 @@
         "thumb": "/assets/img/content/products/Lavatories/LW537RB#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/LW537RB#XW"
+            "href": "/en/product/LW537RB-XW"
         }
     },
     {
@@ -1949,7 +1949,7 @@
         "thumb": "/assets/img/content/products/Lavatories/LW596RB#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/LW596RB#XW"
+            "href": "/en/product/LW596RB-XW"
         }
     },
     {
@@ -1962,7 +1962,7 @@
         "thumb": "/assets/img/content/products/Lavatories/L546E#XW/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/L546E#XW"
+            "href": "/en/product/L546E-XW"
         }
     },
     {
@@ -2547,7 +2547,7 @@
         "thumb": "/assets/img/content/products/Faucet/TX115LKBR#MB/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/TX115LKBR#MB"
+            "href": "/en/product/TX115LKBR-MB"
         }
     },
     {
@@ -2560,7 +2560,7 @@
         "thumb": "/assets/img/content/products/Faucet/TX116LKBR#MB/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/TX116LKBR#MB"
+            "href": "/en/product/TX116LKBR-MB"
         }
     },
     {
@@ -2599,7 +2599,7 @@
         "thumb": "/assets/img/content/products/Faucet/TX115LRS#MB/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/TX115LRS#MB"
+            "href": "/en/product/TX115LRS-MB"
         }
     },
     {
@@ -2612,7 +2612,7 @@
         "thumb": "/assets/img/content/products/Faucet/TX116LRSN#MB/content-image.png",
         "link": {
             "type": "routeLink",
-            "href": "/en/product/TX116LRSN#MB"
+            "href": "/en/product/TX116LRSN-MB"
         }
     },
     {
@@ -3437,6 +3437,681 @@
             "type": "routeLink",
             "href": "/en/product/CW823NJ"
         }
+    },
+    {
+      "id": "CW766PB / SW766HK",
+      "name": "D shape Tornado Flush Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW766PB-SW766HK/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW766PB-SW766HK"
+      }
+    },
+    {
+      "id": "CW273PJ / SW273JP",
+      "name": "Elongated Tornado Flush Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW273PJ-SW273JP/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW273PJ-SW273JP"
+      }
+    },
+    {
+      "id": "CW252PJ / SW252JP",
+      "name": "D shape Tornado Flush Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW252PJ-SW252JP/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW252PJ-SW252JP"
+      }
+    },
+    {
+      "id": "C769R4E / S769DRE",
+      "name": "Elongated Tornado Flush Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/C769R4E-S769DRE/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/C769R4E-S769DRE"
+      }
+    },
+    {
+      "id": "C767E / S767RE",
+      "name": "Elongated Tornado Flush Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/C767E-S767RE/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/C767E-S767RE"
+      }
+    },
+    {
+      "id": "CW811NPJ / SW811NJP",
+      "name": "Elongated Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW811NPJ-SW811NJP/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW811NPJ-SW811NJP"
+      }
+    },
+    {
+      "id": "CW635PJ / SW635JP1",
+      "name": "Elongated Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW635PJ-SW635JP1/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW635PJ-SW635JP1"
+      }
+    },
+    {
+      "id": "CW635PJ / SW635JP2",
+      "name": "Elongated Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW635PJ-SW635JP2/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW635PJ-SW635JP2"
+      }
+    },
+    {
+      "id": "CW896PJ / SW896JP",
+      "name": "Regular Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW896PJ-SW896JP/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW896PJ-SW896JP"
+      }
+    },
+    {
+      "id": "CW821PJ / SW821JP",
+      "name": "Regular Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW821PJ-SW821JP/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW821PJ-SW821JP"
+      }
+    },
+    {
+      "id": "C940E / S940DPE",
+      "name": "Elongated Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/C940E-S940DPE/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/C940E-S940DPE"
+      }
+    },
+    {
+      "id": "CW981PB / SW981B",
+      "name": "Elongated Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW981PB-SW981B/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW981PB-SW981B"
+      }
+    },
+    {
+      "id": "CW862NPJ / SW862JP",
+      "name": "Regular Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW862NPJ-SW862JP/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW862NPJ-SW862JP"
+      }
+    },
+    {
+      "id": "CW632PJ / SW632JP",
+      "name": "Regular Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW632PJ-SW632JP/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW632PJ-SW632JP"
+      }
+    },
+    {
+      "id": "CW631PJ / SW631JP",
+      "name": "Regular Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW631PJ-SW631JP/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW631PJ-SW631JP"
+      }
+    },
+    {
+      "id": "CW638PJ / SW638JP",
+      "name": "Regular Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW638PJ-SW638JP/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW638PJ-SW638JP"
+      }
+    },
+    {
+      "id": "CW781RPB / SW781SPB",
+      "name": "Elongated Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW781RPB-SW781SPB/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW781RPB-SW781SPB"
+      }
+    },
+    {
+      "id": "CW668PJ / SW668J",
+      "name": "Elongated Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW668PJ-SW668J/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW668PJ-SW668J"
+      }
+    },
+    {
+      "id": "CW660NPJ / SW660J",
+      "name": "Regular Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW660NPJ-SW660J/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW660NPJ-SW660J"
+      }
+    },
+    {
+      "id": "C320PE2 / S320DPE",
+      "name": "Elongated Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/C320PE2-S320DPE/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/C320PE2-S320DPE"
+      }
+    },
+    {
+      "id": "CW500PJ / SW500JP",
+      "name": "Regular Wash Down Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "close-coupled-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/close-coupled-toilet/CW500PJ-SW500JP/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW500PJ-SW500JP"
+      }
+    },
+    {
+      "id": "CW762B",
+      "name": "D-shape Tornado Flush Wall Hung Toilet For Flush Valve Use",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW762B/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW762B"
+      }
+    },
+    {
+      "id": "CW162B",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW162B/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW162B"
+      }
+    },
+    {
+      "id": "CW162Y",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW162Y/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW162Y"
+      }
+    },
+    {
+      "id": "CW162YH",
+      "name": "D-shape Tornado Flush Wall Hung Toilet for WASHLET Installation",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW162YH/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW162YH"
+      }
+    },
+    {
+      "id": "CW553KVH",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW553KVH/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW553KVH"
+      }
+    },
+    {
+      "id": "CW274J",
+      "name": "Elongated Tornado Flush Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW274J/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW274J"
+      }
+    },
+    {
+      "id": "CW822RA",
+      "name": "Elongated Tornado Flush Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW822RA/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW822RA"
+      }
+    },
+    {
+      "id": "CW822NJWS",
+      "name": "Elongated Wash Down Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW822NJWS/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW822NJWS"
+      }
+    },
+    {
+      "id": "CW941K",
+      "name": "Elongated Wash Down Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW941K/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW941K"
+      }
+    },
+    {
+      "id": "CW580ME9",
+      "name": "Regular Wash Down Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW580ME9/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW580ME9"
+      }
+    },
+    {
+      "id": "CW620NJ",
+      "name": "Regular Wash Down Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW620NJ/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW620NJ"
+      }
+    },
+    {
+      "id": "CW800J",
+      "name": "Regular Wash Down Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW800J/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW800J"
+      }
+    },
+    {
+      "id": "CW812J",
+      "name": "Elongated Wash Down Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW812J/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW812J"
+      }
+    },
+    {
+      "id": "CW542ME6",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW542ME6/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW542ME6"
+      }
+    },
+    {
+      "id": "CW163Y",
+      "name": "D-shape Tornado Flush Wall Faced Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-faced-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-faced-toilet/CW163Y/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW163Y"
+      }
+    },
+    {
+      "id": "CW763PB ",
+      "name": "D-shape Tornado Flush Wall Faced Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-faced-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-faced-toilet/CW763PB /content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW763PB "
+      }
+    },
+    {
+      "id": "CW763B ",
+      "name": "D-shape Tornado Flush Wall Faced Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-faced-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-faced-toilet/CW763B /content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW763B "
+      }
+    },
+    {
+      "id": "CW763FVPB ",
+      "name": "D-shape Tornado Flush Wall Faced Toilet\r\nFor Flush Valve Use",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-faced-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-faced-toilet/CW763FVPB /content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW763FVPB "
+      }
+    },
+    {
+      "id": "CW763FVB",
+      "name": "D-shape Tornado Flush Wall Faced Toilet\r\nFor Flush Valve Use",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-faced-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-faced-toilet/CW763FVB/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW763FVB"
+      }
+    },
+    {
+      "id": "CW254PJ",
+      "name": "D-shape Tornado Flush Wall Faced Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-faced-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-faced-toilet/CW254PJ/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW254PJ"
+      }
+    },
+    {
+      "id": "CW813PJ",
+      "name": "Elongated Wash Down Wall Faced Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-faced-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-faced-toilet/CW813PJ/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW813PJ"
+      }
+    },
+    {
+      "id": "CW824NPJ",
+      "name": "Regular Wash Down Wall Faced Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-faced-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-faced-toilet/CW824NPJ/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW824NPJ"
+      }
+    },
+    {
+      "id": "CW681PB",
+      "name": "Elongated Wash Down Wall Faced Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-faced-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-faced-toilet/CW681PB/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW681PB"
+      }
+    },
+    {
+      "id": "CW681B",
+      "name": "Elongated Wash Down Wall Faced Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-faced-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-faced-toilet/CW681B/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW681B"
+      }
     }
   ]
 }

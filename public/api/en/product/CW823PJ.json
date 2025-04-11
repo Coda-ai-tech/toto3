@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "CW823PJ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "CW823PJ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW823PJ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "CW823PJ",
+      "slug": "CW823PJ",
+      "productName": "Elongated Wash Down Toilet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "CW823PJ",
+        "category": [
+          "Toilets"
+        ],
+        "subCategory": [
+          "one-piece-toilet"
+        ],
+        "description": "Elongated Wash Down Toilet",
+        "images": [
+          "/assets/img/content/products/Toilets/One-Piece Toilet/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "760 x 510 x 605mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "6L",
+          "TrapType": "P-trap  (Rough-in: 180mm)",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Toilets/CW823PJ/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "CW823RA",
+          "CW823NJ"
+        ],
+        "compatibleProduct": [
+          "TCF4914Z",
+          "TCF791HK",
+          "TCF24410GAA",
+          "TCF23410GAA"
+        ],
+        "remarks": []
+      }
+    }
+  ]
+}
