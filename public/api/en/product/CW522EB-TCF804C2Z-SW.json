@@ -181,6 +181,15 @@
             },
             "icon": "/assets/img/content/technology/dryer/ico-dryer.png",
             "thumb": "/assets/img/content/technology/dryer/thumb-dryer.png"
+          },{
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
           }
         ],
         "downloads": [
