@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CS921PVT / TCF83410GHK#NW1",
+    "title": "CS911PVT / TCF87220GHK#NW1",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,31 +21,31 @@
       }
     },
     {
-      "label": "CS921PVT / TCF83410GHK#NW1",
+      "label": "CS911PVT / TCF87220GHK#NW1",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CS921PVT-TCF83410GHK-NW1"
+        "href": "/en/product/CS911PVT-TCF87220GHK-NW1"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "CS921PVT / TCF83410GHK#NW1",
-      "slug": "CS921PVT-TCF83410GHK#NW1",
+      "modelNumber": "CS911PVT / TCF87220GHK#NW1",
+      "slug": "CS911PVT-TCF87220GHK-NW1",
       "productName": "Neorest LS Multi-Function Toilet (P-Trap)",
       "isNew": "true",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "CS921PVT-TCF83410GHK#NW1",
+        "id": "CS911PVT-TCF87220GHK-NW1",
         "category": [
           "neorest"
         ],
         "subCategory": [],
         "description": "Neorest RS Multi-Function Toilet (P-Trap)",
         "images": [
-          "/assets/img/content/products/Neorest/CS921PVT-TCF83410GHK-NW1/content-image.png"
+          "/assets/img/content/products/Neorest/CS911PVT-TCF87220GHK-NW1/content-image.png"
         ],
         "features": [
           "Exquisite streamlined design",
@@ -205,7 +205,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Neorest/CS921PVT-TCF83410GHK-NW1/drawing.png"
+          "/assets/img/content/products/Neorest/CS911PVT-TCF87220GHK-NW1/drawing.png"
         ],
         "videos": [
           "https://www.youtube.com/watch?v=I1pFMbM8quc",
