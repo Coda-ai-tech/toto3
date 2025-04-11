@@ -4112,6 +4112,66 @@
         "type": "routeLink",
         "href": "/en/product/CW681B"
       }
+    },
+    {
+      "id": "DCE605U",
+      "name": "Concealed type Flush Valve with Sensor for Toilet (with Manual Button)",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "toilet-sensor-flush-valve"
+      ],
+      "thumb": "/assets/img/content/products/toilets/toilet-sensor-flush-valve/DCE605U/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/DCE605U"
+      }
+    },
+    {
+      "id": "DCE602U",
+      "name": "Concealed type Flush Valve with Sensor for Toilet (with Manual Button)",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "toilet-sensor-flush-valve"
+      ],
+      "thumb": "/assets/img/content/products/toilets/toilet-sensor-flush-valve/DCE602U/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/DCE602U"
+      }
+    },
+    {
+      "id": "DCE605UE",
+      "name": "Concealed type Flush Valve with Sensor for Toilet (with Manual Button)",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "toilet-sensor-flush-valve"
+      ],
+      "thumb": "/assets/img/content/products/toilets/toilet-sensor-flush-valve/DCE605UE/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/DCE605UE"
+      }
+    },
+    {
+      "id": "DCE605V3+DUE129UKV3",
+      "name": "Concealed type Flush Valve with Sensor for Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "toilet-sensor-flush"
+      ],
+      "thumb": "/assets/img/content/products/toilets/toilet-sensor-flush/DCE605V3+DUE129UKV3/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/DCE605V3+DUE129UKV3"
+      }
     }
   ]
 }
