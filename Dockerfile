@@ -54,9 +54,9 @@ RUN mkdir .next
 RUN chown nextjs:nodejs .next
 
 # 增加映射
-RUN mkdir -p /app/public/api/index.html && \
-    cp /app/public/api/en/home.json /app/public/api/index.html/ && \
-    cp /app/public/api/en/global.json /app/public/api/index.html/
+#RUN mkdir -p /app/public/api/index.html && \
+#    cp /app/public/api/en/home.json /app/public/api/index.html/ && \
+#    cp /app/public/api/en/global.json /app/public/api/index.html/
 
 # Automatically leverage output traces to reduce image size
 # https://nextjs.org/docs/advanced-features/output-file-tracing
