@@ -134,12 +134,7 @@
   .categoryGroup {
     @apply relative w-full;
     display: flex;
-  }
-
-  @media (max-width: 480px) {
-    .categoryGroup {
-      flex-direction: column;
-    }
+    flex-direction: column;
   }
 }
 
