@@ -77,7 +77,7 @@ const categoryList: CategoryItem[] = [
     sub: null,
   },
   {
-    id: 'toilet',
+    id: 'Toilet',
     label: {
       en: 'TOILET',
       zh: 'TOILET',
