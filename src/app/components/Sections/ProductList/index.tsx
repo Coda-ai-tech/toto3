@@ -121,7 +121,7 @@ const categoryList: CategoryItem[] = [
     ],
   },
   {
-    id: 'lavatory',
+    id: 'Lavatories',
     label: {
       en: 'LAVATORY',
       zh: 'LAVATORY',
@@ -216,7 +216,7 @@ const categoryList: CategoryItem[] = [
     ],
   },
   {
-    id: 'faucet',
+    id: 'Faucet',
     label: {
       en: 'FAUCET',
       zh: 'FAUCET',
