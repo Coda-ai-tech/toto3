@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "TBV01402BA",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TBV01402BA",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TBV01402BA"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TBV01402BA",
+      "slug": "TBV01402BA",
+      "productName": "Thermostat Bath & Shower Mixer",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TBV01402BA",
+        "category": [
+          "Shower"
+        ],
+        "subCategory": [
+          "bath-and-shower-mixer",
+          "thermostatic-bath-and-shower-mixer"
+        ],
+        "description": "Thermostat Bath & Shower Mixer",
+        "images": [
+          "/assets/img/content/products/Shower/bath-and-shower-mixer/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05MPa~1.00MPa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Shower/bath-and-shower-mixer/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "TBS04302B",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TBS04302B",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TBS04302B"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TBS04302B",
+      "slug": "TBS04302B",
+      "productName": "Single Lever Bath & Shower Mixer",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TBS04302B",
+        "category": [
+          "Shower"
+        ],
+        "subCategory": [
+          "bath-and-shower-mixer",
+          "bath-and-shower-mixer"
+        ],
+        "description": "Single Lever Bath & Shower Mixer",
+        "images": [
+          "/assets/img/content/products/Shower/bath-and-shower-mixer/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05MPa~1.00MPa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Shower/bath-and-shower-mixer/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

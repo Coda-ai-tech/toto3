@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "TBG10304H+TBN01001B",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TBG10304H+TBN01001B",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TBG10304H+TBN01001B"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TBG10304H+TBN01001B",
+      "slug": "TBG10304H+TBN01001B",
+      "productName": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TBG10304H+TBN01001B",
+        "category": [
+          "Shower"
+        ],
+        "subCategory": [
+          "bath-and-shower-mixer",
+          "concealed-bath-and-shower-mixer"
+        ],
+        "description": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+        "images": [
+          "/assets/img/content/products/Shower/bath-and-shower-mixer/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05MPa~1.00MPa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Shower/bath-and-shower-mixer/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

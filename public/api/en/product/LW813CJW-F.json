@@ -1,1 +1,84 @@
-{"meta":{"title":"LW813CJW/F","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"LW813CJW/F","link":{"type":"routeLink","href":"/en/product/LW813CJW-F"}}],"content":[{"id":null,"modelNumber":"LW813CJW/F","slug":"LW813CJW-F","productName":"Console Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"LW813CJW-F","category":["Lavatories"],"subCategory":[],"description":"Console Lavatory","images":["/assets/img/content/products/Lavatories/LW813CJW-F/content-image.png"],"features":[],"specs":{"Size":"600 x 480 x 150mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[],"downloads":["/assets/img/content/products/Lavatories/LW813CJW-F/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "LW813CJW/F",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "LW813CJW/F",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW813CJW-F"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "LW813CJW/F",
+      "slug": "LW813CJW-F",
+      "productName": "Console Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "LW813CJW-F",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "console-lavatory",
+          "vitreous-china"
+        ],
+        "description": "Console Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "600 x 480 x 150mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "600 x 480 x 150mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

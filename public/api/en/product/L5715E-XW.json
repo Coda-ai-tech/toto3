@@ -1,1 +1,101 @@
-{"meta":{"title":"L5715E#XW","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"L5715E#XW","link":{"type":"routeLink","href":"/en/product/L5715E#XW"}}],"content":[{"id":null,"modelNumber":"L5715E#XW","slug":"L5715E#XW","productName":"Console Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"L5715E#XW","category":["Lavatories"],"subCategory":[],"description":"Console Lavatory","images":["/assets/img/content/products/Lavatories/L5715E#XW/content-image.png"],"features":[],"specs":{"Size":"500 x 380 x 70mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[{"name":"IF Design","year":2018,"src":"/assets/img/content/products/awards/if_design.png"}],"technologies":[{"title":"CEFIONTECT","description":"Special hygienic glaze for a smooth ceramic surface","link":{"type":"routeLink","href":"/en/technology/cefiontect"},"icon":"/assets/img/content/technology/cefiontect/ico-cefiontect.png","thumb":"/assets/img/content/technology/cefiontect/thumb-cefiontect.png"}],"downloads":["/assets/img/content/products/Lavatories/L5715E#XW/drawing.png"],"videos":[],"relatedProduct":["L5716E#XW"],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "L5715E#XW",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "L5715E#XW",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/L5715E-XW"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "L5715E#XW",
+      "slug": "L5715E-XW",
+      "productName": "Console Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "L5715E-XW",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "console-lavatory",
+          "vitreous-china"
+        ],
+        "description": "Console Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "500 x 380 x 70mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "500 x 380 x 70mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [
+          {
+            "name": "IF Design",
+            "year": 2018,
+            "src": "/assets/img/content/products/awards/if_design.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

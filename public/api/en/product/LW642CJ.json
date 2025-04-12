@@ -1,1 +1,84 @@
-{"meta":{"title":"LW642CJ","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"LW642CJ","link":{"type":"routeLink","href":"/en/product/LW642CJ"}}],"content":[{"id":null,"modelNumber":"LW642CJ","slug":"LW642CJ","productName":"Semi Recessed Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"LW642CJ","category":["Lavatories"],"subCategory":[],"description":"Semi Recessed Lavatory","images":["/assets/img/content/products/Lavatories/LW642CJ/content-image.png"],"features":[],"specs":{"Size":"415 x 485mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[],"downloads":["/assets/img/content/products/Lavatories/LW642CJ/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "LW642CJ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "LW642CJ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW642CJ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "LW642CJ",
+      "slug": "LW642CJ",
+      "productName": "Semi Recessed Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "LW642CJ",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "semi-recessed-lavatory",
+          ""
+        ],
+        "description": "Semi Recessed Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "415 x 485mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "415 x 485mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

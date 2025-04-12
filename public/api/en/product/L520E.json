@@ -1,1 +1,95 @@
-{"meta":{"title":"L520E","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"L520E","link":{"type":"routeLink","href":"/en/product/L520E"}}],"content":[{"id":null,"modelNumber":"L520E","slug":"L520E","productName":"Under Counter Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"L520E","category":["Lavatories"],"subCategory":[],"description":"Under Counter Lavatory","images":["/assets/img/content/products/Lavatories/L520E/content-image.png"],"features":[],"specs":{"Size":"604 x 365mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[{"title":"CEFIONTECT","description":"Special hygienic glaze for a smooth ceramic surface","link":{"type":"routeLink","href":"/en/technology/cefiontect"},"icon":"/assets/img/content/technology/cefiontect/ico-cefiontect.png","thumb":"/assets/img/content/technology/cefiontect/thumb-cefiontect.png"}],"downloads":["/assets/img/content/products/Lavatories/L520E/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "L520E",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "L520E",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/L520E"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "L520E",
+      "slug": "L520E",
+      "productName": "Under Counter Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "L520E",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "under-counter-lavatory",
+          ""
+        ],
+        "description": "Under Counter Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "604 x 365mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "604 x 365mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

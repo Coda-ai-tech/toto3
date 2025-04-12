@@ -1,1 +1,84 @@
-{"meta":{"title":"LW810CJ","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"LW810CJ","link":{"type":"routeLink","href":"/en/product/LW810CJ"}}],"content":[{"id":null,"modelNumber":"LW810CJ","slug":"LW810CJ","productName":"Wall Hung Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"LW810CJ","category":["Lavatories"],"subCategory":[],"description":"Wall Hung Lavatory","images":["/assets/img/content/products/Lavatories/LW810CJ/content-image.png"],"features":[],"specs":{"Size":"450 x 400mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[],"downloads":["/assets/img/content/products/Lavatories/LW810CJ/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "LW810CJ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "LW810CJ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW810CJ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "LW810CJ",
+      "slug": "LW810CJ",
+      "productName": "Wall Hung Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "LW810CJ",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "wall-hung-lavatory",
+          ""
+        ],
+        "description": "Wall Hung Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/wall-hung-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "450 x 400mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "450 x 400mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/wall-hung-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

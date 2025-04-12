@@ -1,1 +1,84 @@
-{"meta":{"title":"LW817J","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"LW817J","link":{"type":"routeLink","href":"/en/product/LW817J"}}],"content":[{"id":null,"modelNumber":"LW817J","slug":"LW817J","productName":"Floor Standing Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"LW817J","category":["Lavatories"],"subCategory":[],"description":"Floor Standing Lavatory","images":["/assets/img/content/products/Lavatories/LW817J/content-image.png"],"features":[],"specs":{"Size":"700 x 460 x 900mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[],"downloads":["/assets/img/content/products/Lavatories/LW817J/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "LW817J",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "LW817J",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW817J"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "LW817J",
+      "slug": "LW817J",
+      "productName": "Floor Standing Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "LW817J",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "floor-standing-lavatory",
+          ""
+        ],
+        "description": "Floor Standing Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/floor-standing-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "700 x 460 x 900mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "700 x 460 x 900mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/floor-standing-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

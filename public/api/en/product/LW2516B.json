@@ -1,1 +1,95 @@
-{"meta":{"title":"LW2516B","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"LW2516B","link":{"type":"routeLink","href":"/en/product/LW2516B"}}],"content":[{"id":null,"modelNumber":"LW2516B","slug":"LW2516B","productName":"Under Counter Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"LW2516B","category":["Lavatories"],"subCategory":[],"description":"Under Counter Lavatory","images":["/assets/img/content/products/Lavatories/LW2516B/content-image.png"],"features":[],"specs":{"Size":"626 x 446mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[{"title":"CEFIONTECT","description":"Special hygienic glaze for a smooth ceramic surface","link":{"type":"routeLink","href":"/en/technology/cefiontect"},"icon":"/assets/img/content/technology/cefiontect/ico-cefiontect.png","thumb":"/assets/img/content/technology/cefiontect/thumb-cefiontect.png"}],"downloads":["/assets/img/content/products/Lavatories/LW2516B/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "LW2516B",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "LW2516B",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW2516B"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "LW2516B",
+      "slug": "LW2516B",
+      "productName": "Under Counter Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "LW2516B",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "under-counter-lavatory",
+          ""
+        ],
+        "description": "Under Counter Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "626 x 446mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "626 x 446mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

@@ -1,1 +1,95 @@
-{"meta":{"title":"LW596RB#XW","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"LW596RB#XW","link":{"type":"routeLink","href":"/en/product/LW596RB#XW"}}],"content":[{"id":null,"modelNumber":"LW596RB#XW","slug":"LW596RB#XW","productName":"Under Counter Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"LW596RB#XW","category":["Lavatories"],"subCategory":[],"description":"Under Counter Lavatory","images":["/assets/img/content/products/Lavatories/LW596RB#XW/content-image.png"],"features":[],"specs":{"Size":"550 x 370mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[{"title":"CEFIONTECT","description":"Special hygienic glaze for a smooth ceramic surface","link":{"type":"routeLink","href":"/en/technology/cefiontect"},"icon":"/assets/img/content/technology/cefiontect/ico-cefiontect.png","thumb":"/assets/img/content/technology/cefiontect/thumb-cefiontect.png"}],"downloads":["/assets/img/content/products/Lavatories/LW596RB#XW/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "LW596RB#XW",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "LW596RB#XW",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW596RB-XW"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "LW596RB#XW",
+      "slug": "LW596RB-XW",
+      "productName": "Under Counter Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "LW596RB-XW",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "under-counter-lavatory",
+          ""
+        ],
+        "description": "Under Counter Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "550 x 370mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "550 x 370mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

@@ -1,1 +1,84 @@
-{"meta":{"title":"LW815CJ","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"LW815CJ","link":{"type":"routeLink","href":"/en/product/LW815CJ"}}],"content":[{"id":null,"modelNumber":"LW815CJ","slug":"LW815CJ","productName":"Wall Hung Corner Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"LW815CJ","category":["Lavatories"],"subCategory":[],"description":"Wall Hung Corner Lavatory","images":["/assets/img/content/products/Lavatories/LW815CJ/content-image.png"],"features":[],"specs":{"Size":"615 x 485mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[],"downloads":["/assets/img/content/products/Lavatories/LW815CJ/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "LW815CJ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "LW815CJ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW815CJ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "LW815CJ",
+      "slug": "LW815CJ",
+      "productName": "Wall Hung Corner Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "LW815CJ",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "wall-hung-lavatory",
+          ""
+        ],
+        "description": "Wall Hung Corner Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/wall-hung-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "615 x 485mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "615 x 485mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/wall-hung-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

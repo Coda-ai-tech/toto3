@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "TX491SI",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX491SI",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX491SI"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX491SI",
+      "slug": "TX491SI",
+      "productName": "Fixed Shower Head (Ceiling type)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX491SI",
+        "category": [
+          "Shower"
+        ],
+        "subCategory": [
+          "fixed-shower-head-",
+          "ceiling-type"
+        ],
+        "description": "Fixed Shower Head (Ceiling type)",
+        "images": [
+          "/assets/img/content/products/Shower/fixed-shower-head-/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "300 x 300mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05MPa~0.75MPa",
+          "PowerRating": "",
+          "Material": [
+            "300 x 300mm"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Shower/fixed-shower-head-/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

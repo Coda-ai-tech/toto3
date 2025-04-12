@@ -1,1 +1,111 @@
-{"meta":{"title":"L4716RE#XW","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"L4716RE#XW","link":{"type":"routeLink","href":"/en/product/L4716RE#XW"}}],"content":[{"id":null,"modelNumber":"L4716RE#XW","slug":"L4716RE#XW","productName":"Console Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"L4716RE#XW","category":["Lavatories"],"subCategory":[],"description":"Console Lavatory","images":["/assets/img/content/products/Lavatories/L4716RE#XW/content-image.png"],"features":[],"specs":{"Size":"600 x 380 x 70mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[{"name":"IF Design","year":2017,"src":"/assets/img/content/products/awards/if_design.png"}],"technologies":[{"title":"CEFIONTECT","description":"Special hygienic glaze for a smooth ceramic surface","link":{"type":"routeLink","href":"/en/technology/cefiontect"},"icon":"/assets/img/content/technology/cefiontect/ico-cefiontect.png","thumb":"/assets/img/content/technology/cefiontect/thumb-cefiontect.png"}],"downloads":["/assets/img/content/products/Lavatories/L4716RE#XW/drawing.png"],"videos":[],"relatedProduct":["L4716RE"],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "L4716RE#XW",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "L4716RE#XW",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/L4716RE-XW"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "L4716RE#XW",
+      "slug": "L4716RE-XW",
+      "productName": "Console Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "L4716RE-XW",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "console-lavatory",
+          "vitreous-china"
+        ],
+        "description": "Console Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "600 x 380 x 70mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "600 x 380 x 70mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [
+          {
+            "name": "IF Design",
+            "year": 2017,
+            "src": "/assets/img/content/products/awards/if_design.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          },
+          {
+            "title": "LINEARCERAM",
+            "description": "Exquisitely thin is the next dimension of beauty",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/linearceram"
+            },
+            "icon": "/assets/img/content/technology/linearceram/ico-linearceram.png",
+            "thumb": "/assets/img/content/technology/linearceram/thumb-linearceram.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

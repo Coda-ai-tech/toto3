@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "TBG10306BA+TBN01105B",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TBG10306BA+TBN01105B",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TBG10306BA+TBN01105B"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TBG10306BA+TBN01105B",
+      "slug": "TBG10306BA+TBN01105B",
+      "productName": "Floor Standing Bathtub Filler",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TBG10306BA+TBN01105B",
+        "category": [
+          "Shower"
+        ],
+        "subCategory": [
+          "bathtub-filler",
+          "floor-standing"
+        ],
+        "description": "Floor Standing Bathtub Filler",
+        "images": [
+          "/assets/img/content/products/Shower/bathtub-filler/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05MPa~1.00MPa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Shower/bathtub-filler/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

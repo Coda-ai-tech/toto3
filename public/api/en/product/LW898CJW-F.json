@@ -1,1 +1,84 @@
-{"meta":{"title":"LW898CJW/F","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"LW898CJW/F","link":{"type":"routeLink","href":"/en/product/LW898CJW-F"}}],"content":[{"id":null,"modelNumber":"LW898CJW/F","slug":"LW898CJW-F","productName":"Wall Hung Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"LW898CJW-F","category":["Lavatories"],"subCategory":[],"description":"Wall Hung Lavatory","images":["/assets/img/content/products/Lavatories/LW898CJW-F/content-image.png"],"features":[],"specs":{"Size":"455 x 430mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[],"downloads":["/assets/img/content/products/Lavatories/LW898CJW-F/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "LW898CJW/F",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "LW898CJW/F",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW898CJW-F"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "LW898CJW/F",
+      "slug": "LW898CJW-F",
+      "productName": "Wall Hung Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "LW898CJW-F",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "wall-hung-lavatory",
+          ""
+        ],
+        "description": "Wall Hung Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/wall-hung-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "455 x 430mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "455 x 430mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/wall-hung-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

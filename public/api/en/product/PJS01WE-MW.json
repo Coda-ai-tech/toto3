@@ -1,1 +1,84 @@
-{"meta":{"title":"PJS01WE#MW","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"PJS01WE#MW","link":{"type":"routeLink","href":"/en/product/PJS01WE#MW"}}],"content":[{"id":null,"modelNumber":"PJS01WE#MW","slug":"PJS01WE#MW","productName":"Galaline Lavarory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"PJS01WE#MW","category":["Lavatories"],"subCategory":[],"description":"Galaline Lavarory","images":["/assets/img/content/products/Lavatories/PJS01WE#MW/content-image.png"],"features":[],"specs":{"Size":"632 x 404 x 154mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Galaline"],"Colour":[{"ForLavatory":["#MW Matte White"]}]},"awardImages":[],"technologies":[],"downloads":["/assets/img/content/products/Lavatories/PJS01WE#MW/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "PJS01WE#MW",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "PJS01WE#MW",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PJS01WE-MW"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "PJS01WE#MW",
+      "slug": "PJS01WE-MW",
+      "productName": "Console Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "PJS01WE-MW",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "console-lavatory",
+          "galaline"
+        ],
+        "description": "Console Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "632 x 404 x 154mm",
+          "FlushingSystem": "Galaline",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "632 x 404 x 154mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "#MW Matte White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

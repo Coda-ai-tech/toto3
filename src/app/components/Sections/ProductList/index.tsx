@@ -118,6 +118,13 @@ const categoryList: CategoryItem[] = [
           zh: 'CONCEALED CISTERN',
         },
       },
+      {
+        id: 'toielt-sensor-flush-valve',
+        label: {
+          en: 'TOILET SENSOR FLUSH VALVE',
+          zh: 'TOILET SENSOR FLUSH VALVE',
+        },
+      },
     ],
   },
   {
@@ -128,6 +135,13 @@ const categoryList: CategoryItem[] = [
     },
     sub: [
       {
+        id: 'galaline-lavatory',
+        label: {
+          en: 'GALALINE LAVATORY',
+          zh: 'GALALINE LAVATORY',
+        },
+      },
+      {
         id: 'console-lavatory',
         label: {
           en: 'CONSOLE LAVATORY',
@@ -135,17 +149,10 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'counter-top-lavatory',
+        id: 'self-rimming-lavatory',
         label: {
-          en: 'COUNTER TOP LAVATORY',
-          zh: 'COUNTER TOP LAVATORY',
-        },
-      },
-      {
-        id: 'under-counter-lavatory',
-        label: {
-          en: 'UNDER COUNTER LAVATORY',
-          zh: 'UNDER COUNTER LAVATORY',
+          en: 'SELF RIMMING LAVATORY',
+          zh: 'SELF RIMMING LAVATORY',
         },
       },
       {
@@ -156,13 +163,6 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'wall-hung-lavatory',
-        label: {
-          en: 'WALL HUNG LAVATORY',
-          zh: 'WALL HUNG LAVATORY',
-        },
-      },
-      {
         id: 'pedestal-lavatory',
         label: {
           en: 'PEDESTAL LAVATORY',
@@ -170,17 +170,26 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'galaline-lavatory',
-        label: {
-          en: 'GALALINE LAVATORY',
-          zh: 'GALALINE LAVATORY',
-        },
-      },
-      {
         id: 'floor-standing-lavatory',
         label: {
           en: 'FLOOR STANDING LAVATORY',
           zh: 'FLOOR STANDING LAVATORY',
+        },
+      },
+      
+      {
+        id: 'wall-hung-lavatory',
+        label: {
+          en: 'WALL HUNG LAVATORY',
+          zh: 'WALL HUNG LAVATORY',
+        },
+      },
+      
+      {
+        id: 'under-counter-lavatory',
+        label: {
+          en: 'UNDER COUNTER LAVATORY',
+          zh: 'UNDER COUNTER LAVATORY',
         },
       },
     ],
@@ -223,10 +232,10 @@ const categoryList: CategoryItem[] = [
     },
     sub: [
       {
-        id: 'lavatory-faucet',
+        id: 'single-lever-lavatory-faucet',
         label: {
-          en: 'LAVATORY FAUCET',
-          zh: 'LAVATORY FAUCET',
+          en: 'SINGLE LEVER LAVATORY FAUCET',
+          zh: 'SINGLE LEVER LAVATORY FAUCET',
         },
       },
       {
@@ -295,6 +304,13 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
+        id: 'thermostatic-bath-and-shower-mixer',
+        label: {
+          en: 'THERMOSTATIC BATH & SHOWER MIXER',
+          zh: 'THERMOSTATIC BATH & SHOWER MIXER',
+        },
+      },
+      {
         id: 'concealed-thermostat',
         label: {
           en: 'CONCEALED THERMOSTAT',
@@ -309,10 +325,17 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'bathtub-mixer',
+        id: 'bathtub-filler',
         label: {
-          en: 'BATHTUB MIXER',
-          zh: 'BATHTUB MIXER',
+          en: 'BATHTUB FILLER',
+          zh: 'BATHTUB FILLER',
+        },
+      },
+      {
+        id: 'bath-spout',
+        label: {
+          en: 'BATH SPOUT',
+          zh: 'BATH SPOUT',
         },
       },
       {
@@ -322,13 +345,7 @@ const categoryList: CategoryItem[] = [
           zh: 'HAND SHOWER',
         },
       },
-      {
-        id: 'sliding-rail',
-        label: {
-          en: 'SLIDING RAIL',
-          zh: 'SLIDING RAIL',
-        },
-      },
+      
       {
         id: 'shower-column',
         label: {
@@ -344,10 +361,17 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'bath-spout',
+        id: 'sliding-rail',
         label: {
-          en: 'BATH SPOUT',
-          zh: 'BATH SPOUT',
+          en: 'SLIDING RAIL',
+          zh: 'SLIDING RAIL',
+        },
+      },
+      {
+        id: 'shower-elbow',
+        label: {
+          en: 'SHOWER ELBOW',
+          zh: 'SHOWER ELBOW',
         },
       },
       {
@@ -358,10 +382,10 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'others',
+        id: 'body-shower',
         label: {
-          en: 'OTHERS',
-          zh: 'OTHERS',
+          en: 'BODY SHOWER',
+          zh: 'BODY SHOWER',
         },
       },
     ],
@@ -432,10 +456,24 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'toilet',
+        id: 'wall-hung-toilet',
         label: {
-          en: 'TOILET',
-          zh: 'TOILET',
+          en: 'WALL HUNG TOILET',
+          zh: 'WALL HUNG TOILET',
+        },
+      },
+      {
+        id: 'wall-faced-toilet',
+        label: {
+          en: 'WALL FACED TOILET',
+          zh: 'WALL FACED TOILET',
+        },
+      },
+      {
+        id: 'push-button-set-concealed-cistern',
+        label: {
+          en: 'WALL FACED TOILET',
+          zh: 'WALL FACED TOILET',
         },
       },
       {

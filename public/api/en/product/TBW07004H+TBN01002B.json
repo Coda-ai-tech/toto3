@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "TBW07004H+TBN01002B",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TBW07004H+TBN01002B",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TBW07004H+TBN01002B"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TBW07004H+TBN01002B",
+      "slug": "TBW07004H+TBN01002B",
+      "productName": "Fixed Shower Head (Wall Type)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TBW07004H+TBN01002B",
+        "category": [
+          "Shower"
+        ],
+        "subCategory": [
+          "fixed-shower-head-",
+          "wall-type"
+        ],
+        "description": "Fixed Shower Head (Wall Type)",
+        "images": [
+          "/assets/img/content/products/Shower/fixed-shower-head-/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "Ø300mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.15MPa~1.00MPa",
+          "PowerRating": "",
+          "Material": [
+            "Ø300mm"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Shower/fixed-shower-head-/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "TX721AEZ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX721AEZ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX721AEZ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX721AEZ",
+      "slug": "TX721AEZ",
+      "productName": "Sliding Rail (625mm)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX721AEZ",
+        "category": [
+          "Shower"
+        ],
+        "subCategory": [
+          "sliding-rail",
+          ""
+        ],
+        "description": "Sliding Rail (625mm)",
+        "images": [
+          "/assets/img/content/products/Shower/sliding-rail/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "625mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "625mm"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Shower/sliding-rail/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

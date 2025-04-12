@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "TBW07018A",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TBW07018A",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TBW07018A"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TBW07018A",
+      "slug": "TBW07018A",
+      "productName": "Sliding Rail\nSize: 850mm (square)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TBW07018A",
+        "category": [
+          "Shower"
+        ],
+        "subCategory": [
+          "sliding-rail",
+          ""
+        ],
+        "description": "Sliding Rail\nSize: 850mm (square)",
+        "images": [
+          "/assets/img/content/products/Shower/sliding-rail/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "850mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "850mm"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Shower/sliding-rail/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

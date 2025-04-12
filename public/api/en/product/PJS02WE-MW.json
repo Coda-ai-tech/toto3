@@ -24,7 +24,7 @@
       "label": "PJS02WE#MW",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/PJS02WE#MW"
+        "href": "/en/product/PJS02WE-MW"
       }
     }
   ],
@@ -32,31 +32,34 @@
     {
       "id": null,
       "modelNumber": "PJS02WE#MW",
-      "slug": "PJS02WE#MW",
+      "slug": "PJS02WE-MW",
       "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "PJS02WE#MW",
+        "id": "PJS02WE-MW",
         "category": [
           "Lavatories"
         ],
-        "subCategory": [],
+        "subCategory": [
+          "console-lavatory",
+          "galaline"
+        ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/PJS02WE#MW/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "600 x 400 x 120mm",
-          "FlushingSystem": "",
+          "FlushingSystem": "Galaline",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "Galaline"
+            "600 x 400 x 120mm"
           ],
           "Colour": [
             {
@@ -69,12 +72,12 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/PJS02WE#MW/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

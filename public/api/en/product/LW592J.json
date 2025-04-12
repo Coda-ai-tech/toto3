@@ -1,1 +1,84 @@
-{"meta":{"title":"LW592J","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"LW592J","link":{"type":"routeLink","href":"/en/product/LW592J"}}],"content":[{"id":null,"modelNumber":"LW592J","slug":"LW592J","productName":"Under Counter Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"LW592J","category":["Lavatories"],"subCategory":[],"description":"Under Counter Lavatory","images":["/assets/img/content/products/Lavatories/LW592J/content-image.png"],"features":[],"specs":{"Size":"520 x 375mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[],"downloads":["/assets/img/content/products/Lavatories/LW592J/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "LW592J",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "LW592J",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW592J"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "LW592J",
+      "slug": "LW592J",
+      "productName": "Under Counter Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "LW592J",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "under-counter-lavatory",
+          ""
+        ],
+        "description": "Under Counter Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "520 x 375mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "520 x 375mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

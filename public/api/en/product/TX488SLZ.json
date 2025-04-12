@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "TX488SLZ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX488SLZ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX488SLZ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX488SLZ",
+      "slug": "TX488SLZ",
+      "productName": "Fixed Shower Head (Wall Type)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX488SLZ",
+        "category": [
+          "Shower"
+        ],
+        "subCategory": [
+          "fixed-shower-head-",
+          "wall-type"
+        ],
+        "description": "Fixed Shower Head (Wall Type)",
+        "images": [
+          "/assets/img/content/products/Shower/fixed-shower-head-/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "Ø250mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05MPa~0.75MPa",
+          "PowerRating": "",
+          "Material": [
+            "Ø250mm"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Shower/fixed-shower-head-/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

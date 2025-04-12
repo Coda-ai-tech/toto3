@@ -1,1 +1,104 @@
-{"meta":{"title":"L4704E","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"L4704E","link":{"type":"routeLink","href":"/en/product/L4704E"}}],"content":[{"id":null,"modelNumber":"L4704E","slug":"L4704E","productName":"Console Lavatory (Colour)","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"L4704E","category":["Lavatories"],"subCategory":[],"description":"Console Lavatory (Colour)","images":["/assets/img/content/products/Lavatories/L4704E/content-image.png"],"features":[],"specs":{"Size":"460 x 420 x 130mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["#MW Matte White","#MBL Matte Black","#MBE Matte Beige","#MGR Matte Gray"]}]},"awardImages":[{"name":"Reddot","year":2020,"src":"/assets/img/content/products/awards/reddot_winner.png"}],"technologies":[],"downloads":["/assets/img/content/products/Lavatories/L4704E/drawing.png"],"videos":[],"relatedProduct":["LW4704E#XW"],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "L4704E",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "L4704E",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/L4704E"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "L4704E",
+      "slug": "L4704E",
+      "productName": "Console Lavatory (Colour)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "L4704E",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "console-lavatory",
+          "vitreous-china"
+        ],
+        "description": "Console Lavatory (Colour)",
+        "images": [
+          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "460 x 420 x 130mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "460 x 420 x 130mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "#MW Matte White",
+                "#MBL Matte Black",
+                "#MBE Matte Beige",
+                "#MGR Matte Gray"
+              ]
+            }
+          ]
+        },
+        "awardImages": [
+          {
+            "name": "Reddot",
+            "year": 2020,
+            "src": "/assets/img/content/products/awards/reddot_winner.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "LINEARCERAM",
+            "description": "Exquisitely thin is the next dimension of beauty",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/linearceram"
+            },
+            "icon": "/assets/img/content/technology/linearceram/ico-linearceram.png",
+            "thumb": "/assets/img/content/technology/linearceram/thumb-linearceram.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

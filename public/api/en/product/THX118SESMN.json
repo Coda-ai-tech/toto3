@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "THX118SESMN",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "THX118SESMN",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/THX118SESMN"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "THX118SESMN",
+      "slug": "THX118SESMN",
+      "productName": "2 Modes Hand Shower",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "THX118SESMN",
+        "category": [
+          "Shower"
+        ],
+        "subCategory": [
+          "hand-shower-",
+          ""
+        ],
+        "description": "2 Modes Hand Shower",
+        "images": [
+          "/assets/img/content/products/Shower/hand-shower-/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05MPa~0.75MPa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Shower/hand-shower-/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

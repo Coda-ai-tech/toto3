@@ -1,1 +1,84 @@
-{"meta":{"title":"LW528NJ","description":"This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.","keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub","ogImage":"/assets/img/og.jpg"},"breadcrumb":[{"label":"HOME","link":{"type":"routeLink","href":"/en"}},{"label":"PRODUCT","link":{"type":"routeLink","href":"/en/product"}},{"label":"LW528NJ","link":{"type":"routeLink","href":"/en/product/LW528NJ"}}],"content":[{"id":null,"modelNumber":"LW528NJ","slug":"LW528NJ","productName":"Semi Recessed Lavatory","isNew":"false","module":"ProductDetails","moduleOption":null,"content":{"id":"LW528NJ","category":["Lavatories"],"subCategory":[],"description":"Semi Recessed Lavatory","images":["/assets/img/content/products/Lavatories/LW528NJ/content-image.png"],"features":[],"specs":{"Size":"440 x 440mm","FlushingSystem":"","WaterConsumption":"","TrapType":"","WaterPressure":"","PowerRating":"","Material":["Vitreous China"],"Colour":[{"ForLavatory":["White"]}]},"awardImages":[],"technologies":[],"downloads":["/assets/img/content/products/Lavatories/LW528NJ/drawing.png"],"videos":[],"relatedProduct":[],"compatibleProduct":[],"remarks":[]}}]}
+{
+  "meta": {
+    "title": "LW528NJ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "LW528NJ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW528NJ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "LW528NJ",
+      "slug": "LW528NJ",
+      "productName": "Semi Recessed Lavatory",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "LW528NJ",
+        "category": [
+          "Lavatories"
+        ],
+        "subCategory": [
+          "semi-recessed-lavatory",
+          ""
+        ],
+        "description": "Semi Recessed Lavatory",
+        "images": [
+          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "440 x 440mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "440 x 440mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}
