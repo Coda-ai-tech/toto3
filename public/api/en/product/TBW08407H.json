@@ -48,7 +48,7 @@
         ],
         "description": "Themostatic Shower Colomn with Shelf",
         "images": [
-          "/assets/img/content/products/Shower/shower-column/content-image.png"
+          "/assets/img/content/products/Shower/shower-column/TBW08407H/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,53 @@
           "WaterPressure": "0.15MPa~1.00MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "WARM SPA",
+            "description": "Embraced in warmth, relaxed, and ready for rest.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/warm-spa"
+            },
+            "icon": "/assets/img/content/technology/warm-spa/ico-warm-spa.png",
+            "thumb": "/assets/img/content/technology/warm-spa/thumb-warm-spa.png"
+          },
+          {
+            "title": "COMFORT WAVE",
+            "description": "Large droplets of water, richly dense, give a luxurious sense of comfort.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/comfort-wave"
+            },
+            "icon": "/assets/img/content/technology/comfort-wave/ico-comfort-wave.png",
+            "thumb": "/assets/img/content/technology/comfort-wave/thumb-comfort-wave.png"
+          },
+          {
+            "title": "SAFETY THERMO",
+            "description": "Safe, reliable water temperature means a more relaxing bath-time",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/safety-thermo"
+            },
+            "icon": "/assets/img/content/technology/safety-thermo/ico-safety-thermo.png",
+            "thumb": "/assets/img/content/technology/safety-thermo/thumb-safety-thermo.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/shower-column/drawing.png"
+          "/assets/img/content/products/Shower/shower-column/TBW08407H/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

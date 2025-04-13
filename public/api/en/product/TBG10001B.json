@@ -48,7 +48,7 @@
         ],
         "description": "Bath Spout",
         "images": [
-          "/assets/img/content/products/Shower/bath-spout/content-image.png"
+          "/assets/img/content/products/Shower/bath-spout/TBG10001B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,31 @@
           "WaterPressure": "0.05MPa~1.00MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/bath-spout/drawing.png"
+          "/assets/img/content/products/Shower/bath-spout/TBG10001B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

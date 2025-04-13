@@ -48,7 +48,7 @@
         ],
         "description": "Wall Outlet with Shower Hanger",
         "images": [
-          "/assets/img/content/products/Shower/others/content-image.png"
+          "/assets/img/content/products/Shower/others/TBW08010A/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,31 @@
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/others/drawing.png"
+          "/assets/img/content/products/Shower/others/TBW08010A/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

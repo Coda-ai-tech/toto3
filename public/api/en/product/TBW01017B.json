@@ -48,7 +48,7 @@
         ],
         "description": "Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/hand-shower-/content-image.png"
+          "/assets/img/content/products/Shower/hand-shower-/TBW01017B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,18 @@
           "WaterPressure": "0.05MPa~0.75MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/hand-shower-/drawing.png"
+          "/assets/img/content/products/Shower/hand-shower-/TBW01017B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

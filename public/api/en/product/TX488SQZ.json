@@ -48,7 +48,7 @@
         ],
         "description": "Fixed Shower Head (Wall Type)",
         "images": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/content-image.png"
+          "/assets/img/content/products/Shower/fixed-shower-head-/TX488SQZ/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -61,12 +61,18 @@
           "Material": [
             "220 x 340mm (Oval Shape)"
           ],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/drawing.png"
+          "/assets/img/content/products/Shower/fixed-shower-head-/TX488SQZ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

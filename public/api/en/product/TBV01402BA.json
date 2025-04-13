@@ -43,12 +43,12 @@
           "Shower"
         ],
         "subCategory": [
-          "bath-and-shower-mixer",
-          "thermostatic-bath-and-shower-mixer"
+          "bath-&-shower-mixer",
+          "thermostatic-bath-&-shower-mixer"
         ],
         "description": "Thermostat Bath & Shower Mixer",
         "images": [
-          "/assets/img/content/products/Shower/bath-and-shower-mixer/content-image.png"
+          "/assets/img/content/products/Shower/bath-&-shower-mixer/TBV01402BA/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,49 @@
           "WaterPressure": "0.05MPa~1.00MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "HEAT PROTECT",
+            "description": "Experience a bathroom where safety and beauty become one",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/heat-protect"
+            },
+            "icon": "/assets/img/content/technology/heat-protect/ico-heat-protect.png",
+            "thumb": "/assets/img/content/technology/heat-protect/thumb-heat-protect.png"
+          },
+          {
+            "title": "SAFETY THERMO",
+            "description": "Safe, reliable water temperature means a more relaxing bath-time",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/safety-thermo"
+            },
+            "icon": "/assets/img/content/technology/safety-thermo/ico-safety-thermo.png",
+            "thumb": "/assets/img/content/technology/safety-thermo/thumb-safety-thermo.png"
+          },
+          {
+            "title": "SMA",
+            "description": "SMA-description",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/sma"
+            },
+            "icon": "/assets/img/content/technology/sma/ico-sma.png",
+            "thumb": "/assets/img/content/technology/sma/thumb-sma.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/bath-and-shower-mixer/drawing.png"
+          "/assets/img/content/products/Shower/bath-&-shower-mixer/TBV01402BA/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

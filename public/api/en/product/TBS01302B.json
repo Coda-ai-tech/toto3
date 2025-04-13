@@ -43,12 +43,12 @@
           "Shower"
         ],
         "subCategory": [
-          "bath-and-shower-mixer",
-          "bath-and-shower-mixer"
+          "bath-&-shower-mixer",
+          "bath-&-shower-mixer"
         ],
         "description": "Single Lever Bath & Shower Mixer",
         "images": [
-          "/assets/img/content/products/Shower/bath-and-shower-mixer/content-image.png"
+          "/assets/img/content/products/Shower/bath-&-shower-mixer/TBS01302B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,18 @@
           "WaterPressure": "0.05MPa~1.00MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/bath-and-shower-mixer/drawing.png"
+          "/assets/img/content/products/Shower/bath-&-shower-mixer/TBS01302B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

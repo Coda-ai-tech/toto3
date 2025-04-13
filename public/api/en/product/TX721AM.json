@@ -48,7 +48,7 @@
         ],
         "description": "Sliding Rail (900mm)",
         "images": [
-          "/assets/img/content/products/Shower/sliding-rail/content-image.png"
+          "/assets/img/content/products/Shower/sliding-rail/TX721AM/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -61,12 +61,18 @@
           "Material": [
             "900mm"
           ],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/sliding-rail/drawing.png"
+          "/assets/img/content/products/Shower/sliding-rail/TX721AM/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

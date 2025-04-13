@@ -48,7 +48,7 @@
         ],
         "description": "3 Modes Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/hand-shower-/content-image.png"
+          "/assets/img/content/products/Shower/hand-shower-/TBW07009H/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,49 @@
           "WaterPressure": "0.05MPa~1.00MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "COMFORT WAVE",
+            "description": "Large droplets of water, richly dense, give a luxurious sense of comfort.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/comfort-wave"
+            },
+            "icon": "/assets/img/content/technology/comfort-wave/ico-comfort-wave.png",
+            "thumb": "/assets/img/content/technology/comfort-wave/thumb-comfort-wave.png"
+          },
+          {
+            "title": "INTENSE WAVE",
+            "description": "A stimulating water stream that provides a more vigorous showering experience",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/intense-wave"
+            },
+            "icon": "/assets/img/content/technology/intense-wave/ico-intense-wave.png",
+            "thumb": "/assets/img/content/technology/intense-wave/thumb-intense-wave.png"
+          },
+          {
+            "title": "INTENSE WAVE+",
+            "description": "An enhanced version for a more intense experience",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/intense-wave-plus"
+            },
+            "icon": "/assets/img/content/technology/intense-wave-plus/ico-intense-wave-plus.png",
+            "thumb": "/assets/img/content/technology/intense-wave-plus/thumb-intense-wave-plus.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/hand-shower-/drawing.png"
+          "/assets/img/content/products/Shower/hand-shower-/TBW07009H/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

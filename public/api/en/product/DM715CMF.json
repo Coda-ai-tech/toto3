@@ -48,7 +48,7 @@
         ],
         "description": "Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/hand-shower-/content-image.png"
+          "/assets/img/content/products/Shower/hand-shower-/DM715CMF/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,28 @@
           "WaterPressure": "0.05MPa~0.75MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#MW Matte White (STI)",
+                "#MB Matte Black (STI)",
+                "#PG Polished Gold (STI)",
+                "#BG Brushed Gold (STI)",
+                "#PFG2 Polished French Gold (STI)",
+                "#BFG2 Brushed French Gold (STI)",
+                "#PRG2 Polished Rose Gold",
+                "#BRG2 Brushed Rose Gold (STI)",
+                "#PN2 Polished Nickel (STI)",
+                "#BN2 Brushed Nickel (STI)"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/hand-shower-/drawing.png"
+          "/assets/img/content/products/Shower/hand-shower-/DM715CMF/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

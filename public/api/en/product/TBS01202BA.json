@@ -48,7 +48,7 @@
         ],
         "description": "Deck Mounted Bath & Shower Set (4 Holes)",
         "images": [
-          "/assets/img/content/products/Shower/bathtub-filler/content-image.png"
+          "/assets/img/content/products/Shower/bathtub-filler/TBS01202BA/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,18 @@
           "WaterPressure": "0.05MPa~1.00MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/bathtub-filler/drawing.png"
+          "/assets/img/content/products/Shower/bathtub-filler/TBS01202BA/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

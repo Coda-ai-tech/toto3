@@ -48,7 +48,7 @@
         ],
         "description": "Fixed Shower Head (Wall Type)",
         "images": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/content-image.png"
+          "/assets/img/content/products/Shower/fixed-shower-head-/TBW07002H/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -61,12 +61,42 @@
           "Material": [
             "Ø250mm"
           ],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "COMFORT WAVE",
+            "description": "Large droplets of water, richly dense, give a luxurious sense of comfort.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/comfort-wave"
+            },
+            "icon": "/assets/img/content/technology/comfort-wave/ico-comfort-wave.png",
+            "thumb": "/assets/img/content/technology/comfort-wave/thumb-comfort-wave.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/drawing.png"
+          "/assets/img/content/products/Shower/fixed-shower-head-/TBW07002H/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

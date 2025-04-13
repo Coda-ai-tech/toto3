@@ -48,7 +48,7 @@
         ],
         "description": "Thermostatic  Shower Column Set with Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/shower-column/content-image.png"
+          "/assets/img/content/products/Shower/shower-column/TX454SMZ/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,29 @@
           "WaterPressure": "0.05MPa~0.75MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "SMA",
+            "description": "SMA-description",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/sma"
+            },
+            "icon": "/assets/img/content/technology/sma/ico-sma.png",
+            "thumb": "/assets/img/content/technology/sma/thumb-sma.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/shower-column/drawing.png"
+          "/assets/img/content/products/Shower/shower-column/TX454SMZ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

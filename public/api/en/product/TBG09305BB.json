@@ -48,7 +48,7 @@
         ],
         "description": "Single Lever Deck Mounted Bathtub Filler",
         "images": [
-          "/assets/img/content/products/Shower/bathtub-filler/content-image.png"
+          "/assets/img/content/products/Shower/bathtub-filler/TBG09305BB/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,52 @@
           "WaterPressure": "0.05MPa~1.00MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "COMFORT WAVE",
+            "description": "Large droplets of water, richly dense, give a luxurious sense of comfort.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/comfort-wave"
+            },
+            "icon": "/assets/img/content/technology/comfort-wave/ico-comfort-wave.png",
+            "thumb": "/assets/img/content/technology/comfort-wave/thumb-comfort-wave.png"
+          },
+          {
+            "title": "Comfort Glide",
+            "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/comfort-glide"
+            },
+            "icon": "/assets/img/content/technology/sma/ico-comfort-glide.png",
+            "thumb": "/assets/img/content/technology/sma/thumb-comfort-glide.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/bathtub-filler/drawing.png"
+          "/assets/img/content/products/Shower/bathtub-filler/TBG09305BB/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

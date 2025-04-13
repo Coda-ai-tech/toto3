@@ -48,7 +48,7 @@
         ],
         "description": "Sliding Rail (525mm)",
         "images": [
-          "/assets/img/content/products/Shower/sliding-rail/content-image.png"
+          "/assets/img/content/products/Shower/sliding-rail/TX721MEB/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -61,12 +61,18 @@
           "Material": [
             "525mm"
           ],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/sliding-rail/drawing.png"
+          "/assets/img/content/products/Shower/sliding-rail/TX721MEB/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -48,7 +48,7 @@
         ],
         "description": "Bath Spout",
         "images": [
-          "/assets/img/content/products/Shower/bath-spout/content-image.png"
+          "/assets/img/content/products/Shower/bath-spout/TX441SQ/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,18 @@
           "WaterPressure": "0.05MPa~0.75MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/bath-spout/drawing.png"
+          "/assets/img/content/products/Shower/bath-spout/TX441SQ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

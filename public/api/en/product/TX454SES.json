@@ -48,7 +48,7 @@
         ],
         "description": "Thermostatic  Shower Column Set with Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/shower-column/content-image.png"
+          "/assets/img/content/products/Shower/shower-column/TX454SES/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,39 @@
           "WaterPressure": "0.05MPa~0.75MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#MW Matte White (STI)",
+                "#MB Matte Black (STI)",
+                "#PG Polished Gold (STI)",
+                "#BG Brushed Gold (STI)",
+                "#PFG2 Polished French Gold (STI)",
+                "#BFG2 Brushed French Gold (STI)",
+                "#PRG2 Polished Rose Gold",
+                "#BRG2 Brushed Rose Gold (STI)",
+                "#PN2 Polished Nickel (STI)",
+                "#BN2 Brushed Nickel (STI)"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "SMA",
+            "description": "SMA-description",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/sma"
+            },
+            "icon": "/assets/img/content/technology/sma/ico-sma.png",
+            "thumb": "/assets/img/content/technology/sma/thumb-sma.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/shower-column/drawing.png"
+          "/assets/img/content/products/Shower/shower-column/TX454SES/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -43,12 +43,12 @@
           "Shower"
         ],
         "subCategory": [
-          "bath-and-shower-mixer",
-          "bath-and-shower-mixer"
+          "bath-&-shower-mixer",
+          "bath-&-shower-mixer"
         ],
         "description": "Single Lever Bath & Shower Mixer",
         "images": [
-          "/assets/img/content/products/Shower/bath-and-shower-mixer/content-image.png"
+          "/assets/img/content/products/Shower/bath-&-shower-mixer/DM355S/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,28 @@
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#MW Matte White (STI)",
+                "#MB Matte Black (STI)",
+                "#PG Polished Gold (STI)",
+                "#BG Brushed Gold (STI)",
+                "#PFG2 Polished French Gold (STI)",
+                "#BFG2 Brushed French Gold (STI)",
+                "#PRG2 Polished Rose Gold",
+                "#BRG2 Brushed Rose Gold (STI)",
+                "#PN2 Polished Nickel (STI)",
+                "#BN2 Brushed Nickel (STI)"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/bath-and-shower-mixer/drawing.png"
+          "/assets/img/content/products/Shower/bath-&-shower-mixer/DM355S/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

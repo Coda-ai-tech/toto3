@@ -48,7 +48,7 @@
         ],
         "description": "Wall Outlet",
         "images": [
-          "/assets/img/content/products/Shower/others/content-image.png"
+          "/assets/img/content/products/Shower/others/TBW01014B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,18 @@
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/others/drawing.png"
+          "/assets/img/content/products/Shower/others/TBW01014B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

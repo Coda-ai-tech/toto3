@@ -48,7 +48,7 @@
         ],
         "description": "Concealed Valve",
         "images": [
-          "/assets/img/content/products/Shower/concealed-thermostat/content-image.png"
+          "/assets/img/content/products/Shower/concealed-thermostat/TBV02101B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,18 @@
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/concealed-thermostat/drawing.png"
+          "/assets/img/content/products/Shower/concealed-thermostat/TBV02101B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

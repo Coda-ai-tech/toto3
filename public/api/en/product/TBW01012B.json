@@ -48,7 +48,7 @@
         ],
         "description": "Fixed Shower Head (Wall Type)",
         "images": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/content-image.png"
+          "/assets/img/content/products/Shower/fixed-shower-head-/TBW01012B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -61,12 +61,18 @@
           "Material": [
             "Ø102mm"
           ],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/drawing.png"
+          "/assets/img/content/products/Shower/fixed-shower-head-/TBW01012B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

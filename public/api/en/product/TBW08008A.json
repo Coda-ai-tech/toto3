@@ -48,7 +48,7 @@
         ],
         "description": "Body Shower (1 Mode)",
         "images": [
-          "/assets/img/content/products/Shower/others/content-image.png"
+          "/assets/img/content/products/Shower/others/TBW08008A/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,29 @@
           "WaterPressure": "0.05MPa~1.00MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "GYROSTREAM",
+            "description": "Shower nozzles with rotating and pulsating function",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/gyrostream"
+            },
+            "icon": "/assets/img/content/technology/gyrostream/ico-gyrostream.png",
+            "thumb": "/assets/img/content/technology/gyrostream/thumb-gyrostream.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/others/drawing.png"
+          "/assets/img/content/products/Shower/others/TBW08008A/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

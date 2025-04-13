@@ -48,7 +48,7 @@
         ],
         "description": "Cross Handle Floor Standing Bath Filler with Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/bathtub-filler/content-image.png"
+          "/assets/img/content/products/Shower/bathtub-filler/TX445SWCV3Z/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,18 @@
           "WaterPressure": "0.05MPa~0.75MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/bathtub-filler/drawing.png"
+          "/assets/img/content/products/Shower/bathtub-filler/TX445SWCV3Z/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

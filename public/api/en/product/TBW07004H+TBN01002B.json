@@ -48,7 +48,7 @@
         ],
         "description": "Fixed Shower Head (Wall Type)",
         "images": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/content-image.png"
+          "/assets/img/content/products/Shower/fixed-shower-head-/TBW07004H+TBN01002B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -61,12 +61,52 @@
           "Material": [
             "Ø300mm"
           ],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "WARM SPA",
+            "description": "Embraced in warmth, relaxed, and ready for rest.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/warm-spa"
+            },
+            "icon": "/assets/img/content/technology/warm-spa/ico-warm-spa.png",
+            "thumb": "/assets/img/content/technology/warm-spa/thumb-warm-spa.png"
+          },
+          {
+            "title": "COMFORT WAVE",
+            "description": "Large droplets of water, richly dense, give a luxurious sense of comfort.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/comfort-wave"
+            },
+            "icon": "/assets/img/content/technology/comfort-wave/ico-comfort-wave.png",
+            "thumb": "/assets/img/content/technology/comfort-wave/thumb-comfort-wave.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/drawing.png"
+          "/assets/img/content/products/Shower/fixed-shower-head-/TBW07004H+TBN01002B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

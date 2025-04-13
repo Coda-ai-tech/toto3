@@ -48,7 +48,7 @@
         ],
         "description": "Mini Unit",
         "images": [
-          "/assets/img/content/products/Shower/concealed-valve/content-image.png"
+          "/assets/img/content/products/Shower/concealed-valve/TBN01001B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -62,9 +62,20 @@
           "Colour": []
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "MINI UNIT",
+            "description": "Concealed unit for easy and adjustable faucet installation",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/mini-unit"
+            },
+            "icon": "/assets/img/content/technology/mini-unit/ico-mini-unit.png",
+            "thumb": "/assets/img/content/technology/mini-unit/thumb-mini-unit.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/concealed-valve/drawing.png"
+          "/assets/img/content/products/Shower/concealed-valve/TBN01001B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

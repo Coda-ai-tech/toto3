@@ -48,7 +48,7 @@
         ],
         "description": "Shower Coloumn with Fixed Shower Head without Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/shower-column/content-image.png"
+          "/assets/img/content/products/Shower/shower-column/DM911CS/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,18 @@
           "WaterPressure": "0.05MPa~0.75MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/shower-column/drawing.png"
+          "/assets/img/content/products/Shower/shower-column/DM911CS/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

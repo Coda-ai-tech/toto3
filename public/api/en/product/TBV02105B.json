@@ -48,7 +48,7 @@
         ],
         "description": "3 Ways Diverter",
         "images": [
-          "/assets/img/content/products/Shower/concealed-thermostat/content-image.png"
+          "/assets/img/content/products/Shower/concealed-thermostat/TBV02105B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,29 @@
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "MINI UNIT",
+            "description": "Concealed unit for easy and adjustable faucet installation",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/mini-unit"
+            },
+            "icon": "/assets/img/content/technology/mini-unit/ico-mini-unit.png",
+            "thumb": "/assets/img/content/technology/mini-unit/thumb-mini-unit.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/concealed-thermostat/drawing.png"
+          "/assets/img/content/products/Shower/concealed-thermostat/TBV02105B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

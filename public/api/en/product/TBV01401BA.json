@@ -48,7 +48,7 @@
         ],
         "description": "Thermostat Shower Mixer",
         "images": [
-          "/assets/img/content/products/Shower/shower-mixer/content-image.png"
+          "/assets/img/content/products/Shower/shower-mixer/TBV01401BA/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -59,12 +59,62 @@
           "WaterPressure": "0.05MPa~1.00MPa",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "HEAT PROTECT",
+            "description": "Experience a bathroom where safety and beauty become one",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/heat-protect"
+            },
+            "icon": "/assets/img/content/technology/heat-protect/ico-heat-protect.png",
+            "thumb": "/assets/img/content/technology/heat-protect/thumb-heat-protect.png"
+          },
+          {
+            "title": "SAFETY THERMO",
+            "description": "Safe, reliable water temperature means a more relaxing bath-time",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/safety-thermo"
+            },
+            "icon": "/assets/img/content/technology/safety-thermo/ico-safety-thermo.png",
+            "thumb": "/assets/img/content/technology/safety-thermo/thumb-safety-thermo.png"
+          },
+          {
+            "title": "SMA",
+            "description": "SMA-description",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/sma"
+            },
+            "icon": "/assets/img/content/technology/sma/ico-sma.png",
+            "thumb": "/assets/img/content/technology/sma/thumb-sma.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Shower/shower-mixer/drawing.png"
+          "/assets/img/content/products/Shower/shower-mixer/TBV01401BA/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

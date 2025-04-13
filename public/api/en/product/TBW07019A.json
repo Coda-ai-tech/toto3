@@ -48,7 +48,7 @@
         ],
         "description": "Sliding Rail (640mm)",
         "images": [
-          "/assets/img/content/products/Shower/sliding-rail/content-image.png"
+          "/assets/img/content/products/Shower/sliding-rail/TBW07019A/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -61,12 +61,31 @@
           "Material": [
             "640mm"
           ],
-          "Colour": []
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/sliding-rail/drawing.png"
+          "/assets/img/content/products/Shower/sliding-rail/TBW07019A/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
