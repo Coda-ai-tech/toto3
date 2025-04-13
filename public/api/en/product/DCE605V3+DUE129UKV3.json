@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "DCE605V3+DUE129UKV3",
+    "title": "DCE605V3 + DUE129UKV3",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "DCE605V3+DUE129UKV3",
+      "label": "DCE605V3 + DUE129UKV3",
       "link": {
         "type": "routeLink",
         "href": "/en/product/DCE605V3+DUE129UKV3"
@@ -31,40 +31,38 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "DCE605V3+DUE129UKV3",
+      "modelNumber": "DCE605V3 + DUE129UKV3",
       "slug": "DCE605V3+DUE129UKV3",
-      "productName": "Concealed type Flush Valve with Sensor for Toilet",
+      "productName": "Concealed Type Flush Valve with Auto Flush & Wave-on Sensor for Toilet (Sea Water Use)",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "DCE605V3+DUE129UKV3",
         "category": [
-          "Toilets"
+          "Commercial"
         ],
         "subCategory": [
-          "toilet-sensor-flush-valve-",
-          ""
+          "toilet-&-urinal",
+          "toilet-sensor-flush-valve"
         ],
-        "description": "Concealed type Flush Valve with Sensor for Toilet",
+        "description": "Concealed Type Flush Valve with Auto Flush & Wave-on Sensor for Toilet (Sea Water Use)",
         "images": [
-          "/assets/img/content/products/Toilets/toilet-sensor-flush-valve-/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE605V3+DUE129UKV3/content-image.png"
         ],
         "features": [
-          "- Sea water use",
-          "- Stainless Steel cover",
-          "- Battery operated",
-          ""
+          "- Battery Operated",
+          "- Sea Water Use"
         ],
         "specs": {
-          "Size": "Ø70mm",
-          "FlushingSystem": "",
-          "WaterConsumption": "6L",
+          "Size": "⌀70mm",
+          "FlushingSystem": "6L",
+          "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "Stainless Steel cover"
+            "Stainless Steel"
           ],
           "Colour": []
         },
@@ -82,12 +80,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/toilet-sensor-flush-valve-/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE605V3+DUE129UKV3/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": ""
+        "remarks": "- Battery Operated\n- Sea Water Use"
       }
     }
   ]

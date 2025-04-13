@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "MB170P-SS",
+    "title": "MB170P#SS",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,34 +21,34 @@
       }
     },
     {
-      "label": "MB170P-SS",
+      "label": "MB170P#SS",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/MB170P-SS"
+        "href": "/en/product/MB170P#SS"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "MB170P-SS",
-      "slug": "MB170P-SS",
-      "productName": "Flush Plate",
+      "modelNumber": "MB170P#SS",
+      "slug": "MB170P#SS",
+      "productName": "Push Button Set",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "MB170P-SS",
+        "id": "MB170P#SS",
         "category": [
-          "Toilets"
+          "Commercial"
         ],
         "subCategory": [
-          "concealed-cistern",
-          ""
+          "toilet-&-urinal",
+          "push-button-set-(concealed-cistern)"
         ],
-        "description": "Flush Plate",
+        "description": "Push Button Set",
         "images": [
-          "/assets/img/content/products/Toilets/concealed-cistern/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB170P#SS/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,13 +58,15 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
+          "Material": [
+            "Stainless Steel"
+          ],
           "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/concealed-cistern/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB170P#SS/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

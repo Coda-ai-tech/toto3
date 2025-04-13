@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "MB003CPR-3",
+    "title": "MB003CPR-2",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "MB003CPR-3",
+      "label": "MB003CPR-2",
       "link": {
         "type": "routeLink",
         "href": "/en/product/MB003CPR-2"
@@ -31,24 +31,24 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "MB003CPR-3",
+      "modelNumber": "MB003CPR-2",
       "slug": "MB003CPR-2",
-      "productName": "Flush Plate",
+      "productName": "Push Button Set",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "MB003CPR-2",
         "category": [
-          "Toilets"
+          "Commercial"
         ],
         "subCategory": [
-          "concealed-cistern",
-          ""
+          "toilet-&-urinal",
+          "push-button-set-(concealed-cistern)"
         ],
-        "description": "Flush Plate",
+        "description": "Push Button Set",
         "images": [
-          "/assets/img/content/products/Toilets/concealed-cistern/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB003CPR-2/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,13 +58,15 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
+          "Material": [
+            "ABS"
+          ],
           "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/concealed-cistern/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB003CPR-2/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

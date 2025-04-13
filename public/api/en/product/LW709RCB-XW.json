@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW709RCB#XW",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,74 +21,55 @@
       }
     },
     {
-      "label": "LW709RCB#XW",
+      "label": "",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW709RCB-XW"
+        "href": "/en/product/LW709RCB#XW"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "LW709RCB#XW",
-      "slug": "LW709RCB-XW",
-      "productName": "Console Lavatory",
+      "modelNumber": "",
+      "slug": "LW709RCB#XW",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW709RCB-XW",
+        "id": "LW709RCB#XW",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "console-lavatory",
-          "vitreous-china"
+          "lavatory",
+          "console-lavatory"
         ],
-        "description": "Console Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW709RCB#XW/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "500 x 450 x 135mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "500 x 450 x 135mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
-        "technologies": [
-          {
-            "title": "CEFIONTECT",
-            "description": "Special hygienic glaze for a smooth ceramic surface",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/cefiontect"
-            },
-            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-          }
-        ],
+        "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW709RCB#XW/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": "LW709RB 3 tap holes  also available"
+        "remarks": ""
       }
     }
   ]

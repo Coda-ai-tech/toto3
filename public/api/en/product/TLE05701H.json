@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "TLE05701H",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TLE05701H",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TLE05701H"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TLE05701H",
+      "slug": "TLE05701H",
+      "productName": "Termostatic Mixing Valve",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TLE05701H",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "fittings",
+          "others"
+        ],
+        "description": "Termostatic Mixing Valve",
+        "images": [
+          "/assets/img/content/products/Commercial/fittings/TLE05701H/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "SMA",
+            "description": "SMA-description",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/sma"
+            },
+            "icon": "/assets/img/content/technology/sma/ico-sma.png",
+            "thumb": "/assets/img/content/technology/sma/thumb-sma.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/fittings/TLE05701H/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

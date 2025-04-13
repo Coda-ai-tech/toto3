@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "DUE114UE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "DUE114UE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/DUE114UE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "DUE114UE",
+      "slug": "DUE114UE",
+      "productName": "Concealed Type Flush Valve with Sensor for Urinal (Fresh Water Use)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "DUE114UE",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "toilet-&-urinal",
+          "urinal-sensor-flush-valve"
+        ],
+        "description": "Concealed Type Flush Valve with Sensor for Urinal (Fresh Water Use)",
+        "images": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DUE114UE/content-image.png"
+        ],
+        "features": [
+          "- AC Operated",
+          "- Fresh Water Use"
+        ],
+        "specs": {
+          "Size": "115 x 115mm",
+          "FlushingSystem": "1.2-1.9L",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Stainless Steel"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+          },
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DUE114UE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "- AC Operated\n- Fresh Water Use"
+      }
+    }
+  ]
+}

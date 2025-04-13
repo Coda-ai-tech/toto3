@@ -33,38 +33,36 @@
       "id": null,
       "modelNumber": "DCE605UE",
       "slug": "DCE605UE",
-      "productName": "Concealed type Flush Valve with Sensor for Toilet (with Manual Button)",
+      "productName": "Concelaed Type Flush Valve with Sensor for Toilet with Manual Button (Sea Water Use)",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "DCE605UE",
         "category": [
-          "Toilets"
+          "Commercial"
         ],
         "subCategory": [
-          "toilet-sensor-flush-valve-",
-          ""
+          "toilet-&-urinal",
+          "toilet-sensor-flush-valve"
         ],
-        "description": "Concealed type Flush Valve with Sensor for Toilet (with Manual Button)",
+        "description": "Concelaed Type Flush Valve with Sensor for Toilet with Manual Button (Sea Water Use)",
         "images": [
-          "/assets/img/content/products/Toilets/toilet-sensor-flush-valve-/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE605UE/content-image.png"
         ],
         "features": [
-          "- Sea water use",
-          "- Metal cover",
-          "- AC220V",
-          ""
+          "- AC Operated",
+          "- Sea Water Use"
         ],
         "specs": {
           "Size": "130 x 130mm",
-          "FlushingSystem": "",
-          "WaterConsumption": "6L",
+          "FlushingSystem": "6L",
+          "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "Metal cover"
+            "Metal"
           ],
           "Colour": []
         },
@@ -82,12 +80,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/toilet-sensor-flush-valve-/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE605UE/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": ""
+        "remarks": "- AC Operated\n- Sea Water Use"
       }
     }
   ]

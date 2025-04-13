@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW246JW/F",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "LW246JW/F",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW246JW-F"
@@ -31,50 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW246JW/F",
+      "modelNumber": "",
       "slug": "LW246JW-F",
-      "productName": "Wall Hung Lavatory",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW246JW-F",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "wall-hung-lavatory",
-          ""
+          "lavatory",
+          "wall-hung-lavatory"
         ],
-        "description": "Wall Hung Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW246JW-F/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "\n450 x 305mm\n",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "",
-            "450 x 305mm",
-            ""
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW246JW-F/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "DCE602UE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "DCE602UE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/DCE602UE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "DCE602UE",
+      "slug": "DCE602UE",
+      "productName": "Concelaed Type Flush Valve with Sensor for Toilet with Manual Button (Fresh Water Use)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "DCE602UE",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "toilet-&-urinal",
+          "toilet-sensor-flush-valve"
+        ],
+        "description": "Concelaed Type Flush Valve with Sensor for Toilet with Manual Button (Fresh Water Use)",
+        "images": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE602UE/content-image.png"
+        ],
+        "features": [
+          "- AC Operated",
+          "- Fresh Water Use"
+        ],
+        "specs": {
+          "Size": "130 x 130mm",
+          "FlushingSystem": "4.8L",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Metal"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+          },
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE602UE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "- AC Operated\n- Fresh Water Use"
+      }
+    }
+  ]
+}

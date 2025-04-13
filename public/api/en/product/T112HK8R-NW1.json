@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "T112HK8R#NW1",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "T112HK8R#NW1",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/T112HK8R#NW1"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "T112HK8R#NW1",
+      "slug": "T112HK8R#NW1",
+      "productName": "Full Coated Up-Down Folding Type Grab Bar with Security Lock (800mm)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "T112HK8R#NW1",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "grab-bar",
+          ""
+        ],
+        "description": "Full Coated Up-Down Folding Type Grab Bar with Security Lock (800mm)",
+        "images": [
+          "/assets/img/content/products/Commercial/grab-bar/T112HK8R#NW1/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "800mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/grab-bar/T112HK8R#NW1/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

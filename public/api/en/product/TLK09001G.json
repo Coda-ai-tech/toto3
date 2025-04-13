@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "TLK09001G",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TLK09001G",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TLK09001G"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TLK09001G",
+      "slug": "TLK09001G",
+      "productName": "Sensor Soap Dispenser (Foam Type)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TLK09001G",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "fittings",
+          "sensor-soap-dispenser"
+        ],
+        "description": "Sensor Soap Dispenser (Foam Type)",
+        "images": [
+          "/assets/img/content/products/Commercial/fittings/TLK09001G/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "Spout Height: 71mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/fittings/TLK09001G/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

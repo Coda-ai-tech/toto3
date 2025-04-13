@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "YES400DR",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YES400DR",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YES400DR"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YES400DR",
+      "slug": "YES400DR",
+      "productName": "Flushing Water Sound Player",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YES400DR",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "others",
+          ""
+        ],
+        "description": "Flushing Water Sound Player",
+        "images": [
+          "/assets/img/content/products/Commercial/others/YES400DR/content-image.png"
+        ],
+        "features": [
+          "Battery Operated"
+        ],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/others/YES400DR/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "Battery Operated"
+      }
+    }
+  ]
+}

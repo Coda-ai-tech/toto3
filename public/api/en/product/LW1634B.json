@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW1634B",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "LW1634B",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW1634B"
@@ -31,59 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW1634B",
+      "modelNumber": "",
       "slug": "LW1634B",
-      "productName": "Console Lavatory",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW1634B",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "console-lavatory",
-          "vitreous-china"
+          "lavatory",
+          "console-lavatory"
         ],
-        "description": "Console Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW1634B/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "400 x 230 x 120mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "400 x 230 x 120mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
-        "technologies": [
-          {
-            "title": "CEFIONTECT",
-            "description": "Special hygienic glaze for a smooth ceramic surface",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/cefiontect"
-            },
-            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-          }
-        ],
+        "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW1634B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

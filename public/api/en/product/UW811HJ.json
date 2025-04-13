@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "UW811HJ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "UW811HJ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/UW811HJ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "UW811HJ",
+      "slug": "UW811HJ",
+      "productName": "Wall Hung Urinal (Back Spud Inlet)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "UW811HJ",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "toilet-&-urinal",
+          "urinal"
+        ],
+        "description": "Wall Hung Urinal (Back Spud Inlet)",
+        "images": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/UW811HJ/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "325 x 340 x 560mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/UW811HJ/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

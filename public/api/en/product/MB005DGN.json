@@ -33,22 +33,22 @@
       "id": null,
       "modelNumber": "MB005DGN",
       "slug": "MB005DGN",
-      "productName": "Flush Plate",
+      "productName": "Push Button Set",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "MB005DGN",
         "category": [
-          "Toilets"
+          "Commercial"
         ],
         "subCategory": [
-          "concealed-cistern",
-          ""
+          "toilet-&-urinal",
+          "push-button-set-(concealed-cistern)"
         ],
-        "description": "Flush Plate",
+        "description": "Push Button Set",
         "images": [
-          "/assets/img/content/products/Toilets/concealed-cistern/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB005DGN/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,13 +58,15 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
+          "Material": [
+            "Glass"
+          ],
           "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/concealed-cistern/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB005DGN/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW240CJ + LW240HFJ",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "LW240CJ + LW240HFJ",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW240CJ+LW240HFJ"
@@ -31,48 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW240CJ + LW240HFJ",
+      "modelNumber": "",
       "slug": "LW240CJ+LW240HFJ",
-      "productName": "Wall Hung Lavatory\nwith Half Pedestal",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW240CJ+LW240HFJ",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "pedestal-lavatory",
-          ""
+          "lavatory",
+          "pedestal-lavatory"
         ],
-        "description": "Wall Hung Lavatory\nwith Half Pedestal",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/pedestal-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW240CJ+LW240HFJ/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "500 x 350mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "500 x 350mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/pedestal-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW240CJ+LW240HFJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

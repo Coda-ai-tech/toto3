@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "TREF56K2H",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TREF56K2H",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TREF56K2H"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TREF56K2H",
+      "slug": "TREF56K2H",
+      "productName": "Concealed Type Flush Valve with Sensor for Toilet with Manual Button (Sea Water Use)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TREF56K2H",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "toilet-&-urinal",
+          "toilet-sensor-flush-valve"
+        ],
+        "description": "Concealed Type Flush Valve with Sensor for Toilet with Manual Button (Sea Water Use)",
+        "images": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/TREF56K2H/content-image.png"
+        ],
+        "features": [
+          "- Battery Operated",
+          "- Sea Water Use"
+        ],
+        "specs": {
+          "Size": "185 x 185mm",
+          "FlushingSystem": "4.8L",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Metal"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+          },
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/TREF56K2H/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "- Battery Operated\n- Sea Water Use"
+      }
+    }
+  ]
+}

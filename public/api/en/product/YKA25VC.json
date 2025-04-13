@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "YKA25VC",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YKA25VC",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YKA25VC"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YKA25VC",
+      "slug": "YKA25VC",
+      "productName": "Nappy Changing Table with Safety Belt\nfor 1 - 24 Month Baby",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YKA25VC",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "kid's-toilet",
+          ""
+        ],
+        "description": "Nappy Changing Table with Safety Belt\nfor 1 - 24 Month Baby",
+        "images": [
+          "/assets/img/content/products/Commercial/kid's-toilet/YKA25VC/content-image.png"
+        ],
+        "features": [
+          "Weight Limit: 30kg"
+        ],
+        "specs": {
+          "Size": "780 x 560 x 950mm (open)\n780 x 135 x 1145mm (close)",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/kid's-toilet/YKA25VC/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "Weight Limit: 30kg"
+      }
+    }
+  ]
+}

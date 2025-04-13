@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "U904HRE#XW",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "U904HRE#XW",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/U904HRE#XW"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "U904HRE#XW",
+      "slug": "U904HRE#XW",
+      "productName": "Wall Hung Urinal (Back Spud Inlet)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "U904HRE#XW",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "toilet-&-urinal",
+          "urinal"
+        ],
+        "description": "Wall Hung Urinal (Back Spud Inlet)",
+        "images": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/U904HRE#XW/content-image.png"
+        ],
+        "features": [
+          "Top Spud Inlet model also available"
+        ],
+        "specs": {
+          "Size": "260 x 345 x 675mm",
+          "FlushingSystem": "0.5L",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2020,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          },
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/U904HRE#XW/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "Top Spud Inlet model also available"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "YHR86WL#ELW",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YHR86WL#ELW",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YHR86WL#ELW"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YHR86WL#ELW",
+      "slug": "YHR86WL#ELW",
+      "productName": "Half-coated  L-Shape Grab Bar (800 x 600mm)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YHR86WL#ELW",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "grab-bar",
+          ""
+        ],
+        "description": "Half-coated  L-Shape Grab Bar (800 x 600mm)",
+        "images": [
+          "/assets/img/content/products/Commercial/grab-bar/YHR86WL#ELW/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "800 x 600mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/grab-bar/YHR86WL#ELW/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

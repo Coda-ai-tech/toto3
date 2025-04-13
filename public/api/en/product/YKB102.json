@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "YKB102",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YKB102",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YKB102"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YKB102",
+      "slug": "YKB102",
+      "productName": "Napkin Bin\n",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YKB102",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "others",
+          ""
+        ],
+        "description": "Napkin Bin\n",
+        "images": [
+          "/assets/img/content/products/Commercial/others/YKB102/content-image.png"
+        ],
+        "features": [
+          "Volume: 6L"
+        ],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Frame: Stainless Steel",
+            "Internal: Plastic"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/others/YKB102/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "Volume: 6L"
+      }
+    }
+  ]
+}

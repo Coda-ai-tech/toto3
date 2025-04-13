@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW241CJ + LW239FJ",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "LW241CJ + LW239FJ",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW241CJ+LW239FJ"
@@ -31,48 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW241CJ + LW239FJ",
+      "modelNumber": "",
       "slug": "LW241CJ+LW239FJ",
-      "productName": "Wall Hung Lavatory\nwith Pedestal",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW241CJ+LW239FJ",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "pedestal-lavatory",
-          ""
+          "lavatory",
+          "pedestal-lavatory"
         ],
-        "description": "Wall Hung Lavatory\nwith Pedestal",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/pedestal-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW241CJ+LW239FJ/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "580 x 500mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "580 x 500mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/pedestal-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW241CJ+LW239FJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

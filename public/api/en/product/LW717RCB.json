@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW717RCB",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "LW717RCB",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW717RCB"
@@ -31,59 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW717RCB",
+      "modelNumber": "",
       "slug": "LW717RCB",
-      "productName": "Semi Recessed Lavatory",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW717RCB",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "semi-recessed-lavatory",
-          ""
+          "lavatory",
+          "semi-recessed-lavatory"
         ],
-        "description": "Semi Recessed Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW717RCB/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "500 x 450mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "500 x 450mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
-        "technologies": [
-          {
-            "title": "CEFIONTECT",
-            "description": "Special hygienic glaze for a smooth ceramic surface",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/cefiontect"
-            },
-            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-          }
-        ],
+        "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW717RCB/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

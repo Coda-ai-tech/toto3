@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "L546E#XW",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,69 +21,50 @@
       }
     },
     {
-      "label": "L546E#XW",
+      "label": "",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/L546E-XW"
+        "href": "/en/product/L546E#XW"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "L546E#XW",
-      "slug": "L546E-XW",
-      "productName": "Under Counter Lavatory",
+      "modelNumber": "",
+      "slug": "L546E#XW",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "L546E-XW",
+        "id": "L546E#XW",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "under-counter-lavatory",
-          ""
+          "lavatory",
+          "under-counter-lavatory"
         ],
-        "description": "Under Counter Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/under-counter-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/L546E#XW/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "550 x 400mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "550 x 400mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
-        "technologies": [
-          {
-            "title": "CEFIONTECT",
-            "description": "Special hygienic glaze for a smooth ceramic surface",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/cefiontect"
-            },
-            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-          }
-        ],
+        "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/under-counter-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/L546E#XW/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

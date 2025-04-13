@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW565",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "LW565",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW565"
@@ -31,48 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW565",
+      "modelNumber": "",
       "slug": "LW565",
-      "productName": "Self Rimming Lavatory",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW565",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "self-rimming-lavatory",
-          ""
+          "lavatory",
+          "self-rimming-lavatory"
         ],
-        "description": "Self Rimming Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/self-rimming-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW565/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "445 x 366mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "445 x 366mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/self-rimming-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW565/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

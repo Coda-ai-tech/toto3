@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge ZIP Files</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+    <h1>Merge Two ZIP Files</h1>
+    <input type="file" id="zipFile1" accept=".zip">
+    <input type="file" id="zipFile2" accept=".zip">
+    <button id="mergeButton">Merge ZIPs</button>
+    <div id="output"></div>
+
+    <script>
+        document.getElementById('mergeButton').addEventListener('click', async () => {
+            const fileInput1 = document.getElementById('zipFile1');
+            const fileInput2 = document.getElementById('zipFile2');
+            const file1 = fileInput1.files[0];
+            const file2 = fileInput2.files[0];
+
+            if (!file1 || !file2) {
+                alert("Please upload both ZIP files.");
+                return;
+            }
+
+            const zip1 = new JSZip();
+            const zip2 = new JSZip();
+            const output = document.getElementById('output');
+            output.innerHTML = '';
+
+            try {
+                const content1 = await zip1.loadAsync(file1);
+                const content2 = await zip2.loadAsync(file2);
+                const mergedZip = new JSZip();
+
+                // Function to merge files
+                const mergeFiles = (files1, files2) => {
+                    Object.keys(files1).forEach(async (filename) => {
+                        const file1 = files1[filename];
+                        if (!file1.dir) {
+                            mergedZip.file(filename, await file1.async("blob"));
+                        }
+                    });
+
+                    Object.keys(files2).forEach(async (filename) => {
+                        const file2 = files2[filename];
+                        if (!file2.dir) {
+                            const dirPath = filename.substring(0, filename.lastIndexOf('/'));
+                            const baseName = filename.substring(filename.lastIndexOf('/') + 1);
+
+                            // Check if the same product slug folder exists in zip1
+                            if (files1[filename]) {
+                                // Merge files if they exist in both zips
+                                const mergedName = baseName.replace(/drawing\.png|content-image\.png/, (match) => match);
+                                mergedZip.file(`${dirPath}/${mergedName}`, await file2.async("blob"));
+                            } else {
+                                // Add the file if no match found
+                                mergedZip.file(filename, await file2.async("blob"));
+                            }
+                        }
+                    });
+                };
+
+                mergeFiles(content1.files, content2.files);
+                await mergeFiles(content1.files, content2.files); // Ensure all files are processed
+
+                // Generate new ZIP file
+                const mergedZipBlob = await mergedZip.generateAsync({ type: "blob" });
+                const url = URL.createObjectURL(mergedZipBlob);
+                output.innerHTML = `<a href="${url}" download="merged.zip">Download Merged ZIP</a>`;
+            } catch (error) {
+                output.innerHTML = "Error merging ZIP files: " + error.message;
+            }
+        });
+    </script>
+</body>
+</html>

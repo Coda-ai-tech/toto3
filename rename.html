@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload and Rename Files</title>
+</head>
+<body>
+    <h1>Upload a Folder</h1>
+    <input type="file" id="folderInput" webkitdirectory multiple />
+    <button id="renameFilesBtn">Rename Files</button>
+    <div id="message"></div>
+
+    <script>
+        document.getElementById('renameFilesBtn').addEventListener('click', async () => {
+            const folderInput = document.getElementById('folderInput');
+            const messageDiv = document.getElementById('message');
+            messageDiv.innerHTML = '';
+
+            if (folderInput.files.length === 0) {
+                messageDiv.textContent = 'Please upload a folder.';
+                return;
+            }
+
+            const files = Array.from(folderInput.files);
+            const renamedFiles = [];
+
+            for (const file of files) {
+                const newFileName = file.name.replace(/#/g, '-');
+                const newFile = new File([await file.arrayBuffer()], newFileName, { type: file.type });
+                renamedFiles.push(newFile);
+            }
+
+            // Create a ZIP file for download
+            const zip = new JSZip();
+            renamedFiles.forEach(file => {
+                zip.file(file.name, file);
+            });
+
+            zip.generateAsync({ type: 'blob' }).then(content => {
+                const url = URL.createObjectURL(content);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'renamed_files.zip';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                messageDiv.textContent = 'Files renamed and ZIP created!';
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</body>
+</html>

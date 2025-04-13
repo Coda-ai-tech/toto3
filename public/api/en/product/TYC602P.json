@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "TYC602P",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TYC602P",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TYC602P"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TYC602P",
+      "slug": "TYC602P",
+      "productName": "3-in-1 Automatic High Speed Recessed Hand Dryer with Paper Dispenser and Waste Bin (Wall Embedded)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TYC602P",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "hand-dryer",
+          ""
+        ],
+        "description": "3-in-1 Automatic High Speed Recessed Hand Dryer with Paper Dispenser and Waste Bin (Wall Embedded)",
+        "images": [
+          "/assets/img/content/products/Commercial/hand-dryer/TYC602P/content-image.png"
+        ],
+        "features": [
+          "- AC Operated"
+        ],
+        "specs": {
+          "Size": "350 x 185 x 1680mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/hand-dryer/TYC602P/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "- AC Operated"
+      }
+    }
+  ]
+}

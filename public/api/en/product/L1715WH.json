@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "L1715WH",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "L1715WH",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/L1715WH"
@@ -31,65 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "L1715WH",
+      "modelNumber": "",
       "slug": "L1715WH",
-      "productName": "Console Lavatory",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "L1715WH",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "console-lavatory",
-          "vitreous-china"
+          "lavatory",
+          "console-lavatory"
         ],
-        "description": "Console Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/L1715WH/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "500 x 370 x 60mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "500 x 370 x 60mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
-        "awardImages": [
-          {
-            "name": "IF Design",
-            "year": 2014,
-            "src": "/assets/img/content/products/awards/if_design.png"
-          }
-        ],
-        "technologies": [
-          {
-            "title": "CEFIONTECT",
-            "description": "Special hygienic glaze for a smooth ceramic surface",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/cefiontect"
-            },
-            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-          }
-        ],
+        "awardImages": [],
+        "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/L1715WH/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

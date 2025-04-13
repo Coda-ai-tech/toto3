@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "T113B6",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "T113B6",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/T113B6"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "T113B6",
+      "slug": "T113B6",
+      "productName": "I-Shape Grab Bar (600mm)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "T113B6",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "grab-bar",
+          ""
+        ],
+        "description": "I-Shape Grab Bar (600mm)",
+        "images": [
+          "/assets/img/content/products/Commercial/grab-bar/T113B6/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "600mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/grab-bar/T113B6/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "YKH21R",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "YKH21R",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/YKH21R"
@@ -31,48 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "YKH21R",
+      "modelNumber": "",
       "slug": "YKH21R",
-      "productName": "Hook And Door Bumper",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "YKH21R",
         "category": [
-          "Accessories"
+          "Commercial"
         ],
         "subCategory": [
           "others",
           ""
         ],
-        "description": "Hook And Door Bumper",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Accessories/others/content-image.png"
+          "/assets/img/content/products/Commercial/others/YKH21R/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "100 x 50 x 50 mm",
+          "Size": "",
           "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "100 x 50 x 50 mm"
-          ],
-          "Colour": [
-            {
-              "ForFillings": [
-                "Chrome"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/others/drawing.png"
+          "/assets/img/content/products/Commercial/others/YKH21R/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

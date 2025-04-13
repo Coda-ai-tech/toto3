@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "U310GYVB",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "U310GYVB",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/U310GYVB"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "U310GYVB",
+      "slug": "U310GYVB",
+      "productName": "Children Urinal",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "U310GYVB",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "kid's-toilet",
+          ""
+        ],
+        "description": "Children Urinal",
+        "images": [
+          "/assets/img/content/products/Commercial/kid's-toilet/U310GYVB/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/kid's-toilet/U310GYVB/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW540J",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "LW540J",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW540J"
@@ -31,48 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW540J",
+      "modelNumber": "",
       "slug": "LW540J",
-      "productName": "Under Counter Lavatory",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW540J",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "under-counter-lavatory",
-          ""
+          "lavatory",
+          "under-counter-lavatory"
         ],
-        "description": "Under Counter Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/under-counter-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW540J/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "590 x 415mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "590 x 415mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/under-counter-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW540J/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

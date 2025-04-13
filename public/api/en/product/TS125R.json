@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "TS125R",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TS125R",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TS125R"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TS125R",
+      "slug": "TS125R",
+      "productName": "Wall Mounted Manual Soap Dispenser",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TS125R",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "fittings",
+          "manual-soap-dispenser"
+        ],
+        "description": "Wall Mounted Manual Soap Dispenser",
+        "images": [
+          "/assets/img/content/products/Commercial/fittings/TS125R/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "Spout Length: 89.5mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/fittings/TS125R/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

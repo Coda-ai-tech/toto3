@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "AW115J",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "AW115J",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/AW115J"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "AW115J",
+      "slug": "AW115J",
+      "productName": "Urinal Partition",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "AW115J",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "toilet-&-urinal",
+          "urinal-partition"
+        ],
+        "description": "Urinal Partition",
+        "images": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/AW115J/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "100 x 350 x 760mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/AW115J/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

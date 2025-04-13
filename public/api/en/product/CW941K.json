@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CW941K",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "CW941K",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW941K"
@@ -31,53 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "CW941K",
+      "modelNumber": "",
       "slug": "CW941K",
-      "productName": "Elongated Wash Down Wall Hung Toilet",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "CW941K",
         "category": [
-          "Toilets"
+          "Commercial"
         ],
         "subCategory": [
-          "wall-hung-toilet",
-          ""
+          "toilet-&-urinal",
+          "wall-hung-toilet"
         ],
-        "description": "Elongated Wash Down Wall Hung Toilet",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Toilets/wall-hung-toilet/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW941K/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "360 x 530 x 304mm",
-          "FlushingSystem": "Wash Down",
-          "WaterConsumption": "3/6L",
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
           "TrapType": "",
-          "WaterPressure": "220mm",
+          "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "Vitreous China"
-          ],
+          "Material": [],
           "Colour": []
         },
         "awardImages": [],
-        "technologies": [
-          {
-            "title": "CEFIONTECT",
-            "description": "Special hygienic glaze for a smooth ceramic surface",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/cefiontect"
-            },
-            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-          }
-        ],
+        "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/wall-hung-toilet/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW941K/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

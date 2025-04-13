@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "MB176G-WH",
+    "title": "MB176G#WH",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,34 +21,34 @@
       }
     },
     {
-      "label": "MB176G-WH",
+      "label": "MB176G#WH",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/MB176G-WH"
+        "href": "/en/product/MB176G#WH"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "MB176G-WH",
-      "slug": "MB176G-WH",
-      "productName": "Flush Plate",
+      "modelNumber": "MB176G#WH",
+      "slug": "MB176G#WH",
+      "productName": "Push Button Set",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "MB176G-WH",
+        "id": "MB176G#WH",
         "category": [
-          "Toilets"
+          "Commercial"
         ],
         "subCategory": [
-          "concealed-cistern",
-          ""
+          "toilet-&-urinal",
+          "push-button-set-(concealed-cistern)"
         ],
-        "description": "Flush Plate",
+        "description": "Push Button Set",
         "images": [
-          "/assets/img/content/products/Toilets/concealed-cistern/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB176G#WH/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,13 +58,15 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
+          "Material": [
+            "Glass"
+          ],
           "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/concealed-cistern/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB176G#WH/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

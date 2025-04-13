@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "YYB10V1YW",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YYB10V1YW",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YYB10V1YW"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YYB10V1YW",
+      "slug": "YYB10V1YW",
+      "productName": "Grab Bar",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YYB10V1YW",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "kid's-toilet",
+          ""
+        ],
+        "description": "Grab Bar",
+        "images": [
+          "/assets/img/content/products/Commercial/kid's-toilet/YYB10V1YW/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/kid's-toilet/YYB10V1YW/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

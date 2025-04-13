@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW526NJ",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "LW526NJ",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW526NJ"
@@ -31,48 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW526NJ",
+      "modelNumber": "",
       "slug": "LW526NJ",
-      "productName": "Semi Recessed Lavatory",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW526NJ",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "semi-recessed-lavatory",
-          ""
+          "lavatory",
+          "semi-recessed-lavatory"
         ],
-        "description": "Semi Recessed Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW526NJ/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "430 x 430mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "430 x 430mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW526NJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

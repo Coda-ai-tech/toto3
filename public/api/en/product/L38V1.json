@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "L38V1",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "L38V1",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/L38V1"
@@ -31,48 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "L38V1",
+      "modelNumber": "",
       "slug": "L38V1",
-      "productName": "Wall Hung Lavatory",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "L38V1",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "wall-hung-lavatory",
-          ""
+          "lavatory",
+          "wall-hung-lavatory"
         ],
-        "description": "Wall Hung Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/L38V1/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "500 x 330mm",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "500 x 330mm"
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/L38V1/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

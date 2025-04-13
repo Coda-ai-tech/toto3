@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "L529V3",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "L529V3",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/L529V3"
@@ -31,50 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "L529V3",
+      "modelNumber": "",
       "slug": "L529V3",
-      "productName": "Wall Hung Lavatory",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "L529V3",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "wall-hung-lavatory",
-          ""
+          "lavatory",
+          "wall-hung-lavatory"
         ],
-        "description": "Wall Hung Lavatory",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/L529V3/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "\n430 x 435mm\n",
-          "FlushingSystem": "Vitreous China",
+          "Size": "",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "",
-            "430 x 435mm",
-            ""
-          ],
-          "Colour": [
-            {
-              "ForLavatory": [
-                "White"
-              ]
-            }
-          ]
+          "Material": [],
+          "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/L529V3/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

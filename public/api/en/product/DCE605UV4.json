@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "DCE605UV4",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "DCE605UV4",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/DCE605UV4"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "DCE605UV4",
+      "slug": "DCE605UV4",
+      "productName": "Concealed Type Flush Valve with Wave-on Sensor for Toilet (Sea Water Use)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "DCE605UV4",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "toilet-&-urinal",
+          "toilet-sensor-flush-valve"
+        ],
+        "description": "Concealed Type Flush Valve with Wave-on Sensor for Toilet (Sea Water Use)",
+        "images": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE605UV4/content-image.png"
+        ],
+        "features": [
+          "- Battery Operated",
+          "- Sea Water Use"
+        ],
+        "specs": {
+          "Size": "⌀70mm",
+          "FlushingSystem": "3/4.8L",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Stainless Steel"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+          },
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE605UV4/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "- Battery Operated\n- Sea Water Use"
+      }
+    }
+  ]
+}

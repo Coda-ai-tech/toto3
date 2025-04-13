@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CW275PJ",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "CW275PJ",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW275PJ"
@@ -31,89 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "CW275PJ",
+      "modelNumber": "",
       "slug": "CW275PJ",
-      "productName": "Elongated Tornado Flush Wall Faced Toilet",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "CW275PJ",
         "category": [
-          "Toilets"
+          "Commercial"
         ],
         "subCategory": [
-          "wall-faced-toilet",
-          ""
+          "toilet-&-urinal",
+          "wall-faced-toilet"
         ],
-        "description": "Elongated Tornado Flush Wall Faced Toilet",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Toilets/wall-faced-toilet/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW275PJ/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "590 x 404 x 400mm",
-          "FlushingSystem": "Tornado Flush",
-          "WaterConsumption": "3L/4.5L",
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
           "TrapType": "",
-          "WaterPressure": "P-trap (Rough in: 180mm)",
+          "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "Vitreous China"
-          ],
+          "Material": [],
           "Colour": []
         },
-        "awardImages": [
-          {
-            "name": "Green Good",
-            "year": 2016,
-            "src": "/assets/img/content/products/awards/design_award.png"
-          }
-        ],
-        "technologies": [
-          {
-            "title": "TORNADO FLUSH",
-            "description": "Revolutionary powerful jets rimless flushing system",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/tornado-flush"
-            },
-            "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
-            "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
-          },
-          {
-            "title": "RIMLESS",
-            "description": "Leaves no place for waste and germs to hide",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/rimless"
-            },
-            "icon": "/assets/img/content/technology/rimless/ico-rimless.png",
-            "thumb": "/assets/img/content/technology/rimless/thumb-rimless.png"
-          },
-          {
-            "title": "CEFIONTECT",
-            "description": "Special hygienic glaze for a smooth ceramic surface",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/cefiontect"
-            },
-            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-          },
-          {
-            "title": "WATER-SAVING",
-            "description": "Leading environment-friendly and water-saving technologies",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/water-saving"
-            },
-            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
-            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
-          }
-        ],
+        "awardImages": [],
+        "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/wall-faced-toilet/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW275PJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

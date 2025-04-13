@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "TL19AR",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TL19AR",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TL19AR"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TL19AR",
+      "slug": "TL19AR",
+      "productName": "Self-closing Tap",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TL19AR",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "fittings",
+          "tap"
+        ],
+        "description": "Self-closing Tap",
+        "images": [
+          "/assets/img/content/products/Commercial/fittings/TL19AR/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "Height: 147mm\nSpout Height: 60mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/fittings/TL19AR/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "UWN571HB",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "UWN571HB",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/UWN571HB"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "UWN571HB",
+      "slug": "UWN571HB",
+      "productName": "Wall Hung Urinal (Back Spud Inlet)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "UWN571HB",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "toilet-&-urinal",
+          "urinal"
+        ],
+        "description": "Wall Hung Urinal (Back Spud Inlet)",
+        "images": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/UWN571HB/content-image.png"
+        ],
+        "features": [
+          "Top Spud Inlet model also available"
+        ],
+        "specs": {
+          "Size": "380 x 340 x 750mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/toilet-&-urinal/UWN571HB/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "Top Spud Inlet model also available"
+      }
+    }
+  ]
+}

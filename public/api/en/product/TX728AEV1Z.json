@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "TX728AEV1Z",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX728AEV1Z",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX728AEV1Z"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX728AEV1Z",
+      "slug": "TX728AEV1Z",
+      "productName": "Deck Mounted Manual Soap Dispenser (Bottom Fill)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX728AEV1Z",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "fittings",
+          "manual-soap-dispenser"
+        ],
+        "description": "Deck Mounted Manual Soap Dispenser (Bottom Fill)",
+        "images": [
+          "/assets/img/content/products/Commercial/fittings/TX728AEV1Z/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "Spout Length: 150mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/fittings/TX728AEV1Z/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

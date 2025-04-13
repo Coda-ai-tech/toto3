@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CW620NJ",
+    "title": "",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "CW620NJ",
+      "label": "",
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW620NJ"
@@ -31,42 +31,40 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "CW620NJ",
+      "modelNumber": "",
       "slug": "CW620NJ",
-      "productName": "Regular Wash Down Wall Hung Toilet",
+      "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "CW620NJ",
         "category": [
-          "Toilets"
+          "Commercial"
         ],
         "subCategory": [
-          "wall-hung-toilet",
-          ""
+          "toilet-&-urinal",
+          "wall-hung-toilet"
         ],
-        "description": "Regular Wash Down Wall Hung Toilet",
+        "description": "",
         "images": [
-          "/assets/img/content/products/Toilets/wall-hung-toilet/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW620NJ/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "530 x 360mm",
-          "FlushingSystem": "Wash Down",
-          "WaterConsumption": "3L/6L",
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
           "TrapType": "",
-          "WaterPressure": "220mm",
+          "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "Vitreous China"
-          ],
+          "Material": [],
           "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/wall-hung-toilet/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW620NJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

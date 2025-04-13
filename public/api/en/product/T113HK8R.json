@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "T113HK8R",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "T113HK8R",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/T113HK8R"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "T113HK8R",
+      "slug": "T113HK8R",
+      "productName": "Up-Down Folding Type Grab Bar with Security Lock (800mm)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "T113HK8R",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "grab-bar",
+          ""
+        ],
+        "description": "Up-Down Folding Type Grab Bar with Security Lock (800mm)",
+        "images": [
+          "/assets/img/content/products/Commercial/grab-bar/T113HK8R/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "800mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/grab-bar/T113HK8R/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

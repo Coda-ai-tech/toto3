@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "TLE24004H",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TLE24004H",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TLE24004H"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TLE24004H",
+      "slug": "TLE24004H",
+      "productName": "Wall Mount Sensor Faucet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TLE24004H",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "fittings",
+          "sensor-faucet"
+        ],
+        "description": "Wall Mount Sensor Faucet",
+        "images": [
+          "/assets/img/content/products/Commercial/fittings/TLE24004H/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "Length: 188mm\nSpout Length: 175mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [
+          {
+            "name": "Reddot",
+            "year": 2021,
+            "src": "/assets/img/content/products/awards/reddot_winner.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+          },
+          {
+            "title": "SOFT FLOW",
+            "description": "Practically prevents splashing, keeping larger puddles from forming on the washbasin.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/soft-flow"
+            },
+            "icon": "/assets/img/content/technology/soft-flow/ico-soft-flow.png",
+            "thumb": "/assets/img/content/technology/soft-flow/thumb-soft-flow.png"
+          },
+          {
+            "title": "ECO POWER",
+            "description": "Sensor-activated faucet generates its own electricity",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/eco-power"
+            },
+            "icon": "/assets/img/content/technology/eco-power/ico-eco-power.png",
+            "thumb": "/assets/img/content/technology/eco-power/thumb-eco-power.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/fittings/TLE24004H/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

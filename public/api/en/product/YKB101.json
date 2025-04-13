@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "YKB101",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YKB101",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YKB101"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YKB101",
+      "slug": "YKB101",
+      "productName": "Napkin Bin",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YKB101",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "others",
+          ""
+        ],
+        "description": "Napkin Bin",
+        "images": [
+          "/assets/img/content/products/Commercial/others/YKB101/content-image.png"
+        ],
+        "features": [
+          "Volume: 4L"
+        ],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Frame: Stainless Steel",
+            "Internal: Plastic"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/others/YKB101/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": "Volume: 4L"
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "TLE20001H",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TLE20001H",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TLE20001H"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TLE20001H",
+      "slug": "TLE20001H",
+      "productName": "Sensor Faucet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TLE20001H",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "fittings",
+          "sensor-faucet"
+        ],
+        "description": "Sensor Faucet",
+        "images": [
+          "/assets/img/content/products/Commercial/fittings/TLE20001H/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "Height: 150mm\nSpout Height: 130mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "AUTO FUNCTION",
+            "description": "Technologies activated by human movement",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/auto-functions"
+            },
+            "icon": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
+            "thumb": "/assets/img/content/technology/auto-functions/thumb-auto-functions.png"
+          },
+          {
+            "title": "ECO POWER",
+            "description": "Sensor-activated faucet generates its own electricity",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/eco-power"
+            },
+            "icon": "/assets/img/content/technology/eco-power/ico-eco-power.png",
+            "thumb": "/assets/img/content/technology/eco-power/thumb-eco-power.png"
+          },
+          {
+            "title": "ZERO DIMENSION",
+            "description": "ZERO DIMENSION bathing brings freedom from gravity, releasing stress on joints and encouraging ultimate relaxation.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/zero-dimension"
+            },
+            "icon": "/assets/img/content/technology/zero-dimension/ico-zero-dimension.png",
+            "thumb": "/assets/img/content/technology/zero-dimension/thumb-zero-dimension.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Commercial/fittings/TLE20001H/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}
