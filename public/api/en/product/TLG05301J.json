@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "TLG05301J",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TLG05301J",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TLG05301J"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TLG05301J",
+      "slug": "TLG05301J",
+      "productName": "Single Lever Lavatory Faucet Pull-out Type with Adjustable Spray (Height adjustable)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TLG05301J",
+        "category": [
+          "Faucets"
+        ],
+        "subCategory": [
+          "lavatory-faucet",
+          "single-lever-lavatory-faucet"
+        ],
+        "description": "Single Lever Lavatory Faucet Pull-out Type with Adjustable Spray (Height adjustable)",
+        "images": [
+          "/assets/img/content/products/Faucets/lavatory-faucet/TLG05301J/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05Mpa ~ 1.0Mpa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Faucets/lavatory-faucet/TLG05301J/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

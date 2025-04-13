@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "TX608KNBR",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX608KNBR",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX608KNBR"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX608KNBR",
+      "slug": "TX608KNBR",
+      "productName": "Single Lever Kitchen Faucet with Pull-out Spray",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX608KNBR",
+        "category": [
+          "Faucets"
+        ],
+        "subCategory": [
+          "kitchen-faucet",
+          ""
+        ],
+        "description": "Single Lever Kitchen Faucet with Pull-out Spray",
+        "images": [
+          "/assets/img/content/products/Faucets/kitchen-faucet/TX608KNBR/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05Mpa ~ 1.0Mpa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Faucets/kitchen-faucet/TX608KNBR/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

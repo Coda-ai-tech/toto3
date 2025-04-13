@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "TX604KDN",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX604KDN",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX604KDN"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX604KDN",
+      "slug": "TX604KDN",
+      "productName": "Single Lever Kitchen Faucet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX604KDN",
+        "category": [
+          "Faucets"
+        ],
+        "subCategory": [
+          "kitchen-faucet",
+          ""
+        ],
+        "description": "Single Lever Kitchen Faucet",
+        "images": [
+          "/assets/img/content/products/Faucets/kitchen-faucet/TX604KDN/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05Mpa ~ 1.0Mpa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Faucets/kitchen-faucet/TX604KDN/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

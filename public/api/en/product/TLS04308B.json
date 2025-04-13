@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "TLS04308B",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TLS04308B",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TLS04308B"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TLS04308B",
+      "slug": "TLS04308B",
+      "productName": "Wall Mounted Lavatory Faucet",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TLS04308B",
+        "category": [
+          "Faucets"
+        ],
+        "subCategory": [
+          "lavatory-faucet",
+          "wall-mounted-lavatory-faucet"
+        ],
+        "description": "Wall Mounted Lavatory Faucet",
+        "images": [
+          "/assets/img/content/products/Faucets/lavatory-faucet/TLS04308B/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05Mpa ~ 1.0Mpa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Faucets/lavatory-faucet/TLS04308B/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

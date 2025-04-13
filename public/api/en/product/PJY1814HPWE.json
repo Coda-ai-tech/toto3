@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "PJY1814HPWE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "PJY1814HPWE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PJY1814HPWE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "PJY1814HPWE",
+      "slug": "PJY1814HPWE",
+      "productName": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "Bathtubs",
+        "category": ["Bathtubs"],
+        "subCategory": ["Free-standing Bathtub"],
+        "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
+        "images": ["/assets/img/content/products/Neorest/PJY1814HPWE/content-image.png"],
+        "features": [
+          "Constructed with solid surface Galaline material engineered to resist stains, retain heat, and minimize maintenance",
+          "Shaped to recline the body and simulate a comforting embrace, providing relaxation and a deep sensation of ease",
+          "Multi-functional design provides a new way for easy bathing",
+          "Slip-resistant surface",
+          "Direct push drain"
+        ],
+        "specs": {
+          "Size": "1800 x 900 x 665mm",
+          "Pop-up Waste": "Included",
+          "Material": ["Galaline"],
+          "Colour": [
+            {
+              "For Lavatory": ["White"],
+              "For Bathtub": []
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": ["/assets/img/content/products/Neorest/PJY1814HPWE/drawing.png"],
+        "videos": [],
+        "relatedProduct": ["PJY1814HPW#MW (Matte Finished, with handgrips) also available"],
+        "compatitibleProduct": [],
+        "remarks": ["PJY1814HPW#MW (Matte Finished, with handgrips) also available"]
+      }
+    }
+  ]
+}

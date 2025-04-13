@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "TLS01201BA",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TLS01201BA",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TLS01201BA"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TLS01201BA",
+      "slug": "TLS01201BA",
+      "productName": "8\" Lavatory Faucet with Pop-up Waste",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TLS01201BA",
+        "category": [
+          "Faucets"
+        ],
+        "subCategory": [
+          "lavatory-faucet",
+          "8\"-lavatory-faucet"
+        ],
+        "description": "8\" Lavatory Faucet with Pop-up Waste",
+        "images": [
+          "/assets/img/content/products/Faucets/lavatory-faucet/TLS01201BA/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05Mpa ~ 1.0Mpa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Faucets/lavatory-faucet/TLS01201BA/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

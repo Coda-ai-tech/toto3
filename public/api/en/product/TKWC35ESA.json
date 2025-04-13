@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "TKWC35ESA",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TKWC35ESA",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TKWC35ESA"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TKWC35ESA",
+      "slug": "TKWC35ESA",
+      "productName": "Single Lever Kitchen Faucet Pull-out Type with Adjustable Spray",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TKWC35ESA",
+        "category": [
+          "Faucets"
+        ],
+        "subCategory": [
+          "kitchen-faucet",
+          ""
+        ],
+        "description": "Single Lever Kitchen Faucet Pull-out Type with Adjustable Spray",
+        "images": [
+          "/assets/img/content/products/Faucets/kitchen-faucet/TKWC35ESA/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05Mpa ~ 1.0Mpa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Faucets/kitchen-faucet/TKWC35ESA/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

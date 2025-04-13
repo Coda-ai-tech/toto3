@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "TX115LRS#MB",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX115LRS#MB",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX115LRS#MB"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX115LRS#MB",
+      "slug": "TX115LRS#MB",
+      "productName": "Single Lever Lavatory Faucet with Pop-up Waste",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX115LRS#MB",
+        "category": [
+          "Faucets"
+        ],
+        "subCategory": [
+          "lavatory-faucet",
+          "single-lever-lavatory-faucet"
+        ],
+        "description": "Single Lever Lavatory Faucet with Pop-up Waste",
+        "images": [
+          "/assets/img/content/products/Faucets/lavatory-faucet/TX115LRS#MB/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05Mpa ~ 1.0Mpa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#MW Matte White (STI)",
+                "#MB Matte Black (STI)",
+                "#PG Polished Gold (STI)",
+                "#BG Brushed Gold (STI)",
+                "#PFG2 Polished French Gold (STI)",
+                "#BFG2 Brushed French Gold (STI)",
+                "#PRG2 Polished Rose Gold",
+                "#BRG2 Brushed Rose Gold (STI)",
+                "#PN2 Polished Nickel (STI)",
+                "#BN2 Brushed Nickel (STI)"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Faucets/lavatory-faucet/TX115LRS#MB/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

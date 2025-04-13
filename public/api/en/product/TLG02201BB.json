@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "TLG02201BB",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TLG02201BB",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TLG02201BB"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TLG02201BB",
+      "slug": "TLG02201BB",
+      "productName": "8\" Lavatory Faucet with Pop-up Waste",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TLG02201BB",
+        "category": [
+          "Faucets"
+        ],
+        "subCategory": [
+          "-lavatory-faucet",
+          "8\"-lavatory-faucet"
+        ],
+        "description": "8\" Lavatory Faucet with Pop-up Waste",
+        "images": [
+          "/assets/img/content/products/Faucets/lavatory-faucet/TLG02201BB/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "0.05Mpa ~ 1.0Mpa",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Faucets/lavatory-faucet/TLG02201BB/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}
