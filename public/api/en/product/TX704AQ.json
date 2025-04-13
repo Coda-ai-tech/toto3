@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "TX704AQ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX704AQ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX704AQ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX704AQ",
+      "slug": "TX704AQ",
+      "productName": "Robe Hook",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX704AQ",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "robe-hook",
+          ""
+        ],
+        "description": "Robe Hook",
+        "images": [
+          "/assets/img/content/products/Accessories/robe-hook/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "55 x 22 x 34mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "55 x 22 x 34mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/robe-hook/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

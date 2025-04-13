@@ -119,7 +119,7 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'toielt-sensor-flush-valve',
+        id: 'toilet-sensor-flush-valve',
         label: {
           en: 'TOILET SENSOR FLUSH VALVE',
           zh: 'TOILET SENSOR FLUSH VALVE',
@@ -269,7 +269,7 @@ const categoryList: CategoryItem[] = [
     },
     sub: [
       {
-        id: 'shower-mixer',
+        id: 'shower-mixer-2',
         label: {
           en: 'SHOWER MIXER',
           zh: 'SHOWER MIXER',
@@ -283,14 +283,14 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'bath-and-shower-mixer',
+        id: 'bath-and-shower-mixer-2',
         label: {
           en: 'BATH & SHOWER MIXER',
           zh: 'BATH & SHOWER MIXER',
         },
       },
       {
-        id: 'thermostatic-mixer',
+        id: 'thermostatic-shower-mixer',
         label: {
           en: 'THERMOSTATIC MIXER',
           zh: 'THERMOSTATIC MIXER',
@@ -449,21 +449,21 @@ const categoryList: CategoryItem[] = [
     },
     sub: [
       {
-        id: 'toilet-sensor-flush-valve',
+        id: 'c-toilet-sensor-flush-valve',
         label: {
           en: 'TOILET SENSOR FLUSH VALVE',
           zh: 'TOILET SENSOR FLUSH VALVE',
         },
       },
       {
-        id: 'wall-hung-toilet',
+        id: 'c-wall-hung-toilet',
         label: {
           en: 'WALL HUNG TOILET',
           zh: 'WALL HUNG TOILET',
         },
       },
       {
-        id: 'wall-faced-toilet',
+        id: 'c-wall-faced-toilet',
         label: {
           en: 'WALL FACED TOILET',
           zh: 'WALL FACED TOILET',
@@ -472,8 +472,8 @@ const categoryList: CategoryItem[] = [
       {
         id: 'push-button-set-concealed-cistern',
         label: {
-          en: 'WALL FACED TOILET',
-          zh: 'WALL FACED TOILET',
+          en: 'PUSH BUTTON SET (CONCEALED CISTERN)',
+          zh: 'PUSH BUTTON SET (CONCEALED CISTERN)',
         },
       },
       {
@@ -491,6 +491,13 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
+        id: 'urinal-partition',
+        label: {
+          en: 'URINAL PARTITION',
+          zh: 'URINAL PARTITION',
+        },
+      },
+      {
         id: 'sensor-faucet',
         label: {
           en: 'SENSOR FAUCET',
@@ -504,6 +511,14 @@ const categoryList: CategoryItem[] = [
           zh: 'SENSOR SOAP DISPENSER',
         },
       },
+      
+      {
+        id: 'manual-soap-dispenser',
+        label: {
+          en: 'MANUAL SOAP DISPENSER',
+          zh: 'MANUAL SOAP DISPENSER',
+        },
+      },
       {
         id: 'tap',
         label: {
@@ -512,17 +527,45 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'soap-dispenser',
+        id: 'c-console-lavatory',
         label: {
-          en: 'SOAP DISPENSER',
-          zh: 'SOAP DISPENSER',
+          en: 'CONSOLE LAVATORY',
+          zh: 'CONSOLE LAVATORY',
         },
       },
       {
-        id: 'lavatory',
+        id: 'c-self-rimming-lavatory',
         label: {
-          en: 'LAVATORY',
-          zh: 'LAVATORY',
+          en: 'SELF RIMMING LAVATORY',
+          zh: 'SELF RIMMING LAVATORY',
+        },
+      },
+      {
+        id: 'c-semi-recessed-lavatory',
+        label: {
+          en: 'SEMI RECESSED LAVATORY',
+          zh: 'SEMI RECESSED LAVATORY',
+        },
+      },
+      {
+        id: 'c-wall-hung-lavatory',
+        label: {
+          en: 'WALL HUNG LAVATORY',
+          zh: 'WALL HUNG LAVATORY',
+        },
+      },
+      {
+        id: 'c-pedestal-lavatory',
+        label: {
+          en: 'PEDESTAL LAVATORY',
+          zh: 'PEDESTAL LAVATORY',
+        },
+      },
+      {
+        id: 'c-under-counter-lavatory',
+        label: {
+          en: 'UNDER COUNTER LAVATORY',
+          zh: 'UNDER COUNTER LAVATORY',
         },
       },
       {
@@ -547,7 +590,7 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'others',
+        id: 'c-others',
         label: {
           en: 'OTHERS',
           zh: 'OTHERS',

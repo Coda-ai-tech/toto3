@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "close-coupled-toilet"
+          "close-coupled-toilet",
+          ""
         ],
         "description": "Regular Wash Down Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "715 x 377 x 717mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/4.5L",
-          "TrapType": "P-trap (Rough in: 180mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "P-trap (Rough in: 180mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -82,17 +83,14 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW862NPJ-SW862JP/drawing.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW862NJ-SW862JP"
         ],
-        "compatibleProduct": [
-          "TCF34320GAA",
-          "TCF33320GAA"
-        ],
-        "remarks": []
+        "compatibleProduct": "TCF34320GAA,\nTCF33320GAA",
+        "remarks": ""
       }
     }
   ]

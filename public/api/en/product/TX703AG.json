@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "TX703AG",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX703AG",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX703AG"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX703AG",
+      "slug": "TX703AG",
+      "productName": "Paper Holder ",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX703AG",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "paper-holder-",
+          ""
+        ],
+        "description": "Paper Holder ",
+        "images": [
+          "/assets/img/content/products/Accessories/paper-holder-/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "103.5 x 128 x 70mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "103.5 x 128 x 70mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/paper-holder-/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

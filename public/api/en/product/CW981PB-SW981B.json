@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "close-coupled-toilet"
+          "close-coupled-toilet",
+          ""
         ],
         "description": "Elongated Wash Down Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "700 x 390 x 773mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/6L",
-          "TrapType": "P-trap (Rough in: 180mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "P-trap (Rough in: 180mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -76,19 +77,14 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW981PB-SW981B/drawing.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW981RB-SW981RB"
         ],
-        "compatibleProduct": [
-          "TCF4914Z",
-          "TCF791HK",
-          "TCF24410GAA",
-          "TCF23410GAA"
-        ],
-        "remarks": []
+        "compatibleProduct": "TCF4914Z,\nTCF791HK,\nTCF24410GAA,\nTCF23410GAA",
+        "remarks": ""
       }
     }
   ]

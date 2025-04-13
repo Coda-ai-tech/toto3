@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "close-coupled-toilet"
+          "close-coupled-toilet",
+          ""
         ],
         "description": "D shape Tornado Flush Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "724 x 408 x 777mm",
           "FlushingSystem": "Tornado Flush",
           "WaterConsumption": "3/6L",
-          "TrapType": "S trap (Rough in: 220mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S trap (Rough in: 220mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -96,7 +97,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW766B-SW766HK/drawing.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
@@ -104,11 +105,8 @@
           "CW766PEB-SW766HK+TCF34570GAA",
           "CW766PEB-SW766HK+TCF33370GAA"
         ],
-        "compatibleProduct": [
-          "TCF34320GAA",
-          "TCF33320GAA"
-        ],
-        "remarks": []
+        "compatibleProduct": "TCF34320GAA,\nTCF33320GAA",
+        "remarks": ""
       }
     }
   ]

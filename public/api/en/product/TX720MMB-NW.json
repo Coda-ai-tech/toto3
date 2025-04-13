@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "TX720MMB#NW",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX720MMB#NW",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX720MMB-NW"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX720MMB#NW",
+      "slug": "TX720MMB-NW",
+      "productName": "Paper Holder with Shelf",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX720MMB-NW",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "paper-holder",
+          ""
+        ],
+        "description": "Paper Holder with Shelf",
+        "images": [
+          "/assets/img/content/products/Accessories/paper-holder/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "215 x 120mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "215 x 120mm"
+          ],
+          "Colour": []
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/paper-holder/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

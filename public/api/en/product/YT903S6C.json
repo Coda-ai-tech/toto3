@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "YT903S6C",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YT903S6C",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YT903S6C"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YT903S6C",
+      "slug": "YT903S6C",
+      "productName": "Towel Bar (600mm)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YT903S6C",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "towel-bar",
+          ""
+        ],
+        "description": "Towel Bar (600mm)",
+        "images": [
+          "/assets/img/content/products/Accessories/towel-bar/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "624 x 60mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "624 x 60mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/towel-bar/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

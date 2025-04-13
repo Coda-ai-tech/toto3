@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "close-coupled-toilet"
+          "close-coupled-toilet",
+          ""
         ],
         "description": "Elongated Tornado Flush Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "727 x 445 x 698mm",
           "FlushingSystem": "Tornado Flush",
           "WaterConsumption": "3/4.8L",
-          "TrapType": "S trap (Rough in: 400mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S trap (Rough in: 400mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -112,19 +113,14 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/C767R4E-S767RE/drawing.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "C767E-S767RE"
         ],
-        "compatibleProduct": [
-          "TCF4914Z",
-          "TCF791HK",
-          "TCF24410GAA",
-          "TCF23410GAA"
-        ],
-        "remarks": []
+        "compatibleProduct": "TCF4914Z,\nTCF791HK,\nTCF24410GAA,\nTCF23410GAA",
+        "remarks": ""
       }
     }
   ]

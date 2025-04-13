@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "wall-hung-toilet"
+          "wall-hung-toilet",
+          ""
         ],
         "description": "Elongated Wash Down Wall Hung Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Wall Hung Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/wall-hung-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "595 x 380 x 346mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/4.5L",
-          "TrapType": "210mm",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "210mm",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -82,12 +83,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW812J/drawing.png"
+          "/assets/img/content/products/Toilets/wall-hung-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

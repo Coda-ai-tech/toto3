@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "close-coupled-toilet"
+          "close-coupled-toilet",
+          ""
         ],
         "description": "Elongated Tornado Flush Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "725 x 384 x 875mm",
           "FlushingSystem": "Tornado Flush",
           "WaterConsumption": "3L/4.5L",
-          "TrapType": "P-trap (Roujgh in: 180mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "P-trap (Roujgh in: 180mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -112,14 +113,14 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW273PJ-SW273JP/drawing.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW273J-SW273JP"
         ],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

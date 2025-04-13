@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "YH902C",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YH902C",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YH902C"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YH902C",
+      "slug": "YH902C",
+      "productName": "Paper Holder",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YH902C",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "paper-holder",
+          ""
+        ],
+        "description": "Paper Holder",
+        "images": [
+          "/assets/img/content/products/Accessories/paper-holder/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "151 x 78 x 90mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "151 x 78 x 90mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
+        },
+        "awardImages": [
+          {
+            "name": "Reddot",
+            "year": 2019,
+            "src": "/assets/img/content/products/awards/reddot_winner.png"
+          }
+        ],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/paper-holder/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

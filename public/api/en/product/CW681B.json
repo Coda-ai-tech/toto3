@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "wall-faced-toilet"
+          "wall-faced-toilet",
+          ""
         ],
         "description": "Elongated Wash Down Wall Faced Toilet",
         "images": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW681B/content-image.png"
+          "/assets/img/content/products/Toilets/wall-faced-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "670 x 448 x 434mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/6L",
-          "TrapType": "S trap (Rough in: 305mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S trap (Rough in: 305mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -76,14 +77,14 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW681B/drawing.png"
+          "/assets/img/content/products/Toilets/wall-faced-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW681PB"
         ],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

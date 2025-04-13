@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "one-piece-toilet"
+          "one-piece-toilet",
+          ""
         ],
         "description": "Elongated Tornado Flush Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/One-Piece Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/one-piece-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "720 x 510 x 665mm",
           "FlushingSystem": "Tornado Flush",
           "WaterConsumption": "4.8L",
-          "TrapType": "S-trap  (Rough-in: 305mm)\n[400mm rough-in also available]",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S-trap  (Rough-in: 305mm)\n[400mm rough-in also available]",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -112,12 +113,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW923RB/drawing.png"
+          "/assets/img/content/products/Toilets/one-piece-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "wall-faced-toilet"
+          "wall-faced-toilet",
+          ""
         ],
         "description": "D-shape Tornado Flush Wall Faced Toilet",
         "images": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW163Y/content-image.png"
+          "/assets/img/content/products/Toilets/wall-faced-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "390 x 624 x 410mm",
           "FlushingSystem": "Tornado Flush",
           "WaterConsumption": "3/4.5L",
-          "TrapType": "P-trap (Rough in: 180mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "P-trap (Rough in: 180mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -112,12 +113,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW163Y/drawing.png"
+          "/assets/img/content/products/Toilets/wall-faced-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "wall-faced-toilet"
+          "wall-faced-toilet",
+          ""
         ],
         "description": "Elongated Wash Down Wall Faced Toilet",
         "images": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW813PJ/content-image.png"
+          "/assets/img/content/products/Toilets/wall-faced-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "380 × 595 × 400mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/4.8L",
-          "TrapType": "P-trap (Rough in: 180mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "P-trap (Rough in: 180mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -82,12 +83,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW813PJ/drawing.png"
+          "/assets/img/content/products/Toilets/wall-faced-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

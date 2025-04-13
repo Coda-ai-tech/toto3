@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "TX703AQV1",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX703AQV1",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX703AQV1"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX703AQV1",
+      "slug": "TX703AQV1",
+      "productName": "Paper Holder",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX703AQV1",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "paper-holder",
+          ""
+        ],
+        "description": "Paper Holder",
+        "images": [
+          "/assets/img/content/products/Accessories/paper-holder/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "142 x 145 x 83mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "142 x 145 x 83mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/paper-holder/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

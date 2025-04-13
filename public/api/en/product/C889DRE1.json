@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "one-piece-toilet"
+          "one-piece-toilet",
+          ""
         ],
         "description": "Elongated Tornado Flush Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/One-Piece Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/one-piece-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "700 x 387 x 699mm",
           "FlushingSystem": "Tornado Flush",
           "WaterConsumption": "3L/4.5L",
-          "TrapType": "S-trap  (Rough-in: 305mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S-trap  (Rough-in: 305mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -112,12 +113,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/C889DRE1/drawing.png"
+          "/assets/img/content/products/Toilets/one-piece-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

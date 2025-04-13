@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "YTS903BC",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YTS903BC",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YTS903BC"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YTS903BC",
+      "slug": "YTS903BC",
+      "productName": "Towel Shelf",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YTS903BC",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "towel-shelf",
+          ""
+        ],
+        "description": "Towel Shelf",
+        "images": [
+          "/assets/img/content/products/Accessories/towel-shelf/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "628 x 201 x 100mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "628 x 201 x 100mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#PN Polished Nickel",
+                "#BN Brushed Nickel",
+                "#PFG Polished French Gold",
+                "#BFG Brushed French Gold",
+                "#PBR Polished Bronze",
+                "#BBR Brushed Bronze",
+                "#MBL Matte Black",
+                "#PRG Polished Rose Gold",
+                "#BRG Brushed Rose Gold",
+                "#PGP Polished Graphite",
+                "#BGP Brushed Graphite",
+                "#PTN Polished Titanium",
+                "#BTN Brushed Titanium"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/towel-shelf/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

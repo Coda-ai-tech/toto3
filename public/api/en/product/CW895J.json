@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "one-piece-toilet"
+          "one-piece-toilet",
+          ""
         ],
         "description": "Elongated Wash Down Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/One-Piece Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/one-piece-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "735 x 354 x 660mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/4.5L",
-          "TrapType": "S-Trap (Rough-in: 305mm) ",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S-Trap (Rough-in: 305mm) ",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -82,17 +83,14 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW895J/drawing.png"
+          "/assets/img/content/products/Toilets/one-piece-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW895PJ"
         ],
-        "compatibleProduct": [
-          "TCF34320GAA",
-          "TCF33320GAA"
-        ],
-        "remarks": []
+        "compatibleProduct": "TCF34320GAA,\nTCF33320GAA",
+        "remarks": ""
       }
     }
   ]

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "YH150R/LS",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YH150R/LS",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YH150R-LS"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YH150R/LS",
+      "slug": "YH150R-LS",
+      "productName": "Double Paper Holder with Shelf",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YH150R-LS",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "paper-holder",
+          ""
+        ],
+        "description": "Double Paper Holder with Shelf",
+        "images": [
+          "/assets/img/content/products/Accessories/paper-holder/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "300 x 137 x 136mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "300 x 137 x 136mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/paper-holder/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

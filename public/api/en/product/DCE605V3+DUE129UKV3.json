@@ -43,11 +43,12 @@
           "Toilets"
         ],
         "subCategory": [
-          "toilet-sensor-flush-valve-"
+          "toilet-sensor-flush-valve-",
+          ""
         ],
         "description": "Concealed type Flush Valve with Sensor for Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Toilet Sensor Flush Valve /content-image.png"
+          "/assets/img/content/products/Toilets/toilet-sensor-flush-valve-/content-image.png"
         ],
         "features": [
           "- Sea water use",
@@ -81,12 +82,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/DCE605V3+DUE129UKV3/drawing.png"
+          "/assets/img/content/products/Toilets/toilet-sensor-flush-valve-/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

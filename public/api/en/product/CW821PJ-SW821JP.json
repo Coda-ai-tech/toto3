@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "close-coupled-toilet"
+          "close-coupled-toilet",
+          ""
         ],
         "description": "Regular Wash Down Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "710 × 400 × 780mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/6L",
-          "TrapType": "P-trap (Rough in: 180mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "P-trap (Rough in: 180mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -65,14 +66,14 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW821PJ-SW821JP/drawing.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW821J-SW821JP"
         ],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

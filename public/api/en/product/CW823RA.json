@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "one-piece-toilet"
+          "one-piece-toilet",
+          ""
         ],
         "description": "Elongated Tornado Flush Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/One-Piece Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/one-piece-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "765 x 510 x 640mm",
           "FlushingSystem": "Tornado Flush",
           "WaterConsumption": "3L/4.5L",
-          "TrapType": "S-trap  (Rough-in: 305mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S-trap  (Rough-in: 305mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -112,20 +113,15 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW823RA/drawing.png"
+          "/assets/img/content/products/Toilets/one-piece-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW823PJ",
           "CW823NJ"
         ],
-        "compatibleProduct": [
-          "TCF4914Z",
-          "TCF791HK",
-          "TCF24410GAA",
-          "TCF23410GAA"
-        ],
-        "remarks": []
+        "compatibleProduct": "TCF4914Z,\nTCF791HK,\nTCF24410GAA,\nTCF23410GAA",
+        "remarks": ""
       }
     }
   ]

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "TX702AW",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX702AW",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX702AW"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX702AW",
+      "slug": "TX702AW",
+      "productName": "Towel Ring",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX702AW",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "towel-ring",
+          ""
+        ],
+        "description": "Towel Ring",
+        "images": [
+          "/assets/img/content/products/Accessories/towel-ring/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "180 × 100 × 110mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "180 × 100 × 110mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/towel-ring/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

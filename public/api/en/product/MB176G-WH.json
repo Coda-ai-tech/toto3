@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "MB176G-WH",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,33 +21,34 @@
       }
     },
     {
-      "label": "",
+      "label": "MB176G-WH",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/MB176G#WH"
+        "href": "/en/product/MB176G-WH"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "",
-      "slug": "MB176G#WH",
-      "productName": "",
+      "modelNumber": "MB176G-WH",
+      "slug": "MB176G-WH",
+      "productName": "Flush Plate",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "MB176G#WH",
+        "id": "MB176G-WH",
         "category": [
           "Toilets"
         ],
         "subCategory": [
-          "concealed-cistern"
+          "concealed-cistern",
+          ""
         ],
-        "description": "",
+        "description": "Flush Plate",
         "images": [
-          "/assets/img/content/products/Toilets/Concealed Cistern/content-image.png"
+          "/assets/img/content/products/Toilets/concealed-cistern/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -63,12 +64,12 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/MB176G#WH/drawing.png"
+          "/assets/img/content/products/Toilets/concealed-cistern/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

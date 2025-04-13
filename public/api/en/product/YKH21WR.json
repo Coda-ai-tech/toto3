@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "YKH21WR",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YKH21WR",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YKH21WR"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YKH21WR",
+      "slug": "YKH21WR",
+      "productName": "Hook And Door Bumper",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YKH21WR",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "others",
+          ""
+        ],
+        "description": "Hook And Door Bumper",
+        "images": [
+          "/assets/img/content/products/Accessories/others/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "100 x 100 x 50 mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "100 x 100 x 50 mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/others/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

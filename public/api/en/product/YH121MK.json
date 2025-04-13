@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "YH121MK",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YH121MK",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YH121MK"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YH121MK",
+      "slug": "YH121MK",
+      "productName": "Paper Holder With Spare Slot",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YH121MK",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "paper-holder-",
+          ""
+        ],
+        "description": "Paper Holder With Spare Slot",
+        "images": [
+          "/assets/img/content/products/Accessories/paper-holder-/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "177 x 149 x 311mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "177 x 149 x 311mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/paper-holder-/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

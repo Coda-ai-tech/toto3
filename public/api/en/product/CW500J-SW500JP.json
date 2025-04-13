@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "close-coupled-toilet"
+          "close-coupled-toilet",
+          ""
         ],
         "description": "Regular Wash Down Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "645 x 378 x 749mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3/4.5L",
-          "TrapType": "S trap (Rough in: 220mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S trap (Rough in: 220mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -82,14 +83,14 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW500J-SW500JP/drawing.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW500PJ-SW500JP"
         ],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

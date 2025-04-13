@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "wall-hung-toilet"
+          "wall-hung-toilet",
+          ""
         ],
         "description": "Regular Wash Down Wall Hung Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Wall Hung Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/wall-hung-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "570 x 352mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3/4.5L",
-          "TrapType": "210mm",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "210mm",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -82,12 +83,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW800J/drawing.png"
+          "/assets/img/content/products/Toilets/wall-hung-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "TX701ARS",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TX701ARS",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TX701ARS"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TX701ARS",
+      "slug": "TX701ARS",
+      "productName": "Towel Bar ",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TX701ARS",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "towel-bar-",
+          ""
+        ],
+        "description": "Towel Bar ",
+        "images": [
+          "/assets/img/content/products/Accessories/towel-bar-/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "660mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "660mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome",
+                "#MW Matte White (STI)",
+                "#MB Matte Black (STI)",
+                "#PG Polished Gold (STI)",
+                "#BG Brushed Gold (STI)",
+                "#PFG2 Polished French Gold (STI)",
+                "#BFG2 Brushed French Gold (STI)",
+                "#PRG2 Polished Rose Gold",
+                "#BRG2 Brushed Rose Gold (STI)",
+                "#PN2 Polished Nickel (STI)",
+                "#BN2 Brushed Nickel (STI)"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/towel-bar-/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "wall-faced-toilet"
+          "wall-faced-toilet",
+          ""
         ],
         "description": "Regular Wash Down Wall Faced Toilet",
         "images": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW824NPJ/content-image.png"
+          "/assets/img/content/products/Toilets/wall-faced-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "525 x 360 x 390mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/4.5L",
-          "TrapType": "P-trap (Rough in: 180mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "P-trap (Rough in: 180mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -82,12 +83,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW824NPJ/drawing.png"
+          "/assets/img/content/products/Toilets/wall-faced-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

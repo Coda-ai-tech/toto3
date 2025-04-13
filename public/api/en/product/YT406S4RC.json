@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "YT406S4RC",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "YT406S4RC",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/YT406S4RC"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "YT406S4RC",
+      "slug": "YT406S4RC",
+      "productName": "Towel Bar (400mm)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "YT406S4RC",
+        "category": [
+          "Accessories"
+        ],
+        "subCategory": [
+          "towel-bar",
+          ""
+        ],
+        "description": "Towel Bar (400mm)",
+        "images": [
+          "/assets/img/content/products/Accessories/towel-bar/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "440 x 55mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "440 x 55mm"
+          ],
+          "Colour": [
+            {
+              "ForFillings": [
+                "Chrome"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Accessories/towel-bar/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "one-piece-toilet"
+          "one-piece-toilet",
+          ""
         ],
         "description": "Elongated G-max Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/One-Piece Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/one-piece-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "730 x 450 x 633mm",
           "FlushingSystem": "G-Max",
           "WaterConsumption": "6L",
-          "TrapType": "S-Trap (Rough-in: 305mm) ",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S-Trap (Rough-in: 305mm) ",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -71,12 +72,12 @@
         ],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW914J-296WF/drawing.png"
+          "/assets/img/content/products/Toilets/one-piece-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

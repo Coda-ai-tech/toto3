@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "wall-faced-toilet"
+          "wall-faced-toilet",
+          ""
         ],
         "description": "D-shape Tornado Flush Wall Faced Toilet\nFor Flush Valve Use",
         "images": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW763FVB/content-image.png"
+          "/assets/img/content/products/Toilets/wall-faced-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "630 x 380 x 483mm",
           "FlushingSystem": "Tornado Flush",
           "WaterConsumption": "3L/4.8L",
-          "TrapType": "S trap (Rough in: 220mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S trap (Rough in: 220mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -112,14 +113,14 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW763FVB/drawing.png"
+          "/assets/img/content/products/Toilets/wall-faced-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW763PB, \nCW763B, \nCW763FVPB"
         ],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

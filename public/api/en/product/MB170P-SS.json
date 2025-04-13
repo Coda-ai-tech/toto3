@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "MB170P-SS",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,33 +21,34 @@
       }
     },
     {
-      "label": "",
+      "label": "MB170P-SS",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/MB170P#SS"
+        "href": "/en/product/MB170P-SS"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "",
-      "slug": "MB170P#SS",
-      "productName": "",
+      "modelNumber": "MB170P-SS",
+      "slug": "MB170P-SS",
+      "productName": "Flush Plate",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "MB170P#SS",
+        "id": "MB170P-SS",
         "category": [
           "Toilets"
         ],
         "subCategory": [
-          "concealed-cistern"
+          "concealed-cistern",
+          ""
         ],
-        "description": "",
+        "description": "Flush Plate",
         "images": [
-          "/assets/img/content/products/Toilets/Concealed Cistern/content-image.png"
+          "/assets/img/content/products/Toilets/concealed-cistern/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -63,12 +64,12 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Toilets/MB170P#SS/drawing.png"
+          "/assets/img/content/products/Toilets/concealed-cistern/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

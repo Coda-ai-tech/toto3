@@ -43,19 +43,20 @@
           "Toilets"
         ],
         "subCategory": [
-          "close-coupled-toilet"
+          "close-coupled-toilet",
+          ""
         ],
         "description": "Elongated Wash Down Toilet",
         "images": [
-          "/assets/img/content/products/Toilets/Close-Coupled Toilet/content-image.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "700 x 376 x 765mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/4.5L",
-          "TrapType": "S trap (Rough in: 305mm)",
-          "WaterPressure": "",
+          "TrapType": "",
+          "WaterPressure": "S trap (Rough in: 305mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -92,17 +93,14 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Toilets/CW781B-SW781SB/drawing.png"
+          "/assets/img/content/products/Toilets/close-coupled-toilet/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW781RPB-SW781SPB"
         ],
-        "compatibleProduct": [
-          "TCF34320GAA",
-          "TCF33320GAA"
-        ],
-        "remarks": []
+        "compatibleProduct": "TCF34320GAA,\nTCF33320GAA",
+        "remarks": ""
       }
     }
   ]
