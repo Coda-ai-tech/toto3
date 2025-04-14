@@ -129,6 +129,15 @@
           },
           "icon": "/assets/img/content/technology/premist/ico-premist.png",
           "thumb": "/assets/img/content/technology/premist/thumb-premist.png"
+        },{
+          "title": "SOFT LIGHT",
+          "description": "Illuminates gently when approached, ensuring ease of use at night",
+          "link": {
+            "type": "routeLink",
+            "href": "/en/technology/soft-light"
+          },
+          "icon": "",
+          "thumb": "/assets/img/content/technology/soft-light/01.jpg"
         }
       ]
     },
