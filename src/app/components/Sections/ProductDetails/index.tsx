@@ -128,32 +128,34 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
   return (
     <section className={`${styles.productDetails}`}>
       <div className={styles.headings}>
-        <div className={styles.productId}>
-          <b>{id}</b>
-        </div>
-        <div className={styles.tabs}>
-          <a href="#specification" className={hash === '#specification' ? styles.activeTab : ''} >
-            SPECIFICATION
-          </a>
-          {
-            (awardImages.length > 0) &&
-            <a href="#awards" className={hash === '#awards' ? styles.activeTab : ''}>
-              AWARDS
-            </a>
-          }
-          {
-            (technologies.length > 0) &&
-            <a href="#technologies" className={hash === '#technologies' ? styles.activeTab : ''}>
-              TECHNOLOGIES
-            </a>
-          }
-          <a href="#downloads" className={hash === '#downloads' ? styles.activeTab : ''}>
-            DOWNLOADS
-          </a>
-        </div>
-        <div className={`${styles.share}`}>
-          <div className={`${styles.shareLabel}`}>Share</div>
-          <ShareButton />
+        <div className={styles.topRow}>
+          <div className={styles.leftColumn}>
+            <div className={styles.productId}>
+              <b>{id}</b>
+            </div>
+            <div className={styles.tabs}>
+              <a href="#specification" className={hash === '#specification' ? styles.activeTab : ''}>
+                SPECIFICATION
+              </a>
+              {awardImages.length > 0 && (
+                <a href="#awards" className={hash === '#awards' ? styles.activeTab : ''}>
+                  AWARDS
+                </a>
+              )}
+              {technologies.length > 0 && (
+                <a href="#technologies" className={hash === '#technologies' ? styles.activeTab : ''}>
+                  TECHNOLOGIES
+                </a>
+              )}
+              <a href="#downloads" className={hash === '#downloads' ? styles.activeTab : ''}>
+                DOWNLOADS
+              </a>
+            </div>
+          </div>
+          <div className={styles.share}>
+            <div className={styles.shareLabel}>Share</div>
+            <ShareButton />
+          </div>
         </div>
       </div>
       <div className={styles.productText}>
@@ -193,24 +195,19 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                         return (
                           <tr key={key}>
                             <td className={styles.specName}><b>{key}</b></td>
-                            <td>
+                            <td className={styles.specValue}>
                               {filteredValues.map((item, index) => (
                                 <div key={index}>
-                                  <table key={key} className={styles.material}>
-                                    <tbody>
-                                      {Object.entries(item).map(([key, values], index) => {
-                                        if (Array.isArray(values) && values.length > 0) {
-                                          return (
-                                            <tr key={'row-' + index}>
-                                              <td>{key}:</td>
-                                              <td>{values.join(', ')}</td>
-                                            </tr>
-                                          );
-                                        }
-                                        return null; // Skip empty arrays
-                                      })}
-                                    </tbody>
-                                  </table>
+
+                                  {Object.entries(item).map(([key, values], index) => {
+                                    if (Array.isArray(values) && values.length > 0) {
+                                      return (
+                                        <div className={styles.innerValue}>{values.join(', ')}</div>
+                                      );
+                                    }
+                                    return null; // Skip empty arrays
+                                  })}
+
                                 </div>
                               ))}
                             </td>
@@ -220,7 +217,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                       return (
                         <tr key={key}>
                           <td className={styles.specName}><b>{key}</b></td>
-                          <td>
+                          <td className={styles.specValue}>
                             {filteredValues.map((data, index) => (
                               <div key={index} className={styles.material}>{data}</div>
                             ))}
@@ -231,7 +228,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                     return (
                       <tr key={key}>
                         <td className={styles.specName}><b>{key}</b></td>
-                        <td>{value}</td>
+                        <td className={styles.specValue}>{value}</td>
                       </tr>
                     );
                   }
@@ -362,7 +359,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
           </div>
         </div>
       }
-      <div id="downloads">
+      {/* <div id="downloads">
         <div className={styles.downloadContainer}>
           <div className={styles.subHeadings}>
             DOWNLOADS
@@ -373,7 +370,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }

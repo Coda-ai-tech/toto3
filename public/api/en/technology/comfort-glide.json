@@ -54,120 +54,462 @@
         "title": "RELATED PRODUCT",
         "items": [
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLP03301A1",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLP03301A1/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLP03301A1"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLP02301B",
+            "description": "Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLP02301B/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLP02301B"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLP02304B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLP02304B/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLP02304B"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLP02307B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLP02307B/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLP02307B"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLG07301HA",
+            "description": "Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG07301HA/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLG07301HA"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLG07303HA",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG07303HA/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLG07303HA"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLG07305HA",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG07305HA/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLG07305HA"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLG08301HA",
+            "description": "Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG08301HA/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLG08301HA"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLG08303HA",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG08303HA/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLG08303HA"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLG08305HA",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG08305HA/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLG08305HA"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLG09301B",
+            "description": "Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG09301B/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLG09301B"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLG09303B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG09303B/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLG09303B"
             }
           },
           {
-            "title": "CS987PVA / TCF9787WA",
-            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb": "/assets/img/content/related-product/sample.webp",
+            "title": "TLG09305B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG09305B/content-image.png",
             "link": {
               "type": "routeLink",
-              "href": "/en/product/CS987PVA"
+              "href": "/en/product/TLG09305B"
+            }
+          },
+          {
+            "title": "TLG10301HA",
+            "description": "Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG10301HA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG10301HA"
+            }
+          },
+          {
+            "title": "TLG10303HA",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG10303HA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG10303HA"
+            }
+          },
+          {
+            "title": "TLG10305HA",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG10305HA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG10305HA"
+            }
+          },
+          {
+            "title": "TLG11301B",
+            "description": "Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG11301B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG11301B"
+            }
+          },
+          {
+            "title": "TLG11303B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG11303B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG11303B"
+            }
+          },
+          {
+            "title": "TLG11305B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG11305B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG11305B"
+            }
+          },
+          {
+            "title": "TLG04301B",
+            "description": "Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG04301B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG04301B"
+            }
+          },
+          {
+            "title": "TLG04304B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG04304B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG04304B"
+            }
+          },
+          {
+            "title": "TLG04307B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG04307B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG04307B"
+            }
+          },
+          {
+            "title": "TLG04303B",
+            "description": "Single Lever Lavatory Faucet without Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG04303B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG04303B"
+            }
+          },
+          {
+            "title": "TLG04306B",
+            "description": "Extended Single Lever Lavatory Faucet without Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG04306B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG04306B"
+            }
+          },
+          {
+            "title": "TLG04308B",
+            "description": "Extended Single Lever Lavatory Faucet without Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG04308B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG04308B"
+            }
+          },
+          {
+            "title": "TLG01301B",
+            "description": "Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG01301B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG01301B"
+            }
+          },
+          {
+            "title": "TLG01304B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG01304B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG01304B"
+            }
+          },
+          {
+            "title": "TLG01307B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG01307B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG01307B"
+            }
+          },
+          {
+            "title": "TLG01309BB",
+            "description": "Single Lever Lavatory Faucet (Side Handle) with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG01309BB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG01309BB"
+            }
+          },
+          {
+            "title": "TLG02301B",
+            "description": "Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG02301B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG02301B"
+            }
+          },
+          {
+            "title": "TLG02304B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG02304B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG02304B"
+            }
+          },
+          {
+            "title": "TLG02307B",
+            "description": "Extended Single Lever Lavatory Faucet with Pop-up Waste",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG02307B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG02307B"
+            }
+          },
+          {
+            "title": "TLG02309BB",
+            "description": "Single Lever Lavatory Faucet (Side Handle)",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG02309BB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG02309BB"
+            }
+          },
+          {
+            "title": "TLP02309BA",
+            "description": "Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLP02309BA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLP02309BA"
+            }
+          },
+          {
+            "title": "TLP02310BA",
+            "description": "Extended Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLP02310BA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLP02310BA"
+            }
+          },
+          {
+            "title": "TLG07307H",
+            "description": "Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG07307H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG07307H"
+            }
+          },
+          {
+            "title": "TLG07308H",
+            "description": "Extended Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG07308H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG07308H"
+            }
+          },
+          {
+            "title": "TLG08307H",
+            "description": "Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG08307H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG08307H"
+            }
+          },
+          {
+            "title": "TLG08308H",
+            "description": "Extended Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG08308H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG08308H"
+            }
+          },
+          {
+            "title": "TLG09307BB",
+            "description": "Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG09307BB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG09307BB"
+            }
+          },
+          {
+            "title": "TLG09308BB",
+            "description": "Extended Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG09308BB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG09308BB"
+            }
+          },
+          {
+            "title": "TLG10307H",
+            "description": "Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG10307H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG10307H"
+            }
+          },
+          {
+            "title": "TLG10308H",
+            "description": "Extended Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG10308H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG10308H"
+            }
+          },
+          {
+            "title": "TLG11307BA",
+            "description": "Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG11307BA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG11307BA"
+            }
+          },
+          {
+            "title": "TLG11308BA",
+            "description": "Extended Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG11308BA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG11308BA"
+            }
+          },
+          {
+            "title": "TLG04309BB",
+            "description": "Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG04309BB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG04309BB"
+            }
+          },
+          {
+            "title": "TLG04310BB",
+            "description": "Extended Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG04310BB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG04310BB"
+            }
+          },
+          {
+            "title": "TLG01310BB",
+            "description": "Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG01310BB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG01310BB"
+            }
+          },
+          {
+            "title": "TLG01311BB",
+            "description": "Extended Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG01311BB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG01311BB"
+            }
+          },
+          {
+            "title": "TLG02310BB",
+            "description": "Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG02310BB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG02310BB"
+            }
+          },
+          {
+            "title": "TLG02311BB",
+            "description": "Extended Wall Mounted Lavatory Faucet",
+            "thumb": "/assets/img/content/products/Faucets/lavatory-faucet/TLG02311BB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLG02311BB"
             }
           }
         ]
