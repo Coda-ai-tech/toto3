@@ -133,7 +133,7 @@ const ProductBanner = ({ order, data }: ModuleData<ProductBannerProps, null>) =>
                     return (
                       <Link
                         key={index}
-                        href={item.link}
+                        href={item.link.href ?? '/en'}
                         title={item.label}
                         className={`${styles.bannerItem} ${currentIndex === index ? styles.active : ''}`}
                         onMouseOver={() => {

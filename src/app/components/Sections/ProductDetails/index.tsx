@@ -287,8 +287,8 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                     return (
                       <div key={'image-' + index} className={styles.imageWrapper}>
                         <Image
-                          src="/assets/img/content/products/awards/reddot_best.png"
-                          alt="Good Design"
+                          src="/assets/img/content/products/awards/reddot_winner.png"
+                          alt="Reddot Winner"
                           draggable={false}
                           fill
                           style={{ objectFit: 'contain' }}
@@ -299,20 +299,20 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                     return (
                       <div key={'image-' + index} className={styles.imageWrapper}>
                         <Image
-                          src="/assets/img/content/products/awards/reddot_best.png"
-                          alt="Good Design"
+                          src="/assets/img/content/products/awards/reddot_winner.png"
+                          alt="Reddot Winner"
                           draggable={false}
                           fill
                           style={{ objectFit: 'contain' }}
                         />
                       </div>
                     )
-                  } else if (name === 'reddot winner' || name === 'reddot-winner' || name === 'reddot_winner') {
+                  } else if (name === 'reddot 2017' || name === 'reddot-2017' || name === 'reddot_2017') {
                     return (
                       <div key={'image-' + index} className={styles.imageWrapper}>
                         <Image
-                          src="/assets/img/content/products/awards/reddot_winner.png"
-                          alt="Good Design"
+                          src="/assets/img/content/products/awards/reddot_2017.png"
+                          alt="Reddot Award 2017"
                           draggable={false}
                           fill
                           style={{ objectFit: 'contain' }}

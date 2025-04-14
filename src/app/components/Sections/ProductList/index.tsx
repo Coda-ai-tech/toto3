@@ -843,9 +843,15 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
 
   useEffect(() => {
     if (categoryFromUrl) {
+      var categorySelect: string;
       // Ensure the category exists in categoryList to avoid invalid selections
+      if (categoryFromUrl === 'washlet_plus') {
+        categorySelect = 'washlet+';
+      } else {
+        categorySelect = categoryFromUrl;
+      }
       const validCategory = categoryList.find(
-        (cat) => cat.id.toLowerCase() === categoryFromUrl.toLowerCase()
+        (cat) => cat.id.toLowerCase() === categorySelect.toLowerCase()
       );
       if (validCategory && !selectedCategory.some((cat: any) => cat.cid === validCategory.id)) {
         setSelectedCategory([{ cid: validCategory.id, sub: [] }]);
