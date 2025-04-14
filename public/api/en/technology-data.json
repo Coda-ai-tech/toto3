@@ -32,12 +32,12 @@
             "href": "/en/technology/tornado-flush"
           },
           "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
-          "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
+          "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush_2.jpg"
         },
         {
           "title": "WATER-SAVING",
           "description": "Leading environment-friendly and water-saving technologies",
-          "link": {
+          "link": { 
             "type": "routeLink",
             "href": "/en/technology/water-saving"
           },
@@ -47,8 +47,8 @@
       ]
     },
     {
-      "id": "washlet",
-      "label": "WASHLET",
+      "id": "neorest/washlet",
+      "label": "NEOREST/WASHLET",
       "list": [
         {
           "title": "ACTILIGHT",
@@ -336,7 +336,7 @@
             "href": "/en/technology/linearceram"
           },
           "icon": "/assets/img/content/technology/linearceram/ico-linearceram.png",
-          "thumb": "/assets/img/content/technology/linearceram/thumb-linearceram.png"
+          "thumb": "/assets/img/content/technology/linearceram/LinearCeram_clean matt_.jpg"
         },
         {
           "title": "CEFIONTECT",
