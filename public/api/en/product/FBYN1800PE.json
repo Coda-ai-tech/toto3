@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "FBYN1800PE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "FBYN1800PE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/FBYN1800PE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "FBYN1800PE",
+      "slug": "FBYN1800PE",
+      "productName": "Enameled Cast Iron Non-Apron Bathtub\n(without handgrip)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "FBYN1800PE",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "non-apron-bathtub",
+          ""
+        ],
+        "description": "Enameled Cast Iron Non-Apron Bathtub\n(without handgrip)",
+        "images": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/FBYN1800PE/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1800 x 800 x 500mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Enameled Cast Iron"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [
+          {
+            "name": "IF Gold",
+            "year": 2014,
+            "src": "/assets/img/content/products/awards/if_gold.png"
+          }
+        ],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/FBYN1800PE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "FBYN1700HPE",
+          "FBYN1700PE",
+          "FBYN1800HPE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

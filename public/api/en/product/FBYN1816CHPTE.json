@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "FBYN1816CHPTE",
-    "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-    "keywords": "TOTO, bathtub, free-standing, enameled cast iron, chrome plated, washlet, bathroom, design",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
   },
   "breadcrumb": [
@@ -31,39 +31,64 @@
   "content": [
     {
       "id": null,
-      "productName": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
+      "modelNumber": "FBYN1816CHPTE",
+      "slug": "FBYN1816CHPTE",
+      "productName": "Enameled Cast Iron Free-Standing Bathtub\n(with chrome plated handgrip)",
+      "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "FBYN1816CHPTE",
         "category": [
-          "bathtub"
+          "Bathtubs"
         ],
         "subCategory": [
-          "free-standing-bathtub"
+          "free-standing-bathtub",
+          ""
         ],
-        "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-        "images": ["/assets/img/content/products/Bathtub/FBYN1816CHPTE/content-image.webp"],
-        "features": [
-          "Fully exposed design, with Full-Apron luxurious and majestic",
-          "Cast iron material provides years of durability",
-          "Slip-resistance surface",
-          "Streamline Handgrip on 1 side"
+        "description": "Enameled Cast Iron Free-Standing Bathtub\n(with chrome plated handgrip)",
+        "images": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/FBYN1816CHPTE/content-image.png"
         ],
+        "features": [],
         "specs": {
-          "Size": "1800 x 800 x 537mm",
-          "Pop-up waste": "Included",
-          "Material": "Cast Iron",
-          "Colour": "White",
-          "Remarks": "Without Handgrips model is also available"
+          "Size": "1800 x 800 x 537mm ",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Enameled Cast Iron"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
         },
-        "awardImages": [],
+        "awardImages": [
+          {
+            "name": "IF Gold",
+            "year": 2014,
+            "src": "/assets/img/content/products/awards/if_gold.png"
+          }
+        ],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Bathtub/FBYN1816CHPTE/drawing.jpg"
-        ]
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/FBYN1816CHPTE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "FBYN1716CHPTE",
+          "FBYN1716CPTE",
+          "FBYN1816CPTE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
       }
     }
   ]
 }
-

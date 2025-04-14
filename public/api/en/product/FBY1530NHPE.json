@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "FBY1530NHPE",
-    "description": "Enameled Cast Iron Non-Apron Bathtub (with chrome plated handgrips)",
-    "keywords": "TOTO, bathtub, non-apron, enameled cast iron, chrome plated, washlet, bathroom, design",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
   },
   "breadcrumb": [
@@ -31,39 +31,55 @@
   "content": [
     {
       "id": null,
-      "productName": "Enameled Cast Iron Non-Apron Bathtub (with chrome plated handgrips)",
+      "modelNumber": "FBY1530NHPE",
+      "slug": "FBY1530NHPE",
+      "productName": "Enameled Cast Iron Non-Apron Bathtub\n(with chrome plated handgrips)",
+      "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "FBY1530NHPE",
         "category": [
-          "bathtub"
+          "Bathtubs"
         ],
         "subCategory": [
-          "non-apron-bathtub"
+          "non-apron-bathtub",
+          ""
         ],
-        "description": "Enameled Cast Iron Non-Apron Bathtub (with chrome plated handgrips)",
-        "images": ["/assets/img/content/products/Bathtub/FBY1530NHPE/content-image.webp"],
-        "features": [
-          "Enameled cast iron Bathtub",
-          "Simple design with functionality",
-          "Naturally resist of scratching and cracking",
-          "Excellent heat retention with quiet performance",
-          "Anti-slip surface",
-          "Bathtub waste is not included"
+        "description": "Enameled Cast Iron Non-Apron Bathtub\n(with chrome plated handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/FBY1530NHPE/content-image.png"
         ],
+        "features": [],
         "specs": {
-          "Size": "1500 x 750 x 490mm",
-          "Pop-up waste": "Not included",
-          "Material": "Cast Iron",
-          "Color": "White",
-          "Remarks": "Without Handgrips model is also available"
+          "Size": "1500 x 750 x 490mm ",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Enameled Cast Iron"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Bathtub/FBY1530NHPE/drawing.jpg"
-        ]
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/FBY1530NHPE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "FBY1530NPE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
       }
     }
   ]

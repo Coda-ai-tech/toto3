@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "FBY1614HPTE",
-    "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-    "keywords": "TOTO, bathtub, free-standing, enameled cast iron, chrome plated, washlet, bathroom, design",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
   },
   "breadcrumb": [
@@ -31,32 +31,55 @@
   "content": [
     {
       "id": null,
-      "productName": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
+      "modelNumber": "FBY1614HPTE",
+      "slug": "FBY1614HPTE",
+      "productName": "Enameled Cast Iron Free-Standing Bathtub\n(with chrome plated handgrip)",
+      "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "FBY1614HPTE",
         "category": [
-          "bathtub"
+          "Bathtubs"
         ],
         "subCategory": [
-          "free-standing-bathtub"
+          "free-standing-bathtub",
+          ""
         ],
-        "description": "Enameled Cast Iron Free-Standing Bathtub (with chrome plated handgrip)",
-        "images": ["/assets/img/content/products/Bathtub/FBY1614HPTE/content-image.webp"],
+        "description": "Enameled Cast Iron Free-Standing Bathtub\n(with chrome plated handgrip)",
+        "images": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/FBY1614HPTE/content-image.png"
+        ],
         "features": [],
         "specs": {
-          "Size": "1650 x 900 x 565mm",
-          "Pop-up waste": "Included",
-          "Material": "Cast Iron",
-          "Color": "White",
-          "Remarks": "Without Handgrips model is also available"
+          "Size": "1650 x 900 x 565mm ",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Enameled Cast Iron"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Bathtub/FBY1614HPTE/drawing.jpg"
-        ]
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/FBY1614HPTE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "FBY1614PTE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
       }
     }
   ]

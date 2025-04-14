@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "title": "FBY1614PTE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "FBY1614PTE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/FBY1614PTE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "FBY1614PTE",
+      "slug": "FBY1614PTE",
+      "productName": "Enameled Cast Iron Free-Standing Bathtub\n(without handgrip)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "FBY1614PTE",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "free-standing-bathtub",
+          ""
+        ],
+        "description": "Enameled Cast Iron Free-Standing Bathtub\n(without handgrip)",
+        "images": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/FBY1614PTE/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1650 x 900 x 565mm ",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Enameled Cast Iron"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/FBY1614PTE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "FBY1614HPTE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

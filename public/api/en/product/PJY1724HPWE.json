@@ -8,15 +8,24 @@
   "breadcrumb": [
     {
       "label": "HOME",
-      "link": { "type": "routeLink", "href": "/en" }
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
     },
     {
       "label": "PRODUCT",
-      "link": { "type": "routeLink", "href": "/en/product" }
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
     },
     {
       "label": "PJY1724HPWE",
-      "link": { "type": "routeLink", "href": "/en/product/PJY1724HPWE" }
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PJY1724HPWE"
+      }
     }
   ],
   "content": [
@@ -24,31 +33,39 @@
       "id": null,
       "modelNumber": "PJY1724HPWE",
       "slug": "PJY1724HPWE",
-      "productName": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
+      "productName": "Galaline Free-standing Bathtub\n(with chrome plated handgrips)",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "Bathtubs",
-        "category": ["Bathtubs"],
-        "subCategory": ["Free-standing Bathtub"],
-        "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-        "images": ["/assets/img/content/products/Neorest/PJY1724HPWE/content-image.png"],
-        "features": [
-          "Constructed with solid surface Galaline material engineered to resist stains, retain heat, and minimize maintenance",
-          "Shaped to recline the body and simulate a comforting embrace, providing relaxation and a deep sensation of ease",
-          "Multi-functional design provides a new way for easy bathing",
-          "Slip-resistant surface",
-          "Direct push drain"
+        "id": "PJY1724HPWE",
+        "category": [
+          "Bathtubs"
         ],
+        "subCategory": [
+          "free-standing-bathtub",
+          ""
+        ],
+        "description": "Galaline Free-standing Bathtub\n(with chrome plated handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1724HPWE/content-image.png"
+        ],
+        "features": [],
         "specs": {
           "Size": "1800 x 800 x 565mm",
-          "Pop-up Waste": "Included",
-          "Material": ["Galaline"],
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Galaline"
+          ],
           "Colour": [
             {
-              "For Lavatory": ["White"],
-              "For Bathtub": []
+              "ForLavatory": [
+                "White"
+              ]
             }
           ]
         },
@@ -65,11 +82,15 @@
             "thumb": "/assets/img/content/technology/recline-comfort/thumb-recline-comfort.png"
           }
         ],
-        "downloads": ["/assets/img/content/products/Neorest/PJY1724HPWE/drawing.png"],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1724HPWE/drawing.png"
+        ],
         "videos": [],
-        "relatedProduct": ["PJY1724PWE"],
-        "compatitibleProduct": [],
-        "remarks": [""]
+        "relatedProduct": [
+          "PJY1724PWE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
       }
     }
   ]

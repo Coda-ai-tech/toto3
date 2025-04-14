@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "PJY1744HPWE",
-    "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-    "keywords": "TOTO, bathtub, free-standing, Galaline, chrome plated, washlet, bathroom, design",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
   },
   "breadcrumb": [
@@ -31,38 +31,55 @@
   "content": [
     {
       "id": null,
-      "productName": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
+      "modelNumber": "PJY1744HPWE",
+      "slug": "PJY1744HPWE",
+      "productName": "Galaline Free-standing Bathtub\n(with chrome plated handgrips)",
+      "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "PJY1744HPWE",
         "category": [
-          "bathtub"
+          "Bathtubs"
         ],
         "subCategory": [
-          "free-standing-bathtub"
+          "free-standing-bathtub",
+          ""
         ],
-        "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
-        "images": ["/assets/img/content/products/Bathtub/PJY1744HPWE/content-image.webp"],
-        "features": [
-          "Constructed with solid surface Galaline material engineered to resist stains, retain heat, and minimize maintenance",
-          "Shaped to recline the body and simulate a comforting embrace, providing relaxation and a deep sensation of ease",
-          "Multi-functional design provides a new way for easy bathing",
-          "Slip-resistant surface",
-          "Direct push drain"
+        "description": "Galaline Free-standing Bathtub\n(with chrome plated handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1744HPWE/content-image.png"
         ],
+        "features": [],
         "specs": {
-          "Size": "1695 x 835 x 565mm",
-          "Pop-up waste": "Included",
-          "Material": "Galaline",
-          "Colour": "White",
-          "Remarks": "Without Handgrips model is also available"
+          "Size": "1695 x 835 x565mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Galaline"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Bathtub/PJY1744HPWE/drawing.jpg"
-        ]
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1744HPWE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "PJY1744PWE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
       }
     }
   ]

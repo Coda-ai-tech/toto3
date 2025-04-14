@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "title": "PPYD1720PWE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "PPYD1720PWE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PPYD1720PWE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "PPYD1720PWE",
+      "slug": "PPYD1720PWE",
+      "productName": "Pearl Acrylic Air Bubble & Whirlpool Non-Apron Bathtub\n(without handgrips)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "PPYD1720PWE",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "non-apron-bathtub",
+          ""
+        ],
+        "description": "Pearl Acrylic Air Bubble & Whirlpool Non-Apron Bathtub\n(without handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/PPYD1720PWE/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1700 x 1700 x 600mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Acrylic"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/PPYD1720PWE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "PPYD1720HPWE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

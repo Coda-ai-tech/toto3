@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "title": "FBY1550HPE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "FBY1550HPE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/FBY1550HPE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "FBY1550HPE",
+      "slug": "FBY1550HPE",
+      "productName": "Enameled Cast Iron Non-Apron Bathtub\n(with chrome plated handgrips)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "FBY1550HPE",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "non-apron-bathtub",
+          ""
+        ],
+        "description": "Enameled Cast Iron Non-Apron Bathtub\n(with chrome plated handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/FBY1550HPE/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1500 x 800 x 590mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Enameled Cast Iron"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/FBY1550HPE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "FBY1550PE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

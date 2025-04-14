@@ -452,7 +452,7 @@
             "label": "NEOREST",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=neorest"
             },
             "media": {
               "type": "image",
@@ -469,7 +469,7 @@
             "label": "WASHLET+",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=washlet+"
             },
             "media": {
               "type": "image",
@@ -486,7 +486,7 @@
             "label": "WASHLET",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=washlet"
             },
             "media": {
               "type": "image",
@@ -503,7 +503,7 @@
             "label": "TOILETS",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Toilet"
             },
             "media": {
               "type": "image",
@@ -520,7 +520,7 @@
             "label": "LAVATORIES",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Lavatories"
             },
             "media": {
               "type": "image",
@@ -537,7 +537,7 @@
             "label": "BATHTUBS",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Bathtub"
             },
             "media": {
               "type": "image",
@@ -554,7 +554,7 @@
             "label": "FAUCETS",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Faucets"
             },
             "media": {
               "type": "image",
@@ -571,7 +571,7 @@
             "label": "SHOWERS",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Shower"
             },
             "media": {
               "type": "image",
@@ -588,7 +588,7 @@
             "label": "ACCESSORIES",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Accessories"
             },
             "media": {
               "type": "image",
@@ -605,7 +605,7 @@
             "label": "COMMERCIAL",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Commercial"
             },
             "media": {
               "type": "image",
@@ -789,70 +789,70 @@
             "label": "Neorest",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=neorest"
             }
           },
           {
             "label": "Washlet+",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=washlet+"
             }
           },
           {
             "label": "Washlet",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=washlet"
             }
           },
           {
             "label": "Toilets",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Toilet"
             }
           },
           {
             "label": "Lavatories",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Lavatories"
             }
           },
           {
             "label": "Bathtubs",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Bathtub"
             }
           },
           {
             "label": "Faucets",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Faucets"
             }
           },
           {
             "label": "Showers",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Shower"
             }
           },
           {
             "label": "Accessories",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Accessories"
             }
           },
           {
             "label": "Commercial",
             "link": {
               "type": "routeLink",
-              "href": "/en"
+              "href": "/en/product?category=Commercial"
             }
           }
         ]

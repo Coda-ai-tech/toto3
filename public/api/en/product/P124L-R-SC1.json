@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "P124L/R#SC1",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "P124L/R#SC1",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/P124L-R#SC1"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "P124L/R#SC1",
+      "slug": "P124L-R#SC1",
+      "productName": "FRP Bathtub with Apron ",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "P124L-R#SC1",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "apron-bathtub",
+          ""
+        ],
+        "description": "FRP Bathtub with Apron ",
+        "images": [
+          "/assets/img/content/products/Bathtub/apron-bathtub/P124L-R#SC1/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1020 x 740 x 645mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Fibre-reinforced plastic (FRP)"
+          ],
+          "Colour": [
+            {
+              "ForBathtub": [
+                "#SC1 Pastel Ivory"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/apron-bathtub/P124L-R#SC1/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "P164L-R#SC1",
+          "PCS1000N#NW1"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

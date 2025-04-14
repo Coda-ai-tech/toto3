@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState, useCallback, useRef } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useSearchParams } from 'next/navigation';
 import { Skeleton } from '@heroui/react';
 import { AnimatePresence, motion } from 'framer-motion';
 import SvgIcon from '@@/SvgIcon';
@@ -638,6 +638,8 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   const { id } = data;
 
   const { lang } = useParams();
+  const searchParams = useSearchParams();
+  const categoryFromUrl = searchParams.get('category');
 
   const pagePerItem = useRef(12);
   const searchInput = useRef<HTMLInputElement>(null);
@@ -820,6 +822,19 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     setIsLoading,
     selectedCategory.length,
   ]);
+
+  useEffect(() => {
+    if (categoryFromUrl) {
+      // Ensure the category exists in categoryList to avoid invalid selections
+      const validCategory = categoryList.find(
+        (cat) => cat.id.toLowerCase() === categoryFromUrl.toLowerCase()
+      );
+      if (validCategory && !selectedCategory.some((cat: any) => cat.cid === validCategory.id)) {
+        setSelectedCategory([{ cid: validCategory.id, sub: [] }]);
+        setPage(1); // Reset to first page when category changes
+      }
+    }
+  }, [categoryFromUrl]);
 
   useEffect(() => {
     if (products) return;

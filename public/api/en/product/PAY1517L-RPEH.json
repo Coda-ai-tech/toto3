@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "PAY1517L/RPEH",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "PAY1517L/RPEH",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PAY1517L-RPEH"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "PAY1517L/RPEH",
+      "slug": "PAY1517L-RPEH",
+      "productName": "Acrylic Non-Apron Bathtub",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "PAY1517L-RPEH",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "non-apron-bathtub",
+          ""
+        ],
+        "description": "Acrylic Non-Apron Bathtub",
+        "images": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/PAY1517L-RPEH/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1500 x 800 x 565mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Acrylic"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/PAY1517L-RPEH/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

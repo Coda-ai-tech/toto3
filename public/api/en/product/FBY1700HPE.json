@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "FBY1700HPE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "FBY1700HPE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/FBY1700HPE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "FBY1700HPE",
+      "slug": "FBY1700HPE",
+      "productName": "Enameled Cast Iron Non-Apron Bathtub\n(with chrome plated handgrips)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "FBY1700HPE",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "non-apron-bathtub",
+          ""
+        ],
+        "description": "Enameled Cast Iron Non-Apron Bathtub\n(with chrome plated handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/FBY1700HPE/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1676 x 813 x 465mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Enameled Cast Iron"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/FBY1700HPE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "FBY1700PE",
+          "FBY1600HPE",
+          "FBY1600PE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

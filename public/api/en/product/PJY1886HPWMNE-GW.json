@@ -24,50 +24,60 @@
       "label": "PJY1886HPWMNE#GW",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/PJY1886HPWMNE-GW"
+        "href": "/en/product/PJY1886HPWMNE#GW"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "productName":"Galaline Free-standing Bathtub with Pillow(with chrome plated handgrips)",
+      "modelNumber": "PJY1886HPWMNE#GW",
+      "slug": "PJY1886HPWMNE#GW",
+      "productName": "Galaline Free-standing Bathtub with Pillow\n(with chrome plated handgrips)",
+      "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "PJY1886HPWMNE#GW",
         "category": [
-          "bathtub"
+          "Bathtubs"
         ],
         "subCategory": [
-          "free-standing-bathtub"
+          "free-standing-bathtub",
+          ""
         ],
-        "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
+        "description": "Galaline Free-standing Bathtub with Pillow\n(with chrome plated handgrips)",
         "images": [
-          "/assets/img/content/products/Bathtub/PJY1886HPWMNE-GW/content-image.webp"
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1886HPWMNE#GW/content-image.png"
         ],
-        "features": [
-          "Chic and elegant contoured design that harmonizes with any bathroom's design; complements the Neorest collection",
-          "Constructed with solid surface Galalato material engineered to resist stain, retain heat, and minimize maintenance",
-          "Perfectly sized for deep soaking while maintaining a compact form to maximize bathroom space",
-          "Flush drain and push button design for a smooth, one-piece tub appearance",
-          "Slip-resistant surface"
-        ],
+        "features": [],
         "specs": {
-          "size": "1800 x 950 x 600mm",
-          "popUpWaste": "Included",
-          "material": "Galaline",
-          "colour": "White"
+          "Size": "1800 x 950 x 600mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Galaline (Gloss)"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
         },
-        "awardImages": [
-
-        ],
-        "technologies": [
-          
-        ],
+        "awardImages": [],
+        "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Bathtub/PJY1886HPWMNE-GW/drawing.jpg"
-        ]
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1886HPWMNE#GW/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
       }
     }
   ]

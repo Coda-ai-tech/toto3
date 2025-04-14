@@ -24,7 +24,7 @@
       "label": "PJYD2200PWEH#GW",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/PJYD2200PWEH-GW"
+        "href": "/en/product/PJYD2200PWEH#GW"
       }
     }
   ],
@@ -33,39 +33,49 @@
       "id": null,
       "modelNumber": "PJYD2200PWEH#GW",
       "slug": "PJYD2200PWEH#GW",
-      "productName": "Galaline Free-standing Air Bubble & Whirlpool Bathtub with Pillow (with chrome plated handgrips)",
+      "productName": "Galaline Free-standing Air Bubble & Whirlpool Bathtub with Pillow\n(with chrome plated handgrips)",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "Bathtubs",
-        "category": ["Bathtubs"],
-        "subCategory": ["Free-standing Bathtub"],
-        "description": "Galaline Free-standing Air Bubble & Whirlpool Bathtub with Pillow (with chrome plated handgrips)",
-        "images": ["/assets/img/content/products/Neorest/PJYD2200PWEH-GW/content-image.png"],
-        "features": [
-          "Constructed with solid surface Galalato engineered to resist stains, retain heat, and minimize maintenance",
-          "Shaped to simulate a \"gravity-less\" floating position for ultimate relaxation",
-          "Hydrohands massaging water jets",
-          "Slip-resistant surface",
-          "Adjustable headrest",
-          "Cascading shoulder warmer",
-          "Mood creating LED Lighting",
-          "Capacitive keypad",
-          "Toe touch drain and push-button design for a smooth, one-piece tub appearance"
+        "id": "PJYD2200PWEH#GW",
+        "category": [
+          "Bathtubs"
         ],
+        "subCategory": [
+          "free-standing-bathtub",
+          ""
+        ],
+        "description": "Galaline Free-standing Air Bubble & Whirlpool Bathtub with Pillow\n(with chrome plated handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJYD2200PWEH-GW/content-image.png"
+        ],
+        "features": [],
         "specs": {
           "Size": "2200 x 1050 x 780mm",
-          "Pop-up Waste": "Included",
-          "Material": ["Galaline (Gloss)"],
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Galaline (Gloss)"
+          ],
           "Colour": [
             {
-              "For Lavatory": ["White"],
-              "For Bathtub": ["#NW1 Pale White", "#SC1 Pastel Ivory"]
+              "ForLavatory": [
+                "White"
+              ]
             }
           ]
         },
-        "awardImages": [],
+        "awardImages": [
+          {
+            "name": "Reddot Best",
+            "year": 2020,
+            "src": "/assets/img/content/products/awards/reddot_best_winner.png"
+          }
+        ],
         "technologies": [
           {
             "title": "ZERO DIMENSION",
@@ -88,11 +98,13 @@
             "thumb": "/assets/img/content/technology/hydrohands/thumb-hydrohands.png"
           }
         ],
-        "downloads": ["/assets/img/content/products/Neorest/PJYD2200PWEH-GW/drawing.png"],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJYD2200PWEH#GW/drawing.png"
+        ],
         "videos": [],
-        "relatedProduct": ["2020.0"],
-        "compatitibleProduct": [],
-        "remarks": [""]
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
       }
     }
   ]

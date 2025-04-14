@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "PCS1000N#NW1",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "PCS1000N#NW1",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PCS1000N#NW1"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "PCS1000N#NW1",
+      "slug": "PCS1000N#NW1",
+      "productName": "Cover for P124L/R",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "PCS1000N#NW1",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "apron-bathtub",
+          ""
+        ],
+        "description": "Cover for P124L/R",
+        "images": [
+          "/assets/img/content/products/Bathtub/apron-bathtub/PCS1000N#NW1/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "982 x 720mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForBathtub": [
+                "#NW1 Pale White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/apron-bathtub/PCS1000N#NW1/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "P124L-R#SC1",
+          "P164L-R#SC1"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

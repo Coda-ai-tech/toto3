@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "PAY1760PE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "PAY1760PE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PAY1760PE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "PAY1760PE",
+      "slug": "PAY1760PE",
+      "productName": "Acrylic Non-Apron Bathtub\n(without handgrips)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "PAY1760PE",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "non-apron-bathtub",
+          ""
+        ],
+        "description": "Acrylic Non-Apron Bathtub\n(without handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/PAY1760PE/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1703 x 753 x 605mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Acrylic"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/PAY1760PE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "PAY1560HPE",
+          "PAY1560PE",
+          "PAY1760HPE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

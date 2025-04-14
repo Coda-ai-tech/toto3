@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "PJY1734PWE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "PJY1734PWE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PJY1734PWE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "PJY1734PWE",
+      "slug": "PJY1734PWE",
+      "productName": "Galaline Free-standing Bathtub\n(without handgrips)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "PJY1734PWE",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "free-standing-bathtub",
+          ""
+        ],
+        "description": "Galaline Free-standing Bathtub\n(without handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1734PWE/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1700 x 855 x 640mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Galaline"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": "PJY1734PW#MW (Matte Finished) also available",
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1734PWE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "PJY1734HPWE"
+        ],
+        "compatibleProduct": [],
+        "remarks": "PJY1734PW#MW (Matte Finished) also available"
+      }
+    }
+  ]
+}

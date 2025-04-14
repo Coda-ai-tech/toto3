@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "PJY1724PWE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "PJY1724PWE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/PJY1724PWE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "PJY1724PWE",
+      "slug": "PJY1724PWE",
+      "productName": "Galaline Free-standing Bathtub\n(without handgrips)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "PJY1724PWE",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "free-standing-bathtub",
+          ""
+        ],
+        "description": "Galaline Free-standing Bathtub\n(without handgrips)",
+        "images": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1724PWE/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1800 x 800 x 565mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Galaline"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [
+          {
+            "title": "RECLINE COMFORT",
+            "description": "Nestled in comfort, feel your body and mind release into a state of tranquility",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/recline-comfort"
+            },
+            "icon": "/assets/img/content/technology/recline-comfort/ico-recline-comfort.png",
+            "thumb": "/assets/img/content/technology/recline-comfort/thumb-recline-comfort.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1724PWE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "PJY1724HPWE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

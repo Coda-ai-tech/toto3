@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "FBYN1816DPTE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "FBYN1816DPTE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/FBYN1816DPTE"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "FBYN1816DPTE",
+      "slug": "FBYN1816DPTE",
+      "productName": "Enameled Cast Iron Free-Standing Bathtub\n(without handgrip)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "FBYN1816DPTE",
+        "category": [
+          "Bathtubs"
+        ],
+        "subCategory": [
+          "free-standing-bathtub",
+          ""
+        ],
+        "description": "Enameled Cast Iron Free-Standing Bathtub\n(without handgrip)",
+        "images": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/FBYN1816DPTE/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "1800 x 800 x 537mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Enameled Cast Iron"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
+        },
+        "awardImages": [
+          {
+            "name": "IF Gold",
+            "year": 2014,
+            "src": "/assets/img/content/products/awards/if_gold.png"
+          }
+        ],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Bathtub/free-standing-bathtub/FBYN1816DPTE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "FBYN1716DHPTE",
+          "FBYN1716DPTE",
+          "FBYN1816DHPTE"
+        ],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

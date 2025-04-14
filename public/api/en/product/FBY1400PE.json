@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "FBY1400PE",
-    "description": "Enameled Cast Iron Non-Apron Bathtub",
-    "keywords": "TOTO, bathtub, non-apron, enameled cast iron, washlet, bathroom, design",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
   },
   "breadcrumb": [
@@ -31,38 +31,53 @@
   "content": [
     {
       "id": null,
+      "modelNumber": "FBY1400PE",
+      "slug": "FBY1400PE",
       "productName": "Enameled Cast Iron Non-Apron Bathtub",
+      "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "FBY1400PE",
         "category": [
-          "bathtub"
+          "Bathtubs"
         ],
         "subCategory": [
-          "non-apron-bathtub"
+          "non-apron-bathtub",
+          ""
         ],
         "description": "Enameled Cast Iron Non-Apron Bathtub",
-        "images": ["/assets/img/content/products/Bathtub/FBY1400PE/content-image.webp"],
-        "features": [
-          "Enameled cast iron Bathtub",
-          "Simple design with functionality",
-          "Naturally resist of scratching and cracking",
-          "Excellent heat retention with quiet performance",
-          "Anti-slip surface",
-          "Bathtub waste is not included"
+        "images": [
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/FBY1400PE/content-image.png"
         ],
+        "features": [],
         "specs": {
           "Size": "1400 x 730 x 453mm",
-          "Pop-up waste": "Not included",
-          "Material": "Cast Iron",
-          "Color": "White"
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [
+            "Enameled Cast Iron"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Bathtub/FBY1400PE/drawing.jpg"
-        ]
+          "/assets/img/content/products/Bathtub/non-apron-bathtub/FBY1400PE/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
       }
     }
   ]
