@@ -167,7 +167,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             {id}
           </div>
           <div className={styles.shortdescription}>
-            {productName}
+            {description}
           </div>
           <ul className={styles.features}>
             {features.map((feature) => (
