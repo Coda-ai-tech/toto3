@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "GALALINE",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "TECHNOLOGY",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/technology"
+      }
+    },
+    {
+      "label": "GALALINE",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/technology/galaline"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "TechnologyDetail",
+      "moduleOption": null,
+      "content": {
+        "title": "GALALINE",
+        "icon": "",
+        "items": [
+          {
+            "align": "row",
+            "context": "Offering outstanding durability, the sanitary ware is made of GALALINE artificial marble and constructed using TOTO’s innovative sandwich configuration.",
+            "images": ["/assets/img/content/technology/galaline/REINFORCED_MARBLE_1.jpg"]
+          }
+        ],
+        "youtube": ""
+      }
+    }
+  ]
+}

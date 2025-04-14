@@ -32,7 +32,7 @@
             "href": "/en/technology/tornado-flush"
           },
           "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
-          "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush_2.jpg"
+          "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
         },
         {
           "title": "WATER-SAVING",
@@ -47,8 +47,8 @@
       ]
     },
     {
-      "id": "neorest/washlet",
-      "label": "NEOREST/WASHLET",
+      "id": "washlet",
+      "label": "NEOREST / WASHLET",
       "list": [
         {
           "title": "ACTILIGHT",
@@ -345,17 +345,17 @@
             "href": "/en/technology/linearceram"
           },
           "icon": "/assets/img/content/technology/linearceram/ico-linearceram.png",
-          "thumb": "/assets/img/content/technology/linearceram/LinearCeram_clean matt_.jpg"
+          "thumb": "/assets/img/content/technology/linearceram/thumb-linearceram.png"
         },
         {
-          "title": "CEFIONTECT",
-          "description": "Special hygienic glaze for a smooth ceramic surface",
+          "title": "GALALINE",
+          "description": "Remarkably durable material",
           "link": {
             "type": "routeLink",
-            "href": "/en/technology/cefiontect"
+            "href": "/en/technology/galaline"
           },
-          "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-          "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          "icon": "",
+          "thumb": "/assets/img/content/technology/galaline/REINFORCED_MARBLE_1.jpg"
         }
       ]
     }

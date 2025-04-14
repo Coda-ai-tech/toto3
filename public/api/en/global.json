@@ -132,27 +132,6 @@
                 }
               },
               {
-                "label": "FAUCETS",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/product?category=Faucet"
-                }
-              },
-              {
-                "label": "WASHLET+",
-                "link": {
-                "type": "routeLink",
-                "href": "/en/product?category=washlet_plus"
-                }
-              },
-              {
-                "label": "SHOWERS",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/product?category=Shower"
-                }
-              },
-              {
                 "label": "WASHLET",
                 "link": {
                 "type": "routeLink",
@@ -160,10 +139,10 @@
                 }
               },
               {
-                "label": "ACCESSORIES",
+                "label": "WASHLET+",
                 "link": {
-                  "type": "routeLink",
-                  "href": "/en/product?category=Accessories"
+                "type": "routeLink",
+                "href": "/en/product?category=washlet+"
                 }
               },
               {
@@ -174,19 +153,41 @@
                 }
               },
               {
-                "label": "COMMERCIAL",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/product?category=Commercial"
-                }
-              },
-              {
                 "label": "LAVATORIES",
                 "link": {
                 "type": "routeLink",
                 "href": "/en/product?category=Lavatories"
                 }
               },
+              {
+                "label": "FAUCETS",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/product?category=Faucet"
+                }
+              },
+              {
+                "label": "SHOWERS",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/product?category=Shower"
+                }
+              },
+              {
+                "label": "ACCESSORIES",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/product?category=Accessories"
+                }
+              },
+              {
+                "label": "COMMERCIAL",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/product?category=Commercial"
+                }
+              },
+
               {
                 "label": "BATHTUBS",
                 "link": {
@@ -253,7 +254,7 @@
             ]
           },
           {
-            "title": "NEOREST/WASHLET",
+            "title": "NEOREST / WASHLET",
             "items": [
               {
                 "label": "ACTILIGHT",
@@ -685,7 +686,7 @@
             "label": "WASHLET+",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=washlet_plus"
+              "href": "/en/product?category=washlet+"
             }
           },
           {
