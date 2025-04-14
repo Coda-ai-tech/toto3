@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import styles from './Inspiration.module.scss';
 
-interface InspirationItem {
+export interface InspirationItem {
   id: number;
   name: string;
   category_name: string;
@@ -12,6 +12,7 @@ interface InspirationItem {
   vr: boolean;
   space_name?: string;
   primary?: number;
+  description?: string;
 }
 
 const En = () => {

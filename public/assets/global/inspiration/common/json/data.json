@@ -4,42 +4,48 @@
     "name": "Invitation to extraordinary",
     "category_name": "Resort",
     "cate_id": "3",
-    "vr": true
+    "vr": true,
+    "description": "You can see the rock-faced walls as if they were connected directly to the spectacular view outside the window. The glossy white porcelain emerges and shines in a space organized with natural materials of gray rock tiles and slates. The soft shadows created by the floating layout and downlights elevates extraordinary experiences, offering a supreme resort space."
   },
   {
     "id": 31,
     "name": "New in classic",
     "category_name": "Urban",
     "cate_id": "4",
-    "vr": false
+    "vr": false,
+    "description": "There is an urban oasis park beyond the louvers - such imagination is easily emerged from this new yet classical relaxing space. The classical design, combined with the advanced technology, fits well with the interior decorated using the molding on the window walls and tiled flooring, which gives a sense of great old-fashioned America."
   },
   {
     "id": 30,
     "name": "Relaxing tolerance",
     "category_name": "Suburban",
     "cate_id": "5",
-    "vr": false
+    "vr": false,
+    "description": "Here is a relaxing space arranged with walls and floors finished in light earth tones The fresh shade of greenery shimmering through glasses adds a sense of openness to the place for enjoying private time. The white porcelain form casts a soft shadow on the plaster wall having a rustic texture. A subtle sense of commitment is revealed from the delicate stripes of natural stone used for the lavatory and the artistic mirror."
   },
   {
     "id": 24,
     "name": "Graceful harmony",
     "category_name": "Urban",
     "cate_id": "4",
-    "vr": true
+    "vr": true,
+    "description": "This is a luxurious hotel bathroom made using a variety of different materials, and designed with an ivory tone. Indirect lighting installed in the gold gilded ceiling sheds gentle light on the bathroom. The faucets and curves of the toilet are decorated with nickel, with their gentle luster creating graceful harmony inside the room. The room offers ultimate relaxation, while peering down on the evening cityscape."
   },
   {
     "id": 25,
     "name": "Black gorgeousness",
     "category_name": "Urban",
     "cate_id": "4",
-    "vr": true
+    "vr": true,
+    "description": "This is a soothing bathroom encased in glass as if blending into the view of the skyscrapers. A touch of sharpness is added to the interior, in a greyish tone with wooden accents, by the black faucets and curves of the toilet. The overall color coordination testifies to the high sense of aesthetics. This bathroom offers a space of utmost luxury for adults with refined tastes who will enjoy looking out across the metropolis nightscape as if the entire city belonged to them."
   },
   {
     "id": 26,
     "name": "Peaceful cocoon",
     "category_name": "Suburban",
     "cate_id": "5",
-    "vr": true
+    "vr": true,
+    "description": "Shimmering light and shadows filter through the treetops filling this immaculate white-toned bathroom. It offers a soothing space for spending a quiet afternoon as if enveloped in a cocoon. The counter with flowing wood grains and brushstrokes visible on the painted walls provide a comfortable space, with large vertically aligned tiles creating just the right amount of sharpness."
   },
   {
     "id": 23,
@@ -47,7 +53,8 @@
     "category_name": "Urban",
     "cate_id": "4",
     "vr": false,
-    "space_name": "Public restroom"
+    "space_name": "Public restroom",
+    "description": "A black-edged glass partition with beige marble vanity enhances this hotel's elegant bath space, seamlessly connecting it so you can enjoy the commanding view from anywhere in the suite. The bedroom, bathroom, and toilet space are separated to maintain the suite's cleanliness and hygiene. The faucet is characterized by bold parallel arches and reflective curves, invoking a stately grace. The suite's work/rest rhythm is underscored by the distances between the desk and the bath space, allowing the guest to establish a healthy work/life balance while staying in there. The guest room uses the same design statement and sensor-operated TOUCHLESS FAUCETS."
   },
   {
     "id": 22,
@@ -55,7 +62,8 @@
     "category_name": "Urban",
     "cate_id": "4",
     "vr": false,
-    "space_name": "Public restroom"
+    "space_name": "Public restroom",
+    "description": "This hotel bath space is characterized by warm beige marble wall tiles and contrapuntal black marble vanity. The space is unified by its use of Polished Bronze faucets and accessories, which echo the warm beige walls, creating a fascinating design statement. The TOTO faucet family throughout the suite epitomizes timeless sophistication and contemporary elegance, making a striking design statement that harmonizes with the distinctive interior elements such as oversize oval mirrors, and pendant lights. The balance of colors and shapes creates a sense of calm, traditional grace throughout the space. The guest room uses the same design statement and sensor-operated TOUCHLESS FAUCETS."
   },
   {
     "id": 21,
@@ -63,35 +71,40 @@
     "category_name": "Urban",
     "cate_id": "4",
     "vr": false,
-    "space_name": "Public restroom"
+    "space_name": "Public restroom",
+    "description": "This hotel bath space is elegant in its simplicity with its white marble wall and floor. The space is accented by a pendant lighting that unifies the room with its Polished French Gold finish, which is echoed in the oversize round mirrors　suspended from the ceiling, and the faucets with their classic five-sided Chevron design, with its distinctive V-shape. A natural wood pocket door separates the bath space from the bedroom, adding warmth to the entire space. Floor-to-ceiling windows behind the elegant rectangular tub offer an unimpeded view of the beautiful blue sky. As you ready yourself for the day’s events, you will enjoy the refreshing feeling of bathing in the bright sunlight. The guest room uses the same design statement and sensor-operated TOUCHLESS FAUCETS."
   },
   {
     "id": 17,
     "name": "Urban monopoly",
     "category_name": "Urban",
     "cate_id": "4",
-    "vr": true
+    "vr": true,
+    "description": "This breathtaking bath space is characterized by floor-to-ceiling windows from which you can drink in the beauty of the city lights at night. The white marble floor and wall tiles are accented by the brilliant Polished Nickel, high-design faucets, pendant lighting, and the stylish toilet that is characterized by precise angles and crisp edges for a timelessly elegant aesthetic that enhances the space. Soft indirect lighting illuminates the shower and tub area. You can enjoy a relaxing bath while enjoying the commanding view. This bath space affords you the opportunity to enjoy a luxuriate in this high-design space as you monopolize the night view of the glittering city that spreads out before you."
   },
   {
     "id": 18,
     "name": "Calm extraordinaire",
     "category_name": "Resort",
     "cate_id": "3",
-    "vr": true
+    "vr": true,
+    "description": "This bathroom offers a beautiful contrast between the glossy travertine wall tiles and the faux finish ceiling. With round Chrystal chandeliers, oval washbasins, and a toilet with a clean, modern aesthetic and beautiful detailing, you feel the self of softness throughout the entire space. In addition, Brushed Bronze faucets add an inviting sense of warmth to the entire space. The sea's majesty may be enjoyed while relaxing in the bath, enjoying the refreshing sea breeze coming in from the window. This bath environment is a part of a private resort where you can refresh your body and soul."
   },
   {
     "id": 19,
     "name": "Forest bathing",
     "category_name": "Suburban",
     "cate_id": "5",
-    "vr": true
+    "vr": true,
+    "description": "This bathroom is accented by dark wood furniture in an intimate space featuring a large gray speckled design wall and floor tiles. You can enjoy an invigorating showering experience enhanced by the natural light streaming in through the skylight. A small washbasin is installed in front of the toilet, and the toilet, washbasin, and shower space are separated by black-edged glass panels, so you can use it cleanly and comfortably at any time. In this bijou bathroom filled with dark green and natural light, you can feel a relaxing time with nature."
   },
   {
     "id": 20,
     "name": "Suite blues",
     "category_name": "Urban",
     "cate_id": "4",
-    "vr": true
+    "vr": true,
+    "description": "This beautiful bathroom is tiled from floor to ceiling in a mosaic of blue penny roll tiles. Light oak cabinets and Brushed French Gold faucets add color to the space and complement the tiles beautifully. Although compact, this space’s simple, organic design bathroom fixtures offer exceptional functionality while making the best use of the available space. Natural light streams in through the narrow vertical windows, creating a relaxing space with its hanging plants. This beautiful small bathroom offers you a calm, relaxing environment in which to ready yourself for the day’s events."
   },
   {
     "id": 16,
@@ -100,7 +113,8 @@
     "cate_id": "4",
     "vr": false,
     "primary": 22,
-    "space_name": "Guest room"
+    "space_name": "Guest room",
+    "description": "This hotel bath space is characterized by warm beige marble wall tiles and contrapuntal black marble vanity. The space is unified by its use of Polished Bronze faucets and accessories, which echo the warm beige walls, creating a fascinating design statement. The TOTO faucet family throughout the suite epitomizes timeless sophistication and contemporary elegance, making a striking design statement that harmonizes with the distinctive interior elements such as oversize oval mirrors, and pendant lights. The balance of colors and shapes creates a sense of calm, traditional grace throughout the space. The hotel's public restroom uses the same design statement and sensor-operated TOUCHLESS FAUCETS."
   },
   {
     "id": 15,
@@ -109,7 +123,8 @@
     "cate_id": "4",
     "vr": false,
     "primary": 23,
-    "space_name": "Guest room"
+    "space_name": "Guest room",
+    "description": "A black-edged glass partition with beige marble vanity enhances this hotel's elegant bath space, seamlessly connecting it so you can enjoy the commanding view from anywhere in the suite. The bedroom, bathroom, and toilet space are separated to maintain the suite's cleanliness and hygiene. The faucet is characterized by bold parallel arches and reflective curves, invoking a stately grace. The suite's work/rest rhythm is underscored by the distances between the desk and the bath space, allowing the guest to establish a healthy work/life balance while staying in there. The hotel's public restroom uses the same design statement and sensor-operated TOUCHLESS FAUCETS."
   },
   {
     "id": 14,
@@ -118,83 +133,95 @@
     "cate_id": "4",
     "vr": false,
     "primary": 21,
-    "space_name": "Guest room"
+    "space_name": "Guest room",
+    "description": "This hotel bath space is elegant in its simplicity with its white marble wall and floor. The space is accented by a pendant lighting that unifies the room with its Polished French Gold finish, which is echoed in the oversize round mirrors suspended from the ceiling, and the faucets with their classic five-sided Chevron design, with its distinctive V-shape. A natural wood pocket door separates the bath space from the bedroom, adding warmth to the entire space. Floor-to-ceiling windows behind the elegant rectangular tub offer an unimpeded view of the beautiful blue sky. As you ready yourself for the day’s events, you will enjoy the refreshing feeling of bathing in the bright sunlight. The hotel's public restroom uses the same design statement and sensor-operated TOUCHLESS FAUCETS."
   },
   {
     "id": 13,
     "name": "The stillness of comfort",
     "category_name": "Boutique/Resort",
     "cate_id": "2:3",
-    "vr": false
+    "vr": false,
+    "description": "Soft white concrete flooring joins the vanity and toilet space in this enticing bathroom environment. Large-stone black slate wall and floor tiles connect the tub and shower area with its warm slatted wood wall. Materials of different textures harmonize with the bathroom fixtures to create a relaxing space. The asymmetrical washbasin and the Brushed Nickel faucets add an alluring element to this unique bathroom environment. Commune with nature while relaxing in this beautiful bath space by gazing at the exquisite stillness of the beautiful trees in the courtyard. This beautiful bathroom environment offers a relaxing space in which to review the day's event in solitude."
   },
   {
     "id": 12,
     "name": "Freedom from the flux of time",
     "category_name": "Resort",
     "cate_id": "3",
-    "vr": false
+    "vr": false,
+    "description": "In this bathroom that is elegant in its simplicity, the white marble vanity and flooring, rectangular bathtub, and high-design, ultra-thin faucets harmonize to create a relaxing, inviting space. The black carriage pendant lighting beautifully accents the simple space. You can hear the gentle waves lapping the nearby shore from the white-framed window above the tub. Soaking in the bathtub, enjoying the slowly setting sun, and gazing at the beautiful seaside frees you from the hustle and bustle of everyday life."
   },
   {
     "id": 11,
     "name": "The dignity of elegance",
     "category_name": "Urban",
     "cate_id": "4",
-    "vr": false
+    "vr": false,
+    "description": "The Marquina black marble vanity serves as an elegant counterpoint to the Imperial white marble wall and floor tiles. The inlaid Marquina marble floor design echoes the vanity's coloration to accentuate this elegant space's unique design, where marble is used in the vanity, floor, and walls to significant effect. The rectangular bath fixtures elegantly harmonize with the space. The high-design, ultra-thin Polished French Gold faucet's elegant, understated design brings a stark, refined beauty to this luxurious bath environment. The large round crystal chandelier gently illuminates the interior and its fixtures, making your bath time even more elegant."
   },
   {
     "id": 10,
     "name": "Evening tranquility",
     "category_name": "Boutique",
     "cate_id": "2",
-    "vr": false
+    "vr": false,
+    "description": "The moment you open the door, you will be fascinated by this gorgeous space. The rose-colored marble flooring, pink leather chairs, and backlit round vanity mirrors make you feel upbeat and lighthearted. The oval bathtub and washbasins harmonize with the gorgeous interior's aesthetic, enhancing the bath space's overarching design. Enjoy a luxurious, relaxing time in this bath environment, which is even more spectacular after sunset."
   },
   {
     "id": 9,
     "name": "Midnight in the museum",
     "category_name": "Boutique/Urban",
     "cate_id": "2:4",
-    "vr": false
+    "vr": false,
+    "description": "This elegant bathroom is characterized by contemporary art on the back wall of the toilet. It is a calming space with dark brown hardwood floors and wood paneling. The metal mesh shades and multi-lamp chandeliers shine like the art that decorates this space. The TOTO products that adorn the space are characterized by their rectangular design lines that complement the design statement of the room. This bath environment offers you the opportunity to enjoy a quiet moment drinking in the magnificent cityscape at night, which affects the senses like a contemporary painting of the urban landscape."
   },
   {
     "id": 7,
     "name": "Stroll in tradition",
     "category_name": "Boutique/Urban",
     "cate_id": "2:4",
-    "vr": false
+    "vr": false,
+    "description": "When you step into this bathroom, the first thing that catches your eye is the herringbone-patterned oak flooring and the faux finish plaster walls and ceiling. This space combines the materials whose touch gently welcomes you. The oversize, round lighted mirror and lavatory faucets finish are all Polished French Gold, creating a luxurious bathroom space where you can feel its traditional beauty. From behind latticed windows, you can enjoy the beautiful cityscape and the extraordinary sensation of walking through the city while enjoying a relaxing bath."
   },
   {
     "id": 6,
     "name": "Relaxing calm moments",
     "category_name": "Urban",
     "cate_id": "4",
-    "vr": false
+    "vr": false,
+    "description": "This urban bathroom incorporates many elements from the natural world, such as cypress ceiling tiles, a cypress vanity, and jet-black limestone wall tile. The neatly organized space features square-shaped windows, lavatory faucets accessories, and bathtub. The wooden Venetian blinds' shape is reflected in the water of the bathtub, and you can enjoy the beautiful variations of its shadow as time goes by. The time you spend in this calm, relaxing environment will free you from the hustle and bustle of the city. This charming space offers tranquil relaxation from evening to early morning."
   },
   {
     "id": 4,
     "name": "Sustainable life",
     "category_name": "Suburban",
     "cate_id": "5",
-    "vr": false
+    "vr": false,
+    "description": "This building utilizes environmentally-friendly renewable energy, such as an air conditioning system that uses geothermal heat. Incorporating wooden wall coverings, this Scandinavian-based interior design includes plants throughout the room, so you can enjoy the magnificence of the natural world from within your bathroom. This graceful bath environment conveys a strong sense of unity, enhanced by its fixtures with their simple rectangular design. This elegant space exudes a strong organic sensibility, combined with its minimal, clean-line design statement that combines functionality with beauty. As you recline, relaxing in the beautiful bathtub, you can enjoy the snowy scenery from windows throughout the room. A warm toilet seat and warm water cleansing of the WASHLET bidet seat are especially welcome on cold winter evenings. Clean and comfortable in any environment, this high-design bathroom will enable you to enjoy a luxurious lifestyle."
   },
   {
     "id": 3,
     "name": "Exclusively yours",
     "category_name": "All suite/Urban",
     "cate_id": "1:4",
-    "vr": false
+    "vr": false,
+    "description": "The chic flooring of oversize tiles and the sophisticated glass shower enclosure complement the NEOREST COLLECTION, giving you a sense of luxury and calm. NEOREST Smart Toilet, which stands beautifully in the corner like an objet de art, gives an even higher sense of luxury to the space. When you immerse yourself in FLOTATION TUB in this bath environment with its floor-to-ceiling windows, you feel as if you are floating, wrapped in the relaxing embrace of hot water. In this luxury bath space overlooking the city below, you are freed from the cares and responsibilities of everyday life."
   },
   {
     "id": 2,
     "name": "Blissful moment",
     "category_name": "All suite/Urban",
     "cate_id": "1:4",
-    "vr": false
+    "vr": false,
+    "description": "A fireplace in the marble wall warms the classically-designed interior. The room's design is unified by its soft color palette. The bathtubs, washbasins, and toilet blend into the space, as does its furniture. Indirect lighting from pendant lamps softly illuminates the room, creating a calming bath environment. A relaxing SPA experience is available any time from FLOTATION TUB in the room's center. The indirect light that softly illuminates the tub's base creates the impression that it is floating above the floor, reminding you of the deep physical and mental relaxation you experienced when bathing in it."
   },
   {
     "id": 1,
     "name": "Zero reset",
     "category_name": "All suite/Resort",
     "cate_id": "1:3",
-    "vr": false
+    "vr": false,
+    "description": "This space is a SPA surrounded by an abundant forest. The large arch filters dark green and natural light into the room and the quaint stone floor and walls enhance the TOTO products, creating a wonderfully relaxing environment. While you sense the presence of NEOREST COLLECTION, it blends naturally into the space's design. A meditative bathing experience in the FLOTATION TUB awaits on the terrace, which is overhung by trees, surrounded by natural light, and the sounds of nature. This bathing experience gives you the feeling of being free from gravity. As you enter this space, you realize that your mind and body will be relieved of the day's stresses, and you will regain your best self."
   }
 ]
