@@ -53,6 +53,14 @@ interface CategoryItem extends CategoryBase {
 
 const categoryList: CategoryItem[] = [
   {
+    id: 'all',
+    label: {
+      en: 'ALL PRODUCT',
+      zh: 'ALL PRODUCT',
+    },
+    sub: null,
+  },
+  {
     id: 'neorest',
     label: {
       en: 'NEOREST',
@@ -176,7 +184,7 @@ const categoryList: CategoryItem[] = [
           zh: 'FLOOR STANDING LAVATORY',
         },
       },
-      
+
       {
         id: 'wall-hung-lavatory',
         label: {
@@ -184,7 +192,7 @@ const categoryList: CategoryItem[] = [
           zh: 'WALL HUNG LAVATORY',
         },
       },
-      
+
       {
         id: 'under-counter-lavatory',
         label: {
@@ -345,7 +353,7 @@ const categoryList: CategoryItem[] = [
           zh: 'HAND SHOWER',
         },
       },
-      
+
       {
         id: 'shower-column',
         label: {
@@ -511,7 +519,7 @@ const categoryList: CategoryItem[] = [
           zh: 'SENSOR SOAP DISPENSER',
         },
       },
-      
+
       {
         id: 'manual-soap-dispenser',
         label: {
@@ -648,7 +656,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   const [page, setPage] = useState<number>(1);
   const [totalPage, setTotalPage] = useState<number>(1);
   const [keyword, setKeyword] = useState<string>('');
-  const [selectedCategory, setSelectedCategory] = useState<any>([]);
+  const [selectedCategory, setSelectedCategory] = useState<any>([{ cid: 'all', sub: [] }]);
   const [displayItems, setDisplayItems] = useState<ProductItem[]>();
   const [isShowSubCategories, setShowSubCategories] = useState<any>([]);
   const [selectedProducts, setSelectedProducts] = useState<ProductItem[]>();
@@ -670,7 +678,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   };
 
   const resetFilter = () => {
-    setSelectedCategory([]);
+    setSelectedCategory([{ cid: 'all', sub: [] }]);
 
     setKeyword('');
     if (!searchInput.current) return;
@@ -700,14 +708,19 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     ({ type, cid, scid }: { type: 'main' | 'sub'; cid: string; scid?: string }) => {
       setSelectedCategory((prevCategories: any) => {
         let updatedCategories = [...prevCategories];
-
         if (type === 'main') {
-          const isAlreadySelected = updatedCategories.some((item: any) => item.cid === cid);
-
-          if (isAlreadySelected) {
-            updatedCategories = updatedCategories.filter((item: any) => item.cid !== cid);
+          if (cid === 'all') {
+            updatedCategories = [{ cid: 'all', sub: [] }];
           } else {
-            updatedCategories.push({ cid, sub: [] });
+            updatedCategories = updatedCategories.filter(item => item.cid !== 'all');
+
+            const isAlreadySelected = updatedCategories.some((item: any) => item.cid === cid);
+
+            if (isAlreadySelected) {
+              updatedCategories = updatedCategories.filter((item: any) => item.cid !== cid);
+            } else {
+              updatedCategories.push({ cid, sub: [] });
+            }
           }
         } else if (type === 'sub' && scid) {
           const categoryIndex = updatedCategories.findIndex((item: any) => item.cid === cid);
@@ -743,7 +756,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
 
   const prevPage = () => {
     console.log(page);
-    if (page > 1){
+    if (page > 1) {
       const prev = page - 1;
       setPage(prev);
     }
@@ -756,7 +769,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
       setPage(next);
     }
   };
-  
+
 
   const getIsSelected = (cid: string, scid?: string): boolean => {
     if (!selectedCategory) return false;
@@ -774,6 +787,11 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
 
   const getFilteredData = useCallback(() => {
     if (!products) return;
+
+    const isAllSelected = selectedCategory.length === 1 && selectedCategory[0].cid === 'all';
+    if (isAllSelected) {
+      return products;
+    }
 
     const filteredProducts = products.filter((product) => {
       return selectedCategory.some((selectedCategory: any) => {
@@ -799,7 +817,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     setTimeout(() => {
       const categoryFilteredData = selectedCategory.length > 0 ? getFilteredData() : products;
       const searchKeyFilteredData = categoryFilteredData?.filter((item: any) =>
-        item.name.toLowerCase().includes(keyword.toLowerCase())
+        item.id.trim().toLowerCase().includes(keyword.trim().toLowerCase())
       ) as ProductItem[];
 
       const res = splitPages(searchKeyFilteredData, pagePerItem.current, page);
@@ -895,33 +913,36 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
               {categoryList.map((cat, cIndex) => {
                 return (
                   <div className={`${styles.categoryGroup}`} key={cIndex}>
-                    <button
-                      onClick={() => updateSelectedFilter({ type: 'main', cid: cat.id })}
-                      className={`${styles.categoryItem} ${getIsSelected(cat.id) ? styles.active : ''}`}
-                      aria-expanded={isShowSubCategories?.includes(cat.id)}
-                    >
-                      <div className={`${styles.selectCheck}`}>
-                        <div className={`${styles.checkIcon}`}>
-                          <SvgIcon name='tick' />
-                        </div>
-                      </div>
-                      <div
-                        className={`${styles.selectLabel}`}
-                        dangerouslySetInnerHTML={{ __html: cat.label[lang as keyof typeof cat.label] }}
-                      />
-                    </button>
-
-                    {cat?.sub && (
+                    <div className={styles.buttonGroup}>
                       <button
-                        className={`${styles.toggleSubCategory} ${isShowSubCategories?.includes(cat.id) ? styles.active : ''
-                          }`}
-                        onClick={() => updateShowSubCategory(cat.id)}
+                        onClick={() => updateSelectedFilter({ type: 'main', cid: cat.id })}
+                        className={`${styles.categoryItem} ${getIsSelected(cat.id) ? styles.active : ''}`}
+                        aria-expanded={isShowSubCategories?.includes(cat.id)}
                       >
-                        <div className={`${styles.toggleIcon}`}>
-                          <SvgIcon name='arrowDownChevron' />
+                        <div className={`${styles.selectCheck}`}>
+                          <div className={`${styles.checkIcon}`}>
+                            <SvgIcon name='tick' />
+                          </div>
                         </div>
+                        <div
+                          className={`${styles.selectLabel}`}
+                          dangerouslySetInnerHTML={{ __html: cat.label[lang as keyof typeof cat.label] }}
+                        />
                       </button>
-                    )}
+
+
+                      {cat?.sub && (
+                        <button
+                          className={`${styles.toggleSubCategory} ${isShowSubCategories?.includes(cat.id) ? styles.active : ''
+                            }`}
+                          onClick={() => updateShowSubCategory(cat.id)}
+                        >
+                          <div className={`${styles.toggleIcon}`}>
+                            <SvgIcon name='arrowDownChevron' />
+                          </div>
+                        </button>
+                      )}
+                    </div>
 
                     <AnimatePresence>
                       {isShowSubCategories?.includes(cat.id) && (
@@ -1059,17 +1080,17 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
                   </AnimatePresence>
                 </div>
                 {!(!isLoading && displayItems && displayItems?.length < 1) && (
-                <div className={`${styles.resultPagination}`}>
-                  <button
-                    onClick={prevPage}
-                    className={styles.paginationButton}
-                  > &lt;&lt; </button>
-                  {page} / {totalPage}
-                  <button
-                    onClick={nextPage}
-                    className={styles.paginationButton}
-                  > &gt;&gt; </button>
-                </div>
+                  <div className={`${styles.resultPagination}`}>
+                    <button
+                      onClick={prevPage}
+                      className={styles.paginationButton}
+                    > &lt;&lt; </button>
+                    {page} / {totalPage}
+                    <button
+                      onClick={nextPage}
+                      className={styles.paginationButton}
+                    > &gt;&gt; </button>
+                  </div>
                 )}
               </div>
             </div>

@@ -1,69 +1,107 @@
 .headings {
   margin: 0 32px;
   background-color: #F1F2F4;
-  display: flex;
   padding: 8px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
 
-  .productId {
-    margin-right: 24px;
-    align-content: center;
-  }
+  .topRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
 
-  .tabs {
-    margin-right: 20px;
-    align-content: center;
+    .leftColumn {
+      display: flex;
 
-    a {
-      margin-right: 10px;
-      border-radius: 16px;
-      padding: 2px 8px;
 
-      &:hover {
-        cursor: pointer;
+      .productId {
+        align-content: center;
+        white-space: nowrap;
+        align-self: center;
       }
 
-      &:active {
-        background-color: darkblue;
-        color: white;
+      .tabs {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 10px;
+        margin-left: 20px;
+
+        a {
+          border-radius: 16px;
+          padding: 2px 8px;
+
+          &:hover {
+            cursor: pointer;
+          }
+
+          &:active {
+            background-color: darkblue;
+            color: white;
+          }
+        }
+
+        .activeTab {
+          background-color: darkblue;
+          color: white;
+        }
       }
     }
 
-    .activeTab {
-      background-color: darkblue;
-      color: white;
-    }
-  }
+    .share {
+      @apply flex gap-2 items-center;
+      white-space: nowrap;
 
-  
-  .share {
-    @apply w-full flex gap-2;
-    margin-left: auto;
-    align-content: center;
-
-    @screen md {
-      @apply w-max items-center;
-    }
-
-    .shareLabel {
-      @apply text-[12px] uppercase font-semibold;
+      .shareLabel {
+        @apply text-[12px] uppercase font-semibold;
+      }
     }
   }
 }
 
+@media (max-width: 680px) {
+  .topRow {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .leftColumn {
+      flex-direction: column;
+
+      .tabs {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 14px;
+        margin: 0 !important;
+
+        a {
+          align-self: center;
+        }
+      }
+    }
+  }
+}
+
+
 .productText {
   display: flex;
   flex-direction: row;
-  margin: 28px 160px;
+  margin: 28px 10vw;
 
   .image {
     margin-right: 20px;
+    min-width: 400px;
+
+    @media (max-width: 1110px) {
+      min-width: 300px;
+    }
   }
-  
+
   .innerText {
     margin: 0 20px 0 40px;
+
+    @media (max-width: 972px) {
+      margin: 0 20px;
+    }
 
     .productTextHeadings {
       font-size: 36px;
@@ -71,11 +109,11 @@
       margin: 24px 0;
       line-height: 1;
     }
-  
+
     .shortdescription {
       font-size: 20px;
     }
-  
+
     .features {
       margin: 24px 0;
       padding-left: 0;
@@ -94,11 +132,11 @@
         }
       }
     }
-  
+
     .subHeadings {
       margin: 40px 0 16px 0;
       font-weight: bold;
-      
+
       .lineBreak {
         border: 1px solid black;
       }
@@ -113,7 +151,6 @@
       margin: 12px 0 40px 0;
 
       .specName {
-
         @screen md {
           padding-right: 80px;
         }
@@ -130,6 +167,41 @@
           padding: 8px 0;
         }
       }
+
+      .colorValue {
+        display: flex;
+        flex-direction: column;
+
+        .innerKey {
+          padding-bottom: 0;
+        }
+
+        td {
+          padding: 0 2px;
+          font-size: 14px;
+        }
+      }
+
+      @media (max-width: 650px) {
+        tr {
+          display: block;
+          border: none;
+
+          .specName {
+            padding-bottom: 0;
+          }
+
+          .specValue {
+            padding-top: 0;
+          }
+
+          td {
+            display: block;
+          }
+        }
+
+        
+      }
     }
 
     .awardImages {
@@ -144,12 +216,30 @@
       }
     }
   }
+
+  @media (max-width: 600px) {
+    margin: 28px 5vw;
+  }
+
+  @media (max-width: 400px) {
+    margin: 28px 2vw;
+  }
+}
+
+@media (max-width: 972px) {
+  .productText {
+    flex-direction: column;
+
+    .image {
+      align-self: center;
+    }
+  }
 }
 
 .technologyContainer {
   margin: 52px 0;
   background-color: #F1F2F4;
-  padding: 40px 160px;
+  padding: 40px 10vw;
 
   .subHeadings {
     margin: 24px 0;
@@ -158,15 +248,27 @@
     font-size: 24px;
   }
 
-  .actions{
+  .technologies {
+    justify-items: center;
+  }
+
+  .actions {
     text-align: center;
     margin: 36px 0 24px 0;
+  }
+
+  @media (max-width: 600px) {
+    padding: 40px 5vw;
+  }
+
+  @media (max-width: 400px) {
+    padding: 40px 2vw;
   }
 }
 
 .downloadContainer {
   margin: 52px 0;
-  padding: 40px 160px;
+  padding: 40px 10vw;
 
   .subHeadings {
     margin: 24px 0 40px 0;
@@ -189,12 +291,12 @@
       .text {
         margin-right: 10px;
       }
-    
+
       .format {
         font-size: 12px;
         color: #bbbbbb;
       }
-    
+
       .icon {
         margin-left: auto;
       }

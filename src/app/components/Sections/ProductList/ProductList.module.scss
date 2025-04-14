@@ -74,7 +74,7 @@
         min-width: 174px;
       }
 
-      @media (max-width: 690px) {
+      @media (max-width: 600px) {
         .categories {
           width: 100%;
         }
@@ -92,7 +92,7 @@
           @apply w-[calc(100%-30px)] min-h-[750px] bg-[#FCFCFC] ml-[30px];
         }
 
-        @media (max-width: 690px) {
+        @media (max-width: 600px) {
           .resultInner {
             margin: 0;
             width: 100%;
@@ -101,7 +101,7 @@
       }
     }
 
-    @media (max-width: 690px) {
+    @media (max-width: 600px) {
       .filterInner {
         flex-direction: column;
       }
@@ -143,6 +143,10 @@
     @apply relative w-full;
     display: flex;
     flex-direction: column;
+
+    .buttonGroup {
+      display: flex;
+    }
   }
 }
 
@@ -264,7 +268,7 @@
   }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 600px) {
   .resultArea {
     @apply p-[8px] flex;
   }
@@ -282,6 +286,9 @@
 .resultArea {
   @apply h-full flex flex-wrap justify-start gap-0;
 
+  @media (max-width: 911px) {
+    padding: 0;
+  }
 }
 
 .loadingSkeleton {
@@ -295,7 +302,7 @@
 .productCard {
   @apply w-full bg-white border border-solid border-gray-lightest;
   @apply p-0 m-2;
-  min-width: 168px;
+  min-width: 140px;
 
   .cardInner {
     @apply relative h-full;
@@ -335,11 +342,11 @@
     }
   }
 
-  // @media (max-width: 688px) {
-  //   width: 100%;
-  // }
+  @media (max-width: 335px) {
+    width: 100%;
+  }
 
-  @media (max-width: 911px) {
+  @media (max-width: 911px) and (min-width: 336px) {
     width: calc(50% - 24px);
   }
 
