@@ -128,6 +128,8 @@ const ProductBanner = ({ order, data }: ModuleData<ProductBannerProps, null>) =>
                 <h3 className={`${styles.bannerTitle}`}>{title}</h3>
                 <div className={`${styles.bannerList}`}>
                   {items?.map((item, index) => {
+                    console.log("item", item);
+                    
                     return (
                       <Link
                         key={index}
