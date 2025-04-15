@@ -232,7 +232,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                       }
                       return (
                         <tr key={key}>
-                          <td className={styles.specName}><b>{key}</b></td>
+                          <td className={styles.specName}><b>{key.replace(/(?!^)([A-Z])/g, ' $1')}</b></td>
                           <td className={styles.specValue}>
                             {filteredValues.map((data, index) => (
                               <div key={index} className={styles.material}>{data}</div>
@@ -243,7 +243,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                     }
                     return (
                       <tr key={key}>
-                        <td className={styles.specName}><b>{key}</b></td>
+                        <td className={styles.specName}><b>{key.replace(/(?!^)([A-Z])/g, ' $1')}</b></td>
                         <td className={styles.specValue}>{value}</td>
                       </tr>
                     );
