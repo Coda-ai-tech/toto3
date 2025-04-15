@@ -198,11 +198,20 @@
       display: flex;
       gap: 4px;
       margin: 24px 0;
+      justify-content: flex-start;
 
       .imageWrapper {
         position: relative;
         width: 100px;
         height: 56px;
+        display: flex;
+        margin-right: 12px;
+      }
+
+      .imageWrapper2 {
+        position: relative;
+        display: flex;
+        margin-right: 12px;
       }
     }
   }

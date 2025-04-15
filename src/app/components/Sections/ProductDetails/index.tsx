@@ -273,36 +273,39 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                     )
                   } else if (name === 'green good' || name === 'green-good' || name === 'green_good') {
                     return (
-                      <div key={'image-' + index} className={styles.imageWrapper}>
+                      <div key={'image-' + index} className={styles.imageWrapper2}>
                         <Image
                           src="/assets/img/content/products/awards/good_design.png"
                           alt="Good Design"
                           draggable={false}
-                          fill
+                          width={56}
+                          height={56}
                           style={{ objectFit: 'contain' }}
                         />
                       </div>
                     )
                   } else if (name === 'reddot') {
                     return (
-                      <div key={'image-' + index} className={styles.imageWrapper}>
+                      <div key={'image-' + index} className={styles.imageWrapper2}>
                         <Image
                           src="/assets/img/content/products/awards/reddot_winner.png"
                           alt="Reddot Winner"
                           draggable={false}
-                          fill
+                          width={70}
+                          height={56}
                           style={{ objectFit: 'contain' }}
                         />
                       </div>
                     )
                   } else if (name === 'reddot best' || name === 'reddot-best' || name === 'reddot_best') {
                     return (
-                      <div key={'image-' + index} className={styles.imageWrapper}>
+                      <div key={'image-' + index} className={styles.imageWrapper2}>
                         <Image
                           src="/assets/img/content/products/awards/reddot_winner.png"
                           alt="Reddot Winner"
                           draggable={false}
-                          fill
+                          width={70}
+                          height={56}
                           style={{ objectFit: 'contain' }}
                         />
                       </div>
