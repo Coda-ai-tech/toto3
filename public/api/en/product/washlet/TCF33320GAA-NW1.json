@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "TCF33320GAA#NW1",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, Washlet, toilet seat, Japan, bidet, global, culture, hygiene, technology",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "TCF33320GAA#NW1",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/TCF33320GAA#NW1"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "TCF33320GAA#NW1",
+      "slug": "TCF33320GAA#NW1",
+      "productName": "WASHLET (D-shape)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "TCF33320GAA#NW1",
+        "category": [
+          "washlet"
+        ],
+        "subCategory": [],
+        "description": "WASHLET (D-shape)",
+        "images": [
+          "/assets/img/content/products/Washlet/TCF33320GAA-NW1/content-image.png"
+        ],
+        "features": [
+          "Sleek design with panel",
+          "AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
+          "PREMIST prevents waste from clinging",
+          "EWATER+ suppresses the accumulation of waste",
+          "Equipped with many more features which provide a comfortable experience for all users"
+        ],
+        "specs": {
+          "Size": "540 x 462mm",
+          "Flushing System": "Not applicable",
+          "Water Consumption": "Not applicable",
+          "Trap Type (Rough-In)": "Not applicable",
+          "Water Pressure": "Min 0.05MPa ~ Max 0.75MPa",
+          "Power Rating": "AC220 ~ 240V : 50/60 Hz",
+          "Material": [
+            "Plastic"
+          ],
+          "Colour": []
+        },
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": "2018",
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "PREMIST",
+            "description": "Aiding in the removal of waste and resulting in a better clean",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/premist"
+            },
+            "icon": "/assets/img/content/technology/premist/ico-premist.png",
+            "thumb": "/assets/img/content/technology/premist/thumb-premist.png"
+          },
+          {
+            "title": "EWATER+",
+            "description": "Electrolysed antibacterial water that break down waste",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/ewater-plus"
+            },
+            "icon": "/assets/img/content/technology/ewater/ico-ewater.png",
+            "thumb": "/assets/img/content/technology/ewater/thumb-ewater.png"
+          },
+          {
+            "title": "AIR-IN WONDER WAVE",
+            "description": "The precise, pleasant, air rich stream keeps you clean. And it's always pleasantly warm.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/air-in-wonder-wave"
+            },
+            "icon": "/assets/img/content/technology/air-in-wonder-wave/ico-air-in-wonder-wave.png",
+            "thumb": "/assets/img/content/technology/air-in-wonder-wave/thumb-air-in-wonder-wave.png"
+          },
+          {
+            "title": "HEATED SEAT",
+            "description": "The contoured heated seat is warmed for maximum comfort",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/heated-seat"
+            },
+            "icon": "/assets/img/content/technology/heated-seat/ico-heated-seat.png",
+            "thumb": "/assets/img/content/technology/heated-seat/thumb-heated-seat.png"
+          },
+          {
+            "title": "DEODORIZER",
+            "description": "Highly effective deodorizing automatically takes places inside the toilet bowl both during and immediately after use",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/deodorizer"
+            },
+            "icon": "/assets/img/content/technology/deodorizer/ico-deodorizer.png",
+            "thumb": "/assets/img/content/technology/deodorizer/thumb-deodorizer.png"
+          },
+          {
+            "title": "DRYER",
+            "description": "The individually adjustable dryer follows the warm water spray to ensure a dry, clean overall feeling.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/dryer"
+            },
+            "icon": "/assets/img/content/technology/dryer/ico-dryer.png",
+            "thumb": "/assets/img/content/technology/dryer/thumb-dryer.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Washlet/TCF33320GAA-NW1/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+          "TCF34320GAA#NW1",
+          "CW766PEB-SW766HK+TCF33370GAA"
+        ],
+        "compatibleProduct": [
+          "CW166RPB",
+          "CW166RB",
+          "CW895PJ",
+          "CW895J",
+          "CW252PJ-SW252JP",
+          "CW252J-SW252JP",
+          "CW766PB-SW766HK",
+          "CW766B-SW766HK",
+          "CW781RPB-SW781SPB",
+          "CW781B-SW781SB",
+          "CW862NPJ-SW862JP",
+          "CW862NJ-SW862JP",
+          "CW896PJ-SW896JP",
+          "CW896J-SW896JP"
+        ],
+        "remarks": []
+      }
+    }
+  ]
+}

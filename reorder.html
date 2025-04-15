@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Excel and ZIP</title>
+    <style>
+        #loading {
+            display: none;
+            font-size: 1.2em;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Excel and ZIP Files</h1>
+    <input type="file" id="excelInput" accept=".xlsx" />
+    <input type="file" id="zipInput" accept=".zip" />
+    <button id="processFilesBtn">Process Files</button>
+    <div id="loading">Loading, please wait...</div>
+    <div id="message"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script>
+        document.getElementById('processFilesBtn').addEventListener('click', async () => {
+            const excelInput = document.getElementById('excelInput');
+            const zipInput = document.getElementById('zipInput');
+            const messageDiv = document.getElementById('message');
+            const loadingDiv = document.getElementById('loading');
+            messageDiv.innerHTML = '';
+            loadingDiv.style.display = 'none';
+
+            if (!excelInput.files.length || !zipInput.files.length) {
+                messageDiv.textContent = 'Please upload both files.';
+                return;
+            }
+
+            loadingDiv.style.display = 'block'; // Show loading message
+
+            const excelFile = excelInput.files[0];
+            const zipFile = zipInput.files[0];
+
+            try {
+                // Read the Excel file
+                const excelData = await readExcelFile(excelFile);
+                console.log('Excel Data:', excelData);
+
+                if (!Array.isArray(excelData)) {
+                    throw new Error('Excel data is not in the expected format.');
+                }
+
+                const slugs = excelData.map(row => {
+                    const rawSlug = row.slug ? String(row.slug) : ''; // Raw slug before processing
+                    const cleanedSlug = rawSlug.replace(/\s+/g, ''); // Remove all spaces
+                    console.log(`Raw slug: "${rawSlug}", Cleaned slug: "${cleanedSlug}"`); // Log both raw and cleaned
+                    return cleanedSlug;
+                }).filter(Boolean); // Remove empty slugs
+
+                console.log('Filtered Slugs:', slugs);
+
+                // Read the ZIP file
+                const jsonFiles = await readZipFile(zipFile);
+                console.log('JSON Files:', jsonFiles);
+
+                // Check the names of JSON files
+                jsonFiles.forEach(file => console.log('JSON File Name:', file.name));
+
+                // Filter JSON files based on slugs, considering the nested structure
+                const matchedFiles = jsonFiles.filter(file => {
+                    const slugWithoutExtension = file.name.replace('.json', '').split('/').pop(); // Get the slug from the path
+                    const isMatch = slugs.includes(slugWithoutExtension);
+                    console.log(`Comparing slug "${slugWithoutExtension}" with slugs: ${slugs}. Match: ${isMatch}`);
+                    return isMatch;
+                });
+
+                console.log('Matched Files:', matchedFiles);
+
+                if (matchedFiles.length === 0) {
+                    messageDiv.textContent = 'No matching JSON files found.';
+                } else {
+                    // Create a new ZIP file with matched JSON files
+                    const zip = new JSZip();
+                    matchedFiles.forEach(file => {
+                        console.log(`Adding file to ZIP: ${file.name}`); // Log the file being added
+                        zip.file(file.name, file.content); // Ensure content is being added
+                    });
+
+                    // Generate ZIP and download
+                    zip.generateAsync({ type: 'blob' }).then(content => {
+                        console.log('Generated ZIP content:', content); // Log the generated ZIP content
+                        const url = URL.createObjectURL(content);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = 'matched_files.zip';
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        messageDiv.textContent = 'ZIP created with matched JSON files!';
+                    });
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                messageDiv.textContent = 'Error processing files: ' + error.message;
+            } finally {
+                loadingDiv.style.display = 'none'; // Hide loading message
+            }
+        });
+
+        async function readExcelFile(file) {
+            const data = await file.arrayBuffer();
+            const workbook = XLSX.read(data, { type: 'array' });
+            const sheetName = workbook.SheetNames[0];
+            const sheet = workbook.Sheets[sheetName];
+            return XLSX.utils.sheet_to_json(sheet, { defval: "" }); // Provide a default value
+        }
+
+        async function readZipFile(file) {
+            const zip = await JSZip.loadAsync(file);
+            const jsonFiles = [];
+
+            for (const filename of Object.keys(zip.files)) {
+                if (filename.endsWith('.json')) {
+                    const content = await zip.files[filename].async('text');
+                    jsonFiles.push({ name: filename, content });
+                }
+            }
+            return jsonFiles;
+        }
+    </script>
+</body>
+</html>

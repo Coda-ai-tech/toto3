@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "C769CE / S769DRE + TCF4914EZ",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "C769CE / S769DRE + TCF4914EZ",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/C769CE-S769DRE-TCF4914EZ"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "C769CE / S769DRE + TCF4914EZ",
+      "slug": "C769CE-S769DRE-TCF4914EZ",
+      "productName": "WASHLET with Closed-coupled Toilet (Elongated) with remote controller",
+      "isNew": "true",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "C769CE / S769DRE + TCF4914EZ",
+        "category": [
+          "washlet+"
+        ],
+        "subCategory": [],
+        "description": "WASHLET with Closed-coupled Toilet (Elongated) with remote controller",
+        "images": [
+          "/assets/img/content/products/Washlet+/C769CE-S769DRE-TCF4914EZ/content-image.png"
+        ],
+        "features": [
+          "Sleek and clean design",
+					"Simple yet graceful silhouette that fits in with all interior styles",
+					"AIR-IN WONDER WAVE provides various cleansing modes to suit everyone's needs",
+					"PREMIST prevents waste from clinging",
+					"EWATER+ suppresses the accumulation of waste",
+					"TORNADO FLUSH swirls and ejects waste entirely",
+					"RIMLESS leaves no place for waste to hide",
+					"CEFIONTECT forces waste to slide down",
+					"Equipped with many more features which provide a comfortable experience for all users"
+        ],
+        "specs": {
+          "Size": "Bowl: 700 x 395 x 747mm, Washlet: 532 x 3x 116mm",
+          "Flushing System": "Tornado Flush",
+          "Water Consumption": "3/4.5L",
+          "Trap Type (Rough-In)": "305mm (S-trap)",
+          "Water Pressure": "Min 0.05MPa ~ Max 0.75MPa",
+          "Power Rating": "AC220 ~ 240V : 50/60 Hz",
+          "Material": [
+            "Seat & Cover - Plastic",
+						"Remote Controller - Aluminium"
+          ],
+          "Colour": []
+        },
+        "awardImages": [
+          {
+            "name": "IF Design",
+            "year": "2020",
+            "src": "/assets/img/content/products/awards/good_design.png"
+          }, {
+            "name": "Green Good",
+            "year": "2018",
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "TORNADO FLUSH",
+            "description": "Revolutionary powerful jets rimless flushing system",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/tornado-flush"
+            },
+            "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
+            "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
+          },
+          {
+            "title": "RIMLESS",
+            "description": "Leaves no place for waste and germs to hide",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/rimless"
+            },
+            "icon": "/assets/img/content/technology/rimless/ico-rimless.png",
+            "thumb": "/assets/img/content/technology/rimless/01.jpg"
+          },
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          },
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          },
+          {
+            "title": "EWATER+",
+            "description": "Electrolysed antibacterial water that break down waste",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/ewater-plus"
+            },
+            "icon": "/assets/img/content/technology/ewater/ico-ewater.png",
+            "thumb": "/assets/img/content/technology/ewater/thumb-ewater.png"
+          },
+          {
+            "title": "AIR-IN WONDER WAVE",
+            "description": "The precise, pleasant, air rich stream keeps you clean. And it's always pleasantly warm.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/air-in-wonder-wave"
+            },
+            "icon": "/assets/img/content/technology/air-in-wonder-wave/ico-air-in-wonder-wave.png",
+            "thumb": "/assets/img/content/technology/air-in-wonder-wave/thumb-air-in-wonder-wave.png"
+          },
+          {
+            "title": "PREMIST",
+            "description": "Aiding in the removal of waste and resulting in a better clean",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/premist"
+            },
+            "icon": "/assets/img/content/technology/premist/ico-premist.png",
+            "thumb": "/assets/img/content/technology/premist/thumb-premist.png"
+          },
+          {
+            "title": "HEATED SEAT",
+            "description": "The contoured heated seat is warmed for maximum comfort",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/heated-seat"
+            },
+            "icon": "/assets/img/content/technology/heated-seat/ico-heated-seat.png",
+            "thumb": "/assets/img/content/technology/heated-seat/thumb-heated-seat.png"
+          },
+          {
+            "title": "DEODORIZER",
+            "description": "Highly effective deodorizing automatically takes places inside the toilet bowl both during and immediately after use",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/deodorizer"
+            },
+            "icon": "/assets/img/content/technology/deodorizer/ico-deodorizer.png",
+            "thumb": "/assets/img/content/technology/deodorizer/thumb-deodorizer.png"
+          },
+          {
+            "title": "DRYER",
+            "description": "The individually adjustable dryer follows the warm water spray to ensure a dry, clean overall feeling.",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/dryer"
+            },
+            "icon": "/assets/img/content/technology/dryer/ico-dryer.png",
+            "thumb": "/assets/img/content/technology/dryer/thumb-dryer.png"
+          }
+        ],
+        "downloads": [
+          "/assets/img/content/products/Washlet+/C769CE-S769DRE-TCF4914EZ/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [
+					"TCF4914Z",
+					"CW920HK2-SW920HK-TCF4914EZ"
+				],
+        "compatibleProduct": [],
+        "remarks": []
+      }
+    }
+  ]
+}

@@ -32,7 +32,7 @@
     {
       "id": null,
       "modelNumber": "",
-      "slug": "L4716RE#XW",
+      "slug": "L4716RE-XW",
       "productName": "",
       "isNew": "false",
       "module": "ProductDetails",
@@ -40,7 +40,7 @@
       "content": {
         "id": "L4716RE#XW",
         "category": [
-          "Commercial"
+          "Lavatories"
         ],
         "subCategory": [
           "lavatory",
@@ -48,23 +48,58 @@
         ],
         "description": "",
         "images": [
-          "/assets/img/content/products/Commercial/lavatory/L4716RE#XW/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L4716RE-XW/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
+          "Size": "600 x 380 x 70mm",
+          "FlushingSystem": "Vitreous China",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
-          "Colour": []
+          "Material": [
+            "600 x 380 x 70mm"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "White"
+              ]
+            }
+          ]
         },
-        "awardImages": [],
-        "technologies": [],
+        "awardImages": [
+          {
+            "name": "IF Design",
+            "year": 2017,
+            "src": "/assets/img/content/products/awards/if_design.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          },
+          {
+            "title": "LINEARCERAM",
+            "description": "Exquisitely thin is the next dimension of beauty",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/linearceram"
+            },
+            "icon": "/assets/img/content/technology/linearceram/ico-linearceram.png",
+            "thumb": "/assets/img/content/technology/linearceram/thumb-linearceram.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Commercial/lavatory/L4716RE#XW/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
