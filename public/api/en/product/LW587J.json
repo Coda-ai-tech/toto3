@@ -40,20 +40,20 @@
       "content": {
         "id": "LW587J",
         "category": [
-          "Commercial"
+          "Lavatories"
         ],
         "subCategory": [
-          "lavatory",
-          "under-counter-lavatory"
+          "under-counter-lavatory",
+          ""
         ],
         "description": "Under Counter Lavatory",
         "images": [
-          "/assets/img/content/products/Commercial/lavatory/LW587J/content-image.png"
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/LW587J/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "539 x 437mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "#MW Matte White"
+                "White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/lavatory/LW587J/drawing.png"
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/LW587J/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

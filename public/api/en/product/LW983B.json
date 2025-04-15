@@ -48,18 +48,18 @@
         ],
         "description": "Semi Recessed Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW983B/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "550 x 430mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "550 x 430mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -83,7 +83,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW983B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

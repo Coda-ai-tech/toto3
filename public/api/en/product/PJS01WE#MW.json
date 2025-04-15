@@ -53,13 +53,13 @@
         "features": [],
         "specs": {
           "Size": "632 x 404 x 154mm",
-          "FlushingSystem": "Galaline",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "632 x 404 x 154mm"
+            "Galaline"
           ],
           "Colour": [
             {

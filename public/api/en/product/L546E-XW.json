@@ -40,20 +40,20 @@
       "content": {
         "id": "L546E-XW",
         "category": [
-          "Commercial"
+          "Lavatories"
         ],
         "subCategory": [
-          "lavatory",
-          "under-counter-lavatory"
+          "under-counter-lavatory",
+          ""
         ],
         "description": "Under Counter Lavatory",
         "images": [
-          "/assets/img/content/products/Commercial/lavatory/L546E-XW/content-image.png"
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/L546E-XW/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "550 x 400mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "#MW Matte White"
+                "White"
               ]
             }
           ]
@@ -72,23 +72,23 @@
         "awardImages": [],
         "technologies": [
           {
-            "title": "WATER-SAVING",
-            "description": "Leading environment-friendly and water-saving technologies",
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
             "link": {
               "type": "routeLink",
-              "href": "/en/technology/water-saving"
+              "href": "/en/technology/cefiontect"
             },
-            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
-            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/lavatory/L546E-XW/drawing.png"
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/L546E-XW/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": "*"
+        "remarks": ""
       }
     }
   ]

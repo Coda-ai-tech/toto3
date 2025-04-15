@@ -53,13 +53,13 @@
         "features": [],
         "specs": {
           "Size": "705 x 355 x 100mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "705 x 355 x 100mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -75,7 +75,9 @@
           "/assets/img/content/products/Lavatories/console-lavatory/LW953J/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "LW952J"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

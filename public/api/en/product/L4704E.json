@@ -53,13 +53,13 @@
         "features": [],
         "specs": {
           "Size": "460 x 420 x 130mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "460 x 420 x 130mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -95,7 +95,9 @@
           "/assets/img/content/products/Lavatories/console-lavatory/L4704E/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "LW4704E#XW"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

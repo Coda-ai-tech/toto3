@@ -48,18 +48,18 @@
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L5615E/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "500 x 460 x 70mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "500 x 460 x 70mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -83,7 +83,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L5615E/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

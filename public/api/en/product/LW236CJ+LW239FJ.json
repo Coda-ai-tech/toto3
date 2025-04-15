@@ -33,27 +33,27 @@
       "id": null,
       "modelNumber": "LW236CJ + LW239FJ",
       "slug": "LW236CJ+LW239FJ",
-      "productName": "Wall Hung Lavatory\n \n with Pedestal",
+      "productName": "Wall Hung Lavatory\nwith Pedestal",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW236CJ+LW239FJ",
         "category": [
-          "Commercial"
+          "Lavatories"
         ],
         "subCategory": [
-          "lavatory",
-          "pedestal-lavatory"
+          "pedestal-lavatory",
+          ""
         ],
-        "description": "Wall Hung Lavatory\n \n with Pedestal",
+        "description": "Wall Hung Lavatory\nwith Pedestal",
         "images": [
-          "/assets/img/content/products/Commercial/lavatory/LW236CJ+LW239FJ/content-image.png"
+          "/assets/img/content/products/Lavatories/pedestal-lavatory/LW236CJ+LW239FJ/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "530 x 465mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "#MW Matte White"
+                "White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/lavatory/LW236CJ+LW239FJ/drawing.png"
+          "/assets/img/content/products/Lavatories/pedestal-lavatory/LW236CJ+LW239FJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

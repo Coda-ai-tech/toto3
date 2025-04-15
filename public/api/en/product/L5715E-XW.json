@@ -40,20 +40,20 @@
       "content": {
         "id": "L5715E-XW",
         "category": [
-          "Commercial"
+          "Lavatories"
         ],
         "subCategory": [
-          "lavatory",
-          "console-lavatory"
+          "console-lavatory",
+          "vitreous-china"
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Commercial/lavatory/L5715E-XW/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L5715E-XW/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "500 x 380 x 70mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -64,32 +64,32 @@
           "Colour": [
             {
               "ForLavatory": [
-                "#MW Matte White"
+                "White"
               ]
             }
           ]
         },
         "awardImages": [
           {
-            "name": "Reddot Best",
+            "name": "IF Design",
             "year": 2018,
-            "src": "/assets/img/content/products/awards/reddot_best_winner.png"
+            "src": "/assets/img/content/products/awards/if_design.png"
           }
         ],
         "technologies": [
           {
-            "title": "WATER-SAVING",
-            "description": "Leading environment-friendly and water-saving technologies",
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
             "link": {
               "type": "routeLink",
-              "href": "/en/technology/water-saving"
+              "href": "/en/technology/cefiontect"
             },
-            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
-            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/lavatory/L5715E-XW/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L5715E-XW/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [

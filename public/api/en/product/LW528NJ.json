@@ -40,20 +40,20 @@
       "content": {
         "id": "LW528NJ",
         "category": [
-          "Commercial"
+          "Lavatories"
         ],
         "subCategory": [
-          "lavatory",
-          "semi-recessed-lavatory"
+          "semi-recessed-lavatory",
+          ""
         ],
         "description": "Semi Recessed Lavatory",
         "images": [
-          "/assets/img/content/products/Commercial/lavatory/LW528NJ/content-image.png"
+          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW528NJ/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "440 x 440mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "#MW Matte White"
+                "White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/lavatory/LW528NJ/drawing.png"
+          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW528NJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

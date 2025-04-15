@@ -48,18 +48,18 @@
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW893CJ/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "Φ430 x 100mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "Φ430 x 100mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW893CJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

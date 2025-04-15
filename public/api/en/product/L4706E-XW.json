@@ -48,18 +48,18 @@
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L4706E-XW/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "600 x 420 x 90mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "600 x 420 x 90mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -93,10 +93,13 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L4706E-XW/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "L4706E",
+          "L4724E#XW"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

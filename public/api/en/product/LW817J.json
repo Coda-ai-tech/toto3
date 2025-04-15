@@ -48,18 +48,18 @@
         ],
         "description": "Floor Standing Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/floor-standing-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/floor-standing-lavatory/LW817J/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "700 x 460 x 900mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "700 x 460 x 900mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/floor-standing-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/floor-standing-lavatory/LW817J/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -48,18 +48,18 @@
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW3717HY/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "746 x 448 x 50mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "746 x 448 x 50mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -89,10 +89,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW3717HY/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "LW3716HY"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

@@ -48,18 +48,18 @@
         ],
         "description": "Self Rimming Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/self-rimming-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/self-rimming-lavatory/LW538RCB/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "482 x 482mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "482 x 482mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -83,7 +83,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/self-rimming-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/self-rimming-lavatory/LW538RCB/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -48,18 +48,18 @@
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/PJS04WE-MGB/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "450 x 450 x 160mm",
-          "FlushingSystem": "Galaline",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "450 x 450 x 160mm"
+            "Galaline"
           ],
           "Colour": [
             {
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/PJS04WE-MGB/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

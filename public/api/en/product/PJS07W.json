@@ -48,18 +48,18 @@
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/PJS07W/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "600 x 380 x 150mm",
-          "FlushingSystem": "Galaline",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "600 x 380 x 150mm"
+            "Galaline"
           ],
           "Colour": [
             {
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/PJS07W/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

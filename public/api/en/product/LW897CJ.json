@@ -48,18 +48,18 @@
         ],
         "description": "Wall Hung Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/wall-hung-lavatory/LW897CJ/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "455 x 430 mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "455 x 430 mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/wall-hung-lavatory/LW897CJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

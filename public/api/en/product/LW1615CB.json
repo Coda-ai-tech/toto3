@@ -53,13 +53,13 @@
         "features": [],
         "specs": {
           "Size": "500 x 460 x 70mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "500 x 460 x 70mm"
+            "Vitreous China"
           ],
           "Colour": [
             {

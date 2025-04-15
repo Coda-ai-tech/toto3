@@ -48,18 +48,18 @@
         ],
         "description": "Semi Recessed Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW645JN/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "660 x 420mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "660 x 420mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW645JN/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

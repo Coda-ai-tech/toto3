@@ -48,18 +48,18 @@
         ],
         "description": "Under Counter Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/under-counter-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/LW586RB/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "550 x 490mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "550 x 490mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -83,7 +83,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/under-counter-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/under-counter-lavatory/LW586RB/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

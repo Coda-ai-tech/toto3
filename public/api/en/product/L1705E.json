@@ -53,13 +53,13 @@
         "features": [],
         "specs": {
           "Size": "550 x 380 x 125mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "550 x 380 x 125mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -78,7 +78,9 @@
           "/assets/img/content/products/Lavatories/console-lavatory/L1705E/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "L1705E#XW"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

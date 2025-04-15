@@ -48,18 +48,18 @@
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW1716WH/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "600 × 385 × 65mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "600 × 385 × 65mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -83,10 +83,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW1716WH/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "LW1717B"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

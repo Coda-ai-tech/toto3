@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW596RB#XW",
+    "title": "L367CRE ",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,38 +21,38 @@
       }
     },
     {
-      "label": "LW596RB#XW",
+      "label": "L367CRE ",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW596RB-XW"
+        "href": "/en/product/L367CRE "
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "LW596RB#XW",
-      "slug": "LW596RB-XW",
-      "productName": "Under Counter Lavatory",
+      "modelNumber": "L367CRE ",
+      "slug": "L367CRE ",
+      "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW596RB-XW",
+        "id": "L367CRE ",
         "category": [
           "Lavatories"
         ],
         "subCategory": [
-          "under-counter-lavatory",
-          ""
+          "console-lavatory",
+          "vitreous-china"
         ],
-        "description": "Under Counter Lavatory",
+        "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/under-counter-lavatory/LW596RB-XW/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L367CRE /content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "550 x 370mm",
+          "Size": "500 x 500 x 155mm",
           "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
@@ -83,7 +83,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/under-counter-lavatory/LW596RB-XW/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L367CRE /drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

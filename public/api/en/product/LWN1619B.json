@@ -48,18 +48,18 @@
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LWN1619B/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "900 x 460 x 70mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "900 x 460 x 70mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -83,10 +83,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LWN1619B/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "LWN1682CB"
+        ],
         "compatibleProduct": [],
         "remarks": "LWN1619CB 1 tap hole also available"
       }

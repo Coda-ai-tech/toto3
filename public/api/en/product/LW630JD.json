@@ -48,18 +48,18 @@
         ],
         "description": "Console Lavatory (Colour)",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW630JD/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "600 x 370 x 110mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "600 x 370 x 110mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -75,10 +75,13 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW630JD/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "LW630JW-F",
+          "LW631JW-F"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

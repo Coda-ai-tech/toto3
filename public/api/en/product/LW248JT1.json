@@ -40,20 +40,20 @@
       "content": {
         "id": "LW248JT1",
         "category": [
-          "Commercial"
+          "Lavatories"
         ],
         "subCategory": [
-          "lavatory",
-          "wall-hung-lavatory"
+          "wall-hung-lavatory",
+          ""
         ],
         "description": "Wall Hung Lavatory",
         "images": [
-          "/assets/img/content/products/Commercial/lavatory/LW248JT1/content-image.png"
+          "/assets/img/content/products/Lavatories/wall-hung-lavatory/LW248JT1/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "510 x 260 mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "#MW Matte White"
+                "White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/lavatory/LW248JT1/drawing.png"
+          "/assets/img/content/products/Lavatories/wall-hung-lavatory/LW248JT1/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

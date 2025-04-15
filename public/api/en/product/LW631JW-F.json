@@ -53,13 +53,13 @@
         "features": [],
         "specs": {
           "Size": "710 x 410 x 125mm",
-          "FlushingSystem": "Vitreous China",
+          "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
-            "710 x 410 x 125mm"
+            "Vitreous China"
           ],
           "Colour": [
             {
@@ -75,7 +75,10 @@
           "/assets/img/content/products/Lavatories/console-lavatory/LW631JW-F/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "LW630JW-F",
+          "LW630JD"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }
