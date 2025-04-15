@@ -48,7 +48,7 @@
         ],
         "description": "Paper Holder",
         "images": [
-          "/assets/img/content/products/Accessories/paper-holder/content-image.png"
+          "/assets/img/content/products/Accessories/paper-holder/TX703AQ/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "145 x 86 x 40mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -72,7 +70,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/paper-holder/drawing.png"
+          "/assets/img/content/products/Accessories/paper-holder/TX703AQ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

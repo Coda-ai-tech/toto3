@@ -48,14 +48,14 @@
         ],
         "description": "Wall Hung Urinal (Back Spud Inlet)",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/UWN180HB/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/UWN180HB/content-image.png"
         ],
         "features": [
           "Top Spud Inlet model also available"
         ],
         "specs": {
           "Size": "325 x 356 x 595mm",
-          "FlushingSystem": "",
+          "FlushingSystem": "Vitreous China",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -74,12 +74,12 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/UWN180HB/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/UWN180HB/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": "Top Spud Inlet model also available"
+        "remarks": ""
       }
     }
   ]

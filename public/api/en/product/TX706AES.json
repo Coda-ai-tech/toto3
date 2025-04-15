@@ -48,7 +48,7 @@
         ],
         "description": "Soap Holder",
         "images": [
-          "/assets/img/content/products/Accessories/others/content-image.png"
+          "/assets/img/content/products/Accessories/others/TX706AES/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "Ø109.5 x 38mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -82,7 +80,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/others/drawing.png"
+          "/assets/img/content/products/Accessories/others/TX706AES/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

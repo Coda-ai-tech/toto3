@@ -48,7 +48,7 @@
         ],
         "description": "Robe Hook",
         "images": [
-          "/assets/img/content/products/Accessories/robe-hook/content-image.png"
+          "/assets/img/content/products/Accessories/robe-hook/YRH903C/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "24 x 45 x 69mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -85,7 +83,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/robe-hook/drawing.png"
+          "/assets/img/content/products/Accessories/robe-hook/YRH903C/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

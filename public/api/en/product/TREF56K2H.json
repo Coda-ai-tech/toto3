@@ -48,7 +48,7 @@
         ],
         "description": "Concealed Type Flush Valve with Sensor for Toilet with Manual Button (Sea Water Use)",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/TREF56K2H/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/TREF56K2H/content-image.png"
         ],
         "features": [
           "- Battery Operated",
@@ -56,7 +56,7 @@
         ],
         "specs": {
           "Size": "185 x 185mm",
-          "FlushingSystem": "4.8L",
+          "FlushingSystem": "Metal",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -90,12 +90,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/TREF56K2H/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/TREF56K2H/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": "- Battery Operated\n- Sea Water Use"
+        "remarks": ""
       }
     }
   ]

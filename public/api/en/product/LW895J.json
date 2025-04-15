@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "LW895J",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "",
+      "label": "LW895J",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW895J"
@@ -31,9 +31,9 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "",
+      "modelNumber": "LW895J",
       "slug": "LW895J",
-      "productName": "",
+      "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
@@ -46,20 +46,28 @@
           "lavatory",
           "console-lavatory"
         ],
-        "description": "",
+        "description": "Console Lavatory",
         "images": [
           "/assets/img/content/products/Commercial/lavatory/LW895J/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
+          "Size": "430 x 430 x 130mm",
+          "FlushingSystem": "Vitreous China",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
-          "Colour": []
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "#MW Matte White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],

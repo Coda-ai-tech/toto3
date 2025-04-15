@@ -48,12 +48,12 @@
         ],
         "description": "Push Button Set",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/MB003CPR-2/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB003CPR-2/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "",
-          "FlushingSystem": "",
+          "FlushingSystem": "ABS",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -61,12 +61,18 @@
           "Material": [
             "ABS"
           ],
-          "Colour": []
+          "Colour": [
+            {
+              "ForPushButton": [
+                "Polished Chrome (ABS)"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/MB003CPR-2/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB003CPR-2/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

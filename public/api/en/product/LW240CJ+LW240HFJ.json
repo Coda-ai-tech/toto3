@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "LW240CJ + LW240HFJ",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "",
+      "label": "LW240CJ + LW240HFJ",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW240CJ+LW240HFJ"
@@ -31,9 +31,9 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "",
+      "modelNumber": "LW240CJ + LW240HFJ",
       "slug": "LW240CJ+LW240HFJ",
-      "productName": "",
+      "productName": "Wall Hung Lavatory\n \n with Half Pedestal",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
@@ -46,20 +46,28 @@
           "lavatory",
           "pedestal-lavatory"
         ],
-        "description": "",
+        "description": "Wall Hung Lavatory\n \n with Half Pedestal",
         "images": [
           "/assets/img/content/products/Commercial/lavatory/LW240CJ+LW240HFJ/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
+          "Size": "500 x 350mm",
+          "FlushingSystem": "Vitreous China",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
-          "Colour": []
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "#MW Matte White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],

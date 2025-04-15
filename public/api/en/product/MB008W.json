@@ -48,12 +48,12 @@
         ],
         "description": "Push Button Set with Sensor",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/MB008W/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB008W/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "",
-          "FlushingSystem": "",
+          "FlushingSystem": "Glass",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -61,12 +61,18 @@
           "Material": [
             "Glass"
           ],
-          "Colour": []
+          "Colour": [
+            {
+              "ForPushButton": [
+                "White (Glass)"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/MB008W/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/MB008W/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

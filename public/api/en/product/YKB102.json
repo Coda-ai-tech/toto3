@@ -55,7 +55,7 @@
         ],
         "specs": {
           "Size": "",
-          "FlushingSystem": "",
+          "FlushingSystem": "Frame: Stainless Steel\nInternal: Plastic",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -74,7 +74,7 @@
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": "Volume: 6L"
+        "remarks": ""
       }
     }
   ]

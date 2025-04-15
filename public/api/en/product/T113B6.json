@@ -59,7 +59,13 @@
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [],
-          "Colour": []
+          "Colour": [
+            {
+              "ForGrabbar": [
+                "Brushed Stainless Steel"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],

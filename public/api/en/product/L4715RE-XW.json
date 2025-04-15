@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "L4715RE#XW",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "",
+      "label": "L4715RE#XW",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/L4715RE#XW"
+        "href": "/en/product/L4715RE-XW"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "",
-      "slug": "L4715RE#XW",
-      "productName": "",
+      "modelNumber": "L4715RE#XW",
+      "slug": "L4715RE-XW",
+      "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "L4715RE#XW",
+        "id": "L4715RE-XW",
         "category": [
           "Commercial"
         ],
@@ -46,28 +46,59 @@
           "lavatory",
           "console-lavatory"
         ],
-        "description": "",
+        "description": "Console Lavatory",
         "images": [
           "/assets/img/content/products/Commercial/lavatory/L4715RE-XW/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
+          "Size": "500 x 380 x 70mm",
+          "FlushingSystem": "Vitreous China",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
-          "Colour": []
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "#MW Matte White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          },
+          {
+            "title": "LUMINIST",
+            "description": "Unique translucent crystal-like material which provides excellent durability",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/luminist"
+            },
+            "icon": "/assets/img/content/technology/luminist/ico-luminist.png",
+            "thumb": "/assets/img/content/technology/luminist/thumb-luminist.png"
+          }
+        ],
         "downloads": [
           "/assets/img/content/products/Commercial/lavatory/L4715RE-XW/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "L4715RE"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

@@ -21,40 +21,41 @@
       }
     },
     {
-      "label": "CW763PB ",
+      "label": "CW763PB",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CW763PB "
+        "href": "/en/product/CW763PB"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "CW763PB ",
-      "slug": "CW763PB ",
+      "modelNumber": "CW763PB",
+      "slug": "CW763PB",
       "productName": "D-shape Tornado Flush Wall Faced Toilet",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "CW763PB ",
+        "id": "CW763PB",
         "category": [
-          "Toilets"
+          "Commercial"
         ],
         "subCategory": [
+          "toilet-&-urinal",
           "wall-faced-toilet"
         ],
         "description": "D-shape Tornado Flush Wall Faced Toilet",
         "images": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW763PB/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW763PB/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "630 x 380 x 483mm",
-          "FlushingSystem": "Tornado Flush",
-          "WaterConsumption": "3L/4.8L",
-          "TrapType": "P-trap (Rough in: 180mm)",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "P-trap (Rough in: 180mm)",
+          "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
           "Material": [
@@ -112,14 +113,14 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/toilets/wall-faced-toilet/CW763PB/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW763PB/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
-          "CW763B, \nCW763FVPB, \nCW763FVB"
+          "CW763B, \n \n CW763FVPB, \n \n CW763FVB"
         ],
         "compatibleProduct": [],
-        "remarks": []
+        "remarks": ""
       }
     }
   ]

@@ -48,7 +48,7 @@
         ],
         "description": "Paper Holder ",
         "images": [
-          "/assets/img/content/products/Accessories/paper-holder-/content-image.png"
+          "/assets/img/content/products/Accessories/paper-holder/TX703ARS/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "190 x 100mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -82,7 +80,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/paper-holder-/drawing.png"
+          "/assets/img/content/products/Accessories/paper-holder/TX703ARS/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

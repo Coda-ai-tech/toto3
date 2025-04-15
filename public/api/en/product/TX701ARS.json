@@ -48,7 +48,7 @@
         ],
         "description": "Towel Bar ",
         "images": [
-          "/assets/img/content/products/Accessories/towel-bar-/content-image.png"
+          "/assets/img/content/products/Accessories/towel-bar/TX701ARS/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "660mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -82,7 +80,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/towel-bar-/drawing.png"
+          "/assets/img/content/products/Accessories/towel-bar/TX701ARS/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "L1705E#XW",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "",
+      "label": "L1705E#XW",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/L1705E#XW"
+        "href": "/en/product/L1705E-XW"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "",
-      "slug": "L1705E#XW",
-      "productName": "",
+      "modelNumber": "L1705E#XW",
+      "slug": "L1705E-XW",
+      "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "L1705E#XW",
+        "id": "L1705E-XW",
         "category": [
           "Commercial"
         ],
@@ -46,28 +46,49 @@
           "lavatory",
           "console-lavatory"
         ],
-        "description": "",
+        "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Commercial/lavatory/L1705E#XW/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/L1705E-XW/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
+          "Size": "550 x 380 x 125mm",
+          "FlushingSystem": "Vitreous China",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
-          "Colour": []
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "#MW Matte White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Commercial/lavatory/L1705E#XW/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/L1705E-XW/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "L1705E"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

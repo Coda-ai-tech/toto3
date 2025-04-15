@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "CW620NJ",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "",
+      "label": "CW620NJ",
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW620NJ"
@@ -31,9 +31,9 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "",
+      "modelNumber": "CW620NJ",
       "slug": "CW620NJ",
-      "productName": "",
+      "productName": "Regular Wash Down Wall Hung Toilet",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
@@ -46,25 +46,27 @@
           "toilet-&-urinal",
           "wall-hung-toilet"
         ],
-        "description": "",
+        "description": "Regular Wash Down Wall Hung Toilet",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW620NJ/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW620NJ/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
-          "WaterConsumption": "",
+          "Size": "530 x 360mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "220mm",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
+          "Material": [
+            "Vitreous China"
+          ],
           "Colour": []
         },
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW620NJ/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW620NJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

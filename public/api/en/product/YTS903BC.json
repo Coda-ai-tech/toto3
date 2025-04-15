@@ -48,7 +48,7 @@
         ],
         "description": "Towel Shelf",
         "images": [
-          "/assets/img/content/products/Accessories/towel-shelf/content-image.png"
+          "/assets/img/content/products/Accessories/towel-shelf/YTS903BC/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "628 x 201 x 100mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -85,7 +83,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/towel-shelf/drawing.png"
+          "/assets/img/content/products/Accessories/towel-shelf/YTS903BC/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

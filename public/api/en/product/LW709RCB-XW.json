@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "LW709RCB#XW",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "",
+      "label": "LW709RCB#XW",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW709RCB#XW"
+        "href": "/en/product/LW709RCB-XW"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "",
+      "modelNumber": "LW709RCB#XW",
       "slug": "LW709RCB-XW",
-      "productName": "",
+      "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW709RCB#XW",
+        "id": "LW709RCB-XW",
         "category": [
           "Commercial"
         ],
@@ -46,23 +46,42 @@
           "lavatory",
           "console-lavatory"
         ],
-        "description": "",
+        "description": "Console Lavatory",
         "images": [
           "/assets/img/content/products/Commercial/lavatory/LW709RCB-XW/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
+          "Size": "500 x 450 x 135mm",
+          "FlushingSystem": "Vitreous China",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
-          "Colour": []
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "#MW Matte White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
-        "technologies": [],
+        "technologies": [
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
         "downloads": [
           "/assets/img/content/products/Commercial/lavatory/LW709RCB-XW/drawing.png"
         ],

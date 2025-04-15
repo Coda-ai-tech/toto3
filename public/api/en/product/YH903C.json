@@ -48,7 +48,7 @@
         ],
         "description": "Paper Holder",
         "images": [
-          "/assets/img/content/products/Accessories/paper-holder/content-image.png"
+          "/assets/img/content/products/Accessories/paper-holder/YH903C/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "148 x 62 x 106mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -91,7 +89,7 @@
         ],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/paper-holder/drawing.png"
+          "/assets/img/content/products/Accessories/paper-holder/YH903C/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

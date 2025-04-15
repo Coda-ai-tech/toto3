@@ -48,7 +48,7 @@
         ],
         "description": "Towel Ring",
         "images": [
-          "/assets/img/content/products/Accessories/towel-ring/content-image.png"
+          "/assets/img/content/products/Accessories/towel-ring/TX702AW/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "180 × 100 × 110mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -72,7 +70,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/towel-ring/drawing.png"
+          "/assets/img/content/products/Accessories/towel-ring/TX702AW/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

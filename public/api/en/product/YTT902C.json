@@ -48,7 +48,7 @@
         ],
         "description": "Towel Ring",
         "images": [
-          "/assets/img/content/products/Accessories/towel-ring/content-image.png"
+          "/assets/img/content/products/Accessories/towel-ring/YTT902C/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "211 x 50 x 53mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -85,7 +83,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/towel-ring/drawing.png"
+          "/assets/img/content/products/Accessories/towel-ring/YTT902C/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

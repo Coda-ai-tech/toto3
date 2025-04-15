@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "CW162YH",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "",
+      "label": "CW162YH",
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW162YH"
@@ -31,9 +31,9 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "",
+      "modelNumber": "CW162YH",
       "slug": "CW162YH",
-      "productName": "",
+      "productName": "D-shape Tornado Flush Wall Hung Toilet for WASHLET Installation",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
@@ -46,28 +46,80 @@
           "toilet-&-urinal",
           "wall-hung-toilet"
         ],
-        "description": "",
+        "description": "D-shape Tornado Flush Wall Hung Toilet for WASHLET Installation",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW162YH/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW162YH/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
-          "WaterConsumption": "",
+          "Size": "530 x 392 x 339mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "220mm",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
+          "Material": [
+            "Vitreous China"
+          ],
           "Colour": []
         },
-        "awardImages": [],
-        "technologies": [],
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2016,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "TORNADO FLUSH",
+            "description": "Revolutionary powerful jets rimless flushing system",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/tornado-flush"
+            },
+            "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
+            "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
+          },
+          {
+            "title": "RIMLESS",
+            "description": "Leaves no place for waste and germs to hide",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/rimless"
+            },
+            "icon": "/assets/img/content/technology/rimless/ico-rimless.png",
+            "thumb": "/assets/img/content/technology/rimless/thumb-rimless.png"
+          },
+          {
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/cefiontect"
+            },
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          },
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW162YH/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW162YH/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "CW162B",
+          "CW162Y"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

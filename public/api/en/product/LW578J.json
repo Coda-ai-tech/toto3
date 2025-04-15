@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "LW578J",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "",
+      "label": "LW578J",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW578J"
@@ -31,9 +31,9 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "",
+      "modelNumber": "LW578J",
       "slug": "LW578J",
-      "productName": "",
+      "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
@@ -46,20 +46,28 @@
           "lavatory",
           "console-lavatory"
         ],
-        "description": "",
+        "description": "Console Lavatory",
         "images": [
           "/assets/img/content/products/Commercial/lavatory/LW578J/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
+          "Size": "420 x 420 x 125mm",
+          "FlushingSystem": "Vitreous China",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
-          "Colour": []
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "#MW Matte White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],

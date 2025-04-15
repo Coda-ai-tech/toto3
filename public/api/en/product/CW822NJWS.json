@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "CW822NJWS",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "",
+      "label": "CW822NJWS",
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW822NJWS"
@@ -31,9 +31,9 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "",
+      "modelNumber": "CW822NJWS",
       "slug": "CW822NJWS",
-      "productName": "",
+      "productName": "Elongated Wash Down Wall Hung Toilet",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
@@ -46,30 +46,51 @@
           "toilet-&-urinal",
           "wall-hung-toilet"
         ],
-        "description": "",
+        "description": "Elongated Wash Down Wall Hung Toilet",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW822NJWS/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW822NJWS/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
-          "WaterConsumption": "",
+          "Size": "540 x 360 x 330mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "220mm",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
+          "Material": [
+            "Vitreous China"
+          ],
           "Colour": []
         },
-        "awardImages": [],
-        "technologies": [],
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2016,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW822NJWS/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW822NJWS/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "CW822RA"
+        ],
         "compatibleProduct": [],
-        "remarks": ""
+        "remarks": "*"
       }
     }
   ]

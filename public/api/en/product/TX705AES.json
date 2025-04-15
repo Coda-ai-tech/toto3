@@ -48,7 +48,7 @@
         ],
         "description": "Glass Shelf",
         "images": [
-          "/assets/img/content/products/Accessories/others/content-image.png"
+          "/assets/img/content/products/Accessories/others/TX705AES/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "450mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -82,7 +80,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/others/drawing.png"
+          "/assets/img/content/products/Accessories/others/TX705AES/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "CW813PJ",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "",
+      "label": "CW813PJ",
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW813PJ"
@@ -31,9 +31,9 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "",
+      "modelNumber": "CW813PJ",
       "slug": "CW813PJ",
-      "productName": "",
+      "productName": "Elongated Wash Down Wall Faced Toilet",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
@@ -46,25 +46,44 @@
           "toilet-&-urinal",
           "wall-faced-toilet"
         ],
-        "description": "",
+        "description": "Elongated Wash Down Wall Faced Toilet",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW813PJ/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW813PJ/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
-          "WaterConsumption": "",
+          "Size": "380 × 595 × 400mm",
+          "FlushingSystem": "Vitreous China",
+          "WaterConsumption": "P-trap (Rough in: 180mm)",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
+          "Material": [
+            "Vitreous China"
+          ],
           "Colour": []
         },
-        "awardImages": [],
-        "technologies": [],
+        "awardImages": [
+          {
+            "name": "Green Good",
+            "year": 2016,
+            "src": "/assets/img/content/products/awards/design_award.png"
+          }
+        ],
+        "technologies": [
+          {
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/water-saving"
+            },
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+          }
+        ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW813PJ/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/CW813PJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

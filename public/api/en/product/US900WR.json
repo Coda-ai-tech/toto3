@@ -48,7 +48,7 @@
         ],
         "description": "Wall Hung Urinal with Built-in Sensor (Fresh Water Use)",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/US900WR/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/US900WR/content-image.png"
         ],
         "features": [
           "- Hydro-generator Type",
@@ -56,7 +56,7 @@
         ],
         "specs": {
           "Size": "420 x 380 x 920mm",
-          "FlushingSystem": "0.9L",
+          "FlushingSystem": "Vitreous China",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -112,12 +112,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/US900WR/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/US900WR/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": "- Hydro-generator Type\n- Fresh Water Use"
+        "remarks": ""
       }
     }
   ]

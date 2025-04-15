@@ -48,7 +48,7 @@
         ],
         "description": "Towel Ring",
         "images": [
-          "/assets/img/content/products/Accessories/towel-ring/content-image.png"
+          "/assets/img/content/products/Accessories/towel-ring/YTT408C/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "229 x 99 x 55mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -82,7 +80,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/towel-ring/drawing.png"
+          "/assets/img/content/products/Accessories/towel-ring/YTT408C/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

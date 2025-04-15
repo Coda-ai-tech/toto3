@@ -48,7 +48,7 @@
         ],
         "description": "Concelaed Type Flush Valve with Sensor for Toilet with Manual Button",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/DCE605U/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE605U/content-image.png"
         ],
         "features": [
           "- Battery Operated",
@@ -56,7 +56,7 @@
         ],
         "specs": {
           "Size": "130 x 130mm",
-          "FlushingSystem": "6L",
+          "FlushingSystem": "Metal",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
@@ -80,12 +80,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/DCE605U/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE605U/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
         "compatibleProduct": [],
-        "remarks": "- Battery Operated\n- Sea Water Use"
+        "remarks": ""
       }
     }
   ]

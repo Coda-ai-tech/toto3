@@ -48,7 +48,7 @@
         ],
         "description": "Towel Bar (450mm)",
         "images": [
-          "/assets/img/content/products/Accessories/towel-bar/content-image.png"
+          "/assets/img/content/products/Accessories/towel-bar/YT903S4C/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "474 x 60mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -85,7 +83,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/towel-bar/drawing.png"
+          "/assets/img/content/products/Accessories/towel-bar/YT903S4C/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

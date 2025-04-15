@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "",
+    "title": "LW528NJ",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "",
+      "label": "LW528NJ",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW528NJ"
@@ -31,9 +31,9 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "",
+      "modelNumber": "LW528NJ",
       "slug": "LW528NJ",
-      "productName": "",
+      "productName": "Semi Recessed Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
@@ -46,20 +46,28 @@
           "lavatory",
           "semi-recessed-lavatory"
         ],
-        "description": "",
+        "description": "Semi Recessed Lavatory",
         "images": [
           "/assets/img/content/products/Commercial/lavatory/LW528NJ/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "",
-          "FlushingSystem": "",
+          "Size": "440 x 440mm",
+          "FlushingSystem": "Vitreous China",
           "WaterConsumption": "",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [],
-          "Colour": []
+          "Material": [
+            "Vitreous China"
+          ],
+          "Colour": [
+            {
+              "ForLavatory": [
+                "#MW Matte White"
+              ]
+            }
+          ]
         },
         "awardImages": [],
         "technologies": [],

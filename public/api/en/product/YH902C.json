@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "151 x 78 x 90mm"
-          ],
+          "Material": [],
           "Colour": [
             {
               "ForFillings": [
@@ -91,7 +89,7 @@
         ],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Accessories/paper-holder/drawing.png"
+          "/assets/img/content/products/Accessories/paper-holder/YH902C/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
