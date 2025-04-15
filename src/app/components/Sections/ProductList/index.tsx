@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState, useCallback, useRef } from 'react';
-import { useParams, useSearchParams } from 'next/navigation';
+import { useParams, useSearchParams, useRouter } from 'next/navigation';
 import { Skeleton } from '@heroui/react';
 import { AnimatePresence, motion } from 'framer-motion';
 import SvgIcon from '@@/SvgIcon';
@@ -649,6 +649,8 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   const searchParams = useSearchParams();
   const categoryFromUrl = searchParams.get('category');
 
+  const router = useRouter();
+
   const pagePerItem = useRef(12);
   const searchInput = useRef<HTMLInputElement>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -878,6 +880,49 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
       window.scrollTo(0, 0);
     }
   }, [page]);
+
+  useEffect(() => {
+    const queryParams = new URLSearchParams();
+
+    if (selectedCategory && selectedCategory.length > 0) {
+      const categoryJson = JSON.stringify(selectedCategory);
+      const categoryEncoded = btoa(categoryJson);
+      queryParams.set('category', categoryEncoded);
+    }
+    if (keyword) {
+      queryParams.set('keyword', keyword);
+    }
+    queryParams.set('page', page.toString());
+
+    router.push(`?${queryParams.toString()}`);
+  }, [selectedCategory, keyword, page]);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const encoded = params.get('category');
+    const keyword = params.get('keyword');
+    const page = parseInt(params.get('page') || '1', 10);
+  
+    if (encoded) {
+      try {
+        const decoded = atob(encoded);
+        const categories = JSON.parse(decoded);
+        setSelectedCategory(categories);
+
+        for (const cat of categories) {
+          if (cat.sub) {
+            updateShowSubCategory(cat.cid);
+          }
+        }
+
+      } catch (error) {
+        console.error('Failed to decode category:', error);
+      }
+    }
+  
+    if (keyword) setKeyword(keyword);
+    setPage(page);
+  }, []);
 
   return (
     <section id={id ? id : `section${order}`} className={`${styles.productList}`}>
