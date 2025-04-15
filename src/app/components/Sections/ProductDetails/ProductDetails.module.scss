@@ -66,18 +66,7 @@
 
     .leftColumn {
       flex-direction: column;
-
-      .productId {
-        font-size: 24px;
-      }
-
-      .tabs {
-        display: none !important;
-
-        a {
-          align-self: center;
-        }
-      }
+      display: none !important;
     }
   }
 }
