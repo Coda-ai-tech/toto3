@@ -185,7 +185,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             <table className={styles.specTable}>
               <tbody>
                 {Object.entries(specs).map(([key, value]) => {
-                  if (value !== null) {
+                  if (value !== null && value !== "") {
                     if (Array.isArray(value)) {
                       const filteredValues = value.filter(item => item !== null);
                       if (filteredValues.length === 0) {
