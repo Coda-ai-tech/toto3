@@ -197,13 +197,29 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                             <td className={styles.specName}><b>{key}</b></td>
                             <td className={styles.specValue}>
                               {filteredValues.map((item, index) => (
-                                <div key={index}>
+                                <div className={styles.colorValues} key={index}>
 
                                   {Object.entries(item).map(([key, values], index) => {
                                     if (Array.isArray(values) && values.length > 0) {
-                                      return (
-                                        <div className={styles.innerValue}>{values.join(', ')}</div>
-                                      );
+                                      let colorChipFolder : string = key.toLowerCase();
+                                      if (key.toLowerCase() === 'for fillings' || key.toLowerCase() === 'for fittings' || key.toLowerCase() === 'forfillings' || key.toLowerCase() === 'forfittings') {
+                                        colorChipFolder = 'for_fittings';
+                                      } else if (key.toLowerCase() === 'forbathtub') {
+                                        colorChipFolder = 'for_bathtub';
+                                      }
+                                      return values.map((value, index) => (
+                                        <div key={index} className={styles.colorRow}>
+                                          <div className={styles.colorChip}>
+                                            <Image 
+                                            src={`/assets/img/content/products/color_chips/${colorChipFolder}/${value.replace(/#/g, '').replace(/_/g, ' ').replace(/ (.*)?/, '_$1')}.png`}
+                                            width={32}
+                                            height={32}
+                                            alt=""
+                                            draggable={false}/>
+                                            </div>
+                                          <div key={'inner-' + index} className={styles.innerValue}>{value}</div>
+                                        </div>
+                                      ));
                                     }
                                     return null; // Skip empty arrays
                                   })}

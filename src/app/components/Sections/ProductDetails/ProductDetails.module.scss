@@ -158,12 +158,24 @@
         }
       }
 
-      .colorValue {
+      .colorValues {
         display: flex;
         flex-direction: column;
 
-        .innerKey {
-          padding-bottom: 0;
+        .colorRow {
+          display: flex;
+          padding-bottom: 4px;
+
+          .colorChip {
+            min-width: 40px;
+          }
+
+          .innerValue {
+            font-size: 14px;
+            line-height: 1.3;
+            align-content: center;
+            padding-left: 4px;
+          }
         }
 
         td {
