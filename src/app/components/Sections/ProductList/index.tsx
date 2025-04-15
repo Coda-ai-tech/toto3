@@ -757,7 +757,6 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   };
 
   const prevPage = () => {
-    console.log(page);
     if (page > 1) {
       const prev = page - 1;
       setPage(prev);
@@ -765,11 +764,14 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   }
 
   const nextPage = () => {
-    console.log(page);
     if (page < totalPage) {
       const next = page + 1;
       setPage(next);
     }
+  };
+
+  const setPageFunction = (selectedPage: number) => {
+    setPage(selectedPage);
   };
 
 
@@ -882,19 +884,30 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   }, [page]);
 
   useEffect(() => {
+    const currentParams = new URLSearchParams(window.location.search);
+
+    const currentCategory = currentParams.get('category');
+    const currentKeyword = currentParams.get('keyword');
+    const currentPage = currentParams.get('page');
+
+    const encodedCategory = selectedCategory.length ? btoa(JSON.stringify(selectedCategory)) : null;
+
     const queryParams = new URLSearchParams();
 
-    if (selectedCategory && selectedCategory.length > 0) {
-      const categoryJson = JSON.stringify(selectedCategory);
-      const categoryEncoded = btoa(categoryJson);
-      queryParams.set('category', categoryEncoded);
+    if (encodedCategory) {
+      queryParams.set('category', encodedCategory);
     }
     if (keyword) {
       queryParams.set('keyword', keyword);
     }
     queryParams.set('page', page.toString());
 
-    router.push(`?${queryParams.toString()}`);
+    const newUrl = `?${queryParams.toString()}`;
+    const currentUrl = `?${currentParams.toString()}`;
+
+    if (newUrl !== currentUrl){
+      router.push(newUrl);
+    }
   }, [selectedCategory, keyword, page]);
 
   useEffect(() => {
@@ -902,7 +915,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     const encoded = params.get('category');
     const keyword = params.get('keyword');
     const page = parseInt(params.get('page') || '1', 10);
-  
+
     if (encoded) {
       try {
         const decoded = atob(encoded);
@@ -919,7 +932,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
         console.error('Failed to decode category:', error);
       }
     }
-  
+
     if (keyword) setKeyword(keyword);
     setPage(page);
   }, []);
@@ -1136,7 +1149,22 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
                       onClick={prevPage}
                       className={styles.paginationButton}
                     > &lt;&lt; </button>
-                    {page} / {totalPage}
+                    {Array.from({ length: totalPage }).map((_, index) => {
+                      if (index > page && index > page + 1 ) {
+                        return null;
+                      } else if (index < page && index < page - 3) {
+                        return null;
+                      }
+                      if (index + 1 === page){
+                        return(
+                          <div key={index} className={styles.currentPage}>{page}</div>
+                        )
+                      }
+                      return (
+                        <button onClick={() => setPageFunction(index + 1)} key={index} className={styles.pageButton}>{index + 1}</button>
+                      )
+                    }
+                    )}
                     <button
                       onClick={nextPage}
                       className={styles.paginationButton}
