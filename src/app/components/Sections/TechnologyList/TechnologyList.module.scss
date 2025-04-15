@@ -210,6 +210,18 @@
           }
         }
       }
+      .emptyIcon {
+        @apply relative w-7 h-7;
+
+        @screen lg {
+          @apply w-10 h-10;
+        }
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+      }
     }
 
     .techTitle {

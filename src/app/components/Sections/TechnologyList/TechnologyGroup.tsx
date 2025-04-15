@@ -28,15 +28,21 @@ export const TechnologyListItem = ({ data }: { data: TechnologyItemData }) => {
         <div className={`${styles.techEntryInfo}`}>
           <div className={`${styles.techTitleWrap}`}>
             <div className={`${styles.techIcon}`}>
-              <div className={`${styles.techIconInner}`}>
-                <Image
-                  src={!icoError ? data.icon : '/assets/img/content/technology/ico-fallback.png'}
-                  width={100}
-                  height={100}
-                  alt={data.title}
-                  onError={() => !icoError && setIcoError(true)}
-                />
-              </div>
+              {data.icon ?
+                <div className={`${styles.techIconInner}`}>
+                  <Image
+                    src={!icoError ? data.icon : '/assets/img/content/technology/ico-fallback.png'}
+                    width={100}
+                    height={100}
+                    alt={data.title}
+                    onError={() => !icoError && setIcoError(true)}
+                  />
+                </div>
+                :
+                <div className={`${styles.emptyIcon}`}>
+                  <div></div>
+                </div>
+              }
             </div>
             <div className={`${styles.techTitle}`}>{data.title}</div>
           </div>

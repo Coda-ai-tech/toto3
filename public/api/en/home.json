@@ -37,13 +37,13 @@
             },
             "cta": [
               {
-                "label": "Learn More",
-                "variant": "contain",
-                "color": "primary",
+                "label": "",
+                "variant": "",
+                "color": "",
                 "icon": null,
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
+                  "href": "#"
                 }
               }
             ]
@@ -97,7 +97,7 @@
                 "icon": null,
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
+                  "href": "/en/inspiration"
                 }
               }
             ]
