@@ -32,7 +32,7 @@
     {
       "id": null,
       "modelNumber": "MB174P#WH",
-      "slug": "MB174P#WH",
+      "slug": "MB174P-WH",
       "productName": "Push Button Set",
       "isNew": "false",
       "module": "ProductDetails",
@@ -43,12 +43,12 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "push-button-set-(concealed-cistern)"
         ],
         "description": "Push Button Set",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/MB174P#WH/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/MB174P-WH/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/MB174P#WH/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/MB174P-WH/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -43,20 +43,20 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "urinal"
         ],
         "description": "Wall Hung Urinal (Back Spud Inlet)",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/U904HRE#XW/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/U904HRE#XW/content-image.png"
         ],
         "features": [
           "Top Spud Inlet model also available"
         ],
         "specs": {
           "Size": "260 x 345 x 675mm",
-          "FlushingSystem": "Vitreous China",
-          "WaterConsumption": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "0.5L",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
@@ -101,7 +101,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/U904HRE#XW/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/U904HRE#XW/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

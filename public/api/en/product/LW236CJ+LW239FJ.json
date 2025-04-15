@@ -33,22 +33,22 @@
       "id": null,
       "modelNumber": "LW236CJ + LW239FJ",
       "slug": "LW236CJ+LW239FJ",
-      "productName": "Wall Hung Lavatory\nwith Pedestal",
+      "productName": "Wall Hung Lavatory\n \n with Pedestal",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW236CJ+LW239FJ",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "pedestal-lavatory",
-          ""
+          "lavatory",
+          "pedestal-lavatory"
         ],
-        "description": "Wall Hung Lavatory\nwith Pedestal",
+        "description": "Wall Hung Lavatory\n \n with Pedestal",
         "images": [
-          "/assets/img/content/products/Lavatories/pedestal-lavatory/LW236CJ+LW239FJ/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW236CJ+LW239FJ/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "White"
+                "#MW Matte White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/pedestal-lavatory/LW236CJ+LW239FJ/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW236CJ+LW239FJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

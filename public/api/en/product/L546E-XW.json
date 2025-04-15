@@ -40,15 +40,15 @@
       "content": {
         "id": "L546E-XW",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "under-counter-lavatory",
-          ""
+          "lavatory",
+          "under-counter-lavatory"
         ],
         "description": "Under Counter Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/under-counter-lavatory/L546E-XW/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/L546E-XW/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "White"
+                "#MW Matte White"
               ]
             }
           ]
@@ -72,18 +72,18 @@
         "awardImages": [],
         "technologies": [
           {
-            "title": "CEFIONTECT",
-            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
             "link": {
               "type": "routeLink",
-              "href": "/en/technology/cefiontect"
+              "href": "/en/technology/water-saving"
             },
-            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/under-counter-lavatory/L546E-XW/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/L546E-XW/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

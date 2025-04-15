@@ -43,12 +43,12 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "urinal-sensor-flush-valve"
         ],
         "description": "Concealed Type Flush Valve with Sensor for Urinal (Sea Water Use)",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/DUE130UE/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/DUE130UE/content-image.png"
         ],
         "features": [
           "- AC Operated",
@@ -56,8 +56,8 @@
         ],
         "specs": {
           "Size": "115 x 115mm",
-          "FlushingSystem": "Stainless Steel",
-          "WaterConsumption": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "5L",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
@@ -80,7 +80,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/DUE130UE/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/DUE130UE/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

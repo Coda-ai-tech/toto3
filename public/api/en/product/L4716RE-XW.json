@@ -40,15 +40,15 @@
       "content": {
         "id": "L4716RE-XW",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "console-lavatory",
-          "vitreous-china"
+          "lavatory",
+          "console-lavatory"
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/L4716RE-XW/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/L4716RE-XW/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -64,42 +64,42 @@
           "Colour": [
             {
               "ForLavatory": [
-                "White"
+                "#MW Matte White"
               ]
             }
           ]
         },
         "awardImages": [
           {
-            "name": "IF Design",
+            "name": "Reddot Best",
             "year": 2017,
-            "src": "/assets/img/content/products/awards/if_design.png"
+            "src": "/assets/img/content/products/awards/reddot_best_winner.png"
           }
         ],
         "technologies": [
           {
-            "title": "CEFIONTECT",
-            "description": "Special hygienic glaze for a smooth ceramic surface",
+            "title": "WATER-SAVING",
+            "description": "Leading environment-friendly and water-saving technologies",
             "link": {
               "type": "routeLink",
-              "href": "/en/technology/cefiontect"
+              "href": "/en/technology/water-saving"
             },
-            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
+            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
           },
           {
-            "title": "LINEARCERAM",
-            "description": "Exquisitely thin is the next dimension of beauty",
+            "title": "LUMINIST",
+            "description": "Unique translucent crystal-like material which provides excellent durability",
             "link": {
               "type": "routeLink",
-              "href": "/en/technology/linearceram"
+              "href": "/en/technology/luminist"
             },
-            "icon": "/assets/img/content/technology/linearceram/ico-linearceram.png",
-            "thumb": "/assets/img/content/technology/linearceram/thumb-linearceram.png"
+            "icon": "/assets/img/content/technology/luminist/ico-luminist.png",
+            "thumb": "/assets/img/content/technology/luminist/thumb-luminist.png"
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/L4716RE-XW/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/L4716RE-XW/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [

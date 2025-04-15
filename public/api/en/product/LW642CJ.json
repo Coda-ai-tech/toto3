@@ -40,15 +40,15 @@
       "content": {
         "id": "LW642CJ",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "semi-recessed-lavatory",
-          ""
+          "lavatory",
+          "semi-recessed-lavatory"
         ],
         "description": "Semi Recessed Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW642CJ/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW642CJ/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "White"
+                "#MW Matte White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW642CJ/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW642CJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

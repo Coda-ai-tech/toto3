@@ -32,7 +32,7 @@
     {
       "id": null,
       "modelNumber": "T112HK8R#NW1",
-      "slug": "T112HK8R#NW1",
+      "slug": "T112HK8R-NW1",
       "productName": "Full Coated Up-Down Folding Type Grab Bar with Security Lock (800mm)",
       "isNew": "false",
       "module": "ProductDetails",
@@ -48,7 +48,7 @@
         ],
         "description": "Full Coated Up-Down Folding Type Grab Bar with Security Lock (800mm)",
         "images": [
-          "/assets/img/content/products/Commercial/grab-bar/T112HK8R#NW1/content-image.png"
+          "/assets/img/content/products/Commercial/grab-bar/T112HK8R-NW1/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -74,7 +74,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/grab-bar/T112HK8R#NW1/drawing.png"
+          "/assets/img/content/products/Commercial/grab-bar/T112HK8R-NW1/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

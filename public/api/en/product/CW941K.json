@@ -43,18 +43,18 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "wall-hung-toilet"
         ],
         "description": "Elongated Wash Down Wall Hung Toilet",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/CW941K/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW941K/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "360 x 530 x 304mm",
-          "FlushingSystem": "Vitreous China",
-          "WaterConsumption": "220mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3/6L",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
@@ -77,7 +77,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/CW941K/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW941K/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

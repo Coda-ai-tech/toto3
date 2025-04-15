@@ -40,15 +40,15 @@
       "content": {
         "id": "L38V1",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "wall-hung-lavatory",
-          ""
+          "lavatory",
+          "wall-hung-lavatory"
         ],
         "description": "Wall Hung Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/L38V1/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/L38V1/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "White"
+                "#MW Matte White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/L38V1/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/L38V1/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

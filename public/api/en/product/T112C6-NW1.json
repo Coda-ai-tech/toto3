@@ -32,7 +32,7 @@
     {
       "id": null,
       "modelNumber": "T112C6#NW1",
-      "slug": "T112C6#NW1",
+      "slug": "T112C6-NW1",
       "productName": "Full Coated I-Shape Grab Bar (600mm)",
       "isNew": "false",
       "module": "ProductDetails",
@@ -48,7 +48,7 @@
         ],
         "description": "Full Coated I-Shape Grab Bar (600mm)",
         "images": [
-          "/assets/img/content/products/Commercial/grab-bar/T112C6#NW1/content-image.png"
+          "/assets/img/content/products/Commercial/grab-bar/T112C6-NW1/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -74,7 +74,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/grab-bar/T112C6#NW1/drawing.png"
+          "/assets/img/content/products/Commercial/grab-bar/T112C6-NW1/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

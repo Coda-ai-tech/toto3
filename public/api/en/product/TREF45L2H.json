@@ -43,12 +43,12 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "toilet-sensor-flush-valve"
         ],
         "description": "Concealed Type Flush Valve with Sensor for Toilet with Manual Button (Fresh Water Use)",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/TREF45L2H/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/TREF45L2H/content-image.png"
         ],
         "features": [
           "- AC Operated",
@@ -56,8 +56,8 @@
         ],
         "specs": {
           "Size": "185 x 185mm",
-          "FlushingSystem": "Metal",
-          "WaterConsumption": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "4.8L",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
@@ -90,7 +90,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/TREF45L2H/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/TREF45L2H/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

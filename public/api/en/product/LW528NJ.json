@@ -40,15 +40,15 @@
       "content": {
         "id": "LW528NJ",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "semi-recessed-lavatory",
-          ""
+          "lavatory",
+          "semi-recessed-lavatory"
         ],
         "description": "Semi Recessed Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW528NJ/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW528NJ/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "White"
+                "#MW Matte White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW528NJ/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW528NJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

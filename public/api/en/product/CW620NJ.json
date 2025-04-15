@@ -43,18 +43,18 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "wall-hung-toilet"
         ],
         "description": "Regular Wash Down Wall Hung Toilet",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/CW620NJ/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW620NJ/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "530 x 360mm",
-          "FlushingSystem": "Vitreous China",
-          "WaterConsumption": "220mm",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3L/6L",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
@@ -66,7 +66,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/CW620NJ/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW620NJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

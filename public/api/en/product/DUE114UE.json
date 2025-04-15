@@ -43,12 +43,12 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "urinal-sensor-flush-valve"
         ],
         "description": "Concealed Type Flush Valve with Sensor for Urinal (Fresh Water Use)",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/DUE114UE/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/DUE114UE/content-image.png"
         ],
         "features": [
           "- AC Operated",
@@ -56,8 +56,8 @@
         ],
         "specs": {
           "Size": "115 x 115mm",
-          "FlushingSystem": "Stainless Steel",
-          "WaterConsumption": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "1.2-1.9L",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
@@ -90,7 +90,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/DUE114UE/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/DUE114UE/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

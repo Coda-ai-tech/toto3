@@ -43,18 +43,18 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "wall-faced-toilet"
         ],
         "description": "Elongated Tornado Flush Wall Faced Toilet",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/CW275PJ/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW275PJ/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "590 x 404 x 400mm",
-          "FlushingSystem": "Vitreous China",
-          "WaterConsumption": "P-trap (Rough in: 180mm)",
+          "FlushingSystem": "Tornado Flush",
+          "WaterConsumption": "3L/4.5L",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
@@ -113,7 +113,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/CW275PJ/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW275PJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

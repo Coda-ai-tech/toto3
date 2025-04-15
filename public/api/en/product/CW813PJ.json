@@ -43,18 +43,18 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "wall-faced-toilet"
         ],
         "description": "Elongated Wash Down Wall Faced Toilet",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/CW813PJ/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW813PJ/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "380 × 595 × 400mm",
-          "FlushingSystem": "Vitreous China",
-          "WaterConsumption": "P-trap (Rough in: 180mm)",
+          "FlushingSystem": "Wash Down",
+          "WaterConsumption": "3L/4.8L",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
@@ -83,7 +83,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/CW813PJ/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW813PJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -33,22 +33,22 @@
       "id": null,
       "modelNumber": "LW240CJ + LW240HFJ",
       "slug": "LW240CJ+LW240HFJ",
-      "productName": "Wall Hung Lavatory\nwith Half Pedestal",
+      "productName": "Wall Hung Lavatory\n \n with Half Pedestal",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
         "id": "LW240CJ+LW240HFJ",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "pedestal-lavatory",
-          ""
+          "lavatory",
+          "pedestal-lavatory"
         ],
-        "description": "Wall Hung Lavatory\nwith Half Pedestal",
+        "description": "Wall Hung Lavatory\n \n with Half Pedestal",
         "images": [
-          "/assets/img/content/products/Lavatories/pedestal-lavatory/LW240CJ+LW240HFJ/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW240CJ+LW240HFJ/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "White"
+                "#MW Matte White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/pedestal-lavatory/LW240CJ+LW240HFJ/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW240CJ+LW240HFJ/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

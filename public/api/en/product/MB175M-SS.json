@@ -32,7 +32,7 @@
     {
       "id": null,
       "modelNumber": "MB175M#SS",
-      "slug": "MB175M#SS",
+      "slug": "MB175M-SS",
       "productName": "Push Button Set",
       "isNew": "false",
       "module": "ProductDetails",
@@ -43,12 +43,12 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "push-button-set-(concealed-cistern)"
         ],
         "description": "Push Button Set",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/MB175M#SS/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/MB175M-SS/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/MB175M#SS/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/MB175M-SS/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -40,15 +40,15 @@
       "content": {
         "id": "LW578J",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "console-lavatory",
-          "vitreous-china"
+          "lavatory",
+          "console-lavatory"
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/LW578J/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW578J/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "White"
+                "#MW Matte White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/LW578J/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW578J/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

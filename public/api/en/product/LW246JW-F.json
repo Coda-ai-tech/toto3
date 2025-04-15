@@ -40,19 +40,19 @@
       "content": {
         "id": "LW246JW-F",
         "category": [
-          "Lavatories"
+          "Commercial"
         ],
         "subCategory": [
-          "wall-hung-lavatory",
-          ""
+          "lavatory",
+          "wall-hung-lavatory"
         ],
         "description": "Wall Hung Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/LW246JW-F/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/LW246JW-F/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "\n450 x 305mm\n",
+          "Size": "450 x 305mm",
           "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "White"
+                "#MW Matte White"
               ]
             }
           ]
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/wall-hung-lavatory/LW246JW-F/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/LW246JW-F/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

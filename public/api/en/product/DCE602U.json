@@ -43,12 +43,12 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "toilet-sensor-flush-valve"
         ],
         "description": "Concelaed Type Flush Valve with Sensor for Toilet with Manual Button (Fresh Water Use)",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE602U/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/DCE602U/content-image.png"
         ],
         "features": [
           "- Battery Operated",
@@ -56,8 +56,8 @@
         ],
         "specs": {
           "Size": "130 x 130mm",
-          "FlushingSystem": "Metal",
-          "WaterConsumption": "",
+          "FlushingSystem": "",
+          "WaterConsumption": "4.8L",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
@@ -90,7 +90,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/DCE602U/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/DCE602U/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

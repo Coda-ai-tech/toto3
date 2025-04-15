@@ -43,18 +43,18 @@
           "Commercial"
         ],
         "subCategory": [
-          "toilet-&-urinal",
+          "toilet-and-urinal",
           "wall-hung-toilet"
         ],
         "description": "D-shape Tornado Flush Wall Hung Toilet",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/C762E/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/C762E/content-image.png"
         ],
         "features": [],
         "specs": {
           "Size": "530 x 380 x 340mm",
-          "FlushingSystem": "Vitreous China",
-          "WaterConsumption": "220mm",
+          "FlushingSystem": "Tornado Flush",
+          "WaterConsumption": "3L/4.8L",
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
@@ -113,7 +113,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-&-urinal/C762E/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/C762E/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
