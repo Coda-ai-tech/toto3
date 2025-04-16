@@ -80,13 +80,16 @@
         .filterItem {
           @apply bg-gray-light text-black py-2 px-5 leading-none rounded-full text-sm uppercase transition-colors font-medium;
 
-          &:hover,
-          &:focus-visible {
+          &:hover {
             @apply bg-primary-accent text-white;
           }
 
           &:focus-visible {
             @apply outline-white;
+          }
+
+          &.active {
+            @apply bg-primary-accent text-white;
           }
         }
       }

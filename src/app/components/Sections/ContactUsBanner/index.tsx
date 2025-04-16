@@ -4,6 +4,8 @@ import { ModuleData, SectionTitle, MediaElement, ButtonElementDefault } from '@/
 import Link from 'next/link';
 import ContactUsForm from '@@/form/ContactUs';
 import styles from './ContactUsBanner.module.scss';
+import { Button } from '@heroui/react';
+import { useCallback, useState } from 'react';
 
 const Media = dynamic(() => import('@@/Media'));
 
@@ -17,6 +19,27 @@ const ContactUsBanner = ({ order, data }: ModuleData<ContactUsBannerProps, null>
     id,
     content: { title, description, media, items },
   } = data;
+
+  const [selectedCategory, setSelectedCategory] = useState<string[]>([]);
+
+  const updateCategory = useCallback(
+    (category: string) => {
+      setSelectedCategory((prev: any) => {
+        console.log('entered update category function');
+        let currentCategories = [...prev];
+        if (currentCategories.includes(category)) {
+          currentCategories = currentCategories.filter((existing: string) => (
+            existing !== category
+          )
+          )
+          return currentCategories;
+        } else {
+          currentCategories.push(category);
+          return currentCategories
+        }
+      })
+    }, [setSelectedCategory]
+  )
 
   return (
     <section id={id ? id : `section${order}`} className={`${styles.contactUsBanner}`}>
@@ -32,10 +55,11 @@ const ContactUsBanner = ({ order, data }: ModuleData<ContactUsBannerProps, null>
             </hgroup>
             <div className={`${styles.suggestFilter}`}>
               {items.map((item, index) => {
+                const isActive = selectedCategory.includes(item.label);
                 return (
-                  <Link href={item.link.href || ''} key={index} className={`${styles.filterItem}`}>
+                  <Button key={index} className={`${styles.filterItem} ${isActive? styles.active : ''}`} onClick={() => updateCategory(item.label)}>
                     {item.label}
-                  </Link>
+                  </Button>
                 );
               })}
             </div>

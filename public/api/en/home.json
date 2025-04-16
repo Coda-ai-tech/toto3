@@ -601,7 +601,7 @@
       "module": "ContactUsBanner",
       "moduleOption": null,
       "content": {
-        "title": "Looking for Something else?",
+        "title": "Looking for help?",
         "description": "Should you not find what you seek, we invite you to utilize our comprehensive search and filtering options.",
         "media": {
           "type": "image",
@@ -618,70 +618,70 @@
             "label": "Neorest",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=neorest"
+              "href": ""
             }
           },
           {
             "label": "Washlet+",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=washlet+"
+              "href": ""
             }
           },
           {
             "label": "Washlet",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=washlet"
+              "href": ""
             }
           },
           {
             "label": "Toilets",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=Toilet"
+              "href": ""
             }
           },
           {
             "label": "Lavatories",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=Lavatories"
+              "href": ""
             }
           },
           {
             "label": "Bathtubs",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=Bathtub"
+              "href": ""
             }
           },
           {
             "label": "Faucets",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=Faucets"
+              "href": ""
             }
           },
           {
             "label": "Showers",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=Shower"
+              "href": ""
             }
           },
           {
             "label": "Accessories",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=Accessories"
+              "href": ""
             }
           },
           {
             "label": "Commercial",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=Commercial"
+              "href": ""
             }
           }
         ]
