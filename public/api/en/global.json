@@ -132,17 +132,17 @@
                 }
               },
               {
-                "label": "WASHLET",
-                "link": {
-                "type": "routeLink",
-                "href": "/en/product?category=washlet"
-                }
-              },
-              {
                 "label": "WASHLET+",
                 "link": {
                 "type": "routeLink",
                 "href": "/en/product?category=washlet+"
+                }
+              },
+              {
+                "label": "WASHLET",
+                "link": {
+                "type": "routeLink",
+                "href": "/en/product?category=washlet"
                 }
               },
               {
@@ -157,6 +157,13 @@
                 "link": {
                 "type": "routeLink",
                 "href": "/en/product?category=Lavatories"
+                }
+              },
+              {
+                "label": "BATHTUBS",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/product?category=Bathtub"
                 }
               },
               {
@@ -185,14 +192,6 @@
                 "link": {
                   "type": "routeLink",
                   "href": "/en/product?category=Commercial"
-                }
-              },
-
-              {
-                "label": "BATHTUBS",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/product?category=Bathtub"
                 }
               }
             ]
