@@ -291,31 +291,10 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'bath-and-shower-mixer-2',
+        id: 'bath-and-shower-mixer',
         label: {
           en: 'BATH & SHOWER MIXER',
           zh: 'BATH & SHOWER MIXER',
-        },
-      },
-      {
-        id: 'thermostatic-shower-mixer',
-        label: {
-          en: 'THERMOSTATIC MIXER',
-          zh: 'THERMOSTATIC MIXER',
-        },
-      },
-      {
-        id: 'concealed-bath-and-shower-mixer',
-        label: {
-          en: 'CONCEALED BATH & SHOWER MIXER',
-          zh: 'CONCEALED BATH & SHOWER MIXER',
-        },
-      },
-      {
-        id: 'thermostatic-bath-and-shower-mixer',
-        label: {
-          en: 'THERMOSTATIC BATH & SHOWER MIXER',
-          zh: 'THERMOSTATIC BATH & SHOWER MIXER',
         },
       },
       {
