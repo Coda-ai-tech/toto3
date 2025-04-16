@@ -648,6 +648,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   const [displayItems, setDisplayItems] = useState<ProductItem[]>();
   const [isShowSubCategories, setShowSubCategories] = useState<any>([]);
   const [selectedProducts, setSelectedProducts] = useState<ProductItem[]>();
+  const [initialized, setInitialized] = useState(false);
 
   const fetchData = async () => {
     setProducts(productData.data);
@@ -787,7 +788,6 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     const filteredProducts = products.filter((product) => {
       return selectedCategory.some((selectedCategory: any) => {
         const { cid, sub } = selectedCategory;
-        console.log("cid: " + cid + ", sub: " + sub);
 
         if (sub === null || sub.length < 1) {
           return product.category.includes(cid);
@@ -874,6 +874,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   }, [page]);
 
   useEffect(() => {
+    if (!initialized) return;
     const currentParams = new URLSearchParams(window.location.search);
 
     const currentCategory = currentParams.get('category');
@@ -901,6 +902,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   }, [selectedCategory, keyword, page]);
 
   useEffect(() => {
+    console.log('entered use effect for setting params to filter');
     const params = new URLSearchParams(window.location.search);
     const encoded = params.get('category');
     const keyword = params.get('keyword');
@@ -930,6 +932,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
       setKeyword(keyword);
     }
     setPage(page);
+    setInitialized(true);
   }, []);
 
   return (
