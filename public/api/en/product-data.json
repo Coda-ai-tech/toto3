@@ -5415,21 +5415,6 @@
       }
     },
     {
-      "id": "PAYK1760ZL/RHPE",
-      "name": "Acrylic Whirlpool Non-Apron Bathtub with Pillow\n(with chrome plated handgrips)",
-      "category": [
-        "Bathtub"
-      ],
-      "subCategory": [
-        "non-apron-bathtub"
-      ],
-      "thumb": "/assets/img/content/products/Bathtub/non-apron-bathtub/PAYK1760ZL-RHPE/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/PAYK1760ZL-RHPE"
-      }
-    },
-    {
       "id": "PAYK1760ZL/RPE",
       "name": "Acrylic Whirlpool Non-Apron Bathtub with Pillow\r\n(without handgrips)",
       "category": [
@@ -5442,36 +5427,6 @@
       "link": {
         "type": "routeLink",
         "href": "/en/product/PAYK1760ZL-RPE"
-      }
-    },
-    {
-      "id": "PAYK1560ZL/RHPE",
-      "name": "Acrylic Whirlpool Non-Apron Bathtub with Pillow\r\n(with chrome plated handgrips)",
-      "category": [
-        "Bathtub"
-      ],
-      "subCategory": [
-        "non-apron-bathtub"
-      ],
-      "thumb": "/assets/img/content/products/Bathtub/non-apron-bathtub/PAYK1560ZL-RHPE/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/PAYK1560ZL-RHPE"
-      }
-    },
-    {
-      "id": "PAYK1560ZL/RPE",
-      "name": "Acrylic Whirlpool Non-Apron Bathtub with Pillow\r\n(without handgrips)",
-      "category": [
-        "Bathtub"
-      ],
-      "subCategory": [
-        "non-apron-bathtub"
-      ],
-      "thumb": "/assets/img/content/products/Bathtub/non-apron-bathtub/PAYK1560ZL-RPE/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/PAYK1560ZL-RPE"
       }
     },
     {
