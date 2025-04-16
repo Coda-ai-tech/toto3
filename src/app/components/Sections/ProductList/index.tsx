@@ -807,7 +807,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
 
     const filteredProducts = products.filter((product) => {
       return selectedCategory.some((selectedCategory: any) => {
-        const {cid, sub} = selectedCategory;
+        const { cid, sub } = selectedCategory;
         console.log("cid: " + cid + ", sub: " + sub);
 
         if (sub === null || sub.length < 1) {
@@ -916,7 +916,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     const newUrl = `?${queryParams.toString()}`;
     const currentUrl = `?${currentParams.toString()}`;
 
-    if (newUrl !== currentUrl){
+    if (newUrl !== currentUrl) {
       router.push(newUrl);
     }
   }, [selectedCategory, keyword, page]);
@@ -944,7 +944,12 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
       }
     }
 
-    if (keyword) setKeyword(keyword);
+    if (keyword) {
+      if (searchInput.current) {
+        searchInput.current.value = keyword.toString();
+      }
+      setKeyword(keyword);
+    }
     setPage(page);
   }, []);
 
@@ -1161,13 +1166,13 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
                       className={styles.paginationButton}
                     > &lt;&lt; </button>
                     {Array.from({ length: totalPage }).map((_, index) => {
-                      if (index > page && index > page + 1 ) {
+                      if (index > page && index > page + 1) {
                         return null;
                       } else if (index < page && index < page - 3) {
                         return null;
                       }
-                      if (index + 1 === page){
-                        return(
+                      if (index + 1 === page) {
+                        return (
                           <div key={index} className={styles.currentPage}>{page}</div>
                         )
                       }
