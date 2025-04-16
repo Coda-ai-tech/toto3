@@ -160,79 +160,82 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
                               </div>
                             )}
 
-                            <ul className={`${styles.subNavColumWrap}`}>
-                              {content[currentSub].sub?.map((item: any, sIndex: number) => {
-                                const columnCount = Math.ceil(item?.items.length / 5);
-                                return (
 
+                            {content[currentSub].sub?.map((item: any, sIndex: number) => {
+                              const columnCount = Math.ceil(item?.items.length / 5);
+                              return (
+                                <div className={styles.navColumn} key={sIndex}>
+                                  <div className={`${styles.navColumTitle}`}>{item.title}</div>
+                                  <ul className={`${styles.subNavColumWrap}`}>
+                                    {
+                                      item?.items.length > 7 ?
+                                        (
+                                          Array.from({ length: columnCount }).map((_, colIndex: number): React.ReactNode => {
+                                            const itemsPerColumn = Math.ceil(item.items.length / columnCount);
+                                            const startIndex = colIndex * itemsPerColumn;
+                                            const endIndex = Math.min(startIndex + itemsPerColumn, item.items.length);
+                                            const columnItems = item.items.slice(startIndex, endIndex);
 
-                                  item?.items.length > 7 ?
-                                    (
-                                      Array.from({ length: columnCount }).map((_, colIndex: number): React.ReactNode => {
-                                        const itemsPerColumn = Math.ceil(item.items.length / columnCount);
-                                        const startIndex = colIndex * itemsPerColumn;
-                                        const endIndex = Math.min(startIndex + itemsPerColumn, item.items.length);
-                                        const columnItems = item.items.slice(startIndex, endIndex);
+                                            return (
+                                              <div key={`column-${colIndex}`} className={`${styles.subNavColum}`}>
 
-                                        return (
-                                          <div key={`column-${colIndex}`} className={`${styles.subNavColum}`}>
-                                            <div className={`${styles.navColumTitle}`}>{item.title}</div>
-                                            <div className={`${styles.navColumList}`}>
-                                              <div className={styles.subNavColum}>
-                                                <ul className={styles.multiColum}>
-                                                  {columnItems.map((subItem: ButtonElementDefault, snIndex: number) => (
-                                                    <li key={`item-${snIndex}`}>
-                                                      <Button
-                                                        content={{ ...subItem, variant: ButtonVariation.default }}
-                                                        className={styles.subNavItem}
-                                                      />
-                                                    </li>
-                                                  ))}
-                                                </ul>
+                                                <div className={`${styles.navColumList}`}>
+                                                  <div className={styles.subNavColum}>
+                                                    <ul className={styles.multiColum}>
+                                                      {columnItems.map((subItem: ButtonElementDefault, snIndex: number) => (
+                                                        <li key={`item-${snIndex}`}>
+                                                          <Button
+                                                            content={{ ...subItem, variant: ButtonVariation.default }}
+                                                            className={styles.subNavItem}
+                                                          />
+                                                        </li>
+                                                      ))}
+                                                    </ul>
+                                                  </div>
+                                                </div>
                                               </div>
-                                            </div>
-                                          </div>
 
-                                        );
-                                      })
-                                    )
-                                    :
-                                    <div key={sIndex} className={`${styles.subNavColum}`}>
-                                      <div className={`${styles.navColumTitle}`}>{item.title}</div>
-                                      <div className={`${styles.navColumList}`}></div>
-                                      <ul
-                                        className={styles.singleColum}
-                                      >
-                                        {item?.items.map((subItem: ButtonElementDefault, snIndex: number) => {
-                                          return (
-                                            <li key={snIndex}>
-                                              <Button
-                                                content={{ ...subItem, variant: ButtonVariation.default }}
-                                                className={`${styles.subNavItem}`}
-                                              />
-                                            </li>
-                                          );
-                                        })}
-                                      </ul>
-                                    </div>
-                                  /* <ul
-                                                className={`${item?.items.length > 7 ? styles.multiColum : styles.singleColum}`}
-                                              >
-                                                {item?.items.map((subItem: ButtonElementDefault, snIndex: number) => {
-                                                  return (
-                                                    <li key={snIndex}>
-                                                      <Button
-                                                        content={{ ...subItem, variant: ButtonVariation.default }}
-                                                        className={`${styles.subNavItem}`}
-                                                      />
-                                                    </li>
-                                                  );
-                                                })}
-                                              </ul> */
+                                            );
+                                          })
+                                        )
+                                        :
+                                        <div key={sIndex} className={`${styles.subNavColum}`}>
+                                          <div className={`${styles.navColumList}`}></div>
+                                          <ul
+                                            className={styles.singleColum}
+                                          >
+                                            {item?.items.map((subItem: ButtonElementDefault, snIndex: number) => {
+                                              return (
+                                                <li key={snIndex}>
+                                                  <Button
+                                                    content={{ ...subItem, variant: ButtonVariation.default }}
+                                                    className={`${styles.subNavItem}`}
+                                                  />
+                                                </li>
+                                              );
+                                            })}
+                                          </ul>
+                                        </div>
+                                      /* <ul
+                                          className={`${item?.items.length > 7 ? styles.multiColum : styles.singleColum}`}
+                                        >
+                                          {item?.items.map((subItem: ButtonElementDefault, snIndex: number) => {
+                                            return (
+                                              <li key={snIndex}>
+                                                <Button
+                                                  content={{ ...subItem, variant: ButtonVariation.default }}
+                                                  className={`${styles.subNavItem}`}
+                                                />
+                                              </li>
+                                            );
+                                          })}
+                                        </ul> */
+                                    }
+                                  </ul>
+                                </div>
+                              );
+                            })}
 
-                                );
-                              })}
-                            </ul>
                           </div>
 
                           <button className={styles.subNavClose} onClick={() => closeNavigation()} aria-label='Close'>
