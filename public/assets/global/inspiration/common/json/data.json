@@ -5,6 +5,8 @@
     "category_name": "Resort",
     "cate_id": "3",
     "vr": true,
+    "comment": "This vr house should be house03/p1",
+    "vr_house_id": "p1",
     "description": "You can see the rock-faced walls as if they were connected directly to the spectacular view outside the window. The glossy white porcelain emerges and shines in a space organized with natural materials of gray rock tiles and slates. The soft shadows created by the floating layout and downlights elevates extraordinary experiences, offering a supreme resort space."
   },
   {
@@ -29,6 +31,8 @@
     "category_name": "Urban",
     "cate_id": "4",
     "vr": true,
+    "comment": "This vr house should be house02/p1",
+    "vr_house_id": "p1",
     "description": "This is a luxurious hotel bathroom made using a variety of different materials, and designed with an ivory tone. Indirect lighting installed in the gold gilded ceiling sheds gentle light on the bathroom. The faucets and curves of the toilet are decorated with nickel, with their gentle luster creating graceful harmony inside the room. The room offers ultimate relaxation, while peering down on the evening cityscape."
   },
   {
@@ -37,6 +41,8 @@
     "category_name": "Urban",
     "cate_id": "4",
     "vr": true,
+    "comment": "This vr house should be house02/p2",
+    "vr_house_id": "p2",
     "description": "This is a soothing bathroom encased in glass as if blending into the view of the skyscrapers. A touch of sharpness is added to the interior, in a greyish tone with wooden accents, by the black faucets and curves of the toilet. The overall color coordination testifies to the high sense of aesthetics. This bathroom offers a space of utmost luxury for adults with refined tastes who will enjoy looking out across the metropolis nightscape as if the entire city belonged to them."
   },
   {
@@ -45,6 +51,8 @@
     "category_name": "Suburban",
     "cate_id": "5",
     "vr": true,
+    "comment": "This vr house should be house02/p3",
+    "vr_house_id": "p3",
     "description": "Shimmering light and shadows filter through the treetops filling this immaculate white-toned bathroom. It offers a soothing space for spending a quiet afternoon as if enveloped in a cocoon. The counter with flowing wood grains and brushstrokes visible on the painted walls provide a comfortable space, with large vertically aligned tiles creating just the right amount of sharpness."
   },
   {
@@ -80,6 +88,7 @@
     "category_name": "Urban",
     "cate_id": "4",
     "vr": true,
+    "vr_house_id": "p1",
     "description": "This breathtaking bath space is characterized by floor-to-ceiling windows from which you can drink in the beauty of the city lights at night. The white marble floor and wall tiles are accented by the brilliant Polished Nickel, high-design faucets, pendant lighting, and the stylish toilet that is characterized by precise angles and crisp edges for a timelessly elegant aesthetic that enhances the space. Soft indirect lighting illuminates the shower and tub area. You can enjoy a relaxing bath while enjoying the commanding view. This bath space affords you the opportunity to enjoy a luxuriate in this high-design space as you monopolize the night view of the glittering city that spreads out before you."
   },
   {
@@ -88,6 +97,7 @@
     "category_name": "Resort",
     "cate_id": "3",
     "vr": true,
+    "vr_house_id": "p2",
     "description": "This bathroom offers a beautiful contrast between the glossy travertine wall tiles and the faux finish ceiling. With round Chrystal chandeliers, oval washbasins, and a toilet with a clean, modern aesthetic and beautiful detailing, you feel the self of softness throughout the entire space. In addition, Brushed Bronze faucets add an inviting sense of warmth to the entire space. The sea's majesty may be enjoyed while relaxing in the bath, enjoying the refreshing sea breeze coming in from the window. This bath environment is a part of a private resort where you can refresh your body and soul."
   },
   {
@@ -96,6 +106,7 @@
     "category_name": "Suburban",
     "cate_id": "5",
     "vr": true,
+    "vr_house_id": "p3",
     "description": "This bathroom is accented by dark wood furniture in an intimate space featuring a large gray speckled design wall and floor tiles. You can enjoy an invigorating showering experience enhanced by the natural light streaming in through the skylight. A small washbasin is installed in front of the toilet, and the toilet, washbasin, and shower space are separated by black-edged glass panels, so you can use it cleanly and comfortably at any time. In this bijou bathroom filled with dark green and natural light, you can feel a relaxing time with nature."
   },
   {
@@ -104,6 +115,7 @@
     "category_name": "Urban",
     "cate_id": "4",
     "vr": true,
+    "vr_house_id": "p4",
     "description": "This beautiful bathroom is tiled from floor to ceiling in a mosaic of blue penny roll tiles. Light oak cabinets and Brushed French Gold faucets add color to the space and complement the tiles beautifully. Although compact, this space’s simple, organic design bathroom fixtures offer exceptional functionality while making the best use of the available space. Natural light streams in through the narrow vertical windows, creating a relaxing space with its hanging plants. This beautiful small bathroom offers you a calm, relaxing environment in which to ready yourself for the day’s events."
   },
   {

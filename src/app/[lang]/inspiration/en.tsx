@@ -9,7 +9,8 @@ export interface InspirationItem {
   name: string;
   category_name: string;
   cate_id: string;
-  vr: boolean;
+  vr?: boolean;
+  vr_house_id?: 'p1' | 'p2' | 'p3' | 'p4';
   space_name?: string;
   primary?: number;
   description?: string;
