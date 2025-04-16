@@ -448,7 +448,7 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'others',
+        id: 'acc-others',
         label: {
           en: 'OTHERS',
           zh: 'OTHERS',
