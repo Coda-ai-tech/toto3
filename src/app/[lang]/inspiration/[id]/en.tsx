@@ -217,8 +217,10 @@ const InspirationDetail = () => {
 
                 {detail.vr && (
                   <div className={styles.vrButton}>
-                    <a href="#" className={styles.vrLink}>
-                      GO TO VR SPACE
+                    <a
+                      href={`/en/vr-experience/${detail.vr_house_id}`}
+                      className={styles.vrLink}>
+                      GO TO 3D SPACE
                     </a>
                   </div>
                 )}
