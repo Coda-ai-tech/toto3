@@ -9,7 +9,7 @@ import fs from 'fs';
 import path from 'path';
 
 // Read data directly from the JSON file instead of API
-export const fetchInspirationItem = async (id: string) => {
+async function fetchInspirationItem(id: string) {
   try {
     // Get the absolute path to the JSON file
     const jsonPath = path.join(process.cwd(), 'public', 'assets', 'global', 'inspiration', 'common', 'json', 'data.json');
