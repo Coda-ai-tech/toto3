@@ -376,7 +376,7 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'shower-others',
+        id: 'others',
         label: {
           en: 'OTHERS',
           zh: 'OTHERS',
@@ -448,7 +448,7 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'acc-others',
+        id: 'others',
         label: {
           en: 'OTHERS',
           zh: 'OTHERS',
@@ -605,7 +605,7 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'c-others',
+        id: 'others',
         label: {
           en: 'OTHERS',
           zh: 'OTHERS',
@@ -801,21 +801,25 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
 
     const isAllSelected = selectedCategory.length === 1 && selectedCategory[0].cid === 'all';
     if (isAllSelected) {
+      console.log('Showing products: ' + products.length);
       return products;
     }
 
     const filteredProducts = products.filter((product) => {
       return selectedCategory.some((selectedCategory: any) => {
-        if (selectedCategory.sub === null || selectedCategory.sub.length < 1) {
-          return product.category.includes(selectedCategory.cid);
+        const {cid, sub} = selectedCategory;
+        console.log("cid: " + cid + ", sub: " + sub);
+
+        if (sub === null || sub.length < 1) {
+          return product.category.includes(cid);
         } else {
-          return selectedCategory.sub.some(
-            (sub: string) => product.subCategory?.includes(sub)
-          );
+          return (
+            product.category.includes(cid) && sub.some((scid: string) => product.subCategory?.includes(scid))
+          )
         }
       });
     });
-
+    console.log('Showing products: ' + filteredProducts.length);
     return filteredProducts;
   }, [products, selectedCategory]);
 
