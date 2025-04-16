@@ -218,7 +218,10 @@
   }
   
   @media (max-width: 768px) {
-    margin-top: 10px;
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: column; // Stack items vertically
+    align-items: center; // Center horizontally
     justify-content: center;
   }
 }
@@ -237,14 +240,19 @@
       opacity: 0.7;
     }
   }
+  
+  @media (max-width: 768px) {
+    margin-bottom: 15px; // Add spacing between counter and button
+  }
 }
 
 .vrButton {
   margin-left: 15px;
   
   @media (max-width: 768px) {
-    margin-top: 10px;
     margin-left: 0;
+    width: 100%; // Full width on mobile
+    text-align: center; // Center the button
   }
 }
 
@@ -260,6 +268,11 @@
   
   &:hover {
     background-color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    display: inline-block;
+    min-width: 160px; // Set minimum width for the button
   }
 }
 
