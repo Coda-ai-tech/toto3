@@ -28,10 +28,10 @@ export const TechnologyListItem = ({ data }: { data: TechnologyItemData }) => {
         <div className={`${styles.techEntryInfo}`}>
           <div className={`${styles.techTitleWrap}`}>
             <div className={`${styles.techIcon}`}>
-              {data.icon ?
+              {data.icon && !icoError ?
                 <div className={`${styles.techIconInner}`}>
                   <Image
-                    src={!icoError ? data.icon : '/assets/img/content/technology/ico-fallback.png'}
+                    src={data.icon}
                     width={100}
                     height={100}
                     alt={data.title}
