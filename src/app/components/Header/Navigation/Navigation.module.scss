@@ -89,6 +89,15 @@
 
 .subWrapInner {
   @apply flex gap-8 w-full justify-start;
+
+  > div {
+    @apply relative;
+
+    &:not(:last-child)::after {
+      content: '';
+      @apply absolute top-0 right-[-1rem] h-full w-px bg-[#e5e5e5];
+    }
+  }
 }
 
 .subNavColumWrap {
@@ -99,8 +108,13 @@
   }
 }
 
+.navColumTitle {
+  @apply font-bold mb-4;
+}
+
 .subNavColum {
   @apply relative;
+  padding: 0 4px;
 
 
   &:not(:last-child) {
@@ -108,10 +122,6 @@
       content: '';
       @apply absolute right-[-1rem] top-0 h-full w-[1px] bg-[#e5e5e5];
     }
-  }
-
-  .navColumTitle {
-    @apply font-bold mb-4;
   }
 
   .navColumList {

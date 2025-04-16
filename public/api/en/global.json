@@ -208,18 +208,6 @@
         "highlight": null,
         "sub": [
           {
-            "title": "ALL",
-            "items": [
-              {
-                "label": "ALL TECHNOLOGIES",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/technology"
-                }
-              }
-            ]
-          },
-          {
             "title": "TOILETS",
             "items": [
               {
