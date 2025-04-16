@@ -206,6 +206,12 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                                         colorChipFolder = 'for_fittings';
                                       } else if (key.toLowerCase() === 'forbathtub') {
                                         colorChipFolder = 'for_bathtub';
+                                      } else if (key.toLowerCase() === 'forgrabbar') {
+                                        colorChipFolder = 'for_grabbar';
+                                      } else if (key.toLowerCase() === 'forlavatory') {
+                                        colorChipFolder = 'for_lavatory';
+                                      } else if (key.toLowerCase() === 'forpushbutton') {
+                                        colorChipFolder = 'for_push_button';
                                       }
                                       return values.map((value, index) => (
                                         <div key={index} className={styles.colorRow}>
