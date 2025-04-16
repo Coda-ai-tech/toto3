@@ -102,6 +102,7 @@
 .subNavColum {
   @apply relative;
 
+
   &:not(:last-child) {
     &::after {
       content: '';
@@ -119,25 +120,35 @@
     ul {
       @apply flex flex-wrap gap-y-1;
 
+      // &.multiColum {
+      //   @apply flex-row relative;
+
+      //   &::before {
+      //     content: '';
+      //     @apply absolute left-[50%] top-0 h-full w-[1px] bg-[#e5e5e5] -translate-x-[1px];
+      //   }
+
+      //   li {
+      //     @apply w-1/2;
+
+      //     &:nth-child(odd) {
+      //       @apply pr-5;
+      //     }
+
+      //     &:nth-child(even) {
+      //       @apply pl-6;
+      //     }
+      //   }
+      // }
+
       &.multiColum {
-        @apply flex-row relative;
-
-        &::before {
-          content: '';
-          @apply absolute left-[50%] top-0 h-full w-[1px] bg-[#e5e5e5] -translate-x-[1px];
-        }
-
-        li {
-          @apply w-1/2;
-
-          &:nth-child(odd) {
-            @apply pr-5;
-          }
-
-          &:nth-child(even) {
-            @apply pl-6;
-          }
-        }
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        row-gap: 8px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex-direction: column !important;
       }
 
       &.singleColum {

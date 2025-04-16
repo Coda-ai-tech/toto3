@@ -41,9 +41,8 @@ const AnimateChangeInHeight: React.FC<AnimateChangeInHeightProps> = ({ children,
 
   return (
     <motion.div
-      className={`${styles.subNav} overflow-hidden ${isNavShow ? styles.subNavActive : ''} ${
-        className ? className : ''
-      }`}
+      className={`${styles.subNav} overflow-hidden ${isNavShow ? styles.subNavActive : ''} ${className ? className : ''
+        }`}
       style={{ height }}
       animate={{ height }}
       transition={{ duration: 0.3 }}
@@ -88,9 +87,8 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
 
   return (
     <nav
-      className={`${styles.nav} ${isNavOverlay ? styles.overlay : ''} ${isNavShow ? styles.forceDark : ''} ${
-        isTop ? '' : styles.forceDark
-      }`}
+      className={`${styles.nav} ${isNavOverlay ? styles.overlay : ''} ${isNavShow ? styles.forceDark : ''} ${isTop ? '' : styles.forceDark
+        }`}
     >
       <div className={styles.mainNav}>
         <div className={styles.mainNavInner}>
@@ -133,9 +131,8 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
                                 )}
 
                                 <div
-                                  className={`${styles.highlightContent} ${
-                                    content[currentSub]?.highlight?.description ? styles.hasDesc : ''
-                                  }`}
+                                  className={`${styles.highlightContent} ${content[currentSub]?.highlight?.description ? styles.hasDesc : ''
+                                    }`}
                                 >
                                   {content[currentSub]?.highlight?.title && (
                                     <div className={`${styles.highlightTitle}`}>
@@ -165,12 +162,46 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
 
                             <ul className={`${styles.subNavColumWrap}`}>
                               {content[currentSub].sub?.map((item: any, sIndex: number) => {
+                                const columnCount = Math.ceil(item?.items.length / 5);
                                 return (
-                                  <div key={sIndex} className={`${styles.subNavColum}`}>
-                                    <div className={`${styles.navColumTitle}`}>{item.title}</div>
-                                    <div className={`${styles.navColumList}`}>
+
+
+                                  item?.items.length > 7 ?
+                                    (
+                                      Array.from({ length: columnCount }).map((_, colIndex: number): React.ReactNode => {
+                                        const itemsPerColumn = Math.ceil(item.items.length / columnCount);
+                                        const startIndex = colIndex * itemsPerColumn;
+                                        const endIndex = Math.min(startIndex + itemsPerColumn, item.items.length);
+                                        const columnItems = item.items.slice(startIndex, endIndex);
+
+                                        return (
+                                          <div key={`column-${colIndex}`} className={`${styles.subNavColum}`}>
+                                            <div className={`${styles.navColumTitle}`}>{item.title}</div>
+                                            <div className={`${styles.navColumList}`}>
+                                              <div className={styles.subNavColum}>
+                                                <ul className={styles.multiColum}>
+                                                  {columnItems.map((subItem: ButtonElementDefault, snIndex: number) => (
+                                                    <li key={`item-${snIndex}`}>
+                                                      <Button
+                                                        content={{ ...subItem, variant: ButtonVariation.default }}
+                                                        className={styles.subNavItem}
+                                                      />
+                                                    </li>
+                                                  ))}
+                                                </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                        );
+                                      })
+                                    )
+                                    :
+                                    <div key={sIndex} className={`${styles.subNavColum}`}>
+                                      <div className={`${styles.navColumTitle}`}>{item.title}</div>
+                                      <div className={`${styles.navColumList}`}></div>
                                       <ul
-                                        className={`${item?.items.length > 7 ? styles.multiColum : styles.singleColum}`}
+                                        className={styles.singleColum}
                                       >
                                         {item?.items.map((subItem: ButtonElementDefault, snIndex: number) => {
                                           return (
@@ -184,7 +215,21 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
                                         })}
                                       </ul>
                                     </div>
-                                  </div>
+                                  /* <ul
+                                                className={`${item?.items.length > 7 ? styles.multiColum : styles.singleColum}`}
+                                              >
+                                                {item?.items.map((subItem: ButtonElementDefault, snIndex: number) => {
+                                                  return (
+                                                    <li key={snIndex}>
+                                                      <Button
+                                                        content={{ ...subItem, variant: ButtonVariation.default }}
+                                                        className={`${styles.subNavItem}`}
+                                                      />
+                                                    </li>
+                                                  );
+                                                })}
+                                              </ul> */
+
                                 );
                               })}
                             </ul>
@@ -219,8 +264,8 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
               }
             })}
         </div>
-      </div>
-    </nav>
+      </div >
+    </nav >
   );
 };
 
