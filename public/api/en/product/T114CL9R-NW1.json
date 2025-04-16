@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "T114CL9R#NW1",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "PRODUCT",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product"
+      }
+    },
+    {
+      "label": "T114CL9R#NW1",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/T114L9R#NW1"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "modelNumber": "T114CL9R#NW1",
+      "slug": "T114CL9R#NW1",
+      "productName": "Half-coated  L-Shape Grab Bar (700 x 700mm)",
+      "isNew": "false",
+      "module": "ProductDetails",
+      "moduleOption": null,
+      "content": {
+        "id": "T114CL9R#NW1",
+        "category": [
+          "Commercial"
+        ],
+        "subCategory": [
+          "grab-bar",
+          ""
+        ],
+        "description": "Half-coated  L-Shape Grab Bar (700 x 700mm)",
+        "images": [
+          "/assets/img/content/products/Commercial/grab-bar/T114CL9R-NW1/content-image.png"
+        ],
+        "features": [],
+        "specs": {
+          "Size": "700 x 700mm",
+          "FlushingSystem": "",
+          "WaterConsumption": "",
+          "TrapType": "",
+          "WaterPressure": "",
+          "PowerRating": "",
+          "Material": [],
+          "Colour": [
+            {
+              "ForGrabbar": [
+                "#NW1 White (Resin Combo)",
+                "#MLA Mill Beige (Resin Combo)",
+                "#MWA Dull Brown (Resin Combo)"
+              ]
+            }
+          ]
+        },
+        "awardImages": [],
+        "technologies": [],
+        "downloads": [
+          "/assets/img/content/products/Commercial/grab-bar/T114CL9R-NW1/drawing.png"
+        ],
+        "videos": [],
+        "relatedProduct": [],
+        "compatibleProduct": [],
+        "remarks": ""
+      }
+    }
+  ]
+}

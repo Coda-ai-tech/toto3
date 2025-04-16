@@ -43,12 +43,12 @@
           "Shower"
         ],
         "subCategory": [
-          "fixed-shower-head-",
+          "fixed-shower-head",
           "ceiling-type"
         ],
         "description": "Fixed Shower Head (Ceiling type)",
         "images": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/TBW08003H1/content-image.png"
+          "/assets/img/content/products/Shower/fixed-shower-head/TBW08003H1/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -96,7 +96,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/TBW08003H1/drawing.png"
+          "/assets/img/content/products/Shower/fixed-shower-head/TBW08003H1/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

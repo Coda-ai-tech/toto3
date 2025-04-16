@@ -43,12 +43,12 @@
           "Shower"
         ],
         "subCategory": [
-          "fixed-shower-head-",
+          "fixed-shower-head",
           "ceiling-type"
         ],
         "description": "Fixed Shower Head (Ceiling type)",
         "images": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/TX491SN/content-image.png"
+          "/assets/img/content/products/Shower/fixed-shower-head/TX491SN/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -72,7 +72,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/TX491SN/drawing.png"
+          "/assets/img/content/products/Shower/fixed-shower-head/TX491SN/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

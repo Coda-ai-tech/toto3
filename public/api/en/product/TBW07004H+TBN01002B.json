@@ -43,12 +43,12 @@
           "Shower"
         ],
         "subCategory": [
-          "fixed-shower-head-",
+          "fixed-shower-head",
           "wall-type"
         ],
         "description": "Fixed Shower Head (Wall Type)",
         "images": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/TBW07004H+TBN01002B/content-image.png"
+          "/assets/img/content/products/Shower/fixed-shower-head/TBW07004H+TBN01002B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -106,7 +106,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Shower/fixed-shower-head-/TBW07004H+TBN01002B/drawing.png"
+          "/assets/img/content/products/Shower/fixed-shower-head/TBW07004H+TBN01002B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

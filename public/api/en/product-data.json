@@ -5063,7 +5063,7 @@
       "subCategory": [
         "toilet-sensor-flush-valve"
       ],
-      "thumb": "/assets/img/content/products/toilets/toilet-sensor-flush-valve/DCE605U/content-image.png",
+      "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE605U/content-image.png",
       "link": {
         "type": "routeLink",
         "href": "/en/product/DCE605U"
@@ -5078,7 +5078,7 @@
       "subCategory": [
         "toilet-sensor-flush-valve"
       ],
-      "thumb": "/assets/img/content/products/toilets/toilet-sensor-flush-valve/DCE602U/content-image.png",
+      "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE602U/content-image.png",
       "link": {
         "type": "routeLink",
         "href": "/en/product/DCE602U"
@@ -5093,7 +5093,7 @@
       "subCategory": [
         "toilet-sensor-flush-valve"
       ],
-      "thumb": "/assets/img/content/products/toilets/toilet-sensor-flush-valve/DCE605UE/content-image.png",
+      "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE605UE/content-image.png",
       "link": {
         "type": "routeLink",
         "href": "/en/product/DCE605UE"
@@ -5108,7 +5108,7 @@
       "subCategory": [
         "toilet-sensor-flush-valve"
       ],
-      "thumb": "/assets/img/content/products/toilets/toilet-sensor-flush/DCE605V3+DUE129UKV3/content-image.png",
+      "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE605V3+DUE129UKV3/content-image.png",
       "link": {
         "type": "routeLink",
         "href": "/en/product/DCE605V3+DUE129UKV3"
@@ -5416,7 +5416,7 @@
     },
     {
       "id": "PAYK1760ZL/RHPE",
-      "name": "Acrylic Whirlpool Non-Apron Bathtub with Pillow\r\n(without handgrips)",
+      "name": "Acrylic Whirlpool Non-Apron Bathtub with Pillow\n(with chrome plated handgrips)",
       "category": [
         "Bathtub"
       ],
@@ -8731,7 +8731,7 @@
       }
     },
     {
-      "id": "TBW01005B +TBN01002B",
+      "id": "TBW01005B+TBN01002B",
       "name": "Fixed Shower Head with valve unit (Wall Type)",
       "category": [
         "Shower"
@@ -8740,10 +8740,10 @@
         "fixed-shower-head",
         "wall-type"
       ],
-      "thumb": "/assets/img/content/products/Shower/fixed-shower-head/TBW01005B +TBN01002B/content-image.png",
+      "thumb": "/assets/img/content/products/Shower/fixed-shower-head/TBW01005B+TBN01002B/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/TBW01005B +TBN01002B"
+        "href": "/en/product/TBW01005B+TBN01002B"
       }
     },
     {
@@ -9179,7 +9179,7 @@
       ],
       "subCategory": [
         "others",
-        "shower-elbow"
+        "shower-others"
       ],
       "thumb": "/assets/img/content/products/Shower/others/TBW08009A/content-image.png",
       "link": {
@@ -9195,7 +9195,7 @@
       ],
       "subCategory": [
         "others",
-        "shower-elbow"
+        "shower-others"
       ],
       "thumb": "/assets/img/content/products/Shower/others/TBW07020A/content-image.png",
       "link": {
@@ -9211,7 +9211,7 @@
       ],
       "subCategory": [
         "others",
-        "shower-elbow"
+        "shower-others"
       ],
       "thumb": "/assets/img/content/products/Shower/others/TBW08010A/content-image.png",
       "link": {
@@ -9227,7 +9227,7 @@
       ],
       "subCategory": [
         "others",
-        "shower-elbow"
+        "shower-others"
       ],
       "thumb": "/assets/img/content/products/Shower/others/TBW07021A/content-image.png",
       "link": {
@@ -9243,7 +9243,7 @@
       ],
       "subCategory": [
         "others",
-        "wall-outlet"
+        "shower-others"
       ],
       "thumb": "/assets/img/content/products/Shower/others/TBW01014B/content-image.png",
       "link": {
@@ -9259,7 +9259,7 @@
       ],
       "subCategory": [
         "others",
-        "wall-outlet"
+        "shower-others"
       ],
       "thumb": "/assets/img/content/products/Shower/others/TBW02013B/content-image.png",
       "link": {
@@ -9275,7 +9275,7 @@
       ],
       "subCategory": [
         "others",
-        "body-shower"
+        "shower-others"
       ],
       "thumb": "/assets/img/content/products/Shower/others/TBW08008A/content-image.png",
       "link": {
@@ -9291,7 +9291,7 @@
       ],
       "subCategory": [
         "others",
-        "body-shower"
+        "shower-others"
       ],
       "thumb": "/assets/img/content/products/Shower/others/TBW07017A/content-image.png",
       "link": {
@@ -10572,7 +10572,7 @@
         "toilet-and-urinal",
         "c-toilet-sensor-flush-valve"
       ],
-      "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE602UE/content-image.png",
+      "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE602U/content-image.png",
       "link": {
         "type": "routeLink",
         "href": "/en/product/DCE602UE"
@@ -10668,7 +10668,7 @@
         "toilet-and-urinal",
         "c-toilet-sensor-flush-valve"
       ],
-      "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE605UV4/content-image.png",
+      "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE602U/content-image.png",
       "link": {
         "type": "routeLink",
         "href": "/en/product/DCE605UV4"
@@ -13014,7 +13014,7 @@
       }
     },
     {
-      "id": "T114L9R#NW1",
+      "id": "T114CL9R#NW1",
       "name": "Half-coated  L-Shape Grab Bar (700 x 700mm)",
       "category": [
         "Commercial"
@@ -13022,10 +13022,10 @@
       "subCategory": [
         "grab-bar"
       ],
-      "thumb": "/assets/img/content/products/Commercial/grab-bar/T114L9R-NW1/content-image.png",
+      "thumb": "/assets/img/content/products/Commercial/grab-bar/T114CL9R-NW1/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/T114L9R-NW1"
+        "href": "/en/product/T114CL9R-NW1"
       }
     },
     {

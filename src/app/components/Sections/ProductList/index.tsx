@@ -376,26 +376,33 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'shower-elbow',
+        id: 'shower-others',
         label: {
-          en: 'SHOWER ELBOW',
-          zh: 'SHOWER ELBOW',
+          en: 'OTHERS',
+          zh: 'OTHERS',
         },
       },
-      {
-        id: 'wall-outlet',
-        label: {
-          en: 'WALL OUTLET',
-          zh: 'WALL OUTLET',
-        },
-      },
-      {
-        id: 'body-shower',
-        label: {
-          en: 'BODY SHOWER',
-          zh: 'BODY SHOWER',
-        },
-      },
+      // {
+      //   id: 'shower-elbow',
+      //   label: {
+      //     en: 'SHOWER ELBOW',
+      //     zh: 'SHOWER ELBOW',
+      //   },
+      // },
+      // {
+      //   id: 'wall-outlet',
+      //   label: {
+      //     en: 'WALL OUTLET',
+      //     zh: 'WALL OUTLET',
+      //   },
+      // },
+      // {
+      //   id: 'body-shower',
+      //   label: {
+      //     en: 'BODY SHOWER',
+      //     zh: 'BODY SHOWER',
+      //   },
+      // },
     ],
   },
   {
