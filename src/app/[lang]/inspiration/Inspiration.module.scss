@@ -157,31 +157,26 @@
   width: 100%;
   padding: 0 20px;
   margin: 0 auto;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  @media (max-width: 1080px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
   @media (max-width: 768px) {
     width: 94.66%;
     padding: 0;
-    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
 }
 
 .item {
-  width: calc(25% - 20px);
-  margin: 18px 10px 10px;
   position: relative;
-
-  @media (max-width: 1080px) {
-    width: calc(33.333% - 20px);
-  }
-
-  @media (max-width: 768px) {
-    width: 48.8%;
-    margin: 0 0 3vw;
-  }
+  width: 100%; /* No need for width calculation with grid */
+  margin: 0; /* No need for margin with grid gap */
 }
 
 .vr {
