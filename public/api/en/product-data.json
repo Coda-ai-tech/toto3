@@ -10446,7 +10446,8 @@
         "Accessories"
       ],
       "subCategory": [
-        "others"
+        "others",
+        "acc-others"
       ],
       "thumb": "/assets/img/content/products/Accessories/others/TX705AES/content-image.png",
       "link": {
@@ -10461,7 +10462,8 @@
         "Accessories"
       ],
       "subCategory": [
-        "others"
+        "others",
+        "acc-others"
       ],
       "thumb": "/assets/img/content/products/Accessories/others/TX706AES/content-image.png",
       "link": {
@@ -10476,7 +10478,8 @@
         "Accessories"
       ],
       "subCategory": [
-        "others"
+        "others",
+        "acc-others"
       ],
       "thumb": "/assets/img/content/products/Accessories/others/TX707AES/content-image.png",
       "link": {
@@ -10491,7 +10494,8 @@
         "Accessories"
       ],
       "subCategory": [
-        "others"
+        "others",
+        "acc-others"
       ],
       "thumb": "/assets/img/content/products/Accessories/others/YKH21R/content-image.png",
       "link": {
@@ -10506,7 +10510,8 @@
         "Accessories"
       ],
       "subCategory": [
-        "others"
+        "others",
+        "acc-others"
       ],
       "thumb": "/assets/img/content/products/Accessories/others/YKH21WR/content-image.png",
       "link": {
@@ -13170,6 +13175,7 @@
         "Commercial"
       ],
       "subCategory": [
+        "others",
         "c-others"
       ],
       "thumb": "/assets/img/content/products/Commercial/others/YKB102/content-image.png",
@@ -13185,6 +13191,7 @@
         "Commercial"
       ],
       "subCategory": [
+        "others",
         "c-others"
       ],
       "thumb": "/assets/img/content/products/Commercial/others/YKB101/content-image.png",
@@ -13200,6 +13207,7 @@
         "Commercial"
       ],
       "subCategory": [
+        "others",
         "c-others"
       ],
       "thumb": "/assets/img/content/products/Commercial/others/YES400DR/content-image.png",
@@ -13215,6 +13223,7 @@
         "Commercial"
       ],
       "subCategory": [
+        "others",
         "c-others"
       ],
       "thumb": "/assets/img/content/products/Commercial/others/YKH21R/content-image.png",
@@ -13230,6 +13239,7 @@
         "Commercial"
       ],
       "subCategory": [
+        "others",
         "c-others"
       ],
       "thumb": "/assets/img/content/products/Commercial/others/YKH21WR/content-image.png",
@@ -13245,6 +13255,7 @@
         "Commercial"
       ],
       "subCategory": [
+        "others",
         "c-others"
       ],
       "thumb": "/assets/img/content/products/Commercial/others/SKW322B-SKW322FB/content-image.png",

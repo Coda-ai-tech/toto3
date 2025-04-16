@@ -32,7 +32,7 @@
     {
       "id": null,
       "modelNumber": "TX471SKBR#MB",
-      "slug": "TX471SKBR#MB",
+      "slug": "TX471SKBR-MB",
       "productName": "Single Lever Bath & Shower Mixer with Hand Shower",
       "isNew": "false",
       "module": "ProductDetails",
@@ -48,7 +48,7 @@
         ],
         "description": "Single Lever Bath & Shower Mixer with Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/bath-and-shower-mixer/content-image.png"
+          "/assets/img/content/products/Shower/bath-and-shower-mixer/TX471SKBR-MB/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -64,7 +64,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/bath-and-shower-mixer/drawing.png"
+          "/assets/img/content/products/Shower/bath-and-shower-mixer/TX471SKBR-MB/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
