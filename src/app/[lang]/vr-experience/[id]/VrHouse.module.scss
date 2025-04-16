@@ -80,6 +80,7 @@
   .vrControls {
     flex-direction: column;
     gap: 15px;
+    right: 0px;
     
     .title {
       font-size: 1.5rem;
@@ -91,12 +92,8 @@
   }
   
   .closeButton {
-    width: 36px;
-    height: 36px;
-    
-    svg {
-      width: 18px;
-      height: 18px;
-    }
+    width: 40px;
+    height: 40px;
+    padding: 12px;
   }
 }
