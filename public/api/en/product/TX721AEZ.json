@@ -65,16 +65,16 @@
             {
               "ForFillings": [
                 "Chrome",
-                "#MW Matte White (STI)",
-                "#MB Matte Black (STI)",
-                "#PG Polished Gold (STI)",
-                "#BG Brushed Gold (STI)",
-                "#PFG2 Polished French Gold (STI)",
-                "#BFG2 Brushed French Gold (STI)",
+                "#MW Matte White",
+                "#MB Matte Black",
+                "#PG Polished Gold",
+                "#BG Brushed Gold",
+                "#PFG2 Polished French Gold",
+                "#BFG2 Brushed French Gold",
                 "#PRG2 Polished Rose Gold",
-                "#BRG2 Brushed Rose Gold (STI)",
-                "#PN2 Polished Nickel (STI)",
-                "#BN2 Brushed Nickel (STI)"
+                "#BRG2 Brushed Rose Gold",
+                "#PN2 Polished Nickel",
+                "#BN2 Brushed Nickel"
               ]
             }
           ]
