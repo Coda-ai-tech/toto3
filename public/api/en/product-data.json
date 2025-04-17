@@ -3630,21 +3630,6 @@
         }
     },
     {
-        "id": "C889DRE1",
-        "name": "Elongated Tornado Flush Toilet",
-        "category": [
-            "Toilet"
-        ],
-        "subCategory": [
-            "one-piece-toilet"
-        ],
-        "thumb": "/assets/img/content/products/toilets/one-piece-toilet/C889DRE1/content-image.png",
-        "link": {
-            "type": "routeLink",
-            "href": "/en/product/C889DRE1"
-        }
-    },
-    {
         "id": "CW895PJ",
         "name": "Elongated Wash Down Toilet",
         "category": [
