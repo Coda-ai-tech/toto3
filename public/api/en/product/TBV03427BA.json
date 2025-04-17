@@ -78,16 +78,6 @@
             },
             "icon": "/assets/img/content/technology/safety-thermo/ico-safety-thermo.png",
             "thumb": "/assets/img/content/technology/safety-thermo/thumb-safety-thermo.png"
-          },
-          {
-            "title": "SMA",
-            "description": "SMA-description",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/sma"
-            },
-            "icon": "/assets/img/content/technology/sma/ico-sma.png",
-            "thumb": "/assets/img/content/technology/sma/thumb-sma.png"
           }
         ],
         "downloads": [

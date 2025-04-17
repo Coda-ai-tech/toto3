@@ -70,14 +70,14 @@
         "awardImages": [],
         "technologies": [
           {
-            "title": "SMA",
-            "description": "SMA-description",
+            "title": "SAFETY THERMO",
+            "description": "Safe, reliable water temperature means a more relaxing bath-time",
             "link": {
               "type": "routeLink",
-              "href": "/en/technology/sma"
+              "href": "/en/technology/safety-thermo"
             },
-            "icon": "/assets/img/content/technology/sma/ico-sma.png",
-            "thumb": "/assets/img/content/technology/sma/thumb-sma.png"
+            "icon": "/assets/img/content/technology/safety-thermo/ico-safety-thermo.png",
+            "thumb": "/assets/img/content/technology/safety-thermo/thumb-safety-thermo.png"
           },
           {
             "title": "MINI UNIT",
