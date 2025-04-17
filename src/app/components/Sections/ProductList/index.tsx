@@ -634,6 +634,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   const { lang } = useParams();
   const searchParams = useSearchParams();
   const categoryFromUrl = searchParams.get('category');
+  const keywordFromUrl = searchParams.get('keyword');
 
   const router = useRouter();
 
@@ -867,6 +868,15 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   }, [categoryFromUrl]);
 
   useEffect(() => {
+    if (keywordFromUrl) {
+      if (searchInput.current) {
+        searchInput.current.value = keyword.toString();
+      }
+      setKeyword(keyword);
+    }
+  }, [keywordFromUrl]);
+
+  useEffect(() => {
     if (products) return;
     fetchData();
   }, [products]);
@@ -914,7 +924,6 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   }, [selectedCategory, keyword, page]);
 
   useEffect(() => {
-    console.log('entered use effect for setting params to filter');
     const params = new URLSearchParams(window.location.search);
     const encoded = params.get('category');
     const keyword = params.get('keyword');

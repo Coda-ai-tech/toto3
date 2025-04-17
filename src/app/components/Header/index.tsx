@@ -1,6 +1,6 @@
 'use client';
 import dynamic from 'next/dynamic';
-import React, { useState, useEffect, useContext, useCallback } from 'react';
+import React, { useState, useEffect, useContext, useCallback, useRef } from 'react';
 import { ConfigContext } from '@/context/config.context';
 import { GlobalDataProps } from '@@/GlobalConfig';
 import { useParams, usePathname } from 'next/navigation';
@@ -27,6 +27,7 @@ const SnsList = dynamic(() => import('@@/Footer/SnsList'), { ssr: false });
 const Header = ({ data }: { data: GlobalDataProps }) => {
   const { lang = GetLocaleFallback() } = useParams();
   const { setNavShow, isNavOverlay, isHeaderShow, isNavShow } = useContext(ConfigContext);
+  const searchField = useRef<HTMLInputElement>(null);
 
   const {
     logo,
@@ -95,6 +96,20 @@ const Header = ({ data }: { data: GlobalDataProps }) => {
     setModalShow(true);
   };
 
+  const keyDownHandler = (e: any) => {
+    if (e.key !== 'Enter') return;
+    e.preventDefault();
+    redirectToProductPage();
+  }
+
+  const redirectToProductPage = () => {
+    const keyword = searchField.current?.value.trim();
+    if (!keyword) return;
+    console.log(keyword);
+    const redirectLink = `/en/product?keyword=${encodeURIComponent(keyword)}`;
+    window.location.href = redirectLink;
+  }
+
   return (
     <>
       <button
@@ -112,11 +127,9 @@ const Header = ({ data }: { data: GlobalDataProps }) => {
         {dictionary?.skipToMainContent || 'Skip To Main Content'}
       </button>
       <header
-        className={`${styles.header} ${isMobNavShow ? styles.mobNavOpen : ''} ${isNavOverlay ? styles.overlay : ''} ${
-          isHeaderShow ? '' : styles.hideHeader
-        } ${scrollDirection === ScrollUp ? '' : styles.scrollDown} ${isNavShow ? styles.showMenu : ''} ${
-          isTop ? styles.expand : styles.collapse
-        }`}
+        className={`${styles.header} ${isMobNavShow ? styles.mobNavOpen : ''} ${isNavOverlay ? styles.overlay : ''} ${isHeaderShow ? '' : styles.hideHeader
+          } ${scrollDirection === ScrollUp ? '' : styles.scrollDown} ${isNavShow ? styles.showMenu : ''} ${isTop ? styles.expand : styles.collapse
+          }`}
       >
         <div className={styles.headerInner}>
           <div className={`${styles.navBar}`}>
@@ -274,7 +287,27 @@ const Header = ({ data }: { data: GlobalDataProps }) => {
                     );
                   }
                 })}
-
+              <div className={`${styles.mobNavItem}`}>
+                <div className={`${styles.searchContainer}`}>
+                  {/* <span className={styles.searchText}>PRODUCT SEARCH</span> */}
+                  <div className={`${styles.searchWrap}`}>
+                    <div className={`${styles.search}`}>
+                      <input
+                        type="text"
+                        name="searchKey"
+                        placeholder="SEARCH"
+                        ref={searchField}
+                        onKeyDown={keyDownHandler}
+                      />
+                      <button className={`${styles.searchButton}`} onClick={redirectToProductPage}>
+                        <div className={`${styles.searchIcon}`}>
+                          <SvgIcon name="search" />
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className={`${styles.mobOtherMenu}`}>
                 <div className={`${styles.otherMenuInner}`}>
                   <SnsList />
@@ -284,7 +317,7 @@ const Header = ({ data }: { data: GlobalDataProps }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div >
 
       <CustomModal isModalShow={isModalShow} onUpdate={(e) => onModalStatusHandler(e)}>
         <GlobalNetworkModal />

@@ -108,6 +108,11 @@
   &.collapse {
     @apply bg-white border-b-gray-light;
 
+    input {
+      color: black !important;
+      border: 1px solid rgb(179, 184, 193) !important;
+    }
+
     .logoImgNormal {
       @apply opacity-100 !important;
     }
@@ -476,5 +481,33 @@
 
   .btnLabel {
     @apply text-[14px];
+  }
+}
+
+.searchWrap {
+  width: 100%;
+  max-width: 500px;
+  padding-right: 12px;
+
+  .search {
+    @apply relative flex items-center;
+
+    input {
+      @apply h-[40px] w-full px-4 pr-10 text-sm bg-black text-black;
+      border: 1px solid rgb(172, 178, 188);
+      background-color: transparent;
+
+      &:focus-visible {
+        @apply outline-dotted outline-black outline-2;
+      }
+    }
+
+    .searchButton {
+      @apply absolute right-2 top-1/2 translate-y-[-50%] w-5 h-5 flexCenter;
+
+      .searchIcon {
+        @apply w-5 h-5 text-black;
+      }
+    }
   }
 }
