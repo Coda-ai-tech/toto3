@@ -45,10 +45,38 @@
                 }
               },
               {
+                "label": "OUR JOURNEY",
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://jp.toto.com/pages/en/history/"
+                }
+              },
+              {
                 "label": "BRAND PURPOSE",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/purpose"
+                }
+              },
+              {
+                "label": "TOTO MUSEUM",
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://jp.toto.com/pages/knowledge/visit/museum/en/vr/"
+                }
+              },
+              {
+                "label": "INSPIRATION",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/inspiration"
+                }
+              },
+              {
+                "label": "TOTO GLOBAL",
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://www.toto.com/en/index.htm"
                 }
               },
               {
@@ -59,44 +87,9 @@
                 }
               },
               {
-                "label": "TOTO HISTORY",
-                "link": {
-                  "type": "external",
-                  "href": "https://jp.toto.com/en/history/"
-                }
-              },
-              {
-                "label": "TOTO GLOBAL",
-                "link": {
-                  "type": "external",
-                  "href": "https://www.toto.com/en/index.htm"
-                }
-              },
-              {
-                "label": "TOTO MUSEUM",
-                "link": {
-                  "type": "external",
-                  "href": "https://jp.toto.com/pages/knowledge/visit/museum/en/vr/"
-                }
-              },
-              {
-                "label": "TOTO INSPIRATION",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/inspiration"
-                }
-              },
-              {
-                "label": "",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en"
-                }
-              },
-              {
                 "label": "GLOBAL REFERENCE",
                 "link": {
-                  "type": "external",
+                  "type": "routeLink",
                   "href": "https://www.toto.com/project/"
                 }
               }
@@ -113,79 +106,99 @@
             "title": "PRODUCT",
             "items": [
               {
-                "label": "NEOREST",
+                "label": "AWARDS",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/awards"
+                }
+              },
+              {
+                "label": "ALL PRODUCT",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/product"
+                }
+              }
+            ]
+          },
+          {
+            "title": "",
+            "items": [
+              {
+                "label": "NEOREST",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/product?category=neorest"
                 }
               },
               {
                 "label": "WASHLET+",
                 "link": {
-                  "type": "routeLink",
-                  "href": "/en"
+                "type": "routeLink",
+                "href": "/en/product?category=washlet+"
                 }
               },
               {
                 "label": "WASHLET",
                 "link": {
-                  "type": "routeLink",
-                  "href": "/en"
+                "type": "routeLink",
+                "href": "/en/product?category=washlet"
                 }
               },
               {
                 "label": "TOILETS",
                 "link": {
-                  "type": "routeLink",
-                  "href": "/en"
+                "type": "routeLink",
+                "href": "/en/product?category=Toilet"
                 }
               },
               {
                 "label": "LAVATORIES",
                 "link": {
-                  "type": "routeLink",
-                  "href": "/en"
+                "type": "routeLink",
+                "href": "/en/product?category=Lavatories"
                 }
               },
               {
                 "label": "BATHTUBS",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
+                  "href": "/en/product?category=Bathtub"
                 }
               },
               {
                 "label": "FAUCETS",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
+                  "href": "/en/product?category=Faucet"
                 }
               },
               {
                 "label": "SHOWERS",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
+                  "href": "/en/product?category=Shower"
                 }
               },
               {
                 "label": "ACCESSORIES",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
+                  "href": "/en/product?category=Accessories"
                 }
               },
               {
                 "label": "COMMERCIAL",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en"
+                  "href": "/en/product?category=Commercial"
                 }
               }
             ]
           }
         ]
       },
+
       {
         "title": "TECHNOLOGIES",
         "link": {
@@ -194,18 +207,6 @@
         },
         "highlight": null,
         "sub": [
-          {
-            "title": "ALL",
-            "items": [
-              {
-                "label": "ALL TECHNOLOGIES",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/technology"
-                }
-              }
-            ]
-          },
           {
             "title": "TOILETS",
             "items": [
@@ -240,7 +241,7 @@
             ]
           },
           {
-            "title": "WASHLET",
+            "title": "NEOREST / WASHLET",
             "items": [
               {
                 "label": "ACTILIGHT",
@@ -318,7 +319,7 @@
                 }
               },
               {
-                "label": "AERIAL",
+                "label": "AERIAL SHOWER",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/technology/aerial"
@@ -336,13 +337,6 @@
                 "link": {
                   "type": "routeLink",
                   "href": "/en/technology/comfort-wave"
-                }
-              },
-              {
-                "label": "ECO CAP",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/technology/eco-cap"
                 }
               },
               {
@@ -395,17 +389,17 @@
                 }
               },
               {
-                "label": "SMA",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/technology/sma"
-                }
-              },
-              {
                 "label": "WARM SPA",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/technology/warm-spa"
+                }
+              },
+              {
+                "label": "MIST SPA",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/technology/mist-spa"
                 }
               }
             ]
@@ -440,17 +434,17 @@
             "title": "OTHERS",
             "items": [
               {
+                "label": "LUMINIST",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/technology/luminist"
+                }
+              },
+              {
                 "label": "LINEARCERAM",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/technology/linearceram"
-                }
-              },
-              {
-                "label": "CLEAN MATTE",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/technology/clean-matte"
                 }
               },
               {
@@ -672,63 +666,63 @@
             "label": "NEOREST",
             "link": {
               "type": "routeLink",
-              "href": "/en/product"
+              "href": "/en/product?category=neorest"
             }
           },
           {
             "label": "WASHLET+",
             "link": {
               "type": "routeLink",
-              "href": "/en/product"
+              "href": "/en/product?category=washlet+"
             }
           },
           {
             "label": "WASHLET",
             "link": {
               "type": "routeLink",
-              "href": "/en/product"
+              "href": "/en/product?category=washlet"
             }
           },
           {
             "label": "BATHTUBS",
             "link": {
               "type": "routeLink",
-              "href": "/en/product"
+              "href": "/en/product?category=Bathtub"
             }
           },
           {
             "label": "FAUCETS",
             "link": {
               "type": "routeLink",
-              "href": "/en/product"
+              "href": "/en/product?category=Faucet"
             }
           },
           {
             "label": "ACCESSORIES",
             "link": {
               "type": "routeLink",
-              "href": "/en/product"
+              "href": "/en/product?category=Accessories"
             }
           },
           {
             "label": "LAVATORIES",
             "link": {
               "type": "routeLink",
-              "href": "/en/product"
+              "href": "/en/product?category=Lavatories"
             }
           },
           {
             "label": "SHOWERS",
             "link": {
               "type": "routeLink",
-              "href": "/en/product"
+              "href": "/en/product?category=Shower"
             }
           },
           {
             "label": "COMMERCIAL",
             "link": {
               "type": "routeLink",
-              "href": "/en/product"
+              "href": "/en/product?category=Commercial"
             }
           }
         ]
