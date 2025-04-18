@@ -36,52 +36,6 @@
       "content": {
         "title": "Inline Content"
       }
-    },
-    {
-      "id": null,
-      "module": "RelatedProduct",
-      "moduleOption":null,
-      "content": {
-        "title": "RECOMMENDED PRODUCT",
-        "items":[
-          {
-            "title":"CS987PVA / TCF9787WA",
-            "description":"NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb":"/assets/img/content/related-product/sample.webp",
-            "link":{
-              "type":"routeLink",
-              "href":"/en/product/CS987PVA"
-            }
-          },
-          {
-            "title":"CS987PVA / TCF9787WA",
-            "description":"NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb":"/assets/img/content/related-product/sample.webp",
-            "link":{
-              "type":"routeLink",
-              "href":"/en/product/CS987PVA"
-            }
-          },
-          {
-            "title":"CS987PVA / TCF9787WA",
-            "description":"NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb":"/assets/img/content/related-product/sample.webp",
-            "link":{
-              "type":"routeLink",
-              "href":"/en/product/CS987PVA"
-            }
-          },
-          {
-            "title":"CS987PVA / TCF9787WA",
-            "description":"NEOREST AH Multi-Function Toilet (P-trap)",
-            "thumb":"/assets/img/content/related-product/sample.webp",
-            "link":{
-              "type":"routeLink",
-              "href":"/en/product/CS987PVA"
-            }
-          }
-        ]
-      }
     }
   ]
 }
