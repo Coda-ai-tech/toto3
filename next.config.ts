@@ -87,6 +87,11 @@ const nextConfig: NextConfig = {
         destination: '/en/washlet-history',
         permanent: true,
       },
+      {
+        source: '/zh',
+        destination: '/en',
+        permanent: false,
+      },
     ]
   },
   output: 'standalone',
