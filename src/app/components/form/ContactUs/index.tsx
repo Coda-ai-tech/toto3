@@ -105,10 +105,13 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
               name="inquiry"
               onChange={(e) => setSelectedInquiryType(e.target.value)}
             >
-              <SelectItem key="">Select an option</SelectItem>
-              {inquiryType.map((item) => (
-                <SelectItem key={item.key}>{item.label}</SelectItem>
-              ))}
+              <>
+                <SelectItem key="">Select an option</SelectItem>
+                {inquiryType.map((item) => (
+                  <SelectItem key={item.key} value={item.key}>{item.label}</SelectItem>
+                ))}
+              </>
+              
             </Select>
           </div>
           <div className={`${styles.formRow}`}>
