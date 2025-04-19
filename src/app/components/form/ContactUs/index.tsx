@@ -22,8 +22,11 @@ const inquiryType = [
 ];
 
 const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
-  const [file, setFile] = useState(null);
   const [error, setError] = useState('');
+  const [selectedInquiryType, setSelectedInquiryType] = useState<string>('');
+
+  // Initialize action state for the contact form
+  const [state, formAction] = useActionState(ContactUsAction, {});
 
   const submitCta = {
     label: 'SUBMIT',
@@ -45,24 +48,16 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
     if (selectedFile) {
       if (selectedFile.size > MAX_FILE_SIZE) {
         setError('File size exceeds 5MB. Please select a smaller file.');
-        setFile(null);
       } else {
         setError('');
-        setFile(selectedFile);
       }
+    } else {
+      setError('');
     }
   };
 
-  const [selectedInquiryType, setSelectedInquiryType] = useState<string>('');
-
-  const [state, formAction] = useActionState(ContactUsAction, {
-    inquiry: selectedInquiryType,
-  });
-
   return (
-    <form
-      className={`${styles.contactUsForm} ${styles[placement]}`}
-      action={formAction}>
+    <form className={`${styles.contactUsForm} ${styles[placement]}`} action={formAction}>
       <legend>Contact TOTO</legend>
       <fieldset>
         <div className={`${styles.formFields}`}>
@@ -80,12 +75,7 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
               classNames={{ label: styles.fieldLabel }}
             />
             <Input
-              label={
-                <span>
-                  <span className="text-red-500">* </span>
-                  Contact Number
-                </span>
-              }
+              label={<span>Contact Number</span>}
               type="text"
               name="number"
               className={`${styles.formField}`}
@@ -107,18 +97,15 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
               classNames={{ label: styles.fieldLabel }}
             />
             <Select
-              label={
-                <span>
-                  <span className="text-red-500">* </span>
-                  What Can We Help You With?
-                </span>
-              }
+              label={<span>What Can We Help You With?</span>}
               classNames={{
                 trigger: styles.selectTrigger,
                 label: styles.selectLabel,
               }}
               name="inquiry"
-              onChange={(e) => setSelectedInquiryType(e.target.value)}>
+              onChange={(e) => setSelectedInquiryType(e.target.value)}
+            >
+              <SelectItem key="">Select an option</SelectItem>
               {inquiryType.map((item) => (
                 <SelectItem key={item.key}>{item.label}</SelectItem>
               ))}
@@ -126,7 +113,12 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
           </div>
           <div className={`${styles.formRow}`}>
             <Textarea
-              label="Message"
+              label={
+                <span>
+                  <span className="text-red-500">* </span>
+                  Message
+                </span>
+              }
               required
               name="message"
               className={`${styles.formField}`}
@@ -141,18 +133,30 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
               className={`${styles.formField}`}
               classNames={{ label: styles.fieldLabelOutside }}
               accept=".gif,.jpg,.jpeg,.png,.doc,.docx"
-              onChange={(e) => handleFileChange(e)}
-              isInvalid={error.length > 0 ? true : false}
-              errorMessage={error ? error : undefined}
+              name="file"
+              onChange={handleFileChange}
+              isInvalid={error.length > 0}
+              errorMessage={error || undefined}
             />
           </div>
 
-          {state.errors?.message && (
-            <p className="text-sm text-red-500">{state.errors.message}</p>
+          {/* Display all errors */}
+          {state.errors && (
+            <div className="text-sm text-red-500">
+              {Object.entries(state.errors).map(([key, errors]) =>
+                Array.isArray(errors) ? (
+                  errors.map((error, idx) => <p key={`${key}-${idx}`}>{error}</p>)
+                ) : (
+                  <p key={key}>{errors}</p> // Handle single string (e.g., server error)
+                )
+              )}
+            </div>
           )}
+          {/* Display success message */}
+          {state.success && <p className="text-sm text-green-500">{state.success}</p>}
+
           <div className={`${styles.formRow} ${styles.formAction}`}>
             <Button content={submitCta} />
-            <span className="hidden">{file}</span>
           </div>
         </div>
       </fieldset>
