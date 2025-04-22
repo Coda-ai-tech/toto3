@@ -3,9 +3,11 @@ import { useEffect, useState } from 'react';
 
 const PageSetting = () => {
   const [isAddedScript, setAddedScript] = useState(true);
+  const [allScriptLoaded, setAllScriptLoaded] = useState(false);
 
   useEffect(() => {
     let cnt = 0;
+    let loadedCount = 0;
     const scriptFiles = [
       '//code.jquery.com/jquery-2.1.1.min.js',
       '/assets/global/purpose/js/gsap.min.js',
@@ -25,7 +27,14 @@ const PageSetting = () => {
       document.body.appendChild(script);
 
       // ! Only For Testing...
-      script.onload = () => console.log(`Loaded: ${url}`);
+      script.onload = () => {
+        console.log(`Loaded: ${url}`);
+        loadedCount ++;
+        if (loadedCount === scriptFiles.length){
+          console.log('all script loaded');
+          setAllScriptLoaded(true);
+        }
+      };
       script.onerror = () => console.error(`Failed to load: ${url}`);
 
       if (cnt + 1 === scriptFiles.length) {
@@ -95,7 +104,47 @@ const PageSetting = () => {
       <style
         dangerouslySetInnerHTML={{ __html: '\n    .topBreadcrumbs {\n        display: none !important;\n    }\n' }}
       />
-      {/* <Script src={`...path`} /> */}
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+            .topBreadcrumbs {
+              display: none !important;
+            }
+            .script-loading-spinner {
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100vw;
+              height: 100vh;
+              background: rgba(255, 255, 255, 0.7);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              z-index: 9999;
+            }
+
+            .script-loading-spinner::after {
+              content: '';
+              width: 40px;
+              height: 40px;
+              border: 4px solid #ccc;
+              border-top-color: #000;
+              border-radius: 50%;
+              animation: spin 1s linear infinite;
+            }
+
+            @keyframes spin {
+              to {
+                transform: rotate(360deg);
+              }
+            }
+          `,
+        }}
+      />
+
+      {!allScriptLoaded && (
+        <div className='script-loading-spinner' />
+      )}
     </>
   );
 };
