@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "0.15MPa~1.00MPa",
           "PowerRating": "",
-          "Material": [
-            "Ø300mm"
-          ],
+          "Material": "",
           "Colour": [
             {
               "ForFillings": [

@@ -43,12 +43,12 @@
           "Shower"
         ],
         "subCategory": [
-          "hand-shower-",
+          "hand-shower",
           ""
         ],
         "description": "Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/hand-shower-/TBW07008H/content-image.png"
+          "/assets/img/content/products/Shower/hand-shower/TBW07008H/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -81,7 +81,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Shower/hand-shower-/TBW07008H/drawing.png"
+          "/assets/img/content/products/Shower/hand-shower/TBW07008H/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

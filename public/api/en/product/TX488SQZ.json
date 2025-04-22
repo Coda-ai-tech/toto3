@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "0.05MPa~0.75MPa",
           "PowerRating": "",
-          "Material": [
-            "220 x 340mm (Oval Shape)"
-          ],
+          "Material": "",
           "Colour": [
             {
               "ForFillings": [

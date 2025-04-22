@@ -43,12 +43,12 @@
           "Shower"
         ],
         "subCategory": [
-          "hand-shower-",
+          "hand-shower",
           ""
         ],
         "description": "Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/hand-shower-/DM715CMF/content-image.png"
+          "/assets/img/content/products/Shower/hand-shower/DM715CMF/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -80,7 +80,7 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Shower/hand-shower-/DM715CMF/drawing.png"
+          "/assets/img/content/products/Shower/hand-shower/DM715CMF/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

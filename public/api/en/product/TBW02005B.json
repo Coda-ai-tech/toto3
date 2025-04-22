@@ -43,12 +43,12 @@
           "Shower"
         ],
         "subCategory": [
-          "hand-shower-",
+          "hand-shower",
           ""
         ],
         "description": "Hand Shower",
         "images": [
-          "/assets/img/content/products/Shower/hand-shower-/TBW02005B/content-image.png"
+          "/assets/img/content/products/Shower/hand-shower/TBW02005B/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -94,7 +94,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Shower/hand-shower-/TBW02005B/drawing.png"
+          "/assets/img/content/products/Shower/hand-shower/TBW02005B/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
