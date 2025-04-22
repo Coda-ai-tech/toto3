@@ -211,6 +211,7 @@
             "title": "TOILETS",
             "items": [
               {
+                "image": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
                 "label": "CEFIONTECT",
                 "link": {
                   "type": "routeLink",
@@ -218,6 +219,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/rimless/ico-rimless.png",
                 "label": "RIMLESS",
                 "link": {
                   "type": "routeLink",
@@ -225,6 +227,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
                 "label": "TORNADO FLUSH",
                 "link": {
                   "type": "routeLink",
@@ -232,6 +235,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/water-saving/ico-water-saving.png",
                 "label": "WATER SAVING",
                 "link": {
                   "type": "routeLink",
@@ -244,6 +248,7 @@
             "title": "NEOREST / WASHLET",
             "items": [
               {
+                "image": "/assets/img/content/technology/actilight/ico-actilight.png",
                 "label": "ACTILIGHT",
                 "link": {
                   "type": "routeLink",
@@ -251,6 +256,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/air-in-wonder-wave/ico-air-in-wonder-wave.png",
                 "label": "AIR-IN WONDER WAVE",
                 "link": {
                   "type": "routeLink",
@@ -258,6 +264,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/auto-functions/ico-auto-functions.png",
                 "label": "AUTO FUNCTION",
                 "link": {
                   "type": "routeLink",
@@ -265,6 +272,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/deodorizer/ico-deodorizer.png",
                 "label": "DEODORIZER",
                 "link": {
                   "type": "routeLink",
@@ -272,6 +280,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/dryer/ico-dryer.png",
                 "label": "DRYER",
                 "link": {
                   "type": "routeLink",
@@ -279,6 +288,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/ewater/ico-ewater.png",
                 "label": "EWATER+",
                 "link": {
                   "type": "routeLink",
@@ -286,6 +296,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/heated-seat/ico-heated-seat.png",
                 "label": "HEATED SEAT",
                 "link": {
                   "type": "routeLink",
@@ -293,6 +304,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/premist/ico-premist.png",
                 "label": "PREMIST",
                 "link": {
                   "type": "routeLink",
@@ -312,6 +324,7 @@
             "title": "FAUCET / SHOWER",
             "items": [
               {
+                "image": "/assets/img/content/technology/active-wave/ico-active-wave.png",
                 "label": "ACTIVE WAVE",
                 "link": {
                   "type": "routeLink",
@@ -319,6 +332,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/aerial/ico-aerial.png",
                 "label": "AERIAL SHOWER",
                 "link": {
                   "type": "routeLink",
@@ -326,6 +340,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/comfort-glide/ico-comfort-glide.png",
                 "label": "COMFORT GLIDE",
                 "link": {
                   "type": "routeLink",
@@ -333,6 +348,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/comfort-wave/ico-comfort-wave.png",
                 "label": "COMFORT WAVE",
                 "link": {
                   "type": "routeLink",
@@ -340,6 +356,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/eco-power/ico-eco-power.png",
                 "label": "ECOPOWER",
                 "link": {
                   "type": "routeLink",
@@ -347,6 +364,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/gyrostream/ico-gyrostream.png",
                 "label": "GYROSTREAM",
                 "link": {
                   "type": "routeLink",
@@ -354,6 +372,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/heat-protect/ico-heat-protect.png",
                 "label": "HEAT PROTECT",
                 "link": {
                   "type": "routeLink",
@@ -361,6 +380,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/intense-wave/ico-intense-wave.png",
                 "label": "INTENSE WAVE",
                 "link": {
                   "type": "routeLink",
@@ -368,6 +388,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/mini-unit/ico-mini-unit.png",
                 "label": "MINI UNIT",
                 "link": {
                   "type": "routeLink",
@@ -375,6 +396,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/safety-thermo/ico-safety-thermo.png",
                 "label": "SAFETY THERMO",
                 "link": {
                   "type": "routeLink",
@@ -382,6 +404,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/soft-flow/ico-soft-flow.png",
                 "label": "SOFT FLOW",
                 "link": {
                   "type": "routeLink",
@@ -389,6 +412,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/warm-spa/ico-warm-spa.png",
                 "label": "WARM SPA",
                 "link": {
                   "type": "routeLink",
@@ -396,6 +420,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/mist-spa/ico-mist-spa.png",
                 "label": "MIST SPA",
                 "link": {
                   "type": "routeLink",
@@ -408,6 +433,7 @@
             "title": "BATHTUB",
             "items": [
               {
+                "image": "/assets/img/content/technology/hydrohands/ico-hydrohands.png",
                 "label": "HYDROHANDS",
                 "link": {
                   "type": "routeLink",
@@ -415,6 +441,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/recline-comfort/ico-recline-comfort.png",
                 "label": "RECLINE COMFORT",
                 "link": {
                   "type": "routeLink",
@@ -422,6 +449,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/zero-dimension/ico-zero-dimension.png",
                 "label": "ZERO DIMENSION",
                 "link": {
                   "type": "routeLink",
@@ -434,6 +462,7 @@
             "title": "OTHERS",
             "items": [
               {
+                "image": "/assets/img/content/technology/luminist/ico-luminist.png",
                 "label": "LUMINIST",
                 "link": {
                   "type": "routeLink",
@@ -441,6 +470,7 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/linearceram/ico-linearceram.png",
                 "label": "LINEARCERAM",
                 "link": {
                   "type": "routeLink",

@@ -60,6 +60,12 @@ export interface ButtonElementDefault {
   link: ButtonLinkElement;
 }
 
+export interface TopNavListItem {
+  image?: string;
+  label: string;
+  link: ButtonLinkElement;
+}
+
 export interface ButtonElement<IconList> extends ButtonElementDefault {
   variant?: ButtonVariation | string;
   color?: ButtonColor | string;

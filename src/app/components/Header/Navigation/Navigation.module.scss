@@ -104,7 +104,11 @@
   @apply flex gap-4 ;
 
   @screen hd {
-    gap:3rem;
+    gap: 1rem;
+  }
+
+  @screen xxl {
+    gap: 3rem;
   }
 }
 
@@ -169,6 +173,15 @@
         }
       }
     }
+  }
+}
+
+.listItem {
+  display: flex;
+  padding: 4px 0;
+
+  .subNavItem {
+    padding-left: 8px;
   }
 }
 

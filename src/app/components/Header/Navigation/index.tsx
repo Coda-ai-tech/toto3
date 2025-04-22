@@ -2,7 +2,7 @@
 import dynamic from 'next/dynamic';
 import { useEffect, useState, useContext, useCallback, useRef } from 'react';
 import { ConfigContext } from '@/context/config.context';
-import { ButtonElement, ButtonVariation, ButtonAction, ButtonColor, ButtonIconPosition, ButtonElementDefault } from '@/types';
+import { ButtonElement, ButtonVariation, ButtonAction, ButtonColor, ButtonIconPosition, TopNavListItem } from '@/types';
 import { IconList } from '@/types/icons';
 import { motion } from 'framer-motion';
 import { disablePageScroll, enablePageScroll } from '@fluejs/noscroll';
@@ -133,7 +133,7 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
                         aria-haspopup='true'
                         aria-expanded={isNavShow as boolean}
                         aria-label={data.title}
-                        
+
                       >
                         {data.title}
                         <div className={styles.icon}>
@@ -189,7 +189,7 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
 
 
                               {content[currentSub].sub?.map((item: any, sIndex: number) => {
-                                const columnCount = Math.ceil(item?.items.length / 5);
+                                const columnCount = Math.min(Math.ceil(item?.items.length / 5), 2);
                                 return (
                                   <div className={styles.navColumn} key={sIndex}>
                                     <div className={`${styles.navColumTitle}`}>{item.title}</div>
@@ -209,8 +209,12 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
                                                   <div className={`${styles.navColumList}`}>
                                                     <div className={styles.subNavColum}>
                                                       <ul className={styles.multiColum}>
-                                                        {columnItems.map((subItem: ButtonElementDefault, snIndex: number) => (
-                                                          <li key={`item-${snIndex}`}>
+                                                        {columnItems.map((subItem: TopNavListItem, snIndex: number) => (
+                                                          <li key={`item-${snIndex}`} className={styles.listItem}>
+                                                            {
+                                                              subItem.image &&
+                                                              <Image src={subItem.image} alt={subItem.label} height={25} width={25} />
+                                                            }
                                                             <Button
                                                               content={{ ...subItem, variant: ButtonVariation.default }}
                                                               className={styles.subNavItem}
@@ -231,9 +235,13 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
                                             <ul
                                               className={styles.singleColum}
                                             >
-                                              {item?.items.map((subItem: ButtonElementDefault, snIndex: number) => {
+                                              {item?.items.map((subItem: TopNavListItem, snIndex: number) => {
                                                 return (
-                                                  <li key={snIndex}>
+                                                  <li key={snIndex} className={styles.listItem}>
+                                                    {
+                                                      subItem.image &&
+                                                      <Image src={subItem.image} alt={subItem.label} height={25} width={25} />
+                                                    }
                                                     <Button
                                                       content={{ ...subItem, variant: ButtonVariation.default }}
                                                       className={`${styles.subNavItem}`}
