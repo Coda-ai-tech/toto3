@@ -252,11 +252,17 @@ const Header = ({ data }: { data: GlobalDataProps }) => {
                                       <div className={`${styles.mobSubGroupList}`}>
                                         {item.items?.map((subMenu: any, tIndex: number) => {
                                           return (
-                                            <Button
-                                              key={tIndex}
-                                              content={{ ...subMenu, variant: ButtonVariation.default }}
-                                              className={`${styles.subNavItem}`}
-                                            />
+                                            <div className={styles.mobListItem}>
+                                              {
+                                                subMenu.image &&
+                                                <Image src={subMenu.image} alt={subMenu.label} height={25} width={25} />
+                                              }
+                                              <Button
+                                                key={tIndex}
+                                                content={{ ...subMenu, variant: ButtonVariation.default }}
+                                                className={`${styles.subNavItem}`}
+                                              />
+                                            </div>
                                           );
                                         })}
                                       </div>

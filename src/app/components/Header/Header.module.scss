@@ -465,6 +465,14 @@
 
   .mobSubGroupList {
     @apply flex flex-col items-start gap-4 py-2 pl-2;
+
+    .mobListItem {
+      display: flex;
+
+      .subNavItem {
+        padding-left: 6px;
+      }
+    }
   }
 }
 
