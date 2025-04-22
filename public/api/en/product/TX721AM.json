@@ -58,9 +58,7 @@
           "TrapType": "",
           "WaterPressure": "",
           "PowerRating": "",
-          "Material": [
-            "900mm"
-          ],
+          "Material": "",
           "Colour": [
             {
               "ForFillings": [
