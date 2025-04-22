@@ -88,8 +88,23 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/en/subcategory/:category',
+        destination: '/en/product?category=:category',
+        permanent: false,
+      },
+      {
+        source: '/zh/subcategory/:category',
+        destination: '/en/product?category=:category',
+        permanent: false,
+      },
+      {
         source: '/zh',
         destination: '/en',
+        permanent: false,
+      },
+      {
+        source: '/zh/:path*',
+        destination: '/en/:path*',
         permanent: false,
       },
     ]
