@@ -45,24 +45,10 @@
                 }
               },
               {
-                "label": "OUR JOURNEY",
-                "link": {
-                  "type": "routeLink",
-                  "href": "https://jp.toto.com/pages/en/history/"
-                }
-              },
-              {
                 "label": "BRAND PURPOSE",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/purpose"
-                }
-              },
-              {
-                "label": "TOTO MUSEUM",
-                "link": {
-                  "type": "routeLink",
-                  "href": "https://jp.toto.com/pages/knowledge/visit/museum/en/vr/"
                 }
               },
               {
@@ -73,17 +59,32 @@
                 }
               },
               {
-                "label": "TOTO GLOBAL",
-                "link": {
-                  "type": "routeLink",
-                  "href": "https://www.toto.com/en/index.htm"
-                }
-              },
-              {
                 "label": "NEWS",
                 "link": {
                   "type": "routeLink",
                   "href": "/en/news"
+                }
+              },
+              {
+                "label": "OUR JOURNEY",
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://jp.toto.com/pages/en/history/"
+                }
+              },
+              
+              {
+                "label": "TOTO MUSEUM",
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://jp.toto.com/pages/knowledge/visit/museum/en/vr/"
+                }
+              },
+              {
+                "label": "TOTO GLOBAL",
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://www.toto.com/en/index.htm"
                 }
               },
               {
