@@ -215,7 +215,9 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                                       }
                                       return values.map((value, index) => {
                                         console.log(value);
-                                        if (value.toString() === "#MW Matte White" ||  value.toString() === "#MB Matte Black") {
+                                        if (value.toString() === "#MW Matte White" && (key.toLowerCase() === 'for fillings' || key.toLowerCase() === 'for fittings' || key.toLowerCase() === 'forfillings' || key.toLowerCase() === 'forfittings') ) {
+                                          return null;
+                                        } else if (value.toString() === "#MB Matte Black" && (key.toLowerCase() === 'for fillings' || key.toLowerCase() === 'for fittings' || key.toLowerCase() === 'forfillings' || key.toLowerCase() === 'forfittings')) {
                                           return null;
                                         }
                                         return (
