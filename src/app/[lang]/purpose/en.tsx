@@ -1,5 +1,6 @@
 /* eslint-disable */
 'use client'
+import Head from "next/head";
 import { useState } from "react";
 const En = () => {
   const [isOpenVideoPopup, setIsOpenVideoPopup] = useState(false);
@@ -8,6 +9,9 @@ const En = () => {
 
   return (
     <div id='purposeTop' className='page purpose'>
+      <Head>
+        <link rel="preload" href="//players.brightcove.net/4631489730001/BJKE2i5G_default/index.min.js" as="script" />
+      </Head>
       <main className='main'>
         <div id='hero'>
           <div className='hero_container'>
