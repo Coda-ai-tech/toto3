@@ -1,6 +1,6 @@
 'use client';
 import dynamic from 'next/dynamic';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Input, Textarea, Select, SelectItem } from '@heroui/react';
 import {
   ButtonVariation,
@@ -11,6 +11,7 @@ import {
 import { useActionState } from 'react';
 import { ContactUsAction } from '@/actions/contactUs';
 import styles from './ContactUsForm.module.scss';
+import Swal from 'sweetalert2';
 
 const Button = dynamic(() => import('@@/Button'), { ssr: false });
 
@@ -21,6 +22,21 @@ const inquiryType = [
   { key: 'others', label: 'Others' },
 ];
 
+// Temporary IconList type; replace with actual type from your project
+type IconList = any; // Fallback to bypass type error; update with actual IconList
+
+interface ButtonElement<T> {
+  label: string;
+  variant: ButtonVariation;
+  color: ButtonColor;
+  shape: ButtonShape;
+  icon: T;
+  link: {
+    type: ButtonAction;
+    href: string | null;
+  };
+}
+
 const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
   const [error, setError] = useState('');
   const [selectedInquiryType, setSelectedInquiryType] = useState<string>('');
@@ -28,12 +44,12 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
   // Initialize action state for the contact form
   const [state, formAction] = useActionState(ContactUsAction, {});
 
-  const submitCta = {
+  const submitCta: ButtonElement<IconList> = {
     label: 'SUBMIT',
     variant: ButtonVariation.contain,
     color: ButtonColor.primary,
     shape: ButtonShape.horizontal,
-    icon: null,
+    icon: null, // Set to null to avoid type mismatch; update based on IconList
     link: {
       type: ButtonAction.submit,
       href: null,
@@ -56,8 +72,60 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
     }
   };
 
+  // Handle form submission with processing spinner popup
+  const handleSubmit = async (formData: FormData) => {
+    // Show processing spinner popup
+    Swal.fire({
+      title: 'Processing...',
+      html: '<div></div>',
+      allowOutsideClick: false,
+      showConfirmButton: false,
+      didOpen: () => {
+        Swal.showLoading();
+      },
+    });
+
+    try {
+      await formAction(formData);
+    } catch (err) {
+      Swal.close(); // Close spinner popup
+      Swal.fire({
+        icon: 'error',
+        title: 'Submission Failed',
+        text: 'An unexpected error occurred. Please try again.',
+        confirmButtonColor: '#3085d6',
+      });
+    }
+  };
+
+  // Show SweetAlert2 popup for success or error
+  useEffect(() => {
+    if (state.errors || state.success) {
+      Swal.close(); // Close spinner popup if still open
+    }
+
+    if (state.errors) {
+      const errorMessages = Object.entries(state.errors)
+        .flatMap(([_, errors]) => (Array.isArray(errors) ? errors : [errors]))
+        .join('\n');
+      Swal.fire({
+        icon: 'error',
+        title: 'Form Submission Error',
+        text: errorMessages,
+        confirmButtonColor: '#3085d6',
+      });
+    } else if (state.success) {
+      Swal.fire({
+        icon: 'success',
+        title: 'Success!',
+        text: state.success,
+        confirmButtonColor: '#000',
+      });
+    }
+  }, [state]);
+
   return (
-    <form className={`${styles.contactUsForm} ${styles[placement]}`} action={formAction}>
+    <form className={`${styles.contactUsForm} ${styles[placement]}`} action={handleSubmit}>
       <legend>Contact TOTO</legend>
       <fieldset>
         <div className={`${styles.formFields}`}>
@@ -111,7 +179,6 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
                   <SelectItem key={item.key} value={item.key}>{item.label}</SelectItem>
                 ))}
               </>
-              
             </Select>
           </div>
           <div className={`${styles.formRow}`}>
@@ -142,21 +209,6 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
               errorMessage={error || undefined}
             />
           </div>
-
-          {/* Display all errors */}
-          {state.errors && (
-            <div className="text-sm text-red-500">
-              {Object.entries(state.errors).map(([key, errors]) =>
-                Array.isArray(errors) ? (
-                  errors.map((error, idx) => <p key={`${key}-${idx}`}>{error}</p>)
-                ) : (
-                  <p key={key}>{errors}</p> // Handle single string (e.g., server error)
-                )
-              )}
-            </div>
-          )}
-          {/* Display success message */}
-          {state.success && <p className="text-sm text-green-500">{state.success}</p>}
 
           <div className={`${styles.formRow} ${styles.formAction}`}>
             <Button content={submitCta} />
