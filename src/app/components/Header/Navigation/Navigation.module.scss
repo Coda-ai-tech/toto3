@@ -180,6 +180,13 @@
   display: flex;
   padding: 4px 0;
 
+  .imageIcon {
+    aspect-ratio: 1;
+    max-height: 25px;
+    max-width: 25px;
+    align-self: center;
+  }
+
   .subNavItem {
     padding-left: 8px;
   }

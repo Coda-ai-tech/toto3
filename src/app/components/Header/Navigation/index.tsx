@@ -213,7 +213,7 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
                                                           <li key={`item-${snIndex}`} className={styles.listItem}>
                                                             {
                                                               subItem.image &&
-                                                              <Image src={subItem.image} alt={subItem.label} height={25} width={25} />
+                                                              <Image className={styles.imageIcon} src={subItem.image} alt={subItem.label} height={25} width={25} />
                                                             }
                                                             <Button
                                                               content={{ ...subItem, variant: ButtonVariation.default }}
@@ -240,7 +240,7 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
                                                   <li key={snIndex} className={styles.listItem}>
                                                     {
                                                       subItem.image &&
-                                                      <Image src={subItem.image} alt={subItem.label} height={25} width={25} />
+                                                      <Image className={styles.imageIcon} src={subItem.image} alt={subItem.label} height={25} width={25} />
                                                     }
                                                     <Button
                                                       content={{ ...subItem, variant: ButtonVariation.default }}
