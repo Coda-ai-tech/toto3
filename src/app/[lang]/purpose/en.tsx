@@ -9,9 +9,6 @@ const En = () => {
 
   return (
     <div id='purposeTop' className='page purpose'>
-      <Head>
-        <link rel="preload" href="//players.brightcove.net/4631489730001/BJKE2i5G_default/index.min.js" as="script" />
-      </Head>
       <main className='main'>
         <div id='hero'>
           <div className='hero_container'>
@@ -76,7 +73,7 @@ const En = () => {
 
             <div className='movie__inner stack'>
               <div>
-                <a href='6318265784112' className='mainv-play no-barba' data-modal-open=''>
+                <a onClick={e => e.preventDefault()} href='6318265784112' className='mainv-play no-barba' data-modal-open=''>
                   <img src='/assets/global/purpose/images/Sustainable_Horizontal_noTitle.jpg' alt='' />
                 </a>
                 <p>
@@ -85,7 +82,7 @@ const En = () => {
                 </p>
               </div>
               <div>
-                <a href='6318268745112' className='mainv-play no-barba' data-modal-open=''>
+                <a onClick={e => e.preventDefault()} href='6318268745112' className='mainv-play no-barba' data-modal-open=''>
                   <img src='/assets/global/purpose/images/Water_Saving_Horizontal_noTitle.jpg' alt='' />
                 </a>
                 <p>
@@ -94,7 +91,7 @@ const En = () => {
                 </p>
               </div>
               <div>
-                <a href='6346311668112' className='mainv-play no-barba' data-modal-open=''>
+                <a onClick={e => e.preventDefault()} href='6346311668112' className='mainv-play no-barba' data-modal-open=''>
                   <img src='/assets/global/purpose/images/after_sales_service_noTitle.jpg' alt='' />
                 </a>
                 <p>
