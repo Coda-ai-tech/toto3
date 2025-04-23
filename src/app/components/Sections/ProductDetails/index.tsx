@@ -201,7 +201,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
 
                                   {Object.entries(item).map(([key, values], index) => {
                                     if (Array.isArray(values) && values.length > 0) {
-                                      let colorChipFolder : string = key.toLowerCase();
+                                      let colorChipFolder: string = key.toLowerCase();
                                       if (key.toLowerCase() === 'for fillings' || key.toLowerCase() === 'for fittings' || key.toLowerCase() === 'forfillings' || key.toLowerCase() === 'forfittings') {
                                         colorChipFolder = 'for_fittings';
                                       } else if (key.toLowerCase() === 'forbathtub') {
@@ -213,19 +213,25 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                                       } else if (key.toLowerCase() === 'forpushbutton') {
                                         colorChipFolder = 'for_push_button';
                                       }
-                                      return values.map((value, index) => (
-                                        <div key={index} className={styles.colorRow}>
-                                          <div className={styles.colorChip}>
-                                            <Image 
-                                            src={`/assets/img/content/products/color_chips/${colorChipFolder}/${value.replace(/#/g, '').replace(/_/g, ' ').replace(/ (.*)?/, '_$1')}.png`}
-                                            width={32}
-                                            height={32}
-                                            alt=""
-                                            draggable={false}/>
+                                      return values.map((value, index) => {
+                                        console.log(value);
+                                        if (value.toString() === "#MW Matte White" ||  value.toString() === "#MB Matte Black") {
+                                          return null;
+                                        }
+                                        return (
+                                          <div key={index} className={styles.colorRow}>
+                                            <div className={styles.colorChip}>
+                                              <Image
+                                                src={`/assets/img/content/products/color_chips/${colorChipFolder}/${value.replace(/#/g, '').replace(/_/g, ' ').replace(/ (.*)?/, '_$1')}.png`}
+                                                width={32}
+                                                height={32}
+                                                alt=""
+                                                draggable={false} />
                                             </div>
-                                          <div key={'inner-' + index} className={styles.innerValue}>{value}</div>
-                                        </div>
-                                      ));
+                                            <div key={'inner-' + index} className={styles.innerValue}>{value}</div>
+                                          </div>
+                                        )
+                                      });
                                     }
                                     return null; // Skip empty arrays
                                   })}
