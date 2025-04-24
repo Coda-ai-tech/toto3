@@ -23,7 +23,7 @@ const inquiryType = [
 ];
 
 // Temporary IconList type; replace with actual type from your project
-type IconList = any; // Fallback to bypass type error; update with actual IconList
+type IconList = any;
 
 interface ButtonElement<T> {
   label: string;
@@ -49,30 +49,45 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
     variant: ButtonVariation.contain,
     color: ButtonColor.primary,
     shape: ButtonShape.horizontal,
-    icon: null, // Set to null to avoid type mismatch; update based on IconList
+    icon: null,
     link: {
       type: ButtonAction.submit,
       href: null,
     },
   };
 
-  const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB in bytes
+  const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB per file
+  const MAX_TOTAL_SIZE = 10 * 1024 * 1024; // 10MB total
+  const MAX_FILES = 5; // Max 5 files
 
-  const handleFileChange = (event: any) => {
-    const selectedFile = event.target.files[0];
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const selectedFiles = event.target.files;
 
-    if (selectedFile) {
-      if (selectedFile.size > MAX_FILE_SIZE) {
-        setError('File size exceeds 5MB. Please select a smaller file.');
-      } else {
-        setError('');
+    if (selectedFiles && selectedFiles.length > 0) {
+      if (selectedFiles.length > MAX_FILES) {
+        setError(`Maximum ${MAX_FILES} files allowed.`);
+        return;
       }
+
+      const totalSize = Array.from(selectedFiles).reduce((sum, file) => sum + file.size, 0);
+      if (totalSize > MAX_TOTAL_SIZE) {
+        setError('Total file size exceeds 10MB.');
+        return;
+      }
+
+      for (const file of Array.from(selectedFiles)) {
+        if (file.size > MAX_FILE_SIZE) {
+          setError(`File "${file.name}" exceeds 5MB.`);
+          return;
+        }
+      }
+      setError('');
     } else {
       setError('');
     }
   };
 
-  // Handle form submission with processing spinner popup
+  // Handle form submission with processing spinner popup and timeout
   const handleSubmit = async (formData: FormData) => {
     // Show processing spinner popup
     Swal.fire({
@@ -86,13 +101,21 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
     });
 
     try {
-      await formAction(formData);
+      // Set a timeout for the form action
+      const result = await Promise.race([
+        formAction(formData),
+        new Promise((_, reject) =>
+          setTimeout(() => reject(new Error('Form submission timed out after 40 seconds')), 40000)
+        ),
+      ]);
+      return result;
     } catch (err) {
-      Swal.close(); // Close spinner popup
+      console.error('Form submission error:', err);
+      Swal.close();
       Swal.fire({
         icon: 'error',
         title: 'Submission Failed',
-        text: 'An unexpected error occurred. Please try again.',
+        text: err.message || 'An unexpected error occurred. Please try again.',
         confirmButtonColor: '#3085d6',
       });
     }
@@ -101,7 +124,7 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
   // Show SweetAlert2 popup for success or error
   useEffect(() => {
     if (state.errors || state.success) {
-      Swal.close(); // Close spinner popup if still open
+      Swal.close(); // Close spinner popup
     }
 
     if (state.errors) {
@@ -197,13 +220,14 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
           </div>
           <div className={`${styles.formRow} mt-6`}>
             <Input
-              label="Please provide photos or copy of receipts (if applicable) for our reference."
+              label="Please provide photos or copy of receipts (if applicable) for our reference. Maximum 5 photos are allowed and less than 10MB in total."
               labelPlacement="outside"
               type="file"
               className={`${styles.formField}`}
               classNames={{ label: styles.fieldLabelOutside }}
               accept=".gif,.jpg,.jpeg,.png,.doc,.docx"
               name="file"
+              multiple
               onChange={handleFileChange}
               isInvalid={error.length > 0}
               errorMessage={error || undefined}
