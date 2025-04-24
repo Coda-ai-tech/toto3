@@ -88,7 +88,7 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
   };
 
   // Handle form submission with processing spinner popup and timeout
-  const handleSubmit = async (formData: FormData) => {
+  const handleSubmit = async (formData: FormData): Promise<void> => {
     // Show processing spinner popup
     Swal.fire({
       title: 'Processing...',
@@ -102,20 +102,19 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
 
     try {
       // Set a timeout for the form action
-      const result = await Promise.race([
+      await Promise.race([
         formAction(formData),
         new Promise((_, reject) =>
           setTimeout(() => reject(new Error('Form submission timed out after 40 seconds')), 40000)
         ),
       ]);
-      return result;
     } catch (err) {
       console.error('Form submission error:', err);
       Swal.close();
       Swal.fire({
         icon: 'error',
         title: 'Submission Failed',
-        text: err.message || 'An unexpected error occurred. Please try again.',
+        text: err instanceof Error ? err.message : 'An unexpected error occurred. Please try again.',
         confirmButtonColor: '#3085d6',
       });
     }
@@ -220,7 +219,7 @@ const ContactUsForm = ({ placement }: { placement: 'home' | 'contactUs' }) => {
           </div>
           <div className={`${styles.formRow} mt-6`}>
             <Input
-              label="Please provide photos or copy of receipts (if applicable) for our reference. Maximum 5 photos are allowed and less than 10MB in total."
+              label="Please provide photos or copy of receipts (if applicable) for our reference."
               labelPlacement="outside"
               type="file"
               className={`${styles.formField}`}
