@@ -399,7 +399,7 @@
     input {
       @apply h-[40px] bg-white border border-solid border-white px-4 text-sm w-[140px];
       background-color: transparent;
-      color: white;
+      color: #a8a8a8;
       &:focus-visible {
         @apply outline-dotted outline-black outline-2;
       }
