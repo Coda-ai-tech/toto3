@@ -25,6 +25,11 @@ const nextConfig: NextConfig = {
     //   },
     // ],
   },
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '10mb', // Increase body size limit for server actions
+    },
+  },
   async redirects() {
     return [
       {
