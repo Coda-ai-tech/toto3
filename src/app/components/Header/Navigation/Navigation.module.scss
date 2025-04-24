@@ -224,9 +224,16 @@
     
       .searchIcon {
         @apply w-5 h-5 text-white;
+        width: 20px;
+        height: 20px;
       }
     }
   }
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
 }
 
 .forceDark {
