@@ -221,6 +221,7 @@
 
     .searchButton {
       @apply w-[20px] flexCenter;
+      vertical-align: sub;
     
       .searchIcon {
         @apply w-5 h-5 text-white;
@@ -229,6 +230,9 @@
       }
     }
   }
+}
+.searchButton {
+  vertical-align: sub;
 }
 
 .searchIcon {
