@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import styles from './VrViewer.module.scss';
 
 interface VrViewerProps {
-  houseType: 'p1' | 'p2' | 'p3' | 'p4';
+  houseType: 'p1' | 'p2' | 'p3' | 'p4' | 'p5' | 'p6' | 'p7' | 'p8';
   title?: string;
 }
 
@@ -16,7 +16,7 @@ declare global {
   }
 }
 
-const VrViewer = ({ houseType, title }: VrViewerProps) => {
+const VrViewer = ({ houseType }: VrViewerProps) => {
   // Use a ref to track initialization state instead of useState
   const isInitialized = useRef(false);
   const isPanoInitialized = useRef(false);
@@ -28,17 +28,17 @@ const VrViewer = ({ houseType, title }: VrViewerProps) => {
 
     // Create script tag
     const script = document.createElement('script');
-    script.src = "/assets/vr/house/pano_common/tour.js";
+    script.src = '/assets/vr/house/pano_common/tour.js';
     script.async = false;
-    
+
     script.onload = () => {
-      console.log("Krpano script loaded");
+      console.log('Krpano script loaded');
       // Initialize panorama after script is loaded
       initPanorama();
     };
-    
+
     document.head.appendChild(script);
-    
+
     // Clean up function
     return () => {
       if (isPanoInitialized.current && window.removepano) {
@@ -57,7 +57,7 @@ const VrViewer = ({ houseType, title }: VrViewerProps) => {
         window.removepano('pano');
         isPanoInitialized.current = false;
       }
-      
+
       // Then initialize new panorama
       initPanorama();
     }
@@ -67,7 +67,7 @@ const VrViewer = ({ houseType, title }: VrViewerProps) => {
   const initPanorama = () => {
     // Make sure embedpano is available
     if (!window.embedpano) {
-      console.error("embedpano function not available");
+      console.error('embedpano function not available');
       return;
     }
 
@@ -75,17 +75,17 @@ const VrViewer = ({ houseType, title }: VrViewerProps) => {
       // This matches the example you provided exactly
       window.embedpano({
         xml: `/assets/vr/house/${houseType}/tour.xml`,
-        target: "pano",
-        html5: "prefer",
+        target: 'pano',
+        html5: 'prefer',
         mobilescale: 1.0,
         passQueryParameters: true,
-        basepath: "/assets/vr/house/pano_common/" // Add this line to fix plugin loading
+        basepath: '/assets/vr/house/pano_common/', // Add this line to fix plugin loading
       });
-      
+
       isPanoInitialized.current = true;
       console.log(`Panorama initialized for ${houseType}`);
     } catch (error) {
-      console.error("Error initializing panorama:", error);
+      console.error('Error initializing panorama:', error);
     }
   };
 

@@ -5,14 +5,6 @@ import GlobalLayout from '@@/LayoutProvider/global';
 import GlobalPageProvider from '@@/GlobalPageProvider';
 import VrHouse from './VrHouse';
 
-// Define the house titles for metadata and breadcrumbs
-const houseTitles = {
-  p1: { en: 'London Penthouse', zh: '倫敦頂層公寓' },
-  p2: { en: 'Southern France Villa', zh: '南法別墅' },
-  p3: { en: 'Munich Modern Home', zh: '慕尼黑現代住宅' },
-  p4: { en: 'Zurich Apartment', zh: '蘇黎世公寓' },
-};
-
 // Define page path array - will be extended with the house-specific path
 const pagePath = [
   {
@@ -33,9 +25,7 @@ export async function generateMetadata({
   params: Promise<{ lang: Locale; id: string }>;
 }): Promise<Metadata> {
   const { lang, id } = await params;
-  
-  // Get the house title or use a default
-  const houseTitle = houseTitles[id as keyof typeof houseTitles]?.[lang] || 'VR House';
+  const houseTitle = 'VR House';
 
   const metaProps = {
     en: {
@@ -61,30 +51,32 @@ export default async function Page({
   params: Promise<{ lang: Locale; id: string }>;
 }) {
   const { lang, id } = await params;
-  
-  // Get the house title or use a default
-  const houseTitle = houseTitles[id as keyof typeof houseTitles]?.[lang] || 'VR House';
-  
+
   // Add the current house to the breadcrumb
   const currentPath = [
     ...pagePath,
     {
-      enTitle: houseTitles[id as keyof typeof houseTitles]?.en || 'VR House',
-      zhTitle: houseTitles[id as keyof typeof houseTitles]?.zh || 'VR 房屋',
+      enTitle: 'VR House',
+      zhTitle: 'VR 房屋',
       slug: `vr-experience/${id}`,
     },
   ];
-  
+
   const breadcrumb = GetBreadcrumbs(currentPath);
 
-  const validHouseTypes = ['p1', 'p2', 'p3', 'p4'];
+  const validHouseTypes = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8'];
   const isValidHouse = validHouseTypes.includes(id);
 
   return (
     <body>
       <>
         {isValidHouse ? (
-          <VrHouse houseType={id as 'p1' | 'p2' | 'p3' | 'p4'} lang={lang} />
+          <VrHouse
+            houseType={
+              id as 'p1' | 'p2' | 'p3' | 'p4' | 'p5' | 'p6' | 'p7' | 'p8'
+            }
+            lang={lang}
+          />
         ) : (
           <div style={{ padding: '50px 20px', textAlign: 'center' }}>
             <h1>House not found</h1>
