@@ -96,7 +96,9 @@ export interface MediaElement {
 }
 
 export interface SectionTitle {
-  title:string;
-  subTitle?:string;
-  description?:string;
+  title: string;
+  subTitle?: string;
+  description?: string;
 }
+
+export type HouseType = 'p1' | 'p2' | 'p3' | 'p4' | 'p5' | 'p6' | 'p7' | 'p8';

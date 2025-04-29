@@ -5,8 +5,7 @@
     "category_name": "Resort",
     "cate_id": "3",
     "vr": true,
-    "comment": "This vr house should be house03/p1",
-    "vr_house_id": "p1",
+    "vr_house_id": "p8",
     "description": "You can see the rock-faced walls as if they were connected directly to the spectacular view outside the window. The glossy white porcelain emerges and shines in a space organized with natural materials of gray rock tiles and slates. The soft shadows created by the floating layout and downlights elevates extraordinary experiences, offering a supreme resort space."
   },
   {
@@ -31,8 +30,7 @@
     "category_name": "Urban",
     "cate_id": "4",
     "vr": true,
-    "comment": "This vr house should be house02/p1",
-    "vr_house_id": "p1",
+    "vr_house_id": "p5",
     "description": "This is a luxurious hotel bathroom made using a variety of different materials, and designed with an ivory tone. Indirect lighting installed in the gold gilded ceiling sheds gentle light on the bathroom. The faucets and curves of the toilet are decorated with nickel, with their gentle luster creating graceful harmony inside the room. The room offers ultimate relaxation, while peering down on the evening cityscape."
   },
   {
@@ -41,8 +39,7 @@
     "category_name": "Urban",
     "cate_id": "4",
     "vr": true,
-    "comment": "This vr house should be house02/p2",
-    "vr_house_id": "p2",
+    "vr_house_id": "p7",
     "description": "This is a soothing bathroom encased in glass as if blending into the view of the skyscrapers. A touch of sharpness is added to the interior, in a greyish tone with wooden accents, by the black faucets and curves of the toilet. The overall color coordination testifies to the high sense of aesthetics. This bathroom offers a space of utmost luxury for adults with refined tastes who will enjoy looking out across the metropolis nightscape as if the entire city belonged to them."
   },
   {
@@ -51,8 +48,7 @@
     "category_name": "Suburban",
     "cate_id": "5",
     "vr": true,
-    "comment": "This vr house should be house02/p3",
-    "vr_house_id": "p3",
+    "vr_house_id": "p6",
     "description": "Shimmering light and shadows filter through the treetops filling this immaculate white-toned bathroom. It offers a soothing space for spending a quiet afternoon as if enveloped in a cocoon. The counter with flowing wood grains and brushstrokes visible on the painted walls provide a comfortable space, with large vertically aligned tiles creating just the right amount of sharpness."
   },
   {

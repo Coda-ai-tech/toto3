@@ -201,6 +201,16 @@
       "tel": ["2396 9088"]
     },
     {
+      "district": "Kowloon",
+      "location": "Mongkok",
+      "name": "Shun Lee Building Materials",
+      "address": "G/F, 296 Portland Street, Mongkok, Kowloon",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.854127152816!2d114.16563147520708!3d22.321355942132154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c80799367f%3A0xc70dc95fa00e6698!2sShun%20Lee%20Building%20Materials%20%26%20Sanitary%20Wares%20Ltd!5e0!3m2!1sen!2shk!4v1745910896827!5m2!1sen!2shk",
+      "thumb": "/assets/img/content/location/ShunLee_MK.JPG",
+      "time": null,
+      "tel": ["2380 3918"]
+    },
+    {
       "district": "New Territories",
       "location": "Tsuen Wan",
       "name": "Sun East Metal & Sanitary Ware Ltd.",

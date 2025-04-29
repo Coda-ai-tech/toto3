@@ -16,6 +16,8 @@ import Image from 'next/image';
 import { TechnologyListItem, TechnologyItemData } from '../TechnologyList/TechnologyGroup';
 import { IconList } from '@/types/icons';
 import { useEffect, useState } from 'react';
+import { ProductCard } from '../ProductList';
+import productData from '../../../../../public/api/en/product-data.json';
 
 const ShareButton = dynamic(() => import('@@/ShareButton'), { ssr: false });
 const Button = dynamic(() => import('@@/Button'), { ssr: false });
@@ -33,6 +35,7 @@ interface Product extends SectionTitle {
   technologies: TechnologyItemData[];
   downloads: string[];
   productName: string;
+  relatedProduct: string[];
 }
 
 interface Awards {
@@ -123,7 +126,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
   })
 
   const {
-    content: { id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName }
+    content: { id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName, relatedProduct }
   } = data;
   return (
     <section className={`${styles.productDetails}`}>
@@ -215,7 +218,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                                       }
                                       return values.map((value, index) => {
                                         console.log(value);
-                                        if (value.toString() === "#MW Matte White" && (key.toLowerCase() === 'for fillings' || key.toLowerCase() === 'for fittings' || key.toLowerCase() === 'forfillings' || key.toLowerCase() === 'forfittings') ) {
+                                        if (value.toString() === "#MW Matte White" && (key.toLowerCase() === 'for fillings' || key.toLowerCase() === 'for fittings' || key.toLowerCase() === 'forfillings' || key.toLowerCase() === 'forfittings')) {
                                           return null;
                                         } else if (value.toString() === "#MB Matte Black" && (key.toLowerCase() === 'for fillings' || key.toLowerCase() === 'for fittings' || key.toLowerCase() === 'forfillings' || key.toLowerCase() === 'forfittings')) {
                                           return null;
@@ -392,7 +395,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
           </div>
         </div>
       }
-      {/* <div id="downloads">
+      <div id="downloads">
         <div className={styles.downloadContainer}>
           <div className={styles.subHeadings}>
             DOWNLOADS
@@ -403,7 +406,31 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             ))}
           </div>
         </div>
-      </div> */}
+      </div>
+
+      {relatedProduct && relatedProduct.length > 0 && (
+        <div id="relatedProducts">
+          <div className={styles.relatedProductContainer}>
+            <div className={styles.subHeadings}>
+              RELATED PRODUCTS
+            </div>
+            <div className={styles.products}>
+              {relatedProduct.map((product, index) => {
+                const foundProduct = productData.data.find((current) => current.id === product.replaceAll(/[#+/]/g, "-").replaceAll(" ", ""));
+                if (!foundProduct)
+                  return;
+
+                return (
+                  <ProductCard key={`relatedProduct-${foundProduct.id}`}
+                    data={foundProduct} />
+                )
+              })}
+            </div>
+          </div>
+        </div>
+      )
+      }
+
     </section>
   )
 }

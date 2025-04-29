@@ -252,7 +252,7 @@ const Header = ({ data }: { data: GlobalDataProps }) => {
                                       <div className={`${styles.mobSubGroupList}`}>
                                         {item.items?.map((subMenu: any, tIndex: number) => {
                                           return (
-                                            <div className={styles.mobListItem}>
+                                            <div key={subMenu.label + tIndex} className={styles.mobListItem}>
                                               {
                                                 subMenu.image &&
                                                 <Image src={subMenu.image} alt={subMenu.label} height={25} width={25} />

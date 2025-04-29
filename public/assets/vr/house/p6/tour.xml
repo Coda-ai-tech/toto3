@@ -1,0 +1,589 @@
+﻿<krpano version="1.20.11" title="Virtual Tour">
+
+	<include url="../pano_common/skin/vtourskin_new.xml" />
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="false"
+	               thumbs="false"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+
+
+	<!-- startup action - load the first scene -->
+	<action name="startup" autorun="onstart">
+		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
+		loadscene(get(startscene), null, MERGE);
+		if(startactions !== null, startactions() );
+	</action>
+
+	<layer name="opt_select"
+            type="container"
+            keep="true"
+            now="def"
+            align="bottom"
+            width="100%"
+            height="40"
+        >
+        </layer>
+
+        <action name="skin_hotspotstyle_click" scope="local">
+            <!--
+            if(caller.linkedscene == scene_p13_pano_1,
+                js(console.log("pano1"));
+                p3pano_modalreset();
+            );
+            -->
+            
+    		if(isvalue(caller.linkedscene),
+                if(layer[opt_select].now == opt AND isvalue(caller.linkedscene_opt),
+                    copy(hs_linkedscene, caller.linkedscene_opt);
+                ,
+                    if(layer[opt_select].now == opt2 AND isvalue(caller.linkedscene_opt2),
+                        copy(hs_linkedscene, caller.linkedscene_opt2);
+                    ,
+                        copy(hs_linkedscene, caller.linkedscene);
+                    );
+                );
+
+    			if(caller.linkedscene_lookat, txtsplit(caller.linkedscene_lookat, ',', hs_lookat_h, hs_lookat_v, hs_lookat_fov); );
+    			set(caller.enabled, false);
+    			skin_hidetooltips();
+
+    				skin_loadscene(get(hs_linkedscene), get(skin_settings.loadscene_blend));
+    				if(hs_lookat_h !== null, skin_lookat(get(hs_lookat_h), get(hs_lookat_v), get(hs_lookat_fov)); );
+    				skin_updatescroll();
+
+    		);
+    	</action>
+
+        <action name="set_opt2">
+            set(layer[opt_select].now,opt2);
+        </action>
+ 	<style name="selectstyle_opt2" type="text" align="center" edge="left"
+                   alpha="0"  scale="0.4" zoom="true"
+                   autoalpha="true"
+                   onclick="if(layer[opt_select].now != opt2,
+                                set_opt2();
+
+                                if(isvalue(scene[get(xml.scene)].opt2scene),                        
+                                
+                                    set(layer[opt_select].optchange,true);
+                                    skin_loadscene(get(scene[get(xml.scene)].opt2scene), get(skin_settings.loadscene_blend), MERGE|KEEPVIEW));
+                                );
+                            )" />
+
+
+
+	<scene name="scene_p13_pano_base" title="p13_pano_base1" onstart="scene_onstart()" thumburl="panos/p13_pano_base.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="false" />
+
+		<view hlookat="0" vlookat="2" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="70" fovmax="130" limitview="range" hlookatmin="-100" hlookatmax="80" architectural="0.8" />
+
+		<preview url="panos/p13_pano_base.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_base.tiles/pano_%s.jpg" />
+		</image>
+
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="5.559" atv="23.874" linkedscene="scene_p13_pano_op" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-16.972" atv="28.998" linkedscene="scene_p13_pano_3" linkedscene_opt="scene_p13_pano_3_opt" linkedscene_opt2="scene_p13_pano_3_opt_2" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="15.586" atv="10.444" linkedscene="scene_p13_pano_2" linkedscene_opt="scene_p13_pano_2_opt" linkedscene_opt2="scene_p13_pano_2_opt2" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="28.714" atv="33.468" linkedscene="scene_p13_pano_1" linkedscene_opt="scene_p13_pano_1_opt_1" linkedscene_opt2="scene_p13_pano_1_opt2" />    
+    </scene>
+
+	<scene name="scene_p13_pano_op" title="p13_pano_op" onstart="scene_onstart()" thumburl="panos/p13_pano_op.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="52.459" vlookat="0" fovtype="MFOV" fov="110.000" maxpixelzoom="2.0" fovmin="70" fovmax="120" limitview="auto" architectural="0.5" />
+
+		<preview url="panos/p13_pano_op.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_op.tiles/pano_%s.jpg" />
+		</image>
+
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="73.055" atv="32.976" linkedscene="scene_p13_pano_2" linkedscene_opt="scene_p13_pano_2_opt" linkedscene_opt2="scene_p13_pano_2_opt2" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="142.070" atv="47.711" linkedscene="scene_p13_pano_1" linkedscene_opt="scene_p13_pano_1_opt_1" linkedscene_opt2="scene_p13_pano_1_opt2" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-134.379" atv="48.437" linkedscene="scene_p13_pano_3" linkedscene_opt="scene_p13_pano_3_opt" linkedscene_opt2="scene_p13_pano_3_opt_2" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="170.163" atv="35.998" linkedscene="scene_p13_pano_base" />
+    </scene>
+
+
+	<scene name="scene_p13_pano_1" title="p13_pano_1" onstart="scene_onstart(opt)" thumburl="panos/p13_pano_1.tiles/thumb.jpg" lat="" lng="" heading="" optscene="scene_p13_pano_1_opt_1" opt2scene="scene_p13_pano_1_opt2" >
+
+		<view hlookat="18" vlookat="28" fovtype="MFOV" fov="112.000" maxpixelzoom="2.0" fovmin="70" fovmax="120" limitview="auto" architectural="0.8" />
+
+		<preview url="panos/p13_pano_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_1.tiles/pano_%s.jpg" />
+		</image>
+    
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-29.932" atv="52.575" linkedscene="scene_p13_pano_op" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="9.414" atv="6.502" linkedscene="scene_p13_pano_2" linkedscene_opt="scene_p13_pano_2_opt" linkedscene_opt2="scene_p13_pano_2_opt2" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-64.965" atv="28.882" linkedscene="scene_p13_pano_3" linkedscene_opt="scene_p13_pano_3_opt" linkedscene_opt2="scene_p13_pano_3_opt_2" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-103.616" atv="45.396" linkedscene="scene_p13_pano_base" />
+
+		<hotspot name="modal_hs" style="modal_hsstyle" url="../pano_common/skin/hs_toilet.png" ath="42" atv="24" modal="now_modal" />
+		<hotspot name="modal_hs3" style="modal_hsstyle" url="../pano_common/skin/hs_paperholder.png" ath="23" atv="17" edge="leftbottom" modal="now_modal3" no_opt="true" />
+
+	        <hotspot name="now_modal" devices="!mobile" style="modalstyle" url="img/modal_toilet_def.png" ath="10" atv="36" edge="rightbottom" />
+	        <hotspot name="now_modal3" devices="!mobile" style="modalstyle" edge="right" url="img/modal_paperholder.png" ath="10" atv="16" />
+
+	        <layer name="now_modal" devices="mobile" style="modalstyle_sp" url="img/modal_toilet_def.png" ath="45" atv="28" />
+	        <layer name="now_modal3" devices="mobile" style="modalstyle_sp" url="img/modal_paperholder.png" ath="-19" atv="15" />
+
+	        <layer name="close_modal" style="closemodalstyle" />
+
+            <!-- 角型はopt2 -->
+	        <hotspot name="opt2" style="selectstyle_opt2" devices="!mobile"
+	               ath="20" atv="65" oy="-120" edge="right" align="leftbottom"
+	               url="img/btn_toilet_opt.png"
+	               />
+	        <layer name="opt2" style="selectstyle_opt2|selectstyle_sp" devices="mobile"
+                   ox="10"
+	               url="img/btn_toilet_opt.png"
+	               />
+
+        </scene>
+
+    <action name="p3pano_modalreset">
+        set(layer[opt_select].nowmodal,"");
+    </action>
+    
+    <!-- opt1は丸型便器 -->
+    <scene name="scene_p13_pano_1_opt_1" title="p13_pano_1_opt_1" onstart="scene_onstart(opt)" thumburl="panos/p13_pano_1.tiles/thumb.jpg" defscene="scene_p13_pano_1" opt2scene="scene_p13_pano_1_opt2">	
+
+		<view hlookat="18" vlookat="28" fovtype="MFOV" fov="112.000" maxpixelzoom="2.0" fovmin="70" fovmax="120" limitview="auto" architectural="0.8" />
+
+		<preview url="panos/p13_pano_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_1.tiles/pano_%s.jpg" />
+		</image>
+    
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-29.932" atv="52.575" linkedscene="scene_p13_pano_op" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="9.414" atv="6.502" linkedscene="scene_p13_pano_2" linkedscene_opt="scene_p13_pano_2_opt" linkedscene_opt2="scene_p13_pano_2_opt2" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-64.965" atv="28.882" linkedscene="scene_p13_pano_3" linkedscene_opt="scene_p13_pano_3_opt" linkedscene_opt2="scene_p13_pano_3_opt_2" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-103.616" atv="45.396" linkedscene="scene_p13_pano_base" />
+
+		<hotspot name="modal_hs" style="modal_hsstyle" url="../pano_common/skin/hs_toilet.png" ath="42" atv="22" modal="now_modal" />
+		<hotspot name="modal_hs3" style="modal_hsstyle" url="../pano_common/skin/hs_paperholder.png" ath="23" atv="17" edge="leftbottom" modal="now_modal3" no_opt="true" />
+
+	        <hotspot name="now_modal" devices="!mobile" style="modalstyle" url="img/modal_toilet_def.png" ath="10" atv="36" edge="rightbottom" />
+	        <hotspot name="now_modal3" devices="!mobile" style="modalstyle" edge="right" url="img/modal_paperholder.png" ath="10" atv="16" />
+
+	        <layer name="now_modal" devices="mobile" style="modalstyle_sp" url="img/modal_toilet_def.png" ath="45" atv="28" />
+	        <layer name="now_modal3" devices="mobile" style="modalstyle_sp" url="img/modal_paperholder.png" ath="-19" atv="15" />
+
+	        <layer name="close_modal" style="closemodalstyle" />
+
+            <!-- 角型はopt2 -->
+	        <hotspot name="opt2" style="selectstyle_opt2" devices="!mobile"
+	               ath="20" atv="65" oy="-120" edge="right" align="leftbottom"
+	               url="img/btn_toilet_opt.png"
+	               />
+	        <layer name="opt2" style="selectstyle_opt2|selectstyle_sp" devices="mobile"
+                   ox="10"
+	               url="img/btn_toilet_opt.png"
+	               />
+	</scene>
+
+    <!-- opt2の時のみ角型便器 -->
+	<scene name="scene_p13_pano_1_opt2" title="p13_pano_1_opt_1" onstart="scene_onstart(opt)" thumburl="panos/p13_pano_1_opt.tiles/thumb.jpg" lat="" lng="" heading="" defscene="scene_p13_pano_1" optscene="scene_p13_pano_1_opt_1">
+		
+		<view hlookat="18" vlookat="28" fovtype="MFOV" fov="112.000" maxpixelzoom="2.0" fovmin="70" fovmax="120" limitview="auto" architectural="0.8" />
+
+		<preview url="panos/p13_pano_1_opt.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_1_opt.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-29.932" atv="52.575" linkedscene="scene_p13_pano_op" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="9.414" atv="6.502" linkedscene="scene_p13_pano_2" linkedscene_opt="scene_p13_pano_2_opt" linkedscene_opt2="scene_p13_pano_2_opt2" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-64.965" atv="28.882" linkedscene="scene_p13_pano_3" linkedscene_opt="scene_p13_pano_3_opt" linkedscene_opt2="scene_p13_pano_3_opt_2" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-103.616" atv="45.396" linkedscene="scene_p13_pano_base" />
+
+		<hotspot name="modal_hs" style="modal_hsstyle" url="../pano_common/skin/hs_toilet.png" ath="42" atv="22" modal="now_modal" />
+		<hotspot name="modal_hs3" style="modal_hsstyle" url="../pano_common/skin/hs_paperholder.png" ath="23" atv="17" edge="leftbottom" modal="now_modal3" no_opt="true" />
+
+	        <hotspot name="now_modal" devices="!mobile" style="modalstyle" url="img/modal_toilet_opt.png" ath="10" atv="36" edge="rightbottom" />
+	        <hotspot name="now_modal3" devices="!mobile" style="modalstyle" edge="left" url="img/modal_paperholder.png" ath="10" atv="16" />
+
+	        <layer name="now_modal" devices="mobile" style="modalstyle_sp" url="img/modal_toilet_opt.png" ath="45" atv="28" />
+	        <layer name="now_modal3" devices="mobile" style="modalstyle_sp" url="img/modal_paperholder.png" ath="-19" atv="15" />
+
+	        <layer name="close_modal" style="closemodalstyle" />
+
+	        <hotspot name="def" style="selectstyle_def" devices="!mobile"
+	               ath="20" atv="65" ox="-25" oy="-130"  edge="right" align="leftbottom"
+	               url="img/btn_toilet_def.png"
+	               />
+	        <layer name="def" style="selectstyle_def|selectstyle_sp" devices="mobile"
+	               url="img/btn_toilet_def.png"
+                   ox="10"
+	               />
+
+        </scene>
+    
+
+	<scene name="scene_p13_pano_2" title="p13_pano_2" onstart="scene_onstart(opt)" thumburl="panos/p13_pano_2.tiles/thumb.jpg" lat="" lng="" heading="" optscene="scene_p13_pano_2_opt" optscene2="scene_p13_pano_2_opt2" >
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view  hlookat="90" vlookat="15"  fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="70" fovmax="120" limitview="auto" architectural="0.5" />
+
+		<preview url="panos/p13_pano_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_2.tiles/pano_%s.jpg" />
+		</image>
+        
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="170.245" atv="40.712" linkedscene="scene_p13_pano_1" linkedscene_opt="scene_p13_pano_1_opt_1" linkedscene_opt2="scene_p13_pano_1_opt2" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-172.561" atv="57.195" linkedscene="scene_p13_pano_op" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-165.844" atv="33.958" linkedscene="scene_p13_pano_base" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-132.975" atv="37.930" linkedscene="scene_p13_pano_3" linkedscene_opt="scene_p13_pano_3_opt" linkedscene_opt2="scene_p13_pano_3_opt_2" />
+
+
+		<hotspot name="modal_hs" style="modal_hsstyle" url="../pano_common/skin/hs_faucet.png" ath="90" atv="25" modal="now_modal" />
+		<hotspot name="modal_hs2" style="modal_hsstyle" url="../pano_common/skin/hs_washbasin.png" ath="100" atv="30" oy="20" edge="leftbottom" modal="now_modal2" />
+		<hotspot name="modal_hs3" style="modal_hsstyle" url="../pano_common/skin/hs_towelbar.png" ath="-25" atv="4" oy="20" edge="leftbottom" modal="now_modal3" no_opt="true" scale="0.9" />
+		<hotspot name="modal_hs4" style="modal_hsstyle" url="../pano_common/skin/hs_bathtub.png" ath="13.360" atv="34" oy="20" edge="leftbottom" modal="now_modal4" no_opt="true" />
+		<hotspot name="modal_hs5" style="modal_hsstyle" url="../pano_common/skin/hs_bathtubmixer.png" ath="-49" atv="19" edge="leftbottom" modal="now_modal5" no_opt="true" scale="0.8" />
+        
+            <hotspot name="now_modal" devices="!mobile" style="modalstyle" url="img/modal_faucet_def.png" ath="70" atv="17" />
+	        <hotspot name="now_modal2" devices="!mobile" style="modalstyle" url="img/modal_washbasin_def.png" ath="70" atv="17" />
+	        <hotspot name="now_modal3" devices="!mobile" style="modalstyle" edge="leftbottom" url="img/modal_towelbar.png" ath="0" atv="23" />
+	        <hotspot name="now_modal4" devices="!mobile" style="modalstyle" edge="leftbottom" url="img/modal_bathtub_def.png" ath="38" atv="40" />
+	        <hotspot name="now_modal5" devices="!mobile" style="modalstyle" edge="rightbottom" url="img/modal_bathtubmixer.png" ath="-60" atv="35" />
+        
+	        <layer name="now_modal" devices="mobile" style="modalstyle_sp" url="img/modal_faucet_def.png" ath="-19" atv="15" />
+	        <layer name="now_modal2" devices="mobile" style="modalstyle_sp" url="img/modal_washbasin_def.png" ath="-19" atv="15" />
+	        <layer name="now_modal3" devices="mobile" style="modalstyle_sp" url="img/modal_towelbar.png" ath="-19" atv="15" />
+	        <layer name="now_modal4" devices="mobile" style="modalstyle_sp" url="img/modal_bathtub_def.png" ath="-19" atv="15" />
+	        <layer name="now_modal5" devices="mobile" style="modalstyle_sp" url="img/modal_bathtubmixer.png" ath="-19" atv="15" />
+        
+        <layer name="close_modal" style="closemodalstyle" scale="1.2" />
+
+	        <hotspot name="opt" style="selectstyle_opt" devices="!mobile"
+	               ath="118" atv="10" edge="lefttop"
+	               url="img/btn_faucet_opt.png"
+	               />
+	        <layer name="opt" style="selectstyle_opt|selectstyle_sp" devices="mobile"
+	               ox="10"
+	               url="img/btn_faucet_opt.png"
+	               />
+	        <hotspot name="opt_b" style="selectstyle_opt" devices="!mobile"
+	               ath="118" atv="13" edge="lefttop"
+	               url="img/btn_washbasin_opt.png"
+	               />
+	        <layer name="opt_b" style="selectstyle_opt|selectstyle_sp" devices="mobile"
+	               ox="10"
+	               url="img/btn_washbasin_opt.png"
+	               />
+	</scene>
+
+	<scene name="scene_p13_pano_2_opt" title="p13_pano_2_opt" onstart="scene_onstart(opt)" thumburl="panos/p13_pano_2_opt.tiles/thumb.jpg" lat="" lng="" heading="" defscene="scene_p13_pano_2" optscene2="scene_p13_pano_2_opt2">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view  hlookat="91.347" vlookat="15"  fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="70" fovmax="120" limitview="auto" architectural="0.5" />
+
+		<preview url="panos/p13_pano_2_opt.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_2_opt.tiles/pano_%s.jpg" />
+		</image>
+        
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="170.245" atv="40.712" linkedscene="scene_p13_pano_1" linkedscene_opt="scene_p13_pano_1_opt_1" linkedscene_opt2="scene_p13_pano_1_opt2" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-172.561" atv="57.195" linkedscene="scene_p13_pano_op" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-165.844" atv="33.958" linkedscene="scene_p13_pano_base" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-132.975" atv="37.930" linkedscene="scene_p13_pano_3" linkedscene_opt="scene_p13_pano_3_opt" linkedscene_opt2="scene_p13_pano_3_opt_2" />
+
+		<hotspot name="modal_hs" style="modal_hsstyle" url="../pano_common/skin/hs_faucet.png" ath="90" atv="25" modal="now_modal" />
+		<hotspot name="modal_hs2" style="modal_hsstyle" url="../pano_common/skin/hs_washbasin.png" ath="100" atv="30" oy="20" edge="leftbottom" modal="now_modal2" />
+		<hotspot name="modal_hs3" style="modal_hsstyle" url="../pano_common/skin/hs_towelbar.png" ath="-25" atv="4" oy="20" edge="leftbottom" modal="now_modal3" no_opt="true" />
+		<hotspot name="modal_hs4" style="modal_hsstyle" url="../pano_common/skin/hs_bathtub.png" ath="13.360" atv="34" oy="20" edge="leftbottom" modal="now_modal4" no_opt="true" />
+		<hotspot name="modal_hs5" style="modal_hsstyle" url="../pano_common/skin/hs_bathtubmixer.png" ath="-49" atv="19" edge="leftbottom" modal="now_modal5" no_opt="true" />
+
+            <hotspot name="now_modal" devices="!mobile" style="modalstyle" url="img/modal_faucet_opt.png" ath="70" atv="17"  />
+	        <hotspot name="now_modal2" devices="!mobile" style="modalstyle" url="img/modal_washbasin_opt.png" ath="70" atv="17" />
+	        <hotspot name="now_modal3" devices="!mobile" style="modalstyle" edge="leftbottom" url="img/modal_towelbar.png" ath="0" atv="23" />
+	        <hotspot name="now_modal4" devices="!mobile" style="modalstyle" edge="leftbottom" url="img/modal_bathtub_def.png" ath="38" atv="40" />
+	        <hotspot name="now_modal5" devices="!mobile" style="modalstyle" edge="leftbottom" url="img/modal_bathtubmixer.png" ath="-15" atv="35" />
+
+	        <layer name="now_modal" devices="mobile" style="modalstyle_sp" url="img/modal_faucet_opt.png" ath="-19" atv="15" />
+	        <layer name="now_modal2" devices="mobile" style="modalstyle_sp" url="img/modal_washbasin_opt.png" ath="-19" atv="15" />
+	        <layer name="now_modal3" devices="mobile" style="modalstyle_sp" url="img/modal_towelbar.png" ath="-19" atv="15" />
+	        <layer name="now_modal4" devices="mobile" style="modalstyle_sp" url="img/modal_bathtub_def.png" ath="-19" atv="15" />
+	        <layer name="now_modal5" devices="mobile" style="modalstyle_sp" url="img/modal_bathtubmixer.png" ath="-19" atv="15" />
+        
+        <layer name="close_modal" style="closemodalstyle" scale="1.2" />
+
+	        <hotspot name="def" style="selectstyle_def" devices="!mobile"
+	               ath="118" atv="13" edge="lefttop"
+	               url="img/btn_faucet_def.png"
+	               />
+	        <layer name="def" style="selectstyle_def|selectstyle_sp" devices="mobile"
+	               ox="10"
+	               url="img/btn_faucet_def.png"
+	               />
+	        <hotspot name="def_b" style="selectstyle_def" devices="!mobile"
+	               ath="118" atv="13" edge="lefttop"
+	               url="img/btn_washbasin_def.png"
+	               />
+	        <layer name="def_b" style="selectstyle_def|selectstyle_sp" devices="mobile"
+	               ox="10"
+	               url="img/btn_washbasin_def.png"
+	               />
+    </scene>
+
+    <!-- opt2は丸型 -->
+	<scene name="scene_p13_pano_2_opt2" title="p13_pano_2" onstart="scene_onstart(opt)" thumburl="panos/p13_pano_2.tiles/thumb.jpg" lat="" lng="" heading="" defscene="scene_p13_pano_2" optscene="scene_p13_pano_2_opt" >
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view  hlookat="90" vlookat="15"  fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="70" fovmax="120" limitview="auto" architectural="0.5" />
+
+		<preview url="panos/p13_pano_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_2.tiles/pano_%s.jpg" />
+		</image>
+        
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="170.245" atv="40.712" linkedscene="scene_p13_pano_1" linkedscene_opt="scene_p13_pano_1_opt_1" linkedscene_opt2="scene_p13_pano_1_opt2" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-172.561" atv="57.195" linkedscene="scene_p13_pano_op" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-165.844" atv="33.958" linkedscene="scene_p13_pano_base" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-132.975" atv="37.930" linkedscene="scene_p13_pano_3" linkedscene_opt="scene_p13_pano_3_opt" linkedscene_opt2="scene_p13_pano_3_opt_2" />
+
+
+		<hotspot name="modal_hs" style="modal_hsstyle" url="../pano_common/skin/hs_faucet.png" ath="90" atv="25" modal="now_modal" />
+		<hotspot name="modal_hs2" style="modal_hsstyle" url="../pano_common/skin/hs_washbasin.png" ath="100" atv="30" oy="20" edge="leftbottom" modal="now_modal2" />
+		<hotspot name="modal_hs3" style="modal_hsstyle" url="../pano_common/skin/hs_towelbar.png" ath="-25" atv="4" oy="20" edge="leftbottom" modal="now_modal3" no_opt="true" scale="0.9" />
+		<hotspot name="modal_hs4" style="modal_hsstyle" url="../pano_common/skin/hs_bathtub.png" ath="13.360" atv="34" oy="20" edge="leftbottom" modal="now_modal4" no_opt="true" />
+		<hotspot name="modal_hs5" style="modal_hsstyle" url="../pano_common/skin/hs_bathtubmixer.png" ath="-49" atv="19" edge="leftbottom" modal="now_modal5" no_opt="true" scale="0.8" />
+        
+            <hotspot name="now_modal" devices="!mobile" style="modalstyle" url="img/modal_faucet_def.png" ath="70" atv="17" />
+	        <hotspot name="now_modal2" devices="!mobile" style="modalstyle" url="img/modal_washbasin_def.png" ath="70" atv="17" />
+	        <hotspot name="now_modal3" devices="!mobile" style="modalstyle" edge="leftbottom" url="img/modal_towelbar.png" ath="0" atv="23" />
+	        <hotspot name="now_modal4" devices="!mobile" style="modalstyle" edge="leftbottom" url="img/modal_bathtub_def.png" ath="38" atv="40" />
+	        <hotspot name="now_modal5" devices="!mobile" style="modalstyle" edge="rightbottom" url="img/modal_bathtubmixer.png" ath="-60" atv="35" />
+        
+	        <layer name="now_modal" devices="mobile" style="modalstyle_sp" url="img/modal_faucet_def.png" ath="-19" atv="15" />
+	        <layer name="now_modal2" devices="mobile" style="modalstyle_sp" url="img/modal_washbasin_def.png" ath="-19" atv="15" />
+	        <layer name="now_modal3" devices="mobile" style="modalstyle_sp" url="img/modal_towelbar.png" ath="-19" atv="15" />
+	        <layer name="now_modal4" devices="mobile" style="modalstyle_sp" url="img/modal_bathtub_def.png" ath="-19" atv="15" />
+	        <layer name="now_modal5" devices="mobile" style="modalstyle_sp" url="img/modal_bathtubmixer.png" ath="-19" atv="15" />
+        
+        <layer name="close_modal" style="closemodalstyle" scale="1.2" />
+
+	        <hotspot name="opt" style="selectstyle_opt" devices="!mobile"
+	               ath="118" atv="10" edge="lefttop"
+	               url="img/btn_faucet_opt.png"
+	               />
+	        <layer name="opt" style="selectstyle_opt|selectstyle_sp" devices="mobile"
+	               ox="10"
+	               url="img/btn_faucet_opt.png"
+	               />
+	        <hotspot name="opt_b" style="selectstyle_opt" devices="!mobile"
+	               ath="118" atv="13" edge="lefttop"
+	               url="img/btn_washbasin_opt.png"
+	               />
+	        <layer name="opt_b" style="selectstyle_opt|selectstyle_sp" devices="mobile"
+	               ox="10"
+	               url="img/btn_washbasin_opt.png"
+	               />
+	</scene>
+    
+    
+	<scene name="scene_p13_pano_3" title="p13_pano_3" onstart="scene_onstart(opt)" thumburl="panos/p13_pano_3.tiles/thumb.jpg" lat="" lng="" heading="" optscene="scene_p13_pano_3_opt" opt2scene="scene_p13_pano_3_opt_2">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-54.465" vlookat="0" fovtype="MFOV" fov="130.000" maxpixelzoom="2.0" fovmin="70" fovmax="135" limitview="auto" architectural="0.8" />
+
+		<preview url="panos/p13_pano_3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_3.tiles/pano_%s.jpg" />
+		</image>
+        
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="54.754" atv="18.200" linkedscene="scene_p13_pano_2" linkedscene_opt="scene_p13_pano_2_opt" linkedscene_opt2="scene_p13_pano_2_opt2" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="71.688" atv="57.002" linkedscene="scene_p13_pano_op" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="97.789" atv="41.624" linkedscene="scene_p13_pano_1" linkedscene_opt="scene_p13_pano_1_opt_1" linkedscene_opt2="scene_p13_pano_1_opt2" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="142.161" atv="50.350" linkedscene="scene_p13_pano_base" />
+        
+		<hotspot name="modal_hs" style="modal_hsstyle" url="../pano_common/skin/hs_shower.png" ath="-57" atv="-33" modal="now_modal" scale="1.4" />
+
+	        <hotspot name="now_modal" devices="!mobile" style="modalstyle" url="img/modal_shower_def.png" ath="-5" atv="-20" edge="left" scale="0.9" />
+	        <layer name="now_modal" devices="mobile" style="modalstyle_sp" url="img/modal_shower_def.png" ath="-19" atv="15" />
+	        <layer name="close_modal" style="closemodalstyle" ox="-10" oy="10" scale="1.2" />
+
+	        <hotspot name="opt" style="selectstyle_opt" devices="!mobile"
+	               ath="-8" atv="-25" edge="right" scale="0.5"
+	               url="img/btn_shower_opt.png"
+	               />
+	        <layer name="opt" style="selectstyle_opt|selectstyle_sp" devices="mobile"
+	               ox="10"
+                   oy="-160"
+	               url="img/btn_shower_opt.png"
+	               />
+	        <hotspot name="opt2" style="selectstyle_opt2" devices="!mobile"
+	               ath="-8" atv="-25" oy="190" edge="right" scale="0.5"
+	               url="img/btn_shower_opt2.png"
+	               />
+	        <layer name="opt2" style="selectstyle_opt2|selectstyle_sp" devices="mobile"
+	               ox="10"
+	               url="img/btn_shower_opt2.png"
+	               />
+
+    </scene>
+
+	<scene name="scene_p13_pano_3_opt" title="p13_pano_3_opt" onstart="scene_onstart(opt)" thumburl="panos/p13_pano_3_opt.tiles/thumb.jpg" lat="" lng="" heading="" defscene="scene_p13_pano_3" opt2scene="scene_p13_pano_3_opt_2">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-54.465" vlookat="0" fovtype="MFOV" fov="130.000" maxpixelzoom="2.0" fovmin="70" fovmax="135" limitview="auto" architectural="0.8" />
+
+		<preview url="panos/p13_pano_3_opt.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_3_opt.tiles/pano_%s.jpg" />
+		</image>
+        
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="54.754" atv="18.200" linkedscene="scene_p13_pano_2" linkedscene_opt="scene_p13_pano_2_opt" linkedscene_opt2="scene_p13_pano_2_opt2"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="71.688" atv="57.002" linkedscene="scene_p13_pano_op" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="97.789" atv="41.624" linkedscene="scene_p13_pano_1" linkedscene_opt="scene_p13_pano_1_opt_1" linkedscene_opt2="scene_p13_pano_1_opt2" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="142.161" atv="50.350" linkedscene="scene_p13_pano_base" />
+
+		<hotspot name="modal_hs" style="modal_hsstyle" url="../pano_common/skin/hs_shower2.png" ath="-42" atv="-11" modal="now_modal" edge="rightbottom" scale="1.4" />
+
+	        <hotspot name="now_modal" devices="!mobile" style="modalstyle" url="img/modal_shower_opt.png" ath="-5" atv="-20" edge="left" scale="0.85" />
+	        <layer name="now_modal" devices="mobile" style="modalstyle_sp" url="img/modal_shower_opt.png" ath="-19" atv="15" />
+	        <layer name="close_modal" style="closemodalstyle" ox="-10" oy="10" scale="1.2" />
+
+	        <hotspot name="def" style="selectstyle_def" devices="!mobile"
+	               ath="-8" atv="-25" edge="right" scale="0.5"
+	               url="img/btn_shower_def.png"
+	               />
+	        <layer name="def" style="selectstyle_def|selectstyle_sp" devices="mobile"
+                   ox="10"
+	               oy="-160"
+	               url="img/btn_shower_def.png"
+	               />
+	        <hotspot name="opt2" style="selectstyle_opt2" devices="!mobile"
+	               ath="-8" atv="-25" oy="190" edge="right" scale="0.5"
+	               url="img/btn_shower_opt2.png"
+	               />
+	        <layer name="opt2" style="selectstyle_opt2|selectstyle_sp" devices="mobile"
+	               ox="10"
+	               url="img/btn_shower_opt2.png"
+	               />
+	</scene>
+
+	<scene name="scene_p13_pano_3_opt_2" title="p13_pano_3_opt" onstart="scene_onstart(opt)" thumburl="panos/p13_pano_3_opt2.tiles/thumb.jpg" lat="" lng="" heading="" defscene="scene_p13_pano_3" optscene="scene_p13_pano_3_opt">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-54.465" vlookat="0.693" fovtype="MFOV" fov="130.000" maxpixelzoom="2.0" fovmin="70" fovmax="135" limitview="auto" architectural="0.5" />
+
+		<preview url="panos/p13_pano_3_opt2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/p13_pano_3_opt2.tiles/pano_%s.jpg" />
+		</image>
+        
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="54.754" atv="18.200" linkedscene="scene_p13_pano_2" linkedscene_opt="scene_p13_pano_2_opt" linkedscene_opt2="scene_p13_pano_2_opt2" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="71.688" atv="57.002" linkedscene="scene_p13_pano_op" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="97.789" atv="41.624" linkedscene="scene_p13_pano_1" linkedscene_opt="scene_p13_pano_1_opt_1" linkedscene_opt2="scene_p13_pano_1_opt2" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="142.161" atv="50.350" linkedscene="scene_p13_pano_base" />
+
+		<hotspot name="modal_hs" style="modal_hsstyle" url="../pano_common/skin/hs_shower2.png" ath="-41" atv="-21" modal="now_modal" edge="rightbottom" scale="1.4" />
+
+	        <hotspot name="now_modal" devices="!mobile" style="modalstyle" url="img/modal_shower_opt2.png" ath="-5" atv="-18" edge="left" scale="0.85" />
+	        <layer name="now_modal" devices="mobile" style="modalstyle_sp" url="img/modal_shower_opt2.png" ath="-19" atv="15" />
+	        <layer name="close_modal" style="closemodalstyle" ox="-10" oy="10" scale="1.2" />
+
+	        <hotspot name="def" style="selectstyle_def" devices="!mobile"
+	               ath="-8" atv="-25" edge="right" scale="0.5"
+	               url="img/btn_shower_def.png"
+	               />
+	        <layer name="def" style="selectstyle_def|selectstyle_sp" devices="mobile"
+	               ox="10"
+                   oy="-140"
+	               url="img/btn_shower_def.png"
+	               />
+	        <hotspot name="opt" style="selectstyle_opt" devices="!mobile"
+	               ath="-8" atv="-25" oy="190" edge="right" scale="0.5"
+	               url="img/btn_shower_opt.png"
+	               />
+	        <layer name="opt" style="selectstyle_opt|selectstyle_sp" devices="mobile"
+	               ox="10"
+	               url="img/btn_shower_opt.png"
+	               />
+	</scene>
+</krpano>

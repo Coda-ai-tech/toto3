@@ -1,26 +1,19 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-import { Locale } from '@/app/i18n.config';
-import VrViewer from '@/app/components/VrViewer/VrViewer';
-import styles from './VrHouse.module.scss';
 import SvgIcon from '@/app/components/SvgIcon';
+import VrViewer from '@/app/components/VrViewer/VrViewer';
+import { Locale } from '@/app/i18n.config';
+import { HouseType } from '@/types';
+import { useRouter } from 'next/navigation';
+import styles from './VrHouse.module.scss';
 
 interface VrHouseProps {
-  houseType: 'p1' | 'p2' | 'p3' | 'p4';
+  houseType: HouseType;
   lang: Locale;
 }
 
-const houseTitles = {
-  p1: { en: 'London Penthouse', zh: '倫敦頂層公寓' },
-  p2: { en: 'Southern France Villa', zh: '南法別墅' },
-  p3: { en: 'Munich Modern Home', zh: '慕尼黑現代住宅' },
-  p4: { en: 'Zurich Apartment', zh: '蘇黎世公寓' },
-};
-
 const VrHouse = ({ houseType, lang }: VrHouseProps) => {
   const router = useRouter();
-  const houseTitle = houseTitles[houseType][lang];
 
   return (
     <div className={styles.vrHouseContainer}>
@@ -35,7 +28,7 @@ const VrHouse = ({ houseType, lang }: VrHouseProps) => {
       </div>
 
       <div className={styles.vrViewerWrapper}>
-        <VrViewer houseType={houseType} title={houseTitle} />
+        <VrViewer houseType={houseType} />
       </div>
     </div>
   );
