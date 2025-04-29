@@ -594,7 +594,7 @@ const categoryList: CategoryItem[] = [
   },
 ];
 
-const ProductCard = ({ data }: { data: ProductItem }) => {
+export const ProductCard = ({ data }: { data: ProductItem }) => {
   const { id, thumb, link, category, subCategory, name } = data;
 
   const learnMoreCta: ButtonElement<IconList> = {
