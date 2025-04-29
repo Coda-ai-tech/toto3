@@ -1,267 +1,97 @@
-@use '_components.scss';
+@use "_components.scss";
 
 .miniBanner {
-  @apply p-0 !important;
-  @apply bg-black;
+  @apply py-5 !important;
+  @apply bg-white;
 
-  .inner {
-    @apply h-dvh max-h-[1200px];
-  }
+  // .mySwiper {
+  //   width: 100%;
+  //  // padding: 50px 0;
+  // }
 
-  .bannerControl {
-    @apply absolute bottom-10 left-0 z-10 w-full pxContent pointer-events-none;
+  .slide {
+    width: 300px;
+    background: #d9d9d9;
+    transform: scale(0.8);
+    transition: transform 0.5s ease;
 
-    .bannerControlInner {
-      @apply max-w-content mx-auto pointer-events-none flex justify-between items-center;
+    &.is-active {
+      transform: scale(1);
     }
   }
 
-  .pagination {
-    @apply relative w-max pointer-events-auto;
-
-    .paginationInner {
-      @apply flex items-center gap-2 min-h-[8px];
-
-      .bullet {
-        @apply block w-[20px] h-[18px] transition-[width,height,background] duration-700;
-
-        @screen md {
-          @apply w-[30px] h-[18px];
-        }
-
-        * {
-          @apply pointer-events-none;
-        }
-
-        .timeProgress {
-          @apply h-[2px] bg-gray-light transition-[width,height,background] duration-700;
-        }
-
-        &.active {
-          @apply w-[40px] h-[18px];
-
-          @screen md {
-            @apply w-[60px] h-[18px];
-          }
-
-          .timeProgress {
-            @apply h-[8px] bg-white;
-          }
-        }
-
-        &:hover,
-        &:focus-visible {
-          .timeProgress {
-            @apply h-[8px] bg-white duration-300;
-          }
-
-          @apply outline-white;
-        }
-      }
-    }
+  .swiper-slide-active {
+    transform: scale(1); // Center slide - normal size
   }
 
-  .arrowControl {
-    @apply relative w-max pointer-events-auto flex items-center gap-2;
+  .swiper-slide-next,
+  .swiper-slide-prev {
+    transform: scale(0.85); // Sides slides - smaller
+  }
 
-    .controlBtn {
-      @apply w-8 h-8 flexCenter;
+  .card {
+    @apply flex flex-col h-[285px] bg-white overflow-hidden;
 
-      @screen md {
-        @apply w-10 h-10;
-      }
-
-      .controlIcon {
-        @apply w-5 h-5 text-white transition-[width,height] duration-300;
-      }
-
-      &:hover,
-      &:focus-visible {
-        @apply cursor-pointer;
-        .controlIcon {
-          @apply w-7 h-7;
-        }
-      }
-
-      &:focus-visible {
-        @apply outline-white;
+    .image {
+      @apply h-1/2 w-full; // Half height
+      img {
+        @apply w-full h-full object-cover; // Image fully covers the area
       }
     }
 
-    .controlPageNum {
-      @apply text-sm text-white tracking-tighter min-w-[30px] text-center;
-    }
-  }
+    .background {
+      background: #d9d9d9;
+      @apply h-1/2 flex flex-col;
 
-  .timeProgress {
-    @apply w-full text-white;
+      .content {
+        @apply flex flex-col flex-1 bg-white mx-[5px] mb-[5px];
+        padding: 20px 20px 0px 12px;
 
-    .progressBar {
-      @apply w-[var(--progress)] h-full bg-primary-accent;
-    }
-  }
+        .top {
+          @apply flex flex-col h-full;
 
-  .swiper {
-    @apply relative z-0 whFull;
-  }
-
-  .playStop {
-    @apply text-white flexCenter;
-  }
-
-  .btnPlayStop {
-    @apply border-1 border-solid border-white w-5 h-5 rounded-full flexCenter;
-
-    .controlIcon {
-      @apply w-2 h-2 text-white;
-    }
-
-    &:hover {
-      box-shadow: 0px 0px 10px #000000, 0px 0px 10px #000000;
-    }
-
-    &:focus-visible {
-      @apply outline-2 outline-white outline-offset-2 outline-dotted;
-    }
-  }
-}
-
-[class*='swiper-slide-active'] {
-  .miniBannerItem {
-    .content {
-      .contentInner {
-        .itemContext {
-          .subTitle,
-          .title,
-          .description,
-          .actions {
-            @apply top-0 opacity-100;
-          }
-
-          .subTitle {
-            @apply delay-[1s];
+          .titleWrapper {
+            @apply text-left;
           }
 
           .title {
-            @apply delay-[1.2s];
+            font-size: 18px;
           }
 
+          .descriptionWrapper {
+            @apply flex flex-1 items-center;
+          }
           .description {
-            @apply font-[var(--font-default)] delay-[1.4s];
-          }
-
-          .actions {
-            @apply delay-[1.6s];
-          }
-        }
-      }
-    }
-
-    .bg {
-      .bgInner {
-        .bgImg {
-          img {
-            @apply translate-x-[0%] opacity-100;
-          }
-        }
-      }
-    }
-  }
-}
-
-
-.itemThumb {
-   //@apply aspect-square max-h-[210px];
-   @apply aspect-square ;
-
-  img {
-    @apply whFull object-cover;
-  }
-
-  // @screen xl {
-  //   @apply hidden;
-  // }
-}
-
-.inactive {
-
-  opacity: 0.4;
-  transition-duration: 500ms;
-}
-.active {
-
-  opacity: 1;
-  transition-duration: 500ms;
-}
-
-.miniBannerItem {
-  @apply relative whFull;
-
-
-  .content {
-    @apply relative z-10 pxContent whFull;
-
-    .contentInner {
-      @apply max-w-content mx-auto h-full flex items-end pb-24;
-
-      @screen md {
-        @apply pb-40;
-      }
-
-      .itemContext {
-        @apply flex flex-col gap-2 text-white max-w-[1024px] w-full;
-
-        @screen md {
-          @apply gap-4;
-        }
-
-        .subTitle,
-        .title,
-        .description,
-        .actions {
-          @apply relative top-10 opacity-0 transition-[top,opacity] duration-1000;
-        }
-
-        .subTitle {
-          @apply text-[12px] tracking-[6px];
-
-          @screen md {
-            @apply text-base tracking-[12px];
+            @apply mt-2 text-left;
+            font-size: 13px;
+            line-height: 1.45;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
           }
         }
 
-        .title {
-          @apply h1;
-        }
-
-        .description {
-          @apply max-w-[600px] w-full;
-        }
-
-        .actions {
-          @apply mt-6;
-        }
-
-        * {
-          @apply outline-white;
+        .bottom {
+          @apply mt-auto mb-[1px] flex justify-end;
+          .learnmore {
+            @apply bg-black py-2 px-4 rounded-full text-sm;
+            border: 1px solid black;
+            background: white;
+            border-radius: 100px;
+            font-size: 13px;
+            padding: 3px 35px;
+          }
         }
       }
     }
   }
 
-  .bg {
-    @apply absolute z-0 top-0 left-0 whFull bg-black;
-
-    .bgInner {
-      @apply relative whFull;
-
-      .bgImg {
-        @apply relative z-0 overflow-hidden;
-
-        img {
-          @apply transition-[transform,opacity] duration-1000 translate-x-[20%] opacity-0;
-        }
-      }
-    }
+  .inactive {
+    opacity: 0;
+    transition: opacity 1000ms;
+  }
+  .active {
+    opacity: 1;
+    transition: opacity 1000ms;
   }
 }
