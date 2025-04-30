@@ -416,7 +416,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             </div>
             <div className={styles.products}>
               {relatedProduct.map((product, index) => {
-                const foundProduct = productData.data.find((current) => current.id === product.replaceAll(/[#+/]/g, "-").replaceAll(" ", ""));
+                const foundProduct = productData.data.find((current) => current.id.replaceAll(/[#+/]/g, "-").replaceAll(" ", "") === product.replaceAll(/[#+/]/g, "-").replaceAll(" ", ""));
                 if (!foundProduct)
                   return;
 
