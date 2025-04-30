@@ -652,7 +652,14 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   const [initialized, setInitialized] = useState(false);
 
   const fetchData = async () => {
-    setProducts(productData.data);
+    try {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${process.env.NEXT_PUBLIC_DEV_CMS_ENDPOINT_SUFFIX}/${lang}/products`);
+        const productDatas = await response.json();
+        setProducts(productDatas.data);
+      } catch (error) {
+        console.log('\x1b[36m%s\x1b[0m', `==== DATA NOT FOUND () ====`);
+        console.error('error', error);
+      }
   };
 
   const keyDownHandler = (e: any) => {

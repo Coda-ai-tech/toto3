@@ -30,7 +30,12 @@
   }
 
   .card {
-    @apply flex flex-col h-[285px] bg-white overflow-hidden;
+   // @apply flex flex-col h-[285px] bg-white overflow-hidden;
+    position: relative;
+  width: 100%;
+  max-width: 1200px;
+  aspect-ratio: 1200 / 1520;
+  margin: 0 auto;
 
     .image {
       @apply h-1/2 w-full; // Half height

@@ -119,7 +119,7 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
                             <p className={`${styles.title}`}>{title}</p>
                           )}
                         </div>
-                        <div className={styles.descriptionWrapper}>
+                        {/* <div className={styles.descriptionWrapper}>
                           {description?.trim() && (
                             <p
                               dangerouslySetInnerHTML={{
@@ -128,7 +128,7 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
                               className={`${styles.description}`}
                             ></p>
                           )}
-                        </div>
+                        </div> */}
                       </div>
                       <div className={`${styles.bottom}`}>
                         <button className={`${styles.learnmore}`}>
