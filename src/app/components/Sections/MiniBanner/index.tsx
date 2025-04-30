@@ -1,6 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
-import { useEffect, useContext, useRef, useState } from "react";
+import { useEffect, useContext, useRef, useState, useMemo } from "react";
 import { ConfigContext } from "@/context/config.context";
 import { ModuleData, SectionTitle, MediaElement, ButtonElement } from "@/types";
 import { IconList } from "@/types/icons";
@@ -13,7 +13,6 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 
 import styles from "./MiniBanner.module.scss";
-
 
 interface MiniBannerItem extends SectionTitle {
   cta: ButtonElement<IconList>[];
@@ -43,6 +42,7 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
 
   const swiperEl = useRef(null);
   const [currentSlide, setCurrentSlide] = useState<number>(0);
+  const [width, setWidth] = useState<number>(0);
 
   const onChangeHandler = (e: any) => {
     if (!swiperEl.current) return;
@@ -51,6 +51,31 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
   };
 
   const ref = useRef<HTMLDivElement>(null);
+  const { xxs, xs, sm, md } = useMemo(() => {
+    return {
+      xxs: width < 480,
+      xs: width < 640,
+      sm: width < 768,
+      md: width < 1024,
+    };
+  }, [width]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      console.log({ innerWidth: window.innerWidth });
+      setWidth(window.innerWidth);
+    };
+    handleResize(); // run once
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const getStretch = () => {
+    if (xs === true) return -50; 
+    if (sm === true) return -50; 
+    if (md === true) return -60; 
+    return -70; 
+  };
 
   return (
     <section
@@ -59,6 +84,7 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
       className={`${styles.miniBanner}`}
     >
       <Swiper
+        key={`stretch-${getStretch()}`}
         ref={swiperEl}
         spaceBetween={0}
         loop={true}
@@ -69,11 +95,13 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
         }}
         centeredSlides={true}
         grabCursor={true}
-        slidesPerView={3}
+        slidesPerView={
+          xxs ? 1.5 : xs === true ? 2 : sm === true ? 2.5 : md === true ? 3 : 3
+        }
         effect="coverflow"
         coverflowEffect={{
           rotate: 0,
-          stretch: -100,
+          stretch: getStretch(),
           depth: 300,
           modifier: 1,
           slideShadows: false,
@@ -118,6 +146,9 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
                           {title?.trim() && (
                             <p className={`${styles.title}`}>{title}</p>
                           )}
+                          <button className={`${styles.learnmore}`}>
+                            Learn more
+                          </button>
                         </div>
                         {/* <div className={styles.descriptionWrapper}>
                           {description?.trim() && (
@@ -130,11 +161,7 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
                           )}
                         </div> */}
                       </div>
-                      <div className={`${styles.bottom}`}>
-                        <button className={`${styles.learnmore}`}>
-                          Learn more
-                        </button>
-                      </div>
+                      <div className={`${styles.bottom}`}></div>
                     </div>
                   </div>
                 </div>
