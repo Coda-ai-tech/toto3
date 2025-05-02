@@ -97,7 +97,9 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TLG10307H/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TLG10308H"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

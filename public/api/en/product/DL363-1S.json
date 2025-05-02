@@ -83,7 +83,9 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/DL363-1S/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "DL363S"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

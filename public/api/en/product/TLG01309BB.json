@@ -97,7 +97,11 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TLG01309BB/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TLG01301B",
+          "TLG01304B",
+          "TLG01307B"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

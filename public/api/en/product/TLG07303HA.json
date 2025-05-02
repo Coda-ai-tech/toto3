@@ -103,7 +103,10 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TLG07303HA/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TLG07301HA",
+          "TLG07305HA"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

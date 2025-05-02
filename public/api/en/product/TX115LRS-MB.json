@@ -83,7 +83,9 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TX115LRS-MB/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TX116LRSN-MB"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

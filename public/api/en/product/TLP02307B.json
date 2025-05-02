@@ -103,7 +103,10 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TLP02307B/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TLP02301B",
+          "TLP02304B"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

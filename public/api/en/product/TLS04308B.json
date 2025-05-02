@@ -73,7 +73,9 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TLS04308B/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TLS04309B"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

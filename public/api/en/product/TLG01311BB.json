@@ -97,7 +97,9 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TLG01311BB/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TLG01310BB"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

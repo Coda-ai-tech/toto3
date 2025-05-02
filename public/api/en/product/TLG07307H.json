@@ -97,7 +97,9 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TLG07307H/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TLG07308H"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

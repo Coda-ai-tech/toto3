@@ -73,7 +73,10 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TLS01304B/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TLS01301B",
+          "TLS01307B"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

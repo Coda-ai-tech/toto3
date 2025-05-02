@@ -103,7 +103,10 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TLG11303B/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TLG11301B",
+          "TLG11303B"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

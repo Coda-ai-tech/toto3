@@ -83,7 +83,9 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TX116LT/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TX115LT"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

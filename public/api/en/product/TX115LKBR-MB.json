@@ -83,7 +83,9 @@
           "/assets/img/content/products/Faucets/lavatory-faucet/TX115LKBR-MB/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "TX116LKBR-MB"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }
