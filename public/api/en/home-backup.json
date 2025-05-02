@@ -193,41 +193,41 @@
       "content": {
         "items": [
           {
-            "subTitle": "NEOREST",
-            "title": "PURE LUXURY",
-            "description": "Visionary technology. Exquisitely designed for comfort and well-being.",
+            "title": "FAUCET PLANNING",
+            "subTitle": "subTitle",
+            "description": "Select your plan",
             "media": {
-              "type": "video",
+              "type": "image",
               "src": {
-                "desktop": "/assets/img/content/hero-banner/neorest.mp4",
+                "desktop": "/assets/img/content/mini-banner/Faucet planning.jpg",
                 "mobile": null
               },
               "alt": "",
-              "poster": "/assets/img/content/hero-banner/neorest.webp",
+              "poster": null,
               "mediaCaption": "This is media caption."
             },
             "cta": [
               {
                 "label": "Learn More",
-                "variant": "contain",
-                "color": "primary",
+                "variant": "default",
+                "color": "overlay",
                 "icon": null,
                 "link": {
-                  "type": "routeLink",
-                  "href": "/en"
+                  "type": "newWindow",
+                  "href": "https://www.toto.com/en/gb_faucet/planning/faucet-lavatory/"
                 }
               }
             ]
           },
           {
-            "subTitle": null,
-            "title": null,
-            "description": null,
+            "title": "FAUCET",
+            "subTitle": "subTitle",
+            "description": "Lightness and dignity in a natural shape for a timeless design",
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/hero-banner/05.webp",
-                "mobile": "/assets/img/content/hero-banner/05_mob.webp"
+                "desktop": "/assets/img/content/mini-banner/Faucet.jpg",
+                "mobile": null
               },
               "alt": "",
               "poster": null,
@@ -236,25 +236,25 @@
             "cta": [
               {
                 "label": "Learn More",
-                "variant": "contain",
-                "color": "primary",
+                "variant": "default",
+                "color": "overlay",
                 "icon": null,
                 "link": {
-                  "type": "routeLink",
-                  "href": "https://www.toto.com/en/ISH2025/"
+                  "type": "newWindow",
+                  "href": "https://www.toto.com/en/gb_faucet/"
                 }
               }
             ]
           },
           {
-            "subTitle": "INSPIRATION",
-            "title": "TO CREATE A CULTURE OF COMFORTABLE HEALTHY LIVING",
-            "description": "Since our founding, we have continuously pursued innovations that offer greater wellness and comfort to daily life.",
+            "title": "Lavatory",
+            "subTitle": "subTitle",
+            "description": "Simple and beautiful in appearance\nComfortable and streamlined design",
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/hero-banner/01.webp",
-                "mobile": "/assets/img/content/hero-banner/01_mob.webp"
+                "desktop": "/assets/img/content/mini-banner/Lavatory.jpg",
+                "mobile": null
               },
               "alt": "",
               "poster": null,
@@ -263,25 +263,25 @@
             "cta": [
               {
                 "label": "Learn More",
-                "variant": "contain",
-                "color": "primary",
+                "variant": "default",
+                "color": "overlay",
                 "icon": null,
                 "link": {
-                  "type": "routeLink",
-                  "href": "/en"
+                  "type": "newWindow",
+                  "href": "https://www.toto.com/en/gb_lavatory/"
                 }
               }
             ]
           },
           {
-            "subTitle": "TECHNOLOGY",
-            "title": "TORNADO FLUSHING",
-            "description": "The powerful toilet flushing system",
+            "title": "SHOWER PLANNING",
+            "subTitle": "subTitle",
+            "description": "Select your plan",
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/hero-banner/02.webp",
-                "mobile": "/assets/img/content/hero-banner/02_mob.webp"
+                "desktop": "/assets/img/content/mini-banner/shower Planning.jpg",
+                "mobile": null
               },
               "alt": "",
               "poster": null,
@@ -290,25 +290,25 @@
             "cta": [
               {
                 "label": "Learn More",
-                "variant": "contain",
-                "color": "primary",
+                "variant": "default",
+                "color": "overlay",
                 "icon": null,
                 "link": {
-                  "type": "routeLink",
-                  "href": "/en/technology/tornado-flush"
+                  "type": "newWindow",
+                  "href": "https://www.toto.com/en/gb_faucet/planning/shower/"
                 }
               }
             ]
           },
           {
-            "subTitle": null,
-            "title": "LET'S WASH WITH TOTO WASHLET",
-            "description": "Always innovating to Spread a Culture of Everyday Comfort and Cleanliness",
+            "title": "SHOWER",
+            "subTitle": "subTitle",
+            "description": "Relaxing\nAn enwrapping embrace of warming water\nMelting away your stress and fatigue",
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/hero-banner/03.webp",
-                "mobile": "/assets/img/content/hero-banner/03_mob.webp"
+                "desktop": "/assets/img/content/mini-banner/Shower.jpg",
+                "mobile": null
               },
               "alt": "",
               "poster": null,
@@ -317,39 +317,12 @@
             "cta": [
               {
                 "label": "Learn More",
-                "variant": "contain",
-                "color": "primary",
+                "variant": "default",
+                "color": "overlay",
                 "icon": null,
                 "link": {
-                  "type": "routeLink",
-                  "href": "cleanovation/washlet"
-                }
-              }
-            ]
-          },
-          {
-            "subTitle": "CLEAN SYNERGY",
-            "title": "TOTO CLEANOVATION",
-            "description": "TOTO innovation brings a new world of clean to life, enriching every moment of every day.",
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/hero-banner/04.webp",
-                "mobile": "/assets/img/content/hero-banner/04_mob.webp"
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            },
-            "cta": [
-              {
-                "label": "Learn More",
-                "variant": "contain",
-                "color": "primary",
-                "icon": null,
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/cleanovation/clean-synergy"
+                  "type": "newWindow",
+                  "href": "https://www.toto.com/en/gb_shower/"
                 }
               }
             ]
