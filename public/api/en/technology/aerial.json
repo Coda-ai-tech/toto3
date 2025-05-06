@@ -45,6 +45,25 @@
         ],
         "youtube": ""
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "TBW01005B+TBN01002B",
+            "description": "Fixed Shower Head with valve unit (Wall Type)",
+            "thumb": "/assets/img/content/products/Shower/fixed-shower-head/TBW01005B+TBN01002B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW01005B+TBN01002B"
+            }
+          }
+        ]
+      }
     }
   ]
 }

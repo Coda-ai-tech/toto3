@@ -45,6 +45,232 @@
         ],
         "youtube": "qcJu5JpU-v8"
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "CS903KVF",
+            "description": "NEOREST NX Actilight Multi-Function Toilet",
+            "thumb": "/assets/img/content/products/Neorest/CS903KVF/content-image.png",
+            "link": {
+                "type": "routeLink",
+                "href": "/en/product/CS903KVF"
+            }
+          },
+          {
+              "title": "CW927PZT / TCF85380GHK#NW1",
+              "description": "NEOREST WX Wall Hung Multi-Function Toilet",
+              "thumb": "/assets/img/content/products/Neorest/CW927PZT-TCF85380GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CW927PZT-TCF85380GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911PVT / TCF87320GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (P-Trap) (Brushed Nickel)",
+              "thumb": "/assets/img/content/products/Neorest/CS911PVT-TCF87320GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911PVT-TCF87320GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911VT / TCF87320GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (S-Trap) (Brushed Nickel)",
+              "thumb": "/assets/img/content/products/Neorest/CS911VT-TCF87320GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911VT-TCF87320GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911PVT / TCF87220GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (P-Trap) (Black)",
+              "thumb": "/assets/img/content/products/Neorest/CS911PVT-TCF87220GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911PVT-TCF87220GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911VT / TCF87220GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (S-Trap) (Black)",
+              "thumb": "/assets/img/content/products/Neorest/CS911VT-TCF87220GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911VT-TCF87220GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911PVT / TCF87120GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (P-Trap) (Silver)",
+              "thumb": "/assets/img/content/products/Neorest/CS911PVT-TCF87120GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911PVT-TCF87120GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911VT / TCF87120GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (S-Trap) (Silver)",
+              "thumb": "/assets/img/content/products/Neorest/CS911VT-TCF87120GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911VT-TCF87120GHK-NW1"
+              }
+          },
+          {
+              "title": "CS921PVT / TCF85510GHK#NW1",
+              "description": "Neorest AS Multi-Function Toilet (P-Trap)",
+              "thumb": "/assets/img/content/products/Neorest/CS921PVT-TCF85510GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS921PVT-TCF85510GHK-NW1"
+              }
+          },
+          {
+              "title": "CS921VT / TCF85510GHK#NW1",
+              "description": "Neorest AS Multi-Function Toilet (S-Trap)",
+              "thumb": "/assets/img/content/products/Neorest/CS921VT-TCF85510GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS921VT-TCF85510GHK-NW1"
+              }
+          },
+          {
+              "title": "CS921PVT / TCF83410GHK#NW1",
+              "description": "Neorest RS Multi-Function Toilet (P-Trap)",
+              "thumb": "/assets/img/content/products/Neorest/CS921PVT-TCF83410GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS921PVT-TCF83410GHK-NW1"
+              }
+          },
+          {
+              "title": "CS921VT / TCF83410GHK#NW1",
+              "description": "Neorest RS Multi-Function Toilet (S-Trap)",
+              "thumb": "/assets/img/content/products/Neorest/CS921VT-TCF83410GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS921VT-TCF83410GHK-NW1"
+              }
+          },
+          {
+              "title": "TCF4914Z",
+              "description": "WASHLET (Elongated) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet/TCF4914Z/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/TCF4914Z"
+              }
+          },
+          {
+              "title": "TCF791HK",
+              "description": "WASHLET (Elongated) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet/TCF791HK/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/TCF791HK"
+              }
+          },
+          {
+              "title": "TCF34320GAA#NW1",
+              "description": "WASHLET (D-shape) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet/TCF34320GAA-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/TCF34320GAA-NW1"
+              }
+          },
+          {
+              "title": "TCF24410AAA#NW1",
+              "description": "WASHLET (Elongated) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet/TCF24410AAA-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/TCF24410AAA-NW1"
+              }
+          },
+          {
+              "title": "TCF33320GAA#NW1",
+              "description": "WASHLET (D-shape)",
+              "thumb": "/assets/img/content/products/Washlet/TCF33320GAA-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/TCF33320GAA-NW1"
+              }
+          },
+          {
+              "title": "TCF23410AAA#NW1",
+              "description": "WASHLET (Elongated)",
+              "thumb": "/assets/img/content/products/Washlet/TCF23410AAA-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/TCF23410AAA-NW1"
+              }
+          },
+          {
+              "title": "CW542EB / TCF802C2Z",
+              "description": "WASHLET with Wall Hung Toilet\r\n(D-shape) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet+/CW542EB-TCF802C2Z-RW/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CW542EB-TCF802C2Z-RW"
+              }
+          },
+          {
+              "title": "CW522EB / TCF804C2Z",
+              "description": "WASHLET with Wall Hung Toilet\r\n(square-shape) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet+/CW522EB-TCF804C2Z-SW/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CW522EB-TCF804C2Z-SW"
+              }
+          },
+          {
+              "title": "CW920HK2 / SW920HK + TCF4914EZ",
+              "description": "WASHLET with Closed-coupled Toilet (Elongated) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet+/CW920HK2-SW920HK-TCF4914EZ/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CW920HK2-SW920HK-TCF4914EZ"
+              }
+          },
+          {
+              "title": "C769CE / S769DRE + TCF4914EZ",
+              "description": "WASHLET with Closed-coupled Toilet (Elongated) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet+/C769CE-S769DRE-TCF4914EZ/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/C769CE-S769DRE-TCF4914EZ"
+              }
+          },
+          {
+              "title": "CW766PEB / SW766HK + TCF34570GAA",
+              "description": "WASHLET with Closed-coupled Toilet (D-shape) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet+/CW766PEB-SW766HK+TCF34570GAA/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CW766PEB-SW766HK+TCF34570GAA"
+              }
+          },
+          {
+              "title": "CW766PEB / SW766HK+ TCF33370GAA",
+              "description": "WASHLET with Closed-coupled Toilet (D-shape)",
+              "thumb": "/assets/img/content/products/Washlet+/CW766PEB-SW766HK+TCF33370GAA/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CW766PEB-SW766HK+TCF33370GAA"
+              }
+          }
+        ]
+      }
     }
   ]
 }

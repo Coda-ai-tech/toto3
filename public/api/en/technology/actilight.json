@@ -45,6 +45,25 @@
         ],
         "youtube": "auRNAGjqhPA"
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "CS903KVF",
+            "description": "NEOREST AH Multi-Function Toilet (P-trap)",
+            "thumb": "/assets/img/content/products/Neorest/CS903KVF/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/CS903KVF"
+            }
+          }
+        ]
+      }
     }
   ]
 }

@@ -45,6 +45,424 @@
         ],
         "youtube": "CL82UkRbcLc?si=lA7rH0YJq8HPFQic"
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "TBP02301BA+TBN01001B",
+            "description": "Concealed Single Lever Shower Mixer",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-mixer",
+              "concealed-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-mixer/TBP02301BA+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBP02301BA+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG07303H+TBN01001B",
+            "description": "Concealed Single Lever Shower Mixer",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-mixer",
+              "concealed-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-mixer/TBG07303H+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG07303H+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG08303H+TBN01001B",
+            "description": "Concealed Single Lever Shower Mixer",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-mixer",
+              "concealed-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-mixer/TBG08303H+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG08303H+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG09303H+TBN01001B",
+            "description": "Concealed Single Lever Shower Mixer",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-mixer",
+              "concealed-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-mixer/TBG09303H+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG09303H+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG10303H+TBN01001B",
+            "description": "Concealed Single Lever Shower Mixer",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-mixer",
+              "concealed-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-mixer/TBG10303H+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG10303H+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG11303H+TBN01001B",
+            "description": "Concealed Single Lever Shower Mixer",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-mixer",
+              "concealed-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-mixer/TBG11303H+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG11303H+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG04303H+TBN01001B",
+            "description": "Concealed Single Lever Shower Mixer",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-mixer",
+              "concealed-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-mixer/TBG04303H+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG04303H+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG01303BA+TBN01001B",
+            "description": "Concealed Single Lever Shower Mixer",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-mixer",
+              "concealed-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-mixer/TBG01303BA+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG01303BA+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG02303BA+TBN01001B",
+            "description": "Concealed Single Lever Shower Mixer",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-mixer",
+              "concealed-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-mixer/TBG02303BA+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG02303BA+TBN01001B"
+            }
+          },
+          {
+            "title": "TBP02302BA+TBN01001B",
+            "description": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "bath-and-shower-mixer",
+              "bath-and-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/bath-and-shower-mixer/TBP02302BA+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBP02302BA+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG07304H+TBN01001B",
+            "description": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "bath-and-shower-mixer",
+              "bath-and-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/bath-and-shower-mixer/TBG07304H+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG07304H+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG08304H+TBN01001B",
+            "description": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "bath-and-shower-mixer",
+              "bath-and-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/bath-and-shower-mixer/TBG08304H+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG08304H+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG09304BA+TBN01001B",
+            "description": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "bath-and-shower-mixer",
+              "bath-and-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/bath-and-shower-mixer/TBG09304BA+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG09304BA+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG10304H+TBN01001B",
+            "description": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "bath-and-shower-mixer",
+              "bath-and-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/bath-and-shower-mixer/TBG10304H+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG10304H+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG11304BA+TBN01001B",
+            "description": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "bath-and-shower-mixer",
+              "bath-and-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/bath-and-shower-mixer/TBG11304BA+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG11304BA+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG01304BA+TBN01001B",
+            "description": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "bath-and-shower-mixer",
+              "bath-and-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/bath-and-shower-mixer/TBG01304BA+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG01304BA+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG02304BA+TBN01001B",
+            "description": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "bath-and-shower-mixer",
+              "bath-and-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/bath-and-shower-mixer/TBG02304BA+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG02304BA+TBN01001B"
+            }
+          },
+          {
+            "title": "TBG04304BA+TBN01001B",
+            "description": "Concealed Single Lever Bath & Shower Mixer with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "bath-and-shower-mixer",
+              "bath-and-shower-mixer"
+            ],
+            "thumb": "/assets/img/content/products/Shower/bath-and-shower-mixer/TBG04304BA+TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBG04304BA+TBN01001B"
+            }
+          },
+          {
+            "title": "TBV01406B",
+            "description": "Thermostat Controller",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "concealed-thermostat"
+            ],
+            "thumb": "/assets/img/content/products/Shower/concealed-thermostat/TBV01406B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBV01406B"
+            }
+          },
+          {
+            "title": "TBV01407B",
+            "description": "Thermostat Controller for 1 Outlet Use",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "concealed-thermostat"
+            ],
+            "thumb": "/assets/img/content/products/Shower/concealed-thermostat/TBV01407B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBV01407B"
+            }
+          },
+          {
+            "title": "TBV01408B",
+            "description": "Thermostat Controller with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "concealed-thermostat"
+            ],
+            "thumb": "/assets/img/content/products/Shower/concealed-thermostat/TBV01408B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBV01408B"
+            }
+          },
+          {
+            "title": "TBV02402B",
+            "description": "Thermostat Controller",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "concealed-thermostat"
+            ],
+            "thumb": "/assets/img/content/products/Shower/concealed-thermostat/TBV02402B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBV02402B"
+            }
+          },
+          {
+            "title": "TBV02405B",
+            "description": "Thermostat Controller for 1 Outlet Use",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "concealed-thermostat"
+            ],
+            "thumb": "/assets/img/content/products/Shower/concealed-thermostat/TBV02405B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBV02405B"
+            }
+          },
+          {
+            "title": "TBV02406B",
+            "description": "Thermostat Controller with Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "concealed-thermostat"
+            ],
+            "thumb": "/assets/img/content/products/Shower/concealed-thermostat/TBV02406B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBV02406B"
+            }
+          },
+          {
+            "title": "TBV02105B",
+            "description": "3 Ways Diverter",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "concealed-thermostat"
+            ],
+            "thumb": "/assets/img/content/products/Shower/concealed-thermostat/TBV02105B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBV02105B"
+            }
+          },
+          {
+            "title": "TBN01001B",
+            "description": "Mini Unit",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "concealed-valve"
+            ],
+            "thumb": "/assets/img/content/products/Shower/concealed-valve/TBN01001B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBN01001B"
+            }
+          }
+        ]
+      }
     }
   ]
 }

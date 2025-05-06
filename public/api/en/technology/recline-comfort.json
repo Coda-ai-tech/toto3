@@ -45,6 +45,34 @@
         ],
         "youtube": "6ayEm0-nTaY?si=5ke-g7SRQaYdq8FW"
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "PJY1724HPWE",
+            "description": "Galaline Free-standing Bathtub (with chrome plated handgrips)",
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1724HPWE/content-image.png",
+            "link": {
+                "type": "routeLink",
+                "href": "/en/product/PJY1724HPWE"
+            }
+          },
+          {
+            "title": "PJY1724PWE",
+            "description": "Galaline Free-standing Bathtub (without handgrips)",
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1724PWE/content-image.png",
+            "link": {
+                "type": "routeLink",
+                "href": "/en/product/PJY1724PWE"
+            }
+          }
+        ]
+      }
     }
   ]
 }

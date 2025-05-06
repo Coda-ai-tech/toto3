@@ -45,6 +45,25 @@
         ],
         "youtube": "amCz8Zs_Guo?si=4xPnEB0yDrQz7rJ6"
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "PJYD2200PWEH#GW",
+            "description": "Galaline Free-standing Air Bubble & Whirlpool Bathtub with Pillow (with chrome plated handgrips)",
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJYD2200PWEH-GW/content-image.png",
+            "link": {
+                "type": "routeLink",
+                "href": "/en/product/PJYD2200PWEH-GW"
+            }
+          }
+        ]
+      }
     }
   ]
 }

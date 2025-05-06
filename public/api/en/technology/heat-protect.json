@@ -45,6 +45,105 @@
         ],
         "youtube": "YsGPCR9dXDI?si=_POdfa24pd7Czegl"
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "TBV01401BA",
+            "description": "Thermostat Shower Mixer",
+            "thumb": "/assets/img/content/products/Shower/shower-mixer/TBV01401BA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBV01401BA"
+            }
+          },
+          {
+            "title": "TBW01401AA",
+            "description": "Thermostat Shower Column with 1 Mode Fixed Shower Head and Spout without Hand Shower",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-column",
+              "without-hand-shower"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-column/TBW01401AA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW01401AA"
+            }
+          },
+          {
+            "title": "TBW01402AA",
+            "description": "Thermostat Shower Column with 1 Mode Fixed Shower Head without Hand Shower",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-column",
+              "without-hand-shower"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-column/TBW01402AA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW01402AA"
+            }
+          },
+          {
+            "title": "TBW01404AA",
+            "description": "Thermostat Shower Column with 2 Modes Fixed Shower Head without Hand Shower",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-column",
+              "without-hand-shower"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-column/TBW01404AA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW01404AA"
+            }
+          },
+          {
+            "title": "TBW07403A",
+            "description": "Single Lever Shower Column with 1 Mode Fixed Shower Head without Hand Shower",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-column",
+              "without-hand-shower"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-column/TBW07403A/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW07403A"
+            }
+          },
+          {
+            "title": "TBW07404A",
+            "description": "Single Lever Shower Column with 1 Mode Fixed Shower Head without Hand Shower",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-column",
+              "without-hand-shower"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-column/TBW07404A/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW07404A"
+            }
+          }
+        ]
+      }
     }
   ]
 }

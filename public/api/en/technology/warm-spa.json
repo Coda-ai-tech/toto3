@@ -45,6 +45,176 @@
         ],
         "youtube": "MRrfqfHRu6A?si=ul4McqaVCJSfK9dm"
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "TBW08407H",
+            "description": "Themostatic Shower Colomn with Shelf",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-column",
+              "with-hand-shower"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-column/TBW08407H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW08407H"
+            }
+          },
+          {
+            "title": "TBW01002BA",
+            "description": "Shower Coloumn with 2 Modes Fixed Shower Head without Hand Shower",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-column",
+              "without-hand-shower"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-column/TBW01002BA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW01002BA"
+            }
+          },
+          {
+            "title": "TBW02002BA",
+            "description": "Shower Coloumn with 2 Modes Fixed Shower Head without Hand Shower",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-column",
+              "without-hand-shower"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-column/TBW02002BA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW02002BA"
+            }
+          },
+          {
+            "title": "TBW01303AA",
+            "description": "Single Lever Shower Column with 2 Modes Fixed Shower Head without Hand Shower",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-column",
+              "without-hand-shower"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-column/TBW01303AA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW01303AA"
+            }
+          },
+          {
+            "title": "TBW01404AA",
+            "description": "Thermostat Shower Column with 2 Modes Fixed Shower Head without Hand Shower",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "shower-column",
+              "without-hand-shower"
+            ],
+            "thumb": "/assets/img/content/products/Shower/shower-column/TBW01404AA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW01404AA"
+            }
+          },
+          {
+            "title": "TBW08004H+TBN01002B",
+            "description": "Fixed Shower Head (Wall Type)",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "fixed-shower-head",
+              "wall-type"
+            ],
+            "thumb": "/assets/img/content/products/Shower/fixed-shower-head/TBW08004H+TBN01002B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW08004H+TBN01002B"
+            }
+          },
+          {
+            "title": "TBW07004H+TBN01002B",
+            "description": "Fixed Shower Head (Wall Type)",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "fixed-shower-head",
+              "wall-type"
+            ],
+            "thumb": "/assets/img/content/products/Shower/fixed-shower-head/TBW07004H+TBN01002B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW07004H+TBN01002B"
+            }
+          },
+          {
+            "title": "TBW01004BA",
+            "description": "2 Modes Fixed Shower Head (Wall Type)",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "fixed-shower-head",
+              "wall-type"
+            ],
+            "thumb": "/assets/img/content/products/Shower/fixed-shower-head/TBW01004BA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW01004BA"
+            }
+          },
+          {
+            "title": "TBW02004BA",
+            "description": "2 Modes Fixed Shower Head (Wall Type)",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "fixed-shower-head",
+              "wall-type"
+            ],
+            "thumb": "/assets/img/content/products/Shower/fixed-shower-head/TBW02004BA/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW02004BA"
+            }
+          },
+          {
+            "title": "TBW01005B+TBN01002B",
+            "description": "Fixed Shower Head with valve unit (Wall Type)",
+            "category": [
+              "Shower"
+            ],
+            "subCategory": [
+              "fixed-shower-head",
+              "wall-type"
+            ],
+            "thumb": "/assets/img/content/products/Shower/fixed-shower-head/TBW01005B+TBN01002B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW01005B+TBN01002B"
+            }
+          }
+        ]
+      }
     }
   ]
 }

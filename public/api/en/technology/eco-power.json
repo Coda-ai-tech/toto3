@@ -36,6 +36,400 @@
         ],
         "youtube": "3knNB2rq9ME?si=Q90yOlI_7S09RZI_"
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "TLP01701J1 + TLP01702B",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLP01701J1-TLP01702B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLP01701J1-TLP01702B"
+            }
+          },
+          {
+            "title": "TLE20001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE20001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE20001H"
+            }
+          },
+          {
+            "title": "TLE21001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE21001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE21001H"
+            }
+          },
+          {
+            "title": "TLE22001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE22001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE22001H"
+            }
+          },
+          {
+            "title": "TLE23001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE23001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE23001H"
+            }
+          },
+          {
+            "title": "TLE23003H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE23003H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE23003H"
+            }
+          },
+          {
+            "title": "TLE23004H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE23004H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE23004H"
+            }
+          },
+          {
+            "title": "TLE23005H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE23005H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE23005H"
+            }
+          },
+          {
+            "title": "TLE24001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE24001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE24001H"
+            }
+          },
+          {
+            "title": "TLE24003H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE24003H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE24003H"
+            }
+          },
+          {
+            "title": "TLE24004H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE24004H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE24004H"
+            }
+          },
+          {
+            "title": "TLE24005H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE24005H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE24005H"
+            }
+          },
+          {
+            "title": "TLE25001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE25001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE25001H"
+            }
+          },
+          {
+            "title": "TLE25003H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE25003H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE25003H"
+            }
+          },
+          {
+            "title": "TLE25004H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE25004H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE25004H"
+            }
+          },
+          {
+            "title": "TLE25005H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE25005H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE25005H"
+            }
+          },
+          {
+            "title": "TLE26001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE26001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE26001H"
+            }
+          },
+          {
+            "title": "TLE26003H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE26003H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE26003H"
+            }
+          },
+          {
+            "title": "TLE26004H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE26004H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE26004H"
+            }
+          },
+          {
+            "title": "TLE26005H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE26005H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE26005H"
+            }
+          },
+          {
+            "title": "TLE27002H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE27002H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE27002H"
+            }
+          },
+          {
+            "title": "TLE27001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE27001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE27001H"
+            }
+          },
+          {
+            "title": "TLE28002H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE28002H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE28002H"
+            }
+          },
+          {
+            "title": "TLE28001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE28001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE28001H"
+            }
+          }
+        ]
+      }
     }
   ]
 }

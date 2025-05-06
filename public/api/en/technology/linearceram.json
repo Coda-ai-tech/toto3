@@ -45,6 +45,166 @@
         ],
         "youtube": ""
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "LW4704E#XW",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "console-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/LW4704E-XW/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/LW4704E-XW"
+            }
+          },
+          {
+            "title": "L4704E",
+            "description": "Console Lavatory (Colour)",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "console-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/L4704E/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/L4704E"
+            }
+          },
+          {
+            "title": "L4715RE#XW",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "console-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/L4715RE-XW/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/L4715RE-XW"
+            }
+          },
+          {
+            "title": "L4715RE",
+            "description": "Console Lavatory (Colour)",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "console-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/L4715RE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/L4715RE"
+            }
+          },
+          {
+            "title": "L4716RE#XW",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "console-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/L4716RE-XW/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/L4716RE-XW"
+            }
+          },
+          {
+            "title": "L4716RE",
+            "description": "Console Lavatory (Colour)",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "console-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/L4716RE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/L4716RE"
+            }
+          },
+          {
+            "title": "L4724E#XW",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "console-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/L4724E-XW/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/L4724E-XW"
+            }
+          },
+          {
+            "title": "L4706E#XW",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "console-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/L4706E-XW/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/L4706E-XW"
+            }
+          },
+          {
+            "title": "L4706E",
+            "description": "Console Lavatory (Colour)",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "console-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/L4706E/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/L4706E"
+            }
+          },
+          {
+            "title": "L1706E",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "console-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/L1706E/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/L1706E"
+            }
+          }
+        ]
+      }
     }
   ]
 }

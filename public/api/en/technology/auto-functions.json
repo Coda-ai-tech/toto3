@@ -45,6 +45,1123 @@
         ],
         "youtube": "tqMcyfR4Ddc"
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "CS903KVF",
+            "description": "NEOREST NX Actilight Multi-Function Toilet",
+            "thumb": "/assets/img/content/products/Neorest/CS903KVF/content-image.png",
+            "link": {
+                "type": "routeLink",
+                "href": "/en/product/CS903KVF"
+            }
+          },
+          {
+              "title": "CW927PZT / TCF85380GHK#NW1",
+              "description": "NEOREST WX Wall Hung Multi-Function Toilet",
+              "thumb": "/assets/img/content/products/Neorest/CW927PZT-TCF85380GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CW927PZT-TCF85380GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911PVT / TCF87320GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (P-Trap) (Brushed Nickel)",
+              "thumb": "/assets/img/content/products/Neorest/CS911PVT-TCF87320GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911PVT-TCF87320GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911VT / TCF87320GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (S-Trap) (Brushed Nickel)",
+              "thumb": "/assets/img/content/products/Neorest/CS911VT-TCF87320GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911VT-TCF87320GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911PVT / TCF87220GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (P-Trap) (Black)",
+              "thumb": "/assets/img/content/products/Neorest/CS911PVT-TCF87220GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911PVT-TCF87220GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911VT / TCF87220GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (S-Trap) (Black)",
+              "thumb": "/assets/img/content/products/Neorest/CS911VT-TCF87220GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911VT-TCF87220GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911PVT / TCF87120GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (P-Trap) (Silver)",
+              "thumb": "/assets/img/content/products/Neorest/CS911PVT-TCF87120GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911PVT-TCF87120GHK-NW1"
+              }
+          },
+          {
+              "title": "CS911VT / TCF87120GHK#NW1",
+              "description": "Neorest LS Multi-Function Toilet (S-Trap) (Silver)",
+              "thumb": "/assets/img/content/products/Neorest/CS911VT-TCF87120GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS911VT-TCF87120GHK-NW1"
+              }
+          },
+          {
+              "title": "CS921PVT / TCF85510GHK#NW1",
+              "description": "Neorest AS Multi-Function Toilet (P-Trap)",
+              "thumb": "/assets/img/content/products/Neorest/CS921PVT-TCF85510GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS921PVT-TCF85510GHK-NW1"
+              }
+          },
+          {
+              "title": "CS921VT / TCF85510GHK#NW1",
+              "description": "Neorest AS Multi-Function Toilet (S-Trap)",
+              "thumb": "/assets/img/content/products/Neorest/CS921VT-TCF85510GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS921VT-TCF85510GHK-NW1"
+              }
+          },
+          {
+              "title": "CS921PVT / TCF83410GHK#NW1",
+              "description": "Neorest RS Multi-Function Toilet (P-Trap)",
+              "thumb": "/assets/img/content/products/Neorest/CS921PVT-TCF83410GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS921PVT-TCF83410GHK-NW1"
+              }
+          },
+          {
+              "title": "CS921VT / TCF83410GHK#NW1",
+              "description": "Neorest RS Multi-Function Toilet (S-Trap)",
+              "thumb": "/assets/img/content/products/Neorest/CS921VT-TCF83410GHK-NW1/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CS921VT-TCF83410GHK-NW1"
+              }
+          },
+          {
+              "title": "TCF4914Z",
+              "description": "WASHLET (Elongated) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet/TCF4914Z/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/TCF4914Z"
+              }
+          },
+          {
+              "title": "CW542EB / TCF802C2Z",
+              "description": "WASHLET with Wall Hung Toilet\r\n(D-shape) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet+/CW542EB-TCF802C2Z-RW/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CW542EB-TCF802C2Z-RW"
+              }
+          },
+          {
+              "title": "CW522EB / TCF804C2Z",
+              "description": "WASHLET with Wall Hung Toilet\r\n(square-shape) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet+/CW522EB-TCF804C2Z-SW/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CW522EB-TCF804C2Z-SW"
+              }
+          },
+          {
+              "title": "CW920HK2 / SW920HK + TCF4914EZ",
+              "description": "WASHLET with Closed-coupled Toilet (Elongated) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet+/CW920HK2-SW920HK-TCF4914EZ/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/CW920HK2-SW920HK-TCF4914EZ"
+              }
+          },
+          {
+              "title": "C769CE / S769DRE + TCF4914EZ",
+              "description": "WASHLET with Closed-coupled Toilet (Elongated) with remote controller",
+              "thumb": "/assets/img/content/products/Washlet+/C769CE-S769DRE-TCF4914EZ/content-image.png",
+              "link": {
+                  "type": "routeLink",
+                  "href": "/en/product/C769CE-S769DRE-TCF4914EZ"
+              }
+          },
+          {
+            "title": "DCE605U",
+            "description": "Concelaed Type Flush Valve with Sensor for Toilet with Manual Button",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "c-toilet-sensor-flush-valve"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE605U/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DCE605U"
+            }
+          },
+          {
+            "title": "DCE605UE",
+            "description": "Concelaed Type Flush Valve with Sensor for Toilet with Manual Button (Sea Water Use)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "c-toilet-sensor-flush-valve"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE605UE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DCE605UE"
+            }
+          },
+          {
+            "title": "DCE602U",
+            "description": "Concelaed Type Flush Valve with Sensor for Toilet with Manual Button (Fresh Water Use)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "c-toilet-sensor-flush-valve"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE602U/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DCE602U"
+            }
+          },
+          {
+            "title": "DCE602UE",
+            "description": "Concelaed Type Flush Valve with Sensor for Toilet with Manual Button (Fresh Water Use)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "c-toilet-sensor-flush-valve"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE602U/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DCE602UE"
+            }
+          },
+          {
+            "title": "TREF56K2H",
+            "description": "Concealed Type Flush Valve with Sensor for Toilet with Manual Button (Sea Water Use)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "c-toilet-sensor-flush-valve"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/TREF56K2H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TREF56K2H"
+            }
+          },
+          {
+            "title": "TREF56L2H",
+            "description": "Concealed Type Flush Valve with Sensor for Toilet with Manual Button (Sea Water Use)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "c-toilet-sensor-flush-valve"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/TREF56L2H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TREF56L2H"
+            }
+          },
+          {
+            "title": "TREF45K2C",
+            "description": "Concealed Type Flush Valve with Sensor for Toilet with Manual Button (Fresh Water Use)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "c-toilet-sensor-flush-valve"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/TREF45K2C/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TREF45K2C"
+            }
+          },
+          {
+            "title": "TREF45L2H",
+            "description": "Concealed Type Flush Valve with Sensor for Toilet with Manual Button (Fresh Water Use)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "c-toilet-sensor-flush-valve"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/TREF45L2H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TREF45L2H"
+            }
+          },
+          {
+            "title": "DCE605V3 + DUE129UKV3",
+            "description": "Concealed Type Flush Valve with Auto Flush & Wave-on Sensor for Toilet (Sea Water Use)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "c-toilet-sensor-flush-valve"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE605V3+DUE129UKV3/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DCE605V3+DUE129UKV3"
+            }
+          },
+          {
+            "title": "DCE605UV4",
+            "description": "Concealed Type Flush Valve with Wave-on Sensor for Toilet (Sea Water Use)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "c-toilet-sensor-flush-valve"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DCE602U/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DCE605UV4"
+            }
+          },
+          {
+            "title": "DUE130UK",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal-sensor-flush-value"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DUE130UK/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DUE130UK"
+            }
+          },
+          {
+            "title": "DUE130UE",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal-sensor-flush-value"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DUE130UE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DUE130UE"
+            }
+          },
+          {
+            "title": "DUE129UK",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal-sensor-flush-value"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DUE129UK/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DUE129UK"
+            }
+          },
+          {
+            "title": "DUE129UE",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal-sensor-flush-value"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DUE129UE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DUE129UE"
+            }
+          },
+          {
+            "title": "DUE128UK",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal-sensor-flush-value"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DUE128UK/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DUE128UK"
+            }
+          },
+          {
+            "title": "DUE128UE",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal-sensor-flush-value"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DUE128UE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DUE128UE"
+            }
+          },
+          {
+            "title": "DUE114UK",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal-sensor-flush-value"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DUE114UK/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DUE114UK"
+            }
+          },
+          {
+            "title": "DUE114UE",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal-sensor-flush-value"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DUE114UE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DUE114UE"
+            }
+          },
+          {
+            "title": "DUE129UKV1 + DUE129UKV2",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal-sensor-flush-value"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/DUE129UKV1+DUE129UKV2/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/DUE129UKV1+DUE129UKV2"
+            }
+          },
+          {
+            "title": "US900WR",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/US900WR/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/US900WR"
+            }
+          },
+          {
+            "title": "USWN900H",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/USWN900H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/USWN900H"
+            }
+          },
+          {
+            "title": "USWN900HE",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/USWN900HE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/USWN900HE"
+            }
+          },
+          {
+            "title": "USWN902H",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/USWN902H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/USWN902H"
+            }
+          },
+          {
+            "title": "USWN902HE",
+            "description": "",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "toilet-and-urinal",
+              "urinal"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/USWN902HE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/USWN902HE"
+            }
+          },
+          {
+            "title": "TLP01701J1 + TLP01702B",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLP01701J1-TLP01702B/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLP01701J1-TLP01702B"
+            }
+          },
+          {
+            "title": "TLE20001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE20001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE20001H"
+            }
+          },
+          {
+            "title": "TLE21001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE21001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE21001H"
+            }
+          },
+          {
+            "title": "TLE22001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE22001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE22001H"
+            }
+          },
+          {
+            "title": "TLE23001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE23001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE23001H"
+            }
+          },
+          {
+            "title": "TLE23003H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE23003H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE23003H"
+            }
+          },
+          {
+            "title": "TLE23004H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE23004H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE23004H"
+            }
+          },
+          {
+            "title": "TLE23005H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE23005H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE23005H"
+            }
+          },
+          {
+            "title": "TLE24001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE24001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE24001H"
+            }
+          },
+          {
+            "title": "TLE24003H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE24003H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE24003H"
+            }
+          },
+          {
+            "title": "TLE24004H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE24004H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE24004H"
+            }
+          },
+          {
+            "title": "TLE24005H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE24005H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE24005H"
+            }
+          },
+          {
+            "title": "TLE25001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE25001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE25001H"
+            }
+          },
+          {
+            "title": "TLE25003H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE25003H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE25003H"
+            }
+          },
+          {
+            "title": "TLE25004H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE25004H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE25004H"
+            }
+          },
+          {
+            "title": "TLE25005H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE25005H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE25005H"
+            }
+          },
+          {
+            "title": "TLE26001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE26001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE26001H"
+            }
+          },
+          {
+            "title": "TLE26003H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE26003H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE26003H"
+            }
+          },
+          {
+            "title": "TLE26004H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE26004H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE26004H"
+            }
+          },
+          {
+            "title": "TLE26005H",
+            "description": "Wall Mount Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE26005H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE26005H"
+            }
+          },
+          {
+            "title": "TLE27002H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE27002H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE27002H"
+            }
+          },
+          {
+            "title": "TLE27001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE27001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE27001H"
+            }
+          },
+          {
+            "title": "TLE28002H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE28002H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE28002H"
+            }
+          },
+          {
+            "title": "TLE28001H",
+            "description": "Sensor Faucet",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-faucet"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLE28001H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLE28001H"
+            }
+          },
+          {
+            "title": "TLK06001J",
+            "description": "Wall Mounted Sensor Soap Dispenser (Foam Type)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-soap-dispenser"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLK06001J/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLK06001J"
+            }
+          },
+          {
+            "title": "TLK07001G",
+            "description": "Sensor Soap Dispenser (Foam Type)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-soap-dispenser"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLK07001G/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLK07001G"
+            }
+          },
+          {
+            "title": "TLK07003G",
+            "description": "Sensor Soap Dispenser (Foam Type)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-soap-dispenser"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLK07003G/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLK07003G"
+            }
+          },
+          {
+            "title": "TLK08001G",
+            "description": "Sensor Soap Dispenser (Foam Type)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-soap-dispenser"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLK08001G/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLK08001G"
+            }
+          },
+          {
+            "title": "TLK08003G",
+            "description": "Sensor Soap Dispenser (Foam Type)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-soap-dispenser"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLK08003G/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLK08003G"
+            }
+          },
+          {
+            "title": "TLK09001G",
+            "description": "Sensor Soap Dispenser (Foam Type)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "fittings",
+              "sensor-soap-dispenser"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/fittings/TLK09001G/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TLK09001G"
+            }
+          },
+          {
+            "title": "TYC322WF",
+            "description": "Automatic High Speed Hand Dryer",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "hand-dryer"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/hand-dryer/TYC322WF/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TYC322WF"
+            }
+          },
+          {
+            "title": "TYC322M",
+            "description": "Automatic High Speed Hand Dryer",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "hand-dryer"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/hand-dryer/TYC322M/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TYC322M"
+            }
+          },
+          {
+            "title": "TYC322W",
+            "description": "Automatic High Speed Hand Dryer with Drain Tank",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "hand-dryer"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/hand-dryer/TYC322W/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TYC322W"
+            }
+          },
+          {
+            "title": "TYC422W",
+            "description": "Automatic High Speed Hand Dryer",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "hand-dryer"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/hand-dryer/TYC422W/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TYC422W"
+            }
+          },
+          {
+            "title": "TYC602",
+            "description": "Automatic High Speed Recessed Hand Dryer with Tray (Wall Embedded)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "hand-dryer"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/hand-dryer/TYC602/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TYC602"
+            }
+          },
+          {
+            "title": "TYC602P",
+            "description": "3-in-1 Automatic High Speed Recessed Hand Dryer with Paper Dispenser and Waste Bin (Wall Embedded)",
+            "category": [
+              "Commercial"
+            ],
+            "subCategory": [
+              "hand-dryer"
+            ],
+            "thumb": "/assets/img/content/products/Commercial/hand-dryer/TYC602P/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TYC602P"
+            }
+          }
+        ]
+      }
     }
   ]
 }
