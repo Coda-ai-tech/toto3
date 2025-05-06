@@ -402,6 +402,8 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
           </div>
           <div className={styles.downloads}>
             {downloads.map((download, index) => (
+              console.log("ss", download),
+              
               <DownloadsCard key={'download-' + index} src={download} />
             ))}
           </div>
