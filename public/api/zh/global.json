@@ -434,13 +434,6 @@
             "title": "OTHERS",
             "items": [
               {
-                "label": "LUMINIST",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/technology/luminist"
-                }
-              },
-              {
                 "label": "LINEARCERAM",
                 "link": {
                   "type": "routeLink",

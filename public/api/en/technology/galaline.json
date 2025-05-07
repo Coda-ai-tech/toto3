@@ -45,6 +45,271 @@
         ],
         "youtube": ""
       }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "PJS01WE#MW",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "galaline-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/PJS01WE-MW/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJS01WE-MW"
+            }
+          },
+          {
+            "title": "PJS02WE#MW",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "galaline-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/PJS02WE-MW/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJS02WE-MW"
+            }
+          },
+          {
+            "title": "PJS03WE#MW",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "galaline-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/PJS03WE-MW/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJS03WE-MW"
+            }
+          },
+          {
+            "title": "PJS04WE#MGB",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "galaline-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/PJS04WE-MGB/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJS04WE-MGB"
+            }
+          },
+          {
+            "title": "PJS05W",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "galaline-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/PJS05W/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJS05W"
+            }
+          },
+          {
+            "title": "PJS06W",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "galaline-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/PJS06W/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJS06W"
+            }
+          },
+          {
+            "title": "PJS07W",
+            "description": "Console Lavatory",
+            "category": [
+              "Lavatories"
+            ],
+            "subCategory": [
+              "galaline-lavatory"
+            ],
+            "thumb": "/assets/img/content/products/Lavatories/console-lavatory/PJS07W/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJS07W"
+            }
+          },
+          {
+            "title": "PJYD2200PWEH#GW",
+            "description": "Galaline Free-standing Bathtub\r\n(with chrome plated handgrips)",
+            "category": [
+              "Bathtub"
+            ],
+            "subCategory": [
+              "free-standing-bathtub"
+            ],
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJYD2200PWEH-GW/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJYD2200PWEH-GW"
+            }
+          },
+          {
+            "title": "PJY1814HPWE",
+            "description": "Galaline Free-standing Bathtub\r\n(with chrome plated handgrips)",
+            "category": [
+              "Bathtub"
+            ],
+            "subCategory": [
+              "free-standing-bathtub"
+            ],
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1814HPWE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJY1814HPWE"
+            }
+          },
+          {
+            "title": "PJY1814PWE",
+            "description": "Galaline Free-standing Bathtub\r\n(without handgrips)",
+            "category": [
+              "Bathtub"
+            ],
+            "subCategory": [
+              "free-standing-bathtub"
+            ],
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1814PWE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJY1814PWE"
+            }
+          },
+          {
+            "title": "PJY1724HPWE",
+            "description": "Galaline Free-standing Bathtub\r\n(with chrome plated handgrips)",
+            "category": [
+              "Bathtub"
+            ],
+            "subCategory": [
+              "free-standing-bathtub"
+            ],
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1724HPWE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJY1724HPWE"
+            }
+          },
+          {
+            "title": "PJY1724PWE",
+            "description": "Galaline Free-standing Bathtub\r\n(without handgrips)",
+            "category": [
+              "Bathtub"
+            ],
+            "subCategory": [
+              "free-standing-bathtub"
+            ],
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1724PWE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJY1724PWE"
+            }
+          },
+          {
+            "title": "PJY1734HPWE",
+            "description": "Galaline Free-standing Bathtub\r\n(with chrome plated handgrips)",
+            "category": [
+              "Bathtub"
+            ],
+            "subCategory": [
+              "free-standing-bathtub"
+            ],
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1734HPWE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJY1734HPWE"
+            }
+          },
+          {
+            "title": "PJY1734PWE",
+            "description": "Galaline Free-standing Bathtub\r\n(without handgrips)",
+            "category": [
+              "Bathtub"
+            ],
+            "subCategory": [
+              "free-standing-bathtub"
+            ],
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1734PWE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJY1734PWE"
+            }
+          },
+          {
+            "title": "PJY1744HPWE",
+            "description": "Galaline Free-standing Bathtub\r\n(with chrome plated handgrips)",
+            "category": [
+              "Bathtub"
+            ],
+            "subCategory": [
+              "free-standing-bathtub"
+            ],
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1744HPWE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJY1744HPWE"
+            }
+          },
+          {
+            "title": "PJY1744PWE",
+            "description": "Galaline Free-standing Bathtub\r\n(without handgrips)",
+            "category": [
+              "Bathtub"
+            ],
+            "subCategory": [
+              "free-standing-bathtub"
+            ],
+            "thumb": "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1744PWE/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJY1744PWE"
+            }
+          },
+          {
+            "title": "PJY1886HPWMNE#GW",
+            "description": "Galaline Free-standing Bathtub with Pillow\r\n(with chrome plated handgrips)",
+            "category": [
+              "Bathtub"
+            ],
+            "subCategory": [
+              "free-standing-bathtub"
+            ],
+            "thumb": "/assets/img/content/products/Bathtub/PJY1886HPWMNE-GW/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/PJY1886HPWMNE-GW"
+            }
+          }
+        ]
+      }
     }
   ]
 }

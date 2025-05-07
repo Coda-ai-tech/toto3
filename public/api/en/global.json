@@ -463,14 +463,6 @@
             "title": "OTHERS",
             "items": [
               {
-                "image": "/assets/img/content/technology/luminist/ico-luminist.png",
-                "label": "LUMINIST",
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/technology/luminist"
-                }
-              },
-              {
                 "image": "/assets/img/content/technology/linearceram/ico-linearceram.png",
                 "label": "LINEARCERAM",
                 "link": {
