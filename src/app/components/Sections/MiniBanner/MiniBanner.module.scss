@@ -130,4 +130,35 @@
     opacity: 1;
     transition: opacity 1000ms;
   }
+
+  .custom_arrow {
+    @apply absolute top-1/2 transform -translate-y-1/2 z-10 w-10 h-10  rounded-full flex items-center justify-center cursor-pointer;
+  }
+  
+  .swiper_button_prev {
+    @apply left-2;
+  }
+  
+  .swiper_button_next {
+    @apply right-2;
+  }
+  
+  .custom_arrow::after {
+    content: '';
+    border: solid black;
+    opacity: .3;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .swiper_button_next::after {
+    transform: rotate(-45deg);
+  }
+  
+  .swiper_button_prev::after {
+    transform: rotate(135deg);
+  }
+
 }
+

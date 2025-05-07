@@ -188,6 +188,285 @@
     },
     {
       "id": null,
+      "module": "MiniBanner",
+      "moduleOption": null,
+      "content": {
+        "items": [
+          {
+            "title": "NEOREST",
+            "subTitle": "subTitle",
+            "description": "Select your plan",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/01.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "/en/product?category=neorest"
+                }
+              }
+            ]
+          },
+          {
+            "title": "WASHLET",
+            "subTitle": "subTitle",
+            "description": "Lightness and dignity in a natural shape for a timeless design",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/04.webp",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "/en/product?category=washlet"
+                }
+              }
+            ]
+          },
+          {
+            "title": "WASHLET+",
+            "subTitle": "subTitle",
+            "description": "Simple and beautiful in appearance\nComfortable and streamlined design",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/p_washletplus.jpg",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "/en/product?category=washlet_plus"
+                }
+              }
+            ]
+          },
+          {
+            "title": "TOILETS",
+            "subTitle": "subTitle",
+            "description": "Select your plan",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/toilet1.jpg",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "/en/product?category=Toilet"
+                }
+              }
+            ]
+          },
+          {
+            "title": "LAVATORIES",
+            "subTitle": "subTitle",
+            "description": "Relaxing\nAn enwrapping embrace of warming water\nMelting away your stress and fatigue",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/lavatory1.jpg",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "/en/product?category=Lavatories"
+                }
+              }
+            ]
+          },
+          {
+            "title": "BATHTUBS",
+            "subTitle": "subTitle",
+            "description": "",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/bathtub1.jpg",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "/en/product?category=Bathtub"
+                }
+              }
+            ]
+          },
+          {
+            "title": "FAUCETS",
+            "subTitle": "subTitle",
+            "description": "",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/faucet1.jpg",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "/en/product?category=Faucets"
+                }
+              }
+            ]
+          },
+          {
+            "title": "SHOWERS",
+            "subTitle": "subTitle",
+            "description": "",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/shower1.jpg",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "/en/product?category=Shower"
+                }
+              }
+            ]
+          },
+          {
+            "title": "ACCESSORIES",
+            "subTitle": "subTitle",
+            "description": "",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/Accessories1.jpg",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "/en/product?category=Accessories"
+                }
+              }
+            ]
+          },
+          {
+            "title": "COMMERCIAL",
+            "subTitle": "subTitle",
+            "description": "",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/product-banner/commerial1.jpg",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "default",
+                "color": "overlay",
+                "icon": null,
+                "link": {
+                  "type": "newWindow",
+                  "href": "/en/product?category=Commercial"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
       "module": "HighlightBanner",
       "moduleOption": null,
       "content": {

@@ -8,9 +8,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import Link from "next/link";
 import "swiper/css";
-import { EffectCoverflow, EffectCreative } from "swiper/modules";
+import { EffectCoverflow, EffectCreative, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
+import "swiper/css/navigation";
 
 import styles from "./MiniBanner.module.scss";
 
@@ -71,10 +72,10 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
   }, []);
 
   const getStretch = () => {
-    if (xs === true) return -50; 
-    if (sm === true) return -50; 
-    if (md === true) return -60; 
-    return -70; 
+    if (xs === true) return -50;
+    if (sm === true) return -50;
+    if (md === true) return -60;
+    return -70;
   };
 
   return (
@@ -83,6 +84,8 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
       id={id ? id : `section${order}`}
       className={`${styles.miniBanner}`}
     >
+      <div className={`${styles.swiper_button_prev} ${styles.custom_arrow}`} />
+      <div className={`${styles.swiper_button_next} ${styles.custom_arrow}`} />
       <Swiper
         key={`stretch-${getStretch()}`}
         ref={swiperEl}
@@ -91,7 +94,7 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
         speed={1000}
         autoplay={{
           delay: 3000,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         centeredSlides={true}
         grabCursor={true}
@@ -106,7 +109,11 @@ const MiniBanner = ({ order, data }: ModuleData<MiniBannerProps, null>) => {
           modifier: 1,
           slideShadows: false,
         }}
-        modules={[EffectCoverflow, Autoplay]}
+        navigation={{
+          nextEl: `.${styles.swiper_button_next}`,
+          prevEl: `.${styles.swiper_button_prev}`,
+        }}
+        modules={[EffectCoverflow, Autoplay, Navigation]}
         className={styles.swiper}
         onSlideChange={(e) => onChangeHandler(e)}
       >
