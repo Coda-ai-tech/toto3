@@ -383,7 +383,7 @@
             "label": "FAUCETS",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=Faucets"
+              "href": "/en/product?category=Faucet"
             },
             "media": {
               "type": "image",
