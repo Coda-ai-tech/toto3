@@ -177,7 +177,7 @@ const En = () => {
           <div className='panels -fit' aria-label='productsItems'>
             <div className='panels__frame'>
               <div className='panels__item -col2'>
-                <Link href='/en/neorestcollections/'>
+                <Link href='https://www.toto.com/en/neorestcollections/index.htm'>
                   <figure className='panels__img'>
                     <span className='zoomPanel'>
                       <img src='/assets/global/global_common_2019/index/images/img-pro-neorest-col.jpg' alt='' />
@@ -189,7 +189,7 @@ const En = () => {
                 </Link>
               </div>
               <div className='panels__item -col2'>
-                <Link href='/en/neorest/'>
+                <Link href='https://www.toto.com/en/neorest/'>
                   <figure className='panels__img'>
                     <span className='zoomPanel'>
                       <img src='/assets/global/cleanovation/images/neorest_cleanovasion.jpg' alt='' />
@@ -201,7 +201,7 @@ const En = () => {
                 </Link>
               </div>
               <div className='panels__item -col3'>
-                <Link href='/en/washletplus/'>
+                <Link href='https://www.toto.com/en/washletplus/'>
                   <figure className='panels__img'>
                     <span className='zoomPanel'>
                       <img src='/assets/global/global_common_2019/index/images/img-pro-washlet-p.jpg' alt='' />
@@ -213,7 +213,7 @@ const En = () => {
                 </Link>
               </div>
               <div className='panels__item -col3'>
-                <Link href='/en/washlet/'>
+                <Link href='https://www.toto.com/en/washlet/'>
                   <figure className='panels__img'>
                     <span className='zoomPanel'>
                       <img src='/assets/global/global_common_2019/index/images/img-pro-washlet.jpg' alt='' />
