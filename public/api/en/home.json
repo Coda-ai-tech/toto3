@@ -554,19 +554,19 @@
       "module": "ProductBanner",
       "moduleOption": null,
       "content": {
-        "title": "PRODUCTS",
+
         "items": [
           {
-            "label": "NEOREST",
+            "label": "FAUCET",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=neorest"
+              "href": "https://www.toto.com/en/gb_faucet/"
             },
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/product-banner/01.webp",
-                "mobile": "/assets/img/content/product-banner/neorest1.jpg"
+                "desktop": "/assets/img/content/mini-banner/Faucet.jpg",
+                "mobile": "/assets/img/content/mini-banner/Faucet.jpg"
               },
               "alt": "",
               "poster": null,
@@ -574,16 +574,16 @@
             }
           },
           {
-            "label": "WASHLET+",
+            "label": "FAUCET PLANNING",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=washlet_plus"
+              "href": "https://www.toto.com/en/gb_faucet/planning/faucet-lavatory/"
             },
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/product-banner/p_washletplus.jpg",
-                "mobile": "/assets/img/content/product-banner/washletplus_mobile.jpg"
+                "desktop": "/assets/img/content/mini-banner/FaucetPlanning.jpg",
+                "mobile": "/assets/img/content/mini-banner/FaucetPlanning.jpg"
               },
               "alt": "",
               "poster": null,
@@ -591,16 +591,16 @@
             }
           },
           {
-            "label": "WASHLET",
+            "label": "LAVATORY",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=washlet"
+              "href": "https://www.toto.com/en/gb_lavatory/"
             },
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/product-banner/04.webp",
-                "mobile": "/assets/img/content/product-banner/main_sp_01.jpg"
+                "desktop": "/assets/img/content/mini-banner/Lavatory.jpg",
+                "mobile": "/assets/img/content/mini-banner/Lavatory.jpg"
               },
               "alt": "",
               "poster": null,
@@ -608,16 +608,16 @@
             }
           },
           {
-            "label": "TOILETS",
+            "label": "SHOWER",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=Toilet"
+              "href": "https://www.toto.com/en/gb_shower/"
             },
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/product-banner/toilet1.jpg",
-                "mobile": "/assets/img/content/product-banner/Toilet2.jpg"
+                "desktop": "/assets/img/content/mini-banner/shower2.jpg",
+                "mobile": "/assets/img/content/mini-banner/shower2.jpg"
               },
               "alt": "",
               "poster": null,
@@ -625,101 +625,16 @@
             }
           },
           {
-            "label": "LAVATORIES",
+            "label": "SHOWER PLANNING",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=Lavatories"
+              "href": "https://www.toto.com/en/gb_faucet/planning/shower/"
             },
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/product-banner/lavatory1.jpg",
-                "mobile": "/assets/img/content/product-banner/lavatory2.jpg"
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "BATHTUBS",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/product?category=Bathtub"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/bathtub1.jpg",
-                "mobile": "/assets/img/content/product-banner/bathtub2.jpg"
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "FAUCETS",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/product?category=Faucet"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/faucet1.jpg",
-                "mobile": "/assets/img/content/product-banner/faucet2.jpg"
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "SHOWERS",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/product?category=Shower"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/shower1.jpg",
-                "mobile": "/assets/img/content/product-banner/shower2.png"
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "ACCESSORIES",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/product?category=Accessories"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/Accessories1.jpg",
-                "mobile": "/assets/img/content/product-banner/Accessories2.jpg"
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            }
-          },
-          {
-            "label": "COMMERCIAL",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/product?category=Commercial"
-            },
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/product-banner/commerial1.jpg",
-                "mobile": "/assets/img/content/product-banner/commerial2.jpg"
+                "desktop": "/assets/img/content/mini-banner/showerPlanning.jpg",
+                "mobile": "/assets/img/content/mini-banner/showerPlanning.jpg"
               },
               "alt": "",
               "poster": null,

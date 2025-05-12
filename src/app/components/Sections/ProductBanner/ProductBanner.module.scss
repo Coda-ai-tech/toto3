@@ -68,10 +68,11 @@
         }
 
         .titleAndList {
-          @apply flex flex-col items-center justify-center w-full;
+          @apply flex flex-col justify-center w-full;
+          padding-left: 10px;
 
           @screen xl {
-            @apply flex-row items-center;
+            @apply flex-row;
           }
         }
       }
