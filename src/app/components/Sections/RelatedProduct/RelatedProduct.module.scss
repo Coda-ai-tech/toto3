@@ -77,3 +77,24 @@
     }
   }
 }
+
+.resultPagination {
+  @apply p-[30px] flex;
+  justify-content: center;
+
+  .currentPage {
+    font-weight: 500;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    margin: 0 4px;
+  }
+
+  .pageButton {
+    padding: 5px 10px;
+  }
+
+  .paginationButton {
+    padding: 0 12px;
+  }
+}
