@@ -132,7 +132,7 @@ const RelatedProduct = ({ order, data }: ModuleData<RelatedProductProps, null>) 
 
   useEffect(() => {
     if (products) {
-      const relatedProductsDiv = document.getElementById("relatedProducts");
+      const relatedProductsDiv = document.getElementById("relatedProducts-module");
       const newItems = splitPages(products, relatedProductPerPage.current, relatedProductPage);
       setDisplayItems(newItems);
       if (relatedProductsDiv) {
@@ -179,10 +179,10 @@ const RelatedProduct = ({ order, data }: ModuleData<RelatedProductProps, null>) 
   };
 
   return (
-    <section id={id ? id : `section${order}`} className={`${styles.relatedProduct}`}>
+    <section id="relatedProducts-module" className={`${styles.relatedProduct}`}>
       <div className={`${styles.inner}`}>
         <div className={`${styles.head}`}>
-          <h3 id="relatedProducts">{title}</h3>
+          <h3>{title}</h3>
           <Button className={`${styles.moreCta}`} content={seeAllProductCta} />
         </div>
         <div className={`${styles.body}`}>
