@@ -77,7 +77,7 @@ const RelatedProduct = ({ order, data }: ModuleData<RelatedProductProps, null>) 
   const router = useRouter();
 
   useEffect(() => {
-    if (products) return;
+    if (products && !items) return;
     setProducts(items);
   }, [products]);
 
@@ -145,26 +145,30 @@ const RelatedProduct = ({ order, data }: ModuleData<RelatedProductProps, null>) 
 
   useEffect(() => {
     if (!initialized) return;
-    const currentParam = new URLSearchParams(window.location.search);
 
     const queryParam = new URLSearchParams();
     queryParam.set('relatedProductPage', relatedProductPage.toString());
 
     const newUrl = `?${queryParam.toString()}`;
-    const currentUrl = `?${currentParam.toString()}`
+    const currentParam = new URLSearchParams(window.location.search);
+    const currentUrl = `?${currentParam.toString()}`;
 
-    if (newUrl !== currentUrl) {
+    if (currentParam.get('relatedProductPage') !== relatedProductPage.toString()) {
       router.push(newUrl);
     }
   }, [relatedProductPage])
 
   useEffect(() => {
+    if (initialized) return;
     const currentParam = new URLSearchParams(window.location.search);
 
     const paramPage = parseInt(currentParam.get('relatedProductPage') || '1');
     setRelatedProductPage(paramPage);
+    if (paramPage === 1 && currentParam.get('relatedProductPage') !== '1') {
+      router.push('?relatedProductPage=1');
+    }
     setInitialized(true);
-  })
+  }, [])
 
   const seeAllProductCta = {
     label: 'See all product',
