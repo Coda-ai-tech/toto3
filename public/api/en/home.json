@@ -565,8 +565,8 @@
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/mini-banner/Faucet.jpg",
-                "mobile": "/assets/img/content/mini-banner/Faucet.jpg"
+                "desktop": "/assets/img/content/mini-banner/faucet-web.jpg",
+                "mobile": "/assets/img/content/mini-banner/faucet-mobile.jpg"
               },
               "alt": "",
               "poster": null,
@@ -582,8 +582,8 @@
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/mini-banner/FaucetPlanning.jpg",
-                "mobile": "/assets/img/content/mini-banner/FaucetPlanning.jpg"
+                "desktop": "/assets/img/content/mini-banner/faucetPlanning-web.jpg",
+                "mobile": "/assets/img/content/mini-banner/faucetPlanning-mobile.jpg"
               },
               "alt": "",
               "poster": null,
@@ -599,8 +599,8 @@
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/mini-banner/Lavatory.jpg",
-                "mobile": "/assets/img/content/mini-banner/Lavatory.jpg"
+                "desktop": "/assets/img/content/mini-banner/lavatory-web.jpg",
+                "mobile": "/assets/img/content/mini-banner/lavatory-mobile.jpg"
               },
               "alt": "",
               "poster": null,
@@ -616,8 +616,8 @@
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/mini-banner/shower2.jpg",
-                "mobile": "/assets/img/content/mini-banner/shower2.jpg"
+                "desktop": "/assets/img/content/mini-banner/shower-web.png",
+                "mobile": "/assets/img/content/mini-banner/shower-mobile.png"
               },
               "alt": "",
               "poster": null,
@@ -633,8 +633,8 @@
             "media": {
               "type": "image",
               "src": {
-                "desktop": "/assets/img/content/mini-banner/showerPlanning.jpg",
-                "mobile": "/assets/img/content/mini-banner/showerPlanning.jpg"
+                "desktop": "/assets/img/content/mini-banner/showerPlanning-web.jpg",
+                "mobile": "/assets/img/content/mini-banner/showerPlanning-mobile.jpg"
               },
               "alt": "",
               "poster": null,
