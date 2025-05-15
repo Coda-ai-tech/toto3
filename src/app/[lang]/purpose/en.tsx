@@ -102,6 +102,14 @@ const En = () => {
                   <br className="pc-only" /> Service
                 </p>
               </div>
+              <div>
+                <a href='6371545851112' className='mainv-play no-barba' data-modal-open=''>
+                  <img src='/assets/global/purpose/images/carbon_neutrality_commitment.jpg' alt='' />
+                </a>
+                <p>
+                  TOTO’s Carbon Neutrality Commitment
+                </p>
+              </div>
             </div>
           </div>
         </div>
