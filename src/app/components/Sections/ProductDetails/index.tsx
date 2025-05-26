@@ -89,7 +89,7 @@ const DownloadsCard = (data: { src: string }) => {
     <div className={styles.downloadsCard}>
       <div className={styles.text}>
         <div className={styles.name}>
-          <b>{formattedName}</b>
+          <b>{formattedName.replace(/-/g, ' ')}</b>
         </div>
         <div className={styles.format}>
           {formattedExt}
