@@ -72,14 +72,14 @@
         "awardImages": [],
         "technologies": [
           {
-            "title": "WATER-SAVING",
-            "description": "Leading environment-friendly and water-saving technologies",
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
             "link": {
               "type": "routeLink",
-              "href": "/en/technology/water-saving"
+              "href": "/en/technology/cefiontect"
             },
-            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
-            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
           }
         ],
         "downloads": [

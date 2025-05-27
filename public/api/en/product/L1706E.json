@@ -72,24 +72,24 @@
         "awardImages": [],
         "technologies": [
           {
-            "title": "WATER-SAVING",
-            "description": "Leading environment-friendly and water-saving technologies",
+            "title": "CEFIONTECT",
+            "description": "Special hygienic glaze for a smooth ceramic surface",
             "link": {
               "type": "routeLink",
-              "href": "/en/technology/water-saving"
+              "href": "/en/technology/cefiontect"
             },
-            "icon": "/assets/img/content/technology/water-saving/ico-water-saving.png",
-            "thumb": "/assets/img/content/technology/water-saving/thumb-water-saving.png"
+            "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+            "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
           },
           {
-            "title": "LUMINIST",
-            "description": "Unique translucent crystal-like material which provides excellent durability",
+            "title": "LINEARCERAM",
+            "description": "Exquisitely thin is the next dimension of beauty",
             "link": {
               "type": "routeLink",
-              "href": "/en/technology/luminist"
+              "href": "/en/technology/linearceram"
             },
-            "icon": "/assets/img/content/technology/luminist/ico-luminist.png",
-            "thumb": "/assets/img/content/technology/luminist/thumb-luminist.png"
+            "icon": "/assets/img/content/technology/linearceram/ico-linearceram.png",
+            "thumb": "/assets/img/content/technology/linearceram/thumb-linearceram.png"
           }
         ],
         "downloads": [

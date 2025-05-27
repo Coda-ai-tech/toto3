@@ -2908,6 +2908,11 @@
   .view-sp {
     display: block !important;
   }
+
+  .movie__inner a,
+  .movie2__inner a {
+    width: 78.5px;
+  }
 }
 
 

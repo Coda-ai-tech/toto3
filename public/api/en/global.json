@@ -136,7 +136,7 @@
                 "label": "WASHLET+",
                 "link": {
                 "type": "routeLink",
-                "href": "/en/product?category=washlet+"
+                "href": "/en/product?category=washlet_plus"
                 }
               },
               {
@@ -696,7 +696,7 @@
             "label": "WASHLET+",
             "link": {
               "type": "routeLink",
-              "href": "/en/product?category=washlet+"
+              "href": "/en/product?category=washlet_plus"
             }
           },
           {
