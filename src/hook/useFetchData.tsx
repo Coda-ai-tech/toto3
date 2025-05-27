@@ -3,14 +3,14 @@ import { notFound } from 'next/navigation';
 import { i18n } from '@/app/i18n.config';
 import { DataTypeProps } from '@/types';
 
-const { NEXT_PUBLIC_DEV_API_ENDPOINT_SUFFIX, NEXT_PUBLIC_DEV_LOCAL_API_ENDPOINT, NEXT_PUBLIC_DEV_CMS_API_ENDPOINT } =
+const { NEXT_PUBLIC_DEV_API_ENDPOINT_SUFFIX, NEXT_PUBLIC_DEV_LOCAL_API_ENDPOINT, NEXT_PUBLIC_DEV_CMS_API_ENDPOINT,NEXT_PUBLIC_DEV_CMS_ENDPOINT_SUFFIX } =
   process.env;
 
 const endpointPrefixList = {
   local: `${
     process.env.NODE_ENV === 'production' ? NEXT_PUBLIC_DEV_CMS_API_ENDPOINT : NEXT_PUBLIC_DEV_LOCAL_API_ENDPOINT
   }${NEXT_PUBLIC_DEV_API_ENDPOINT_SUFFIX}`,
-  cms: `${NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${NEXT_PUBLIC_DEV_API_ENDPOINT_SUFFIX}`,
+  cms: `${NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${NEXT_PUBLIC_DEV_CMS_ENDPOINT_SUFFIX}`,
 };
 type Locale = typeof i18n.locales[number];
 
@@ -37,7 +37,7 @@ export const GetPageData = async (dataType: DataTypeProps, slug: string[], from?
   const hasLanguage = i18n.locales.includes(cleanSlug[0] as Locale);
   const finalSlug = hasLanguage ? cleanSlug : [i18n.defaultLocale, ...cleanSlug];
   // 保持原有路径拼接
-  const endpoint = `${endpointPrefixList[dataType as keyof typeof endpointPrefixList]}/${finalSlug.join('/')}.json`;
+  const endpoint = `${endpointPrefixList[dataType as keyof typeof endpointPrefixList]}/${finalSlug.join('/')}${dataType === DataTypeProps.cms?'':'.json'}`;
   // const endpoint = `${endpointPrefixList[dataType as keyof typeof endpointPrefixList]}/${slug.join('/')}.json`;
 
   try {
@@ -59,14 +59,14 @@ export const GetLanguages = () => {
   return locales;
 };
 
-export const GetPageMeta = async (dataType: DataTypeProps, slug: string[]) => {
+export const GetPageMeta = async (dataType: DataTypeProps, slug: string[], useCMS?: boolean) => {
   if (exceptionCase(slug)) {
     return {
       title: null,
     };
   } else {
     try {
-      const data = await GetPageData(dataType, slug, 'GetPageMeta');
+      const data = await GetPageData(useCMS? DataTypeProps.cms : dataType, slug, 'GetPageMeta');
       const globalData = await GetPageData(dataType, [slug[0], 'global']);
       const { siteTitle } = globalData?.dictionary;
 
