@@ -43,6 +43,12 @@ const En = () => {
                   </li>
                   <li>
                     <img
+                      src='/assets/global/purpose/images/cleanliness/sdgs9.png'
+                      alt='SDGs No.9 INDUSTRY, INNOVATION AND INFRASTRUCTURE'
+                    />
+                  </li>
+                  <li>
+                    <img
                       src='/assets/global/purpose/images/cleanliness/sdgs4.png'
                       alt='SDGs No.11 SUSTAINABLE CITIES AND COMMUNITIES'
                     />
