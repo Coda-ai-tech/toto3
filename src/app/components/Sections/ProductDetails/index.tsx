@@ -25,6 +25,7 @@ const Button = dynamic(() => import('@@/Button'), { ssr: false });
 
 interface Product extends SectionTitle {
   id: string;
+  series: string;
   category: string[];
   subCategory: string[];
   description: string;
@@ -126,7 +127,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
   })
 
   const {
-    content: { id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName, relatedProduct }
+    content: { id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName, relatedProduct, series }
   } = data;
   return (
     <section className={`${styles.productDetails}`}>
@@ -168,6 +169,9 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
         <div className={styles.innerText}>
           <div className={styles.productTextHeadings}>
             {id}
+          </div>
+          <div className={styles.productSeries}>
+            {series}
           </div>
           <div className={styles.shortdescription}>
             {description}
