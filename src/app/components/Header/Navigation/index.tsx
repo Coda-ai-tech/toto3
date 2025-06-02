@@ -202,11 +202,11 @@ const Navigation = ({ content, isTop }: { content: any; isTop: boolean }) => {
                                               const startIndex = colIndex * itemsPerColumn;
                                               const endIndex = Math.min(startIndex + itemsPerColumn, item.items.length);
                                               const columnItems = item.items.slice(startIndex, endIndex);
-
+                                              console.log("ci", item);
+                                              
                                               return (
                                                 <div key={`column-${colIndex}`} className={`${styles.subNavColum}`}>
-
-                                                  <div className={`${styles.navColumList}`}>
+                                                  <div className={`${styles.navColumList}`} style={{ marginTop: item.title === '' || item.title === null ? '1.5em' : '0' }}>
                                                     <div className={styles.subNavColum}>
                                                       <ul className={styles.multiColum}>
                                                         {columnItems.map((subItem: TopNavListItem, snIndex: number) => (

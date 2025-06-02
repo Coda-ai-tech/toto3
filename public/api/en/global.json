@@ -212,11 +212,11 @@
             "title": "TOILETS",
             "items": [
               {
-                "image": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-                "label": "CEFIONTECT",
+                "image": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
+                "label": "TORNADO FLUSH",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en/technology/cefiontect"
+                  "href": "/en/technology/tornado-flush"
                 }
               },
               {
@@ -228,11 +228,11 @@
                 }
               },
               {
-                "image": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
-                "label": "TORNADO FLUSH",
+                "image": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+                "label": "CEFIONTECT",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en/technology/tornado-flush"
+                  "href": "/en/technology/cefiontect"
                 }
               },
               {
@@ -434,11 +434,11 @@
             "title": "BATHTUB",
             "items": [
               {
-                "image": "/assets/img/content/technology/hydrohands/ico-hydrohands.png",
-                "label": "HYDROHANDS",
+                "image": "/assets/img/content/technology/zero-dimension/ico-zero-dimension.png",
+                "label": "ZERO DIMENSION",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en/technology/hydrohands"
+                  "href": "/en/technology/zero-dimension"
                 }
               },
               {
@@ -450,11 +450,11 @@
                 }
               },
               {
-                "image": "/assets/img/content/technology/zero-dimension/ico-zero-dimension.png",
-                "label": "ZERO DIMENSION",
+                "image": "/assets/img/content/technology/hydrohands/ico-hydrohands.png",
+                "label": "HYDROHANDS",
                 "link": {
                   "type": "routeLink",
-                  "href": "/en/technology/zero-dimension"
+                  "href": "/en/technology/hydrohands"
                 }
               }
             ]
