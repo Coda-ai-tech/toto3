@@ -80,16 +80,6 @@
             },
             "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
             "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
-          },
-          {
-            "title": "LUMINIST",
-            "description": "Unique translucent crystal-like material which provides excellent durability",
-            "link": {
-              "type": "routeLink",
-              "href": "/en/technology/luminist"
-            },
-            "icon": "/assets/img/content/technology/luminist/ico-luminist.png",
-            "thumb": "/assets/img/content/technology/luminist/thumb-luminist.png"
           }
         ],
         "downloads": [
