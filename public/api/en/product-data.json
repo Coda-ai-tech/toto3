@@ -6338,22 +6338,6 @@
       }
     },
     {
-      "id": "TX474SUV1",
-      "name": "Single Lever Shower Mixer",
-      "category": [
-        "Shower"
-      ],
-      "subCategory": [
-        "shower-mixer",
-        "shower-mixer-2"
-      ],
-      "thumb": "/assets/img/content/products/Shower/shower-mixer/TX474SUV1/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/TX474SUV1"
-      }
-    },
-    {
       "id": "TX474SKBR#MB",
       "name": "Single Lever Shower Mixer with Hand Shower",
       "category": [
