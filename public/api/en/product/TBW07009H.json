@@ -90,14 +90,14 @@
             "thumb": "/assets/img/content/technology/intense-wave/thumb-intense-wave.png"
           },
           {
-            "title": "INTENSE WAVE+",
+            "title": "INTENSE WAVE +",
             "description": "An enhanced version for a more intense experience",
             "link": {
               "type": "routeLink",
               "href": "/en/technology/intense-wave-plus"
             },
-            "icon": "/assets/img/content/technology/intense-wave-plus/ico-intense-wave-plus.png",
-            "thumb": "/assets/img/content/technology/intense-wave-plus/thumb-intense-wave-plus.png"
+            "icon": "/assets/img/content/technology/intense-wave/ico-intense-wave.png",
+            "thumb": "/assets/img/content/technology/intense-wave/thumb-intense-wave.png"
           }
         ],
         "downloads": [

@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "INTENSE WAVE +",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "TECHNOLOGY",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/technology"
+      }
+    },
+    {
+      "label": "INTENSE WAVE +",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/technology/intense-wave-plus"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "TechnologyDetail",
+      "moduleOption": null,
+      "content": {
+        "title": "INTENSE WAVE +",
+        "icon": "/assets/img/content/technology/intense-wave/ico-intense-wave.png",
+        "items": [
+          {
+            "align": "row",
+            "context": "The enhanced version of INTENSE WAVE+ has a more concentrated water flow to cater to the needs and preferences of different users. Stimulate to body and mind and awakening the senses.",
+            "images": ["/assets/img/content/technology/intense-wave/shower-image-05-pc.jpg"]
+          }
+        ],
+        "youtube": "9S4xkUQeueM?si=mLUlmLBAZZvby_1W"
+      }
+    },
+    {
+      "id": null,
+      "module": "RelatedProduct",
+      "moduleOption": null,
+      "content": {
+        "title": "RELATED PRODUCT",
+        "items": [
+          {
+            "title": "TBW07009H",
+            "description": "3 Modes Hand Shower",
+            "thumb": "/assets/img/content/products/Shower/hand-shower/TBW07009H/content-image.png",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/product/TBW07009H"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -587,5 +587,6 @@
 		,"10" : {"id" : "warm_spa_hs",     "name" : "Warm Spa"}
 		,"11" : {"id" : "comfort_wave_hs", "name" : "Comfort Wave"}
 		,"12" : {"id" : "intense_wave",    "name" : "INTENSE WAVE"}
+		,"13" : {"id" : "intense_wave_plus",    "name" : "INTENSE WAVE +"}
 	}
 }

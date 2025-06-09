@@ -55,8 +55,7 @@
           "Size": "740 × 488 x 670mm",
           "FlushingSystem": "Tornado Flush",
           "WaterConsumption": "3L/4.5L",
-          "TrapType": "",
-          "WaterPressure": "P-Trap (Rough in: 180mm)",
+          "TrapType": "P-Trap (Rough in: 180mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"

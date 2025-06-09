@@ -514,13 +514,6 @@ const categoryList: CategoryItem[] = [
         },
       },
       {
-        id: 'tap',
-        label: {
-          en: 'TAP',
-          zh: 'TAP',
-        },
-      },
-      {
         id: 'c-console-lavatory',
         label: {
           en: 'CONSOLE LAVATORY',
