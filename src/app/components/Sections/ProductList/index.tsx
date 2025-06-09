@@ -61,7 +61,7 @@ const categoryList: CategoryItem[] = [
     sub: null,
   },
   {
-    id: 'neorest',
+    id: 'Neorest',
     label: {
       en: 'NEOREST',
       zh: 'NEOREST',
@@ -69,7 +69,7 @@ const categoryList: CategoryItem[] = [
     sub: null,
   },
   {
-    id: 'washlet+',
+    id: 'Washlet+',
     label: {
       en: 'WASHLET® +',
       zh: 'WASHLET® +',
@@ -77,7 +77,7 @@ const categoryList: CategoryItem[] = [
     sub: null,
   },
   {
-    id: 'washlet',
+    id: 'Washlet',
     label: {
       en: 'WASHLET®',
       zh: 'WASHLET®',
