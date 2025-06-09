@@ -86,6 +86,16 @@
             },
             "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
             "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          },
+          {
+            "title": "LINEARCERAM",
+            "description": "Exquisitely thin is the next dimension of beauty",
+            "link": {
+              "type": "routeLink",
+              "href": "/en/technology/linearceram"
+            },
+            "icon": "/assets/img/content/technology/linearceram/ico-linearceram.png",
+            "thumb": "/assets/img/content/technology/linearceram/thumb-linearceram.png"
           }
         ],
         "downloads": [

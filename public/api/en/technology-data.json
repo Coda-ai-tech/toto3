@@ -5,14 +5,14 @@
       "label": "TOILET",
       "list": [
         {
-          "title": "CEFIONTECT",
-          "description": "Special hygienic glaze for a smooth ceramic surface",
+          "title": "TORNADO FLUSH",
+          "description": "Revolutionary powerful jets rimless flushing system",
           "link": {
             "type": "routeLink",
-            "href": "/en/technology/cefiontect"
+            "href": "/en/technology/tornado-flush"
           },
-          "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
-          "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
+          "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
+          "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
         },
         {
           "title": "RIMLESS",
@@ -25,14 +25,14 @@
           "thumb": "/assets/img/content/technology/rimless/thumb-rimless.png"
         },
         {
-          "title": "TORNADO FLUSH",
-          "description": "Revolutionary powerful jets rimless flushing system",
+          "title": "CEFIONTECT",
+          "description": "Special hygienic glaze for a smooth ceramic surface",
           "link": {
             "type": "routeLink",
-            "href": "/en/technology/tornado-flush"
+            "href": "/en/technology/cefiontect"
           },
-          "icon": "/assets/img/content/technology/tornado-flush/ico-tornado-flush.png",
-          "thumb": "/assets/img/content/technology/tornado-flush/thumb-tornado-flush.png"
+          "icon": "/assets/img/content/technology/cefiontect/ico-cefiontect.png",
+          "thumb": "/assets/img/content/technology/cefiontect/thumb-cefiontect.png"
         },
         {
           "title": "WATER-SAVING",
@@ -231,6 +231,16 @@
           "link": {
             "type": "routeLink",
             "href": "/en/technology/intense-wave"
+          },
+          "icon": "/assets/img/content/technology/intense-wave/ico-intense-wave.png",
+          "thumb": "/assets/img/content/technology/intense-wave/thumb-intense-wave.png"
+        },
+        {
+          "title": "INTENSE WAVE +",
+          "description": "An enhanced version for a more intense experience",
+          "link": {
+            "type": "routeLink",
+            "href": "/en/technology/intense-wave-plus"
           },
           "icon": "/assets/img/content/technology/intense-wave/ico-intense-wave.png",
           "thumb": "/assets/img/content/technology/intense-wave/thumb-intense-wave.png"

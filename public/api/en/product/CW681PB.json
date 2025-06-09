@@ -55,8 +55,7 @@
           "Size": "670 x 448 x 434mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/6L",
-          "TrapType": "",
-          "WaterPressure": "P-trap (Rough in: 180mm)",
+          "TrapType": "P-trap (Rough in: 180mm)",
           "PowerRating": "",
           "Material": [
             "Vitreous China"

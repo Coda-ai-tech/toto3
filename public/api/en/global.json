@@ -389,6 +389,14 @@
                 }
               },
               {
+                "image": "/assets/img/content/technology/intense-wave/ico-intense-wave.png",
+                "label": "INTENSE WAVE +",
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/technology/intense-wave-plus"
+                }
+              },
+              {
                 "image": "/assets/img/content/technology/mini-unit/ico-mini-unit.png",
                 "label": "MINI UNIT",
                 "link": {
