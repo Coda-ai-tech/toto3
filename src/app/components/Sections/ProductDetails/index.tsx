@@ -36,7 +36,7 @@ interface Product extends SectionTitle {
   technologies: TechnologyItemData[];
   downloads: string[];
   productName: string;
-  relatedProduct: string[];
+  relatedProduct: ProductItem[];
 }
 
 interface Awards {
@@ -54,6 +54,15 @@ interface Specs {
   powerRating: string;
   materials: string[];
   colour: string;
+}
+
+interface ProductItem {
+  id: string;
+  category: string[];
+  subCategory: string[] | null;
+  thumb: string;
+  link: ButtonLinkElement;
+  name: string | null;
 }
 
 const button = {
@@ -422,13 +431,13 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             </div>
             <div className={styles.products}>
               {relatedProduct.map((product, index) => {
-                const foundProduct = productData.data.find((current) => current.id.replaceAll(/[#+/]/g, "-").replaceAll(" ", "") === product.replaceAll(/[#+/]/g, "-").replaceAll(" ", ""));
-                if (!foundProduct)
-                  return;
+                // const foundProduct = productData.data.find((current) => current.id.replaceAll(/[#+/]/g, "-").replaceAll(" ", "") === product.id.replaceAll(/[#+/]/g, "-").replaceAll(" ", ""));
+                // if (!foundProduct)
+                //   return;
 
                 return (
-                  <ProductCard key={`relatedProduct-${foundProduct.id}`}
-                    data={foundProduct} />
+                  <ProductCard key={`relatedProduct-${product.id}`}
+                    data={product} />
                 )
               })}
             </div>
