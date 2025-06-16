@@ -323,7 +323,7 @@
       }
     },
     {
-      "id": "PJS05W",
+      "id": "PJS05WE#MW",
       "name": "Console Lavatory",
       "category": [
         "Lavatories"
@@ -338,7 +338,7 @@
       }
     },
     {
-      "id": "PJS06W",
+      "id": "PJS06WE#MW",
       "name": "Console Lavatory",
       "category": [
         "Lavatories"
@@ -353,7 +353,7 @@
       }
     },
     {
-      "id": "PJS07W",
+      "id": "PJS07WE#MW",
       "name": "Console Lavatory",
       "category": [
         "Lavatories"
@@ -653,7 +653,7 @@
       }
     },
     {
-      "id": "L5616E",
+      "id": "L5616CE#XW",
       "name": "Console Lavatory",
       "category": [
         "Lavatories"
@@ -743,7 +743,7 @@
       }
     },
     {
-      "id": "LW630JD",
+      "id": "LW630JDW/F",
       "name": "Console Lavatory (Colour)",
       "category": [
         "Lavatories"
@@ -818,7 +818,7 @@
       }
     },
     {
-      "id": "LW896JD",
+      "id": "LW896J",
       "name": "Console Lavatory (Colour)",
       "category": [
         "Lavatories"
@@ -878,7 +878,7 @@
       }
     },
     {
-      "id": "LW1617B",
+      "id": "LW1617CWH",
       "name": "Console Lavatory",
       "category": [
         "Lavatories"
@@ -953,7 +953,7 @@
       }
     },
     {
-      "id": "LW1716WH",
+      "id": "L1716WH",
       "name": "Console Lavatory",
       "category": [
         "Lavatories"
@@ -1689,7 +1689,7 @@
     },
     {
       "id": "LW236CJ + LW239FJ",
-      "name": "Wall Hung Lavatory\r\nwith Pedestal",
+      "name": "Pedestal Lavatory",
       "category": [
         "Lavatories"
       ],
@@ -1704,7 +1704,7 @@
     },
     {
       "id": "LW241CJ + LW239FJ",
-      "name": "Wall Hung Lavatory\r\nwith Pedestal",
+      "name": "Pedestal Lavatory",
       "category": [
         "Lavatories"
       ],
@@ -1719,7 +1719,7 @@
     },
     {
       "id": "LW240CJ + LW240HFJ",
-      "name": "Wall Hung Lavatory\r\nwith Half Pedestal",
+      "name": "Pedestal Lavatory",
       "category": [
         "Lavatories"
       ],
@@ -3495,7 +3495,7 @@
         }
     },
     {
-      "id": "CW636DPE",
+      "id": "C636DPE",
       "name": "Elongated Tornado Flush Toilet",
       "category": [
           "Toilet"
@@ -3510,7 +3510,7 @@
       }
     },
     {
-      "id": "CW636DE",
+      "id": "C636DE",
       "name": "Elongated Tornado Flush Toilet",
       "category": [
           "Toilet"

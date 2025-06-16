@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW1617B",
+    "title": "LW1617CWH",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "LW1617B",
+      "label": "LW1617CWH",
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW1617B"
@@ -31,14 +31,14 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW1617B",
+      "modelNumber": "LW1617CWH",
       "slug": "LW1617B",
       "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW1617B",
+        "id": "LW1617CWH",
         "category": [
           "Lavatories"
         ],

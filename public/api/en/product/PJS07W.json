@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "PJS07W",
+    "title": "PJS07WE#MW",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "label": "PJS07W",
+      "label": "PJS07WE#MW",
       "link": {
         "type": "routeLink",
         "href": "/en/product/PJS07W"
@@ -31,14 +31,14 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "PJS07W",
+      "modelNumber": "PJS07WE#MW",
       "slug": "PJS07W",
       "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "PJS07W",
+        "id": "PJS07WE#MW",
         "category": [
           "Lavatories"
         ],
