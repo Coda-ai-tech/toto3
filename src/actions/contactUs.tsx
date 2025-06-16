@@ -33,12 +33,12 @@ export type ContactUsActionState = {
 
 // Create a nodemailer transporter for Mailjet SMTP
 const transporter = nodemailer.createTransport({
-  host: 'in-v3.mailjet.com',
+  host: 'email-smtp.ap-southeast-1.amazonaws.com',
   port: 587,
   secure: false, // Use TLS
   auth: {
-    user: 'dd47b11b4a532dd8d2c5555947579eed', // Mailjet API key
-    pass: 'bd7aec1a7ef37cfd76dc28446d720f0f', // Mailjet Secret key
+    user: 'AKIA6D6JBYTMZVKMKXGX', // AWS SMTP User
+    pass: 'BIbp4S0wASLoz6Z2SMVcVlSiBNItwbSDAxS6bg8YB4qp', // AWS SMTP Password
   },
   debug: true, // Enable debug output
   logger: true, // Log to console
@@ -52,14 +52,14 @@ export async function ContactUsAction(
     console.log('Starting ContactUsAction');
 
     // Log environment variables
-    if (!process.env.MAILJET_API_KEY || !process.env.MAILJET_SECRET_KEY) {
-      console.error('Missing Mailjet credentials');
-      return {
-        errors: { server: 'Mailjet credentials are missing.' },
-      };
-    }
-    console.log('Mailjet API Key:', process.env.MAILJET_API_KEY);
-    console.log('Mailjet Secret Key:', process.env.MAILJET_SECRET_KEY);
+    // if (!process.env.MAILJET_API_KEY || !process.env.MAILJET_SECRET_KEY) {
+    //   console.error('Missing Mailjet credentials');
+    //   return {
+    //     errors: { server: 'Mailjet credentials are missing.' },
+    //   };
+    // }
+    // console.log('Mailjet API Key:', process.env.MAILJET_API_KEY);
+    // console.log('Mailjet Secret Key:', process.env.MAILJET_SECRET_KEY);
 
     // Extract form data
     const username = form.get('username') as string;
@@ -107,7 +107,7 @@ export async function ContactUsAction(
 
     // Configure email options
     const mailOptions: nodemailer.SendMailOptions = {
-      from: 'sean.shum@digidumpling.com', // Temporary using this account
+      from: 'marketing.hk@toto.com', // Temporary using this account
       to: 'marketing.hk@toto.com', // Recipient
       subject: `New Contact Form Submission - ${inquiry || 'General'}`,
       text: emailContent,

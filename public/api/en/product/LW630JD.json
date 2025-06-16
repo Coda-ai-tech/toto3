@@ -31,14 +31,14 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW630JD",
+      "modelNumber": "LW630JDW/F",
       "slug": "LW630JD",
       "productName": "Console Lavatory (Colour)",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW630JD",
+        "id": "LW630JDW/F",
         "category": [
           "Lavatories"
         ],

@@ -55,7 +55,7 @@
           "Size": "595 x 380 x 346mm",
           "FlushingSystem": "Wash Down",
           "WaterConsumption": "3L/4.5L",
-          "TrapType": "210mm",
+          "WaterPressure": "210mm",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
