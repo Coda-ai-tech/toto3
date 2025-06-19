@@ -37,6 +37,7 @@ interface Product extends SectionTitle {
   downloads: string[];
   productName: string;
   relatedProduct: ProductItem[];
+  videos: VideoItem[];
 }
 
 interface Awards {
@@ -53,7 +54,7 @@ interface Specs {
   waterPressure: string;
   powerRating: string;
   materials: string[];
-  colour: string;
+  colour: ColourItem[];
 }
 
 interface ProductItem {
@@ -63,6 +64,16 @@ interface ProductItem {
   thumb: string;
   link: ButtonLinkElement;
   name: string | null;
+}
+
+interface ColourItem {
+  name: string | null;
+  image: string;
+}
+
+interface VideoItem {
+  title: string;
+  video: string;
 }
 
 const button = {
@@ -136,7 +147,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
   })
 
   const {
-    content: { id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName, relatedProduct, series }
+    content: { id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName, relatedProduct, series, videos }
   } = data;
   return (
     <section className={`${styles.productDetails}`}>
@@ -214,46 +225,26 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
                             <td className={styles.specValue}>
                               {filteredValues.map((item, index) => (
                                 <div className={styles.colorValues} key={index}>
-
-                                  {Object.entries(item).map(([key, values], index) => {
-                                    if (Array.isArray(values) && values.length > 0) {
-                                      let colorChipFolder: string = key.toLowerCase();
-                                      if (key.toLowerCase() === 'for fillings' || key.toLowerCase() === 'for fittings' || key.toLowerCase() === 'forfillings' || key.toLowerCase() === 'forfittings') {
-                                        colorChipFolder = 'for_fittings';
-                                      } else if (key.toLowerCase() === 'forbathtub') {
-                                        colorChipFolder = 'for_bathtub';
-                                      } else if (key.toLowerCase() === 'forgrabbar') {
-                                        colorChipFolder = 'for_grabbar';
-                                      } else if (key.toLowerCase() === 'forlavatory') {
-                                        colorChipFolder = 'for_lavatory';
-                                      } else if (key.toLowerCase() === 'forpushbutton') {
-                                        colorChipFolder = 'for_push_button';
-                                      }
-                                      return values.map((value, index) => {
-                                        console.log(value);
-                                        if (value.toString() === "#MW Matte White" && (key.toLowerCase() === 'for fillings' || key.toLowerCase() === 'for fittings' || key.toLowerCase() === 'forfillings' || key.toLowerCase() === 'forfittings')) {
-                                          return null;
-                                        } else if (value.toString() === "#MB Matte Black" && (key.toLowerCase() === 'for fillings' || key.toLowerCase() === 'for fittings' || key.toLowerCase() === 'forfillings' || key.toLowerCase() === 'forfittings')) {
-                                          return null;
-                                        }
-                                        return (
-                                          <div key={index} className={styles.colorRow}>
-                                            <div className={styles.colorChip}>
-                                              <Image
-                                                src={`/assets/img/content/products/color_chips/${colorChipFolder}/${value.replace(/#/g, '').replace(/_/g, ' ').replace(/ (.*)?/, '_$1')}.png`}
-                                                width={32}
-                                                height={32}
-                                                alt=""
-                                                draggable={false} />
-                                            </div>
-                                            <div key={'inner-' + index} className={styles.innerValue}>{value}</div>
-                                          </div>
-                                        )
-                                      });
-                                    }
-                                    return null; // Skip empty arrays
-                                  })}
-
+                                    <div
+                                      key={index}
+                                      className={styles.colorRow}
+                                    >
+                                      <div className={styles.colorChip}>
+                                        <Image
+                                          src={`${item.image}`}
+                                          width={32}
+                                          height={32}
+                                          alt=""
+                                          draggable={false}
+                                        />
+                                      </div>
+                                      <div
+                                        key={"inner-" + index}
+                                        className={styles.innerValue}
+                                      >
+                                        {item.name}
+                                      </div>
+                                    </div>                                
                                 </div>
                               ))}
                             </td>
@@ -422,7 +413,20 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
           </div>
         </div>
       </div>
-
+      {videos &&
+        videos.map((video) => (
+          <div className={`${styles.youtubeWrap}`}>
+            <div className={`${styles.inner}`}>
+              <iframe
+                src={video.video}
+                title={video.title}
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        ))}
       {relatedProduct && relatedProduct.length > 0 && (
         <div id="relatedProducts">
           <div className={styles.relatedProductContainer}>
@@ -443,11 +447,10 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             </div>
           </div>
         </div>
-      )
-      }
-
+      )}
+      
     </section>
-  )
-}
+  );
+};
 
 export default ProductDetails;
