@@ -64,6 +64,7 @@ interface ProductItem {
   thumb: string;
   link: ButtonLinkElement;
   name: string | null;
+  series: string;
 }
 
 interface ColourItem {

@@ -1,10 +1,11 @@
 'use client';
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { ModuleData, SectionTitle } from '@/types';
 import { TechnologyGroup, TechnologyGroupData } from './TechnologyGroup';
 import styles from './TechnologyList.module.scss';
 
 import technologyData from '../../../../../public/api/en/technology-data.json';
+import { useParams } from 'next/navigation';
 
 const TechnologyList = ({ order, data }: ModuleData<SectionTitle, null>) => {
   const {
@@ -12,10 +13,32 @@ const TechnologyList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     content: { title },
   } = data;
 
-  const technology = technologyData.data as TechnologyGroupData[];
+  const { lang } = useParams();
+  const [technology, setTechnology] = useState<TechnologyGroupData[]>([]);
+  const [currentSection, setCurrentSection] = useState('');
 
-  const [currentSection, setCurrentSection] = useState(technology[0].label || '');
+  //const technology = technologyData.data as TechnologyGroupData[];
 
+    const fetchData = async () => {
+    try {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${process.env.NEXT_PUBLIC_DEV_CMS_ENDPOINT_SUFFIX}/${lang}/technology`);
+      const technologyDatas = await response.json();
+      setTechnology(technologyDatas.data);
+      if(technologyDatas !== undefined){
+      setCurrentSection(technologyDatas.data[0].label)
+      }
+    } catch (error) {
+      console.log('\x1b[36m%s\x1b[0m', `==== DATA NOT FOUND () ====`);
+      console.error('error', error);
+    }
+
+  };
+
+    useEffect(() => {
+      fetchData();
+    }, []);
+
+  
   const updateCurrentSection = useCallback(
     (target: string) => {
       setCurrentSection(target);

@@ -15,13 +15,17 @@ export const generateMetadata = async ({
   params: Promise<{ lang: Locale; slug: string[] }>;
 }): Promise<Metadata> => {
   const { lang, slug } = await params;
-  return GetPageMeta(dataType, [lang, ...slug], isValidProductPath(slug));
+  return GetPageMeta(dataType, [lang, ...slug], isValidAPIPath(slug));
 };
 
-const isValidProductPath = (pathArray : string[]) => {
+const isValidAPIPath = (pathArray : string[]) => {
 
   if (!Array.isArray(pathArray)) return false;
-  return pathArray.length === 2 && pathArray[0] === 'product';
+  if(pathArray.length === 2 && pathArray[0] === 'product')
+    return true;
+  if(pathArray.length === 2 && pathArray[0] === 'technology')
+    return true;
+  return false;
 }
 
 const DynamicPage = async ({
@@ -32,7 +36,7 @@ const DynamicPage = async ({
   searchParams?: Promise<{ [key: string]: string }>;
 }) => {
   const { lang, slug } = await params;
-  const pageData = await GetPageData(isValidProductPath(slug)? DataTypeProps.cms : dataType, [lang, ...slug], '', await searchParams);
+  const pageData = await GetPageData(isValidAPIPath(slug)? DataTypeProps.cms : dataType, [lang, ...slug], '', await searchParams);
 
   return (
     <DefaultLayout params={params}>

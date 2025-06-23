@@ -32,6 +32,7 @@ interface ProductItem {
   thumb: string;
   link: ButtonLinkElement;
   name: string | null;
+  series: string;
 }
 
 interface CategoryBase {
@@ -813,7 +814,7 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     setTimeout(() => {
       const categoryFilteredData = selectedCategory.length > 0 ? getFilteredData() : products;
       const searchKeyFilteredData = categoryFilteredData?.filter((item: any) =>
-        item.id.trim().toLowerCase().includes(keyword.trim().toLowerCase()) || item.name.trim().toLowerCase().includes(keyword.trim().toLowerCase())
+        item.id.trim().toLowerCase().includes(keyword.trim().toLowerCase()) || item.name.trim().toLowerCase().includes(keyword.trim().toLowerCase()) || item.series !== "" && item.series.toLowerCase().includes(keyword.trim().toLowerCase())
       ).filter(
         (item => {
           const seen = new Set<string>();

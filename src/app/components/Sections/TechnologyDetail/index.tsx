@@ -15,7 +15,7 @@ interface TechnologyContextItem {
 interface TechnologyDetailProps extends SectionTitle {
   icon: string;
   items: TechnologyContextItem[];
-  youtube: string | null;
+  youtube: string[] | null;
 }
 
 const TechnologyDetail = ({
@@ -92,18 +92,18 @@ const TechnologyDetail = ({
           </div>
         </div>
       </div>
-      {youtube && (
+      {youtube && youtube.map((video) => (
         <div className={`${styles.youtubeWrap}`}>
           <div className={`${styles.inner}`}>
             <iframe
-              src={`https://www.youtube.com/embed/${youtube}`}
+              src={video}
               title={title}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen></iframe>
           </div>
         </div>
-      )}
+      ))}
     </section>
   );
 };
