@@ -8209,22 +8209,6 @@
       }
     },
     {
-      "id": "TX454SMZ",
-      "name": "Thermostatic  Shower Column Set with Hand Shower",
-      "category": [
-        "Shower"
-      ],
-      "subCategory": [
-        "shower-column",
-        "with-hand-shower"
-      ],
-      "thumb": "/assets/img/content/products/Shower/shower-column/TX454SMZ/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/TX454SMZ"
-      }
-    },
-    {
       "id": "TX454SES",
       "name": "Thermostatic  Shower Column Set with Hand Shower",
       "category": [
@@ -10575,7 +10559,7 @@
     },
     {
       "id": "CW822RA",
-      "name": "",
+      "name": "Elongated Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10591,7 +10575,7 @@
     },
     {
       "id": "CW274J",
-      "name": "",
+      "name": "Elongated Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10607,7 +10591,7 @@
     },
     {
       "id": "CW553KVH",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10623,7 +10607,7 @@
     },
     {
       "id": "CW822NJWS",
-      "name": "",
+      "name": "Elongated Wash Down Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10638,8 +10622,8 @@
       }
     },
     {
-      "id": "CW580ME10",
-      "name": "",
+      "id": "CW580ME9",
+      "name": "Regular Wash Down Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10655,7 +10639,7 @@
     },
     {
       "id": "CW941K",
-      "name": "",
+      "name": "Elongated Wash Down Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10671,7 +10655,7 @@
     },
     {
       "id": "CW620NJ",
-      "name": "",
+      "name": "Regular Wash Down Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10687,7 +10671,7 @@
     },
     {
       "id": "C762E",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10703,7 +10687,7 @@
     },
     {
       "id": "CW762B",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet For Flush Valve Use",
       "category": [
         "Commercial"
       ],
@@ -10719,7 +10703,7 @@
     },
     {
       "id": "CW162B",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10735,7 +10719,7 @@
     },
     {
       "id": "CW162Y",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10751,7 +10735,7 @@
     },
     {
       "id": "CW162YH",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet for WASHLET Installation",
       "category": [
         "Commercial"
       ],
@@ -10767,7 +10751,7 @@
     },
     {
       "id": "CW813PJ",
-      "name": "",
+      "name": "Elongated Wash Down Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10783,7 +10767,7 @@
     },
     {
       "id": "CW824NPJ",
-      "name": "",
+      "name": "Regular Wash Down Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10799,7 +10783,7 @@
     },
     {
       "id": "CW275PJ",
-      "name": "",
+      "name": "Elongated Tornado Flush Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10815,7 +10799,7 @@
     },
     {
       "id": "CW163Y",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10831,7 +10815,7 @@
     },
     {
       "id": "CW763PB",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10847,7 +10831,7 @@
     },
     {
       "id": "CW763B",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
