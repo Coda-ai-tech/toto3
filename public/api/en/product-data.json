@@ -8209,22 +8209,6 @@
       }
     },
     {
-      "id": "TX454SMZ",
-      "name": "Thermostatic  Shower Column Set with Hand Shower",
-      "category": [
-        "Shower"
-      ],
-      "subCategory": [
-        "shower-column",
-        "with-hand-shower"
-      ],
-      "thumb": "/assets/img/content/products/Shower/shower-column/TX454SMZ/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/TX454SMZ"
-      }
-    },
-    {
       "id": "TX454SES",
       "name": "Thermostatic  Shower Column Set with Hand Shower",
       "category": [
@@ -10575,7 +10559,7 @@
     },
     {
       "id": "CW822RA",
-      "name": "",
+      "name": "Elongated Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10591,7 +10575,7 @@
     },
     {
       "id": "CW274J",
-      "name": "",
+      "name": "Elongated Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10607,7 +10591,7 @@
     },
     {
       "id": "CW553KVH",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10623,7 +10607,7 @@
     },
     {
       "id": "CW822NJWS",
-      "name": "",
+      "name": "Elongated Wash Down Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10638,8 +10622,8 @@
       }
     },
     {
-      "id": "CW580ME10",
-      "name": "",
+      "id": "CW580ME9",
+      "name": "Regular Wash Down Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10655,7 +10639,7 @@
     },
     {
       "id": "CW941K",
-      "name": "",
+      "name": "Elongated Wash Down Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10671,7 +10655,7 @@
     },
     {
       "id": "CW620NJ",
-      "name": "",
+      "name": "Regular Wash Down Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10687,7 +10671,7 @@
     },
     {
       "id": "C762E",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10703,7 +10687,7 @@
     },
     {
       "id": "CW762B",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet For Flush Valve Use",
       "category": [
         "Commercial"
       ],
@@ -10719,7 +10703,7 @@
     },
     {
       "id": "CW162B",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10735,7 +10719,7 @@
     },
     {
       "id": "CW162Y",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
       ],
@@ -10751,7 +10735,7 @@
     },
     {
       "id": "CW162YH",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Hung Toilet for WASHLET Installation",
       "category": [
         "Commercial"
       ],
@@ -10767,7 +10751,7 @@
     },
     {
       "id": "CW813PJ",
-      "name": "",
+      "name": "Elongated Wash Down Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10783,7 +10767,7 @@
     },
     {
       "id": "CW824NPJ",
-      "name": "",
+      "name": "Regular Wash Down Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10799,7 +10783,7 @@
     },
     {
       "id": "CW275PJ",
-      "name": "",
+      "name": "Elongated Tornado Flush Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10815,7 +10799,7 @@
     },
     {
       "id": "CW163Y",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10831,7 +10815,7 @@
     },
     {
       "id": "CW763PB",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10847,7 +10831,7 @@
     },
     {
       "id": "CW763B",
-      "name": "",
+      "name": "D-shape Tornado Flush Wall Faced Toilet",
       "category": [
         "Commercial"
       ],
@@ -10863,7 +10847,7 @@
     },
     {
       "id": "MB008W",
-      "name": "",
+      "name": "Push Button Set with Sensor",
       "category": [
         "Commercial"
       ],
@@ -10879,7 +10863,7 @@
     },
     {
       "id": "MB008B",
-      "name": "",
+      "name": "Push Button Set with Sensor",
       "category": [
         "Commercial"
       ],
@@ -10895,7 +10879,7 @@
     },
     {
       "id": "MB003CPR-2",
-      "name": "",
+      "name": "Push Button Set",
       "category": [
         "Commercial"
       ],
@@ -10911,7 +10895,7 @@
     },
     {
       "id": "MB171M#SS",
-      "name": "",
+      "name": "Push Button Set",
       "category": [
         "Commercial"
       ],
@@ -10927,7 +10911,7 @@
     },
     {
       "id": "MB170P#WH",
-      "name": "",
+      "name": "Push Button Set",
       "category": [
         "Commercial"
       ],
@@ -10943,7 +10927,7 @@
     },
     {
       "id": "MB170P#SS",
-      "name": "",
+      "name": "Push Button Set",
       "category": [
         "Commercial"
       ],
@@ -10959,7 +10943,7 @@
     },
     {
       "id": "MB175M#SS",
-      "name": "",
+      "name": "Push Button Set",
       "category": [
         "Commercial"
       ],
@@ -10975,7 +10959,7 @@
     },
     {
       "id": "MB174P#WH",
-      "name": "",
+      "name": "Push Button Set",
       "category": [
         "Commercial"
       ],
@@ -10991,7 +10975,7 @@
     },
     {
       "id": "MB174P#SS",
-      "name": "",
+      "name": "Push Button Set",
       "category": [
         "Commercial"
       ],
@@ -11007,7 +10991,7 @@
     },
     {
       "id": "MB176G#WH",
-      "name": "",
+      "name": "Push Button Set",
       "category": [
         "Commercial"
       ],
@@ -11023,7 +11007,7 @@
     },
     {
       "id": "MB005DGN",
-      "name": "",
+      "name": "Push Button Set",
       "category": [
         "Commercial"
       ],
@@ -11039,7 +11023,7 @@
     },
     {
       "id": "DUE130UK",
-      "name": "",
+      "name": "Concealed Type Flush Valve with Sensor for Urinal (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11055,7 +11039,7 @@
     },
     {
       "id": "DUE130UE",
-      "name": "",
+      "name": "Concealed Type Flush Valve with Sensor for Urinal (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11071,7 +11055,7 @@
     },
     {
       "id": "DUE129UK",
-      "name": "",
+      "name": "Concealed Type Flush Valve with Sensor for Urinal (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11087,7 +11071,7 @@
     },
     {
       "id": "DUE129UE",
-      "name": "",
+      "name": "Concealed Type Flush Valve with Sensor for Urinal (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11103,7 +11087,7 @@
     },
     {
       "id": "DUE128UK",
-      "name": "",
+      "name": "Concealed Type Flush Valve with Sensor for Urinal (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11119,7 +11103,7 @@
     },
     {
       "id": "DUE128UE",
-      "name": "",
+      "name": "Concealed Type Flush Valve with Sensor for Urinal (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11135,7 +11119,7 @@
     },
     {
       "id": "DUE114UK",
-      "name": "",
+      "name": "Concealed Type Flush Valve with Sensor for Urinal (Fresh Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11151,7 +11135,7 @@
     },
     {
       "id": "DUE114UE",
-      "name": "",
+      "name": "Concealed Type Flush Valve with Sensor for Urinal (Fresh Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11167,7 +11151,7 @@
     },
     {
       "id": "DUE129UKV1 + DUE129UKV2",
-      "name": "",
+      "name": "Concealed Type Flush Valve with Sensor for Urinal (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11183,7 +11167,7 @@
     },
     {
       "id": "US900WR",
-      "name": "",
+      "name": "Wall Hung Urinal with Built-in Sensor (Fresh Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11199,7 +11183,7 @@
     },
     {
       "id": "USWN900H",
-      "name": "",
+      "name": "Wall Hung Urinal with Built-in Sensor (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11215,7 +11199,7 @@
     },
     {
       "id": "USWN900HE",
-      "name": "",
+      "name": "Wall Hung Urinal with Built-in Sensor (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11231,7 +11215,7 @@
     },
     {
       "id": "USWN902H",
-      "name": "",
+      "name": "Wall Hung Urinal with Built-in Sensor (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11247,7 +11231,7 @@
     },
     {
       "id": "USWN902HE",
-      "name": "",
+      "name": "Wall Hung Urinal with Built-in Sensor (Sea Water Use)",
       "category": [
         "Commercial"
       ],
@@ -11263,7 +11247,7 @@
     },
     {
       "id": "U901HH",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11279,7 +11263,7 @@
     },
     {
       "id": "UWN903HH",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11295,7 +11279,7 @@
     },
     {
       "id": "UWN508HB",
-      "name": "",
+      "name": "Floor Standing Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11311,7 +11295,7 @@
     },
     {
       "id": "UW58HJ",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11327,7 +11311,7 @@
     },
     {
       "id": "U447HRE",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11343,7 +11327,7 @@
     },
     {
       "id": "U904HNE#XW",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11359,7 +11343,7 @@
     },
     {
       "id": "U904HRE#XW",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11375,7 +11359,7 @@
     },
     {
       "id": "UW104HJ",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11391,7 +11375,7 @@
     },
     {
       "id": "UW811HJ",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11407,7 +11391,7 @@
     },
     {
       "id": "UWN571HB",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11423,7 +11407,7 @@
     },
     {
       "id": "UW350HJT1",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11439,7 +11423,7 @@
     },
     {
       "id": "UWN180HB",
-      "name": "",
+      "name": "Wall Hung Urinal (Back Spud Inlet)",
       "category": [
         "Commercial"
       ],
@@ -11455,7 +11439,7 @@
     },
     {
       "id": "A100",
-      "name": "",
+      "name": "Urinal Partition",
       "category": [
         "Commercial"
       ],
@@ -11471,7 +11455,7 @@
     },
     {
       "id": "AW115J",
-      "name": "",
+      "name": "Urinal Partition",
       "category": [
         "Commercial"
       ],
@@ -12031,7 +12015,7 @@
     },
     {
       "id": "L4715RE-XW",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12047,7 +12031,7 @@
     },
     {
       "id": "L4716RE-XW",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12063,7 +12047,7 @@
     },
     {
       "id": "L1715WH",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12079,7 +12063,7 @@
     },
     {
       "id": "LW1714B",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12095,7 +12079,7 @@
     },
     {
       "id": "L710CSRE",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12111,7 +12095,7 @@
     },
     {
       "id": "LW709RCB#XW",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12127,7 +12111,7 @@
     },
     {
       "id": "LW950CJ",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12143,7 +12127,7 @@
     },
     {
       "id": "LW574J",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12159,7 +12143,7 @@
     },
     {
       "id": "LW1634B",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12175,7 +12159,7 @@
     },
     {
       "id": "LW1704B",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12191,7 +12175,7 @@
     },
     {
       "id": "LW895J",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12207,7 +12191,7 @@
     },
     {
       "id": "L1706E",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12223,7 +12207,7 @@
     },
     {
       "id": "LW578J",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12239,7 +12223,7 @@
     },
     {
       "id": "L523SE",
-      "name": "",
+      "name": "Console Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12255,13 +12239,13 @@
     },
     {
       "id": "LW565",
-      "name": "",
+      "name": "Self Rimming Lavatory",
       "category": [
         "Commercial"
       ],
       "subCategory": [
         "lavatory",
-        "c-semi-rimming-lavatory"
+        "c-self-rimming-lavatory"
       ],
       "thumb": "/assets/img/content/products/Commercial/lavatory/LW565/content-image.png",
       "link": {
@@ -12271,7 +12255,7 @@
     },
     {
       "id": "LW717RCB",
-      "name": "",
+      "name": "Semi Recessed Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12287,7 +12271,7 @@
     },
     {
       "id": "LW642CJ",
-      "name": "",
+      "name": "Semi Recessed Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12303,7 +12287,7 @@
     },
     {
       "id": "LW528NJ",
-      "name": "",
+      "name": "Semi Recessed Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12319,7 +12303,7 @@
     },
     {
       "id": "LW526NJ",
-      "name": "",
+      "name": "Semi Recessed Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12335,7 +12319,7 @@
     },
     {
       "id": "LW248JT1",
-      "name": "",
+      "name": "Wall Hung Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12351,7 +12335,7 @@
     },
     {
       "id": "L529V4",
-      "name": "",
+      "name": "Wall Hung Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12367,7 +12351,7 @@
     },
     {
       "id": "L38V2",
-      "name": "",
+      "name": "Wall Hung Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12382,8 +12366,56 @@
       }
     },
     {
+      "id": "LW236CJ + LW239FJ",
+      "name": "Pedestal Lavatory",
+      "category": [
+        "Commercial"
+      ],
+      "subCategory": [
+        "lavatory",
+        "c-pedestal-lavatory"
+      ],
+      "thumb": "/assets/img/content/products/Lavatories/pedestal-lavatory/LW236CJ+LW239FJ/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW236CJ+LW239FJ"
+      }
+    },
+    {
+      "id": "LW241CJ + LW239FJ",
+      "name": "Pedestal Lavatory",
+      "category": [
+        "Commercial"
+      ],
+      "subCategory": [
+        "lavatory",
+        "c-pedestal-lavatory"
+      ],
+      "thumb": "/assets/img/content/products/Lavatories/pedestal-lavatory/LW241CJ+LW239FJ/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW241CJ+LW239FJ"
+      }
+    },
+    {
+      "id": "LW240CJ + LW240HFJ",
+      "name": "Pedestal Lavatory",
+      "category": [
+        "Commercial"
+      ],
+      "subCategory": [
+        "lavatory",
+        "c-pedestal-lavatory"
+      ],
+      "thumb": "/assets/img/content/products/Lavatories/pedestal-lavatory/LW240CJ+LW240HFJ/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW240CJ+LW240HFJ"
+      }
+    },
+    {
       "id": "LW540J",
-      "name": "",
+      "name": "Under Counter Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12399,7 +12431,7 @@
     },
     {
       "id": "LW1515B",
-      "name": "",
+      "name": "Under Counter Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12415,7 +12447,7 @@
     },
     {
       "id": "LW592J",
-      "name": "",
+      "name": "Under Counter Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12431,7 +12463,7 @@
     },
     {
       "id": "LW1535A",
-      "name": "",
+      "name": "Under Counter Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12447,7 +12479,7 @@
     },
     {
       "id": "LW1514B",
-      "name": "",
+      "name": "Under Counter Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12463,7 +12495,7 @@
     },
     {
       "id": "LW651J",
-      "name": "",
+      "name": "Under Counter Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12479,7 +12511,7 @@
     },
     {
       "id": "LW587J",
-      "name": "",
+      "name": "Under Counter Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12495,7 +12527,7 @@
     },
     {
       "id": "LW1505JU",
-      "name": "",
+      "name": "Under Counter Lavatory",
       "category": [
         "Commercial"
       ],
@@ -12511,7 +12543,7 @@
     },
     {
       "id": "LW1504WH",
-      "name": "",
+      "name": "Under Counter Lavatory",
       "category": [
         "Commercial"
       ],
