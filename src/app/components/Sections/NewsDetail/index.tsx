@@ -28,9 +28,26 @@ const NewsDetail = ({ order, data }: ModuleData<SectionTitle, null>) => {
 
   const { lang, slug } = useParams();
   const { dictionary } = useContext(ConfigContext);
-  const newsList = newsData.data;
-
+  //const newsList = newsData.data;
+  const [newsList, setNewsList] = useState<NewsItem[]>();
   const [currentNewsData, setCurrentNewsData] = useState<NewsItem>();
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${process.env.NEXT_PUBLIC_DEV_CMS_ENDPOINT_SUFFIX}/${lang}/news`
+      );
+      const newsDatas = await response.json();
+      setNewsList(newsDatas.data);
+    } catch (error) {
+      console.log("\x1b[36m%s\x1b[0m", `==== DATA NOT FOUND () ====`);
+      console.error("error", error);
+    }
+  };
+
+   useEffect(() => {
+    fetchData();
+  }, []);
 
   useEffect(() => {
     if (!newsList || !slug) return;
@@ -51,6 +68,8 @@ const NewsDetail = ({ order, data }: ModuleData<SectionTitle, null>) => {
       position: ButtonIconPosition.left, // ! nullable
     },
   } as ButtonElement<IconList>;
+
+  if (!newsList) return;
 
   return (
     <section id={id ? id : `section${order}`} className={`${styles.newsDetail}`}>

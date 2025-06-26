@@ -1,11 +1,12 @@
 'use client';
 import dynamic from 'next/dynamic';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ModuleData, SectionTitle, MediaElement, ButtonElement } from '@/types';
 import { useInView } from 'framer-motion';
 import Link from 'next/link';
 import { IconList } from '@/types/icons';
 import styles from './LatestOffer.module.scss';
+import { useParams } from 'next/navigation';
 
 // Set Necessary Components
 const Button = dynamic(() => import('@@/Button'), { ssr: false });
@@ -54,8 +55,30 @@ const OfferCard = ({ data }: { data: LatestOfferItem }) => {
 const LatestOffer = ({ order, data }: ModuleData<LatestOfferProps, null>) => {
   const {
     id,
-    content: { title, items },
+    //content: { title, items },
   } = data;
+  const { lang } = useParams();
+  const [items, setItems] = useState<LatestOfferItem[]>([]);
+  const [title, setTitle] = useState<String>('');
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${process.env.NEXT_PUBLIC_DEV_CMS_ENDPOINT_SUFFIX}/${lang}/latest-news`
+      );
+      const latestOfferDatas = await response.json();
+      setTitle(latestOfferDatas.data.title);
+      setItems(latestOfferDatas.data.items);
+    } catch (error) {
+      console.log("\x1b[36m%s\x1b[0m", `==== DATA NOT FOUND () ====`);
+      console.error("error", error);
+    }
+  };
+  
+   useEffect(() => {
+      fetchData();
+    }, []);
+  
 
   return (
     <section id={id ? id : `section${order}`} className={`${styles.latestOffer}`}>

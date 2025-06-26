@@ -25,6 +25,8 @@ const isValidAPIPath = (pathArray : string[]) => {
     return true;
   if(pathArray.length === 2 && pathArray[0] === 'technology')
     return true;
+  if(pathArray.length === 2 && pathArray[0] === 'news')
+    return true;
   return false;
 }
 

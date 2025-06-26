@@ -29,9 +29,26 @@ const NewsList = ({ order, data }: ModuleData<SectionTitle, null>) => {
     content: { title },
   } = data;
 
-  const newsList = newsData.data;
+  const [newsList, setNewsList] = useState<NewsItem[]>();
   const [highlightNews, setHighlightNews] = useState<NewsItem[]>();
   const [otherNews, setOtherNews] = useState<NewsItem[]>();
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${process.env.NEXT_PUBLIC_DEV_CMS_ENDPOINT_SUFFIX}/${lang}/news`
+      );
+      const newsDatas = await response.json();
+      setNewsList(newsDatas.data);
+    } catch (error) {
+      console.log("\x1b[36m%s\x1b[0m", `==== DATA NOT FOUND () ====`);
+      console.error("error", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   useEffect(() => {
     if (!newsList) return;
