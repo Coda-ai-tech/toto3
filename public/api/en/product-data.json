@@ -143,6 +143,17 @@
       }
     },
     {
+      "id": "TCF4732A",
+      "name": "WASHLET (D-shape) with remote controller",
+      "category": ["washlet"],
+      "subCategory": [],
+      "thumb": "/assets/img/content/products/Washlet/TCF4732A/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/washlet/TCF4732A"
+      }
+    },
+    {
       "id": "TCF791HK",
       "name": "WASHLET (Elongated) with remote controller",
       "category": ["washlet"],
@@ -196,7 +207,8 @@
         "type": "routeLink",
         "href": "/en/product/washlet/TCF23410AAA-NW1"
       }
-    },{
+    },
+    {
       "id": "CW542EB-TCF802C2Z-RW",
       "name": "WASHLET with Wall Hung Toilet (D-shape) with remote controller",
       "category": ["washlet+"],
