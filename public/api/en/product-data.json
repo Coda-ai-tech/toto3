@@ -1040,7 +1040,7 @@
       }
     },
     {
-      "id": "L710#NW1J",
+      "id": "L710C#NW1J",
       "name": "Console Lavatory",
       "category": [
         "Lavatories"
@@ -1051,7 +1051,7 @@
       "thumb": "/assets/img/content/products/Lavatories/console-lavatory/L710-NW1J/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/L710-NW1J"
+        "href": "/en/product/L710C-NW1J"
       }
     },
     {
@@ -2030,7 +2030,7 @@
       }
     },
     {
-      "id": "LW1504WH",
+      "id": "LW1504",
       "name": "Under Counter Lavatory",
       "category": [
         "Lavatories"
@@ -2041,7 +2041,7 @@
       "thumb": "/assets/img/content/products/Lavatories/under-counter-lavatory/LW1504WH/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW1504WH"
+        "href": "/en/product/LW1504"
       }
     },
     {
@@ -12026,7 +12026,7 @@
       }
     },
     {
-      "id": "L4715RE-XW",
+      "id": "L4715RE#XW",
       "name": "Console Lavatory",
       "category": [
         "Commercial"
@@ -12042,7 +12042,7 @@
       }
     },
     {
-      "id": "L4716RE-XW",
+      "id": "L4716RE#XW",
       "name": "Console Lavatory",
       "category": [
         "Commercial"
@@ -12554,7 +12554,7 @@
       }
     },
     {
-      "id": "LW1504WH",
+      "id": "LW1504",
       "name": "Under Counter Lavatory",
       "category": [
         "Commercial"
@@ -12566,7 +12566,7 @@
       "thumb": "/assets/img/content/products/Commercial/lavatory/LW1504WH/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW1504WH"
+        "href": "/en/product/LW1504"
       }
     },
     {

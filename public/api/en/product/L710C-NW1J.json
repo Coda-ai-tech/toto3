@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW1504WH",
+    "title": "L710C#NW1J",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,38 +21,38 @@
       }
     },
     {
-      "label": "LW1504WH",
+      "label": "L710C#NW1J",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW1504WH"
+        "href": "/en/product/L710C-NW1J"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "LW1504WH",
-      "slug": "LW1504WH",
-      "productName": "Under Counter Lavatory",
+      "modelNumber": "L710C#NW1J",
+      "slug": "L710C-NW1J",
+      "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW1504WH",
+        "id": "L710C#NW1J",
         "category": [
           "Commercial"
         ],
         "subCategory": [
           "lavatory",
-          "under-counter-lavatory"
+          "console-lavatory"
         ],
-        "description": "Under Counter Lavatory",
+        "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Commercial/lavatory/LW1504WH/content-image.png"
+          "/assets/img/content/products/Commercial/lavatory/L710-NW1J/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "470 x 470mm",
+          "Size": "500 x 450 x 135mm",
           "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
@@ -83,7 +83,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/lavatory/LW1504WH/drawing.png"
+          "/assets/img/content/products/Commercial/lavatory/L710-NW1J/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
