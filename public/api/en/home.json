@@ -55,6 +55,33 @@
             "media": {
               "type": "image",
               "src": {
+                "desktop": "/assets/img/content/news/2025-washlet-promotion/thumbnail_cover.jpg",
+                "mobile": "/assets/img/content/news/2025-washlet-promotion/thumbnail_cover.jpg"
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Learn More",
+                "variant": "contain",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "https://www.toto.com/en/2025-washlet-promotion/"
+                }
+              }
+            ]
+          },
+          {
+            "subTitle": null,
+            "title": null,
+            "description": null,
+            "media": {
+              "type": "image",
+              "src": {
                 "desktop": "/assets/img/content/hero-banner/05.webp",
                 "mobile": "/assets/img/content/hero-banner/05_mob.webp"
               },
@@ -684,6 +711,32 @@
         "title": "LATEST NEWS",
         "items": [
           {
+            "title": "2025 Washlet Summer Promotion",
+            "description":"Cool Comfort for Your Summer. Beat the heat with TOTO's exclusive summer offer!",
+            "media": {
+              "type": "image",
+              "src": {
+                "desktop": "/assets/img/content/news/2025-washlet-promotion/thumbnail_cover.jpg",
+                "mobile": null
+              },
+              "alt": "",
+              "poster": null,
+              "mediaCaption": "This is media caption."
+            },
+            "cta": [
+              {
+                "label": "Read More",
+                "variant": "default",
+                "color": "primary",
+                "icon": null,
+                "link": {
+                  "type": "routeLink",
+                  "href": "/en/news/2025-washlet-promotion"
+                }
+              }
+            ]
+          },
+          {
             "title": "TOTO at ISH 2025",
             "description": "TOTO will be exhibiting at the world‘s largest air-conditioning and housing equipment exhibition 2025 (hereinafter, “ISH”), to be held from 17 to 21 March.",
             "media": {
@@ -757,32 +810,6 @@
                 "link": {
                   "type": "routeLink",
                   "href": "/en/news/TOTO-japan-classic-2024"
-                }
-              }
-            ]
-          },
-          {
-            "title": "TOTO Washlet Summer Promotion 2024",
-            "description": "You can enjoy TOTO’s Washlet Package Promotion from now on by purchasing the designated models. You must not miss this promotion! ",
-            "media": {
-              "type": "image",
-              "src": {
-                "desktop": "/assets/img/content/latest-offer/TOTO Washlet Summer Promotion 2024 thumbnail.jpeg",
-                "mobile": null
-              },
-              "alt": "",
-              "poster": null,
-              "mediaCaption": "This is media caption."
-            },
-            "cta": [
-              {
-                "label": "Read More",
-                "variant": "default",
-                "color": "primary",
-                "icon": null,
-                "link": {
-                  "type": "routeLink",
-                  "href": "/en/news/TOTO-Washlet-Summer-Promotion-2024"
                 }
               }
             ]
