@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "News",
+    "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
+    "keywords":"TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb":[
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "NEWS",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/news"
+      }
+    },
+    {
+      "label": "2025 Washlet Summer Promotion",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/news/2025-washlet-promotion"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "NewsDetail",
+      "moduleOption":null,
+      "content": {
+        "title": "Inline Content"
+      }
+    }
+  ]
+}
