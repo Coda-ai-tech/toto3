@@ -560,7 +560,7 @@
             "label": "FAUCET",
             "link": {
               "type": "routeLink",
-              "href": "https://www.toto.com/en/gb_faucet/"
+              "href": "https://hk.toto.com/en/gb-faucet"
             },
             "media": {
               "type": "image",
@@ -577,7 +577,7 @@
             "label": "FAUCET PLANNING",
             "link": {
               "type": "routeLink",
-              "href": "https://www.toto.com/en/gb_faucet/planning/faucet-lavatory/"
+              "href": "https://hk.toto.com/en/gb-faucet/planning/faucet-lavatory"
             },
             "media": {
               "type": "image",
@@ -594,7 +594,7 @@
             "label": "LAVATORY",
             "link": {
               "type": "routeLink",
-              "href": "https://www.toto.com/en/gb_lavatory/"
+              "href": "https://hk.toto.com/en/gb_lavatory/"
             },
             "media": {
               "type": "image",
@@ -611,7 +611,7 @@
             "label": "SHOWER",
             "link": {
               "type": "routeLink",
-              "href": "https://www.toto.com/en/gb_shower/"
+              "href": "https://hk.toto.com/en/gb-shower"
             },
             "media": {
               "type": "image",
