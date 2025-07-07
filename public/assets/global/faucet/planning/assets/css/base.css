@@ -1098,7 +1098,7 @@ blockquote:before {
 }
 
 .is_W::after {
-  background-image: url("../images/common/color-variation/MW.png");
+  background-image: url("../images/common/color-variation/faucet/MW.png");
   content: '';
   display: block;
   width: 32px;
