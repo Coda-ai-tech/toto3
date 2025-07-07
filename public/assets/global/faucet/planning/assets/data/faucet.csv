@@ -1,174 +1,207 @@
-﻿ID,製品カテゴリ,品番,管理番号,シリーズカテゴリ,シリーズ,シェイプ,,サイズ,,,,商品分類（1）,商品分類（2）,画像調整,,Faucet一覧表示制御,,仕様テキスト,注釈テキスト,金額,製品詳細ページURL,受賞アイコン,,機能アイコン,,,,,,,,,,,カラー（単色）,,,,,,,,,,,,,カラー（バイカラー）,,,,,,,,カラー
-,,,,,,,,テキスト,横幅（W）,奥行き（H）,深さ（D）,,,,,,,,,,,IF DESIGN AWARD,Reddot award,ACTIVE WAVE,COMFORT GLIDE,COMFORT WAVE,GYROSTREAM,HEAT PROTECT,MINI UNIT,SAFETY THERMO,SOFT FLOW,WARM SPA,ECOPOWER,EWATER,PN,BN,PFG,BFG,PRG,BRG,PBR,BBR,PC,PBL,BBL,MBL,W,ZA：PN-BN,ZA：PC-BFG,ZA：PC-BRG,ZA：PC-BN,GF：BN-PN,GF：BBL-PBL,GF：BFG-PFG,GF：BRG-PRG,DEFAULT
-SYSTEM_ID,PRODUCT_TYPE,PRODUCT_ID,COMBINATION_ID,SERIES_CATEGORY,SERIES,SHAPE_TEXT,SHAPE,SIZE,SIZE_W,SIZE_H,SIZE_D,CATEGORY_1,CATEGORY_2,IS_CHANGE_SERIES,IS_SEPARETE_COUNTER,HIDE_LIST,LIST_DISP_PRODUCT_ID,DESCRIPTION,EXPLAIN,PRICE,PRODUCT_URL,AWARD_01,AWARD_02,TECH_01,TECH_02,TECH_03,TECH_04,TECH_05,TECH_06,TECH_07,TECH_08,TECH_09,TECH_10,TECH_11,COLOUR_PN,COLOUR_BN,COLOUR_PFG,COLOUR_BFG,COLOUR_PRG,COLOUR_BRG,COLOUR_PBR,COLOUR_BBR,COLOUR_PC,COLOUR_PBL,COLOUR_BBL,COLOUR_MBL,COLOUR_W,COLOUR_PN-BN,COLOUR_PC-BFG,COLOUR_PC-BRG,COLOUR_PC-BN,COLOUR_BN-PN,COLOUR_BBL-PBL,COLOUR_BFG-PFG,COLOUR_BRG-PRG,COLOUR_DEFAULT
-107,faucet,TLP01701,,Z,ZN,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,1,,,,,1,,,,,,,1,,,,,,,,,,,,,BN
-108,faucet,TLP03301,,Z,ZA,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,1,1,,1,,,,,PN-BN
-109,faucet,TLP03302,,Z,ZA,Single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,1,1,,1,,,,,PN-BN
-110,faucet,TLP02301,,Z,ZL,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-111,faucet,TLP02304,,Z,ZL,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-112,faucet,TLP02307,,Z,ZL,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-113,faucet,TLP02303,,Z,ZL,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-114,faucet,TLP02306,,Z,ZL,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-115,faucet,TLP02308,,Z,ZL,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-116,faucet,TLP02309,,Z,ZL,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-117,faucet,TLP02310,,Z,ZL,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-118,faucet,TLP02201,,Z,ZL,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-119,faucet,TLG07301,,G,GE,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PFG
-120,faucet,TLG07303,,G,GE,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PFG
-121,faucet,TLG07305,,G,GE,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PFG
-122,faucet,TLG07302,,G,GE,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PFG
-123,faucet,TLG07304,,G,GE,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PFG
-124,faucet,TLG07306,,G,GE,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PFG
-125,faucet,TLG07307,,G,GE,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PFG
-126,faucet,TLG07308,,G,GE,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PFG
-127,faucet,TLG07201,,G,GE,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PFG
-128,faucet,TLG08301,,G,GC,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-129,faucet,TLG08303,,G,GC,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-130,faucet,TLG08305,,G,GC,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-131,faucet,TLG08302,,G,GC,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-132,faucet,TLG08304,,G,GC,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-133,faucet,TLG08306,,G,GC,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-134,faucet,TLG08307,,G,GC,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-135,faucet,TLG08308,,G,GC,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-136,faucet,TLG08201,,G,GC,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-137,faucet,TLG09301,,G,GM,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-138,faucet,TLG09303,,G,GM,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-139,faucet,TLG09305,,G,GM,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-140,faucet,TLG09302,,G,GM,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-141,faucet,TLG09304,,G,GM,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-142,faucet,TLG09306,,G,GM,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-143,faucet,TLG09307,,G,GM,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-144,faucet,TLG09308,,G,GM,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-145,faucet,TLG09201,,G,GM,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-146,faucet,TLG10301,,G,GB,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-147,faucet,TLG10303,,G,GB,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-148,faucet,TLG10305,,G,GB,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-149,faucet,TLG10302,,G,GB,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-150,faucet,TLG10304,,G,GB,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-151,faucet,TLG10306,,G,GB,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-152,faucet,TLG10307,,G,GB,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-153,faucet,TLG10308,,G,GB,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-154,faucet,TLG10201,,G,GB,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-155,faucet,TLG11301,,G,GF,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,1,,1,,PC
-156,faucet,TLG11303,,G,GF,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,1,,1,,PC
-157,faucet,TLG11305,,G,GF,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,1,,1,,PC
-158,faucet,TLG11302,,G,GF,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,1,,1,,PC
-159,faucet,TLG11304,,G,GF,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,1,,1,,PC
-160,faucet,TLG11306,,G,GF,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,1,,1,,PC
-161,faucet,TLG11307,,G,GF,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,1,,1,,PC
-162,faucet,TLG11308,,G,GF,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,1,,1,,PC
-163,faucet,TLG11201,,G,GF,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,1,,1,,PC
-164,faucet,TLG04301,,G,GA,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PN
-165,faucet,TLG04304,,G,GA,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PN
-166,faucet,TLG04307,,G,GA,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PN
-167,faucet,TLG04303,,G,GA,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PN
-168,faucet,TLG04306,,G,GA,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PN
-169,faucet,TLG04308,,G,GA,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PN
-170,faucet,TLG04309,,G,GA,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PN
-171,faucet,TLG04310,,G,GA,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PN
-172,faucet,TLG04201,,G,GA,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PN
-174,faucet,TLG01301,,G,GO,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,BN
-175,faucet,TLG01304,,G,GO,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,BN
-176,faucet,TLG01307,,G,GO,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,BN
-177,faucet,TLG01303,,G,GO,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,BN
-178,faucet,TLG01306,,G,GO,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,BN
-179,faucet,TLG01308,,G,GO,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,BN
-180,faucet,TLG01310,,G,GO,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,BN
-181,faucet,TLG01311,,G,GO,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,BN
-182,faucet,TLG01201,,G,GO,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,BN
-183,faucet,TLG02301,,G,GR,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-184,faucet,TLG02304,,G,GR,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-185,faucet,TLG02307,,G,GR,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-186,faucet,TLG02303,,G,GR,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-187,faucet,TLG02306,,G,GR,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-188,faucet,TLG02308,,G,GR,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-189,faucet,TLG02310,,G,GR,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-190,faucet,TLG02311,,G,GR,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-191,faucet,TLG02201,,G,GR,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PBR
-192,faucet,TLG03301,,G,GS,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-193,faucet,TLG03303,,G,GS,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-194,faucet,TLG03305,,G,GS,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-195,faucet,TLG03302,,G,GS,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-196,faucet,TLG03304,,G,GS,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-197,faucet,TLG03306,,G,GS,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-198,faucet,TLG03307,,G,GS,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-199,faucet,TLG03308,,G,GS,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-200,faucet,TLG03201,,G,GS,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,,,1,1,1,,,1,,,,,,,,,,PC
-201,faucet,TLS01301,,L,LB,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-202,faucet,TLS01304,,L,LB,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-203,faucet,TLS01307,,L,LB,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-204,faucet,TLS01303,,L,LB,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-205,faucet,TLS01306,,L,LB,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-206,faucet,TLS01308,,L,LB,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-207,faucet,TLS01309,,L,LB,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-208,faucet,TLS01310,,L,LB,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-209,faucet,TLS01201,,L,LB,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-211,faucet,TLS02301,,L,LN,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-212,faucet,TLS02303,,L,LN,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-213,faucet,TLS02305,,L,LN,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-214,faucet,TLS02302,,L,LN,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-215,faucet,TLS02304,,L,LN,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-216,faucet,TLS02306,,L,LN,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-217,faucet,TLS02307,,L,LN,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-218,faucet,TLS02308,,L,LN,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-219,faucet,TLS02201,,L,LN,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-220,faucet,TLS03301,,L,LC,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-221,faucet,TLS03303,,L,LC,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-222,faucet,TLS03305,,L,LC,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-223,faucet,TLS03302,,L,LC,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-224,faucet,TLS03304,,L,LC,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-225,faucet,TLS03306,,L,LC,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-226,faucet,TLS03307,,L,LC,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-227,faucet,TLS03308,,L,LC,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-228,faucet,TLS04301,,L,LF,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-229,faucet,TLS04304,,L,LF,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-230,faucet,TLS04306,,L,LF,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-231,faucet,TLS04303,,L,LF,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-232,faucet,TLS04305,,L,LF,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-233,faucet,TLS04307,,L,LF,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-234,faucet,TLS04308,,L,LF,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-235,faucet,TLS04309,,L,LF,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-236,auto-faucet,TLE20001,,TLG,GE,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-237,auto-faucet,TLE21001,,TLG,GC,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-238,auto-faucet,TLE22001,,TLG,GM,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-239,auto-faucet,TLE23001,,TLE1,TLE23,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-240,auto-faucet,TLE23002,,TLE1,TLE23,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-241,auto-faucet,TLE23003,,TLE1,TLE23,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-242,auto-faucet,TLE23004,,TLE1,TLE23,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-243,auto-faucet,TLE23005,,TLE1,TLE23,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-244,auto-faucet,TLE24001,,TLE1,TLE24,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021_bob,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-245,auto-faucet,TLE24002,,TLE1,TLE24,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021_bob,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-246,auto-faucet,TLE24003,,TLE1,TLE24,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021_bob,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-247,auto-faucet,TLE24004,,TLE1,TLE24,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021_bob,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-248,auto-faucet,TLE24005,,TLE1,TLE24,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021_bob,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-249,auto-faucet,TLE25001,,TLE1,TLE25,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-250,auto-faucet,TLE25002,,TLE1,TLE25,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-251,auto-faucet,TLE25003,,TLE1,TLE25,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-252,auto-faucet,TLE25004,,TLE1,TLE25,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-253,auto-faucet,TLE25005,,TLE1,TLE25,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-254,auto-faucet,TLE26001,,TLE1,TLE26,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-255,auto-faucet,TLE26002,,TLE1,TLE26,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-256,auto-faucet,TLE26003,,TLE1,TLE26,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-257,auto-faucet,TLE26004,,TLE1,TLE26,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-258,auto-faucet,TLE26005,,TLE1,TLE26,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-259,auto-faucet,TLE27001,,TLE2,TLE27,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2021,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-260,auto-faucet,TLE28001,,TLE2,TLE28,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2021,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-261,auto-faucet,TLE29001,,TLE2,TLE29,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-262,auto-faucet,TLE30001,,TLE3,TLE30,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2021,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-263,auto-faucet,TLE31001,,TLE3,TLE31,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2021,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,PC
-264,soap-dispenser,TLK07001,,,,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,
-265,soap-dispenser,TLK07002,,,,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,
-266,soap-dispenser,TLK07003,,,,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,
-267,soap-dispenser,TLK08001,,,,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,
-268,soap-dispenser,TLK08002,,,,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,
-269,soap-dispenser,TLK08003,,,,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,
-270,soap-dispenser,TLK09001,,,,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,
-,soap-tank,TLK01101,,,,,,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,controller-unit,TLE01501,,,,,,,,,,ac,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,controller-unit,TLE02501,,,,,,,,,,ac,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,controller-unit,TLE02701,,,,,,,,,,ac,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,controller-unit,TLE03501,,,,,,,,,,ac-waterheater,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,controller-unit,TLE04501,,,,,,,,,,dc,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,controller-option,TLE05701,,,,,,,,,,sma,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,controller-option,TLM10,,,,,,,,,,mixing,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,controller-unit,REAH03B1U,,,,,,,,,,ac-waterheater,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿ID,製品カテゴリ,品番,管理番号,シリーズカテゴリ,シリーズ,シェイプ,,サイズ,,,,商品分類（1）,商品分類（2）,画像調整,,Faucet一覧表示制御,,仕様テキスト,注釈テキスト,金額,製品詳細ページURL,受賞アイコン,,機能アイコン,,,,,,,,,,,カラー（単色）,,,,,,,,,,,,,,,,,カラー（バイカラー）,,,,,,,,カラー
+,,,,,,,,テキスト,横幅（W）,奥行き（H）,深さ（D）,,,,,,,,,,,IF DESIGN AWARD,Reddot award,ACTIVE WAVE,COMFORT GLIDE,COMFORT WAVE,GYROSTREAM,HEAT PROTECT,MINI UNIT,SAFETY THERMO,SOFT FLOW,WARM SPA,ECOPOWER,EWATER,PN,BN,PFG,BFG,PRG,BRG,PBR,BBR,PC,PBL,BBL,PGP,BGP,PTN,BTN,MBL,W,ZA：PN-BN,ZA：PC-BFG,ZA：PC-BRG,ZA：PC-BN,GF：BN-PN,GF：BBL-PBL,GF：BFG-PFG,GF：BRG-PRG,DEFAULT
+SYSTEM_ID,PRODUCT_TYPE,PRODUCT_ID,COMBINATION_ID,SERIES_CATEGORY,SERIES,SHAPE_TEXT,SHAPE,SIZE,SIZE_W,SIZE_H,SIZE_D,CATEGORY_1,CATEGORY_2,IS_CHANGE_SERIES,IS_SEPARETE_COUNTER,HIDE_LIST,LIST_DISP_PRODUCT_ID,DESCRIPTION,EXPLAIN,PRICE,PRODUCT_URL,AWARD_01,AWARD_02,TECH_01,TECH_02,TECH_03,TECH_04,TECH_05,TECH_06,TECH_07,TECH_08,TECH_09,TECH_10,TECH_11,COLOUR_PN,COLOUR_BN,COLOUR_PFG,COLOUR_BFG,COLOUR_PRG,COLOUR_BRG,COLOUR_PBR,COLOUR_BBR,COLOUR_PC,COLOUR_PBL,COLOUR_BBL,COLOUR_PGP,COLOUR_BGP,COLOUR_PTN,COLOUR_BTN,COLOUR_MBL,COLOUR_W,COLOUR_PN-BN,COLOUR_PC-BFG,COLOUR_PC-BRG,COLOUR_PC-BN,COLOUR_BN-PN,COLOUR_BBL-PBL,COLOUR_BFG-PFG,COLOUR_BRG-PRG,COLOUR_DEFAULT
+107,faucet,TLP01701,,Z,ZN,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,1,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BN
+108,faucet,TLP03301,,Z,ZA,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,1,1,,1,,,,,PN-BN
+109,faucet,TLP03302,,Z,ZA,Single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,1,1,,1,,,,,PN-BN
+110,faucet,TLP02301,,Z,ZL,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+111,faucet,TLP02304,,Z,ZL,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+112,faucet,TLP02307,,Z,ZL,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+113,faucet,TLP02303,,Z,ZL,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+114,faucet,TLP02306,,Z,ZL,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+115,faucet,TLP02308,,Z,ZL,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2018,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+116,faucet,TLP02309,,Z,ZL,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+117,faucet,TLP02310,,Z,ZL,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+118,faucet,TLP02201,,Z,ZL,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+119,faucet,TLG07301,,G,GE,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PFG
+120,faucet,TLG07303,,G,GE,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PFG
+121,faucet,TLG07305,,G,GE,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PFG
+122,faucet,TLG07302,,G,GE,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PFG
+123,faucet,TLG07304,,G,GE,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PFG
+124,faucet,TLG07306,,G,GE,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PFG
+125,faucet,TLG07307,,G,GE,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PFG
+126,faucet,TLG07308,,G,GE,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PFG
+127,faucet,TLG07201,,G,GE,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PFG
+128,faucet,TLG08301,,G,GC,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+129,faucet,TLG08303,,G,GC,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+130,faucet,TLG08305,,G,GC,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+131,faucet,TLG08302,,G,GC,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+132,faucet,TLG08304,,G,GC,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+133,faucet,TLG08306,,G,GC,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+134,faucet,TLG08307,,G,GC,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+135,faucet,TLG08308,,G,GC,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+136,faucet,TLG08201,,G,GC,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+137,faucet,TLG09301,,G,GM,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+138,faucet,TLG09303,,G,GM,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+139,faucet,TLG09305,,G,GM,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+140,faucet,TLG09302,,G,GM,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+141,faucet,TLG09304,,G,GM,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+142,faucet,TLG09306,,G,GM,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2019,rd2019,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+143,faucet,TLG09307,,G,GM,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+144,faucet,TLG09308,,G,GM,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+145,faucet,TLG09201,,G,GM,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+146,faucet,TLG10301,,G,GB,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+147,faucet,TLG10303,,G,GB,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+148,faucet,TLG10305,,G,GB,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+149,faucet,TLG10302,,G,GB,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+150,faucet,TLG10304,,G,GB,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+151,faucet,TLG10306,,G,GB,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+152,faucet,TLG10307,,G,GB,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+153,faucet,TLG10308,,G,GB,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+154,faucet,TLG10201,,G,GB,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+155,faucet,TLG11301,,G,GF,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,1,,1,,PC
+156,faucet,TLG11303,,G,GF,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,1,,1,,PC
+157,faucet,TLG11305,,G,GF,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,1,,1,,PC
+158,faucet,TLG11302,,G,GF,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,1,,1,,PC
+159,faucet,TLG11304,,G,GF,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,1,,1,,PC
+160,faucet,TLG11306,,G,GF,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2020,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,1,,1,,PC
+161,faucet,TLG11307,,G,GF,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,1,,1,,PC
+162,faucet,TLG11308,,G,GF,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,1,,1,,PC
+163,faucet,TLG11201,,G,GF,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,1,,1,,PC
+164,faucet,TLG04301,,G,GA,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PN
+165,faucet,TLG04304,,G,GA,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PN
+166,faucet,TLG04307,,G,GA,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PN
+167,faucet,TLG04303,,G,GA,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PN
+168,faucet,TLG04306,,G,GA,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PN
+169,faucet,TLG04308,,G,GA,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PN
+170,faucet,TLG04309,,G,GA,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PN
+171,faucet,TLG04310,,G,GA,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PN
+172,faucet,TLG04201,,G,GA,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PN
+174,faucet,TLG01301,,G,GO,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BN
+175,faucet,TLG01304,,G,GO,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BN
+176,faucet,TLG01307,,G,GO,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BN
+177,faucet,TLG01303,,G,GO,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BN
+178,faucet,TLG01306,,G,GO,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BN
+179,faucet,TLG01308,,G,GO,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017_bob,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BN
+180,faucet,TLG01310,,G,GO,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BN
+181,faucet,TLG01311,,G,GO,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BN
+182,faucet,TLG01201,,G,GO,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BN
+183,faucet,TLG02301,,G,GR,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+184,faucet,TLG02304,,G,GR,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+185,faucet,TLG02307,,G,GR,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+186,faucet,TLG02303,,G,GR,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+187,faucet,TLG02306,,G,GR,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+188,faucet,TLG02308,,G,GR,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2017,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+189,faucet,TLG02310,,G,GR,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+190,faucet,TLG02311,,G,GR,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+191,faucet,TLG02201,,G,GR,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PBR
+192,faucet,TLG03301,,G,GS,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+193,faucet,TLG03303,,G,GS,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+194,faucet,TLG03305,,G,GS,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+195,faucet,TLG03302,,G,GS,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+196,faucet,TLG03304,,G,GS,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+197,faucet,TLG03306,,G,GS,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2018,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+198,faucet,TLG03307,,G,GS,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+199,faucet,TLG03308,,G,GS,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+200,faucet,TLG03201,,G,GS,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,PC
+201,faucet,TLS01301,,L,LB,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+202,faucet,TLS01304,,L,LB,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+203,faucet,TLS01307,,L,LB,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+204,faucet,TLS01303,,L,LB,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+205,faucet,TLS01306,,L,LB,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+206,faucet,TLS01308,,L,LB,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+207,faucet,TLS01309,,L,LB,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+208,faucet,TLS01310,,L,LB,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+209,faucet,TLS01201,,L,LB,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+211,faucet,TLS02301,,L,LN,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+212,faucet,TLS02303,,L,LN,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+213,faucet,TLS02305,,L,LN,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+214,faucet,TLS02302,,L,LN,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+215,faucet,TLS02304,,L,LN,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+216,faucet,TLS02306,,L,LN,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+217,faucet,TLS02307,,L,LN,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+218,faucet,TLS02308,,L,LN,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+219,faucet,TLS02201,,L,LN,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+220,faucet,TLS03301,,L,LC,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+221,faucet,TLS03303,,L,LC,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+222,faucet,TLS03305,,L,LC,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+223,faucet,TLS03302,,L,LC,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+224,faucet,TLS03304,,L,LC,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+225,faucet,TLS03306,,L,LC,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+226,faucet,TLS03307,,L,LC,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+227,faucet,TLS03308,,L,LC,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+228,faucet,TLS04301,,L,LF,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+229,faucet,TLS04304,,L,LF,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+230,faucet,TLS04306,,L,LF,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+231,faucet,TLS04303,,L,LF,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+232,faucet,TLS04305,,L,LF,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+233,faucet,TLS04307,,L,LF,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+234,faucet,TLS04308,,L,LF,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+235,faucet,TLS04309,,L,LF,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+236,auto-faucet,TLE20001,,TLG,GE,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+237,auto-faucet,TLE21001,,TLG,GC,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+238,auto-faucet,TLE22001,,TLG,GM,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+239,auto-faucet,TLE23001,,TLE1,TLE23,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+240,auto-faucet,TLE23002,,TLE1,TLE23,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+241,auto-faucet,TLE23003,,TLE1,TLE23,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+242,auto-faucet,TLE23004,,TLE1,TLE23,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+243,auto-faucet,TLE23005,,TLE1,TLE23,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+244,auto-faucet,TLE24001,,TLE1,TLE24,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021_bob,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+245,auto-faucet,TLE24002,,TLE1,TLE24,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021_bob,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+246,auto-faucet,TLE24003,,TLE1,TLE24,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021_bob,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+247,auto-faucet,TLE24004,,TLE1,TLE24,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021_bob,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+248,auto-faucet,TLE24005,,TLE1,TLE24,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021_bob,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+249,auto-faucet,TLE25001,,TLE1,TLE25,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+250,auto-faucet,TLE25002,,TLE1,TLE25,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+251,auto-faucet,TLE25003,,TLE1,TLE25,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+252,auto-faucet,TLE25004,,TLE1,TLE25,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+253,auto-faucet,TLE25005,,TLE1,TLE25,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+254,auto-faucet,TLE26001,,TLE1,TLE26,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+255,auto-faucet,TLE26002,,TLE1,TLE26,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+256,auto-faucet,TLE26003,,TLE1,TLE26,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+257,auto-faucet,TLE26004,,TLE1,TLE26,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+258,auto-faucet,TLE26005,,TLE1,TLE26,Wall Mount,wallmount,Long,,,,long,,,,,,,,,https://www.toto.com/en/gb_faucet/,,rd2021,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+259,auto-faucet,TLE27001,,TLE2,TLE27,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2021,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+260,auto-faucet,TLE28001,,TLE2,TLE28,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2021,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+261,auto-faucet,TLE29001,,TLE2,TLE29,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+262,auto-faucet,TLE30001,,TLE3,TLE30,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2021,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+263,auto-faucet,TLE31001,,TLE3,TLE31,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,if2021,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+264,soap-dispenser,TLK07001,,,,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,
+265,soap-dispenser,TLK07002,,,,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,
+266,soap-dispenser,TLK07003,,,,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,
+267,soap-dispenser,TLK08001,,,,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,
+268,soap-dispenser,TLK08002,,,,Deck Mount,deckmount,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,
+269,soap-dispenser,TLK08003,,,,Deck Mount,deckmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,
+270,soap-dispenser,TLK09001,,,,Deck Mount,deckmount,Normal,,,,normal,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,
+271,soap-tank,TLK01101,,,,,,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+272,controller-unit,TLE01501,,,,,,,,,,ac,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+273,controller-unit,TLE02501,,,,,,,,,,ac,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+274,controller-unit,TLE02701,,,,,,,,,,ac,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+275,controller-unit,TLE03501,,,,,,,,,,ac-waterheater,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+276,controller-unit,TLE04501,,,,,,,,,,dc,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+277,controller-option,TLE05701,,,,,,,,,,sma,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+278,controller-option,TLM10,,,,,,,,,,mixing,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+279,controller-unit,REAH03B1U,,,,,,,,,,ac-waterheater,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+280,faucet,TLG13301,,G,GT,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BGP
+281,faucet,TLG13303,,G,GT,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BGP
+282,faucet,TLG13305,,G,GT,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BGP
+283,faucet,TLG13302,,G,GT,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BGP
+284,faucet,TLG13304,,G,GT,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BGP
+285,faucet,TLG13306,,G,GT,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BGP
+286,faucet,TLG13307,,G,GT,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BGP
+287,faucet,TLG13308,,G,GT,Wall Mount,wallmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BGP
+288,faucet,TLG13201,,G,GT,2 handle,handle,,,,,,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,1,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,1,1,1,1,1,,,,,,,,,,BGP
+289,faucet,TLS06301,,L,LH,Single W/ pop-up,single_w_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+290,faucet,TLS06302,,L,LH,single W/O pop-up,single_wo_popup,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+291,faucet,TLS06303,,L,LH,Single W/ pop-up,single_w_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+292,faucet,TLS06304,,L,LH,single W/O pop-up,single_wo_popup,Semi-Tall,,,,semi-tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+293,faucet,TLS06305,,L,LH,Single W/ pop-up,single_w_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+294,faucet,TLS06306,,L,LH,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+295,faucet,TLS06307,,L,LH,Wall Mount,wallmount,Short,,,,short,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+296,faucet,TLS06308,,L,LH,Wall Mount,wallmount,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+297,faucet,TLS073J0,,TLS07,TLS07,single W/O pop-up,single_wo_popup,Tall,,,,tall,,,,,,,,,https://www.toto.com/en/gb_faucet/,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,PC
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

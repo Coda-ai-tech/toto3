@@ -1025,6 +1025,222 @@ blockquote:before {
   }
 }
 
+.is_PGP::after {
+  background-image: url("../images/common/color-variation/faucet/PGP.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_PGP::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_BGP::after {
+  background-image: url("../images/common/color-variation/faucet/BGP.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_BGP::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_PTN::after {
+  background-image: url("../images/common/color-variation/faucet/PTN.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_PTN::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_BTN::after {
+  background-image: url("../images/common/color-variation/faucet/BTN.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_BTN::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_W::after {
+  background-image: url("../images/common/color-variation/MW.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_W::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_ABU::after {
+  background-image: url("../images/common/color-variation/faucet/ABU.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_ABU::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_FG::after {
+  background-image: url("../images/common/color-variation/faucet/FG.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_FG::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_MBE::after {
+  background-image: url("../images/common/color-variation/faucet/MBE.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_MBE::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_MGR::after {
+  background-image: url("../images/common/color-variation/faucet/MGR.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_MGR::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_MO::after {
+  background-image: url("../images/common/color-variation/faucet/MO.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_MO::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_MW::after {
+  background-image: url("../images/common/color-variation/faucet/MW.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_MW::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.is_SR::after {
+  background-image: url("../images/common/color-variation/faucet/SR.png");
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+@media print, screen and (max-width: 440px) {
+  .is_SR::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+
 .m-title {
   position: relative;
   z-index: 2;

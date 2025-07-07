@@ -6,6 +6,7 @@
 	,"price_token": ","
 	,"price_decimal_point_digit": 0
 	,"faucet_price_type": 0
+	,"is_lavatory_colour" : 1
 	,"sns_flg": 1
 	,"sns_url": {
 		"twitter": "https://twitter.com/intent/tweet?text={{text}}&url={{url}}",
@@ -39,12 +40,17 @@
 				,"GO" : { "product_id" : "TLG01304", "colour" : "BN" }
 				,"GR" : { "product_id" : "TLG02304", "colour" : "PBR" }
 				,"GS" : { "product_id" : "TLG03303", "colour" : "PC" }
+				,"GT" : { "product_id" : "TLG13303", "colour" : "PC" }
 			},
 			"L" : {
 				 "LB" : { "product_id" : "TLS01301", "colour" : "PC" }
 				,"LN" : { "product_id" : "TLS02301", "colour" : "PC" }
 				,"LC" : { "product_id" : "TLS03301", "colour" : "PC" }
 				,"LF" : { "product_id" : "TLS04301", "colour" : "PC" }
+				,"LH" : { "product_id" : "TLS06301", "colour" : "PC" }
+			},
+			"TLS07" : {
+				 "TLS07" : { "product_id" : "TLS073J0", "colour" : "PC" }
 			}
 		}
 		,"auto-faucet": {
@@ -88,12 +94,14 @@
 					,"GO" : {"product_id" : "TLG01304", "colour" : "BN"}
 					,"GR" : {"product_id" : "TLG02304", "colour" : "PBR"}
 					,"GS" : {"product_id" : "TLG03303", "colour" : "PC"}
+					,"GT" : {"product_id" : "TLG13303", "colour" : "PC"}
 				}
 				,"L" : {
 					 "LB" : {"product_id" : "TLS01301", "colour" : "PC"}
 					,"LN" : {"product_id" : "TLS02301", "colour" : "PC"}
 					,"LC" : {"product_id" : "TLS03301", "colour" : "PC"}
 					,"LF" : {"product_id" : "TLS04301", "colour" : "PC"}
+					,"LH" : {"product_id" : "TLS06301", "colour" : "PC"}
 				}
 			}
 			,"single_wo_popup" : {
@@ -112,12 +120,17 @@
 					,"GO" : {"product_id" : "TLG01306", "colour" : "BN"}
 					,"GR" : {"product_id" : "TLG02306", "colour" : "PBR"}
 					,"GS" : {"product_id" : "TLG03304", "colour" : "PC"}
+					,"GT" : {"product_id" : "TLG13304", "colour" : "PC"}
 				}
 				,"L" : {
 					 "LB" : {"product_id" : "TLS01303", "colour" : "PC"}
 					,"LN" : {"product_id" : "TLS02302", "colour" : "PC"}
 					,"LC" : {"product_id" : "TLS03302", "colour" : "PC"}
 					,"LF" : {"product_id" : "TLS04303", "colour" : "PC"}
+					,"LH" : {"product_id" : "TLS06303", "colour" : "PC"}
+				},
+				"TLS07" : {
+					"TLS07" : { "product_id" : "TLS073J0", "colour" : "PC" }
 				}
 			}
 			,"wallmount" : {
@@ -136,12 +149,14 @@
 					,"GO" : {"product_id" : "TLG01311", "colour" : "BN"}
 					,"GR" : {"product_id" : "TLG02311", "colour" : "PBR"}
 					,"GS" : {"product_id" : "TLG03308", "colour" : "PC"}
+					,"GT" : {"product_id" : "TLG13308", "colour" : "PC"}
 				}
 				,"L" : {
 					 "LB" : {"product_id" : "TLS01309", "colour" : "PC"}
 					,"LN" : {"product_id" : "TLS02307", "colour" : "PC"}
 					,"LC" : {"product_id" : "TLS03307", "colour" : "PC"}
 					,"LF" : {"product_id" : "TLS04308", "colour" : "PC"}
+					,"LH" : {"product_id" : "TLS06307", "colour" : "PC"}
 				}
 			}
 			,"handle" : {
@@ -160,12 +175,14 @@
 					,"GO" : {"product_id" : "TLG01201", "colour" : "BN"}
 					,"GR" : {"product_id" : "TLG02201", "colour" : "PBR"}
 					,"GS" : {"product_id" : "TLG03201", "colour" : "PC"}
+					,"GT" : {"product_id" : "TLG13201", "colour" : "PC"}
 				}
 				,"L" : {
 					 "LB" : {"product_id" : "TLS01201", "colour" : "PC"}
 					,"LN" : {"product_id" : "TLS02201", "colour" : "PC"}
 					,"LC" : {"product_id" : "", "colour" : ""}
 					,"LF" : {"product_id" : "", "colour" : ""}
+					,"LH" : {"product_id" : "", "colour" : ""}
 				}
 			}
 		}
@@ -228,6 +245,10 @@
 			,"PBL" : { "product_id" : "TLP03301" }
 			,"BBL" : { "product_id" : "TLP03301" }
 			,"MBL" : { "product_id" : "TLP03301" }
+			,"PGP" : { "product_id" : "TLP03301" }
+			,"BGP" : { "product_id" : "TLP03301" }
+			,"PTN" : { "product_id" : "TLP03301" }
+			,"BTN" : { "product_id" : "TLP03301" }
 		}
 		,"bicolour" : {
 			 "PN-BN"  : { "product_id" : "TLP03301" }
@@ -255,6 +276,10 @@
 			,"PBL" : { "product_id" : "TLE20001" }
 			,"BBL" : { "product_id" : "TLE20001" }
 			,"MBL" : { "product_id" : "TLE20001" }
+			,"PGP" : { "product_id" : "TLG04201" }
+			,"BGP" : { "product_id" : "TLP03301" }
+			,"PTN" : { "product_id" : "TLG03305" }
+			,"BTN" : { "product_id" : "TLP03301" }
 		}
 	}
 	,"lavatory_shape": {
@@ -265,6 +290,17 @@
 		,"semi_reccesed" : { "product_id" : "LW713" }
 		,"wallmount"     : { "product_id" : "LPT241G" }
 		,"galalato"      : { "product_id" : "PJS05" }
+	}
+	,"lavatory_colour": {
+		 "MBL" : { "product_id" : "LW4704" }
+		,"MW"	 : { "product_id" : "LW4704" }
+		,"MBE" : { "product_id" : "LW4704" }
+		,"MGR" : { "product_id" : "LW4704" }
+		,"FG"  : { "product_id" : "LW896" }
+		,"MO"  : { "product_id" : "LW896" }
+		,"SR"  : { "product_id" : "LW896" }
+		,"ABU" : { "product_id" : "LW896" }
+		,"W"   : { "product_id" : "LW896" }
 	}
 	,"faucet_wallmount_pos": {
 		"default": {
@@ -587,6 +623,5 @@
 		,"10" : {"id" : "warm_spa_hs",     "name" : "Warm Spa"}
 		,"11" : {"id" : "comfort_wave_hs", "name" : "Comfort Wave"}
 		,"12" : {"id" : "intense_wave",    "name" : "INTENSE WAVE"}
-		,"13" : {"id" : "intense_wave_plus",    "name" : "INTENSE WAVE +"}
 	}
 }

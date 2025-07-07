@@ -2,7 +2,7 @@
 
 const En = () => {
   return (
-    <div className='l_wrapper'>
+    <div className='l_wrapper' id='pagetop'>
       <header className='l_header'>
         <div className='l_header__inner js_favorite__box'>
           <ul className='l_header__tab js_sp_navi'>
@@ -90,7 +90,7 @@ const En = () => {
         </div>
       </header>
 
-      <main className='l_main js_main' id='main'>
+      <main className='l_main js_main max-w-none' id='main'>
         <div className='m_container is_top'>
           <section className='m_panel is-active' data-panel-id='top'>
             <div className='uq_top is-touchless'>
@@ -150,7 +150,16 @@ const En = () => {
                         <span className='uq_top__column--list-link'>
                           <small>Select from</small>
                           <br />
-                          LAVATORY
+                          Shape
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#lavatory-colour' data-transition-link='lavatory-colour'>
+                        <span className='uq_top__column--list-link'>
+                          <small>Select from</small>
+                          <br />
+                          Colour
                         </span>
                       </a>
                     </li>
@@ -201,9 +210,19 @@ const En = () => {
                       LAVATORY Instllationtype
                     </a>
                   </li>
+                  <li className='m_flow__item' data-flow-id='lavatory-colour'>
+                    <a href='#lavatory-colour' className='m_flow__txt' data-transition-link='lavatory-colour'>
+                      LAVATORY Colour
+                    </a>
+                  </li>
                   <li className='m_flow__item' data-flow-id='lavatory-product'>
                     <a href='#lavatory-product' className='m_flow__txt' data-transition-link='lavatory-product'>
                       LAVATORY Item
+                    </a>
+                  </li>
+                  <li className='m_flow__item' data-flow-id='lavatory-select-colour'>
+                    <a href='#lavatory-select-colour' className='m_flow__txt' data-transition-link='lavatory-select-colour'>
+                      LAVATORY Select Colour
                     </a>
                   </li>
                   <li className='m_flow__item' data-flow-id='result'>
@@ -288,11 +307,24 @@ const En = () => {
               </div>
             </section>
 
+            <section className='m_panel' data-panel-id='lavatory-colour'>
+              <div className='m_mgt25 m_pdt30 m_pdb30'>
+                <div className='m_inner_padding__m' id='lavatory_colour_list'></div>
+              </div>
+            </section>
+            {/* <!-- data-panel-id="lavatory-colour" --> */}
+
             <section className='m_panel' data-panel-id='lavatory-product'>
               <div className='m_mgt25 m_pdt30 m_pdb30'>
                 <div className='m_inner_padding__m' id='lavatory_product_list'></div>
               </div>
             </section>
+            {/* <!-- data-panel-id="lavatory-product" --> */}
+
+            <section className='m_panel' data-panel-id='lavatory-select-colour'>
+              <div className='m_inner_padding__m m_bg__white m_pdt30 m_pdb30' id='lavatory_select_colour'></div>
+            </section>
+            {/* <!-- data-panel-id="lavatory-select-colour" --> */}
 
             <section className='m_panel' data-panel-id='result'>
               <div className='m_result is-faucet-lavatory' id='result_panel'></div>
@@ -301,6 +333,7 @@ const En = () => {
                 <div id='sp_result_list'></div>
               </div>
             </section>
+            {/* <!-- data-panel-id="result" --> */}
 
             <section className='m_panel' data-panel-id='saved'>
               <div className='m_saved__wrap m_pdb30 is_show' id='saved_result'></div>
@@ -326,6 +359,7 @@ const En = () => {
                 </div>
               </div>
             </section>
+            {/* <!-- data-panel-id="compare" --> */}
 
             <div className='m_modal js_modal'>
               <div className='m_modal__bg js_modal__close'></div>
@@ -364,7 +398,7 @@ const En = () => {
                       <i className='m_icon__copy--white m_mgr5'></i>Copy URL
                     </button>
                   </p>
-                  <input type='text' id='copy_url' className='m_modal__copy_url' />
+                  <input type='text' id='copy_url' className='m_modal__copy_url' value='' readOnly />
                 </div>
               </div>
             </div>

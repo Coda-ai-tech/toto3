@@ -1,95 +1,99 @@
-﻿ID,製品カテゴリ,品番,管理番号,シリーズカテゴリ,シリーズ,シェイプ,,サイズ,,,,,,商品分類（1）,商品分類（2）,画像調整,,金額,製品詳細ページURL,受賞アイコン,,機能アイコン,,,,,,,,,カラー（単色）,,,,,,,,,,,,,カラー（バイカラー）,,,,,,,,カラー
-,,,,,,,,テキスト,横幅（W）,奥行き（H）,深さ（D）,ボウル横幅（B-W),ボウル奥行,,,,,,,IF DESIGN AWARD,Reddot award,ACTIVE WAVE,COMFORT GLIDE,COMFORT WAVE,GYROSTREAM,HEAT PROTECT,MINI UNIT,SAFETY THERMO,SOFT FLOW,WARM SPA,PN,BN,PFG,BFG,PRG,BRG,PBR,BBR,PC,PBL,BBL,MBL,W,ZA：PN-BN,ZA：PC-BFG,ZA：PC-BRG,ZA：PC-BN,GF：BN-PN,GF：BBL-PBL,GF：BFG-PFG,GF：BRG-PRG,DEFAULT
-SYSTEM_ID,PRODUCT_TYPE,PRODUCT_ID,COMBINATION_ID,SERIES_CATEGORY,SERIES,SHAPE_TEXT,SHAPE,SIZE,SIZE_W,SIZE_H,SIZE_D,SIZE_B-W,SIZE_B-H,CATEGORY_1,CATEGORY_2,IS_CHANGE_SERIES,IS_SEPARETE_COUNTER,PRICE,PRODUCT_URL,AWARD_01,AWARD_02,TECH_01,TECH_02,TECH_03,TECH_04,TECH_05,TECH_06,TECH_07,TECH_08,TECH_09,COLOUR_PN,COLOUR_BN,COLOUR_PFG,COLOUR_BFG,COLOUR_PRG,COLOUR_BRG,COLOUR_PBR,COLOUR_BBR,COLOUR_PC,COLOUR_PBL,COLOUR_BBL,COLOUR_MBL,COLOUR_W,COLOUR_PN-BN,COLOUR_PC-BFG,COLOUR_PC-BRG,COLOUR_PC-BN,COLOUR_BN-PN,COLOUR_BBL-PBL,COLOUR_BFG-PFG,COLOUR_BRG-PRG,COLOUR_DEFAULT
-1,lavatory,LW596,,,,Under：Square,under,,550,185,370,500,310,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-2,lavatory,LW1514,,,,Under：Square,under,,470,147,470,400,400,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-3,lavatory,LW1515,,,,Under：Square,under,,570,147,430,500,360,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-4,lavatory,LW1516,,,,Under：Square,under,,670,147,450,600,380,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-5,lavatory,LW2506B,,,,Under：Square,under,,626,210,446,530,350,S,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-6,lavatory,LW2516B,,,,Under：Square,under,,626,197,446,530,350,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-7,lavatory,LT520V,,,,Under：Square,under,,604,135,365,520,315,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-8,lavatory,LT542,,,,Under：Square,under,,529,206,364,483,316,S,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-9,lavatory,LW540,,,,Under：Square,under,,590,200,415,540,365,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-10,lavatory,LW1536B,,,,Under：Square,under,,590,207,380,530,330,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-11,lavatory,LW1535B,,,,Under：Square,under,,500,207,380,450,330,S,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-12,lavatory,LW1504,,,,Under：Round,under,,470,177,470,400,400,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-13,lavatory,L530,,,,Under：Round,under,,470,165,440,390,390,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-14,lavatory,L537,,,,Under：Round,under,,470,172,380,420,335,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-15,lavatory,LW546,,,,Under：Round,under,,550,185,400,500,350,R,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-16,lavatory,LW548,,,,Under：Round,under,,600,215,420,550,370,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-17,lavatory,LT569,,,,Under：Round,under,,488,191,411,432,355,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-18,lavatory,LW1506JUB,,,,Under：Round,under,,590,207,380,530,330,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-19,lavatory,LW1505JUB#XW,,,,Under：Round,under,,500,207,380,450,330,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-20,lavatory,LW709,,,,Vessel inset：Square,vessel_inset,,500,135,450,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-21,lavatory,LW710,,,,Vessel inset：Square,vessel_inset,,500,135,450,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-22,lavatory,LW711,,,,Vessel inset：Square,vessel_inset,,600,135,500,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-23,lavatory,LW1615,,,,Vessel inset：Square,vessel_inset,,500,70,460,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-24,lavatory,LW1616,,,,Vessel inset：Square,vessel_inset,,600,70,460,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-25,lavatory,LW1617,,,,Vessel inset：Square,vessel_inset,,700,70,460,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-26,lavatory,LW1619,,,,Vessel inset：Square,vessel_inset,,900,70,460,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-28,lavatory,LW5615B,,,,Vessel inset：Square,vessel_inset,,500,70,460,,,S,inset,1,,,,if2018,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-29,lavatory,LW5616B,,,,Vessel inset：Square,vessel_inset,,600,70,460,,,S,inset,1,,,,if2018,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-30,lavatory,LW1735B,,,,Vessel outset：Square,vessel_outset,,550,70,380,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-31,lavatory,LW4715,,,,Vessel outset：Square,vessel_outset,,500,70,380,,,S,outset,,,,,if2017,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-32,lavatory,LW4716,,,,Vessel outset：Square,vessel_outset,,600,70,380,,,S,outset,,,,,if2017,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-33,lavatory,LW1714,,,,Vessel outset：Square,vessel_outset,,400,60,400,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-34,lavatory,LW1715,,,,Vessel outset：Square,vessel_outset,,500,60,370,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-35,lavatory,LW1716,,,,Vessel outset：Square,vessel_outset,,600,65,385,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-36,lavatory,LW1717,,,,Vessel outset：Square,vessel_outset,,700,70,400,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-37,lavatory,LW5715B,,,,Vessel outset：Square,vessel_outset,,500,70,380,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-38,lavatory,LW5716B,,,,Vessel outset：Square,vessel_outset,,600,70,460,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-39,lavatory,LW1704,,,,Vessel outset：Round,vessel_outset,,400,60,400,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-40,lavatory,LW523,,,,Vessel outset：Round,vessel_outset,,430,160,430,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-42,lavatory,LW366,,,,Vessel outset：Round,vessel_outset,,450,150,450,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-43,lavatory,LW4724,,,,Vessel outset：Round,vessel_outset,,400,80,260,,,R,outset,,,,,if2017_gold,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-44,lavatory,LW4706,,,,Vessel outset：Round,vessel_outset,,600,90,420,,,R,outset,,,,,if2017_gold,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-45,lavatory,LW4704,,,,Vessel outset：Round,vessel_outset,,460,130,420,,,R,outset,,,,,,rd2020,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-46,lavatory,LW1705B,,,,Vessel outset：Round,vessel_outset,,550,125,380,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-47,lavatory,L700,,,,Vessel inset：Round,vessel_inset,,490,90,490,,,R,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-48,lavatory,L367,,,,Vessel inset：Round,vessel_inset,,500,155,500,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-50,lavatory,LT480,,,,Self rim：Round,self_rimming,,495,50,385,,,R,outset,,1,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-51,lavatory,LW501,,,,Self rim：Round,self_rimming,,508,25,432,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-54,lavatory,L762,,,,Self rim：Round,self_rimming,,530,15,450,,,R,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-56,lavatory,LW717,,,,Semi-Reccesed：Square,semi_reccesed,,500,75,450,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-57,lavatory,LW713,,,,Semi-Reccesed：Square,semi_reccesed,,600,75,500,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-59,lavatory,LW647,,,,Semi-Reccesed：Square,semi_reccesed,,520,87,420,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-60,lavatory,LW641,,,,Semi-Reccesed：Square,semi_reccesed,,505,115,505,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-61,lavatory,LT533R,,,,Semi-Reccesed：Round,semi_reccesed,,430,40,430,,,R,outset,,1,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-62,lavatory,L983B,,,,Semi-Reccesed：Round,semi_reccesed,,550,32,430,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-63,lavatory,LW1215,,,,Wall mount：Squre,wallmount,,500,167,450,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-64,lavatory,LW1216,,,,Wall mount：Squre,wallmount,,600,167,450,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-65,lavatory,LT532,,,,Wall mount：Squre,wallmount,,610,50,490,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-66,lavatory,LT530,,,,Wall mount：Squre,wallmount,,700,100,565,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-67,lavatory,LW136,,,,Wall mount：Squre,wallmount,,654,160,483,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-68,lavatory,LT307,,,,Wall mount：Squre,wallmount,,530,180,458,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-71,lavatory,LW947,,,,Wall mount：Round,wallmount,,600,195,500,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-72,lavatory,L239,,,,Wall mount：Round,wallmount,,530,210,465,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-73,lavatory,LT300,,,,Wall mount：Round,wallmount,,500,190,430,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-75,lavatory,LPT236CV,,,,Wall mount：Round,wallmount,,530,195,465,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-76,lavatory,L238CGUT1,,,,Wall mount：Round,wallmount,,560,210,460,,,R,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-77,lavatory,LW240CJ,,,,Wall mount：Round,wallmount,,500,180,350,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-78,lavatory,LPT241G,,,,Wall mount：Round,wallmount,,580,190,500,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-79,lavatory,PJS03,,,,GALALATO,galalato,,600,120,400,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-80,lavatory,PJS06,,,,GALALATO,galalato,,600,120,380,,,R,outset,,,,,if2021,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-81,lavatory,PJS02,,,,GALALATO,galalato,,600,120,400,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-82,lavatory,PJS07,,,,GALALATO,galalato,,600,150,380,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-83,lavatory,PJS01,,,,GALALATO,galalato,,632,154,404,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-84,lavatory,PJS05,,,,GALALATO,galalato,,600,120,380,,,R,outset,,,,,if2021,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-85,lavatory,LW588RB,,,,Under：Round,under,,560,200,430,507,380,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-86,lavatory,LW765B,,,,Under：Square,under,,540,200,460,480,400,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-87,lavatory,LW586R,,,,Under：Square,under,,550,186,490,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-88,lavatory,LW582,,,,Under：Round,under,,600,200,515,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-89,lavatory,LW387B,,,,Vessel outset：Round,vessel_outset,,450,145,450,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-91,lavatory,LW716B,,,,Vessel outset：Square,vessel_outset,,550,165,420,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-92,lavatory,LW760LB,,,,Vessel outset：Round,vessel_outset,,500,138,421,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-93,lavatory,LW681B,,,,Vessel outset：Square,vessel_outset,,607,160,483,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-94,lavatory,PJS04W,,,,GALALATO,galalato,,450,160,450,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-96,lavatory,LW3716HB,,,,Vessel outset：Square,vessel_outset,,596,50,397,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-97,lavatory,LW3717HB,,,,Vessel outset：Square,vessel_outset,,746,50,448,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-99,lavatory,LW172Y,,,,Vessel inset：Square,vessel_inset,,900,62,470,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-101,lavatory,LW170Y,,,,Vessel inset：Square,vessel_inset,,600,75,470,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-102,lavatory,LW682B,,,,Vessel outset：Square,vessel_outset,,685,70,490,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-106,lavatory,LW710CSR,,,,Vessel inset：Square,vessel_inset,,500,70,450,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-362,lavatory,LT574,,,,Vessel outset：Square,vessel_outset,,420,125,420,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-363,lavatory,LT573,,,,Vessel outset：Round,vessel_outset,,420,125,420,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
-365,lavatory,L1706,,,,Vessel outset：Round,vessel_outset,,400,125,400,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,W
+﻿ID,製品カテゴリ,品番,管理番号,シリーズカテゴリ,シリーズ,シェイプ,,サイズ,,,,,,商品分類（1）,商品分類（2）,画像調整,,金額,製品詳細ページURL,受賞アイコン,,機能アイコン,,,,,,,,,カラー（単色）,,,,,,,,,カラー
+,,,,,,,,テキスト,横幅（W）,奥行き（H）,深さ（D）,ボウル横幅（B-W),ボウル奥行,,,,,,,IF DESIGN AWARD,Reddot award,ACTIVE WAVE,COMFORT GLIDE,COMFORT WAVE,GYROSTREAM,HEAT PROTECT,MINI UNIT,SAFETY THERMO,SOFT FLOW,WARM SPA,MBL,MW,MBE,MGR,FG,MO,SR,AB,W,DEFAULT
+SYSTEM_ID,PRODUCT_TYPE,PRODUCT_ID,COMBINATION_ID,SERIES_CATEGORY,SERIES,SHAPE_TEXT,SHAPE,SIZE,SIZE_W,SIZE_H,SIZE_D,SIZE_B-W,SIZE_B-H,CATEGORY_1,CATEGORY_2,IS_CHANGE_SERIES,IS_SEPARETE_COUNTER,PRICE,PRODUCT_URL,AWARD_01,AWARD_02,TECH_01,TECH_02,TECH_03,TECH_04,TECH_05,TECH_06,TECH_07,TECH_08,TECH_09,COLOUR_MBL,COLOUR_MW,COLOUR_MBE,COLOUR_MGR,COLOUR_FG,COLOUR_MO,COLOUR_SR,COLOUR_ABU,COLOUR_W,COLOUR_DEFAULT
+1,lavatory,LW596,,,,Under：Square,under,,550,185,370,500,310,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+2,lavatory,LW1514,,,,Under：Square,under,,470,147,470,400,400,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+3,lavatory,LW1515,,,,Under：Square,under,,570,147,430,500,360,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+4,lavatory,LW1516,,,,Under：Square,under,,670,147,450,600,380,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+5,lavatory,LW2506B,,,,Under：Square,under,,626,210,446,530,350,S,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+6,lavatory,LW2516B,,,,Under：Square,under,,626,197,446,530,350,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+7,lavatory,LT520V,,,,Under：Square,under,,604,135,365,520,315,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+8,lavatory,LT542,,,,Under：Square,under,,529,206,364,483,316,S,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+9,lavatory,LW540,,,,Under：Square,under,,590,200,415,540,365,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+10,lavatory,LW1536B,,,,Under：Square,under,,590,207,380,530,330,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+11,lavatory,LW1535B,,,,Under：Square,under,,500,207,380,450,330,S,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+12,lavatory,LW1504,,,,Under：Round,under,,470,177,470,400,400,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+13,lavatory,L530,,,,Under：Round,under,,470,165,440,390,390,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+14,lavatory,L537,,,,Under：Round,under,,470,172,380,420,335,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+15,lavatory,LW546,,,,Under：Round,under,,550,185,400,500,350,R,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+16,lavatory,LW548,,,,Under：Round,under,,600,215,420,550,370,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+17,lavatory,LT569,,,,Under：Round,under,,488,191,411,432,355,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+18,lavatory,LW1506JUB,,,,Under：Round,under,,590,207,380,530,330,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+19,lavatory,LW1505JUB#XW,,,,Under：Round,under,,500,207,380,450,330,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+20,lavatory,LW709,,,,Vessel inset：Square,vessel_inset,,500,135,450,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+21,lavatory,LW710,,,,Vessel inset：Square,vessel_inset,,500,135,450,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+22,lavatory,LW711,,,,Vessel inset：Square,vessel_inset,,600,135,500,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+23,lavatory,LW1615,,,,Vessel inset：Square,vessel_inset,,500,70,460,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+24,lavatory,LW1616,,,,Vessel inset：Square,vessel_inset,,600,70,460,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+25,lavatory,LW1617,,,,Vessel inset：Square,vessel_inset,,700,70,460,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+26,lavatory,LW1619,,,,Vessel inset：Square,vessel_inset,,900,70,460,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+28,lavatory,LW5615B,,,,Vessel inset：Square,vessel_inset,,500,70,460,,,S,inset,1,,,,if2018,,,,,,,,,,,,,,,,,,,1,W
+29,lavatory,LW5616B,,,,Vessel inset：Square,vessel_inset,,600,70,460,,,S,inset,1,,,,if2018,,,,,,,,,,,,,,,,,,,1,W
+30,lavatory,LW1735,,,,Vessel outset：Square,vessel_outset,,550,70,380,,,S,outset,1,,,,,,,,,,,,,,,1,1,1,1,,,,,1,W
+31,lavatory,LW1735,,,,Vessel outset：Square,vessel_outset,,500,70,380,,,S,outset,,,,,if2017,,,,,,,,,,,1,1,1,1,,,,,1,W
+32,lavatory,LW4716,,,,Vessel outset：Square,vessel_outset,,600,70,380,,,S,outset,,,,,if2017,,,,,,,,,,,1,1,1,1,,,,,1,W
+33,lavatory,LW1714,,,,Vessel outset：Square,vessel_outset,,400,60,400,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+34,lavatory,LW1715,,,,Vessel outset：Square,vessel_outset,,500,60,370,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+35,lavatory,LW1716,,,,Vessel outset：Square,vessel_outset,,600,65,385,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+36,lavatory,LW1717,,,,Vessel outset：Square,vessel_outset,,700,70,400,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+37,lavatory,LW5715B,,,,Vessel outset：Square,vessel_outset,,500,70,380,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+38,lavatory,LW5716B,,,,Vessel outset：Square,vessel_outset,,600,70,460,,,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+39,lavatory,LW1704,,,,Vessel outset：Round,vessel_outset,,400,60,400,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+40,lavatory,LW523,,,,Vessel outset：Round,vessel_outset,,430,160,430,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+42,lavatory,LW366,,,,Vessel outset：Round,vessel_outset,,450,150,450,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+43,lavatory,LW4724,,,,Vessel outset：Round,vessel_outset,,400,80,260,,,R,outset,,,,,if2017_gold,,,,,,,,,,,,,,,,,,,1,W
+44,lavatory,LW4706,,,,Vessel outset：Round,vessel_outset,,600,90,420,,,R,outset,,,,,if2017_gold,,,,,,,,,,,1,1,1,1,,,,,1,W
+45,lavatory,LW4704,,,,Vessel outset：Round,vessel_outset,,460,130,420,,,R,outset,,,,,,rd2020,,,,,,,,,,1,1,1,1,,,,,1,W
+46,lavatory,LW1705,,,,Vessel outset：Round,vessel_outset,,550,125,380,,,R,outset,,,,,,,,,,,,,,,,1,1,1,1,,,,,1,W
+47,lavatory,L700,,,,Vessel inset：Round,vessel_inset,,490,90,490,,,R,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+48,lavatory,L367,,,,Vessel inset：Round,vessel_inset,,500,155,500,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+50,lavatory,LT480,,,,Self rim：Round,self_rimming,,495,50,385,,,R,outset,,1,,,,,,,,,,,,,,,,,,,,,,1,W
+51,lavatory,LW501,,,,Self rim：Round,self_rimming,,508,25,432,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+54,lavatory,L762,,,,Self rim：Round,self_rimming,,530,15,450,,,R,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+56,lavatory,LW717,,,,Semi-Reccesed：Square,semi_reccesed,,500,75,450,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+57,lavatory,LW713,,,,Semi-Reccesed：Square,semi_reccesed,,600,75,500,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+59,lavatory,LW647,,,,Semi-Reccesed：Square,semi_reccesed,,520,87,420,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+60,lavatory,LW641,,,,Semi-Reccesed：Square,semi_reccesed,,505,115,505,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+61,lavatory,LT533R,,,,Semi-Reccesed：Round,semi_reccesed,,430,40,430,,,R,outset,,1,,,,,,,,,,,,,,,,,,,,,,1,W
+62,lavatory,L983B,,,,Semi-Reccesed：Round,semi_reccesed,,550,32,430,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+63,lavatory,LW1215,,,,Wall mount：Squre,wallmount,,500,167,450,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+64,lavatory,LW1216,,,,Wall mount：Squre,wallmount,,600,167,450,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+65,lavatory,LT532,,,,Wall mount：Squre,wallmount,,610,50,490,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+66,lavatory,LT530,,,,Wall mount：Squre,wallmount,,700,100,565,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+67,lavatory,LW136,,,,Wall mount：Squre,wallmount,,654,160,483,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+68,lavatory,LT307,,,,Wall mount：Squre,wallmount,,530,180,458,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+71,lavatory,LW947,,,,Wall mount：Round,wallmount,,600,195,500,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+72,lavatory,L239,,,,Wall mount：Round,wallmount,,530,210,465,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+73,lavatory,LT300,,,,Wall mount：Round,wallmount,,500,190,430,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+75,lavatory,LPT236CV,,,,Wall mount：Round,wallmount,,530,195,465,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+76,lavatory,L238CGUT1,,,,Wall mount：Round,wallmount,,560,210,460,,,R,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+77,lavatory,LW240CJ,,,,Wall mount：Round,wallmount,,500,180,350,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+78,lavatory,LPT241G,,,,Wall mount：Round,wallmount,,580,190,500,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+79,lavatory,PJS03,,,,GALALATO,galalato,,600,120,400,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+80,lavatory,PJS06,,,,GALALATO,galalato,,600,120,380,,,R,outset,,,,,if2021,,,,,,,,,,,,,,,,,,,1,W
+81,lavatory,PJS02,,,,GALALATO,galalato,,600,120,400,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+82,lavatory,PJS07,,,,GALALATO,galalato,,600,150,380,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+83,lavatory,PJS01,,,,GALALATO,galalato,,632,154,404,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+84,lavatory,PJS05,,,,GALALATO,galalato,,600,120,380,,,R,outset,,,,,if2021,,,,,,,,,,,,,,,,,,,1,W
+85,lavatory,LW588RB,,,,Under：Round,under,,560,200,430,507,380,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+86,lavatory,LW765B,,,,Under：Square,under,,540,200,460,480,400,S,outset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+87,lavatory,LW586R,,,,Under：Square,under,,550,186,490,,,S,inset,1,,,,,,,,,,,,,,,,,,,,,,,1,W
+88,lavatory,LW582,,,,Under：Round,under,,600,200,515,,,R,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+89,lavatory,LW387B,,,,Vessel outset：Round,vessel_outset,,450,145,450,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+91,lavatory,LW716B,,,,Vessel outset：Square,vessel_outset,,550,165,420,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+92,lavatory,LW760LB,,,,Vessel outset：Round,vessel_outset,,500,138,421,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+93,lavatory,LW681B,,,,Vessel outset：Square,vessel_outset,,607,160,483,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+94,lavatory,PJS04W,,,,GALALATO,galalato,,450,160,450,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+96,lavatory,LW3716HB,,,,Vessel outset：Square,vessel_outset,,596,50,397,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+97,lavatory,LW3717HB,,,,Vessel outset：Square,vessel_outset,,746,50,448,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+99,lavatory,LW172Y,,,,Vessel inset：Square,vessel_inset,,900,62,470,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+101,lavatory,LW170Y,,,,Vessel inset：Square,vessel_inset,,600,75,470,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+102,lavatory,LW682B,,,,Vessel outset：Square,vessel_outset,,685,70,490,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+106,lavatory,LW710CSR,,,,Vessel inset：Square,vessel_inset,,500,70,450,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+362,lavatory,LT574,,,,Vessel outset：Square,vessel_outset,,420,125,420,,,S,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+363,lavatory,LT573,,,,Vessel outset：Round,vessel_outset,,420,125,420,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+365,lavatory,L1706,,,,Vessel outset：Round,vessel_outset,,400,125,400,,,R,outset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+366,lavatory,LW1315,,,,Semi-Reccesed：Square,semi_reccesed,,500,70,450,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+367,lavatory,LW1316,,,,Semi-Reccesed：Square,semi_reccesed,,550,70,450,,,S,inset,,,,,,,,,,,,,,,,,,,,,,,,1,W
+368,lavatory,LW630,,,,Vessel inset：Square,vessel_outset,,600,110,370,,,S,outset,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,FG
+369,lavatory,LW896,,,,Vessel outset：Round,vessel_outset,,620,130,430,,,R,outset,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,MO
