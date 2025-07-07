@@ -13,10 +13,53 @@ interface InspirationDetailItem extends InspirationItem {
   similar_items?: InspirationItem[];
 }
 
+// Interface for products data
+interface ProductItem {
+  name: string;
+  thumb: string;
+  link: string;
+}
+
+// Function to check how many slide images are available for a given ID
+const checkAvailableSlides = async (
+  basePath: string,
+  id: string,
+): Promise<number> => {
+  let count = 0;
+  let checking = true;
+
+  while (checking) {
+    try {
+      const slideNumber = (count + 1).toString().padStart(2, '0');
+      const imagePath = `${basePath}/id${id}_slide-img${slideNumber}.jpg`;
+
+      // Try to fetch the image to see if it exists
+      const response = await fetch(imagePath, { method: 'HEAD' });
+
+      if (response.ok) {
+        count++;
+      } else {
+        checking = false;
+      }
+
+      // Safety limit to prevent infinite loops
+      if (count >= 20) {
+        checking = false;
+      }
+    } catch (error) {
+      checking = false;
+    }
+  }
+
+  // Return at least 1 slide if no slides found (fallback)
+  return Math.max(count, 1);
+};
+
 const InspirationDetail = () => {
   const { id } = useParams();
   const [detail, setDetail] = useState<InspirationDetailItem | null>(null);
   const [similarItems, setSimilarItems] = useState<InspirationItem[]>([]);
+  const [products, setProducts] = useState<ProductItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [totalSlides, setTotalSlides] = useState(0);
@@ -41,12 +84,31 @@ const InspirationDetail = () => {
           (item: InspirationItem) => item.id === Number(id),
         );
 
+        // Fetch products data
+        const productsResponse = await fetch(
+          '/assets/global/inspiration/common/json/products.json',
+        );
+        
+        let productsData: ProductItem[] = [];
+        if (productsResponse.ok) {
+          const productsJson = await productsResponse.json();
+          const currentProducts = productsJson.find(
+            (p: any) => p.id === Number(id),
+          );
+          if (currentProducts && currentProducts.images) {
+            productsData = currentProducts.images.filter((img: ProductItem) => img.link);
+          }
+        }
+
         if (item) {
-          // Set number of slides based on ID (this could be in the data.json)
-          const slidesCount = id === '1' ? 6 : 3;
+          // Dynamically determine the number of slides by checking available files
+          const basePath = `/assets/global/inspiration/images/id${id}`;
+          const slidesCount = await checkAvailableSlides(
+            basePath,
+            id as string,
+          );
 
           // Generate slide paths
-          const basePath = `/assets/global/inspiration/images/id${id}`;
           const slides = Array(slidesCount)
             .fill(0)
             .map(
@@ -87,6 +149,7 @@ const InspirationDetail = () => {
           });
           setTotalSlides(slidesCount);
           setSimilarItems(similar);
+          setProducts(productsData);
         }
 
         setIsLoading(false);
@@ -234,6 +297,33 @@ const InspirationDetail = () => {
             <div className={styles.detail}>
               <p>{detail.description}</p>
             </div>
+
+            {products.length > 0 && (
+              <div className={styles.productsArea}>
+                <h2>PRODUCTS</h2>
+                <div className={styles.productsGrid}>
+                  {products.map((product, index) => (
+                    <div key={index} className={styles.productItem}>
+                      <a href={product.link}>
+                        <div className={styles.productThumb}>
+                          <img
+                            src={product.thumb}
+                            alt={product.name}
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).src = 
+                                "/assets/img/sprites/product-placeholder.png";
+                            }}
+                          />
+                        </div>
+                        <div className={styles.productName}>
+                          <p>{product.name}</p>
+                        </div>
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {similarItems.length > 0 && (
               <div className={styles.anotherSpaceArea}>
