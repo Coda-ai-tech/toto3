@@ -64,7 +64,7 @@
       }
 
       img {
-        @apply whFull object-cover transition-transform duration-[2s];
+        @apply whFull object-contain transition-transform duration-[2s];
       }
     }
 
