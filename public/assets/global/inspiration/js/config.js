@@ -90,7 +90,7 @@ $(function () {
                         for (var i in index_targetPriority) {
                             // htm_targetPriority = "<li class='vr'><a href='javascript:clickit(" + data_list[index_targetPriority[i]].id + ")'><figure><span><img src='/inspiration_common/images/img" + data_list[index_targetPriority[i]].id + ".jpg' alt=''></span><figcaption>" + data_list[index_targetPriority[i]].name + "</figcaption></figure></a></li>";
                             $("ul.grid").append(htm_targetPriority);
-                            htm_targetPriority = "<li class='vr'><a href='/inspiration/detail/" + data_list[index_targetPriority[i]].id + ".htm' target='_blank'><figure><span><img src='/inspiration_common/images/img" + data_list[index_targetPriority[i]].id + ".jpg' alt=''></span><figcaption>" + data_list[index_targetPriority[i]].name + "</figcaption></figure></a></li>";
+                            htm_targetPriority = "<li class='vr'><a href='/inspiration/" + data_list[index_targetPriority[i]].id + ".htm' target='_blank'><figure><span><img src='/inspiration_common/images/img" + data_list[index_targetPriority[i]].id + ".jpg' alt=''></span><figcaption>" + data_list[index_targetPriority[i]].name + "</figcaption></figure></a></li>";
                             // $("ul.grid").append(htm_targetPriority);
                         }
                     }
@@ -318,7 +318,7 @@ $(function () {
             if (section == 2) { //ソート対象vr以外
                 var htm_target;
                 for (i = 0; i < result.length; i++) {
-                    htm_target = "<li><a href='/inspiration/detail/" + data_list[result[i]].id + ".htm'><figure><span><img src='/inspiration_common/images/img" + data_list[result[i]].id + ".jpg' alt='' target='_blank'></span><figcaption>" + data_list[result[i]].name + "</figcaption></figure>";
+                    htm_target = "<li><a href='/inspiration/" + data_list[result[i]].id + ".htm'><figure><span><img src='/inspiration_common/images/img" + data_list[result[i]].id + ".jpg' alt='' target='_blank'></span><figcaption>" + data_list[result[i]].name + "</figcaption></figure>";
                     //htm_target = "<li><a href='javascript:clickit(" + data_list[result[i]].id + ")'><figure><span><img src='/inspiration_common/images/img" + data_list[result[i]].id + ".jpg' alt='' target='_blank'></span><figcaption>" + data_list[result[i]].name + "</figcaption></figure>";
                     if (data_list[result[i]].space_name) htm_target += "<span>" + data_list[result[i]].space_name + "</span>";
                     htm_target += "</a></li>";
@@ -330,7 +330,7 @@ $(function () {
                 for (i = 0; i < result.length; i++) {
                     if (data_list[result[i]].vr == true) htm_other = "<li class='vr otherElm'>";
                     else htm_other = "<li class='otherElm'>";
-                    htm_other += "<a href='/inspiration/detail/" + data_list[result[i]].id + ".htm'><figure><span><img src='/inspiration_common/images/img" + data_list[result[i]].id + ".jpg' alt='' target='_blank'></span><figcaption>" + data_list[result[i]].name + "</figcaption></figure>";
+                    htm_other += "<a href='/inspiration/" + data_list[result[i]].id + ".htm'><figure><span><img src='/inspiration_common/images/img" + data_list[result[i]].id + ".jpg' alt='' target='_blank'></span><figcaption>" + data_list[result[i]].name + "</figcaption></figure>";
                     //htm_other += "<a href='javascript:clickit(" + data_list[result[i]].id + ")'><figure><span><img src='/inspiration_common/images/img" + data_list[result[i]].id + ".jpg' alt='' target='_blank'></span><figcaption>" + data_list[result[i]].name + "</figcaption></figure>";
                     if (data_list[result[i]].space_name) htm_other += "<span>" + data_list[result[i]].space_name + "</span>";
                     htm_other += "</a></li>";
@@ -342,7 +342,7 @@ $(function () {
                 for (i = 0; i < result.length; i++) {
                     if (data_list[result[i]].vr == true) htm = "<li class='vr'>";
                     else htm = "<li>";
-                    htm += "<a href='/inspiration/detail/" + data_list[result[i]].id + ".htm'><figure><span><img src='/inspiration_common/images/img" + data_list[result[i]].id + ".jpg' alt='' target='_blank'></span><figcaption>" + data_list[result[i]].name + "</figcaption></figure>";
+                    htm += "<a href='/inspiration/" + data_list[result[i]].id + ".htm'><figure><span><img src='/inspiration_common/images/img" + data_list[result[i]].id + ".jpg' alt='' target='_blank'></span><figcaption>" + data_list[result[i]].name + "</figcaption></figure>";
                     //htm += "<a href='javascript:clickit(" + data_list[result[i]].id + ")'><figure><span><img src='/inspiration_common/images/img" + data_list[result[i]].id + ".jpg' alt='' target='_blank'></span><figcaption>" + data_list[result[i]].name + "</figcaption></figure>";
                     if (data_list[result[i]].space_name) htm += "<span>" + data_list[result[i]].space_name + "</span>";
                     htm += "</a></li>";

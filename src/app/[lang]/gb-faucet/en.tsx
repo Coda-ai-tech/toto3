@@ -76,34 +76,34 @@ const En = () => {
                       <div className='drop-menu'>
                         <ul className='drop-grid'>
                           <li>
-                            <a href='/en/inspiration/detail/3.htm'>SPACE01</a>
+                            <a href='/en/inspiration/3.htm'>SPACE01</a>
                           </li>
                           <li>
-                            <a href='/en/inspiration/detail/24.htm'>SPACE02</a>
+                            <a href='/en/inspiration/24.htm'>SPACE02</a>
                           </li>
                           <li>
-                            <a href='/en/inspiration/detail/25.htm'>SPACE03</a>
+                            <a href='/en/inspiration/25.htm'>SPACE03</a>
                           </li>
                           <li>
-                            <a href='/en/inspiration/detail/26.htm'>SPACE04</a>
+                            <a href='/en/inspiration/26.htm'>SPACE04</a>
                           </li>
                           <li>
-                            <a href='/en/inspiration/detail/6.htm'>SPACE05</a>
+                            <a href='/en/inspiration/6.htm'>SPACE05</a>
                           </li>
                           <li>
-                            <a href='/en/inspiration/detail/15.htm'>SPACE06</a>
+                            <a href='/en/inspiration/15.htm'>SPACE06</a>
                           </li>
                           <li>
-                            <a href='/en/inspiration/detail/9.htm'>SPACE07</a>
+                            <a href='/en/inspiration/9.htm'>SPACE07</a>
                           </li>
                           <li>
-                            <a href='/en/inspiration/detail/21.htm'>SPACE08</a>
+                            <a href='/en/inspiration/21.htm'>SPACE08</a>
                           </li>
                           <li>
-                            <a href='/en/inspiration/detail/22.htm'>SPACE09</a>
+                            <a href='/en/inspiration/22.htm'>SPACE09</a>
                           </li>
                           <li>
-                            <a href='/en/inspiration/detail/23.htm'>SPACE10</a>
+                            <a href='/en/inspiration/23.htm'>SPACE10</a>
                           </li>
                         </ul>
                       </div>
@@ -2095,7 +2095,7 @@ const En = () => {
               <div className='swiper-bnr-container'>
                 <div className='swiper-wrapper'>
                   <div className='swiper-slide'>
-                    <a href='/en/inspiration/detail/3.htm' className='showcase__card' aria-label='Exclusively yours'>
+                    <a href='/en/inspiration/3.htm' className='showcase__card' aria-label='Exclusively yours'>
                       <div className='showcase-slider__background'>
                         <img src='/assets/global/faucet/images/showcase-image-01-pc.jpg' className='for-pc' alt='' />
                         <img src='/assets/global/faucet/images/showcase-image-01-sp.jpg' className='for-sp' alt='' />
@@ -2104,7 +2104,7 @@ const En = () => {
                   </div>
                   <div className='swiper-slide'>
                     <a
-                      href='/en/inspiration/detail/32.htm'
+                      href='/en/inspiration/32.htm'
                       className='showcase__card'
                       aria-label='Invitation to extraordinary'
                     >
@@ -2115,7 +2115,7 @@ const En = () => {
                     </a>
                   </div>
                   <div className='swiper-slide'>
-                    <a href='/en/inspiration/detail/25.htm' className='showcase__card' aria-label='Black gorgeousness'>
+                    <a href='/en/inspiration/25.htm' className='showcase__card' aria-label='Black gorgeousness'>
                       <div className='showcase-slider__background'>
                         <img src='/assets/global/faucet/images/showcase-image-03-pc.jpg' className='for-pc' alt='' />
                         <img src='/assets/global/faucet/images/showcase-image-03-sp.jpg' className='for-sp' alt='' />
@@ -2123,7 +2123,7 @@ const En = () => {
                     </a>
                   </div>
                   <div className='swiper-slide'>
-                    <a href='/en/inspiration/detail/24.htm' className='showcase__card' aria-label='Graceful harmony'>
+                    <a href='/en/inspiration/24.htm' className='showcase__card' aria-label='Graceful harmony'>
                       <div className='showcase-slider__background'>
                         <img src='/assets/global/faucet/images/showcase-image-02-pc.jpg' className='for-pc' alt='' />
                         <img src='/assets/global/faucet/images/showcase-image-02-sp.jpg' className='for-sp' alt='' />
@@ -2132,7 +2132,7 @@ const En = () => {
                   </div>
                   {/* <!--
 							<div className="swiper-slide">
-								<a href="/en/inspiration/detail/26.htm" className="showcase__card">
+								<a href="/en/inspiration/26.htm" className="showcase__card">
 									<div className="showcase-slider__background">
 										<img src="images/showcase-image-04-pc.jpg" className="for-pc" />
 										<img src="images/showcase-image-04-sp.jpg" className="for-sp" />
@@ -2140,7 +2140,7 @@ const En = () => {
 								</a>
 							</div>
 							<div className="swiper-slide">
-								<a href="/en/inspiration/detail/6.htm" className="showcase__card">
+								<a href="/en/inspiration/6.htm" className="showcase__card">
 									<div className="showcase-slider__background">
 										<img src="images/showcase-image-05-pc.jpg" className="for-pc" />
 										<img src="images/showcase-image-05-sp.jpg" className="for-sp" />
@@ -2148,7 +2148,7 @@ const En = () => {
 								</a>
 							</div>
 							<div className="swiper-slide">
-								<a href="/en/inspiration/detail/15.htm" className="showcase__card">
+								<a href="/en/inspiration/15.htm" className="showcase__card">
 									<div className="showcase-slider__background">
 										<img src="images/showcase-image-06-pc.jpg" className="for-pc" />
 										<img src="images/showcase-image-06-sp.jpg" className="for-sp" />
@@ -2156,7 +2156,7 @@ const En = () => {
 								</a>
 							</div>
 							<div className="swiper-slide">
-								<a href="/en/inspiration/detail/9.htm" className="showcase__card">
+								<a href="/en/inspiration/9.htm" className="showcase__card">
 									<div className="showcase-slider__background">
 										<img src="images/showcase-image-07-pc.jpg" className="for-pc" />
 										<img src="images/showcase-image-07-sp.jpg" className="for-sp" />
@@ -2164,7 +2164,7 @@ const En = () => {
 								</a>
 							</div>
 							<div className="swiper-slide">
-								<a href="/en/inspiration/detail/21.htm" className="showcase__card">
+								<a href="/en/inspiration/21.htm" className="showcase__card">
 									<div className="showcase-slider__background">
 										<img src="images/showcase-image-08-pc.jpg" className="for-pc" />
 										<img src="images/showcase-image-08-sp.jpg" className="for-sp" />
@@ -2172,7 +2172,7 @@ const En = () => {
 								</a>
 							</div>
 							<div className="swiper-slide">
-								<a href="/en/inspiration/detail/22.htm" className="showcase__card">
+								<a href="/en/inspiration/22.htm" className="showcase__card">
 									<div className="showcase-slider__background">
 										<img src="images/showcase-image-09-pc.jpg" className="for-pc" />
 										<img src="images/showcase-image-09-sp.jpg" className="for-sp" />
@@ -2180,7 +2180,7 @@ const En = () => {
 								</a>
 							</div>
 							<div className="swiper-slide">
-								<a href="/en/inspiration/detail/23.htm" className="showcase__card">
+								<a href="/en/inspiration/23.htm" className="showcase__card">
 									<div className="showcase-slider__background">
 										<img src="images/showcase-image-10-pc.jpg" className="for-pc" />
 										<img src="images/showcase-image-10-sp.jpg" className="for-sp" />
