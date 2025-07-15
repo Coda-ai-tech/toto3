@@ -93,7 +93,7 @@
           }
 
           .itemImage {
-            @apply flex-1 flex flex-col gap-2;
+            @apply flex-1 flex flex-row gap-2 mt-4;
           }
         }
       }

@@ -120,7 +120,7 @@
       @apply relative;
 
       .relatedNewsItemInner {
-        @apply flex flex-row items-start gap-4;
+        @apply flex flex-col items-start gap-4;
 
         @screen lg {
           @apply flex-col;
@@ -132,7 +132,7 @@
       }
 
       .relatedNewsItemThumb {
-        @apply min-w-[150px] w-[150px] h-[100px];
+        @apply min-w-[150px] w-[100%] h-[100%];
 
         @screen lg {
           @apply min-w-[150px] w-full;
@@ -143,7 +143,7 @@
         }
 
         img {
-          @apply whFull object-cover;
+          @apply whFull object-contain;
         }
       }
     }

@@ -37,29 +37,29 @@
       }
 
       @screen hd {
-        @apply w-3/5;
+        @apply w-1/2;
       }
     }
 
     &:nth-child(2) {
       @screen md {
-        @apply w-1/2 pl-[20px];
+        @apply w-1/2 ml-[20px];
       }
 
       @screen hd {
-        @apply w-2/5 pl-[30px];
+        @apply w-1/2 ml-[30px];
       }
     }
 
     .highlightItemThumb {
-      @apply w-full h-[300px];
+      @apply w-full h-[auto];
 
       @screen hd {
-        @apply h-[500px];
+        @apply h-[400px];
       }
 
       img {
-        @apply whFull object-cover;
+        @apply whFull object-contain object-left;
       }
     }
 
@@ -103,25 +103,25 @@
   }
 
   .newsCard {
-    @apply flex bg-gray-lightest w-full;
+    @apply flex flex-col bg-gray-lightest w-full;
 
     @screen md {
       @apply flex-col w-[calc(50%-15px)];
     }
 
     @screen hd {
-      @apply flex-row w-[calc(33.3333%-20px)] h-[300px];
+      @apply flex-col w-[calc(33.3333%-20px)] h-[auto];
     }
 
     .cardThumb {
-      @apply w-1/2 min-w-[50%] h-auto;
+      @apply w-[100%] min-w-[50%] h-auto;
 
       @screen md {
         @apply w-full;
       }
 
       img {
-        @apply whFull object-cover;
+        @apply w-full h-auto object-contain;
       }
     }
 
@@ -129,11 +129,12 @@
       @apply relative p-4 pb-16 flex flex-col;
 
       @screen md {
-        @apply p-6 pb-16;
+        @apply p-6 pb-16 min-h-[200px];
       }
 
       .cardTitle {
         @apply h5;
+        @include mixin.textEllipsis(2);
 
         @screen md {
           @apply h4;
