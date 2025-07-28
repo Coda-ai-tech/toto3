@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CW822RA",
+    "title": "CW822REA",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "CW822RA",
+      "label": "CW822REA",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CW822RA"
+        "href": "/en/product/CW822REA"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "CW822RA",
-      "slug": "CW822RA",
-      "productName": "Elongated Tornado Flush Wall Hung Toilet",
+      "modelNumber": "CW822REA",
+      "slug": "CW822REA",
+      "productName": "Elongated Tornado Flush Wall Hung Toilet For WASHLET Installation",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "CW822RA",
+        "id": "CW822REA",
         "category": [
           "Commercial"
         ],
@@ -46,9 +46,9 @@
           "toilet-and-urinal",
           "wall-hung-toilet"
         ],
-        "description": "Elongated Tornado Flush Wall Hung Toilet",
+        "description": "Elongated Tornado Flush Wall Hung Toilet For WASHLET Installation",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW822RA/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW822REA/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -113,12 +113,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW822RA/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW822REA/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
           "CW822NJWS",
-          "CW822REA"
+          "CW822RA"
         ],
         "compatibleProduct": [],
         "remarks": ""

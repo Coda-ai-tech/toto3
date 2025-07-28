@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "C762E",
+    "title": "CW762E",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "C762E",
+      "label": "CW762E",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/C762E"
+        "href": "/en/product/CW762E"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "C762E",
-      "slug": "C762E",
+      "modelNumber": "CW762E",
+      "slug": "CW762E",
       "productName": "D-shape Tornado Flush Wall Hung Toilet",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "C762E",
+        "id": "CW762E",
         "category": [
           "Commercial"
         ],

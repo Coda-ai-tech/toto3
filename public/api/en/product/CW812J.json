@@ -85,7 +85,10 @@
           "/assets/img/content/products/toilets/wall-hung-toilet/CW812J/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "CW812REA",
+          "CW812RA"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }
