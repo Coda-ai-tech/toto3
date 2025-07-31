@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "C762E",
+    "title": "CW812REA",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,42 +21,41 @@
       }
     },
     {
-      "label": "C762E",
+      "label": "CW812REA",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/C762E"
+        "href": "/en/product/CW812REA"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "C762E",
-      "slug": "C762E",
-      "productName": "D-shape Tornado Flush Wall Hung Toilet",
+      "modelNumber": "CW812REA",
+      "slug": "CW812REA",
+      "productName": "Elongated Tornado Flush Wall Hung Toilet for WASHLET Installation",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "C762E",
+        "id": "CW812REA",
         "category": [
-          "Commercial"
+          "Toilets"
         ],
         "subCategory": [
-          "toilet-and-urinal",
-          "wall-hung-toilet"
+          "wall-hung-toilet",
+          ""
         ],
-        "description": "D-shape Tornado Flush Wall Hung Toilet",
+        "description": "Elongated Tornado Flush Wall Hung Toilet for WASHLET Installation",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/C762E/content-image.png"
+          "/assets/img/content/products/toilets/wall-hung-toilet/CW812REA/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "530 x 380 x 340mm",
+          "Size": "595 x 380 x 335mm",
           "FlushingSystem": "Tornado Flush",
-          "WaterConsumption": "3L/4.8L",
+          "WaterConsumption": "3L/4.5L",
           "TrapType": "220mm",
-          "WaterPressure": "",
           "PowerRating": "",
           "Material": [
             "Vitreous China"
@@ -113,11 +112,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/C762E/drawing.png"
+          "/assets/img/content/products/toilets/wall-hung-toilet/CW812REA/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
-          "CW762B"
+          "CW812J",
+          "CW812RA"
         ],
         "compatibleProduct": [],
         "remarks": ""

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CW553KVH",
+    "title": "CW762E",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "CW553KVH",
+      "label": "CW762E",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CW553KVH"
+        "href": "/en/product/CW762E"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "CW553KVH",
-      "slug": "CW553KVH",
+      "modelNumber": "CW762E",
+      "slug": "CW762E",
       "productName": "D-shape Tornado Flush Wall Hung Toilet",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "CW553KVH",
+        "id": "CW762E",
         "category": [
           "Commercial"
         ],
@@ -48,13 +48,13 @@
         ],
         "description": "D-shape Tornado Flush Wall Hung Toilet",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW553KVH/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/C762E/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "540 x 380 x 335mm",
+          "Size": "530 x 380 x 340mm",
           "FlushingSystem": "Tornado Flush",
-          "WaterConsumption": "3L/4.5L",
+          "WaterConsumption": "3L/4.8L",
           "TrapType": "220mm",
           "WaterPressure": "",
           "PowerRating": "",
@@ -113,10 +113,12 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW553KVH/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/C762E/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [],
+        "relatedProduct": [
+          "CW762B"
+        ],
         "compatibleProduct": [],
         "remarks": ""
       }

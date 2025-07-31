@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CW822RA",
+    "title": "CW553FVH",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "CW822RA",
+      "label": "CW553FVH",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CW822RA"
+        "href": "/en/product/CW553FVH"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "CW822RA",
-      "slug": "CW822RA",
-      "productName": "Elongated Tornado Flush Wall Hung Toilet",
+      "modelNumber": "CW553FVH",
+      "slug": "CW553FVH",
+      "productName": "D-shape Tornado Flush Wall Hung Toilet",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "CW822RA",
+        "id": "CW553FVH",
         "category": [
           "Commercial"
         ],
@@ -46,15 +46,15 @@
           "toilet-and-urinal",
           "wall-hung-toilet"
         ],
-        "description": "Elongated Tornado Flush Wall Hung Toilet",
+        "description": "D-shape Tornado Flush Wall Hung Toilet",
         "images": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW822RA/content-image.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW553KVH/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "540 x 360 x 330mm",
+          "Size": "540 x 380 x 335mm",
           "FlushingSystem": "Tornado Flush",
-          "WaterConsumption": "3/4.5L",
+          "WaterConsumption": "3L/4.5L",
           "TrapType": "220mm",
           "WaterPressure": "",
           "PowerRating": "",
@@ -113,13 +113,10 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Commercial/toilet-and-urinal/CW822RA/drawing.png"
+          "/assets/img/content/products/Commercial/toilet-and-urinal/CW553KVH/drawing.png"
         ],
         "videos": [],
-        "relatedProduct": [
-          "CW822NJWS",
-          "CW822REA"
-        ],
+        "relatedProduct": [],
         "compatibleProduct": [],
         "remarks": ""
       }

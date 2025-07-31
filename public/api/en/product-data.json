@@ -901,7 +901,7 @@
       "thumb": "/assets/img/content/products/Lavatories/console-lavatory/LW1617B/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW1617B"
+        "href": "/en/product/LW1617CWH"
       }
     },
     {
@@ -1292,21 +1292,6 @@
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW971B"
-      }
-    },
-    {
-      "id": "LW1723B",
-      "name": "Console Lavatory",
-      "category": [
-        "Lavatories"
-      ],
-      "subCategory": [
-        "console-lavatory"
-      ],
-      "thumb": "/assets/img/content/products/Lavatories/console-lavatory/LW1723B/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/LW1723B"
       }
     },
     {
@@ -4377,7 +4362,7 @@
       }
     },
     {
-      "id": "C762E",
+      "id": "CW762E",
       "name": "D-shape Tornado Flush Wall Hung Toilet For Flush Valve Use",
       "category": [
         "Toilet"
@@ -4388,7 +4373,7 @@
       "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/C762E/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/C762E"
+        "href": "/en/product/CW762E"
       }
     },
     {
@@ -4452,7 +4437,7 @@
       }
     },
     {
-      "id": "CW553KVH",
+      "id": "CW553FVH",
       "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Toilet"
@@ -4463,7 +4448,7 @@
       "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW553KVH/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CW553KVH"
+        "href": "/en/product/CW553FVH"
       }
     },
     {
@@ -4494,6 +4479,21 @@
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW822RA"
+      }
+    },
+    {
+      "id": "CW822REA",
+      "name": "Elongated Tornado Flush Wall Hung Toilet For WASHLET Installation",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW822REA/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW822REA"
       }
     },
     {
@@ -4584,6 +4584,36 @@
       "link": {
         "type": "routeLink",
         "href": "/en/product/CW812J"
+      }
+    },
+    {
+      "id": "CW812REA",
+      "name": "Elongated Tornado Flush Wall Hung Toilet for WASHLET Installation",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW812REA/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW812REA"
+      }
+    },
+    {
+      "id": "CW812RA",
+      "name": "Elongated Tornado Flush Wall Hung Toilet",
+      "category": [
+        "Toilet"
+      ],
+      "subCategory": [
+        "wall-hung-toilet"
+      ],
+      "thumb": "/assets/img/content/products/toilets/wall-hung-toilet/CW812RA/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/CW812RA"
       }
     },
     {
@@ -10602,7 +10632,7 @@
       }
     },
     {
-      "id": "CW553KVH",
+      "id": "CW553FVH",
       "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
@@ -10614,7 +10644,7 @@
       "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/CW553KVH/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/CW553KVH"
+        "href": "/en/product/CW553FVH"
       }
     },
     {
@@ -10682,7 +10712,7 @@
       }
     },
     {
-      "id": "C762E",
+      "id": "CW762E",
       "name": "D-shape Tornado Flush Wall Hung Toilet",
       "category": [
         "Commercial"
@@ -10694,7 +10724,7 @@
       "thumb": "/assets/img/content/products/Commercial/toilet-and-urinal/C762E/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/C762E"
+        "href": "/en/product/CW762E"
       }
     },
     {
