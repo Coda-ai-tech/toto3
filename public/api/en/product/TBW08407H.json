@@ -71,7 +71,13 @@
             }
           ]
         },
-        "awardImages": [],
+        "awardImages": [
+          {
+            "name": "IF Design",
+            "year": "2022",
+            "src": "/assets/img/content/products/awards/good_design.png"
+          }
+        ],
         "technologies": [
           {
             "title": "WARM SPA",
