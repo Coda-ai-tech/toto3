@@ -830,7 +830,7 @@
       }
     },
     {
-      "id": "LW896J",
+      "id": "LW896J#SCR",
       "name": "Console Lavatory (Colour)",
       "category": [
         "Lavatories"
@@ -838,10 +838,10 @@
       "subCategory": [
         "console-lavatory"
       ],
-      "thumb": "/assets/img/content/products/Lavatories/console-lavatory/LW896JD/content-image.png",
+      "thumb": "/assets/img/content/products/Lavatories/console-lavatory/LW896J-SCR/content-image.png",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW896JD"
+        "href": "/en/product/LW896J-SCR"
       }
     },
     {

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW630JD",
+    "title": "LW896J#SCR",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "LW630JD",
+      "label": "LW896J#SCR",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW630JD"
+        "href": "/en/product/LW896J-SCR"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "LW630JDW/F",
-      "slug": "LW630JD",
+      "modelNumber": "LW896J#SCR",
+      "slug": "LW896J-SCR",
       "productName": "Console Lavatory (Colour)",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW630JDW/F",
+        "id": "LW896J#SCR",
         "category": [
           "Lavatories"
         ],
@@ -48,11 +48,11 @@
         ],
         "description": "Console Lavatory (Colour)",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/LW630JD/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW896J-SCR/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "600 x 370 x 110mm",
+          "Size": "620 x 430 x 130mm",
           "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
@@ -75,12 +75,11 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/LW630JD/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW896J-SCR/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
-          "LW630JW-F",
-          "LW631JW-F"
+          "LW896J"
         ],
         "compatibleProduct": [],
         "remarks": ""
