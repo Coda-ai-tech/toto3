@@ -603,7 +603,7 @@ export const ProductCard = ({ data }: { data: ProductItem }) => {
   };
 
   // Extract the URL string from the link object (adjust 'url' to match the actual property name)
-  const href = link.href; // Replace 'url' with the correct property name if different
+  const href: string | undefined = link.href && link.href !== '' ? link.href : undefined;
 
   return (
     <a href={href} className={`${styles.productCard}`}>
