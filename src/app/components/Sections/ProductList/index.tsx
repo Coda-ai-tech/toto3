@@ -602,22 +602,27 @@ export const ProductCard = ({ data }: { data: ProductItem }) => {
     link,
   };
 
+  // Extract the URL string from the link object (adjust 'url' to match the actual property name)
+  const href = link.href; // Replace 'url' with the correct property name if different
+
   return (
-    <div className={`${styles.productCard}`}>
+    <a href={href} className={`${styles.productCard}`}>
       <div className={`${styles.cardInner}`}>
         <div className={`${styles.thumb}`}>
           <Image src={thumb} width={100} height={100} alt={`${id}`} draggable={false} />
         </div>
         <div className={`${styles.content}`}>
           <h4 className={`${styles.productTitle}`}>{id}</h4>
-          <div className={`${styles.category}`}><b>{subCategory && subCategory[0] ? subCategory[0].toUpperCase() : category[0].toUpperCase()}</b></div>
+          <div className={`${styles.category}`}>
+            <b>{subCategory && subCategory[0] ? subCategory[0].toUpperCase() : category[0].toUpperCase()}</b>
+          </div>
           <div className={`${styles.description}`}>{name}</div>
         </div>
         <div className={`${styles.action}`}>
           <Button content={learnMoreCta} />
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 

@@ -740,23 +740,8 @@
       }
     },
     {
-      "id": "LW630JW/F",
+      "id": "LW630JD",
       "name": "Console Lavatory",
-      "category": [
-        "Lavatories"
-      ],
-      "subCategory": [
-        "console-lavatory"
-      ],
-      "thumb": "/assets/img/content/products/Lavatories/console-lavatory/LW630JW-F/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/LW630JW-F"
-      }
-    },
-    {
-      "id": "LW630JDW/F",
-      "name": "Console Lavatory (Colour)",
       "category": [
         "Lavatories"
       ],
@@ -767,6 +752,21 @@
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW630JD"
+      }
+    },
+    {
+      "id": "LW630JD-FRG",
+      "name": "Console Lavatory (Colour)",
+      "category": [
+        "Lavatories"
+      ],
+      "subCategory": [
+        "console-lavatory"
+      ],
+      "thumb": "/assets/img/content/products/Lavatories/console-lavatory/LW630JD-FRG/content-image.png",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/product/LW630JD-FRG"
       }
     },
     {
