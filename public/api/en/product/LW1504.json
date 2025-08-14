@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW1504",
+    "title": "LW1504WH",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -31,14 +31,14 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW1504",
+      "modelNumber": "LW1504WH",
       "slug": "LW1504",
       "productName": "Under Counter Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW1504",
+        "id": "LW1504WH",
         "category": [
           "Commercial"
         ],
@@ -64,7 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "#MW Matte White"
+                "White"
               ]
             }
           ]

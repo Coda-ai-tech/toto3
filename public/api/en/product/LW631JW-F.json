@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW631JW/F",
+    "title": "LW631JD",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -31,14 +31,14 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW631JW/F",
+      "modelNumber": "LW631JD",
       "slug": "LW631JW-F",
       "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW631JW-F",
+        "id": "LW631JD",
         "category": [
           "Lavatories"
         ],
@@ -76,7 +76,7 @@
         ],
         "videos": [],
         "relatedProduct": [
-          "LW630JW-F",
+          "LW630JD-FRG",
           "LW630JD"
         ],
         "compatibleProduct": [],
