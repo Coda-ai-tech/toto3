@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW630JW/F",
+    "title": "LW896J#SCR",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "LW630JW/F",
+      "label": "LW896J#SCR",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW630JW-F"
+        "href": "/en/product/LW896J-SCR"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "LW630JW/F",
-      "slug": "LW630JW-F",
-      "productName": "Console Lavatory",
+      "modelNumber": "LW896J#SCR",
+      "slug": "LW896J-SCR",
+      "productName": "Console Lavatory (Colour)",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW630JW/F",
+        "id": "LW896J#SCR",
         "category": [
           "Lavatories"
         ],
@@ -46,13 +46,13 @@
           "console-lavatory",
           "vitreous-china"
         ],
-        "description": "Console Lavatory",
+        "description": "Console Lavatory (Colour)",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/LW630JW-F/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW896J-SCR/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "600 x 370 x 110mm",
+          "Size": "620 x 430 x 130mm",
           "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
@@ -64,7 +64,10 @@
           "Colour": [
             {
               "ForLavatory": [
-                "White"
+                "#FRG Forest Green",
+                "#MDO Mandarin Orange",
+                "#SCR Scarlet Red",
+                "#ASB Ash Blue"
               ]
             }
           ]
@@ -72,12 +75,11 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/LW630JW-F/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW896J-SCR/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
-          "LW630JD",
-          "LW631JW-F"
+          "LW896J"
         ],
         "compatibleProduct": [],
         "remarks": ""

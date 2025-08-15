@@ -69,7 +69,13 @@
             }
           ]
         },
-        "awardImages": [],
+        "awardImages": [
+          {
+            "name": "IF Design",
+            "year": "2021",
+            "src": "/assets/img/content/products/awards/good_design.png"
+          }
+        ],
         "technologies": [],
         "downloads": [
           "/assets/img/content/products/Bathtub/free-standing-bathtub/PJY1744HPWE/drawing.png"

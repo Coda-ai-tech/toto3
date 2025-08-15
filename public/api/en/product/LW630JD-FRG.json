@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "LW896J",
+    "title": "LW630JD#FRG",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "LW896J",
+      "label": "LW630JD#FRG",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/LW896JD"
+        "href": "/en/product/LW630JD-FRG"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "LW896J",
-      "slug": "LW896JD",
+      "modelNumber": "LW630JD#FRG",
+      "slug": "LW630JD-FRG",
       "productName": "Console Lavatory (Colour)",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW896J",
+        "id": "LW630JD#FRG",
         "category": [
           "Lavatories"
         ],
@@ -48,11 +48,11 @@
         ],
         "description": "Console Lavatory (Colour)",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/LW896JD/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW630JD-FRG/content-image.png"
         ],
         "features": [],
         "specs": {
-          "Size": "620 x 430 x 130mm",
+          "Size": "600 x 370 x 110mm",
           "FlushingSystem": "",
           "WaterConsumption": "",
           "TrapType": "",
@@ -75,11 +75,12 @@
         "awardImages": [],
         "technologies": [],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/LW896JD/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/LW630JD-FRG/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [
-          "LW896J"
+          "LW630JD",
+          "LW631JW-F"
         ],
         "compatibleProduct": [],
         "remarks": ""

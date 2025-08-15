@@ -322,9 +322,10 @@
 
     .thumb {
       @apply relative aspect-square overflow-hidden;
+      align-content: center;
 
       img {
-        @apply whFull;
+        @apply w-full h-auto;
       }
     }
 

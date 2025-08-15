@@ -31,14 +31,14 @@
   "content": [
     {
       "id": null,
-      "modelNumber": "LW630JDW/F",
+      "modelNumber": "LW630JD",
       "slug": "LW630JD",
-      "productName": "Console Lavatory (Colour)",
+      "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "LW630JDW/F",
+        "id": "LW630JD",
         "category": [
           "Lavatories"
         ],
@@ -46,7 +46,7 @@
           "console-lavatory",
           "vitreous-china"
         ],
-        "description": "Console Lavatory (Colour)",
+        "description": "Console Lavatory",
         "images": [
           "/assets/img/content/products/Lavatories/console-lavatory/LW630JD/content-image.png"
         ],
@@ -64,10 +64,7 @@
           "Colour": [
             {
               "ForLavatory": [
-                "#FRG Forest Green",
-                "#MDO Mandarin Orange",
-                "#SCR Scarlet Red",
-                "#ASB Ash Blue"
+                "White"
               ]
             }
           ]
@@ -79,7 +76,7 @@
         ],
         "videos": [],
         "relatedProduct": [
-          "LW630JW-F",
+          "LW630JD-FRG",
           "LW631JW-F"
         ],
         "compatibleProduct": [],
