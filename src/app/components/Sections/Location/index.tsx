@@ -11,6 +11,7 @@ import Media from '@@/Media';
 import Button from '@@/Button';
 import SvgIcon from '@@/SvgIcon';
 import styles from './Location.module.scss';
+import { useParams } from "next/navigation";
 
 import dealersData from '../../../../../public/api/en/location-data.json';
 
@@ -44,12 +45,39 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
   } = data;
 
   const { screen } = useContext(ConfigContext);
-
-  const dealers = dealersData.data;
-  const [selectedDealer, setSelectedDealer] = useState<DealerItem>(dealers[0]);
+  const { lang } = useParams();
+  const [dealers, setDealers] = useState<DealerItem[]>();
+  //const dealers = dealersData.data;
+  const [selectedDealer, setSelectedDealer] = useState<DealerItem>();
   const [resultData, setResultData] = useState<DealerItem[]>() as any;
   const [categoryList, setCategoryList] = useState<any>(null);
-  const [selectedCategory, setCategory] = useState<string>('all');
+  const [selectedCategory, setCategory] = useState<string>("all");
+
+  const fetchData = async () => {
+    try {
+      console.log("fetch location Data");
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${process.env.NEXT_PUBLIC_DEV_CMS_ENDPOINT_SUFFIX}/${lang}/location-data`
+      );
+      const locationDatas = await response.json();
+      setDealers(locationDatas.data);
+      if (
+        locationDatas &&
+        locationDatas.data &&
+        locationDatas.data.length > 0
+      ) {
+        setSelectedDealer(locationDatas.data[0]);
+      }
+    } catch (error) {
+      console.log("\x1b[36m%s\x1b[0m", `==== DATA NOT FOUND () ====`);
+      console.error("error", error);
+    }
+  };
+
+  useEffect(() => {
+    if (dealers) return;
+    fetchData();
+  }, []);
 
   useEffect(() => {
     if (!dealers) return;
@@ -71,8 +99,8 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
   }, [dealers, setCategoryList]);
 
   const getFilteredData = useCallback(() => {
-    return dealers.filter(
-      (item: DealerItem) => item.district === selectedCategory,
+    return dealers?.filter(
+      (item: DealerItem) => item.district === selectedCategory
     );
   }, [dealers, selectedCategory]);
 
@@ -81,7 +109,9 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
     setTimeout(() => {
       const resData = selectedCategory === 'all' ? dealers : getFilteredData();
       setResultData(resData);
-      setSelectedDealer(resData[0]);
+      if (resData && resData.length > 0) {
+        setSelectedDealer(resData[0]);
+      }
     }, 10);
   }, [selectedCategory, setSelectedDealer, getFilteredData, dealers]);
 
@@ -187,7 +217,7 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
                             title={
                               <div
                                 className={`${styles.dealerHead} ${
-                                  selectedDealer.address === dealer.address
+                                  selectedDealer?.address === dealer.address
                                     ? styles.active
                                     : ''
                                 }`}>
@@ -210,7 +240,7 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
                                     </div>
                                     <div
                                       className={`${styles.statusIndicator} ${
-                                        selectedDealer.address ===
+                                        selectedDealer?.address ===
                                         dealer.address
                                           ? styles.active
                                           : ''
@@ -313,9 +343,9 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
               {MatchMedia(BreakPoint.hd, MatchMediaType.minWidth) && (
                 <div className={`${styles.mapWrap}`}>
                   <iframe
-                    src={`${selectedDealer.gmap}`}
+                    src={`${selectedDealer?.gmap}`}
                     className={`${styles.map}`}
-                    title={`${selectedDealer.name} Google Map`}
+                    title={`${selectedDealer?.name} Google Map`}
                   />
                 </div>
               )}
@@ -330,9 +360,9 @@ const Location = ({ order, data }: ModuleData<LocationProps, null>) => {
         <div className={`${styles.mapPopup}`}>
           <div className={`${styles.mapWrap}`}>
             <iframe
-              src={`${selectedDealer.gmap}`}
+              src={`${selectedDealer?.gmap}`}
               className={`${styles.map}`}
-              title={`${selectedDealer.name} Google Map`}
+              title={`${selectedDealer?.name} Google Map`}
             />
           </div>
         </div>
