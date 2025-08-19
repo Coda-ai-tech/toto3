@@ -980,21 +980,6 @@
       }
     },
     {
-      "id": "LW1717B",
-      "name": "Console Lavatory",
-      "category": [
-        "Lavatories"
-      ],
-      "subCategory": [
-        "console-lavatory"
-      ],
-      "thumb": "/assets/img/content/products/Lavatories/console-lavatory/LW1717B/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/LW1717B"
-      }
-    },
-    {
       "id": "LW643JW/F",
       "name": "Console Lavatory",
       "category": [
@@ -1100,21 +1085,6 @@
       }
     },
     {
-      "id": "LW387B",
-      "name": "Console Lavatory",
-      "category": [
-        "Lavatories"
-      ],
-      "subCategory": [
-        "console-lavatory"
-      ],
-      "thumb": "/assets/img/content/products/Lavatories/console-lavatory/LW387B/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/LW387B"
-      }
-    },
-    {
       "id": "L700C",
       "name": "Console Lavatory",
       "category": [
@@ -1202,21 +1172,6 @@
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW709RCB-XW"
-      }
-    },
-    {
-      "id": "LW1615CB",
-      "name": "Console Lavatory",
-      "category": [
-        "Lavatories"
-      ],
-      "subCategory": [
-        "console-lavatory"
-      ],
-      "thumb": "/assets/img/content/products/Lavatories/console-lavatory/LW1615CB/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/LW1615CB"
       }
     },
     {
@@ -1532,21 +1487,6 @@
       "link": {
         "type": "routeLink",
         "href": "/en/product/LW645JN"
-      }
-    },
-    {
-      "id": "LW713CB",
-      "name": "Semi Recessed Lavatory",
-      "category": [
-        "Lavatories"
-      ],
-      "subCategory": [
-        "semi-recessed-lavatory"
-      ],
-      "thumb": "/assets/img/content/products/Lavatories/semi-recessed-lavatory/LW713CB/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/LW713CB"
       }
     },
     {
@@ -3552,21 +3492,6 @@
         }
     },
     {
-        "id": "CW870BT305",
-        "name": "Elongated Tornado Flush Toilet",
-        "category": [
-            "Toilet"
-        ],
-        "subCategory": [
-            "one-piece-toilet"
-        ],
-        "thumb": "/assets/img/content/products/toilets/one-piece-toilet/CW870BT305/content-image.png",
-        "link": {
-            "type": "routeLink",
-            "href": "/en/product/CW870BT305"
-        }
-    },
-    {
         "id": "CW188BT305",
         "name": "Elongated Tornado Flush Toilet",
         "category": [
@@ -4884,21 +4809,6 @@
       "link": {
         "type": "routeLink",
         "href": "/en/product/WH172BNF"
-      }
-    },
-    {
-      "id": "MB005DGN",
-      "name": "Flush Plate",
-      "category": [
-        "Toilet"
-      ],
-      "subCategory": [
-        "concealed-cistern"
-      ],
-      "thumb": "/assets/img/content/products/toilets/concealed-cistern/MB005DGN/content-image.png",
-      "link": {
-        "type": "routeLink",
-        "href": "/en/product/MB005DGN"
       }
     },
     {
