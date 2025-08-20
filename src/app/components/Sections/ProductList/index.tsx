@@ -1176,11 +1176,11 @@ const ProductList = ({ order, data }: ModuleData<SectionTitle, null>) => {
                       className={styles.paginationButton}
                     > &lt;&lt; </button>
                     {Array.from({ length: totalPage }).map((_, index) => {
-                      if (index > page && index > page + 1) {
-                        return null;
-                      } else if (index < page && index < page - 3) {
-                        return null;
-                      }
+                      // if (index > page && index > page + 1) {
+                      //   return null;
+                      // } else if (index < page && index < page - 3) {
+                      //   return null;
+                      // }
                       if (index + 1 === page) {
                         return (
                           <div key={index} className={styles.currentPage}>{page}</div>

@@ -44,6 +44,7 @@ interface Awards {
   name: string;
   year: string;
   src: string;
+  link: ButtonLinkElement;
 }
 
 interface Specs {
@@ -284,99 +285,97 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
               </div>
               <div className={styles.awardImages}>
                 {awardImages.map((imageLink, index) => {
-                  const name = imageLink.name.trim().toLowerCase();
-                  if (name === 'if design' || name === 'if-design' || name === 'if_design') {
-                    return (
-                      <div key={'image-' + index} className={styles.imageWrapper}>
-                        <Image
-                          src="/assets/img/content/products/awards/design_award.png"
-                          alt="IF Design Award"
-                          draggable={false}
-                          fill
-                          style={{ objectFit: 'contain' }}
-                        />
-                      </div>
-                    )
-                  } else if (name === 'if gold' || name === 'if-gold' || name === 'if_gold') {
-                    return (
-                      <div key={'image-' + index} className={styles.imageWrapper}>
-                        <Image
-                          src="/assets/img/content/products/awards/gold_award.png"
-                          alt="IF Gold Award 2017"
-                          draggable={false}
-                          fill
-                          style={{ objectFit: 'contain' }}
-                        />
-                      </div>
-                    )
-                  } else if (name === 'green good' || name === 'green-good' || name === 'green_good') {
-                    return (
-                      <div key={'image-' + index} className={styles.imageWrapper2}>
-                        <Image
-                          src="/assets/img/content/products/awards/good_design.png"
-                          alt="Good Design"
-                          draggable={false}
-                          width={56}
-                          height={56}
-                          style={{ objectFit: 'contain' }}
-                        />
-                      </div>
-                    )
-                  } else if (name === 'reddot') {
-                    return (
-                      <div key={'image-' + index} className={styles.imageWrapper2}>
-                        <Image
-                          src="/assets/img/content/products/awards/reddot_winner.png"
-                          alt="Reddot Winner"
-                          draggable={false}
-                          width={70}
-                          height={56}
-                          style={{ objectFit: 'contain' }}
-                        />
-                      </div>
-                    )
-                  } else if (name === 'reddot best' || name === 'reddot-best' || name === 'reddot_best') {
-                    return (
-                      <div key={'image-' + index} className={styles.imageWrapper2}>
-                        <Image
-                          src="/assets/img/content/products/awards/reddot_winner.png"
-                          alt="Reddot Winner"
-                          draggable={false}
-                          width={70}
-                          height={56}
-                          style={{ objectFit: 'contain' }}
-                        />
-                      </div>
-                    )
-                  } else if (name === 'reddot 2017' || name === 'reddot-2017' || name === 'reddot_2017') {
-                    return (
-                      <div key={'image-' + index} className={styles.imageWrapper}>
-                        <Image
-                          src="/assets/img/content/products/awards/reddot_2017.png"
-                          alt="Reddot Award 2017"
-                          draggable={false}
-                          fill
-                          style={{ objectFit: 'contain' }}
-                        />
-                      </div>
-                    )
-                  }
-
-                }
-
-                  // (
-                  //   <div key={'image-' + index} className={styles.imageWrapper}>
-                  //     <Image
-                  //       src={imageLink.src}
-                  //       alt="Award Image"
-                  //       draggable={false}
-                  //       fill
-                  //       style={{ objectFit: 'contain' }}
-                  //     />
-                  //   </div>
-                  // )
-
-                )}
+                  // const name = imageLink.name.trim().toLowerCase();
+                  // if (name === 'if design' || name === 'if-design' || name === 'if_design') {
+                  //   return (
+                  //     <div key={'image-' + index} className={styles.imageWrapper}>
+                  //       <Image
+                  //         src="/assets/img/content/products/awards/design_award.png"
+                  //         alt="IF Design Award"
+                  //         draggable={false}
+                  //         fill
+                  //         style={{ objectFit: 'contain' }}
+                  //       />
+                  //     </div>
+                  //   )
+                  // } else if (name === 'if gold' || name === 'if-gold' || name === 'if_gold') {
+                  //   return (
+                  //     <div key={'image-' + index} className={styles.imageWrapper}>
+                  //       <Image
+                  //         src="/assets/img/content/products/awards/gold_award.png"
+                  //         alt="IF Gold Award 2017"
+                  //         draggable={false}
+                  //         fill
+                  //         style={{ objectFit: 'contain' }}
+                  //       />
+                  //     </div>
+                  //   )
+                  // } else if (name === 'green good' || name === 'green-good' || name === 'green_good') {
+                  //   return (
+                  //     <div key={'image-' + index} className={styles.imageWrapper2}>
+                  //       <Image
+                  //         src="/assets/img/content/products/awards/good_design.png"
+                  //         alt="Good Design"
+                  //         draggable={false}
+                  //         width={56}
+                  //         height={56}
+                  //         style={{ objectFit: 'contain' }}
+                  //       />
+                  //     </div>
+                  //   )
+                  // } else if (name === 'reddot') {
+                  //   return (
+                  //     <div key={'image-' + index} className={styles.imageWrapper2}>
+                  //       <Image
+                  //         src="/assets/img/content/products/awards/reddot_winner.png"
+                  //         alt="Reddot Winner"
+                  //         draggable={false}
+                  //         width={70}
+                  //         height={56}
+                  //         style={{ objectFit: 'contain' }}
+                  //       />
+                  //     </div>
+                  //   )
+                  // } else if (name === 'reddot best' || name === 'reddot-best' || name === 'reddot_best') {
+                  //   return (
+                  //     <div key={'image-' + index} className={styles.imageWrapper2}>
+                  //       <Image
+                  //         src="/assets/img/content/products/awards/reddot_winner.png"
+                  //         alt="Reddot Winner"
+                  //         draggable={false}
+                  //         width={70}
+                  //         height={56}
+                  //         style={{ objectFit: 'contain' }}
+                  //       />
+                  //     </div>
+                  //   )
+                  // } else if (name === 'reddot 2017' || name === 'reddot-2017' || name === 'reddot_2017') {
+                  //   return (
+                  //     <div key={'image-' + index} className={styles.imageWrapper}>
+                  //       <Image
+                  //         src="/assets/img/content/products/awards/reddot_2017.png"
+                  //         alt="Reddot Award 2017"
+                  //         draggable={false}
+                  //         fill
+                  //         style={{ objectFit: 'contain' }}
+                  //       />
+                  //     </div>
+                  //   )
+                  // }
+                return (
+                  <div key={"image-" + index} className={styles.imageWrapper}>
+                      <a href={imageLink.link.href || '/'}>
+                      <Image
+                        src={imageLink.src}
+                        alt={imageLink.name}
+                        draggable={false}
+                        fill
+                        style={{ objectFit: "contain" }}
+                      />
+                      </a>      
+                  </div>         
+                  );
+                })}
               </div>
             </div>
           }

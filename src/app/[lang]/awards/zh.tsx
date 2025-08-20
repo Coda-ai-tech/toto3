@@ -1,7 +1,55 @@
 'use client';
+import Awards, {AwardList} from '@/app/components/Sections/Awards';
 import useScrollDirection, { ScrollUp } from '@/hook/useScrollDirection';
+import { ButtonLinkElement } from '@/types';
+import { useEffect, useState } from 'react';
+import { useParams } from 'next/navigation';
+
+interface AwardItem {
+  id: string;
+  image: string;
+  name: string;
+  description: string;
+  productHeader: string;
+  productsByYear: ProductsByYear[];
+}
+
+interface ProductsByYear {
+  year: string;
+  products: ProductItem[];
+}
+
+interface ProductItem {
+  image: string;
+  name: string | null;
+  alt: string;
+  link: ButtonLinkElement;
+}
+
+
+
 
 const Zh = () => {
+
+    const { lang } = useParams();
+    const [awards, setAwards] = useState<AwardItem[]>([]);
+  
+    const fetchData = async () => {
+      try {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${process.env.NEXT_PUBLIC_DEV_CMS_ENDPOINT_SUFFIX}/${lang}/awards`);
+        const awardDatas = await response.json();
+        setAwards(awardDatas.data);
+        console.log(awardDatas);
+      } catch (error) {
+        console.log('\x1b[36m%s\x1b[0m', `==== DATA NOT FOUND () ====`);
+        console.error('error', error);
+      }
+    };
+  
+    useEffect(() => {
+        fetchData();
+    }, []);
+    
   const scrollDirection = useScrollDirection();
 
   return (
@@ -15,17 +63,7 @@ const Zh = () => {
               <h1>
                 <a href='#body_inner'>DESIGN</a>
               </h1>
-              <ul>
-                <li>
-                  <a href='#iFDesign'>iF Design Award</a>
-                </li>
-                <li>
-                  <a href='#Reddot'>Red Dot Design Award</a>
-                </li>
-                <li>
-                  <a href='#Green'>Green Good Design Award</a>
-                </li>
-              </ul>
+              <AwardList data={awards} />
             </div>
           </section>
 
@@ -593,8 +631,9 @@ const Zh = () => {
                 </li>
               </ul>
             </section>
+            <Awards awards={awards} />
 
-            <section className='block03 ttl award_wrap'>
+            {/* <section className='block03 ttl award_wrap'>
               <p className='text10'>
                 Products created under the TOTO design philosophy have won prestigious international design awards.
               </p>
@@ -614,9 +653,9 @@ const Zh = () => {
                   <a href='#Green'>Green Good Design Award</a>
                 </li>
               </ul>
-            </section>
+            </section> */}
 
-            <section className='block04'>
+            {/* <section className='block04'>
               <article id='iFDesign' className='award_wrap'>
                 <h2>
                   <img src='/assets/global/award/img/if_logo.png' alt='iF Design Award' />
@@ -1229,7 +1268,7 @@ const Zh = () => {
                     </dl>
                   </div>
                 </div>
-              </article>
+              </article> */}
 
               {/* <article id="iFDesign_gold" className="award_wrap">
 						<h2><img src="/award/img/if_logo_gold.png" alt="iF Design Award" /></h2>
@@ -1246,7 +1285,7 @@ const Zh = () => {
 						</div>
 					</article> */}
 
-              <article id='Reddot' className='award_wrap'>
+              {/* <article id='Reddot' className='award_wrap'>
                 <h2>
                   <img src='/assets/global/award/img/rd_logo.png' alt='Reddot Design Award' />
                 </h2>
@@ -1347,14 +1386,14 @@ const Zh = () => {
                         <img src='/assets/global/award/img/202205/Stick_controler.png' alt='Stick controler' />
                       </dt>
                       <dd>Stick controler</dd>
-                    </dl>
+                    </dl> */}
 
                     {/* <dl>
 											<dt className="mb0"><img src="/award/img/202205/ONLY_Technology.png" alt="ONLY Technology PVD matte black" /></dt>
 											<dd className="caption_two">※Product Image</dd>
 											<dd>ONLY Technology<br/>"PVD matte black"</dd>
 										</dl> */}
-                  </div>
+                  {/* </div>
                 </div>
 
                 <div className='year'>
@@ -1910,7 +1949,7 @@ const Zh = () => {
                     </dl>
                   </div>
                 </div>
-              </article>
+              </article> */}
 
               {/* <article id="Reddot_bob" className="award_wrap">
 						<h2><img src="/award/img/rd_logo_bob_2023.png" alt="Reddot Design Award 2023"></h2>
@@ -1962,7 +2001,7 @@ const Zh = () => {
 
 					</article> */}
 
-              <article id='Green' className='award_wrap'>
+              {/* <article id='Green' className='award_wrap'>
                 <h2>
                   <img src='/assets/global/award/img/gg_logo.png' alt='Green Good Design Award' />
                 </h2>
@@ -2187,7 +2226,7 @@ const Zh = () => {
                 <br />
                 ・Products marked with * at the end are discontinued products.
               </p>
-            </section>
+            </section> */}
           </section>
 
           {/* <div className="pager"><ul id="pager"></ul></div> */}
