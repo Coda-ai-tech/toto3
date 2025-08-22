@@ -38,12 +38,23 @@ const En = () => {
       const response = await fetch(`${process.env.NEXT_PUBLIC_DEV_CMS_API_ENDPOINT}${process.env.NEXT_PUBLIC_DEV_CMS_ENDPOINT_SUFFIX}/${lang}/awards`);
       const awardDatas = await response.json();
       setAwards(awardDatas.data);
-      console.log(awardDatas);
     } catch (error) {
       console.log('\x1b[36m%s\x1b[0m', `==== DATA NOT FOUND () ====`);
       console.error('error', error);
     }
   };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const hash = window.location.hash;
+      if (hash) {
+        const el = document.querySelector(hash);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    }
+  }, [awards]);
 
   useEffect(() => {
       fetchData();

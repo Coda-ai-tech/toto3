@@ -45,6 +45,19 @@ const Zh = () => {
         console.error('error', error);
       }
     };
+
+    
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const hash = window.location.hash;
+      if (hash) {
+        const el = document.querySelector(hash);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    }
+  }, [awards]);
   
     useEffect(() => {
         fetchData();
