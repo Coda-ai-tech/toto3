@@ -827,6 +827,13 @@
         }
       },
       {
+        "label": "Warranty Information",
+        "link": {
+          "type": "routeLink",
+          "href": "/en/warranty-information"
+        }
+      },
+      {
         "label": "Web Accessibility",
         "link": {
           "type": "routeLink",
@@ -843,7 +850,7 @@
     },
     {
       "label": "Email",
-      "link": "mailto:hk.marketing@toto.com",
+      "link": "mailto:marketing.hk@toto.com",
       "icon": "/assets/img/sprites/emailSm.svg"
     },
     {

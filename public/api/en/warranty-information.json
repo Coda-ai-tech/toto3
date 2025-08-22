@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Warranty Information",
+    "description": "This is the official warranty information for TOTO products in Hong Kong and Macau, detailing terms, conditions, and limitations of the warranty.",
+    "keywords": "TOTO Hong Kong, TOTO Macau, warranty, product warranty, TOTO products, Hong Kong, Macau",
+    "ogImage": "/assets/img/og.jpg"
+  },
+  "breadcrumb": [
+    {
+      "label": "HOME",
+      "link": {
+        "type": "routeLink",
+        "href": "/en"
+      }
+    },
+    {
+      "label": "Warranty Information",
+      "link": {
+        "type": "routeLink",
+        "href": "/en/warranty-information"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": null,
+      "module": "RichContent",
+      "moduleOption": null,
+      "content": {
+        "title": "Warranty Information",
+        "content": "<h5>Warranty Coverage</h5><p>TOTO Hong Kong (“TOTO”) warrants its product (“Product”) to be free from defects in materials and workmanship during normal use when properly installed and serviced, for a period of one (1) year from the date of purchase (the date of purchase is determined by the date indicated on the receipt for the relevant product). This warranty applies only to TOTO Product is purchased and installed <span style=\"font-weight:bold;text-decoration: underline;\">in the Hong Kong Special Administrative Region (“Hong Kong”) or Macau Special Administrative Region (“Macau”).</span></p><br/><br/><h5>TOTO's Obligations</h5><p>TOTO's obligations under this warranty are limited to repair, replacement or other appropriate adjustment of the Product or parts found to be defective in normal use during the period of warranty, provided that such Product was properly installed, used and serviced in accordance with TOTO’s instructions. TOTO reserves the right to make such inspections as may be necessary in order to determine the cause of the defect. TOTO will not charge for labour or parts in connection with warranty repairs or replacements. Apart from the said costs for labour or parts in connection with warranty repairs or replacements, TOTO is not responsible for any other costs (including but not limited to the cost of removal, return and/or reinstallation of the Product).</p><br/><br/><h5>Warranty Conditions</h5><ol style=\"padding-left: 1em; padding-top: 1em;\"><li style=\"list-style-type: decimal;\">In order for this limited warranty to be valid, proof of purchase issued by an authorized local retailer is required. Without presenting a valid proof of purchase, this warranty shall not apply.</li><li style=\"list-style-type: decimal;\">This warranty applies only to TOTO Product that is purchased and installed in Hong Kong or Macau.</li><li style=\"list-style-type: decimal;\">This warranty does not apply to any of the following items:</li></ol><ul style=\"list-style-type: lower-alpha; padding-left: 3em; list-style-position: outside;\"><li>Damage or loss resulting from any accident, unreasonable use, misuse, abuse, negligence, improper care, maintenance of the Product, or modification of the Product.</li><li>Damage or loss resulting from improper installation or from the installation of the Product in a harsh and/or hazardous environment, or improper removal, repair or modification of the Product. This includes locations where the water pressure is above local codes or standards.</li><li>Damage or loss sustained in a natural calamity such as fire, earthquake, flood, thunder, electrical storm or other cases of force majeure, emissions, gas damage (including but not limited to corrosive gases such as hydrogen sulphide), damage caused by salt or abnormal voltage.</li><li>Damage or loss caused by bites from animals or insects such as mice or residues of dead animals or insects.</li><li>Damage or loss as a result of abnormal usage of product (including but not limited to prolonged use of Product, or attaching the Product in moving vehicles such as cars or ships).</li><li>Damage or loss or wear and tear of components (such as dry batteries) as a result of sedimentation or foreign bodies in the water system.</li><li>Damage or loss as a result of the water quality in the region in which the Product is used.</li><li>The fault was caused by the transportation or installation errors of the Product.</li><li>Damage or loss as a result of normal and customary wear and tear or improper daily maintenance, such as dirt, stains, rusting, discoloration, or poor drainage (including but not limited to the use of bleach, alkali, acid cleaners, dry (powder) cleaners or any other abrasive cleaners or the use of metal or nylon scrubbers on the Product).</li><li>The purchaser failed to provide a valid proof of purchase issued by an authorized local retailer.</li></ul><br/><br/><h5>Additional Terms</h5><p>TOTO reserves the right to modify the above terms and conditions at any time without prior notice.</p><br/><br/><p>If there is any inconsistency or ambiguity between the English version and the Chinese version, the English version shall prevail.</p>"
+      }
+    }
+  ]
+}
