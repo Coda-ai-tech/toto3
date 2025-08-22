@@ -77,6 +77,10 @@
   flex-direction: row;
   margin: 28px 10vw;
 
+  .galleryWrapper{
+    max-width: 500px ;
+  }
+
   .image {
     margin-right: 20px;
     min-width: 400px;

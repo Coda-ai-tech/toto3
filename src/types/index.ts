@@ -48,6 +48,7 @@ export enum ButtonAction {
   callback = 'callback',
   newWindow = 'newWindow',
   submit = 'submit',
+  modal = 'modal',
 }
 
 export interface ButtonLinkElement {

@@ -156,6 +156,22 @@ const Button = ({
           {icon && <ButtonIcon name={icon.name} />}
         </button>
       )}
+
+      {link.type === ButtonAction.modal && (
+        <button
+          className={`${styles.btn} ${styles[lang as string]} ${styles[size]} ${styles[color]} ${styles[variant]} ${
+            styles[shape]
+          } ${icon ? styles.hasIcon : ''} ${
+            icon?.position === ButtonIconPosition.left ? styles.iconLeft : styles.iconRight
+          } ${isDisabled ? styles.disabled : ''} ${className ? className : ''}`}
+    
+          aria-label={label}
+          tabIndex={isDisabled ? -1 : undefined}
+        >
+          {label && <span className={styles.btnLabel}>{label}</span>}
+          {icon && <ButtonIcon name={icon.name} />}
+        </button>
+      )}
     </>
   );
 };

@@ -17,6 +17,11 @@ import { TechnologyListItem, TechnologyItemData } from '../TechnologyList/Techno
 import { IconList } from '@/types/icons';
 import { useEffect, useState } from 'react';
 import { ProductCard } from '../ProductList';
+import { Lightbox } from "yet-another-react-lightbox";
+import Download from "yet-another-react-lightbox/plugins/download";
+import "yet-another-react-lightbox/styles.css";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 import productData from '../../../../../public/api/en/product-data.json';
 
 const ShareButton = dynamic(() => import('@@/ShareButton'), { ssr: false });
@@ -30,6 +35,7 @@ interface Product extends SectionTitle {
   subCategory: string[];
   description: string;
   images: string[];
+  gallery: string[];
   features: string[];
   specs: Specs;
   awardImages: Awards[];
@@ -89,8 +95,8 @@ const button = {
   }
 }
 
-const DownloadsCard = (data: { src: string }) => {
-  const { src } = data;
+const DownloadsCard = (data: { src: string, onClick: (() => void)}) => {
+  const { src, onClick } = data;
   const learnMoreCta: ButtonElement<IconList> = {
     label: 'Download',
     variant: ButtonVariation.contain,
@@ -101,7 +107,7 @@ const DownloadsCard = (data: { src: string }) => {
       position: ButtonIconPosition.left,
     },
     "link": {
-      "type": "routeLink",
+      "type": "modal",
       "href": src
     },
   };
@@ -118,8 +124,8 @@ const DownloadsCard = (data: { src: string }) => {
           {formattedExt}
         </div>
       </div>
-      <div className={styles.icon}>
-        <Button content={learnMoreCta} />
+      <div className={styles.icon} onClick={onClick}>
+        <Button content={learnMoreCta}  />
       </div>
     </div>
   );
@@ -138,6 +144,7 @@ const formatFileInfo = (filePath: string) => {
 
 const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
   const [hash, setHash] = useState('');
+  const [imageSrc, setImageSrc] = useState<string| null>();
   useEffect(() => {
     const updateHash = () => setHash(window.location.hash);
 
@@ -149,7 +156,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
   })
 
   const {
-    content: { id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName, relatedProduct, series, videos }
+    content: { id, category, subCategory, description, images, features, specs, awardImages, technologies, downloads, productName, relatedProduct, series, videos, gallery }
   } = data;
   return (
     <section className={`${styles.productDetails}`}>
@@ -186,7 +193,26 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
       </div>
       <div className={styles.productText}>
         <div className={styles.image}>
-          <Image src={images[0]} width={500} height={200} alt={`${id}`} draggable={false} />
+            {gallery && gallery.length > 0 ? (
+                <div className={styles.galleryWrapper}>
+                <ImageGallery
+                  items={gallery.map((img) => ({
+                    original: img,
+                    thumbnail: img,
+                  }))}
+                  showPlayButton={false}
+                  showFullscreenButton={false}    
+                />
+                </div>
+            ) : (
+              <Image
+                src={images[0]}
+                width={500}
+                height={200}
+                alt={`${id}`}
+                draggable={false}
+              />
+            )}
         </div>
         <div className={styles.innerText}>
           <div className={styles.productTextHeadings}>
@@ -408,7 +434,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             {downloads.map((download, index) => (
               console.log("ss", download),
               
-              <DownloadsCard key={'download-' + index} src={download} />
+              <DownloadsCard key={'download-' + index} src={download} onClick={()=>setImageSrc(download)}/>
             ))}
           </div>
         </div>
@@ -448,8 +474,18 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
           </div>
         </div>
       )}
-      
-    </section>
+      {imageSrc && (
+        <Lightbox
+          open={true}
+          close={() => setImageSrc(null)}
+          slides={[{ src: imageSrc, download: imageSrc }]}
+          plugins={[Download]}
+          carousel={{ finite: true }}
+          styles={{ root: { zIndex: 9999999 } }}
+          render={{ buttonPrev: () => null, buttonNext: () => null }}
+        />
+      )}
+       </section>
   );
 };
 
