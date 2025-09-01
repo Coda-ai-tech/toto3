@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "L5615E",
+    "title": "L5615ECE#XW",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "L5615E",
+      "label": "L5615ECE#XW",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/L5615E"
+        "href": "/en/product/L5615ECE-XW"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "L5615E",
-      "slug": "L5615E",
+      "modelNumber": "L5615ECE#XW",
+      "slug": "L5615ECE-XW",
       "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "L5615E",
+        "id": "L5615ECE#XW",
         "category": [
           "Lavatories"
         ],
@@ -48,7 +48,7 @@
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/L5615E/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L5615ECE-XW/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -69,7 +69,13 @@
             }
           ]
         },
-        "awardImages": [],
+        "awardImages": [
+          {
+            "name": "IF Design",
+            "year": "2018",
+            "src": "/assets/img/content/products/awards/good_design.png"
+          }
+        ],
         "technologies": [
           {
             "title": "CEFIONTECT",
@@ -83,7 +89,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/L5615E/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L5615ECE-XW/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],

@@ -67,7 +67,13 @@
             }
           ]
         },
-        "awardImages": [],
+        "awardImages": [
+          {
+            "name": "Reddot",
+            "year": "2021",
+            "src": "/assets/img/content/products/awards/redot_winner.png"
+          }
+        ],
         "technologies": [
           {
             "title": "AUTO FUNCTION",
