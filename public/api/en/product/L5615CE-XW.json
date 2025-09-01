@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "L5615ECE#XW",
+    "title": "L5615CE#XW",
     "description": "This is the official Hong Kong site for TOTO Ltd. Learn about TOTO’s group sites, corporate data, CSR activities, environmental initiatives and investor relations information.",
     "keywords": "TOTO Hong Kong, TOTO, toilet, Washlet, Japan, bidet, global, culture, faucet, bathtub",
     "ogImage": "/assets/img/og.jpg"
@@ -21,24 +21,24 @@
       }
     },
     {
-      "label": "L5615ECE#XW",
+      "label": "L5615CE#XW",
       "link": {
         "type": "routeLink",
-        "href": "/en/product/L5615ECE-XW"
+        "href": "/en/product/L5615CE-XW"
       }
     }
   ],
   "content": [
     {
       "id": null,
-      "modelNumber": "L5615ECE#XW",
-      "slug": "L5615ECE-XW",
+      "modelNumber": "L5615CE#XW",
+      "slug": "L5615CE-XW",
       "productName": "Console Lavatory",
       "isNew": "false",
       "module": "ProductDetails",
       "moduleOption": null,
       "content": {
-        "id": "L5615ECE#XW",
+        "id": "L5615CE#XW",
         "category": [
           "Lavatories"
         ],
@@ -48,7 +48,7 @@
         ],
         "description": "Console Lavatory",
         "images": [
-          "/assets/img/content/products/Lavatories/console-lavatory/L5615ECE-XW/content-image.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L5615CE-XW/content-image.png"
         ],
         "features": [],
         "specs": {
@@ -89,7 +89,7 @@
           }
         ],
         "downloads": [
-          "/assets/img/content/products/Lavatories/console-lavatory/L5615ECE-XW/drawing.png"
+          "/assets/img/content/products/Lavatories/console-lavatory/L5615CE-XW/drawing.png"
         ],
         "videos": [],
         "relatedProduct": [],
