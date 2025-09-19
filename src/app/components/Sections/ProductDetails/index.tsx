@@ -40,7 +40,7 @@ interface Product extends SectionTitle {
   specs: Specs;
   awardImages: Awards[];
   technologies: TechnologyItemData[];
-  downloads: string[];
+  downloads: DownloadItem[];
   productName: string;
   relatedProduct: ProductItem[];
   videos: VideoItem[];
@@ -84,6 +84,11 @@ interface VideoItem {
   video: string;
 }
 
+interface DownloadItem {
+  name: string;
+  url: string;
+}
+
 const button = {
   "label": "Learn More",
   "variant": "contain",
@@ -95,7 +100,7 @@ const button = {
   }
 }
 
-const DownloadsCard = (data: { src: string, onClick: (() => void)}) => {
+const DownloadsCard = (data: { src: DownloadItem, onClick: (() => void)}) => {
   const { src, onClick } = data;
   const learnMoreCta: ButtonElement<IconList> = {
     label: 'Download',
@@ -108,17 +113,17 @@ const DownloadsCard = (data: { src: string, onClick: (() => void)}) => {
     },
     "link": {
       "type": "modal",
-      "href": src
+      "href": src.url
     },
   };
 
-  const { formattedName, formattedExt } = formatFileInfo(src);
+  const { formattedName, formattedExt } = formatFileInfo(src.url);
 
   return (
     <div className={styles.downloadsCard}>
       <div className={styles.text}>
         <div className={styles.name}>
-          <b>{formattedName.replace(/-/g, ' ')}</b>
+          <b>{src.name.replace(/-/g, ' ')}</b>
         </div>
         <div className={styles.format}>
           {formattedExt}
@@ -434,7 +439,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             {downloads.map((download, index) => (
               console.log("ss", download),
               
-              <DownloadsCard key={'download-' + index} src={download} onClick={()=>setImageSrc(download)}/>
+              <DownloadsCard key={'download-' + index} src={download} onClick={()=>setImageSrc(download.url)}/>
             ))}
           </div>
         </div>
