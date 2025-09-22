@@ -278,7 +278,7 @@ const categoryList: CategoryItem[] = [
     },
     sub: [
       {
-        id: 'shower-mixer-2',
+        id: 'shower-mixer',
         label: {
           en: 'SHOWER MIXER',
           zh: 'SHOWER MIXER',
