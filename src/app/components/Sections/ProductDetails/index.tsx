@@ -87,6 +87,7 @@ interface VideoItem {
 interface DownloadItem {
   name: string;
   url: string;
+  downloadUrl:string;
 }
 
 const button = {
@@ -150,6 +151,7 @@ const formatFileInfo = (filePath: string) => {
 const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
   const [hash, setHash] = useState('');
   const [imageSrc, setImageSrc] = useState<string| null>();
+  const [dlSrc, setDlSrc] = useState<string| null>();
   useEffect(() => {
     const updateHash = () => setHash(window.location.hash);
 
@@ -439,7 +441,7 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
             {downloads.map((download, index) => (
               console.log("ss", download),
               
-              <DownloadsCard key={'download-' + index} src={download} onClick={()=>setImageSrc(download.url)}/>
+              <DownloadsCard key={'download-' + index} src={download} onClick={()=>{setImageSrc(download.url);setDlSrc(download.downloadUrl);}}/>
             ))}
           </div>
         </div>
@@ -479,11 +481,11 @@ const ProductDetails = ({ order, data }: ModuleData<Product, null>) => {
           </div>
         </div>
       )}
-      {imageSrc && (
+      {imageSrc && dlSrc && (
         <Lightbox
           open={true}
-          close={() => setImageSrc(null)}
-          slides={[{ src: imageSrc, download: imageSrc }]}
+          close={() =>{ setImageSrc(null);setDlSrc(null);}}
+          slides={[{ src: imageSrc, download: { url: dlSrc, filename: 'drawing.png' } }]}
           plugins={[Download]}
           carousel={{ finite: true }}
           styles={{ root: { zIndex: 9999999 } }}
