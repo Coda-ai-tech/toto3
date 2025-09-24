@@ -1,8 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
-
-const PRODUCTS_DIR = path.join(process.cwd(), 'public/api/en/product');
+import { supabaseAdmin } from '@/lib/supabase';
 
 // GET /api/cms/products/[id]
 export async function GET(
@@ -10,33 +7,24 @@ export async function GET(
   { params }: { params: { id: string } }
 ) {
   try {
-    const filePath = path.join(PRODUCTS_DIR, `${params.id}.json`);
-    
-    if (!fs.existsSync(filePath)) {
+    const { data, error } = await supabaseAdmin
+      .from('products')
+      .select(`
+        *,
+        product_categories (
+          category_id,
+          categories (name, slug)
+        )
+      `)
+      .eq('id', params.id)
+      .single();
+
+    if (error) {
+      console.error('Error fetching product:', error);
       return NextResponse.json({ error: 'Product not found' }, { status: 404 });
     }
 
-    const content = fs.readFileSync(filePath, 'utf8');
-    const productData = JSON.parse(content);
-    
-    if (productData.content && productData.content[0]) {
-      const product = productData.content[0].content;
-      return NextResponse.json({
-        id: product.id,
-        name: product.productName || product.id,
-        category: product.category || [],
-        subCategory: product.subCategory || [],
-        description: product.description || '',
-        images: product.images || [],
-        specs: product.specs || {},
-        features: product.features || [],
-        awardImages: product.awardImages || [],
-        technologies: product.technologies || [],
-        downloads: product.downloads || [],
-      });
-    }
-
-    return NextResponse.json({ error: 'Invalid product data' }, { status: 400 });
+    return NextResponse.json(data);
   } catch (error) {
     console.error('Error fetching product:', error);
     return NextResponse.json({ error: 'Failed to fetch product' }, { status: 500 });
@@ -51,53 +39,48 @@ export async function PUT(
   try {
     const productData = await request.json();
     
-    const filePath = path.join(PRODUCTS_DIR, `${params.id}.json`);
-    
-    if (!fs.existsSync(filePath)) {
-      return NextResponse.json({ error: 'Product not found' }, { status: 404 });
+    // Update product
+    const { data, error } = await supabaseAdmin
+      .from('products')
+      .update(productData)
+      .eq('id', params.id)
+      .select()
+      .single();
+
+    if (error) {
+      console.error('Error updating product:', error);
+      return NextResponse.json({ error: 'Failed to update product' }, { status: 500 });
     }
 
-    // Read existing file to preserve meta and breadcrumb
-    const existingContent = fs.readFileSync(filePath, 'utf8');
-    const existingData = JSON.parse(existingContent);
+    // Handle categories if provided
+    if (productData.categories) {
+      // Remove existing category links
+      await supabaseAdmin
+        .from('product_categories')
+        .delete()
+        .eq('product_id', params.id);
 
-    // Update the product data
-    const updatedProductFile = {
-      ...existingData,
-      meta: {
-        ...existingData.meta,
-        title: productData.id,
-        description: productData.description,
-      },
-      content: [
-        {
-          ...existingData.content[0],
-          modelNumber: productData.id,
-          slug: productData.id,
-          productName: productData.name,
-          content: {
-            id: productData.id,
-            category: productData.category,
-            subCategory: productData.subCategory,
-            description: productData.description,
-            images: productData.images,
-            features: productData.features,
-            specs: productData.specs,
-            awardImages: productData.awardImages,
-            technologies: productData.technologies,
-            downloads: productData.downloads,
-            videos: productData.videos || [],
-            relatedProduct: productData.relatedProduct || [],
-            compatibleProduct: productData.compatibleProduct || [],
-            remarks: productData.remarks || ""
-          }
+      // Add new category links
+      if (productData.categories.length > 0) {
+        const categoryInserts = productData.categories.map((categoryId: string) => ({
+          product_id: params.id,
+          category_id: categoryId
+        }));
+
+        const { error: categoryError } = await supabaseAdmin
+          .from('product_categories')
+          .insert(categoryInserts);
+
+        if (categoryError) {
+          console.error('Error linking categories:', categoryError);
         }
-      ]
-    };
+      }
+    }
 
-    fs.writeFileSync(filePath, JSON.stringify(updatedProductFile, null, 2));
-
-    return NextResponse.json({ success: true, id: productData.id });
+    return NextResponse.json({ 
+      message: 'Product updated successfully',
+      data
+    });
   } catch (error) {
     console.error('Error updating product:', error);
     return NextResponse.json({ error: 'Failed to update product' }, { status: 500 });
@@ -110,15 +93,18 @@ export async function DELETE(
   { params }: { params: { id: string } }
 ) {
   try {
-    const filePath = path.join(PRODUCTS_DIR, `${params.id}.json`);
-    
-    if (!fs.existsSync(filePath)) {
-      return NextResponse.json({ error: 'Product not found' }, { status: 404 });
+    // Delete product (cascades to product_categories)
+    const { error } = await supabaseAdmin
+      .from('products')
+      .delete()
+      .eq('id', params.id);
+
+    if (error) {
+      console.error('Error deleting product:', error);
+      return NextResponse.json({ error: 'Failed to delete product' }, { status: 500 });
     }
 
-    fs.unlinkSync(filePath);
-
-    return NextResponse.json({ success: true });
+    return NextResponse.json({ message: 'Product deleted successfully' });
   } catch (error) {
     console.error('Error deleting product:', error);
     return NextResponse.json({ error: 'Failed to delete product' }, { status: 500 });
