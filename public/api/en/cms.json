@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "CMS Dashboard",
-    "description": "TOTO CMS Dashboard for managing website content",
-    "keywords": "CMS, dashboard, admin, TOTO",
+    "description": "TOTO Content Management System",
+    "keywords": "TOTO, CMS, Content Management, Admin",
     "ogImage": "/assets/img/og.jpg"
   },
   "breadcrumb": [
@@ -27,8 +27,8 @@
       "module": "CMSDashboard",
       "moduleOption": null,
       "content": {
-        "title": "CMS Dashboard",
-        "description": "Manage your TOTO website content"
+        "title": "TOTO CMS Dashboard",
+        "description": "Manage your website content, products, and more"
       }
     }
   ]
