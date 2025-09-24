@@ -6,16 +6,15 @@ interface Banner {
   id: string;
   title: string;
   description: string;
-  image: {
-    desktop: string;
-    mobile: string;
-  };
-  link?: {
-    type: string;
-    href: string;
-  };
-  isActive: boolean;
-  order: number;
+  image_url: string;
+  link_url: string;
+  link_type: string;
+  is_active: boolean;
+  sort_order: number;
+  start_date?: string;
+  end_date?: string;
+  created_at: string;
+  updated_at: string;
 }
 
 const BannerManager = () => {
@@ -32,7 +31,7 @@ const BannerManager = () => {
     try {
       const response = await fetch('/api/cms/banners');
       const data = await response.json();
-      setBanners(data);
+      setBanners(data || []);
     } catch (error) {
       console.error('Error fetching banners:', error);
     } finally {
@@ -79,11 +78,6 @@ const BannerManager = () => {
     }
   };
 
-  const toggleActive = async (banner: Banner) => {
-    const updatedBanner = { ...banner, isActive: !banner.isActive };
-    await handleSave(updatedBanner);
-  };
-
   if (loading) {
     return <div className="cms-loading">Loading banners...</div>;
   }
@@ -102,19 +96,19 @@ const BannerManager = () => {
 
       <div className="banner-list">
         {banners.map((banner) => (
-          <div key={banner.id} className={`banner-card ${!banner.isActive ? 'inactive' : ''}`}>
-            <div className="banner-preview">
-              <img src={banner.image.desktop} alt={banner.title} />
+          <div key={banner.id} className="banner-card">
+            <div className="banner-image">
+              {banner.image_url && (
+                <img src={banner.image_url} alt={banner.title} />
+              )}
             </div>
             <div className="banner-info">
               <h3>{banner.title}</h3>
-              <p>{banner.description}</p>
-              <div className="banner-meta">
-                <span className={`status ${banner.isActive ? 'active' : 'inactive'}`}>
-                  {banner.isActive ? 'Active' : 'Inactive'}
-                </span>
-                <span className="order">Order: {banner.order}</span>
-              </div>
+              <p className="banner-description">{banner.description}</p>
+              <p className="banner-link">Link: {banner.link_url || 'No link'}</p>
+              <span className={`status ${banner.is_active ? 'active' : 'inactive'}`}>
+                {banner.is_active ? 'Active' : 'Inactive'}
+              </span>
             </div>
             <div className="banner-actions">
               <button 
@@ -122,12 +116,6 @@ const BannerManager = () => {
                 onClick={() => handleEdit(banner)}
               >
                 Edit
-              </button>
-              <button 
-                className={banner.isActive ? 'btn-warning' : 'btn-success'}
-                onClick={() => toggleActive(banner)}
-              >
-                {banner.isActive ? 'Deactivate' : 'Activate'}
               </button>
               <button 
                 className="btn-danger"
@@ -139,6 +127,13 @@ const BannerManager = () => {
           </div>
         ))}
       </div>
+
+      {banners.length === 0 && (
+        <div className="no-banners">
+          <h3>No banners found</h3>
+          <p>Create your first banner to get started.</p>
+        </div>
+      )}
 
       {showForm && (
         <BannerForm
@@ -163,12 +158,18 @@ const BannerManager = () => {
           margin-bottom: 2rem;
         }
 
-        .btn-primary, .btn-secondary, .btn-danger, .btn-warning, .btn-success {
+        .banner-header h2 {
+          margin: 0;
+          color: #333;
+        }
+
+        .btn-primary, .btn-secondary, .btn-danger {
           padding: 0.5rem 1rem;
           border: none;
           border-radius: 4px;
           cursor: pointer;
           transition: all 0.2s;
+          font-weight: 500;
         }
 
         .btn-primary {
@@ -186,16 +187,6 @@ const BannerManager = () => {
           color: white;
         }
 
-        .btn-warning {
-          background: #ffc107;
-          color: #212529;
-        }
-
-        .btn-success {
-          background: #28a745;
-          color: white;
-        }
-
         .btn-primary:hover {
           background: #0056b3;
         }
@@ -206,14 +197,6 @@ const BannerManager = () => {
 
         .btn-danger:hover {
           background: #c82333;
-        }
-
-        .btn-warning:hover {
-          background: #e0a800;
-        }
-
-        .btn-success:hover {
-          background: #218838;
         }
 
         .banner-list {
@@ -230,17 +213,13 @@ const BannerManager = () => {
           gap: 1rem;
         }
 
-        .banner-card.inactive {
-          opacity: 0.6;
-        }
-
-        .banner-preview {
-          width: 200px;
-          height: 120px;
+        .banner-image {
+          width: 120px;
+          height: 80px;
           flex-shrink: 0;
         }
 
-        .banner-preview img {
+        .banner-image img {
           width: 100%;
           height: 100%;
           object-fit: cover;
@@ -256,42 +235,49 @@ const BannerManager = () => {
           color: #333;
         }
 
-        .banner-info p {
+        .banner-description {
           color: #666;
-          margin: 0 0 1rem 0;
+          margin: 0 0 0.5rem 0;
         }
 
-        .banner-meta {
-          display: flex;
-          gap: 1rem;
+        .banner-link {
+          color: #666;
+          margin: 0 0 0.5rem 0;
+          font-size: 0.9rem;
         }
 
         .status {
           padding: 0.25rem 0.5rem;
-          border-radius: 4px;
-          font-size: 0.875rem;
-          font-weight: bold;
+          border-radius: 12px;
+          font-size: 0.8rem;
+          font-weight: 500;
         }
 
         .status.active {
-          background: #d4edda;
-          color: #155724;
+          background: #e8f5e8;
+          color: #2e7d32;
         }
 
         .status.inactive {
-          background: #f8d7da;
-          color: #721c24;
-        }
-
-        .order {
-          color: #666;
-          font-size: 0.875rem;
+          background: #ffebee;
+          color: #c62828;
         }
 
         .banner-actions {
           display: flex;
           flex-direction: column;
           gap: 0.5rem;
+        }
+
+        .no-banners {
+          text-align: center;
+          padding: 3rem;
+          color: #666;
+        }
+
+        .no-banners h3 {
+          margin: 0 0 1rem 0;
+          color: #333;
         }
 
         .cms-loading {
@@ -313,13 +299,15 @@ const BannerForm = ({ banner, onSave, onCancel }: {
     id: banner?.id || '',
     title: banner?.title || '',
     description: banner?.description || '',
-    image: {
-      desktop: banner?.image?.desktop || '',
-      mobile: banner?.image?.mobile || '',
-    },
-    link: banner?.link || undefined,
-    isActive: banner?.isActive ?? true,
-    order: banner?.order || 0,
+    image_url: banner?.image_url || '',
+    link_url: banner?.link_url || '',
+    link_type: banner?.link_type || 'routeLink',
+    is_active: banner?.is_active ?? true,
+    sort_order: banner?.sort_order || 0,
+    start_date: banner?.start_date || '',
+    end_date: banner?.end_date || '',
+    created_at: banner?.created_at || '',
+    updated_at: banner?.updated_at || '',
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -333,17 +321,7 @@ const BannerForm = ({ banner, onSave, onCancel }: {
         <h3>{banner ? 'Edit Banner' : 'Add New Banner'}</h3>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label>Banner ID:</label>
-            <input
-              type="text"
-              value={formData.id}
-              onChange={(e) => setFormData({...formData, id: e.target.value})}
-              required
-            />
-          </div>
-          
-          <div className="form-group">
-            <label>Title:</label>
+            <label>Title *</label>
             <input
               type="text"
               value={formData.title}
@@ -353,7 +331,7 @@ const BannerForm = ({ banner, onSave, onCancel }: {
           </div>
 
           <div className="form-group">
-            <label>Description:</label>
+            <label>Description</label>
             <textarea
               value={formData.description}
               onChange={(e) => setFormData({...formData, description: e.target.value})}
@@ -362,60 +340,43 @@ const BannerForm = ({ banner, onSave, onCancel }: {
           </div>
 
           <div className="form-group">
-            <label>Desktop Image URL:</label>
+            <label>Image URL</label>
             <input
               type="url"
-              value={formData.image.desktop}
-              onChange={(e) => setFormData({
-                ...formData, 
-                image: {...formData.image, desktop: e.target.value}
-              })}
-              required
+              value={formData.image_url}
+              onChange={(e) => setFormData({...formData, image_url: e.target.value})}
             />
           </div>
 
           <div className="form-group">
-            <label>Mobile Image URL:</label>
+            <label>Link URL</label>
             <input
               type="url"
-              value={formData.image.mobile}
-              onChange={(e) => setFormData({
-                ...formData, 
-                image: {...formData.image, mobile: e.target.value}
-              })}
+              value={formData.link_url}
+              onChange={(e) => setFormData({...formData, link_url: e.target.value})}
             />
           </div>
 
-          <div className="form-group">
-            <label>Link URL (optional):</label>
-            <input
-              type="url"
-              value={formData.link?.href || ''}
-              onChange={(e) => setFormData({
-                ...formData, 
-                link: e.target.value ? { type: 'routeLink', href: e.target.value } : undefined
-              })}
-            />
-          </div>
-
-          <div className="form-group">
-            <label>Order:</label>
-            <input
-              type="number"
-              value={formData.order}
-              onChange={(e) => setFormData({...formData, order: parseInt(e.target.value) || 0})}
-            />
-          </div>
-
-          <div className="form-group">
-            <label>
+          <div className="form-row">
+            <div className="form-group">
+              <label>Sort Order</label>
               <input
-                type="checkbox"
-                checked={formData.isActive}
-                onChange={(e) => setFormData({...formData, isActive: e.target.checked})}
+                type="number"
+                value={formData.sort_order}
+                onChange={(e) => setFormData({...formData, sort_order: parseInt(e.target.value) || 0})}
               />
-              Active
-            </label>
+            </div>
+
+            <div className="form-group">
+              <label>
+                <input
+                  type="checkbox"
+                  checked={formData.is_active}
+                  onChange={(e) => setFormData({...formData, is_active: e.target.checked})}
+                />
+                Active
+              </label>
+            </div>
           </div>
 
           <div className="form-actions">
@@ -453,6 +414,17 @@ const BannerForm = ({ banner, onSave, onCancel }: {
           overflow-y: auto;
         }
 
+        .banner-form h3 {
+          margin: 0 0 2rem 0;
+          color: #333;
+        }
+
+        .form-row {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+        }
+
         .form-group {
           margin-bottom: 1rem;
         }
@@ -461,14 +433,20 @@ const BannerForm = ({ banner, onSave, onCancel }: {
           display: block;
           margin-bottom: 0.5rem;
           font-weight: bold;
+          color: #333;
         }
 
         .form-group input,
         .form-group textarea {
           width: 100%;
-          padding: 0.5rem;
+          padding: 0.75rem;
           border: 1px solid #ddd;
           border-radius: 4px;
+          font-size: 0.9rem;
+        }
+
+        .form-group textarea {
+          resize: vertical;
         }
 
         .form-actions {
@@ -476,6 +454,14 @@ const BannerForm = ({ banner, onSave, onCancel }: {
           gap: 1rem;
           justify-content: flex-end;
           margin-top: 2rem;
+          padding-top: 1rem;
+          border-top: 1px solid #e0e0e0;
+        }
+
+        @media (max-width: 768px) {
+          .form-row {
+            grid-template-columns: 1fr;
+          }
         }
       `}</style>
     </div>
