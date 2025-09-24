@@ -15,6 +15,8 @@ interface Product {
   awardImages: string[];
   technologies: string[];
   downloads: string[];
+  thumb?: string;
+  link?: any;
 }
 
 const ProductManager = () => {
@@ -22,22 +24,31 @@ const ProductManager = () => {
   const [loading, setLoading] = useState(true);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [showForm, setShowForm] = useState(false);
-  const [showImport, setShowImport] = useState(false);
+  const [showImportModal, setShowImportModal] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState('all');
-  const [sortBy, setSortBy] = useState('name');
+  const [dataSource, setDataSource] = useState<'json' | 'supabase'>('json');
 
   useEffect(() => {
     fetchProducts();
-  }, []);
+  }, [dataSource]);
 
   const fetchProducts = async () => {
+    setLoading(true);
     try {
-      const response = await fetch('/api/cms/products');
-      const data = await response.json();
-      setProducts(data.data || data);
+      if (dataSource === 'json') {
+        // Load from existing JSON files
+        const response = await fetch('/api/en/product-data.json');
+        const data = await response.json();
+        setProducts(data.data || []);
+      } else {
+        // Load from Supabase
+        const response = await fetch('/api/cms/products');
+        const data = await response.json();
+        setProducts(data || []);
+      }
     } catch (error) {
       console.error('Error fetching products:', error);
+      setProducts([]);
     } finally {
       setLoading(false);
     }
@@ -51,9 +62,15 @@ const ProductManager = () => {
   const handleDelete = async (productId: string) => {
     if (confirm('Are you sure you want to delete this product?')) {
       try {
-        await fetch(`/api/cms/products/${productId}`, {
-          method: 'DELETE',
-        });
+        if (dataSource === 'supabase') {
+          await fetch(`/api/cms/products/${productId}`, {
+            method: 'DELETE',
+          });
+        } else {
+          // For JSON data, we can't delete directly - this would require file modification
+          alert('Cannot delete products from JSON data source. Switch to Supabase to enable deletion.');
+          return;
+        }
         fetchProducts();
       } catch (error) {
         console.error('Error deleting product:', error);
@@ -63,16 +80,22 @@ const ProductManager = () => {
 
   const handleSave = async (productData: Product) => {
     try {
-      const method = editingProduct ? 'PUT' : 'POST';
-      const url = editingProduct 
-        ? `/api/cms/products/${editingProduct.id}`
-        : '/api/cms/products';
+      if (dataSource === 'supabase') {
+        const method = editingProduct ? 'PUT' : 'POST';
+        const url = editingProduct 
+          ? `/api/cms/products/${editingProduct.id}`
+          : '/api/cms/products';
 
-      await fetch(url, {
-        method,
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(productData),
-      });
+        await fetch(url, {
+          method,
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(productData),
+        });
+      } else {
+        // For JSON data, we can't save directly - this would require file modification
+        alert('Cannot save products to JSON data source. Switch to Supabase to enable editing.');
+        return;
+      }
 
       setShowForm(false);
       setEditingProduct(null);
@@ -82,50 +105,10 @@ const ProductManager = () => {
     }
   };
 
-  const handleBulkDelete = async (productIds: string[]) => {
-    if (confirm(`Are you sure you want to delete ${productIds.length} products?`)) {
-      try {
-        await Promise.all(
-          productIds.map(id => 
-            fetch(`/api/cms/products/${id}`, { method: 'DELETE' })
-          )
-        );
-        fetchProducts();
-      } catch (error) {
-        console.error('Error deleting products:', error);
-      }
-    }
-  };
-
-  const getUniqueCategories = () => {
-    const categories = new Set<string>();
-    products.forEach(product => {
-      product.category.forEach(cat => categories.add(cat));
-    });
-    return Array.from(categories).sort();
-  };
-
-  const filteredProducts = products
-    .filter(product => {
-      const matchesSearch = product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                           product.id.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                           product.description.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchesCategory = selectedCategory === 'all' || 
-                             product.category.includes(selectedCategory);
-      return matchesSearch && matchesCategory;
-    })
-    .sort((a, b) => {
-      switch (sortBy) {
-        case 'name':
-          return a.name.localeCompare(b.name);
-        case 'id':
-          return a.id.localeCompare(b.id);
-        case 'category':
-          return a.category[0]?.localeCompare(b.category[0] || '') || 0;
-        default:
-          return 0;
-      }
-    });
+  const filteredProducts = products.filter(product =>
+    product.name?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    product.id.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   if (loading) {
     return <div className="cms-loading">Loading products...</div>;
@@ -136,108 +119,104 @@ const ProductManager = () => {
       <div className="product-header">
         <h2>Product Management</h2>
         <div className="product-actions">
-          <div className="search-filters">
-            <input
-              type="text"
-              placeholder="Search products..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="product-search"
-            />
-            <select
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-              className="category-filter"
-            >
-              <option value="all">All Categories</option>
-              {getUniqueCategories().map(category => (
-                <option key={category} value={category}>
-                  {category.charAt(0).toUpperCase() + category.slice(1)}
-                </option>
-              ))}
-            </select>
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-              className="sort-filter"
-            >
-              <option value="name">Sort by Name</option>
-              <option value="id">Sort by ID</option>
-              <option value="category">Sort by Category</option>
-            </select>
+          <div className="data-source-selector">
+            <label>
+              <input
+                type="radio"
+                name="dataSource"
+                value="json"
+                checked={dataSource === 'json'}
+                onChange={(e) => setDataSource(e.target.value as 'json' | 'supabase')}
+              />
+              JSON Files (Read-only)
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="dataSource"
+                value="supabase"
+                checked={dataSource === 'supabase'}
+                onChange={(e) => setDataSource(e.target.value as 'json' | 'supabase')}
+              />
+              Supabase Database
+            </label>
           </div>
-          <div className="action-buttons">
+          <input
+            type="text"
+            placeholder="Search products..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="product-search"
+          />
+          <button 
+            className="btn-secondary"
+            onClick={() => setShowImportModal(true)}
+          >
+            Import Products
+          </button>
+          {dataSource === 'supabase' && (
             <button 
               className="btn-primary"
               onClick={() => setShowForm(true)}
             >
               Add New Product
             </button>
-            <button 
-              className="btn-secondary"
-              onClick={() => setShowImport(true)}
-            >
-              Import Products
-            </button>
-          </div>
+          )}
         </div>
       </div>
 
-      <div className="product-stats">
-        <div className="stat-card">
-          <h3>Total Products</h3>
-          <p>{products.length}</p>
-        </div>
-        <div className="stat-card">
-          <h3>Filtered Results</h3>
-          <p>{filteredProducts.length}</p>
-        </div>
-        <div className="stat-card">
-          <h3>Categories</h3>
-          <p>{getUniqueCategories().length}</p>
-        </div>
+      <div className="data-source-info">
+        {dataSource === 'json' ? (
+          <div className="info-box">
+            <strong>📁 JSON Data Source:</strong> Viewing existing website products from JSON files. 
+            To edit products, switch to Supabase database and import your data.
+          </div>
+        ) : (
+          <div className="info-box">
+            <strong>🗄️ Supabase Database:</strong> Managing products in the database. 
+            You can add, edit, and delete products here.
+          </div>
+        )}
       </div>
 
       <div className="product-list">
         {filteredProducts.map((product) => (
           <div key={product.id} className="product-card">
             <div className="product-image">
-              {product.images[0] && (
-                <img src={product.images[0]} alt={product.name} />
+              {product.thumb && (
+                <img src={product.thumb} alt={product.name || product.id} />
               )}
             </div>
             <div className="product-info">
-              <h3>{product.name}</h3>
+              <h3>{product.name || product.id}</h3>
               <p className="product-id">ID: {product.id}</p>
               <p className="product-category">
-                Category: {product.category.join(', ')}
+                Category: {product.category?.join(', ') || 'N/A'}
               </p>
-              {product.subCategory.length > 0 && (
-                <p className="product-subcategory">
-                  Subcategory: {product.subCategory.join(', ')}
-                </p>
-              )}
-              <p className="product-description">{product.description}</p>
-              {product.features.length > 0 && (
-                <div className="product-features">
-                  <strong>Features:</strong> {product.features.slice(0, 3).join(', ')}
-                  {product.features.length > 3 && ` +${product.features.length - 3} more`}
-                </div>
-              )}
+              <p className="product-description">
+                {product.description || 'No description available'}
+              </p>
             </div>
             <div className="product-actions">
-              <button 
-                className="btn-secondary"
-                onClick={() => handleEdit(product)}
-              >
-                Edit
-              </button>
-              <button 
-                className="btn-danger"
-                onClick={() => handleDelete(product.id)}
-              >
-                Delete
-              </button>
+              {dataSource === 'supabase' && (
+                <>
+                  <button 
+                    className="btn-secondary"
+                    onClick={() => handleEdit(product)}
+                  >
+                    Edit
+                  </button>
+                  <button 
+                    className="btn-danger"
+                    onClick={() => handleDelete(product.id)}
+                  >
+                    Delete
+                  </button>
+                </>
+              )}
+              {dataSource === 'json' && (
+                <span className="read-only-badge">Read-only</span>
+              )}
             </div>
           </div>
         ))}
@@ -246,11 +225,24 @@ const ProductManager = () => {
       {filteredProducts.length === 0 && (
         <div className="no-products">
           <h3>No products found</h3>
-          <p>Try adjusting your search criteria or add some products.</p>
+          <p>
+            {dataSource === 'json' 
+              ? 'No products found in JSON files.' 
+              : 'No products found in Supabase database. Import some products to get started!'
+            }
+          </p>
+          {dataSource === 'supabase' && (
+            <button 
+              className="btn-primary"
+              onClick={() => setShowImportModal(true)}
+            >
+              Import Products
+            </button>
+          )}
         </div>
       )}
 
-      {showForm && (
+      {showForm && dataSource === 'supabase' && (
         <ProductForm
           product={editingProduct}
           onSave={handleSave}
@@ -261,24 +253,18 @@ const ProductManager = () => {
         />
       )}
 
-      {showImport && (
-        <div className="import-modal">
-          <div className="import-modal-content">
-            <div className="import-modal-header">
-              <h3>Import Products</h3>
-              <button 
-                className="close-btn"
-                onClick={() => setShowImport(false)}
-              >
-                ×
-              </button>
-            </div>
-            <ProductImport onImportComplete={() => {
-              setShowImport(false);
+      {showImportModal && (
+        <ProductImport
+          onClose={() => setShowImportModal(false)}
+          onImportSuccess={() => {
+            setShowImportModal(false);
+            if (dataSource === 'supabase') {
               fetchProducts();
-            }} />
-          </div>
-        </div>
+            } else {
+              setDataSource('supabase');
+            }
+          }}
+        />
       )}
 
       <style jsx>{`
@@ -287,44 +273,51 @@ const ProductManager = () => {
         }
 
         .product-header {
-          margin-bottom: 2rem;
-        }
-
-        .product-header h2 {
-          margin: 0 0 1rem 0;
-          color: #333;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 1rem;
+          flex-wrap: wrap;
+          gap: 1rem;
         }
 
         .product-actions {
           display: flex;
-          justify-content: space-between;
-          align-items: center;
           gap: 1rem;
+          align-items: center;
           flex-wrap: wrap;
         }
 
-        .search-filters {
+        .data-source-selector {
           display: flex;
           gap: 1rem;
-          align-items: center;
-          flex-wrap: wrap;
+          margin-right: 1rem;
         }
 
-        .product-search, .category-filter, .sort-filter {
-          padding: 0.5rem;
-          border: 1px solid #ddd;
-          border-radius: 4px;
+        .data-source-selector label {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
           font-size: 0.9rem;
         }
 
-        .product-search {
-          width: 300px;
-          min-width: 200px;
+        .data-source-info {
+          margin-bottom: 1rem;
         }
 
-        .action-buttons {
-          display: flex;
-          gap: 1rem;
+        .info-box {
+          background: #e3f2fd;
+          border: 1px solid #2196f3;
+          border-radius: 4px;
+          padding: 1rem;
+          color: #1976d2;
+        }
+
+        .product-search {
+          padding: 0.5rem;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          width: 300px;
         }
 
         .btn-primary, .btn-secondary, .btn-danger {
@@ -333,7 +326,6 @@ const ProductManager = () => {
           border-radius: 4px;
           cursor: pointer;
           transition: all 0.2s;
-          font-weight: 500;
         }
 
         .btn-primary {
@@ -363,36 +355,6 @@ const ProductManager = () => {
           background: #c82333;
         }
 
-        .product-stats {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-          gap: 1rem;
-          margin-bottom: 2rem;
-        }
-
-        .stat-card {
-          background: #f8f9fa;
-          padding: 1.5rem;
-          border-radius: 8px;
-          border: 1px solid #e0e0e0;
-          text-align: center;
-        }
-
-        .stat-card h3 {
-          margin: 0 0 0.5rem 0;
-          color: #333;
-          font-size: 0.9rem;
-          text-transform: uppercase;
-          letter-spacing: 0.5px;
-        }
-
-        .stat-card p {
-          margin: 0;
-          font-size: 2rem;
-          font-weight: bold;
-          color: #007bff;
-        }
-
         .product-list {
           display: grid;
           gap: 1rem;
@@ -405,17 +367,17 @@ const ProductManager = () => {
           border-radius: 8px;
           padding: 1rem;
           gap: 1rem;
-          transition: all 0.2s;
-        }
-
-        .product-card:hover {
-          box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
         .product-image {
-          width: 120px;
-          height: 120px;
+          width: 100px;
+          height: 100px;
           flex-shrink: 0;
+          background: #f0f0f0;
+          border-radius: 4px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
 
         .product-image img {
@@ -432,31 +394,21 @@ const ProductManager = () => {
         .product-info h3 {
           margin: 0 0 0.5rem 0;
           color: #333;
-          font-size: 1.1rem;
         }
 
         .product-id {
           font-family: monospace;
           color: #666;
           margin: 0 0 0.25rem 0;
-          font-size: 0.9rem;
         }
 
-        .product-category, .product-subcategory {
+        .product-category {
           color: #666;
-          margin: 0 0 0.25rem 0;
-          font-size: 0.9rem;
+          margin: 0 0 0.5rem 0;
         }
 
         .product-description {
           color: #666;
-          margin: 0 0 0.5rem 0;
-          font-size: 0.9rem;
-        }
-
-        .product-features {
-          color: #666;
-          font-size: 0.85rem;
           margin: 0;
         }
 
@@ -464,101 +416,39 @@ const ProductManager = () => {
           display: flex;
           flex-direction: column;
           gap: 0.5rem;
-          align-self: flex-start;
+        }
+
+        .read-only-badge {
+          background: #ffc107;
+          color: #856404;
+          padding: 0.25rem 0.5rem;
+          border-radius: 4px;
+          font-size: 0.8rem;
+          text-align: center;
         }
 
         .no-products {
           text-align: center;
           padding: 3rem;
-          color: #666;
+          background: #f8f9fa;
+          border-radius: 8px;
+          border: 2px dashed #dee2e6;
         }
 
         .no-products h3 {
-          margin: 0 0 1rem 0;
-          color: #333;
+          color: #6c757d;
+          margin-bottom: 1rem;
         }
 
-        .import-modal {
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: rgba(0,0,0,0.5);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          z-index: 1000;
-        }
-
-        .import-modal-content {
-          background: white;
-          border-radius: 8px;
-          width: 90%;
-          max-width: 1200px;
-          max-height: 90vh;
-          overflow-y: auto;
-        }
-
-        .import-modal-header {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 1rem 1.5rem;
-          border-bottom: 1px solid #e0e0e0;
-        }
-
-        .import-modal-header h3 {
-          margin: 0;
-          color: #333;
-        }
-
-        .close-btn {
-          background: none;
-          border: none;
-          font-size: 1.5rem;
-          cursor: pointer;
-          color: #666;
-          padding: 0;
-          width: 30px;
-          height: 30px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .close-btn:hover {
-          color: #333;
+        .no-products p {
+          color: #6c757d;
+          margin-bottom: 1rem;
         }
 
         .cms-loading {
           text-align: center;
           padding: 2rem;
           color: #666;
-        }
-
-        @media (max-width: 768px) {
-          .product-actions {
-            flex-direction: column;
-            align-items: stretch;
-          }
-
-          .search-filters {
-            flex-direction: column;
-          }
-
-          .product-search {
-            width: 100%;
-          }
-
-          .product-card {
-            flex-direction: column;
-          }
-
-          .product-image {
-            width: 100%;
-            height: 200px;
-          }
         }
       `}</style>
     </div>
@@ -594,30 +484,28 @@ const ProductForm = ({ product, onSave, onCancel }: {
       <div className="product-form">
         <h3>{product ? 'Edit Product' : 'Add New Product'}</h3>
         <form onSubmit={handleSubmit}>
-          <div className="form-row">
-            <div className="form-group">
-              <label>Product ID *</label>
-              <input
-                type="text"
-                value={formData.id}
-                onChange={(e) => setFormData({...formData, id: e.target.value})}
-                required
-              />
-            </div>
-            
-            <div className="form-group">
-              <label>Product Name *</label>
-              <input
-                type="text"
-                value={formData.name}
-                onChange={(e) => setFormData({...formData, name: e.target.value})}
-                required
-              />
-            </div>
+          <div className="form-group">
+            <label>Product ID:</label>
+            <input
+              type="text"
+              value={formData.id}
+              onChange={(e) => setFormData({...formData, id: e.target.value})}
+              required
+            />
+          </div>
+          
+          <div className="form-group">
+            <label>Product Name:</label>
+            <input
+              type="text"
+              value={formData.name}
+              onChange={(e) => setFormData({...formData, name: e.target.value})}
+              required
+            />
           </div>
 
           <div className="form-group">
-            <label>Description</label>
+            <label>Description:</label>
             <textarea
               value={formData.description}
               onChange={(e) => setFormData({...formData, description: e.target.value})}
@@ -625,57 +513,15 @@ const ProductForm = ({ product, onSave, onCancel }: {
             />
           </div>
 
-          <div className="form-row">
-            <div className="form-group">
-              <label>Categories (comma-separated)</label>
-              <input
-                type="text"
-                value={formData.category.join(', ')}
-                onChange={(e) => setFormData({
-                  ...formData, 
-                  category: e.target.value.split(',').map(c => c.trim()).filter(c => c)
-                })}
-                placeholder="e.g., neorest, commercial"
-              />
-            </div>
-
-            <div className="form-group">
-              <label>Subcategories (comma-separated)</label>
-              <input
-                type="text"
-                value={formData.subCategory.join(', ')}
-                onChange={(e) => setFormData({
-                  ...formData, 
-                  subCategory: e.target.value.split(',').map(c => c.trim()).filter(c => c)
-                })}
-                placeholder="e.g., toilet-and-urinal, urinal-partition"
-              />
-            </div>
-          </div>
-
           <div className="form-group">
-            <label>Features (comma-separated)</label>
+            <label>Categories (comma-separated):</label>
             <input
               type="text"
-              value={formData.features.join(', ')}
+              value={formData.category.join(', ')}
               onChange={(e) => setFormData({
                 ...formData, 
-                features: e.target.value.split(',').map(f => f.trim()).filter(f => f)
+                category: e.target.value.split(',').map(c => c.trim()).filter(c => c)
               })}
-              placeholder="e.g., Stainless steel construction, Easy installation"
-            />
-          </div>
-
-          <div className="form-group">
-            <label>Images (comma-separated URLs)</label>
-            <input
-              type="text"
-              value={formData.images.join(', ')}
-              onChange={(e) => setFormData({
-                ...formData, 
-                images: e.target.value.split(',').map(img => img.trim()).filter(img => img)
-              })}
-              placeholder="e.g., /assets/img/product1.jpg, /assets/img/product2.jpg"
             />
           </div>
 
@@ -709,20 +555,9 @@ const ProductForm = ({ product, onSave, onCancel }: {
           padding: 2rem;
           border-radius: 8px;
           width: 90%;
-          max-width: 800px;
+          max-width: 600px;
           max-height: 90vh;
           overflow-y: auto;
-        }
-
-        .product-form h3 {
-          margin: 0 0 2rem 0;
-          color: #333;
-        }
-
-        .form-row {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 1rem;
         }
 
         .form-group {
@@ -733,20 +568,14 @@ const ProductForm = ({ product, onSave, onCancel }: {
           display: block;
           margin-bottom: 0.5rem;
           font-weight: bold;
-          color: #333;
         }
 
         .form-group input,
         .form-group textarea {
           width: 100%;
-          padding: 0.75rem;
+          padding: 0.5rem;
           border: 1px solid #ddd;
           border-radius: 4px;
-          font-size: 0.9rem;
-        }
-
-        .form-group textarea {
-          resize: vertical;
         }
 
         .form-actions {
@@ -754,14 +583,6 @@ const ProductForm = ({ product, onSave, onCancel }: {
           gap: 1rem;
           justify-content: flex-end;
           margin-top: 2rem;
-          padding-top: 1rem;
-          border-top: 1px solid #e0e0e0;
-        }
-
-        @media (max-width: 768px) {
-          .form-row {
-            grid-template-columns: 1fr;
-          }
         }
       `}</style>
     </div>
