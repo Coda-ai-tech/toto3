@@ -18,6 +18,7 @@ import NewsList from '~/NewsList'
 import NewsDetail from '~/NewsDetail'
 import ProductList from '~/ProductList';
 import ProductDetails from '@/app/components/Sections/ProductDetails';
+import CMSDashboard from '@/app/components/Sections/CMSDashboard';
 
 export const ModuleList: Record<string, any> = {
   SandBox,
@@ -39,5 +40,6 @@ export const ModuleList: Record<string, any> = {
   NewsList,
   NewsDetail,
   ProductList,
-  ProductDetails
+  ProductDetails,
+  CMSDashboard
 };
