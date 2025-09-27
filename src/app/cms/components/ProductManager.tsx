@@ -39,12 +39,14 @@ const ProductManager = () => {
         // Load from existing JSON files
         const response = await fetch('/api/en/product-data.json');
         const data = await response.json();
-        setProducts(data.data || []);
+        // Ensure we have an array
+        setProducts(Array.isArray(data.data) ? data.data : []);
       } else {
         // Load from Supabase
         const response = await fetch('/api/cms/products');
         const data = await response.json();
-        setProducts(data || []);
+        // Ensure we have an array
+        setProducts(Array.isArray(data) ? data : []);
       }
     } catch (error) {
       console.error('Error fetching products:', error);
@@ -105,7 +107,28 @@ const ProductManager = () => {
     }
   };
 
-  const filteredProducts = products.filter(product =>
+  // Remove duplicates and ensure unique keys
+  const getUniqueProducts = (products: Product[]) => {
+    // Ensure products is an array
+    if (!Array.isArray(products)) {
+      console.warn('Products is not an array:', products);
+      return [];
+    }
+    
+    const seen = new Set();
+    return products.filter(product => {
+      if (seen.has(product.id)) {
+        return false;
+      }
+      seen.add(product.id);
+      return true;
+    });
+  };
+
+  // Ensure products is always an array
+  const safeProducts = Array.isArray(products) ? products : [];
+  const uniqueProducts = getUniqueProducts(safeProducts);
+  const filteredProducts = uniqueProducts.filter(product =>
     product.name?.toLowerCase().includes(searchTerm.toLowerCase()) ||
     product.id.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -170,18 +193,28 @@ const ProductManager = () => {
           <div className="info-box">
             <strong>📁 JSON Data Source:</strong> Viewing existing website products from JSON files. 
             To edit products, switch to Supabase database and import your data.
+            {safeProducts.length !== uniqueProducts.length && (
+              <div className="duplicate-warning">
+                ⚠️ Found {safeProducts.length - uniqueProducts.length} duplicate products (removed for display)
+              </div>
+            )}
           </div>
         ) : (
           <div className="info-box">
             <strong>🗄️ Supabase Database:</strong> Managing products in the database. 
             You can add, edit, and delete products here.
+            {safeProducts.length !== uniqueProducts.length && (
+              <div className="duplicate-warning">
+                ⚠️ Found {safeProducts.length - uniqueProducts.length} duplicate products (removed for display)
+              </div>
+            )}
           </div>
         )}
       </div>
 
       <div className="product-list">
-        {filteredProducts.map((product) => (
-          <div key={product.id} className="product-card">
+        {filteredProducts.map((product, index) => (
+          <div key={`${product.id}-${index}`} className="product-card">
             <div className="product-image">
               {product.thumb && (
                 <img src={product.thumb} alt={product.name || product.id} />
@@ -311,6 +344,16 @@ const ProductManager = () => {
           border-radius: 4px;
           padding: 1rem;
           color: #1976d2;
+        }
+
+        .duplicate-warning {
+          background: #fff3cd;
+          border: 1px solid #ffeaa7;
+          border-radius: 4px;
+          padding: 0.5rem;
+          margin-top: 0.5rem;
+          color: #856404;
+          font-size: 0.9rem;
         }
 
         .product-search {
